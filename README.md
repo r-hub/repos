@@ -5,8 +5,8 @@ These repositories are **experimental**.
 
 ## Can use PPPM:
 
-* [ ] `ubuntu-next` (CRAN's `r-patched-linux-x86_64`)
-* [ ] `ubuntu-release` (CRAN's `r-release-linux-x86_64`)
+* [x] `ubuntu-next` (CRAN's `r-patched-linux-x86_64`)
+* [x] `ubuntu-release` (CRAN's `r-release-linux-x86_64`)
 
 ## `ubuntu-22.04-R4.4`
 
