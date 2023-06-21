@@ -31,7 +31,7 @@ runs:
       if (is.null(conf$source)) conf$source <- "https://cran.r-project.org"
       pkgdepends:::ghrepo$update(
         "${{ github.repository }}",
-        "${{ $inputs.directory }}",
+        "${{ inputs.directory }}",
         release_org = conf$release_org,
         source_repo = conf$source,
         packages = conf$packages
