@@ -1,0 +1,41 @@
+name: 'update-repo'
+description: |
+  Update a CRAN-like repository, where packages are stored as GitHub
+  release assets.
+
+inputs:
+  directory:
+    default: "."
+    description: |
+      Directory of the repository.
+  token:
+    description: |
+      GitHub access token for the deployment.
+
+runs:
+  using: "composite"
+  steps:
+  - uses: r-lib/actions/setup-r-dependencies@v2
+    with:
+      packages: r-lib/pkgdepends@feature/builder, gh, pkgsearch, withr, yaml
+      pak-version: devel
+
+  - name: Update repo
+    run: |
+      setwd("${{ inputs.directory }}")
+      conf <- yaml::read_yaml("config.yaml")
+      if (is.null(conf$packages)) {
+        stop("`packages` missing or empty in `config.yaml`.")
+      }
+      if (is.null(conf$release_org)) conf$release_org <- "cran"
+      if (is.null(conf$source)) conf$source <- "https://cran.r-project.org"
+      pkgdepends:::ghrepo$update(
+        "${{ github.repository }}",
+        "${{ $inputs.directory }}",
+        release_org = conf$release_org,
+        source_repo = conf$source,
+        packages = conf$packages
+      )
+    shell: Rscript {0}
+    env:
+      GITHUB_PAT: ${{ inputs.token }}
