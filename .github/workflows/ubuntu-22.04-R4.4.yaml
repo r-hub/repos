@@ -2,6 +2,8 @@
 name: Ubuntu 22.04, R 4.4
 on:
   workflow_dispatch:
+  schedule:
+    - cron:  '23 16 * * *'
 
 jobs:
   update:
