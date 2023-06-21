@@ -2189,3 +2189,530 @@ File: rgl_1.1.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: waldo
+
+Package: backports
+Version: 1.4.1
+Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
+License: GPL-2 | GPL-3
+DownloadURL: https://github.com/cran/backports/releases/download/1.4.1/backports_1.4.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:36:55 UTC; unix
+Filesize: 99963
+SHA256: d5289b4a048d2a54cbad690c5bfb924d81fdcdc2023901962e5b51f3d40c6179
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: backports_1.4.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: bit
+Version: 4.0.5
+Depends: R (>= 2.9.2), R (>= 4.4), R (< 4.4.99)
+Suggests: testthat (>= 0.11.0), roxygen2, knitr, rmarkdown, microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)
+License: GPL-2 | GPL-3
+DownloadURL: https://github.com/cran/bit/releases/download/4.0.5/bit_4.0.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:36:55 UTC; unix
+Filesize: 1251263
+SHA256: 7924f29622e46b2bcce1bb2af61ba3f39f1fb54a933014f8984622e97f0fa6b0
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: bit_4.0.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: bit64
+Version: 4.0.5
+Depends: R (>= 3.0.1), bit (>= 4.0.0), utils, methods, stats, R (>= 4.4), R (< 4.4.99)
+License: GPL-2 | GPL-3
+DownloadURL: https://github.com/cran/bit64/releases/download/4.0.5/bit64_4.0.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:38:06 UTC; unix
+Filesize: 578074
+SHA256: 5d8ca681a0284c2429551e45dc6a0b1e88c494551e02ce4cfe6f4508e3180ea4
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: bit64_4.0.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: blob
+Version: 1.2.4
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: methods, rlang, vctrs (>= 0.2.1)
+Suggests: covr, crayon, pillar (>= 1.2.1), testthat
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/blob/releases/download/1.2.4/blob_1.2.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-06-21 09:37:09 UTC; unix
+Filesize: 46539
+SHA256: e6453acf42f95dcc378d117a9d03325e7dd75b469da118b80283cb628e72f761
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: blob_1.2.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: broom
+Version: 1.0.5
+Depends: R (>= 3.5), R (>= 4.4), R (< 4.4.99)
+Imports: backports, dplyr (>= 1.0.0), ellipsis, generics (>= 0.0.2), glue, lifecycle, purrr, rlang, stringr, tibble (>= 3.0.0), tidyr (>= 1.0.0)
+Suggests: AER, AUC, bbmle, betareg, biglm, binGroup, boot, btergm (>= 1.10.6), car, carData, caret, cluster, cmprsk, coda, covr, drc, e1071, emmeans, epiR, ergm (>= 3.10.4), fixest (>= 0.9.0), gam
+        (>= 1.15), gee, geepack, ggplot2, glmnet, glmnetUtils, gmm, Hmisc, irlba, interp, joineRML, Kendall, knitr, ks, Lahman, lavaan, leaps, lfe, lm.beta, lme4, lmodel2, lmtest (>= 0.9.38),
+        lsmeans, maps, margins, MASS, mclust, mediation, metafor, mfx, mgcv, mlogit, modeldata, modeltests, muhaz, multcomp, network, nnet, orcutt (>= 2.2), ordinal, plm, poLCA, psych, quantreg,
+        rmarkdown, robust, robustbase, rsample, sandwich, sp, spdep (>= 1.1), spatialreg, speedglm, spelling, survey, survival, systemfit, testthat (>= 2.1.0), tseries, vars, zoo
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/broom/releases/download/1.0.5/broom_1.0.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-06-21 09:38:06 UTC; unix
+Filesize: 1856237
+SHA256: 4af1da00526292c565a913868b4c392e5e9a2d473d1f12067dcd1a76ad464c60
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: broom_1.0.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: cellranger
+Version: 1.1.0
+Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
+Imports: rematch, tibble
+Suggests: covr, testthat (>= 1.0.0), knitr, rmarkdown
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/cellranger/releases/download/1.1.0/cellranger_1.1.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-06-21 09:38:23 UTC; unix
+Filesize: 101424
+SHA256: b1cc28a42fb76166cceb6eea71a292aa7f36edf27b83d8915a5da8976753c59e
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: cellranger_1.1.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: conflicted
+Version: 1.2.0
+Depends: R (>= 3.2), R (>= 4.4), R (< 4.4.99)
+Imports: cli (>= 3.4.0), memoise, rlang (>= 1.0.0)
+Suggests: callr, covr, dplyr, Matrix, methods, pkgload, testthat (>= 3.0.0), withr
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/conflicted/releases/download/1.2.0/conflicted_1.2.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-06-21 09:37:57 UTC; unix
+Filesize: 55263
+SHA256: 745915d2c6390c5fc4b0b7c1aa5cff4f5d25be3f3133ed1e44e1ab05a527c9bd
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: conflicted_1.2.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: data.table
+Version: 1.14.8
+Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
+Imports: methods
+Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), curl, R.utils, xts, nanotime, zoo (>= 1.8-1), yaml, knitr, rmarkdown
+License: MPL-2.0 | file LICENSE
+DownloadURL: https://github.com/cran/data.table/releases/download/1.14.8/data.table_1.14.8_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:37:06 UTC; unix
+Filesize: 2616814
+SHA256: 837754aa01b4f0b23c0ec62f812d49d934694fe401c6fa8acc60a40b2e0493ed
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: data.table_1.14.8_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: dbplyr
+Version: 2.3.2
+Depends: R (>= 3.1), R (>= 4.4), R (< 4.4.99)
+Imports: blob (>= 1.2.0), cli (>= 3.4.1), DBI (>= 1.0.0), dplyr (>= 1.1.0), glue (>= 1.2.0), lifecycle (>= 1.0.3), magrittr, methods, pillar (>= 1.5.0), purrr (>= 1.0.1), R6 (>= 2.2.2), rlang (>=
+        1.0.6), tibble (>= 1.4.2), tidyr (>= 1.3.0), tidyselect (>= 1.2.0), utils, vctrs (>= 0.5.0), withr
+Suggests: bit64, covr, knitr, Lahman, nycflights13, odbc, RMariaDB (>= 1.0.2), rmarkdown, RPostgres (>= 1.1.3), RPostgreSQL, RSQLite (>= 2.2.15), testthat (>= 3.0.2)
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/dbplyr/releases/download/2.3.2/dbplyr_2.3.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-06-21 09:38:09 UTC; unix
+Filesize: 1120431
+SHA256: 9a8156dfa9942e03feb0cb58d23b59f9dc907d83d9ef75904227956e57e7ebfb
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: dbplyr_2.3.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: dtplyr
+Version: 1.3.1
+Depends: R (>= 3.3), R (>= 4.4), R (< 4.4.99)
+Imports: cli (>= 3.4.0), data.table (>= 1.13.0), dplyr (>= 1.1.0), glue, lifecycle, rlang (>= 1.0.4), tibble, tidyselect (>= 1.2.0), vctrs (>= 0.4.1)
+Suggests: bench, covr, knitr, rmarkdown, testthat (>= 3.1.2), tidyr (>= 1.1.0), waldo (>= 0.3.1)
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/dtplyr/releases/download/1.3.1/dtplyr_1.3.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-06-21 09:38:11 UTC; unix
+Filesize: 352794
+SHA256: 2720cd958f6399754c1898035d6b900b68b5b0b9d567fdc3cc02ba603fb3de21
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: dtplyr_1.3.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: forcats
+Version: 1.0.0
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+Imports: cli (>= 3.4.0), glue, lifecycle, magrittr, rlang (>= 1.0.0), tibble
+Suggests: covr, dplyr, ggplot2, knitr, readr, rmarkdown, testthat (>= 3.0.0), withr
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/forcats/releases/download/1.0.0/forcats_1.0.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-06-21 09:37:22 UTC; unix
+Filesize: 422413
+SHA256: 0a6cc2b2564a33864ca429340ce639e6ebd0abc0c4774520da4b29895a6bc5ec
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: forcats_1.0.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: gargle
+Version: 1.5.1
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+Imports: cli (>= 3.0.1), fs (>= 1.3.1), glue (>= 1.3.0), httr (>= 1.4.5), jsonlite, lifecycle, openssl, rappdirs, rlang (>= 1.1.0), stats, utils, withr
+Suggests: aws.ec2metadata, aws.signature, covr, httpuv, knitr, rmarkdown, sodium, spelling, testthat (>= 3.1.7)
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/gargle/releases/download/1.5.1/gargle_1.5.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-06-21 09:38:01 UTC; unix
+Filesize: 762216
+SHA256: 88c0b24d5de710c56ae5c5725d057361dc0a633b1411dede7cd0e2e9a604d226
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: gargle_1.5.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: googledrive
+Version: 2.1.1
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+Imports: cli (>= 3.0.0), gargle (>= 1.5.0), glue (>= 1.4.2), httr, jsonlite, lifecycle, magrittr, pillar (>= 1.9.0), purrr (>= 1.0.1), rlang (>= 1.0.2), tibble (>= 2.0.0), utils, uuid, vctrs (>=
+        0.3.0), withr
+Suggests: curl, dplyr (>= 1.0.0), knitr, mockr, rmarkdown, spelling, testthat (>= 3.1.3)
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/googledrive/releases/download/2.1.1/googledrive_2.1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-06-21 09:38:33 UTC; unix
+Filesize: 1889734
+SHA256: af86bc4fc26bec65889274a31b35eee07bb0459f976a91e4bfa0904419b266d2
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: googledrive_2.1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: googlesheets4
+Version: 1.1.1
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+Imports: cellranger, cli (>= 3.0.0), curl, gargle (>= 1.5.0), glue (>= 1.3.0), googledrive (>= 2.1.0), httr, ids, lifecycle, magrittr, methods, purrr, rematch2, rlang (>= 1.0.2), tibble (>= 2.1.1),
+        utils, vctrs (>= 0.2.3), withr
+Suggests: readr, rmarkdown, spelling, testthat (>= 3.1.7)
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/googlesheets4/releases/download/1.1.1/googlesheets4_1.1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-06-21 09:38:43 UTC; unix
+Filesize: 506390
+SHA256: 0fef846e4506d898f66675c5bd92ccd517acb036e4906a031180a843ec619cb4
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: googlesheets4_1.1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: haven
+Version: 2.5.2
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+Imports: cli (>= 3.0.0), forcats (>= 0.2.0), hms, lifecycle, methods, readr (>= 0.1.0), rlang (>= 0.4.0), tibble, tidyselect, vctrs (>= 0.3.0)
+Suggests: covr, crayon, fs, knitr, pillar (>= 1.4.0), rmarkdown, testthat (>= 3.0.0), utf8
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/haven/releases/download/2.5.2/haven_2.5.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:41:01 UTC; unix
+Filesize: 1489699
+SHA256: 2959d68361d35757b180c9276082350d07df8169726db6e6b9c2f1d496224d0e
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: haven_2.5.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11
+
+Package: hms
+Version: 1.1.3
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: lifecycle, methods, pkgconfig, rlang (>= 1.0.2), vctrs (>= 0.3.8)
+Suggests: crayon, lubridate, pillar (>= 1.1.0), testthat (>= 3.0.0)
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/hms/releases/download/1.1.3/hms_1.1.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-06-21 09:37:17 UTC; unix
+Filesize: 99168
+SHA256: 927919205561790c0bb2b6fd871e62cc0fda8bfd6e08188bbdc0a14c7a56c604
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: hms_1.1.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: ids
+Version: 1.0.1
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: openssl, uuid
+Suggests: knitr, rcorpora, rmarkdown, testthat
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/ids/releases/download/1.0.1/ids_1.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-06-21 09:38:39 UTC; unix
+Filesize: 120612
+SHA256: ddad4c08fabb352de99f44c19261133e2c4facb92bac5dcb131e5be6dd825098
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: ids_1.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: lubridate
+Version: 1.9.2
+Depends: methods, R (>= 3.2), R (>= 4.4), R (< 4.4.99)
+Imports: generics, timechange (>= 0.1.1)
+Suggests: covr, knitr, rmarkdown, testthat (>= 2.1.0), vctrs (>= 0.5.0)
+License: GPL (>= 2)
+DownloadURL: https://github.com/cran/lubridate/releases/download/1.9.2/lubridate_1.9.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:38:26 UTC; unix
+Filesize: 1000482
+SHA256: 434e8c08c8a539d94ca8097881a8bf36e5548fd975af57de8e8b9e9f87b50bf7
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: lubridate_1.9.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: chron, data.table, timeDate, tis, zoo
+
+Package: modelr
+Version: 0.1.11
+Depends: R (>= 3.2), R (>= 4.4), R (< 4.4.99)
+Imports: broom, magrittr, purrr (>= 0.2.2), rlang (>= 1.0.6), tibble, tidyr (>= 0.8.0), tidyselect, vctrs
+Suggests: compiler, covr, ggplot2, testthat (>= 3.0.0)
+License: GPL-3
+DownloadURL: https://github.com/cran/modelr/releases/download/0.1.11/modelr_0.1.11_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-06-21 09:38:17 UTC; unix
+Filesize: 200730
+SHA256: cb1c2317a2efd4dca24f21f35f01b4b59f19042d6a74a581beeb163aacba46c2
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: modelr_0.1.11_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: progress
+Version: 1.2.2
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: hms, prettyunits, R6, crayon
+Suggests: Rcpp, testthat, withr
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/progress/releases/download/1.2.2/progress_1.2.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-06-21 09:38:21 UTC; unix
+Filesize: 84009
+SHA256: 0d91693137913bbe1e66ca0dad9f27555ddd85077a4df380ad5202441f020124
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: progress_1.2.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: readr
+Version: 2.1.4
+Depends: R (>= 3.5), R (>= 4.4), R (< 4.4.99)
+Imports: cli (>= 3.2.0), clipr, crayon, hms (>= 0.4.1), lifecycle (>= 0.2.0), methods, R6, rlang, tibble, utils, vroom (>= 1.6.0)
+Suggests: covr, curl, datasets, knitr, rmarkdown, spelling, stringi, testthat (>= 3.1.2), tzdb (>= 0.1.1), waldo, withr, xml2
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/readr/releases/download/2.1.4/readr_2.1.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:40:03 UTC; unix
+Filesize: 3299035
+SHA256: 3022818c0fb2111d7c8ec0f03434cc5ff5de87a566b2771115ed674d177adf15
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: readr_2.1.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11, tzdb (>= 0.1.1)
+
+Package: readxl
+Version: 1.4.2
+Depends: R (>= 3.5), R (>= 4.4), R (< 4.4.99)
+Imports: cellranger, tibble (>= 2.0.1), utils
+Suggests: covr, knitr, rmarkdown, testthat (>= 3.1.6), withr
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/readxl/releases/download/1.4.2/readxl_1.4.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:38:29 UTC; unix
+Filesize: 2197854
+SHA256: 449327561088e2c2fb63da9be3cacb00d6bd81c19e06eb3aed8cdf4fd064016c
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: readxl_1.4.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11 (>= 0.4.0), progress
+
+Package: rematch
+Version: 1.0.1
+Depends: R (>= 4.4), R (< 4.4.99)
+Suggests: covr, testthat
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/rematch/releases/download/1.0.1/rematch_1.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-06-21 09:36:56 UTC; unix
+Filesize: 12586
+SHA256: 650e9be89159152638ec41ccfca6d065ddc5ee443fd73e519b8711f6ae5c3fb1
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: rematch_1.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: reprex
+Version: 2.0.2
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+Imports: callr (>= 3.6.0), cli (>= 3.2.0), clipr (>= 0.4.0), fs, glue, knitr (>= 1.23), lifecycle, rlang (>= 1.0.0), rmarkdown, rstudioapi, utils, withr (>= 2.3.0)
+Suggests: covr, fortunes, miniUI, mockr, rprojroot, sessioninfo, shiny, spelling, styler (>= 1.2.0), testthat (>= 3.0.2)
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/reprex/releases/download/2.0.2/reprex_2.0.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-06-21 09:38:03 UTC; unix
+Filesize: 495897
+SHA256: feea8056634450a6bf9f3db6961915dbddfe69d653ad0d0405171d2b4bdbf002
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: reprex_2.0.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rvest
+Version: 1.0.3
+Depends: R (>= 3.2), R (>= 4.4), R (< 4.4.99)
+Imports: glue, cli, httr (>= 0.5), lifecycle (>= 1.0.0), magrittr, rlang (>= 1.0.0), selectr, tibble, xml2 (>= 1.3), withr
+Suggests: covr, knitr, readr, repurrrsive, rmarkdown, spelling, stringi (>= 0.3.1), testthat (>= 3.0.2), webfakes
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/rvest/releases/download/1.0.3/rvest_1.0.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-06-21 09:38:26 UTC; unix
+Filesize: 210763
+SHA256: 6bff334b42100cc52e74f1c25eebed590d5d1aba7ee8c7522926af850c9d50d5
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: rvest_1.0.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: selectr
+Version: 0.4-2
+Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
+Imports: methods, stringr, R6
+Suggests: testthat, XML, xml2
+License: BSD_3_clause + file LICENCE
+DownloadURL: https://github.com/cran/selectr/releases/download/0.4-2/selectr_0.4-2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-06-21 09:37:51 UTC; unix
+Filesize: 488666
+SHA256: 19973e8c3b7148b243eb930c7fa1096fff8575e5c90aae59231720aabe2a3a59
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: selectr_0.4-2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: tidyverse
+Version: 2.0.0
+Depends: R (>= 3.3), R (>= 4.4), R (< 4.4.99)
+Imports: broom (>= 1.0.3), conflicted (>= 1.2.0), cli (>= 3.6.0), dbplyr (>= 2.3.0), dplyr (>= 1.1.0), dtplyr (>= 1.2.2), forcats (>= 1.0.0), ggplot2 (>= 3.4.1), googledrive (>= 2.0.0), googlesheets4
+        (>= 1.0.1), haven (>= 2.5.1), hms (>= 1.1.2), httr (>= 1.4.4), jsonlite (>= 1.8.4), lubridate (>= 1.9.2), magrittr (>= 2.0.3), modelr (>= 0.1.10), pillar (>= 1.8.1), purrr (>= 1.0.1), ragg
+        (>= 1.2.5), readr (>= 2.1.4), readxl (>= 1.4.2), reprex (>= 2.0.2), rlang (>= 1.0.6), rstudioapi (>= 0.14), rvest (>= 1.0.3), stringr (>= 1.5.0), tibble (>= 3.1.8), tidyr (>= 1.3.0), xml2 (>=
+        1.3.3)
+Suggests: covr (>= 3.6.1), feather (>= 0.3.5), glue (>= 1.6.2), mockr (>= 0.2.0), knitr (>= 1.41), rmarkdown (>= 2.20), testthat (>= 3.1.6)
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/tidyverse/releases/download/2.0.0/tidyverse_2.0.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-06-21 09:41:40 UTC; unix
+Filesize: 425688
+SHA256: 4dc22174bfa66556bec0af7ed87d8cf6a3a48f0b93727323f5f94367df5498c0
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: tidyverse_2.0.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: timechange
+Version: 0.2.0
+Depends: R (>= 3.3), R (>= 4.4), R (< 4.4.99)
+Suggests: testthat (>= 0.7.1.99), knitr
+License: GPL-3
+DownloadURL: https://github.com/cran/timechange/releases/download/0.2.0/timechange_0.2.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:37:27 UTC; unix
+Filesize: 1403601
+SHA256: 71266471fcb5f29b24bc36a044382b25741f80b2cac6a8b632a5e81b848dadc6
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: timechange_0.2.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11 (>= 0.2.7)
+
+Package: tzdb
+Version: 0.4.0
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Suggests: covr, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/tzdb/releases/download/0.4.0/tzdb_0.4.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:37:27 UTC; unix
+Filesize: 1554406
+SHA256: 1a5783c43dee6b4330feaaf1f2066caa94063f3a4ce41492df9ba38cd6e12942
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: tzdb_0.4.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11 (>= 0.4.2)
+
+Package: uuid
+Version: 1.1-0
+Depends: R (>= 2.9.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/uuid/releases/download/1.1-0/uuid_1.1-0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:37:35 UTC; unix
+Filesize: 78735
+SHA256: 51f598233f8cc76e86ebedfd01e1975da0e40ac422725ba5f8e561162703ea19
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: uuid_1.1-0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: vroom
+Version: 1.6.3
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+Imports: bit64, cli (>= 3.2.0), crayon, glue, hms, lifecycle (>= 1.0.3), methods, rlang (>= 0.4.2), stats, tibble (>= 2.0.0), tidyselect, tzdb (>= 0.1.1), vctrs (>= 0.2.0), withr
+Suggests: archive, bench (>= 1.1.0), covr, curl, dplyr, forcats, fs, ggplot2, knitr, patchwork, prettyunits, purrr, rmarkdown, rstudioapi, scales, spelling, testthat (>= 2.1.0), tidyr, utils, waldo,
+        xml2
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/vroom/releases/download/1.6.3/vroom_1.6.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:38:29 UTC; unix
+Filesize: 7362292
+SHA256: 16a73b53f5f705eb5cbe429b425f87f2b0bc41cac1e5054ff02be673d4a4e054
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: vroom_1.6.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11 (>= 0.2.0), progress (>= 1.2.1), tzdb (>= 0.1.1)
