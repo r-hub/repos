@@ -10,6 +10,17 @@ These repositories are **experimental**.
 
 ## `ubuntu-22.04-R4.4`
 
+### Setup
+
+```
+options(repos = c(
+  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04/4.4",
+  CRAN = "https://cloud.r-project.org"
+))
+```
+
+### Containers using this repo
+
 * [x] `ubuntu-clang` (CRAN's `r-devel-linux-x86_64-debian-clang`)
 * [x] `ubuntu-gcc12` (CRAN's `r-devel-linux-x86_64-debian-gcc`)
 * [ ] `ubuntu-gcc` (CRAN's `r-devel-linux-x86_64-fedora-gcc`)
@@ -35,15 +46,21 @@ These repositories are **experimental**.
 ALthough we can potentially use packages that were built with
 a shared R lib, by removing the linkage after installation.
 
+### Containers using this repo
+
 * [ ] `rchk` (extra `rchk`)
 
 ## `fedora-36-R4.4`
+
+### Containers using this repo
 
 * [x] `atlas` (extra `ATLAS`)
 * [ ] `mkl` (extra `MKL`)
 * [ ] `openblas` (extra `OpenBLAS`)
 
 ## `fedora-38-R4.4`
+
+### Containers using this repo
 
 * [x] `gcc13` (extra `gcc13`)
 
