@@ -37,6 +37,17 @@ options(repos = c(
 
 ## `ubuntu-22.04-R4.4-libc++`
 
+### Setup
+
+```
+options(repos = c(
+  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04/4.4/libc++",
+  CRAN = "https://cloud.r-project.org"
+))
+```
+
+### Containers using this repo
+
 * [x] `clang-asan` (extra `clang-ASAN` and `clang-UBSAN`)
 * [x] `clang16`
 * [ ] `ubuntu-libc++` (CRAN's `r-devel-linux-x86_64-fedora-clang`)
