@@ -170,6 +170,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: farver_2.1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++11
 
 Package: ggplot2
 Version: 3.4.2
@@ -222,6 +223,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: isoband_0.2.7_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++11
 
 Package: labeling
 Version: 0.4.2
@@ -503,6 +505,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: cpp11_0.4.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++11
 
 Package: purrr
 Version: 1.0.1
@@ -539,6 +542,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: stringi_1.7.12_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++11, ICU4C (>= 55, optional)
 
 Package: stringr
 Version: 1.5.0
@@ -574,6 +578,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: tidyr_1.3.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++11
 LinkingTo: cpp11 (>= 0.4.0)
 
 Package: base64enc
@@ -609,6 +614,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: bookdown_0.34_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: Pandoc (>= 1.17.2)
 
 Package: bslib
 Version: 0.5.0
@@ -746,6 +752,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: fs_1.6.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make
 
 Package: highr
 Version: 0.10
@@ -846,6 +853,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: knitr_1.43_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
 
 Package: memoise
 Version: 2.0.1
@@ -913,6 +921,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: rmarkdown_2.22_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
 
 Package: sass
 Version: 0.4.6
@@ -931,6 +940,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: sass_0.4.6_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make
 
 Package: tinytex
 Version: 0.45
@@ -1033,6 +1043,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: httpuv_1.6.11_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, zlib
 LinkingTo: Rcpp, later
 
 Package: later
@@ -1193,6 +1204,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: curl_5.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libcurl: libcurl-devel (rpm) or libcurl4-openssl-dev (deb).
 
 Package: httr
 Version: 1.4.6
@@ -1244,6 +1256,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: openssl_2.0.6_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: OpenSSL >= 1.0.2
 
 Package: rex
 Version: 1.2.1
@@ -1341,6 +1354,8 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: clipr_0.8.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: xclip (https://github.com/astrand/xclip) or xsel (http://www.vergenet.net/~conrad/software/xsel/) for accessing the X11 clipboard, or wl-clipboard
+        (https://github.com/bugaevc/wl-clipboard) for systems using Wayland.
 
 Package: credentials
 Version: 1.3.2
@@ -1357,6 +1372,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: credentials_1.3.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: git (optional)
 
 Package: desc
 Version: 1.4.2
@@ -1444,6 +1460,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: gert_1.9.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
 
 Package: gh
 Version: 1.4.0
@@ -1475,6 +1492,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: gitcreds_0.1.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: git
 
 Package: htmlwidgets
 Version: 1.6.2
@@ -1571,6 +1589,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: pkgdown_2.0.7_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc
 
 Package: pkgload
 Version: 1.3.2
@@ -1689,6 +1708,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: ragg_1.2.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++11, freetype2, libpng, libtiff, libjpeg
 LinkingTo: systemfonts, textshaping
 
 Package: rcmdcheck
@@ -1738,6 +1758,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: remotes_2.4.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: Subversion for install_svn, git for install_git
 
 Package: roxygen2
 Version: 7.2.3
@@ -1756,6 +1777,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: roxygen2_7.2.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++11
 LinkingTo: cpp11
 
 Package: rprojroot
@@ -1836,6 +1858,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: systemfonts_1.0.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++11, fontconfig, freetype2
 LinkingTo: cpp11 (>= 0.2.1)
 
 Package: testthat
@@ -1874,6 +1897,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: textshaping_0.3.6_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++11, freetype2, harfbuzz, fribidi
 LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
 
 Package: urlchecker
@@ -1957,6 +1981,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: xml2_1.3.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
 
 Package: xopen
 Version: 1.0.0
@@ -2094,6 +2119,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: s2_1.1.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: OpenSSL >= 1.0.1
 LinkingTo: Rcpp, wk
 
 Package: sf
@@ -2115,6 +2141,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: sf_1.0-13_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
 LinkingTo: Rcpp
 
 Package: units
@@ -2134,6 +2161,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: units_0.8-2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: udunits-2
 LinkingTo: Rcpp (>= 0.12.10)
 
 Package: wk
@@ -2189,6 +2217,8 @@ File: rgl_1.1.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: waldo
+SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
+        (optional), libpng (>=1.2.9, optional), FreeType (optional), pandoc (>=1.14, needed for vignettes)
 
 Package: backports
 Version: 1.4.1
@@ -2323,6 +2353,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: data.table_1.14.8_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: zlib
 
 Package: dbplyr
 Version: 2.3.2
@@ -2440,6 +2471,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: haven_2.5.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, zlib: zlib1g-dev (deb), zlib-devel (rpm)
 LinkingTo: cpp11
 
 Package: hms
@@ -2492,6 +2524,7 @@ File: lubridate_1.9.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: chron, data.table, timeDate, tis, zoo
+SystemRequirements: C++11, A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
 
 Package: modelr
 Version: 0.1.11
@@ -2593,6 +2626,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: reprex_2.0.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc (>= 2.0) - http://pandoc.org
 
 Package: rvest
 Version: 1.0.3
@@ -2661,6 +2695,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: timechange_0.2.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: A system with zoneinfo data (e.g.  /usr/share/zoneinfo) as well as a recent-enough C++11 compiler (such as g++-4.8 or later). On Windows the zoneinfo included with R is used.
 LinkingTo: cpp11 (>= 0.2.7)
 
 Package: tzdb
@@ -3224,6 +3259,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: slider_0.3.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++11
 LinkingTo: vctrs (>= 0.5.0)
 
 Package: SQUAREM
@@ -3478,8 +3514,8 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: igraph_1.5.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cpp11 (>= 0.2.0)
 SystemRequirements: gmp (optional), libxml2 (optional), glpk (>= 4.57, optional)
+LinkingTo: cpp11 (>= 0.2.0)
 
 Package: plogr
 Version: 0.2.0
@@ -3550,6 +3586,8 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: rgeos_0.6-3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GEOS (>= 3.2.0); for building from source: GEOS from https://libgeos.org; GEOS OSX frameworks built by William Kyngesburye at http://www.kyngchaos.com/ may be used for source
+        installs on OSX.
 LinkingTo: sp
 
 Package: zoo
@@ -3696,6 +3734,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: minqa_1.2.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make
 LinkingTo: Rcpp
 
 Package: nloptr
@@ -3714,6 +3753,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: nloptr_2.0.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: cmake (>= 3.2.0) which is used only on Linux or macOS systems when no system build of nlopt (>= 2.7.0) can be found.
 LinkingTo: testthat
 
 Package: pbkrtest
@@ -3939,6 +3979,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: glmnet_4.1-7_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17
 LinkingTo: RcppEigen, Rcpp
 
 Package: gtools
@@ -3992,6 +4033,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: svglite_2.1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++11, libpng
 LinkingTo: cpp11, systemfonts
 
 Package: webshot
@@ -4009,6 +4051,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: webshot_0.5.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: PhantomJS for taking screenshots, ImageMagick or GraphicsMagick and OptiPNG for manipulating images.
 
 Package: lme4
 Version: 1.1-33
@@ -4114,6 +4157,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: png_0.1-8_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libpng
 
 Package: pracma
 Version: 2.4.2
@@ -4263,6 +4307,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: terra_1.7-37_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
 LinkingTo: Rcpp
 
 Package: RcppArmadillo
@@ -4441,6 +4486,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: vdiffr_1.0.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++11, libpng
 LinkingTo: cpp11
 
 Package: XML
@@ -4459,6 +4505,7 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: XML_3.99-0.14_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libxml2 (>= 2.6.3)
 
 Package: sp
 Version: 2.0-0
