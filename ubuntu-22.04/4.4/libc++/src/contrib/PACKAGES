@@ -3027,3 +3027,133 @@ RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: classInt
+Version: 0.4-9
+Depends: R (>= 2.2), R (>= 4.4), R (< 4.4.99)
+Imports: grDevices, stats, graphics, e1071, class, KernSmooth
+Suggests: spData (>= 0.2.6.2), units, knitr, rmarkdown, tinytest
+License: GPL (>= 2)
+File: classInt_0.4-9_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/classInt/releases/download/0.4-9/classInt_0.4-9_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-23 10:41:24 UTC; unix
+Filesize: 495369
+SHA256: 6d9bf5f1f5e588af977235fbf4207b3af8a2f3ad890cadde82aa82722517c6aa
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: e1071
+Version: 1.7-13
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: graphics, grDevices, class, stats, methods, utils, proxy
+Suggests: cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable, Matrix, MASS, slam
+License: GPL-2 | GPL-3
+File: e1071_1.7-13_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/e1071/releases/download/1.7-13/e1071_1.7-13_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-23 10:41:08 UTC; unix
+Filesize: 593444
+SHA256: acb1a65c2f8a6dcd303d69b8d6a653eeee78356eb10626c76b4606efe4999b64
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: proxy
+Version: 0.4-27
+Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
+Imports: stats, utils
+Suggests: cba
+License: GPL-2
+File: proxy_0.4-27_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/proxy/releases/download/0.4-27/proxy_0.4-27_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-23 10:40:56 UTC; unix
+Filesize: 174929
+SHA256: 77f775c57c5d5282121aae17a7817400bd5f3ea0f0111880c00244263c3b3c06
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: s2
+Version: 1.1.4
+Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
+Imports: Rcpp, wk (>= 0.6.0)
+Suggests: bit64, testthat (>= 3.0.0), vctrs
+License: Apache License (== 2.0)
+File: s2_1.1.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/s2/releases/download/1.1.4/s2_1.1.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-23 10:41:50 UTC; unix
+Filesize: 11607807
+SHA256: 567169ab5289ff07448336e91551f5e3f0822ffbc73768a456f05bb679aa5d4d
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp, wk
+
+Package: sf
+Version: 1.0-13
+Depends: methods, R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
+Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, Rcpp (>= 0.12.18), s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
+Suggests: blob, covr, dplyr (>= 0.8-3), ggplot2, knitr, lwgeom (>= 0.2-1), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>= 1.1.0),
+        RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.2-0), terra, testthat (>= 3.0.0), tibble (>= 1.4.1),
+        tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk
+License: GPL-2 | MIT + file LICENSE
+File: sf_1.0-13_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/sf/releases/download/1.0-13/sf_1.0-13_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-23 10:52:44 UTC; unix
+Filesize: 3562676
+SHA256: 43027fe249ba328c6726988e4e38fe9fa2695262f88181aca6b09207094c7c89
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: units
+Version: 0.8-2
+Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
+Imports: Rcpp
+Suggests: NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0), dplyr (>= 1.0.0), vctrs (>= 0.3.1), ggplot2 (> 3.2.1), testthat (>= 3.0.0), vdiffr, knitr, rmarkdown
+License: GPL-2
+File: units_0.8-2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/units/releases/download/0.8-2/units_0.8-2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-23 10:41:30 UTC; unix
+Filesize: 365808
+SHA256: b2858a9f8539c2be3c4dd42f68a49d158bbe2715eb349feedc54a281b344c26f
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp (>= 0.12.10)
+
+Package: wk
+Version: 0.7.3
+Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
+Suggests: testthat (>= 3.0.0), vctrs (>= 0.3.0), sf, tibble, readr
+License: MIT + file LICENSE
+File: wk_0.7.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/wk/releases/download/0.7.3/wk_0.7.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-23 10:40:56 UTC; unix
+Filesize: 1673590
+SHA256: 0e67bf93e26c864c6ba99ccafd34ff0c73086cbfa69a7c52fd48b1b331da4b30
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
