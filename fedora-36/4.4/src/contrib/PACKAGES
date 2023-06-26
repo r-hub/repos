@@ -2709,22 +2709,6 @@ Platform: x86_64-pc-linux-gnu-fedora-36
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: pkgbuild
-Version: 1.4.1
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-Imports: callr (>= 3.2.0), cli (>= 3.4.0), crayon, desc, prettyunits, processx, R6, rprojroot,
-Suggests: covr, cpp11, knitr, mockery, Rcpp, rmarkdown, testthat (>= 3.0.0), withr (>= 2.3.0)
-License: MIT + file LICENSE
-File: pkgbuild_1.4.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-DownloadURL: https://github.com/cran/pkgbuild/releases/download/1.4.1/pkgbuild_1.4.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-Built: R 4.4.0; ; 2023-06-24 07:08:43 UTC; unix
-Filesize: 200481
-SHA256: 18e4920c1acefa5df67bcb3c157fa301602a7e7572d77d3e829c9fbd8513a7a6
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-36
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: pkgdown
 Version: 2.0.7
 Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
@@ -4708,3 +4692,37 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional)
 LinkingTo: cpp11 (>= 0.4.2)
+
+Package: digest
+Version: 0.6.32
+Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
+Imports: utils
+Suggests: tinytest, simplermarkdown
+License: GPL (>= 2)
+File: digest_0.6.32_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
+DownloadURL: https://github.com/cran/digest/releases/download/0.6.32/digest_0.6.32_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 17:13:47 UTC; unix
+Filesize: 388957
+SHA256: a9ebb7b9e7ef5d8493b621d1c91bcc0c7a9529b5107c6aae519891891942419d
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-36
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: pkgbuild
+Version: 1.4.2
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+Imports: callr (>= 3.2.0), cli (>= 3.4.0), crayon, desc, prettyunits, processx, R6, rprojroot
+Suggests: covr, cpp11, knitr, mockery, Rcpp, rmarkdown, testthat (>= 3.0.0), withr (>= 2.3.0)
+License: MIT + file LICENSE
+File: pkgbuild_1.4.2_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
+DownloadURL: https://github.com/cran/pkgbuild/releases/download/1.4.2/pkgbuild_1.4.2_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
+Built: R 4.4.0; ; 2023-06-26 17:13:08 UTC; unix
+Filesize: 200384
+SHA256: 7fd21d44dfde537bb6eaf18dda522b7b396aa7f323af1ab129929a64967d03e5
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-36
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
