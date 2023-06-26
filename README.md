@@ -81,6 +81,10 @@ a shared R lib, by removing the linkage after installation.
 * [ ] extra `gcc11`
 * [ ] extra `gcc12`
 
+## Not possible (= very hard) currently
+
+* [ ] `m1mac` (extra `M1mac`)
+
 # License
 
 MIT @ The R Consortium, Posit PBC
