@@ -3791,3 +3791,956 @@ RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: bookdown
+Version: 0.34
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.39), tinytex (>= 0.12), yaml (>= 2.1.19)
+Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, rstudioapi, miniUI, rsconnect (>= 0.4.3), servr (>= 0.13), shiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat (>=
+        3.1.0), withr (>= 2.3.0)
+License: GPL-3
+File: bookdown_0.34_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/bookdown/releases/download/0.34/bookdown_0.34_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-06-26 14:30:56 UTC; unix
+Filesize: 1100020
+SHA256: 2185c1ec9a2fa6bd5524d61d7bbb9c3abea08a97e89174b046ba59e1a25e5f19
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: Pandoc (>= 1.17.2)
+
+Package: Formula
+Version: 1.2-5
+Depends: R (>= 2.0.0), stats, R (>= 4.4), R (< 4.4.99)
+License: GPL-2 | GPL-3
+File: Formula_1.2-5_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/Formula/releases/download/1.2-5/Formula_1.2-5_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-06-26 14:29:45 UTC; unix
+Filesize: 164387
+SHA256: a4fba4a943b0e6405c2c09f580ba8ade6d850011adbe7610c44ea4221b22eace
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: Hmisc
+Version: 5.1-0
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
+Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice,
+        latticeExtra, gt, sparkline, jsonlite, htmlwidgets
+License: GPL (>= 2)
+File: Hmisc_5.1-0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/Hmisc/releases/download/5.1-0/Hmisc_5.1-0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:31:20 UTC; unix
+Filesize: 3907772
+SHA256: 5ef94e20843c315e7243aa4874c9c462ffe45baee6214e35223cc8bc00bc7e10
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: htmlTable
+Version: 2.4.1
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: stringr, knitr (>= 1.6), magrittr (>= 1.5), methods, checkmate, htmlwidgets, htmltools, rstudioapi (>= 0.6)
+Suggests: testthat, XML, xml2, Hmisc, reshape, rmarkdown, chron, lubridate, tibble, purrr, tidyselect, glue, rlang, tidyr (>= 0.7.2), dplyr (>= 0.7.4)
+License: GPL (>= 3)
+File: htmlTable_2.4.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/htmlTable/releases/download/2.4.1/htmlTable_2.4.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-06-26 14:31:09 UTC; unix
+Filesize: 450978
+SHA256: 79a0e2da8252e1e986bfb0dad1994fee7b63aa38f14d0ddf376687abd0218e16
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: viridis
+Version: 0.6.3
+Depends: R (>= 2.10), viridisLite (>= 0.4.0), R (>= 4.4), R (< 4.4.99)
+Imports: ggplot2 (>= 1.0.1), gridExtra
+Suggests: hexbin (>= 1.27.0), scales, MASS, knitr, dichromat, colorspace, httr, mapproj, vdiffr, svglite (>= 1.2.0), testthat, covr, rmarkdown, maps, terra
+License: MIT + file LICENSE
+File: viridis_0.6.3_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/viridis/releases/download/0.6.3/viridis_0.6.3_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-06-26 14:31:15 UTC; unix
+Filesize: 3019985
+SHA256: be46bb3b6eb2cd70847048251ecca03a2a16a7265a4d9797f80cce96faf6f346
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: mvtnorm
+Version: 1.2-2
+Depends: R(>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Imports: stats
+Suggests: qrng, numDeriv
+License: GPL-2
+File: mvtnorm_1.2-2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.2-2/mvtnorm_1.2-2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:29:45 UTC; unix
+Filesize: 822968
+SHA256: 8e862a9a52093e334e6410bd8b3efcee46efb81d6f82ab5a43e5e9ac93fd4298
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rgeos
+Version: 0.6-3
+Depends: R (>= 3.3.0), methods, sp (>= 1.1-0), R (>= 4.4), R (< 4.4.99)
+Imports: utils, stats, graphics
+Suggests: maptools (>= 0.8-5), testthat, XML, maps, rgdal
+License: GPL (>= 2)
+File: rgeos_0.6-3_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/rgeos/releases/download/0.6-3/rgeos_0.6-3_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:45:23 UTC; unix
+Filesize: 854113
+SHA256: 3eab788040bf8f45214e8fcf32a2bca94a7aabd57bbea3fb8a018b48bd4b2732
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GEOS (>= 3.2.0); for building from source: GEOS from https://libgeos.org; GEOS OSX frameworks built by William Kyngesburye at http://www.kyngchaos.com/ may be used for source
+        installs on OSX.
+LinkingTo: sp
+
+Package: rgl
+Version: 1.1.3
+Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
+Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
+Suggests: MASS, rmarkdown (>= 2.16), deldir (>= 1.0-4), orientlib, lattice, misc3d, magick, plotrix (>= 3.7-3), tripack, interp, alphashape3d, tcltk, js (>= 1.2), webshot2 (>= 0.1.0), downlit (>=
+        0.4.0), pkgdown (>= 2.0.0), extrafont, shiny, manipulateWidget (>= 0.9.0), testthat, markdown, crosstalk, V8, chromote
+License: GPL
+File: rgl_1.1.3_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/rgl/releases/download/1.1.3/rgl_1.1.3_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:31:07 UTC; unix
+Filesize: 5944060
+SHA256: 78ad7a3607c7f03c4522665c863af8cc3aaff7341a7bea188791f32b11a4db5c
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: waldo
+SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
+        (optional), libpng (>=1.2.9, optional), FreeType (optional), pandoc (>=1.14, needed for vignettes)
+
+Package: classInt
+Version: 0.4-9
+Depends: R (>= 2.2), R (>= 4.4), R (< 4.4.99)
+Imports: grDevices, stats, graphics, e1071, class, KernSmooth
+Suggests: spData (>= 0.2.6.2), units, knitr, rmarkdown, tinytest
+License: GPL (>= 2)
+File: classInt_0.4-9_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/classInt/releases/download/0.4-9/classInt_0.4-9_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:34:45 UTC; unix
+Filesize: 510614
+SHA256: 218662c28156139b7ee6c97ef41b538fdfbaa12d878ba82914c4c59109fc8670
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: e1071
+Version: 1.7-13
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: graphics, grDevices, class, stats, methods, utils, proxy
+Suggests: cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable, Matrix, MASS, slam
+License: GPL-2 | GPL-3
+File: e1071_1.7-13_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/e1071/releases/download/1.7-13/e1071_1.7-13_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:34:37 UTC; unix
+Filesize: 715474
+SHA256: 6070057b412062e53666571d982a1ac0aca05682c5e5f80f7f6bc387b617951a
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: proxy
+Version: 0.4-27
+Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
+Imports: stats, utils
+Suggests: cba
+License: GPL-2
+File: proxy_0.4-27_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/proxy/releases/download/0.4-27/proxy_0.4-27_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:29:46 UTC; unix
+Filesize: 216934
+SHA256: 87bd8db3bcd5839eb56aa859ba9d005738bd4b570e7e4e12db7df07090409a47
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: s2
+Version: 1.1.4
+Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
+Imports: Rcpp, wk (>= 0.6.0)
+Suggests: bit64, testthat (>= 3.0.0), vctrs
+License: Apache License (== 2.0)
+File: s2_1.1.4_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/s2/releases/download/1.1.4/s2_1.1.4_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:34:50 UTC; unix
+Filesize: 20629596
+SHA256: 674d829ee7bf6f51c8bacdf1def030048ec3bcc906745afc8c863550361ea05d
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: OpenSSL >= 1.0.1
+LinkingTo: Rcpp, wk
+
+Package: sf
+Version: 1.0-13
+Depends: methods, R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
+Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, Rcpp (>= 0.12.18), s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
+Suggests: blob, covr, dplyr (>= 0.8-3), ggplot2, knitr, lwgeom (>= 0.2-1), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>= 1.1.0),
+        RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.2-0), terra, testthat (>= 3.0.0), tibble (>= 1.4.1),
+        tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk
+License: GPL-2 | MIT + file LICENSE
+File: sf_1.0-13_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/sf/releases/download/1.0-13/sf_1.0-13_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:42:34 UTC; unix
+Filesize: 8663068
+SHA256: 4c7567e9e8bb1ce73103e44168b697120d7ad3f181c2cf6bba6c73f42922f5a6
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
+LinkingTo: Rcpp
+
+Package: units
+Version: 0.8-2
+Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
+Imports: Rcpp
+Suggests: NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0), dplyr (>= 1.0.0), vctrs (>= 0.3.1), ggplot2 (> 3.2.1), testthat (>= 3.0.0), vdiffr, knitr, rmarkdown
+License: GPL-2
+File: units_0.8-2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/units/releases/download/0.8-2/units_0.8-2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:32:04 UTC; unix
+Filesize: 815111
+SHA256: ec4f789bd5b25685ef63559dda1f98b016e2b59009f3dc669e8a18d511c3c694
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: udunits-2
+LinkingTo: Rcpp (>= 0.12.10)
+
+Package: wk
+Version: 0.7.3
+Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
+Suggests: testthat (>= 3.0.0), vctrs (>= 0.3.0), sf, tibble, readr
+License: MIT + file LICENSE
+File: wk_0.7.3_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/wk/releases/download/0.7.3/wk_0.7.3_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:29:50 UTC; unix
+Filesize: 2071007
+SHA256: 03e0fbd44145d2ed94f1861edfe9cc4cc7c93e00bb1ca5dd01772d4830783f96
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: ape
+Version: 5.7-1
+Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
+Imports: nlme, lattice, graphics, methods, stats, utils, parallel, Rcpp (>= 0.12.0), digest
+Suggests: gee, expm, igraph, phangorn
+License: GPL-2 | GPL-3
+File: ape_5.7-1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/ape/releases/download/5.7-1/ape_5.7-1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:32:19 UTC; unix
+Filesize: 3986586
+SHA256: cbc18253d912c9a0bc85577e46fb84558cf4724fdb8e613d2202527203b3798b
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: car
+Version: 3.1-2
+Depends: R (>= 3.5.0), carData (>= 3.0-0), R (>= 4.4), R (< 4.4.99)
+Imports: abind, MASS, mgcv, nnet, pbkrtest (>= 0.4-4), quantreg, grDevices, utils, stats, graphics, lme4 (>= 1.1-27.1), nlme, scales
+Suggests: alr4, boot, coxme, effects, knitr, leaps, lmtest, Matrix, MatrixModels, mvtnorm, rgl (>= 0.111.3), rio, sandwich, SparseM, survival, survey
+License: GPL (>= 2)
+File: car_3.1-2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/car/releases/download/3.1-2/car_3.1-2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-06-26 14:41:26 UTC; unix
+Filesize: 1829639
+SHA256: 233f9beee7dbf223405513bfb2ddd8089d1701de29f1aaff48c26ba1c8cb2c2d
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: carData
+Version: 3.0-5
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Suggests: car (>= 3.0-0)
+License: GPL (>= 2)
+File: carData_3.0-5_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/carData/releases/download/3.0-5/carData_3.0-5_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-06-26 14:29:52 UTC; unix
+Filesize: 1855702
+SHA256: e339f862601afe80eff9928caf56ec89b9ee8f7f00b743ee792ce8d1f74ddf0d
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: MatrixModels
+Version: 0.5-1
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+Imports: stats, methods, Matrix (>= 1.4-2)
+License: GPL (>= 2)
+File: MatrixModels_0.5-1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/MatrixModels/releases/download/0.5-1/MatrixModels_0.5-1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-06-26 14:29:56 UTC; unix
+Filesize: 454465
+SHA256: b0227909047b0e80945a8da2953aefb7cd1b37fb1eb6a4ae4e1ed31375841923
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: pbkrtest
+Version: 0.5.2
+Depends: R (>= 4.1.0), lme4 (>= 1.1.31), R (>= 4.4), R (< 4.4.99)
+Imports: broom, dplyr, MASS, Matrix (>= 1.2.3), methods, numDeriv, parallel
+Suggests: knitr
+License: GPL (>= 2)
+File: pbkrtest_0.5.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/pbkrtest/releases/download/0.5.2/pbkrtest_0.5.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-06-26 14:40:54 UTC; unix
+Filesize: 200335
+SHA256: 0b21d7baac446d976bacf867769cad18c64d68db0ed9238385c1fbf245d877dc
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: quantreg
+Version: 5.95
+Depends: R (>= 3.5), stats, SparseM, R (>= 4.4), R (< 4.4.99)
+Imports: methods, graphics, Matrix, MatrixModels, survival, MASS
+Suggests: interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer
+License: GPL (>= 2)
+File: quantreg_5.95_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/quantreg/releases/download/5.95/quantreg_5.95_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:41:07 UTC; unix
+Filesize: 1753070
+SHA256: 2ebc34be28d8d1580716966012482e4346698b089336dedb95b2865500fc919b
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: SparseM
+Version: 1.81
+Depends: R (>= 2.15), methods, R (>= 4.4), R (< 4.4.99)
+Imports: graphics, stats, utils
+License: GPL (>= 2)
+File: SparseM_1.81_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/SparseM/releases/download/1.81/SparseM_1.81_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:30:02 UTC; unix
+Filesize: 1130029
+SHA256: 404ac6a91ad92b9a8478315f84a5561a1af82f973ca034b7b3fe9c9dcf212e6d
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: caret
+Version: 6.0-94
+Depends: ggplot2, lattice (>= 0.20), R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
+Imports: e1071, foreach, grDevices, methods, ModelMetrics (>= 1.2.2.2), nlme, plyr, pROC, recipes (>= 0.1.10), reshape2, stats, stats4, utils, withr (>= 2.0.0)
+Suggests: BradleyTerry2, covr, Cubist, dplyr, earth (>= 2.2-3), ellipse, fastICA, gam (>= 1.15), ipred, kernlab, klaR, knitr, MASS, Matrix, mda, mgcv, mlbench, MLmetrics, nnet, pamr, party (>=
+        0.9-99992), pls, proxy, randomForest, RANN, rmarkdown, rpart, spls, subselect, superpc, testthat (>= 0.9.1), themis (>= 0.1.3)
+License: GPL (>= 2)
+File: caret_6.0-94_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/caret/releases/download/6.0-94/caret_6.0-94_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:44:06 UTC; unix
+Filesize: 3712543
+SHA256: 707e7f61c3b26f85a3ac8d6ddbd2c5e9025a777fa6632a0e64bc28d53027823d
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: ModelMetrics
+Version: 1.2.2.2
+Depends: R (>= 3.2.2), R (>= 4.4), R (< 4.4.99)
+Imports: Rcpp, data.table
+Suggests: testthat
+License: GPL (>= 2)
+File: ModelMetrics_1.2.2.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/ModelMetrics/releases/download/1.2.2.2/ModelMetrics_1.2.2.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:32:29 UTC; unix
+Filesize: 1085953
+SHA256: 717d00e00c2173412770124e55202ccda4cf441cd171cf10e616ec7aec07604a
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: pROC
+Version: 1.18.2
+Depends: R (>= 2.14), R (>= 4.4), R (< 4.4.99)
+Imports: methods, plyr, Rcpp (>= 0.11.1)
+Suggests: microbenchmark, tcltk, MASS, logcondens, doParallel, testthat, vdiffr, ggplot2
+License: GPL (>= 3)
+File: pROC_1.18.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/pROC/releases/download/1.18.2/pROC_1.18.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:43:36 UTC; unix
+Filesize: 1532118
+SHA256: b9039357f56019ccf51a6876acc3ec72484546531a84776db489c81be7985858
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: coda
+Version: 0.19-4
+Depends: R (>= 2.14.0), R (>= 4.4), R (< 4.4.99)
+Imports: lattice
+License: GPL (>= 2)
+File: coda_0.19-4_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/coda/releases/download/0.19-4/coda_0.19-4_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-06-26 14:30:06 UTC; unix
+Filesize: 350678
+SHA256: 67f6c7fc405c998079acb778725de4cb4caef441d03666ed68324219006a0610
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: cowplot
+Version: 1.1.1
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Imports: ggplot2 (> 2.2.1), grid, gtable, grDevices, methods, rlang, scales
+Suggests: Cairo, covr, dplyr, forcats, gridGraphics (>= 0.4-0), knitr, lattice, magick, maps, PASWR, patchwork, rmarkdown, ragg, testthat (>= 1.0.0), tidyr, vdiffr (>= 0.3.0), VennDiagram
+License: GPL-2
+File: cowplot_1.1.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/cowplot/releases/download/1.1.1/cowplot_1.1.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-06-26 14:31:04 UTC; unix
+Filesize: 1401613
+SHA256: d155005f7d73cefa71b67897995a0d8e51fe496a81324d59e25b40940daa3cb5
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: doParallel
+Version: 1.0.17
+Depends: R (>= 2.14.0), foreach (>= 1.2.0), iterators (>= 1.0.0), parallel, utils, R (>= 4.4), R (< 4.4.99)
+Suggests: caret, mlbench, rpart, RUnit
+License: GPL-2
+File: doParallel_1.0.17_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/doParallel/releases/download/1.0.17/doParallel_1.0.17_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-06-26 14:41:50 UTC; unix
+Filesize: 190215
+SHA256: 7a145a94ca440f3ceff8093cbdead468c25c455532d8bcfc7595cf38bb023c97
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: compiler
+
+Package: ggrepel
+Version: 0.9.3
+Depends: R (>= 3.0.0), ggplot2 (>= 2.2.0), R (>= 4.4), R (< 4.4.99)
+Imports: grid, Rcpp, rlang (>= 0.3.0), scales (>= 0.5.0), withr (>= 2.5.0)
+Suggests: knitr, rmarkdown, testthat, svglite, vdiffr, gridExtra, devtools, prettydoc, ggbeeswarm, dplyr, magrittr, readr, stringr
+License: GPL-3 | file LICENSE
+File: ggrepel_0.9.3_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/ggrepel/releases/download/0.9.3/ggrepel_0.9.3_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:33:02 UTC; unix
+Filesize: 830973
+SHA256: b469e6b269d391001a4d7aeac69a85573ea62443857e6d500cc7ca89ba3f50e6
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: glmnet
+Version: 4.1-7
+Depends: R (>= 3.6.0), Matrix (>= 1.0-6), R (>= 4.4), R (< 4.4.99)
+Imports: methods, utils, foreach, shape, survival, Rcpp
+Suggests: knitr, lars, testthat, xfun, rmarkdown
+License: GPL-2
+File: glmnet_4.1-7_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/glmnet/releases/download/4.1-7/glmnet_4.1-7_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:41:55 UTC; unix
+Filesize: 10440412
+SHA256: 6b534f1cd8725168ac0e8778a70d7be8b8d5a490f7a546672b55c7b17800b2a8
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17
+LinkingTo: RcppEigen, Rcpp
+
+Package: kableExtra
+Version: 1.3.4
+Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
+Imports: knitr (>= 1.16), magrittr, stringr (>= 1.0), xml2 (>= 1.1.1), rvest, rmarkdown (>= 1.6.0), scales, viridisLite, stats, grDevices, htmltools, rstudioapi, glue, tools, webshot, digest,
+        graphics, svglite
+Suggests: testthat, magick, formattable, sparkline
+License: MIT + file LICENSE
+File: kableExtra_1.3.4_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/kableExtra/releases/download/1.3.4/kableExtra_1.3.4_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-06-26 14:44:58 UTC; unix
+Filesize: 1879674
+SHA256: ab093d5ae502789dbf5e598d2f544b5bf5528d7e590b40bb4aa4cdd0b77cb6b4
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: svglite
+Version: 2.1.1
+Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
+Imports: systemfonts (>= 1.0.0)
+Suggests: covr, fontquiver (>= 0.2.0), htmltools, knitr, rmarkdown, testthat, xml2 (>= 1.0.0)
+License: GPL (>= 2)
+File: svglite_2.1.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/svglite/releases/download/2.1.1/svglite_2.1.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:44:37 UTC; unix
+Filesize: 774091
+SHA256: 831d6ee4c1adb4f1b02cd699caca41ad392fe3cd3f0232ee1143c2a26451e576
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++11, libpng
+LinkingTo: cpp11, systemfonts
+
+Package: webshot
+Version: 0.5.4
+Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
+Imports: magrittr, jsonlite, callr
+Suggests: httpuv, knitr, rmarkdown, shiny, testthat (>= 3.0.0)
+License: GPL-2
+File: webshot_0.5.4_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/webshot/releases/download/0.5.4/webshot_0.5.4_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-06-26 14:40:45 UTC; unix
+Filesize: 209490
+SHA256: 6bb83994c2dd8173faa65cdc3f065a3212a9aca68cac6cc50e302f1eb0aa724d
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: PhantomJS for taking screenshots, ImageMagick or GraphicsMagick and OptiPNG for manipulating images.
+
+Package: plotly
+Version: 4.10.2
+Depends: R (>= 3.2.0), ggplot2 (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
+Imports: tools, scales, httr (>= 1.3.0), jsonlite (>= 1.6), magrittr, digest, viridisLite, base64enc, htmltools (>= 0.3.6), htmlwidgets (>= 1.5.2.9001), tidyr (>= 1.0.0), RColorBrewer, dplyr, vctrs,
+        tibble, lazyeval (>= 0.2.0), rlang (>= 0.4.10), crosstalk, purrr, data.table, promises
+Suggests: MASS, maps, hexbin, ggthemes, GGally, ggalluvial, testthat, knitr, shiny (>= 1.1.0), shinytest (>= 1.3.0), curl, rmarkdown, Cairo, broom, webshot, listviewer, dendextend, maptools, rgeos,
+        sf, png, IRdisplay, processx, plotlyGeoAssets, forcats, palmerpenguins, rversions, reticulate, rsvg
+License: MIT + file LICENSE
+File: plotly_4.10.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/plotly/releases/download/4.10.2/plotly_4.10.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-06-26 14:45:01 UTC; unix
+Filesize: 3240932
+SHA256: c30719bf0b63c9d021599e3b18c370c35298dbe32c216bfbe59766ae7696620f
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: png
+Version: 0.1-8
+Depends: R (>= 2.9.0), R (>= 4.4), R (< 4.4.99)
+License: GPL-2 | GPL-3
+File: png_0.1-8_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/png/releases/download/0.1-8/png_0.1-8_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:30:10 UTC; unix
+Filesize: 64254
+SHA256: 6f8d1e0c8bb9be2daaedb4f2067e9d71efc5a9a78d72b78a5a201c19747c1c2d
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libpng
+
+Package: pracma
+Version: 2.4.2
+Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
+Imports: graphics, grDevices, stats, utils
+Suggests: NlcOptim, quadprog
+License: GPL (>= 3)
+File: pracma_2.4.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/pracma/releases/download/2.4.2/pracma_2.4.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-06-26 14:30:12 UTC; unix
+Filesize: 1931064
+SHA256: e0752ce27e8513321940d08e6a1bffbc0df5bdba478fce0b94c9a68b49903234
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: R.cache
+Version: 0.16.0
+Depends: R (>= 2.14.0), R (>= 4.4), R (< 4.4.99)
+Imports: utils, R.methodsS3 (>= 1.8.1), R.oo (>= 1.24.0), R.utils (>= 2.10.1), digest (>= 0.6.13)
+License: LGPL (>= 2.1)
+File: R.cache_0.16.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/R.cache/releases/download/0.16.0/R.cache_0.16.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-06-26 14:45:37 UTC; unix
+Filesize: 119884
+SHA256: 07c340800c081ac468a607766e8be208d732264c95b02317cc703faf19d3acf8
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: R.methodsS3
+Version: 1.8.2
+Depends: R (>= 2.13.0), R (>= 4.4), R (< 4.4.99)
+Imports: utils
+Suggests: codetools
+License: LGPL (>= 2.1)
+File: R.methodsS3_1.8.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/R.methodsS3/releases/download/1.8.2/R.methodsS3_1.8.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-06-26 14:30:13 UTC; unix
+Filesize: 88890
+SHA256: 87a263afea8418d5e5eda7363024db52e91a6b7901e19aebaa9c4ef01b4425f2
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: R.oo
+Version: 1.25.0
+Depends: R (>= 2.13.0), R.methodsS3 (>= 1.8.1), R (>= 4.4), R (< 4.4.99)
+Imports: methods, utils
+Suggests: tools
+License: LGPL (>= 2.1)
+File: R.oo_1.25.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/R.oo/releases/download/1.25.0/R.oo_1.25.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-06-26 14:45:07 UTC; unix
+Filesize: 1037296
+SHA256: caffa66fd995400e152e6dc062965691e52e8994b98ea887ed840f95841d1e5b
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: R.rsp
+Version: 0.45.0
+Depends: R (>= 2.14.0), R (>= 4.4), R (< 4.4.99)
+Imports: methods, stats, tools, utils, R.methodsS3 (>= 1.8.0), R.oo (>= 1.23.0), R.utils, R.cache, digest
+Suggests: tcltk, markdown, knitr, R.devices, base64enc, ascii
+License: LGPL (>= 2.1)
+File: R.rsp_0.45.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/R.rsp/releases/download/0.45.0/R.rsp_0.45.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-06-26 14:45:40 UTC; unix
+Filesize: 1601462
+SHA256: 9771e3e82c88176f7f06ce7019b0b83fcdfb809a5f728f08e4b9d320e9273311
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: R.utils
+Version: 2.12.2
+Depends: R (>= 2.14.0), R.oo, R (>= 4.4), R (< 4.4.99)
+Imports: methods, utils, tools, R.methodsS3
+Suggests: datasets, digest (>= 0.6.10)
+License: LGPL (>= 2.1)
+File: R.utils_2.12.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/R.utils/releases/download/2.12.2/R.utils_2.12.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-06-26 14:45:18 UTC; unix
+Filesize: 1547877
+SHA256: 06cff81ef6bc820f3d318c7aff61c2c8f45b24c28a25d8097dda6c5c480a7c62
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: randomForest
+Version: 4.7-1.1
+Depends: R (>= 4.1.0), stats, R (>= 4.4), R (< 4.4.99)
+Suggests: RColorBrewer, MASS
+License: GPL (>= 2)
+File: randomForest_4.7-1.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/randomForest/releases/download/4.7-1.1/randomForest_4.7-1.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:30:15 UTC; unix
+Filesize: 282471
+SHA256: eb278616d3a6da3f0c57a87ca7b7d253270676dc42b150603171be17393dc42f
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: raster
+Version: 3.6-20
+Depends: sp (>= 1.4-5), R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Imports: Rcpp, methods, terra (>= 1.6-41)
+Suggests: ncdf4, igraph, tcltk, parallel, rasterVis, MASS, sf, tinytest, gstat, fields, exactextractr
+License: GPL (>= 3)
+File: raster_3.6-20_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/raster/releases/download/3.6-20/raster_3.6-20_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:45:34 UTC; unix
+Filesize: 6684566
+SHA256: 51d9e74d26c11278be161d7e1934e8cad2c05ab08f273f304bda500a6fcf5b13
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: terra
+Version: 1.7-39
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Imports: methods, Rcpp (>= 1.0-10)
+Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet, htmlwidgets
+License: GPL (>= 3)
+File: terra_1.7-39_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/terra/releases/download/1.7-39/terra_1.7-39_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:33:09 UTC; unix
+Filesize: 28356656
+SHA256: d50c6238e11f967098e625cf36e1796e5421311d9b976d515a40f2cd6f9c4322
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
+LinkingTo: Rcpp
+
+Package: RcppArmadillo
+Version: 0.12.4.1.0
+Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
+Imports: Rcpp (>= 0.11.0), stats, utils, methods
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+File: RcppArmadillo_0.12.4.1.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/0.12.4.1.0/RcppArmadillo_0.12.4.1.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:33:21 UTC; unix
+Filesize: 1906196
+SHA256: 595f2c35cb97c1c98a37e04fe03b31c4a197a8a57e9cf2c4fbd2e718a3971af6
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: rbibutils
+Version: 2.2.13
+Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
+Imports: utils, tools
+Suggests: testthat
+License: GPL-2
+File: rbibutils_2.2.13_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/rbibutils/releases/download/2.2.13/rbibutils_2.2.13_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:30:21 UTC; unix
+Filesize: 1290447
+SHA256: c7e3abbc98f6aead424f7115646f574c34ca5fc941912529d9d39d3cdce190fe
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: Rdpack
+Version: 2.4
+Depends: R (>= 2.15.0), methods, R (>= 4.4), R (< 4.4.99)
+Imports: tools, utils, rbibutils (>= 1.3)
+Suggests: grDevices, testthat, rstudioapi, rprojroot, gbRd
+License: GPL (>= 2)
+File: Rdpack_2.4_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/Rdpack/releases/download/2.4/Rdpack_2.4_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-06-26 14:45:14 UTC; unix
+Filesize: 1021660
+SHA256: b2f3f036b6dd19d681360888bc17de024f73802e4e50df1dfdd8db8ef5dca271
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: sp
+Version: 2.0-0
+Depends: R (>= 3.2.0), methods, R (>= 4.4), R (< 4.4.99)
+Imports: utils, stats, graphics, grDevices, lattice, grid
+Suggests: RColorBrewer, rgdal (>= 1.2-3), rgeos (>= 0.3-13), gstat, maptools, deldir, knitr, rmarkdown, sf, terra, raster
+License: GPL (>= 2)
+File: sp_2.0-0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/sp/releases/download/2.0-0/sp_2.0-0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:30:32 UTC; unix
+Filesize: 2112097
+SHA256: 2d9d4ef31641c9078e2c284512147d93e6b33d0d296a0c6851bd5a968a0cecb0
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: hunspell
+Version: 3.0.2
+Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
+Imports: Rcpp, digest
+Suggests: spelling, testthat, pdftools, janeaustenr, wordcloud2, knitr, stopwords, rmarkdown
+License: GPL-2 | LGPL-2.1 | MPL-1.1
+File: hunspell_3.0.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/hunspell/releases/download/3.0.2/hunspell_3.0.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:33:51 UTC; unix
+Filesize: 3487148
+SHA256: fdab6d8f58d0c7696fc8870b4219bc79a7037b481df2ba784ec5680f3f9edb93
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp (>= 0.12.12)
+
+Package: spelling
+Version: 2.2.1
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: commonmark, xml2, hunspell (>= 3.0), knitr
+Suggests: pdftools
+License: MIT + file LICENSE
+File: spelling_2.2.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/spelling/releases/download/2.2.1/spelling_2.2.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-06-26 14:45:52 UTC; unix
+Filesize: 56608
+SHA256: f85bfc2d1885efffec19966ce7a07d57ec04c0c67bbdca8b3125931f1ef46716
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: tinytest
+Version: 1.4.1
+Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
+Imports: parallel, utils
+License: GPL-3
+File: tinytest_1.4.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/tinytest/releases/download/1.4.1/tinytest_1.4.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-06-26 14:30:38 UTC; unix
+Filesize: 707350
+SHA256: c8aeeecf5da128b15cdc80b426fe3783e2e39efaf51d85295e213b0df565d068
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: vdiffr
+Version: 1.0.5
+Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
+Imports: diffobj, glue, grDevices, htmltools, lifecycle, rlang, testthat (>= 3.0.3), xml2 (>= 1.0.0)
+Suggests: covr, ggplot2 (>= 3.2.0), roxygen2, withr
+License: MIT + file LICENSE
+File: vdiffr_1.0.5_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/vdiffr/releases/download/1.0.5/vdiffr_1.0.5_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:44:47 UTC; unix
+Filesize: 668486
+SHA256: 2aca645c86ba6dfaf4bf26cd066e24f345ca7d210078f99256775b21a9910b90
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++11, libpng
+LinkingTo: cpp11
+
+Package: XML
+Version: 3.99-0.14
+Depends: R (>= 4.0.0), methods, utils, R (>= 4.4), R (< 4.4.99)
+Suggests: bitops, RCurl
+License: BSD_3_clause + file LICENSE
+File: XML_3.99-0.14_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/XML/releases/download/3.99-0.14/XML_3.99-0.14_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:30:44 UTC; unix
+Filesize: 2072891
+SHA256: aed4c0295a92827f2ce2052e313dd0c517a2d0a470e6f78ba9564397876b772b
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libxml2 (>= 2.6.3)
+
+Package: digest
+Version: 0.6.32
+Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
+Imports: utils
+Suggests: tinytest, simplermarkdown
+License: GPL (>= 2)
+File: digest_0.6.32_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/digest/releases/download/0.6.32/digest_0.6.32_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 13:50:47 UTC; unix
+Filesize: 394697
+SHA256: 4f7fbc04c7fd8fd679747cd3210dc42ce189ceece82c207a2af217583ffcae5f
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
