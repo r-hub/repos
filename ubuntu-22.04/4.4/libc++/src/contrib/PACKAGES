@@ -2043,22 +2043,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: pkgbuild
-Version: 1.4.1
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-Imports: callr (>= 3.2.0), cli (>= 3.4.0), crayon, desc, prettyunits, processx, R6, rprojroot,
-Suggests: covr, cpp11, knitr, mockery, Rcpp, rmarkdown, testthat (>= 3.0.0), withr (>= 2.3.0)
-License: MIT + file LICENSE
-File: pkgbuild_1.4.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/pkgbuild/releases/download/1.4.1/pkgbuild_1.4.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.4.0; ; 2023-06-22 10:38:07 UTC; unix
-Filesize: 190950
-SHA256: e2a3e131871943a5e5d678d713a4c4cb7eabfef90b39bf3e568ebca138606f18
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: pkgdown
 Version: 2.0.7
 Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
@@ -4689,3 +4673,37 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional)
 LinkingTo: cpp11 (>= 0.4.2)
+
+Package: digest
+Version: 0.6.32
+Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
+Imports: utils
+Suggests: tinytest, simplermarkdown
+License: GPL (>= 2)
+File: digest_0.6.32_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/digest/releases/download/0.6.32/digest_0.6.32_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 17:00:34 UTC; unix
+Filesize: 209522
+SHA256: 0444e281f7c2915c5d324298ce37f31a0c79a6f4c7e37f82e810eb15c5551e0b
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: pkgbuild
+Version: 1.4.2
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+Imports: callr (>= 3.2.0), cli (>= 3.4.0), crayon, desc, prettyunits, processx, R6, rprojroot
+Suggests: covr, cpp11, knitr, mockery, Rcpp, rmarkdown, testthat (>= 3.0.0), withr (>= 2.3.0)
+License: MIT + file LICENSE
+File: pkgbuild_1.4.2_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/pkgbuild/releases/download/1.4.2/pkgbuild_1.4.2_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.4.0; ; 2023-06-26 17:00:35 UTC; unix
+Filesize: 190878
+SHA256: 2cf194d5535bab1e8709764ea751cce5618c5663f3521b299678c83b79453e9c
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
