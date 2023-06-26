@@ -1,0 +1,17 @@
+
+name: Fedora 38, R 4.4
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '03 17 * * *'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    container: ghcr.io/r-hub/containers/gcc13:latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: r-hub/repos/actions/update-repo@main
+      with:
+        directory: fedora-38/4.4
+        token: ${{ secrets.CRANATGH_GITHUB_TOKEN }}
