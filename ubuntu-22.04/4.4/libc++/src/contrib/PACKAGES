@@ -3819,23 +3819,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++11, libpng
 LinkingTo: cpp11, systemfonts
 
-Package: webshot
-Version: 0.5.4
-Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
-Imports: magrittr, jsonlite, callr
-Suggests: httpuv, knitr, rmarkdown, shiny, testthat (>= 3.0.0)
-License: GPL-2
-File: webshot_0.5.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/webshot/releases/download/0.5.4/webshot_0.5.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.4.0; ; 2023-06-23 11:13:17 UTC; unix
-Filesize: 201991
-SHA256: df49260b72eee7b2b9ea9966b2321d8986dfb07f06aece58ed307ad42e8eb8b0
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: PhantomJS for taking screenshots, ImageMagick or GraphicsMagick and OptiPNG for manipulating images.
-
 Package: lme4
 Version: 1.1-33
 Depends: R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats, R (>= 4.4), R (< 4.4.99)
@@ -4707,3 +4690,38 @@ RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: digest
+Version: 0.6.32
+Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
+Imports: utils
+Suggests: tinytest, simplermarkdown
+License: GPL (>= 2)
+File: digest_0.6.32_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/digest/releases/download/0.6.32/digest_0.6.32_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 17:00:34 UTC; unix
+Filesize: 209578
+SHA256: ac760672105babf5a0e0a9545a17fba12bb5f40d38ed4cf15cdb35016bd97391
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: webshot
+Version: 0.5.5
+Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
+Imports: magrittr, jsonlite, callr
+Suggests: httpuv, knitr, rmarkdown, shiny, testthat (>= 3.0.0)
+License: GPL-2
+File: webshot_0.5.5_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/webshot/releases/download/0.5.5/webshot_0.5.5_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.4.0; ; 2023-06-27 16:59:57 UTC; unix
+Filesize: 202186
+SHA256: 60cc42f16cd4c6428c3b9b21ef462772c00f803ecccb7426ede635dc6056ce06
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: PhantomJS for taking screenshots, ImageMagick or GraphicsMagick and OptiPNG for manipulating images.
