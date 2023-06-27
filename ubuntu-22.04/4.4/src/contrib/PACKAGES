@@ -4003,23 +4003,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++11, libpng
 LinkingTo: cpp11, systemfonts
 
-Package: webshot
-Version: 0.5.4
-Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
-Imports: magrittr, jsonlite, callr
-Suggests: httpuv, knitr, rmarkdown, shiny, testthat (>= 3.0.0)
-License: GPL-2
-DownloadURL: https://github.com/cran/webshot/releases/download/0.5.4/webshot_0.5.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-06-21 16:43:59 UTC; unix
-Filesize: 206058
-SHA256: 68fdc6a03836740726e67827e942e4cb3d0251c52bf5720bf0ca30abc97c013a
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: webshot_0.5.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: PhantomJS for taking screenshots, ImageMagick or GraphicsMagick and OptiPNG for manipulating images.
-
 Package: lme4
 Version: 1.1-33
 Depends: R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats, R (>= 4.4), R (< 4.4.99)
@@ -5047,6 +5030,79 @@ Arch: amd64
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-22 16:35:28 UTC; unix
 Filesize: 2051833
 SHA256: 089668328da43e19b786f7736acc4e7b35b02f0763c78d6214d5b3e7a307a19c
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: sp_2.0-0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: digest
+Version: 0.6.32
+Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
+Imports: utils
+Suggests: tinytest, simplermarkdown
+License: GPL (>= 2)
+DownloadURL: https://github.com/cran/digest/releases/download/0.6.32/digest_0.6.32_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 16:42:15 UTC; unix
+Filesize: 385725
+SHA256: a2912b31c294ea78fa5daa128c028c32e5472cb2b164f5cfddd86689aec53a45
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: digest_0.6.32_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: webshot
+Version: 0.5.5
+Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
+Imports: magrittr, jsonlite, callr
+Suggests: httpuv, knitr, rmarkdown, shiny, testthat (>= 3.0.0)
+License: GPL-2
+DownloadURL: https://github.com/cran/webshot/releases/download/0.5.5/webshot_0.5.5_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-06-27 16:43:53 UTC; unix
+Filesize: 206216
+SHA256: 19316dfff0d4b250925bb62c4be9f794882a8c1b91def449e7fd144e76d28585
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: webshot_0.5.5_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: PhantomJS for taking screenshots, ImageMagick or GraphicsMagick and OptiPNG for manipulating images.
+
+Package: terra
+Version: 1.7-39
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Imports: methods, Rcpp (>= 1.0-10)
+Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet, htmlwidgets
+License: GPL (>= 3)
+DownloadURL: https://github.com/cran/terra/releases/download/1.7-39/terra_1.7-39_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-23 20:38:43 UTC; unix
+Filesize: 29406509
+SHA256: 29b47038bb764d8af998b8729e66f9cd59228b7c8365ff6e06ec83d5f3cb3c49
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: terra_1.7-39_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
+LinkingTo: Rcpp
+
+Package: sp
+Version: 2.0-0
+Depends: R (>= 3.2.0), methods, R (>= 4.4), R (< 4.4.99)
+Imports: utils, stats, graphics, grDevices, lattice, grid
+Suggests: RColorBrewer, rgdal (>= 1.2-3), rgeos (>= 0.3-13), gstat, maptools, deldir, knitr, rmarkdown, sf, terra, raster
+License: GPL (>= 2)
+DownloadURL: https://github.com/cran/sp/releases/download/2.0-0/sp_2.0-0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-22 16:35:28 UTC; unix
+Filesize: 2051835
+SHA256: 7cc2adae31db167394980a822dc449209e740c1bf7244e227a28c11c9a80c486
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: sp_2.0-0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
