@@ -4365,23 +4365,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++11, libpng
 LinkingTo: cpp11, systemfonts
 
-Package: webshot
-Version: 0.5.4
-Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
-Imports: magrittr, jsonlite, callr
-Suggests: httpuv, knitr, rmarkdown, shiny, testthat (>= 3.0.0)
-License: GPL-2
-File: webshot_0.5.4_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/webshot/releases/download/0.5.4/webshot_0.5.4_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-06-26 14:40:45 UTC; unix
-Filesize: 209490
-SHA256: 6bb83994c2dd8173faa65cdc3f065a3212a9aca68cac6cc50e302f1eb0aa724d
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: PhantomJS for taking screenshots, ImageMagick or GraphicsMagick and OptiPNG for manipulating images.
-
 Package: plotly
 Version: 4.10.2
 Depends: R (>= 3.2.0), ggplot2 (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
@@ -4762,3 +4745,38 @@ RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: digest
+Version: 0.6.32
+Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
+Imports: utils
+Suggests: tinytest, simplermarkdown
+License: GPL (>= 2)
+File: digest_0.6.32_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/digest/releases/download/0.6.32/digest_0.6.32_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 13:50:47 UTC; unix
+Filesize: 394698
+SHA256: 97bf996232d5f61d357f37c9154b7280c9b40f29e17213cf82118bb37850cf0e
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: webshot
+Version: 0.5.5
+Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
+Imports: magrittr, jsonlite, callr
+Suggests: httpuv, knitr, rmarkdown, shiny, testthat (>= 3.0.0)
+License: GPL-2
+File: webshot_0.5.5_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/webshot/releases/download/0.5.5/webshot_0.5.5_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-06-27 17:19:50 UTC; unix
+Filesize: 209592
+SHA256: 24e95bbd9bf2c91e4da4fe43b8746db3178e460aa8b4d5c6678e563349635f04
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: PhantomJS for taking screenshots, ImageMagick or GraphicsMagick and OptiPNG for manipulating images.
