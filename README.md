@@ -1,7 +1,8 @@
 
 # CRAN-like R package repositories for R-hub
 
-These repositories are **experimental**.
+These repositories are **experimental**. They are **not** compatible
+with `install.packages()`, only with pak.
 
 ## Can use PPPM:
 
@@ -63,6 +64,15 @@ a shared R lib, by removing the linkage after installation.
 
 ## `fedora-36-R4.4`
 
+### Setup
+
+```
+options(repos = c(
+  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/fedora-36/4.4",
+  CRAN = "https://cloud.r-project.org"
+))
+```
+
 ### Containers using this repo
 
 * [x] `atlas` (extra `ATLAS`)
@@ -72,6 +82,15 @@ a shared R lib, by removing the linkage after installation.
 ## `fedora-38-R4.4`
 
 ### Containers using this repo
+
+### Setup
+
+```
+options(repos = c(
+  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/fedora-38/4.4",
+  CRAN = "https://cloud.r-project.org"
+))
+```
 
 * [x] `gcc13` (extra `gcc13`)
 
