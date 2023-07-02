@@ -1804,22 +1804,6 @@ Platform: x86_64-pc-linux-gnu-fedora-36
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: future
-Version: 1.32.0
-Depends: R (>= 4.4), R (< 4.4.99)
-Imports: digest, globals (>= 0.16.1), listenv (>= 0.8.0), parallel, parallelly (>= 1.34.0), utils
-Suggests: methods, RhpcBLASctl, R.rsp, markdown
-License: LGPL (>= 2.1)
-File: future_1.32.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-DownloadURL: https://github.com/cran/future/releases/download/1.32.0/future_1.32.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-Built: R 4.4.0; ; 2023-06-24 07:57:13 UTC; unix
-Filesize: 672417
-SHA256: 68abc54b7e558e3f41afd63b6d04f9b4f2b0b902bb4f7f6781c5c8917095c640
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-36
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: future.apply
 Version: 1.11.0
 Depends: R (>= 3.2.0), future (>= 1.28.0), R (>= 4.4), R (< 4.4.99)
@@ -4761,3 +4745,57 @@ Platform: x86_64-pc-linux-gnu-fedora-36
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
+
+Package: haven
+Version: 2.5.3
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+Imports: cli (>= 3.0.0), forcats (>= 0.2.0), hms, lifecycle, methods, readr (>= 0.1.0), rlang (>= 0.4.0), tibble, tidyselect, vctrs (>= 0.3.0)
+Suggests: covr, crayon, fs, knitr, pillar (>= 1.4.0), rmarkdown, testthat (>= 3.0.0), utf8
+License: MIT + file LICENSE
+File: haven_2.5.3_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
+DownloadURL: https://github.com/cran/haven/releases/download/2.5.3/haven_2.5.3_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-01 17:11:37 UTC; unix
+Filesize: 1470491
+SHA256: ac5f0d0fc3cf308afb0f94a8a5e7417a25f241d52eb695472467f3804d0ffe65
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-36
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, zlib: zlib1g-dev (deb), zlib-devel (rpm)
+LinkingTo: cpp11
+
+Package: processx
+Version: 3.8.2
+Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
+Imports: ps (>= 1.2.0), R6, utils
+Suggests: callr (>= 3.7.3), cli (>= 3.3.0), codetools, covr, curl, debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0), webfakes, withr
+License: MIT + file LICENSE
+File: processx_3.8.2_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
+DownloadURL: https://github.com/cran/processx/releases/download/3.8.2/processx_3.8.2_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-01 17:11:37 UTC; unix
+Filesize: 460931
+SHA256: d4d89d0c43fd14607e25346148b1d1b5884addc4186904241ef7a9f8da70de4f
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-36
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: future
+Version: 1.33.0
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: digest, globals (>= 0.16.1), listenv (>= 0.8.0), parallel, parallelly (>= 1.34.0), utils
+Suggests: methods, RhpcBLASctl, R.rsp, markdown
+License: LGPL (>= 2.1)
+File: future_1.33.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
+DownloadURL: https://github.com/cran/future/releases/download/1.33.0/future_1.33.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
+Built: R 4.4.0; ; 2023-07-02 17:11:21 UTC; unix
+Filesize: 676774
+SHA256: b9902cddfb6b18961a241913264803dce6602ecf035125a97fc05c0793d588fd
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-36
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
