@@ -4666,3 +4666,22 @@ RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: raster
+Version: 3.6-23
+Depends: sp (>= 1.4-5), R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Imports: Rcpp, methods, terra (>= 1.7-29)
+Suggests: ncdf4, igraph, tcltk, parallel, rasterVis, MASS, sf, tinytest, gstat, fields, exactextractr
+License: GPL (>= 3)
+File: raster_3.6-23_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/raster/releases/download/3.6-23/raster_3.6-23_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-04 17:00:53 UTC; unix
+Filesize: 3381947
+SHA256: 948309a8ed4d0a5a06ee56b429ea22715966eb9475ae8a88e9a7d50356ba7ce7
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
