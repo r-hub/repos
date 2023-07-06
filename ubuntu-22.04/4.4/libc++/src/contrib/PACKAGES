@@ -2124,23 +2124,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: shiny
-Version: 1.7.4
-Depends: R (>= 3.0.2), methods, R (>= 4.4), R (< 4.4.99)
-Imports: utils, grDevices, httpuv (>= 1.5.2), mime (>= 0.3), jsonlite (>= 0.9.16), xtable, fontawesome (>= 0.4.0), htmltools (>= 0.5.4), R6 (>= 2.0), sourcetools, later (>= 1.0.0), promises (>=
-        1.1.0), tools, crayon, rlang (>= 0.4.10), fastmap (>= 1.1.0), withr, commonmark (>= 1.7), glue (>= 1.3.2), bslib (>= 0.3.0), cachem, ellipsis, lifecycle (>= 0.2.0)
-Suggests: datasets, Cairo (>= 1.5-5), testthat (>= 3.0.0), knitr (>= 1.6), markdown, rmarkdown, ggplot2, reactlog (>= 1.0.0), magrittr, yaml, future, dygraphs, ragg, showtext, sass
-License: GPL-3 | file LICENSE
-File: shiny_1.7.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/shiny/releases/download/1.7.4/shiny_1.7.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.4.0; ; 2023-06-22 11:29:11 UTC; unix
-Filesize: 4250154
-SHA256: af9d477ca17ff34b0ab78c7990179e293878b0bdc1d1bd0569acc248a15db573
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: sourcetools
 Version: 0.1.7-1
 Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
@@ -4442,23 +4425,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: zoo
 
-Package: usethis
-Version: 2.2.1
-Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
-Imports: cli (>= 3.0.1), clipr (>= 0.3.0), crayon, curl (>= 2.7), desc (>= 1.4.2), fs (>= 1.3.0), gert (>= 1.4.1), gh (>= 1.2.1), glue (>= 1.3.0), jsonlite, lifecycle (>= 1.0.0), purrr, rappdirs,
-        rlang (>= 1.1.0), rprojroot (>= 1.2), rstudioapi, stats, utils, whisker, withr (>= 2.3.0), yaml
-Suggests: covr, knitr, magick, pkgload, rmarkdown, roxygen2 (>= 7.1.2), spelling (>= 1.2), styler (>= 1.2.0), testthat (>= 3.1.8)
-License: MIT + file LICENSE
-File: usethis_2.2.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/usethis/releases/download/2.2.1/usethis_2.2.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.4.0; ; 2023-06-24 10:04:01 UTC; unix
-Filesize: 873092
-SHA256: 2bb8a294a1acebd1ed5cddfceff341cbb56477891b4a1908f5ffb8c600f5a168
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: arrow
 Version: 12.0.1
 Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
@@ -4723,3 +4689,153 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
+
+Package: xml2
+Version: 1.3.5
+Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
+Imports: methods
+Suggests: covr, curl, httr, knitr, magrittr, mockery, rmarkdown, testthat (>= 2.1.0)
+License: MIT + file LICENSE
+File: xml2_1.3.5_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/xml2/releases/download/1.3.5/xml2_1.3.5_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-06 17:01:42 UTC; unix
+Filesize: 237046
+SHA256: 67d93b71156996b1654c361f9dcbcfa27e0a2612cb324d544ed51771ae9b4af9
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
+
+Package: Rcpp
+Version: 1.0.11
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: methods, utils
+Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
+License: GPL (>= 2)
+File: Rcpp_1.0.11_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/Rcpp/releases/download/1.0.11/Rcpp_1.0.11_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-06 17:01:43 UTC; unix
+Filesize: 2221566
+SHA256: e5ae19d6efef8a0a29691b6f09ea51c1d85143d43a984e59fe9e665f98e23d96
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: shiny
+Version: 1.7.4.1
+Depends: R (>= 3.0.2), methods, R (>= 4.4), R (< 4.4.99)
+Imports: utils, grDevices, httpuv (>= 1.5.2), mime (>= 0.3), jsonlite (>= 0.9.16), xtable, fontawesome (>= 0.4.0), htmltools (>= 0.5.4), R6 (>= 2.0), sourcetools, later (>= 1.0.0), promises (>=
+        1.1.0), tools, crayon, rlang (>= 0.4.10), fastmap (>= 1.1.0), withr, commonmark (>= 1.7), glue (>= 1.3.2), bslib (>= 0.3.0), cachem, ellipsis, lifecycle (>= 0.2.0)
+Suggests: datasets, Cairo (>= 1.5-5), testthat (>= 3.0.0), knitr (>= 1.6), markdown, rmarkdown, ggplot2, reactlog (>= 1.0.0), magrittr, yaml, future, dygraphs, ragg, showtext, sass
+License: GPL-3 | file LICENSE
+File: shiny_1.7.4.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/shiny/releases/download/1.7.4.1/shiny_1.7.4.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.4.0; ; 2023-07-06 17:02:24 UTC; unix
+Filesize: 4268574
+SHA256: f7868f4322acd99dcf36b293e185a30210334c0f59965399f03f439258a33b7e
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rgl
+Version: 1.2.1
+Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
+Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
+Suggests: MASS, rmarkdown (>= 2.16), deldir (>= 1.0-4), orientlib, lattice, misc3d, magick, plotrix (>= 3.7-3), tripack, interp, alphashape3d, tcltk, js (>= 1.2), webshot2 (>= 0.1.0), downlit (>=
+        0.4.0), pkgdown (>= 2.0.0), extrafont, shiny, manipulateWidget (>= 0.9.0), testthat, markdown, crosstalk, V8, chromote, jpeg, png
+License: GPL
+File: rgl_1.2.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/rgl/releases/download/1.2.1/rgl_1.2.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-06 17:02:09 UTC; unix
+Filesize: 3689086
+SHA256: d220777e108dfa6555c2eaf722777618ba9aaf3ab2eb223dd7d881fbe2b62017
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: waldo
+SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
+        (optional), libpng (>=1.2.9, optional), FreeType (optional), pandoc (>=1.14, needed for vignettes)
+
+Package: pROC
+Version: 1.18.4
+Depends: R (>= 2.14), R (>= 4.4), R (< 4.4.99)
+Imports: methods, plyr, Rcpp (>= 0.11.1)
+Suggests: microbenchmark, tcltk, MASS, logcondens, doParallel, testthat, vdiffr, ggplot2, rlang
+License: GPL (>= 3)
+File: pROC_1.18.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/pROC/releases/download/1.18.4/pROC_1.18.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-06 17:02:48 UTC; unix
+Filesize: 839218
+SHA256: 18135be1b608272f342c952dd06abc6717ab4d3e886ece4ee65fc88f0f2b2c4c
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: lme4
+Version: 1.1-34
+Depends: R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats, R (>= 4.4), R (< 4.4.99)
+Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
+Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
+License: GPL (>= 2)
+File: lme4_1.1-34_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/lme4/releases/download/1.1-34/lme4_1.1-34_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-05 17:00:03 UTC; unix
+Filesize: 4291929
+SHA256: 686ec594d865753a8d6c0caba90fc87e4d169b8aab4505aac3ae7e078e34fa23
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp (>= 0.10.5), RcppEigen
+
+Package: raster
+Version: 3.6-23
+Depends: sp (>= 1.4-5), R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Imports: Rcpp, methods, terra (>= 1.7-29)
+Suggests: ncdf4, igraph, tcltk, parallel, rasterVis, MASS, sf, tinytest, gstat, fields, exactextractr
+License: GPL (>= 3)
+File: raster_3.6-23_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/raster/releases/download/3.6-23/raster_3.6-23_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-04 17:00:53 UTC; unix
+Filesize: 3382006
+SHA256: 6de776fb60d5d004d754d1618ef93df501731184f68fdcac37c337258b7ae10a
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: usethis
+Version: 2.2.2
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+Imports: cli (>= 3.0.1), clipr (>= 0.3.0), crayon, curl (>= 2.7), desc (>= 1.4.2), fs (>= 1.3.0), gert (>= 1.4.1), gh (>= 1.2.1), glue (>= 1.3.0), jsonlite, lifecycle (>= 1.0.0), purrr, rappdirs,
+        rlang (>= 1.1.0), rprojroot (>= 1.2), rstudioapi, stats, utils, whisker, withr (>= 2.3.0), yaml
+Suggests: covr, knitr, magick, pkgload, rmarkdown, roxygen2 (>= 7.1.2), spelling (>= 1.2), styler (>= 1.2.0), testthat (>= 3.1.8)
+License: MIT + file LICENSE
+File: usethis_2.2.2_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/usethis/releases/download/2.2.2/usethis_2.2.2_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.4.0; ; 2023-07-06 17:03:17 UTC; unix
+Filesize: 871677
+SHA256: c34a9a503187b47ac746a9914fee1231a9e1ec9ac3ea3799bbe681e37ad9fa5f
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
