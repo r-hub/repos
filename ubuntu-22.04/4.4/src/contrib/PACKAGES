@@ -997,24 +997,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: later, Rcpp
 
-Package: Rcpp
-Version: 1.0.10
-Depends: R (>= 4.4), R (< 4.4.99)
-Imports: methods, utils
-Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
-License: GPL (>= 2)
-DownloadURL: https://github.com/cran/Rcpp/releases/download/1.0.10/Rcpp_1.0.10_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-19 13:20:21 UTC; unix
-Filesize: 3796490
-SHA256: cb08869b8b63b8306808f3fb80b06f54208126ed56575dc95b6cfc72f069019f
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: Rcpp_1.0.10_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: sourcetools
 Version: 0.1.7-1
 Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
@@ -1707,25 +1689,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++11, fontconfig, freetype2
 LinkingTo: cpp11 (>= 0.2.1)
 
-Package: testthat
-Version: 3.1.9
-Depends: R (>= 3.1), R (>= 4.4), R (< 4.4.99)
-Imports: brio, callr (>= 3.5.1), cli (>= 3.4.0), desc, digest, ellipsis (>= 0.2.0), evaluate, jsonlite, lifecycle, magrittr, methods, pkgload (>= 1.3.0), praise, processx, ps (>= 1.3.4), R6 (>=
-        2.2.0), rlang (>= 1.1.0), utils, waldo (>= 0.5.0), withr (>= 2.4.3)
-Suggests: covr, curl (>= 0.9.5), diffviewer (>= 0.1.0), knitr, rmarkdown, rstudioapi, shiny, usethis, vctrs (>= 0.1.0), xml2
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/testthat/releases/download/3.1.9/testthat_3.1.9_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:12:02 UTC; unix
-Filesize: 3444485
-SHA256: a3e355350e3dc1f4714427b75f946c8a0b00223fc301eeac7a2cee475947d1f2
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: testthat_3.1.9_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: textshaping
 Version: 0.3.6
 Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
@@ -1792,25 +1755,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: whisker_0.4.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: xml2
-Version: 1.3.4
-Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
-Imports: methods
-Suggests: covr, curl, httr, knitr, magrittr, mockery, rmarkdown, testthat (>= 2.1.0)
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/xml2/releases/download/1.3.4/xml2_1.3.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:10:38 UTC; unix
-Filesize: 619657
-SHA256: e36df1de4ae641bf0b0d68111d8782335fa6bd4cb93720b801deb08d6db2754d
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: xml2_1.3.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
 
 Package: xopen
 Version: 1.0.0
@@ -2026,28 +1970,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: class_7.3-22_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: rgl
-Version: 1.1.3
-Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
-Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
-Suggests: MASS, rmarkdown (>= 2.16), deldir (>= 1.0-4), orientlib, lattice, misc3d, magick, plotrix (>= 3.7-3), tripack, interp, alphashape3d, tcltk, js (>= 1.2), webshot2 (>= 0.1.0), downlit (>=
-        0.4.0), pkgdown (>= 2.0.0), extrafont, shiny, manipulateWidget (>= 0.9.0), testthat, markdown, crosstalk, V8, chromote
-License: GPL
-DownloadURL: https://github.com/cran/rgl/releases/download/1.1.3/rgl_1.1.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:33:01 UTC; unix
-Filesize: 5856724
-SHA256: fe7914c6ff314f4f5d5084285587d99970fcb57aca3569c4281d004e84e44ce1
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: rgl_1.1.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: waldo
-SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
-        (optional), libpng (>=1.2.9, optional), FreeType (optional), pandoc (>=1.14, needed for vignettes)
 
 Package: backports
 Version: 1.4.1
@@ -2368,25 +2290,6 @@ File: readr_2.1.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11, tzdb (>= 0.1.1)
-
-Package: readxl
-Version: 1.4.2
-Depends: R (>= 3.5), R (>= 4.4), R (< 4.4.99)
-Imports: cellranger, tibble (>= 2.0.1), utils
-Suggests: covr, knitr, rmarkdown, testthat (>= 3.1.6), withr
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/readxl/releases/download/1.4.2/readxl_1.4.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:38:29 UTC; unix
-Filesize: 2197854
-SHA256: 449327561088e2c2fb63da9be3cacb00d6bd81c19e06eb3aed8cdf4fd064016c
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: readxl_1.4.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cpp11 (>= 0.4.0), progress
 
 Package: rematch
 Version: 1.0.1
@@ -3621,25 +3524,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: pROC
-Version: 1.18.2
-Depends: R (>= 2.14), R (>= 4.4), R (< 4.4.99)
-Imports: methods, plyr, Rcpp (>= 0.11.1)
-Suggests: microbenchmark, tcltk, MASS, logcondens, doParallel, testthat, vdiffr, ggplot2
-License: GPL (>= 3)
-DownloadURL: https://github.com/cran/pROC/releases/download/1.18.2/pROC_1.18.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 16:47:30 UTC; unix
-Filesize: 1476425
-SHA256: 97b44ec869e9992646f616568ddcfba28c350a82fb5aad02bddccb6e66b96352
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: pROC_1.18.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: coda
 Version: 0.19-4
 Depends: R (>= 2.14.0), R (>= 4.4), R (< 4.4.99)
@@ -3811,25 +3695,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++11, libpng
 LinkingTo: cpp11, systemfonts
-
-Package: lme4
-Version: 1.1-33
-Depends: R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats, R (>= 4.4), R (< 4.4.99)
-Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
-Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
-License: GPL (>= 2)
-DownloadURL: https://github.com/cran/lme4/releases/download/1.1-33/lme4_1.1-33_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 16:49:38 UTC; unix
-Filesize: 8658711
-SHA256: eb6b57a2c9f52e6718951c1e8dbeb3c98c390dd677c189c166cfb5927a4424a0
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: lme4_1.1-33_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp (>= 0.10.5), RcppEigen
 
 Package: markdown
 Version: 1.7
@@ -4029,25 +3894,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: randomForest_4.7-1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: raster
-Version: 3.6-20
-Depends: sp (>= 1.4-5), R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Imports: Rcpp, methods, terra (>= 1.6-41)
-Suggests: ncdf4, igraph, tcltk, parallel, rasterVis, MASS, sf, tinytest, gstat, fields, exactextractr
-License: GPL (>= 3)
-DownloadURL: https://github.com/cran/raster/releases/download/3.6-20/raster_3.6-20_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 16:51:01 UTC; unix
-Filesize: 6618369
-SHA256: bb7d9dd36bf4c96f35d4c825a33f2fdb81bbf407dd4837caf46d9919d1bc8905
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: raster_3.6-20_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
 
 Package: RcppArmadillo
 Version: 0.12.4.1.0
@@ -4658,24 +4504,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
 LinkingTo: Rcpp
 
-Package: digest
-Version: 0.6.32
-Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
-Imports: utils
-Suggests: tinytest, simplermarkdown
-License: GPL (>= 2)
-DownloadURL: https://github.com/cran/digest/releases/download/0.6.32/digest_0.6.32_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-29 13:20:02 UTC; unix
-Filesize: 385658
-SHA256: d581fb493aa751b9974bab3b12cc16e97e19d491a675209909229766e400582b
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: digest_0.6.32_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: tripack
 Version: 1.3-9.1
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -4774,81 +4602,6 @@ File: future_1.33.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: raster
-Version: 3.6-23
-Depends: sp (>= 1.4-5), R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Imports: Rcpp, methods, terra (>= 1.7-29)
-Suggests: ncdf4, igraph, tcltk, parallel, rasterVis, MASS, sf, tinytest, gstat, fields, exactextractr
-License: GPL (>= 3)
-DownloadURL: https://github.com/cran/raster/releases/download/3.6-23/raster_3.6-23_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-04 16:43:10 UTC; unix
-Filesize: 6616483
-SHA256: 5e96f2802e97fcc26e6a129a59e1d64f2123d64957fcf8253503af2018f25492
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: raster_3.6-23_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
-Package: lme4
-Version: 1.1-34
-Depends: R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats, R (>= 4.4), R (< 4.4.99)
-Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
-Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
-License: GPL (>= 2)
-DownloadURL: https://github.com/cran/lme4/releases/download/1.1-34/lme4_1.1-34_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-05 16:45:03 UTC; unix
-Filesize: 8665277
-SHA256: e5a0af5c8e1ba5c4b8f36ffe02feffdd125c94bc17063795464a355c0ec481c8
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: lme4_1.1-34_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp (>= 0.10.5), RcppEigen
-
-Package: raster
-Version: 3.6-23
-Depends: sp (>= 1.4-5), R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Imports: Rcpp, methods, terra (>= 1.7-29)
-Suggests: ncdf4, igraph, tcltk, parallel, rasterVis, MASS, sf, tinytest, gstat, fields, exactextractr
-License: GPL (>= 3)
-DownloadURL: https://github.com/cran/raster/releases/download/3.6-23/raster_3.6-23_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-04 16:43:10 UTC; unix
-Filesize: 6616511
-SHA256: 391154f6b4a157daf2d6c1c0cc194534165020cb97681968c79ce5e2a4e99c0b
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: raster_3.6-23_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
-Package: Rcpp
-Version: 1.0.11
-Depends: R (>= 4.4), R (< 4.4.99)
-Imports: methods, utils
-Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
-License: GPL (>= 2)
-DownloadURL: https://github.com/cran/Rcpp/releases/download/1.0.11/Rcpp_1.0.11_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-06 16:44:52 UTC; unix
-Filesize: 3756717
-SHA256: cea6c9c88786a70cf5f8c082b1d20ebac7ecd89f7f4acc2e13b5cfea8bf90672
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: Rcpp_1.0.11_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: shiny
 Version: 1.7.4.1
 Depends: R (>= 3.0.2), methods, R (>= 4.4), R (< 4.4.99)
@@ -4865,104 +4618,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: shiny_1.7.4.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: xml2
-Version: 1.3.5
-Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
-Imports: methods
-Suggests: covr, curl, httr, knitr, magrittr, mockery, rmarkdown, testthat (>= 2.1.0)
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/xml2/releases/download/1.3.5/xml2_1.3.5_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-06 16:44:52 UTC; unix
-Filesize: 617879
-SHA256: c5591d1fce9ec0835f6f2359595371189349f48ce557041b69f5c80b3df2ee10
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: xml2_1.3.5_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
-
-Package: rgl
-Version: 1.2.1
-Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
-Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
-Suggests: MASS, rmarkdown (>= 2.16), deldir (>= 1.0-4), orientlib, lattice, misc3d, magick, plotrix (>= 3.7-3), tripack, interp, alphashape3d, tcltk, js (>= 1.2), webshot2 (>= 0.1.0), downlit (>=
-        0.4.0), pkgdown (>= 2.0.0), extrafont, shiny, manipulateWidget (>= 0.9.0), testthat, markdown, crosstalk, V8, chromote, jpeg, png
-License: GPL
-DownloadURL: https://github.com/cran/rgl/releases/download/1.2.1/rgl_1.2.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-06 16:45:14 UTC; unix
-Filesize: 6338426
-SHA256: 7a32ed481e49ba04c8a9cad7b42e16e08adeefc6d026151666fabe8b0b6ebe69
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: rgl_1.2.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: waldo
-SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
-        (optional), libpng (>=1.2.9, optional), FreeType (optional), pandoc (>=1.14, needed for vignettes)
-
-Package: pROC
-Version: 1.18.4
-Depends: R (>= 2.14), R (>= 4.4), R (< 4.4.99)
-Imports: methods, plyr, Rcpp (>= 0.11.1)
-Suggests: microbenchmark, tcltk, MASS, logcondens, doParallel, testthat, vdiffr, ggplot2, rlang
-License: GPL (>= 3)
-DownloadURL: https://github.com/cran/pROC/releases/download/1.18.4/pROC_1.18.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-06 16:45:50 UTC; unix
-Filesize: 1478090
-SHA256: 924ea2dabdb4c1a0170f9e72fac306d55d65d604e36f5915ab8052c98be674b7
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: pROC_1.18.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
-Package: lme4
-Version: 1.1-34
-Depends: R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats, R (>= 4.4), R (< 4.4.99)
-Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
-Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
-License: GPL (>= 2)
-DownloadURL: https://github.com/cran/lme4/releases/download/1.1-34/lme4_1.1-34_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-05 16:45:03 UTC; unix
-Filesize: 8665321
-SHA256: 7be249373d9cace07c99c22050ccc961eebd3a6442027bf96b8a20322e1c1709
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: lme4_1.1-34_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp (>= 0.10.5), RcppEigen
-
-Package: raster
-Version: 3.6-23
-Depends: sp (>= 1.4-5), R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Imports: Rcpp, methods, terra (>= 1.7-29)
-Suggests: ncdf4, igraph, tcltk, parallel, rasterVis, MASS, sf, tinytest, gstat, fields, exactextractr
-License: GPL (>= 3)
-DownloadURL: https://github.com/cran/raster/releases/download/3.6-23/raster_3.6-23_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-04 16:43:10 UTC; unix
-Filesize: 6616513
-SHA256: 865afc4b1ab4876d87871cbe6011c10c56533bb78d80093238f9660118909b86
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: raster_3.6-23_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
 
 Package: usethis
 Version: 2.2.2

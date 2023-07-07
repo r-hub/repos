@@ -17,25 +17,6 @@ Platform: x86_64-pc-linux-gnu-fedora-36
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: xml2
-Version: 1.3.4
-Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
-Imports: methods
-Suggests: covr, curl, httr, knitr, magrittr, mockery, rmarkdown, testthat (>= 2.1.0)
-License: MIT + file LICENSE
-File: xml2_1.3.4_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-DownloadURL: https://github.com/cran/xml2/releases/download/1.3.4/xml2_1.3.4_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-24 07:26:36 UTC; unix
-Filesize: 626428
-SHA256: 20c46cafc67f556ef3b11122f7d8dde431f44431ebd3383618679bdf76ce56c2
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-36
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
-
 Package: askpass
 Version: 1.1
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -800,8 +781,8 @@ RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-fedora-36
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++11, A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
 Enhances: chron, data.table, timeDate, tis, zoo
+SystemRequirements: C++11, A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
 
 Package: magrittr
 Version: 2.0.3
@@ -1089,25 +1070,6 @@ Platform: x86_64-pc-linux-gnu-fedora-36
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11, tzdb (>= 0.1.1)
-
-Package: readxl
-Version: 1.4.2
-Depends: R (>= 3.5), R (>= 4.4), R (< 4.4.99)
-Imports: cellranger, tibble (>= 2.0.1), utils
-Suggests: covr, knitr, rmarkdown, testthat (>= 3.1.6), withr
-License: MIT + file LICENSE
-File: readxl_1.4.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-DownloadURL: https://github.com/cran/readxl/releases/download/1.4.2/readxl_1.4.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-24 07:32:28 UTC; unix
-Filesize: 2176009
-SHA256: 34e8e6b6151f10acac03619c1710e533fd5673050855f8691183dd2ce98cf8b9
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-36
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cpp11 (>= 0.4.0), progress
 
 Package: rematch
 Version: 1.0.1
@@ -1596,25 +1558,6 @@ Platform: x86_64-pc-linux-gnu-fedora-36
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: xml2
-Version: 1.3.4
-Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
-Imports: methods
-Suggests: covr, curl, httr, knitr, magrittr, mockery, rmarkdown, testthat (>= 2.1.0)
-License: MIT + file LICENSE
-File: xml2_1.3.4_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-DownloadURL: https://github.com/cran/xml2/releases/download/1.3.4/xml2_1.3.4_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-24 07:29:14 UTC; unix
-Filesize: 626042
-SHA256: bcc1eea2df69714c0a82fe1f9d6e5eb55e560db8728b1aface840388481a550b
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-36
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
-
 Package: yaml
 Version: 2.3.7
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -2035,24 +1978,6 @@ DownloadURL: https://github.com/cran/progressr/releases/download/0.13.0/progress
 Built: R 4.4.0; ; 2023-06-24 07:56:32 UTC; unix
 Filesize: 394912
 SHA256: 3733a355c779e8e5971c7374f0f00d8bc01a67263d2d3008fb42fe7f969ffc78
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-36
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: Rcpp
-Version: 1.0.10
-Depends: R (>= 4.4), R (< 4.4.99)
-Imports: methods, utils
-Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
-License: GPL (>= 2)
-File: Rcpp_1.0.10_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-DownloadURL: https://github.com/cran/Rcpp/releases/download/1.0.10/Rcpp_1.0.10_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-24 07:56:18 UTC; unix
-Filesize: 3762134
-SHA256: 06908428616f3a1d127f09b28b6dbe1ef737073c8a7fa059a9709a8f4faf079c
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-fedora-36
 GraphicsAPIVersion: 16
@@ -2738,25 +2663,6 @@ Platform: x86_64-pc-linux-gnu-fedora-36
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: testthat
-Version: 3.1.9
-Depends: R (>= 3.1), R (>= 4.4), R (< 4.4.99)
-Imports: brio, callr (>= 3.5.1), cli (>= 3.4.0), desc, digest, ellipsis (>= 0.2.0), evaluate, jsonlite, lifecycle, magrittr, methods, pkgload (>= 1.3.0), praise, processx, ps (>= 1.3.4), R6 (>=
-        2.2.0), rlang (>= 1.1.0), utils, waldo (>= 0.5.0), withr (>= 2.4.3)
-Suggests: covr, curl (>= 0.9.5), diffviewer (>= 0.1.0), knitr, rmarkdown, rstudioapi, shiny, usethis, vctrs (>= 0.1.0), xml2
-License: MIT + file LICENSE
-File: testthat_3.1.9_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-DownloadURL: https://github.com/cran/testthat/releases/download/3.1.9/testthat_3.1.9_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-24 08:05:09 UTC; unix
-Filesize: 3441169
-SHA256: f048f1127214f34f90836ac9b8914c05cd649acda3ec8ee85cc1bf06372238c6
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-36
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: urlchecker
 Version: 1.0.1
 Depends: R (>= 3.3), R (>= 4.4), R (< 4.4.99)
@@ -3118,25 +3024,6 @@ RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-fedora-36
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: lme4
-Version: 1.1-33
-Depends: R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats, R (>= 4.4), R (< 4.4.99)
-Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
-Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
-License: GPL (>= 2)
-File: lme4_1.1-33_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-DownloadURL: https://github.com/cran/lme4/releases/download/1.1-33/lme4_1.1-33_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-24 08:18:36 UTC; unix
-Filesize: 8740078
-SHA256: 64e321a072b887d2587f8cbb4a2957aff797322a8750749856904d5d9bb92890
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-36
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp (>= 0.10.5), RcppEigen
 
 Package: loo
 Version: 2.6.0
@@ -3635,28 +3522,6 @@ SystemRequirements: GEOS (>= 3.2.0); for building from source: GEOS from https:/
         installs on OSX.
 LinkingTo: sp
 
-Package: rgl
-Version: 1.1.3
-Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
-Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
-Suggests: MASS, rmarkdown (>= 2.16), deldir (>= 1.0-4), orientlib, lattice, misc3d, magick, plotrix (>= 3.7-3), tripack, interp, alphashape3d, tcltk, js (>= 1.2), webshot2 (>= 0.1.0), downlit (>=
-        0.4.0), pkgdown (>= 2.0.0), extrafont, shiny, manipulateWidget (>= 0.9.0), testthat, markdown, crosstalk, V8, chromote
-License: GPL
-File: rgl_1.1.3_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-DownloadURL: https://github.com/cran/rgl/releases/download/1.1.3/rgl_1.1.3_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-24 10:03:09 UTC; unix
-Filesize: 5982210
-SHA256: 94fe469cb8ab299fc1fd4e7fbce0464b66ac7a75cbc08f0cef5a324eefae9fa8
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-36
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
-        (optional), libpng (>=1.2.9, optional), FreeType (optional), pandoc (>=1.14, needed for vignettes)
-Enhances: waldo
-
 Package: classInt
 Version: 0.4-9
 Depends: R (>= 2.2), R (>= 4.4), R (< 4.4.99)
@@ -3960,25 +3825,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: pROC
-Version: 1.18.2
-Depends: R (>= 2.14), R (>= 4.4), R (< 4.4.99)
-Imports: methods, plyr, Rcpp (>= 0.11.1)
-Suggests: microbenchmark, tcltk, MASS, logcondens, doParallel, testthat, vdiffr, ggplot2
-License: GPL (>= 3)
-File: pROC_1.18.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-DownloadURL: https://github.com/cran/pROC/releases/download/1.18.2/pROC_1.18.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-24 10:14:10 UTC; unix
-Filesize: 1534108
-SHA256: db6e365299b946d1201f68dec37a0b1011e615b58a59a5963982f6e7de241d7a
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-36
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: coda
 Version: 0.19-4
 Depends: R (>= 2.14.0), R (>= 4.4), R (< 4.4.99)
@@ -4249,25 +4095,6 @@ Platform: x86_64-pc-linux-gnu-fedora-36
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: raster
-Version: 3.6-20
-Depends: sp (>= 1.4-5), R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Imports: Rcpp, methods, terra (>= 1.6-41)
-Suggests: ncdf4, igraph, tcltk, parallel, rasterVis, MASS, sf, tinytest, gstat, fields, exactextractr
-License: GPL (>= 3)
-File: raster_3.6-20_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-DownloadURL: https://github.com/cran/raster/releases/download/3.6-20/raster_3.6-20_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-24 10:15:34 UTC; unix
-Filesize: 6726042
-SHA256: dda27f635b0e7695f28e7391a158805b3ec142a40a54468a5d91b4589df85e8a
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-36
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: RcppArmadillo
 Version: 0.12.4.1.0
 Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
@@ -4501,24 +4328,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
 LinkingTo: Rcpp
 
-Package: digest
-Version: 0.6.32
-Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
-Imports: utils
-Suggests: tinytest, simplermarkdown
-License: GPL (>= 2)
-File: digest_0.6.32_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-DownloadURL: https://github.com/cran/digest/releases/download/0.6.32/digest_0.6.32_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-29 13:20:20 UTC; unix
-Filesize: 388919
-SHA256: ee042851c5da6dc3d2a3801d3400146037d7893d3a0870e3411fcdbe17c78e56
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-36
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: tripack
 Version: 1.3-9.1
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -4617,100 +4426,6 @@ Platform: x86_64-pc-linux-gnu-fedora-36
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: raster
-Version: 3.6-23
-Depends: sp (>= 1.4-5), R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Imports: Rcpp, methods, terra (>= 1.7-29)
-Suggests: ncdf4, igraph, tcltk, parallel, rasterVis, MASS, sf, tinytest, gstat, fields, exactextractr
-License: GPL (>= 3)
-File: raster_3.6-23_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-DownloadURL: https://github.com/cran/raster/releases/download/3.6-23/raster_3.6-23_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-04 17:14:08 UTC; unix
-Filesize: 6725768
-SHA256: e72fdfa9a56d8d1158a7d4937fddc354040a703907521eb58baf898a4ff13bba
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-36
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
-Package: lme4
-Version: 1.1-34
-Depends: R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats, R (>= 4.4), R (< 4.4.99)
-Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
-Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
-License: GPL (>= 2)
-File: lme4_1.1-34_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-DownloadURL: https://github.com/cran/lme4/releases/download/1.1-34/lme4_1.1-34_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-05 17:14:49 UTC; unix
-Filesize: 8749071
-SHA256: 1348bf7aa77c42332a8951019aceca83159a2a07d8a2b5edb7fa645325a63a77
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-36
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp (>= 0.10.5), RcppEigen
-
-Package: raster
-Version: 3.6-23
-Depends: sp (>= 1.4-5), R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Imports: Rcpp, methods, terra (>= 1.7-29)
-Suggests: ncdf4, igraph, tcltk, parallel, rasterVis, MASS, sf, tinytest, gstat, fields, exactextractr
-License: GPL (>= 3)
-File: raster_3.6-23_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-DownloadURL: https://github.com/cran/raster/releases/download/3.6-23/raster_3.6-23_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-04 17:14:08 UTC; unix
-Filesize: 6725809
-SHA256: 99a92ba6a5d38db2316688730f9a238df20ad0cf4ff252e62593a1aa94e84070
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-36
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
-Package: xml2
-Version: 1.3.5
-Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
-Imports: methods
-Suggests: covr, curl, httr, knitr, magrittr, mockery, rmarkdown, testthat (>= 2.1.0)
-License: MIT + file LICENSE
-File: xml2_1.3.5_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-DownloadURL: https://github.com/cran/xml2/releases/download/1.3.5/xml2_1.3.5_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-06 17:16:23 UTC; unix
-Filesize: 625483
-SHA256: 59d15f08ef19716918e2bc579ad9016aa6623d9e050511c0db6709302f87c735
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-36
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
-
-Package: Rcpp
-Version: 1.0.11
-Depends: R (>= 4.4), R (< 4.4.99)
-Imports: methods, utils
-Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
-License: GPL (>= 2)
-File: Rcpp_1.0.11_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-DownloadURL: https://github.com/cran/Rcpp/releases/download/1.0.11/Rcpp_1.0.11_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-06 17:16:24 UTC; unix
-Filesize: 3772489
-SHA256: c8fcac607135c004a900803406dee3b68cabdadcd7a6849c0b30a864d4951e7c
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-36
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: shiny
 Version: 1.7.4.1
 Depends: R (>= 3.0.2), methods, R (>= 4.4), R (< 4.4.99)
@@ -4744,85 +4459,6 @@ RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-fedora-36
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: lme4
-Version: 1.1-34
-Depends: R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats, R (>= 4.4), R (< 4.4.99)
-Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
-Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
-License: GPL (>= 2)
-File: lme4_1.1-34_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-DownloadURL: https://github.com/cran/lme4/releases/download/1.1-34/lme4_1.1-34_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-05 17:14:49 UTC; unix
-Filesize: 8749087
-SHA256: f271774311707e259f68d88228858ac1b3b49af35b49c8071cc28a8bfc731f78
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-36
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp (>= 0.10.5), RcppEigen
-
-Package: rgl
-Version: 1.2.1
-Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
-Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
-Suggests: MASS, rmarkdown (>= 2.16), deldir (>= 1.0-4), orientlib, lattice, misc3d, magick, plotrix (>= 3.7-3), tripack, interp, alphashape3d, tcltk, js (>= 1.2), webshot2 (>= 0.1.0), downlit (>=
-        0.4.0), pkgdown (>= 2.0.0), extrafont, shiny, manipulateWidget (>= 0.9.0), testthat, markdown, crosstalk, V8, chromote, jpeg, png
-License: GPL
-File: rgl_1.2.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-DownloadURL: https://github.com/cran/rgl/releases/download/1.2.1/rgl_1.2.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-06 17:16:59 UTC; unix
-Filesize: 6437604
-SHA256: ebfdc50a0ea7e6f6b9712cf74c106e04edc501ff23496a6c597b5fcd51d3a56f
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-36
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
-        (optional), libpng (>=1.2.9, optional), FreeType (optional), pandoc (>=1.14, needed for vignettes)
-Enhances: waldo
-
-Package: pROC
-Version: 1.18.4
-Depends: R (>= 2.14), R (>= 4.4), R (< 4.4.99)
-Imports: methods, plyr, Rcpp (>= 0.11.1)
-Suggests: microbenchmark, tcltk, MASS, logcondens, doParallel, testthat, vdiffr, ggplot2, rlang
-License: GPL (>= 3)
-File: pROC_1.18.4_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-DownloadURL: https://github.com/cran/pROC/releases/download/1.18.4/pROC_1.18.4_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-06 17:17:24 UTC; unix
-Filesize: 1534806
-SHA256: 91f7c19cb11656bba0ee46f280fa40d456ce54d92c4569b36e08c25da8045f70
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-36
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
-Package: raster
-Version: 3.6-23
-Depends: sp (>= 1.4-5), R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Imports: Rcpp, methods, terra (>= 1.7-29)
-Suggests: ncdf4, igraph, tcltk, parallel, rasterVis, MASS, sf, tinytest, gstat, fields, exactextractr
-License: GPL (>= 3)
-File: raster_3.6-23_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-DownloadURL: https://github.com/cran/raster/releases/download/3.6-23/raster_3.6-23_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-04 17:14:08 UTC; unix
-Filesize: 6725824
-SHA256: bdb0c89b05585e1187361ffb559c9b4248d315d379c5be559e09ad4dd03fd4be
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-36
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
 
 Package: processx
 Version: 3.8.2
@@ -4971,9 +4607,9 @@ RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-fedora-36
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: waldo
 SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
         (optional), libpng (>=1.2.9, optional), FreeType (optional), pandoc (>=1.14, needed for vignettes)
-Enhances: waldo
 
 Package: pROC
 Version: 1.18.4
