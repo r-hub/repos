@@ -3602,28 +3602,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: OpenSSL >= 1.0.1
 LinkingTo: Rcpp, wk
 
-Package: sf
-Version: 1.0-13
-Depends: methods, R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
-Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, Rcpp (>= 0.12.18), s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
-Suggests: blob, covr, dplyr (>= 0.8-3), ggplot2, knitr, lwgeom (>= 0.2-1), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>= 1.1.0),
-        RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.2-0), terra, testthat (>= 3.0.0), tibble (>= 1.4.1),
-        tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk
-License: GPL-2 | MIT + file LICENSE
-File: sf_1.0-13_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/sf/releases/download/1.0-13/sf_1.0-13_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:42:34 UTC; unix
-Filesize: 8663068
-SHA256: 4c7567e9e8bb1ce73103e44168b697120d7ad3f181c2cf6bba6c73f42922f5a6
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
-LinkingTo: Rcpp
-
 Package: units
 Version: 0.8-2
 Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
@@ -3706,21 +3684,6 @@ DownloadURL: https://github.com/cran/carData/releases/download/3.0-5/carData_3.0
 Built: R 4.4.0; ; 2023-06-26 14:29:52 UTC; unix
 Filesize: 1855702
 SHA256: e339f862601afe80eff9928caf56ec89b9ee8f7f00b743ee792ce8d1f74ddf0d
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: MatrixModels
-Version: 0.5-1
-Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-Imports: stats, methods, Matrix (>= 1.4-2)
-License: GPL (>= 2)
-File: MatrixModels_0.5-1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/MatrixModels/releases/download/0.5-1/MatrixModels_0.5-1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-06-26 14:29:56 UTC; unix
-Filesize: 454465
-SHA256: b0227909047b0e80945a8da2953aefb7cd1b37fb1eb6a4ae4e1ed31375841923
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
@@ -4662,6 +4625,43 @@ DownloadURL: https://github.com/cran/pkgbuild/releases/download/1.4.2/pkgbuild_1
 Built: R 4.4.0; ; 2023-07-10 15:45:59 UTC; unix
 Filesize: 200476
 SHA256: ca8cadd12f4475a47c663a9be71b666372bd53c07bea5e771686837a6b5edcc9
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: sf
+Version: 1.0-14
+Depends: methods, R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
+Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, Rcpp (>= 0.12.18), s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
+Suggests: blob, covr, dplyr (>= 0.8-3), ggplot2, knitr, lwgeom (>= 0.2-1), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>= 1.1.0),
+        RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.2-0), terra, testthat (>= 3.0.0), tibble (>= 1.4.1),
+        tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk
+License: GPL-2 | MIT + file LICENSE
+File: sf_1.0-14_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/sf/releases/download/1.0-14/sf_1.0-14_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-11 17:18:34 UTC; unix
+Filesize: 8668266
+SHA256: f82bdb7f0122b9a3c161db05c207f16e7c750a5c9f3f7d00620180929c301414
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
+LinkingTo: Rcpp
+
+Package: MatrixModels
+Version: 0.5-2
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+Imports: stats, methods, Matrix (>= 1.6-0)
+License: GPL (>= 2)
+File: MatrixModels_0.5-2_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/MatrixModels/releases/download/0.5-2/MatrixModels_0.5-2_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-07-11 17:18:27 UTC; unix
+Filesize: 465396
+SHA256: a4c8af46ff06d450298a76c94c84c26f64df3c573f57d9e1c6fbda031ed5b1a4
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
