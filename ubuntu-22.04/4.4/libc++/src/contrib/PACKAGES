@@ -2802,28 +2802,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: OpenSSL >= 1.0.1
 LinkingTo: Rcpp, wk
 
-Package: sf
-Version: 1.0-13
-Depends: methods, R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
-Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, Rcpp (>= 0.12.18), s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
-Suggests: blob, covr, dplyr (>= 0.8-3), ggplot2, knitr, lwgeom (>= 0.2-1), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>= 1.1.0),
-        RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.2-0), terra, testthat (>= 3.0.0), tibble (>= 1.4.1),
-        tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk
-License: GPL-2 | MIT + file LICENSE
-File: sf_1.0-13_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/sf/releases/download/1.0-13/sf_1.0-13_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-23 10:52:44 UTC; unix
-Filesize: 3562676
-SHA256: 43027fe249ba328c6726988e4e38fe9fa2695262f88181aca6b09207094c7c89
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
-LinkingTo: Rcpp
-
 Package: units
 Version: 0.8-2
 Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
@@ -3145,21 +3123,6 @@ DownloadURL: https://github.com/cran/carData/releases/download/3.0-5/carData_3.0
 Built: R 4.4.0; ; 2023-06-23 11:07:04 UTC; unix
 Filesize: 1820217
 SHA256: 781ee186c60074b46c646c914f2ea0fd372a373c3905616e6a5f25779176c1a4
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: MatrixModels
-Version: 0.5-1
-Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-Imports: stats, methods, Matrix (>= 1.4-2)
-License: GPL (>= 2)
-File: MatrixModels_0.5-1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/MatrixModels/releases/download/0.5-1/MatrixModels_0.5-1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.4.0; ; 2023-06-23 11:07:07 UTC; unix
-Filesize: 440673
-SHA256: e64628aa324070ece7615a76f2a1dbbbae49c311e1d532af82353ae3f5c92086
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
@@ -4662,6 +4625,79 @@ DownloadURL: https://github.com/cran/pkgbuild/releases/download/1.4.2/pkgbuild_1
 Built: R 4.4.0; ; 2023-07-10 15:50:11 UTC; unix
 Filesize: 190987
 SHA256: 86352657aaecee6ad909dc57a6aeffa01025c3901e42c98debd09a33fb23eb6c
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: KernSmooth
+Version: 2.23-22
+Depends: R (>= 2.5.0), stats, R (>= 4.4), R (< 4.4.99)
+Suggests: MASS, carData
+License: Unlimited
+File: KernSmooth_2.23-22_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/KernSmooth/releases/download/2.23-22/KernSmooth_2.23-22_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-11 17:00:43 UTC; unix
+Filesize: 91929
+SHA256: afe102e6660223e96cbcb8fd18155a3fa02b610172568dbe378339392b0be1db
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: Matrix
+Version: 1.6-0
+Depends: R (>= 3.5.0), methods, R (>= 4.4), R (< 4.4.99)
+Imports: grDevices, graphics, grid, lattice, stats, utils
+Suggests: MASS, datasets, sfsmisc
+License: GPL (>= 2) | file LICENCE
+File: Matrix_1.6-0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/Matrix/releases/download/1.6-0/Matrix_1.6-0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-11 17:00:44 UTC; unix
+Filesize: 5248083
+SHA256: 6baffd4c73eb09cf75c9d342394eb59fab4145952e86d26a08c57a608ef69fc3
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: SparseM, graph
+
+Package: sf
+Version: 1.0-14
+Depends: methods, R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
+Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, Rcpp (>= 0.12.18), s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
+Suggests: blob, covr, dplyr (>= 0.8-3), ggplot2, knitr, lwgeom (>= 0.2-1), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>= 1.1.0),
+        RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.2-0), terra, testthat (>= 3.0.0), tibble (>= 1.4.1),
+        tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk
+License: GPL-2 | MIT + file LICENSE
+File: sf_1.0-14_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/sf/releases/download/1.0-14/sf_1.0-14_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-11 17:00:59 UTC; unix
+Filesize: 3563381
+SHA256: 88f590b7244ced4b6e678effea46636840a48fe6ef3ba5dd7edc5e1cc1ae5503
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
+LinkingTo: Rcpp
+
+Package: MatrixModels
+Version: 0.5-2
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+Imports: stats, methods, Matrix (>= 1.6-0)
+License: GPL (>= 2)
+File: MatrixModels_0.5-2_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/MatrixModels/releases/download/0.5-2/MatrixModels_0.5-2_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.4.0; ; 2023-07-11 17:03:29 UTC; unix
+Filesize: 451363
+SHA256: ac7ba688c393d157746f848c612dc371313020d8de6feeb3d99044155c6a8e7a
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
