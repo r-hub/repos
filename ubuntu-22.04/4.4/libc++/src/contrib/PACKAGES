@@ -866,25 +866,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: openssl
-Version: 2.0.6
-Depends: R (>= 4.4), R (< 4.4.99)
-Imports: askpass
-Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
-License: MIT + file LICENSE
-File: openssl_2.0.6_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/openssl/releases/download/2.0.6/openssl_2.0.6_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-22 10:39:29 UTC; unix
-Filesize: 1311872
-SHA256: 712bb2bb0dfe3443d0b8605fc37f168a1c14bd4828e80807e0966705476441d8
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: OpenSSL >= 1.0.2
-
 Package: pillar
 Version: 1.9.0
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -4702,3 +4683,22 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make
+
+Package: openssl
+Version: 2.1.0
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: askpass
+Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
+License: MIT + file LICENSE
+File: openssl_2.1.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/openssl/releases/download/2.1.0/openssl_2.1.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-16 16:59:41 UTC; unix
+Filesize: 1308986
+SHA256: 2b287586efcc4dac827d51b7756eecbb7661e9ce96fddd84dd6dda4293032e0b
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: OpenSSL >= 1.0.2
