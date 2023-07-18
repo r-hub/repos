@@ -2493,23 +2493,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: remotes
-Version: 2.4.2
-Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
-Imports: methods, stats, tools, utils
-Suggests: brew, callr, codetools, curl, covr, git2r (>= 0.23.0), knitr, mockery, pkgbuild (>= 1.0.1), pingr, rmarkdown, rprojroot, testthat, webfakes, withr
-License: MIT + file LICENSE
-File: remotes_2.4.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/remotes/releases/download/2.4.2/remotes_2.4.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-06-26 12:23:47 UTC; unix
-Filesize: 413439
-SHA256: 58983f5a8441911c7be981d494c3c94142c10484f7e567fd55f467340512334c
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: Subversion for install_svn, git for install_git
-
 Package: roxygen2
 Version: 7.2.3
 Depends: R (>= 3.3), R (>= 4.4), R (< 4.4.99)
@@ -2722,24 +2705,6 @@ DownloadURL: https://github.com/cran/assertthat/releases/download/0.2.1/assertth
 Built: R 4.4.0; ; 2023-06-26 13:06:41 UTC; unix
 Filesize: 57094
 SHA256: f8bbbb6590e66c56047204fd589de8ac33fd9c8ddedcb9f450e31563c5f35699
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: duckdb
-Version: 0.8.1
-Depends: DBI, R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-Imports: methods, utils
-Suggests: arrow, bit64, callr, DBItest, dplyr, dbplyr, rlang, testthat, tibble, vctrs, withr
-License: MIT + file LICENSE
-File: duckdb_0.8.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/0.8.1/duckdb_0.8.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 13:06:46 UTC; unix
-Filesize: 147313834
-SHA256: 7cfd7965b113ffd8c260b6e59b6beb2f845e46485b6c089323306cdf09ef4e28
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
@@ -3212,23 +3177,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, pandoc (>= 1.12.3), pandoc-citeproc
 LinkingTo: StanHeaders (>= 2.21.0), rstan (>= 2.21.1), BH (>= 1.72.0-2), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0), RcppParallel (>= 5.0.1)
-
-Package: rstantools
-Version: 2.3.1
-Depends: R (>= 4.4), R (< 4.4.99)
-Imports: desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1)
-Suggests: rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0), knitr, pkgbuild, pkgload, roxygen2 (>= 6.0.1), rmarkdown, rstudioapi
-License: GPL (>= 3)
-File: rstantools_2.3.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/rstantools/releases/download/2.3.1/rstantools_2.3.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-06-26 13:53:34 UTC; unix
-Filesize: 170363
-SHA256: 0a68f4e7521adb54ed6c5c617fc26001fee8ca8933f726320499bed37a8b9513
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc, C++14
 
 Package: shinyjs
 Version: 2.1.0
@@ -4666,3 +4614,55 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: OpenSSL >= 1.0.2
+
+Package: remotes
+Version: 2.4.2.1
+Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
+Imports: methods, stats, tools, utils
+Suggests: brew, callr, codetools, curl, covr, git2r (>= 0.23.0), knitr, mockery, pkgbuild (>= 1.0.1), pingr, rmarkdown, rprojroot, testthat, webfakes, withr
+License: MIT + file LICENSE
+File: remotes_2.4.2.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/remotes/releases/download/2.4.2.1/remotes_2.4.2.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-07-18 17:17:00 UTC; unix
+Filesize: 413243
+SHA256: 61845db1e427e564a8c070ad6b53fe28659dd316e6d0b89600f37fc0ed6903f0
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: Subversion for install_svn, git for install_git
+
+Package: duckdb
+Version: 0.8.1-1
+Depends: DBI, R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+Imports: methods, utils
+Suggests: arrow, bit64, callr, DBItest, dplyr, dbplyr, rlang, testthat, tibble, vctrs, withr
+License: MIT + file LICENSE
+File: duckdb_0.8.1-1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/0.8.1-1/duckdb_0.8.1-1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-18 17:17:05 UTC; unix
+Filesize: 147341034
+SHA256: ff068e2928ba66dfb3a26b1543a6c06c46764be4f14e58ab95eb72b74f151970
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rstantools
+Version: 2.3.1.1
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1)
+Suggests: rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0), knitr, pkgbuild, pkgload, roxygen2 (>= 6.0.1), rmarkdown, rstudioapi
+License: GPL (>= 3)
+File: rstantools_2.3.1.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/rstantools/releases/download/2.3.1.1/rstantools_2.3.1.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-07-18 17:17:06 UTC; unix
+Filesize: 170635
+SHA256: 231cc8f0b0ff483ee0d3dc967383799d712a3a3a5a8efef493ea6a3b2094c31d
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc, C++14
