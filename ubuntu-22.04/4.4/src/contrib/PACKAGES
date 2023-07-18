@@ -1498,23 +1498,6 @@ File: rematch2_2.1.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: remotes
-Version: 2.4.2
-Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
-Imports: methods, stats, tools, utils
-Suggests: brew, callr, codetools, curl, covr, git2r (>= 0.23.0), knitr, mockery, pkgbuild (>= 1.0.1), pingr, rmarkdown, rprojroot, testthat, webfakes, withr
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/remotes/releases/download/2.4.2/remotes_2.4.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-06-21 09:10:24 UTC; unix
-Filesize: 398521
-SHA256: 35aa639f374fc0e1a5fb15ea17fea64dd587d929e13fedc79e0ea9ff217e9e58
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: remotes_2.4.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: Subversion for install_svn, git for install_git
-
 Package: roxygen2
 Version: 7.2.3
 Depends: R (>= 3.3), R (>= 4.4), R (< 4.4.99)
@@ -3952,24 +3935,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11 (>= 0.4.2)
 
-Package: duckdb
-Version: 0.8.1
-Depends: DBI, R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-Imports: methods, utils
-Suggests: arrow, bit64, callr, DBItest, dplyr, dbplyr, rlang, testthat, tibble, vctrs, withr
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/duckdb/releases/download/0.8.1/duckdb_0.8.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-23 20:46:13 UTC; unix
-Filesize: 149603009
-SHA256: ed070b605cbe21a920143dcec904707b105195ff3136b3dccdbcee5c9bf91dca
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: duckdb_0.8.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: bayesplot
 Version: 1.10.0
 Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
@@ -4155,22 +4120,6 @@ File: rstanarm_2.21.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: StanHeaders (>= 2.21.0), rstan (>= 2.21.1), BH (>= 1.72.0-2), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0), RcppParallel (>= 5.0.1)
-
-Package: rstantools
-Version: 2.3.1
-Depends: R (>= 4.4), R (< 4.4.99)
-Imports: desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1)
-Suggests: rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0), knitr, pkgbuild, pkgload, roxygen2 (>= 6.0.1), rmarkdown, rstudioapi
-License: GPL (>= 3)
-DownloadURL: https://github.com/cran/rstantools/releases/download/2.3.1/rstantools_2.3.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-06-23 20:48:37 UTC; unix
-Filesize: 163696
-SHA256: 0fd77fb404074d54d95b1bb7fd06f9770483e1a393a4fd107dfb2b8bb7b31e65
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: rstantools_2.3.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: shinyjs
 Version: 2.1.0
@@ -4842,3 +4791,55 @@ File: openssl_2.1.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: OpenSSL >= 1.0.2
+
+Package: remotes
+Version: 2.4.2.1
+Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
+Imports: methods, stats, tools, utils
+Suggests: brew, callr, codetools, curl, covr, git2r (>= 0.23.0), knitr, mockery, pkgbuild (>= 1.0.1), pingr, rmarkdown, rprojroot, testthat, webfakes, withr
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/remotes/releases/download/2.4.2.1/remotes_2.4.2.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-07-18 16:40:58 UTC; unix
+Filesize: 401920
+SHA256: c8765dc36c090be30423fbef2bfbbb57ed15c36b32cc813917bfafb1290769d9
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: remotes_2.4.2.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: Subversion for install_svn, git for install_git
+
+Package: duckdb
+Version: 0.8.1-1
+Depends: DBI, R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+Imports: methods, utils
+Suggests: arrow, bit64, callr, DBItest, dplyr, dbplyr, rlang, testthat, tibble, vctrs, withr
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/duckdb/releases/download/0.8.1-1/duckdb_0.8.1-1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-18 16:41:02 UTC; unix
+Filesize: 149602188
+SHA256: c2a0d89189f51c0313542c40b73beaa215d6f18c82f351cdde0808dd8bb0913a
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: duckdb_0.8.1-1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rstantools
+Version: 2.3.1.1
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1)
+Suggests: rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0), knitr, pkgbuild, pkgload, roxygen2 (>= 6.0.1), rmarkdown, rstudioapi
+License: GPL (>= 3)
+DownloadURL: https://github.com/cran/rstantools/releases/download/2.3.1.1/rstantools_2.3.1.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-07-18 16:41:04 UTC; unix
+Filesize: 163831
+SHA256: 8e8f7b1f10d9e79f83abf4600a98b4b14880319a2c2b3802bb063e3f34bedc06
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: rstantools_2.3.1.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc, C++14
