@@ -2673,27 +2673,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: arrow
-Version: 12.0.1
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
-Suggests: blob, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0), tibble, tzdb,
-        withr
-License: Apache License (>= 2.0)
-File: arrow_12.0.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/arrow/releases/download/12.0.1/arrow_12.0.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 13:20:27 UTC; unix
-Filesize: 165160262
-SHA256: 4ec8fab4d183df3a6625c67ab97934f551957f8dcaafdb55fc42fead544e3e14
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional)
-LinkingTo: cpp11 (>= 0.4.2)
-
 Package: assertthat
 Version: 0.2.1
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -3417,27 +3396,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: rgeos
-Version: 0.6-3
-Depends: R (>= 3.3.0), methods, sp (>= 1.1-0), R (>= 4.4), R (< 4.4.99)
-Imports: utils, stats, graphics
-Suggests: maptools (>= 0.8-5), testthat, XML, maps, rgdal
-License: GPL (>= 2)
-File: rgeos_0.6-3_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/rgeos/releases/download/0.6-3/rgeos_0.6-3_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:45:23 UTC; unix
-Filesize: 854113
-SHA256: 3eab788040bf8f45214e8fcf32a2bca94a7aabd57bbea3fb8a018b48bd4b2732
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GEOS (>= 3.2.0); for building from source: GEOS from https://libgeos.org; GEOS OSX frameworks built by William Kyngesburye at http://www.kyngchaos.com/ may be used for source
-        installs on OSX.
-LinkingTo: sp
-
 Package: classInt
 Version: 0.4-9
 Depends: R (>= 2.2), R (>= 4.4), R (< 4.4.99)
@@ -3610,24 +3568,6 @@ DownloadURL: https://github.com/cran/pbkrtest/releases/download/0.5.2/pbkrtest_0
 Built: R 4.4.0; ; 2023-06-26 14:40:54 UTC; unix
 Filesize: 200335
 SHA256: 0b21d7baac446d976bacf867769cad18c64d68db0ed9238385c1fbf245d877dc
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: quantreg
-Version: 5.95
-Depends: R (>= 3.5), stats, SparseM, R (>= 4.4), R (< 4.4.99)
-Imports: methods, graphics, Matrix, MatrixModels, survival, MASS
-Suggests: interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer
-License: GPL (>= 2)
-File: quantreg_5.95_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/quantreg/releases/download/5.95/quantreg_5.95_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:41:07 UTC; unix
-Filesize: 1753070
-SHA256: 2ebc34be28d8d1580716966012482e4346698b089336dedb95b2865500fc919b
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
@@ -4666,3 +4606,62 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc, C++14
+
+Package: arrow
+Version: 12.0.1.1
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+Suggests: blob, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0), tibble, tzdb,
+        withr
+License: Apache License (>= 2.0)
+File: arrow_12.0.1.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/arrow/releases/download/12.0.1.1/arrow_12.0.1.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-19 17:40:00 UTC; unix
+Filesize: 165211481
+SHA256: ec832b0f67f802a9f12adb0a60b6ab32a484acd26c926fe560ccde33d82a4c4f
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional)
+LinkingTo: cpp11 (>= 0.4.2)
+
+Package: rgeos
+Version: 0.6-4
+Depends: R (>= 3.3.0), methods, sp (>= 1.1-0), R (>= 4.4), R (< 4.4.99)
+Imports: utils, stats, graphics
+Suggests: maptools (>= 0.8-5), testthat, XML, maps, rgdal
+License: GPL (>= 2)
+File: rgeos_0.6-4_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/rgeos/releases/download/0.6-4/rgeos_0.6-4_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-19 17:16:46 UTC; unix
+Filesize: 854064
+SHA256: 6383affb7748a03fcb7386fb66d8c758be08479d03597a5d15d4129d7ada264a
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GEOS (>= 3.2.0).
+LinkingTo: sp
+
+Package: quantreg
+Version: 5.96
+Depends: R (>= 3.5), stats, SparseM, R (>= 4.4), R (< 4.4.99)
+Imports: methods, graphics, Matrix, MatrixModels, survival, MASS
+Suggests: interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer
+License: GPL (>= 2)
+File: quantreg_5.96_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/quantreg/releases/download/5.96/quantreg_5.96_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-19 17:17:02 UTC; unix
+Filesize: 1753231
+SHA256: 0bc9ea7bbb011549b73b2527c6fb0325e5c406fd5f7bfa914fb8dce4e1fa8335
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
