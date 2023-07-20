@@ -3104,27 +3104,6 @@ File: mvtnorm_1.2-2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: rgeos
-Version: 0.6-3
-Depends: R (>= 3.3.0), methods, sp (>= 1.1-0), R (>= 4.4), R (< 4.4.99)
-Imports: utils, stats, graphics
-Suggests: maptools (>= 0.8-5), testthat, XML, maps, rgdal
-License: GPL (>= 2)
-DownloadURL: https://github.com/cran/rgeos/releases/download/0.6-3/rgeos_0.6-3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 16:50:56 UTC; unix
-Filesize: 816945
-SHA256: fc1a5ff8469ca2f0260429e7b0ec0132cf47cc16c5662f556df730900f901947
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: rgeos_0.6-3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GEOS (>= 3.2.0); for building from source: GEOS from https://libgeos.org; GEOS OSX frameworks built by William Kyngesburye at http://www.kyngchaos.com/ may be used for source
-        installs on OSX.
-LinkingTo: sp
-
 Package: zoo
 Version: 1.8-12
 Depends: R (>= 3.1.0), stats, R (>= 4.4), R (< 4.4.99)
@@ -3289,24 +3268,6 @@ SHA256: 87434ce8d8111f6868a5273428b1ad07d7315e1bef854d54cdeba5b8981a40e5
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: pbkrtest_0.5.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: quantreg
-Version: 5.95
-Depends: R (>= 3.5), stats, SparseM, R (>= 4.4), R (< 4.4.99)
-Imports: methods, graphics, Matrix, MatrixModels, survival, MASS
-Suggests: interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer
-License: GPL (>= 2)
-DownloadURL: https://github.com/cran/quantreg/releases/download/5.95/quantreg_5.95_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 16:45:07 UTC; unix
-Filesize: 1677090
-SHA256: b788b336a1c8b48764b02d9eb80c0018728a0068c49a685c5b8cde09ba59c5b8
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: quantreg_5.95_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
@@ -3914,26 +3875,6 @@ File: XML_3.99-0.14_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libxml2 (>= 2.6.3)
-
-Package: arrow
-Version: 12.0.1
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
-Suggests: blob, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0), tibble, tzdb,
-        withr
-License: Apache License (>= 2.0)
-DownloadURL: https://github.com/cran/arrow/releases/download/12.0.1/arrow_12.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-23 20:39:30 UTC; unix
-Filesize: 40616642
-SHA256: 87f5e7ad2147c105edc23ca4731a683c01f1fbe43ffc9244ef7d7257f2ebfdd2
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: arrow_12.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cpp11 (>= 0.4.2)
 
 Package: bayesplot
 Version: 1.10.0
@@ -4843,3 +4784,62 @@ File: rstantools_2.3.1.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc, C++14
+
+Package: rgeos
+Version: 0.6-4
+Depends: R (>= 3.3.0), methods, sp (>= 1.1-0), R (>= 4.4), R (< 4.4.99)
+Imports: utils, stats, graphics
+Suggests: maptools (>= 0.8-5), testthat, XML, maps, rgdal
+License: GPL (>= 2)
+DownloadURL: https://github.com/cran/rgeos/releases/download/0.6-4/rgeos_0.6-4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-20 07:51:35 UTC; unix
+Filesize: 816533
+SHA256: 7b1eac90e9e5342a58d2381354a6ccfc94b2cc0990372d09241a6a856525628b
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: rgeos_0.6-4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GEOS (>= 3.2.0).
+LinkingTo: sp
+
+Package: quantreg
+Version: 5.96
+Depends: R (>= 3.5), stats, SparseM, R (>= 4.4), R (< 4.4.99)
+Imports: methods, graphics, Matrix, MatrixModels, survival, MASS
+Suggests: interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer
+License: GPL (>= 2)
+DownloadURL: https://github.com/cran/quantreg/releases/download/5.96/quantreg_5.96_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-20 07:51:35 UTC; unix
+Filesize: 1675684
+SHA256: 6311a44fb15e2e7e249fe0c8cd81d6fd59faeca124b2befa925666e341fccb5a
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: quantreg_5.96_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: arrow
+Version: 12.0.1.1
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+Suggests: blob, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0), tibble, tzdb,
+        withr
+License: Apache License (>= 2.0)
+DownloadURL: https://github.com/cran/arrow/releases/download/12.0.1.1/arrow_12.0.1.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-20 07:51:51 UTC; unix
+Filesize: 40594768
+SHA256: a4b648a4c9c7759d25323c4e96cf5dd65927ac9bc231f8b5fa01d88a1be507a4
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: arrow_12.0.1.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional)
+LinkingTo: cpp11 (>= 0.4.2)
