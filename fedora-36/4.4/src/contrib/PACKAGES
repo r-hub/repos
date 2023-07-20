@@ -478,25 +478,6 @@ Platform: x86_64-pc-linux-gnu-fedora-36
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: fs
-Version: 1.6.2
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-Imports: methods
-Suggests: covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr
-License: MIT + file LICENSE
-File: fs_1.6.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-DownloadURL: https://github.com/cran/fs/releases/download/1.6.2/fs_1.6.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-24 07:15:14 UTC; unix
-Filesize: 788270
-SHA256: f348f232c0a76bf71c07f1a1ae66913dd279d4a715e0d4be8386303a17d08abf
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-36
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make
-
 Package: gargle
 Version: 1.5.1
 Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
@@ -4143,21 +4124,6 @@ Platform: x86_64-pc-linux-gnu-fedora-36
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: cpp11
-Version: 0.4.4
-Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue, knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp, testthat, tibble, utils, vctrs, withr
-License: MIT + file LICENSE
-File: cpp11_0.4.4_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-DownloadURL: https://github.com/cran/cpp11/releases/download/0.4.4/cpp11_0.4.4_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-Built: R 4.4.0; ; 2023-07-01 17:11:32 UTC; unix
-Filesize: 300678
-SHA256: edb1e8e603d629880202ea2b009fab07d62e2eb901d46163b96fba4c22793a17
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-36
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: rmarkdown
 Version: 2.23
 Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
@@ -4665,3 +4631,38 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional)
 LinkingTo: cpp11 (>= 0.4.2)
+
+Package: fs
+Version: 1.6.3
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+Imports: methods
+Suggests: covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr
+License: MIT + file LICENSE
+File: fs_1.6.3_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
+DownloadURL: https://github.com/cran/fs/releases/download/1.6.3/fs_1.6.3_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-20 17:10:49 UTC; unix
+Filesize: 789467
+SHA256: 4f2315b8717114a57c262b81b65edb4c592e381524447c32a25b592bf2bdc69c
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-36
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make
+
+Package: cpp11
+Version: 0.4.5
+Depends: R (>= 4.4), R (< 4.4.99)
+Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue, knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp, testthat, tibble, utils, vctrs, withr
+License: MIT + file LICENSE
+File: cpp11_0.4.5_b3_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
+DownloadURL: https://github.com/cran/cpp11/releases/download/0.4.5/cpp11_0.4.5_b3_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
+Built: R 4.4.0; ; 2023-07-20 17:10:49 UTC; unix
+Filesize: 301557
+SHA256: 8cd82e3f0498060b56dca88ee510148ff6762a5b28f3f77eff270ebf2a971a57
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-36
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++11
