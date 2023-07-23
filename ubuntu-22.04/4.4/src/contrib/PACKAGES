@@ -2981,26 +2981,6 @@ File: htmlTable_2.4.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: igraph
-Version: 1.5.0
-Depends: methods, R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Imports: cli, graphics, grDevices, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang, stats, utils
-Suggests: ape (>= 5.7-0.1), callr, decor, digest, graph, igraphdata, knitr, rgl, rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
-License: GPL (>= 2)
-DownloadURL: https://github.com/cran/igraph/releases/download/1.5.0/igraph_1.5.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:55:42 UTC; unix
-Filesize: 9654974
-SHA256: 0f3ea290950ed93a50ee22e74bff80f492963af47a9aa542c482cabdcd8c487b
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: igraph_1.5.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: gmp (optional), libxml2 (optional), glpk (>= 4.57, optional)
-LinkingTo: cpp11 (>= 0.2.0)
-
 Package: plogr
 Version: 0.2.0
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -4862,3 +4842,23 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: viridis_0.6.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: igraph
+Version: 1.5.0.1
+Depends: methods, R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Imports: cli, graphics, grDevices, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang, stats, utils
+Suggests: ape (>= 5.7-0.1), callr, decor, digest, graph, igraphdata, knitr, rgl, rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
+License: GPL (>= 2)
+DownloadURL: https://github.com/cran/igraph/releases/download/1.5.0.1/igraph_1.5.0.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-23 16:34:22 UTC; unix
+Filesize: 9772601
+SHA256: f278e5d67e29f18d21693567bd180d92a8a1b262663e1bf92bd5e2ae912eb910
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: igraph_1.5.0.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: gmp (optional), libxml2 (optional), glpk (>= 4.57, optional)
+LinkingTo: cpp11 (>= 0.2.0)
