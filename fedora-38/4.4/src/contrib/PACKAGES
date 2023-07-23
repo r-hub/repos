@@ -2849,26 +2849,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: igraph
-Version: 1.5.0
-Depends: methods, R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Imports: cli, graphics, grDevices, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang, stats, utils
-Suggests: ape (>= 5.7-0.1), callr, decor, digest, graph, igraphdata, knitr, rgl, rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
-License: GPL (>= 2)
-File: igraph_1.5.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/igraph/releases/download/1.5.0/igraph_1.5.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 13:52:34 UTC; unix
-Filesize: 9922059
-SHA256: aacb85cb843075e480354ce007a1f42578515ed9a9e8a2397dd692c764a1c27c
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: gmp (optional), libxml2 (optional), glpk (>= 4.57, optional)
-LinkingTo: cpp11 (>= 0.2.0)
-
 Package: inline
 Version: 0.3.19
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -4684,3 +4664,23 @@ RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: igraph
+Version: 1.5.0.1
+Depends: methods, R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Imports: cli, graphics, grDevices, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang, stats, utils
+Suggests: ape (>= 5.7-0.1), callr, decor, digest, graph, igraphdata, knitr, rgl, rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
+License: GPL (>= 2)
+File: igraph_1.5.0.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/igraph/releases/download/1.5.0.1/igraph_1.5.0.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-23 17:14:46 UTC; unix
+Filesize: 9928156
+SHA256: a6ca6945ad4c67e5c20e4462e1b7a87b253fa652331c91f838f10d0427f664a4
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: gmp (optional), libxml2 (optional), glpk (>= 4.57, optional)
+LinkingTo: cpp11 (>= 0.2.0)
