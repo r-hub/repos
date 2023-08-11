@@ -643,25 +643,6 @@ File: highr_0.10_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: htmltools
-Version: 0.5.5
-Depends: R (>= 2.14.1), R (>= 4.4), R (< 4.4.99)
-Imports: utils, digest, grDevices, base64enc, rlang (>= 0.4.10), fastmap (>= 1.1.0), ellipsis
-Suggests: markdown, testthat, withr, Cairo, ragg, shiny
-License: GPL (>= 2)
-DownloadURL: https://github.com/cran/htmltools/releases/download/0.5.5/htmltools_0.5.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-19 13:25:59 UTC; unix
-Filesize: 349275
-SHA256: 18339ecc76be9a11cff3c8e758c02992e42055bc9baaac1fd9a752aa68b1b447
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: htmltools_0.5.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: knitr
-
 Package: jds.rmd
 Version: 0.3.3
 Depends: R (>= 3.2.3), R (>= 4.4), R (< 4.4.99)
@@ -1645,26 +1626,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: OpenSSL >= 1.0.1
 LinkingTo: Rcpp, wk
 
-Package: units
-Version: 0.8-2
-Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
-Imports: Rcpp
-Suggests: NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0), dplyr (>= 1.0.0), vctrs (>= 0.3.1), ggplot2 (> 3.2.1), testthat (>= 3.0.0), vdiffr, knitr, rmarkdown
-License: GPL-2
-DownloadURL: https://github.com/cran/units/releases/download/0.8-2/units_0.8-2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:21:20 UTC; unix
-Filesize: 797031
-SHA256: 900ffaa37aad612b1a143c90bf24bae14ce477a846eff27013769313117eda35
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: units_0.8-2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: udunits-2
-LinkingTo: Rcpp (>= 0.12.10)
-
 Package: wk
 Version: 0.7.3
 Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
@@ -2551,40 +2512,6 @@ File: prodlim_2023.03.31_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
-
-Package: progressr
-Version: 0.13.0
-Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Imports: digest, utils
-Suggests: graphics, tcltk, beepr, cli, crayon, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools
-License: GPL (>= 3)
-DownloadURL: https://github.com/cran/progressr/releases/download/0.13.0/progressr_0.13.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-06-21 09:45:29 UTC; unix
-Filesize: 378610
-SHA256: e98d6eaaae40a1855cf86e34d36614381a9e4c0734464ead986de3ca7f7d47f2
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: progressr_0.13.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: recipes
-Version: 1.0.6
-Depends: dplyr (>= 1.1.0), R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-Imports: cli, clock (>= 0.6.1), ellipsis, generics (>= 0.1.2), glue, gower, hardhat (>= 1.3.0), ipred (>= 0.9-12), lifecycle (>= 1.0.3), lubridate (>= 1.8.0), magrittr, Matrix, purrr (>= 1.0.0),
-        rlang (>= 1.0.3), stats, tibble, tidyr (>= 1.0.0), tidyselect (>= 1.2.0), timeDate, utils, vctrs (>= 0.5.0), withr
-Suggests: covr, ddalpha, dials (>= 1.2.0), ggplot2, igraph, kernlab, knitr, modeldata (>= 0.1.1), parsnip (>= 0.1.7), RANN, RcppRoll, rmarkdown, rpart, rsample, RSpectra, splines2, testthat (>=
-        3.0.0), workflows, xml2
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/recipes/releases/download/1.0.6/recipes_1.0.6_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-06-21 09:47:38 UTC; unix
-Filesize: 1490912
-SHA256: 2e1d9c9730d799323a379c5c6f97c8af80bd25f43e02521c288c928187c29ce7
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: recipes_1.0.6_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: rsample
 Version: 1.1.1
@@ -4861,3 +4788,76 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: gmp (optional), libxml2 (optional), glpk (>= 4.57, optional)
 LinkingTo: cpp11 (>= 0.2.0)
+
+Package: htmltools
+Version: 0.5.6
+Depends: R (>= 2.14.1), R (>= 4.4), R (< 4.4.99)
+Imports: utils, digest, grDevices, base64enc, rlang (>= 0.4.12), fastmap (>= 1.1.0), ellipsis
+Suggests: markdown, testthat, withr, Cairo, ragg, shiny
+License: GPL (>= 2)
+DownloadURL: https://github.com/cran/htmltools/releases/download/0.5.6/htmltools_0.5.6_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-08-11 16:33:37 UTC; unix
+Filesize: 358269
+SHA256: 938d3e22b512db978990dd79aecba3b9ca7d376e3bdc5e219a5434a36623d431
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: htmltools_0.5.6_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: knitr
+
+Package: units
+Version: 0.8-3
+Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
+Imports: Rcpp
+Suggests: NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0), dplyr (>= 1.0.0), vctrs (>= 0.3.1), ggplot2 (> 3.2.1), testthat (>= 3.0.0), vdiffr, knitr, rmarkdown
+License: GPL-2
+DownloadURL: https://github.com/cran/units/releases/download/0.8-3/units_0.8-3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-08-11 16:33:40 UTC; unix
+Filesize: 808447
+SHA256: 3978dedacb589e13a9b4f7dd861ce58c31d729f11fccf22c612f462219f55785
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: units_0.8-3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: udunits-2
+LinkingTo: Rcpp (>= 0.12.10)
+
+Package: progressr
+Version: 0.14.0
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Imports: digest, utils
+Suggests: graphics, tcltk, beepr, cli, crayon, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools
+License: GPL (>= 3)
+DownloadURL: https://github.com/cran/progressr/releases/download/0.14.0/progressr_0.14.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-08-11 16:33:42 UTC; unix
+Filesize: 383898
+SHA256: fcc9ffe4527cf00f874b8377ae59970e1803193d692a51faaae0172d78febb05
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: progressr_0.14.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: recipes
+Version: 1.0.7
+Depends: dplyr (>= 1.1.0), R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+Imports: cli, clock (>= 0.6.1), ellipsis, generics (>= 0.1.2), glue, gower, hardhat (>= 1.3.0), ipred (>= 0.9-12), lifecycle (>= 1.0.3), lubridate (>= 1.8.0), magrittr, Matrix, purrr (>= 1.0.0),
+        rlang (>= 1.0.3), stats, tibble, tidyr (>= 1.0.0), tidyselect (>= 1.2.0), timeDate, utils, vctrs (>= 0.5.0), withr
+Suggests: covr, ddalpha, dials (>= 1.2.0), ggplot2, igraph, kernlab, knitr, modeldata (>= 0.1.1), parsnip (>= 0.1.7), RANN, RcppRoll, rmarkdown, rpart, rsample, RSpectra, splines2, testthat (>=
+        3.0.0), workflows, xml2
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/recipes/releases/download/1.0.7/recipes_1.0.7_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-08-11 16:33:54 UTC; unix
+Filesize: 1553394
+SHA256: 2df4569be8421776bfe12a9d17eaa56bdc3edc0fa7c951e0332edcf49de487ab
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: recipes_1.0.7_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
