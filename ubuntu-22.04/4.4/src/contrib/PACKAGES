@@ -2381,22 +2381,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: rsample
-Version: 1.1.1
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-Imports: dplyr (>= 1.0.0), furrr, generics, glue, methods, pillar, purrr, rlang (>= 0.4.10), slider (>= 0.1.5), tibble, tidyr, tidyselect, vctrs (>= 0.5.0)
-Suggests: broom, covr, ggplot2, knitr, modeldata, recipes (>= 0.1.4), rmarkdown, stats, testthat (>= 3.0.0), utils, whisker, withr, xml2
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/rsample/releases/download/1.1.1/rsample_1.1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-06-21 09:46:50 UTC; unix
-Filesize: 503230
-SHA256: 0cf0aa4d42fbd0976d2af9c0e9e7874f07075a3e129bc7ddd2501e9b4b515f04
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: rsample_1.1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: shape
 Version: 1.4.6
 Depends: R (>= 2.01), R (>= 4.4), R (< 4.4.99)
@@ -3076,22 +3060,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++11, libpng
 LinkingTo: cpp11, systemfonts
-
-Package: markdown
-Version: 1.7
-Depends: R (>= 2.11.1), R (>= 4.4), R (< 4.4.99)
-Imports: utils, commonmark (>= 1.9.0), xfun (>= 0.38)
-Suggests: knitr, rmarkdown (>= 2.18), yaml, RCurl
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/markdown/releases/download/1.7/markdown_1.7_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-06-21 16:47:27 UTC; unix
-Filesize: 192834
-SHA256: 684392ca51988617b9e4b6729fcaf018b916ca0be135c69661e6f101a1c9b7c1
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: markdown_1.7_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: matrixStats
 Version: 1.0.0
@@ -4861,3 +4829,35 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17
 LinkingTo: RcppEigen, Rcpp
+
+Package: rsample
+Version: 1.2.0
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+Imports: cli, dplyr (>= 1.1.1), furrr, generics, glue, lifecycle, methods, pillar, purrr (>= 1.0.0), rlang (>= 0.4.10), slider (>= 0.1.5), tibble, tidyr, tidyselect, vctrs (>= 0.5.0)
+Suggests: broom, covr, ggplot2, knitr, modeldata, recipes (>= 0.1.4), rmarkdown, stats, testthat (>= 3.0.0), utils, whisker, withr, xml2
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/rsample/releases/download/1.2.0/rsample_1.2.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-08-23 16:37:09 UTC; unix
+Filesize: 526824
+SHA256: 3ea1d205472bbf0dc3229ab7fc7bf5066b89a05e396a6ffdd41ff0a4810b07f9
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: rsample_1.2.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: markdown
+Version: 1.8
+Depends: R (>= 2.11.1), R (>= 4.4), R (< 4.4.99)
+Imports: utils, commonmark (>= 1.9.0), xfun (>= 0.38)
+Suggests: knitr, rmarkdown (>= 2.18), yaml, RCurl
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/markdown/releases/download/1.8/markdown_1.8_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-08-23 16:37:09 UTC; unix
+Filesize: 193790
+SHA256: 712fe4366f4f8323f3214e2916066fb6f40cc6d251b8959c27c48e3d371d1708
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: markdown_1.8_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
