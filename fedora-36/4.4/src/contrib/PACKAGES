@@ -1659,22 +1659,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: rsample
-Version: 1.1.1
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-Imports: dplyr (>= 1.0.0), furrr, generics, glue, methods, pillar, purrr, rlang (>= 0.4.10), slider (>= 0.1.5), tibble, tidyr, tidyselect, vctrs (>= 0.5.0)
-Suggests: broom, covr, ggplot2, knitr, modeldata, recipes (>= 0.1.4), rmarkdown, stats, testthat (>= 3.0.0), utils, whisker, withr, xml2
-License: MIT + file LICENSE
-File: rsample_1.1.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-DownloadURL: https://github.com/cran/rsample/releases/download/1.1.1/rsample_1.1.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-Built: R 4.4.0; ; 2023-06-24 07:57:57 UTC; unix
-Filesize: 527145
-SHA256: fd3c02af4578199fdea390540beffcfb6bf3223e65919bfdb822cde822621f52
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-36
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: shape
 Version: 1.4.6
 Depends: R (>= 2.01), R (>= 4.4), R (< 4.4.99)
@@ -2574,22 +2558,6 @@ Platform: x86_64-pc-linux-gnu-fedora-36
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
-
-Package: markdown
-Version: 1.7
-Depends: R (>= 2.11.1), R (>= 4.4), R (< 4.4.99)
-Imports: utils, commonmark (>= 1.9.0), xfun (>= 0.38)
-Suggests: knitr, rmarkdown (>= 2.18), yaml, RCurl
-License: MIT + file LICENSE
-File: markdown_1.7_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-DownloadURL: https://github.com/cran/markdown/releases/download/1.7/markdown_1.7_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-Built: R 4.4.0; ; 2023-06-24 08:16:26 UTC; unix
-Filesize: 192506
-SHA256: 2d919bc73d7135c428e66742f822483e591bd5470ad1663fd100972474f3203b
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-36
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: matrixStats
 Version: 1.0.0
@@ -4702,3 +4670,35 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17
 LinkingTo: RcppEigen, Rcpp
+
+Package: rsample
+Version: 1.2.0
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+Imports: cli, dplyr (>= 1.1.1), furrr, generics, glue, lifecycle, methods, pillar, purrr (>= 1.0.0), rlang (>= 0.4.10), slider (>= 0.1.5), tibble, tidyr, tidyselect, vctrs (>= 0.5.0)
+Suggests: broom, covr, ggplot2, knitr, modeldata, recipes (>= 0.1.4), rmarkdown, stats, testthat (>= 3.0.0), utils, whisker, withr, xml2
+License: MIT + file LICENSE
+File: rsample_1.2.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
+DownloadURL: https://github.com/cran/rsample/releases/download/1.2.0/rsample_1.2.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
+Built: R 4.4.0; ; 2023-08-23 17:09:52 UTC; unix
+Filesize: 551328
+SHA256: 9d9d3605d1696a9f7e5ae27ba0fdd8170aaaa27779989843c90468f3b76a3805
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-36
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: markdown
+Version: 1.8
+Depends: R (>= 2.11.1), R (>= 4.4), R (< 4.4.99)
+Imports: utils, commonmark (>= 1.9.0), xfun (>= 0.38)
+Suggests: knitr, rmarkdown (>= 2.18), yaml, RCurl
+License: MIT + file LICENSE
+File: markdown_1.8_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
+DownloadURL: https://github.com/cran/markdown/releases/download/1.8/markdown_1.8_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
+Built: R 4.4.0; ; 2023-08-23 17:09:53 UTC; unix
+Filesize: 194018
+SHA256: c0bad7faf7791640fe6aa731c04bd226b9782882ddb3e45aa75b1d2c24b38e27
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-36
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
