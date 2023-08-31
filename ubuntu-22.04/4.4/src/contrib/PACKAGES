@@ -1850,21 +1850,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11, tzdb (>= 0.1.1)
 
-Package: rematch
-Version: 1.0.1
-Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: covr, testthat
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/rematch/releases/download/1.0.1/rematch_1.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-06-21 09:36:56 UTC; unix
-Filesize: 12586
-SHA256: 650e9be89159152638ec41ccfca6d065ddc5ee443fd73e519b8711f6ae5c3fb1
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: rematch_1.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: reprex
 Version: 2.0.2
 Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
@@ -4056,27 +4041,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GEOS (>= 3.2.0).
 LinkingTo: sp
 
-Package: arrow
-Version: 12.0.1.1
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
-Suggests: blob, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0), tibble, tzdb,
-        withr
-License: Apache License (>= 2.0)
-DownloadURL: https://github.com/cran/arrow/releases/download/12.0.1.1/arrow_12.0.1.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-20 07:51:51 UTC; unix
-Filesize: 40594768
-SHA256: a4b648a4c9c7759d25323c4e96cf5dd65927ac9bc231f8b5fa01d88a1be507a4
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: arrow_12.0.1.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional)
-LinkingTo: cpp11 (>= 0.4.2)
-
 Package: fs
 Version: 1.6.3
 Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
@@ -4861,3 +4825,39 @@ File: RcppArmadillo_0.12.6.3.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
+
+Package: rematch
+Version: 2.0.0
+Depends: R (>= 4.4), R (< 4.4.99)
+Suggests: covr, testthat
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/rematch/releases/download/2.0.0/rematch_2.0.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-08-31 16:36:55 UTC; unix
+Filesize: 16501
+SHA256: b7c6896683e525310698bd6026690f830cb159c90c8a75cf593eda61223a22f9
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: rematch_2.0.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: arrow
+Version: 13.0.0
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+Suggests: blob, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0), tibble,
+        tzdb, withr
+License: Apache License (>= 2.0)
+DownloadURL: https://github.com/cran/arrow/releases/download/13.0.0/arrow_13.0.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-08-31 16:37:05 UTC; unix
+Filesize: 40993790
+SHA256: f7c09f6156a9241c7278a2fdd20ce9a17f93b14e7308acb43f2dd6a8dd40c383
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: arrow_13.0.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional)
+LinkingTo: cpp11 (>= 0.4.2)
