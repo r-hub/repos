@@ -1928,22 +1928,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: infer
-Version: 1.0.4
-Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Imports: dplyr (>= 0.7.0), ggplot2, glue (>= 1.3.0), grDevices, magrittr, methods, purrr, rlang (>= 0.2.0), tibble, broom, tidyr, generics, patchwork
-Suggests: covr, devtools (>= 1.12.0), fs, knitr, nycflights13, rmarkdown, stringr, testthat, vdiffr (>= 1.0.0), parsnip
-License: MIT + file LICENSE
-File: infer_1.0.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/infer/releases/download/1.0.4/infer_1.0.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.4.0; ; 2023-06-23 10:29:41 UTC; unix
-Filesize: 2238576
-SHA256: bb7111a1fbe3053e8d72d7bb8084109ce56dde89c70a4895b425d380110064ab
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: ipred
 Version: 0.9-14
 Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
@@ -3341,26 +3325,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: terra
-Version: 1.7-39
-Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Imports: methods, Rcpp (>= 1.0-10)
-Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet, htmlwidgets
-License: GPL (>= 3)
-File: terra_1.7-39_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/terra/releases/download/1.7-39/terra_1.7-39_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-29 13:19:56 UTC; unix
-Filesize: 16222389
-SHA256: 5c1aa0cbb1b9ec101dc2a63c084787620781e510daa750b6bce3707c5ae4f3de
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
-LinkingTo: Rcpp
-
 Package: tripack
 Version: 1.3-9.1
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -4719,3 +4683,39 @@ RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: infer
+Version: 1.0.5
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Imports: broom, dplyr (>= 0.7.0), generics, ggplot2, glue (>= 1.3.0), grDevices, magrittr, methods, patchwork, purrr, rlang (>= 0.2.0), tibble, tidyr, vctrs
+Suggests: covr, devtools (>= 1.12.0), fs, knitr, nycflights13, parsnip, rmarkdown, stringr, testthat (>= 3.0.0), vdiffr (>= 1.0.0)
+License: MIT + file LICENSE
+File: infer_1.0.5_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/infer/releases/download/1.0.5/infer_1.0.5_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.4.0; ; 2023-09-06 17:00:42 UTC; unix
+Filesize: 2107349
+SHA256: 3d8a4cabb3715b2f30636f75d49a37f8ff075bef68ed81cebd076a32e4338817
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: terra
+Version: 1.7-46
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Imports: methods, Rcpp (>= 1.0-10)
+Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet, htmlwidgets
+License: GPL (>= 3)
+File: terra_1.7-46_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/terra/releases/download/1.7-46/terra_1.7-46_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-09-06 17:00:47 UTC; unix
+Filesize: 16293929
+SHA256: a4a923c2a9e317cb5f54ec72b41166c8616e0bb91977e14e6b6424d055fac3cb
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
+LinkingTo: Rcpp
