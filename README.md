@@ -28,7 +28,6 @@ options(repos = c(
 * [x] `nold` (extra `noLD`)
 * [ ] `c23` (extra `C23`)
 * [ ] `lto` (extra `LTO`)
-* [x] `mkl` (extra `MKL`)
 * [ ] `donttest` (extra `donttest`)
 * [ ] `gcc-asan` (extra `gcc-ASAN` and `gcc-UBSAN`)
 * [ ] `noomp` (extra `noOMP`)
@@ -78,6 +77,7 @@ options(repos = c(
 ### Containers using this repo
 
 * [x] `atlas` (extra `ATLAS`)
+* [x] `mkl` (extra `MKL`)
 * [ ] `openblas` (extra `OpenBLAS`)
 
 ## `fedora-38-R4.4`
