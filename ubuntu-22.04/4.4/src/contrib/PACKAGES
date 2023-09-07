@@ -915,23 +915,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: xclip (https://github.com/astrand/xclip) or xsel (http://www.vergenet.net/~conrad/software/xsel/) for accessing the X11 clipboard, or wl-clipboard
         (https://github.com/bugaevc/wl-clipboard) for systems using Wayland.
 
-Package: credentials
-Version: 1.3.2
-Depends: R (>= 4.4), R (< 4.4.99)
-Imports: openssl (>= 1.3), sys (>= 2.1), curl, jsonlite, askpass
-Suggests: testthat, knitr, rmarkdown
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/credentials/releases/download/1.3.2/credentials_1.3.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-06-21 09:11:09 UTC; unix
-Filesize: 172505
-SHA256: f358506a3868cf3bc59bd6e5814dc0b9be4a967492dbe9db46a7069cfa4e24d4
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: credentials_1.3.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: git (optional)
-
 Package: desc
 Version: 1.4.2
 Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
@@ -3361,25 +3344,6 @@ File: shinythemes_1.2.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: StanHeaders
-Version: 2.26.27
-Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
-Imports: RcppParallel (>= 5.1.4)
-Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix, methods, rstan, withr
-License: BSD_3_clause + file LICENSE
-DownloadURL: https://github.com/cran/StanHeaders/releases/download/2.26.27/StanHeaders_2.26.27_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-23 20:48:44 UTC; unix
-Filesize: 2647952
-SHA256: 8f4b304cfdbf5e01340efb2ee42f58d5f69ca8cdfb999d2bb3e3d3427dbd280e
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: StanHeaders_2.26.27_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: RcppEigen, RcppParallel (>= 5.1.4)
-
 Package: tensorA
 Version: 0.36.2
 Depends: R (>= 2.2.0), stats, R (>= 4.4), R (< 4.4.99)
@@ -4861,3 +4825,40 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
 LinkingTo: Rcpp
+
+Package: credentials
+Version: 2.0.1
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: openssl (>= 1.3), sys (>= 2.1), curl, jsonlite, askpass
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/credentials/releases/download/2.0.1/credentials_2.0.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-09-07 16:34:58 UTC; unix
+Filesize: 221740
+SHA256: aa71f43e6435313e574a92446681852bbc1020bedda6d4c0dca53b7bd37efe14
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: credentials_2.0.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: git (optional)
+
+Package: StanHeaders
+Version: 2.26.28
+Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
+Imports: RcppParallel (>= 5.1.4)
+Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix, methods, rstan, withr
+License: BSD_3_clause + file LICENSE
+DownloadURL: https://github.com/cran/StanHeaders/releases/download/2.26.28/StanHeaders_2.26.28_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-09-07 16:35:02 UTC; unix
+Filesize: 2686911
+SHA256: a7669c66d70693f5c721e9261de51e5120b6e234e8f519d707906b86ea447a34
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: StanHeaders_2.26.28_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, pandoc
+LinkingTo: RcppEigen, RcppParallel (>= 5.1.4)
