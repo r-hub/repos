@@ -82,8 +82,6 @@ options(repos = c(
 
 ## `fedora-38-R4.4`
 
-### Containers using this repo
-
 ### Setup
 
 ```
@@ -92,6 +90,8 @@ options(repos = c(
   CRAN = "https://cloud.r-project.org"
 ))
 ```
+
+### Containers using this repo
 
 * [x] `gcc13` (extra `gcc13`)
 
