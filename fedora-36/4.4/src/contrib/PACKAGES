@@ -2534,26 +2534,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: rstan
-Version: 2.21.8
-Depends: R (>= 3.4.0), StanHeaders (>= 2.21.0), ggplot2 (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
-Imports: methods, stats4, inline, gridExtra (>= 2.0.0), Rcpp (>= 0.12.0), RcppParallel (>= 5.0.1), loo (>= 2.3.0), pkgbuild
-Suggests: RUnit, RcppEigen (>= 0.3.3.3.0), BH (>= 1.72.0-2), parallel, KernSmooth, shinystan (>= 2.3.0), bayesplot (>= 1.5.0), rmarkdown, rstantools, rstudioapi, Matrix, knitr (>= 1.15.1), V8
-License: GPL (>= 3)
-File: rstan_2.21.8_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-DownloadURL: https://github.com/cran/rstan/releases/download/2.21.8/rstan_2.21.8_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-24 08:19:34 UTC; unix
-Filesize: 46387433
-SHA256: 53e51b7939aa85af786eb611527cdc16284656cfd3ebe3a44a5f51dd7890d8b3
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-36
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make, pandoc
-LinkingTo: Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0), BH (>= 1.72.0-2), StanHeaders (>= 2.21.0), RcppParallel
-
 Package: rstanarm
 Version: 2.21.4
 Depends: R (>= 3.4.0), Rcpp (>= 0.12.0), methods, R (>= 4.4), R (< 4.4.99)
@@ -4702,3 +4682,77 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, pandoc
 LinkingTo: RcppEigen, RcppParallel (>= 5.1.4)
+
+Package: QuickJSR
+Version: 1.0.5
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: jsonlite, R6, Rcpp
+Suggests: testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: QuickJSR_1.0.5_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
+DownloadURL: https://github.com/cran/QuickJSR/releases/download/1.0.5/QuickJSR_1.0.5_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-09-08 17:11:35 UTC; unix
+Filesize: 4335725
+SHA256: cc7676134b1eaa374e56ed4c6ce4f2ef3d1185d9d01e468c3b6fb3ed0d7eeaec
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-36
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make
+LinkingTo: Rcpp
+
+Package: plogr
+Version: 0.2.0
+Depends: R (>= 4.4), R (< 4.4.99)
+Suggests: Rcpp
+License: MIT + file LICENSE
+File: plogr_0.2.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
+DownloadURL: https://github.com/cran/plogr/releases/download/0.2.0/plogr_0.2.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
+Built: R 4.4.0; ; 2023-09-08 17:11:30 UTC; unix
+Filesize: 14278
+SHA256: 8b8612b85985bdfc081a49ae7c2e05345f9fdadf0aedfb4f7adaeac6bc9df15f
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-36
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: RSQLite
+Version: 2.3.1
+Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
+Imports: bit64, blob (>= 1.2.0), DBI (>= 1.1.0), memoise, methods, pkgconfig
+Suggests: callr, DBItest (>= 1.7.2.9001), gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
+License: LGPL (>= 2.1)
+File: RSQLite_2.3.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
+DownloadURL: https://github.com/cran/RSQLite/releases/download/2.3.1/RSQLite_2.3.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-09-08 17:11:44 UTC; unix
+Filesize: 5014617
+SHA256: a467631e353a818bb88fd0bbd497830a7643546109631618715dd0fa1b2141f8
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-36
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
+
+Package: rstan
+Version: 2.26.23
+Depends: R (>= 3.4.0), StanHeaders (>= 2.26.22), R (>= 4.4), R (< 4.4.99)
+Imports: methods, stats4, inline (>= 0.3.19), gridExtra (>= 2.3), Rcpp (>= 1.0.7), RcppParallel (>= 5.1.4), loo (>= 2.4.1), pkgbuild (>= 1.2.0), QuickJSR, ggplot2 (>= 3.3.5)
+Suggests: testthat (>= 3.0.4), parallel, KernSmooth, shinystan, bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr, rstanarm, coda
+License: GPL (>= 3)
+File: rstan_2.26.23_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
+DownloadURL: https://github.com/cran/rstan/releases/download/2.26.23/rstan_2.26.23_b2_R4.4_x86_64-pc-linux-gnu-fedora-36.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-09-08 17:12:28 UTC; unix
+Filesize: 16018788
+SHA256: 4db31645d7acb8dc0e1a6a281285f01aede7a35de46893b3ddaee2e2bb731399
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-36
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, pandoc
+LinkingTo: Rcpp (>= 1.0.7), RcppEigen (>= 0.3.3.9.1), BH (>= 1.75.0-0), StanHeaders (>= 2.26.22), RcppParallel (>= 5.1.4)
