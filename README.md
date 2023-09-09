@@ -28,7 +28,7 @@ options(repos = c(
 * [x] `nold` (extra `noLD`)
 * [ ] `c23` (extra `C23`)
 * [ ] `lto` (extra `LTO`)
-* [ ] `donttest` (extra `donttest`)
+* [x] `donttest` (extra `donttest`)
 * [ ] `gcc-asan` (extra `gcc-ASAN` and `gcc-UBSAN`)
 * [ ] `noomp` (extra `noOMP`)
 * [ ] `nosuggests` (extra `noSuggests`)
