@@ -63,23 +63,6 @@ a shared R lib, by removing the linkage after installation.
 
 * [ ] `rchk` (extra `rchk`)
 
-## `fedora-36-R4.4`
-
-### Setup
-
-```
-options(repos = c(
-  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/fedora-36/4.4",
-  CRAN = "https://cloud.r-project.org"
-))
-```
-
-### Containers using this repo
-
-* [x] `atlas` (extra `ATLAS`)
-* [x] `mkl` (extra `MKL`)
-* [ ] `openblas` (extra `OpenBLAS`)
-
 ## `fedora-38-R4.4`
 
 ### Setup
@@ -93,8 +76,11 @@ options(repos = c(
 
 ### Containers using this repo
 
+* [x] `atlas` (extra `ATLAS`)
 * [x] `gcc13` (extra `gcc13`)
 * [x] `intel` (extra `Intel`)
+* [x] `mkl` (extra `MKL`)
+* [ ] `openblas` (extra `OpenBLAS`)
 
 ## Not needed?
 
