@@ -94,6 +94,7 @@ options(repos = c(
 ### Containers using this repo
 
 * [x] `gcc13` (extra `gcc13`)
+* [x] `intel` (extra `Intel`)
 
 ## Not needed?
 
