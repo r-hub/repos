@@ -2421,25 +2421,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: base64enc, ggplot2, knitr, markdown, microbenchmark, R.devices, R.rsp
 
-Package: minqa
-Version: 1.2.5
-Depends: R (>= 4.4), R (< 4.4.99)
-License: GPL-2
-File: minqa_1.2.5_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/minqa/releases/download/1.2.5/minqa_1.2.5_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 13:52:06 UTC; unix
-Filesize: 474208
-SHA256: 499c24bda111c6681d9d724624bbe6ba9ac2d1944bacf6c0599560934d7099b9
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: Rcpp (>= 0.9.10)
-SystemRequirements: GNU make
-LinkingTo: Rcpp
-
 Package: nloptr
 Version: 2.0.3
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -4755,4 +4736,23 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
 Imports: Rcpp (>= 0.11.0), stats, utils, methods
+LinkingTo: Rcpp
+
+Package: minqa
+Version: 1.2.6
+Depends: R (>= 4.4), R (< 4.4.99)
+License: GPL-2
+File: minqa_1.2.6_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/minqa/releases/download/1.2.6/minqa_1.2.6_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-09-11 17:16:28 UTC; unix
+Filesize: 473959
+SHA256: 0ad8722629effd836ea54b7f0a2d8151d6f31d1feda441061ae5d097c0d184c6
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: Rcpp (>= 0.9.10)
+SystemRequirements: GNU make
 LinkingTo: Rcpp
