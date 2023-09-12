@@ -591,24 +591,6 @@ File: jquerylib_0.1.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: knitr
-Version: 1.43
-Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
-Imports: evaluate (>= 0.15), highr, methods, tools, xfun (>= 0.39), yaml (>= 2.1.19)
-Suggests: bslib, codetools, DBI (>= 0.4-1), digest, formatR, gifski, gridSVG, htmlwidgets (>= 0.7), curl, jpeg, JuliaCall (>= 0.11.1), magick, markdown (>= 1.3), png, ragg, reticulate (>= 1.4), rgl
-        (>= 0.95.1201), rlang, rmarkdown, sass, showtext, styler (>= 1.2.0), targets (>= 0.6.0), testit, tibble, tikzDevice (>= 0.10), tinytex, webshot, rstudioapi, xml2 (>= 1.2.0)
-License: GPL
-DownloadURL: https://github.com/cran/knitr/releases/download/1.43/knitr_1.43_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-06-19 13:27:52 UTC; unix
-Filesize: 1454629
-SHA256: 8f6dd835a41f0c89a7afb0db3ba8bfc64fd402516bb1b729c586cc3526a5c7ef
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: knitr_1.43_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
-
 Package: memoise
 Version: 2.0.1
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -2407,25 +2389,6 @@ SHA256: 316ba6c45144e9365c4f4b8cf10dfc7f0e00635630c7c0d7e71fb9cc321431a9
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: gridExtra_2.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: Hmisc
-Version: 5.1-0
-Depends: R (>= 4.4), R (< 4.4.99)
-Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
-Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice,
-        latticeExtra, gt, sparkline, jsonlite, htmlwidgets
-License: GPL (>= 2)
-DownloadURL: https://github.com/cran/Hmisc/releases/download/5.1-0/Hmisc_5.1-0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:53:10 UTC; unix
-Filesize: 3504401
-SHA256: a019d2ca5bb512387406545a8ba6670f2f8d5d694786662d9dc749a9ee11383f
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: Hmisc_5.1-0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
@@ -4883,3 +4846,40 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make
 LinkingTo: Rcpp
+
+Package: knitr
+Version: 1.44
+Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
+Imports: evaluate (>= 0.15), highr, methods, tools, xfun (>= 0.39), yaml (>= 2.1.19)
+Suggests: bslib, codetools, DBI (>= 0.4-1), digest, formatR, gifski, gridSVG, htmlwidgets (>= 0.7), curl, jpeg, JuliaCall (>= 0.11.1), magick, markdown (>= 1.3), png, ragg, reticulate (>= 1.4), rgl
+        (>= 0.95.1201), rlang, rmarkdown, sass, showtext, styler (>= 1.2.0), targets (>= 0.6.0), testit, tibble, tikzDevice (>= 0.10), tinytex (>= 0.46), webshot, rstudioapi, svglite, xml2 (>= 1.2.0)
+License: GPL
+DownloadURL: https://github.com/cran/knitr/releases/download/1.44/knitr_1.44_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-09-12 16:36:58 UTC; unix
+Filesize: 1476577
+SHA256: 3502092e55b8da32d5474cb4f682828e4cd55f9c10c5b4470f6dba713d96f5b8
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: knitr_1.44_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
+
+Package: Hmisc
+Version: 5.1-1
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
+Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice,
+        latticeExtra, gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer
+License: GPL (>= 2)
+DownloadURL: https://github.com/cran/Hmisc/releases/download/5.1-1/Hmisc_5.1-1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-09-12 16:37:05 UTC; unix
+Filesize: 3557560
+SHA256: 434281c9995b45996269cbfadd9acc493d10e926112a343e080132d540bc65f2
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: Hmisc_5.1-1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
