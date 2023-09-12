@@ -541,24 +541,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat
 Imports: htmltools
 
-Package: knitr
-Version: 1.43
-Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
-License: GPL
-File: knitr_1.43_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/knitr/releases/download/1.43/knitr_1.43_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-06-26 11:58:14 UTC; unix
-Filesize: 1511857
-SHA256: 13904a4ae752ddee0336fdb399bf5bc01af3b5bf1c8e51b4713f5ac91ffeebf2
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bslib, codetools, DBI (>= 0.4-1), digest, formatR, gifski, gridSVG, htmlwidgets (>= 0.7), curl, jpeg, JuliaCall (>= 0.11.1), magick, markdown (>= 1.3), png, ragg, reticulate (>= 1.4), rgl
-        (>= 0.95.1201), rlang, rmarkdown, sass, showtext, styler (>= 1.2.0), targets (>= 0.6.0), testit, tibble, tikzDevice (>= 0.10), tinytex, webshot, rstudioapi, xml2 (>= 1.2.0)
-Imports: evaluate (>= 0.15), highr, methods, tools, xfun (>= 0.39), yaml (>= 2.1.19)
-SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
-
 Package: lifecycle
 Version: 1.0.3
 Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
@@ -2684,25 +2666,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: Hmisc
-Version: 5.1-0
-Depends: R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2)
-File: Hmisc_5.1-0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/Hmisc/releases/download/5.1-0/Hmisc_5.1-0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:31:20 UTC; unix
-Filesize: 3907772
-SHA256: 5ef94e20843c315e7243aa4874c9c462ffe45baee6214e35223cc8bc00bc7e10
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice,
-        latticeExtra, gt, sparkline, jsonlite, htmlwidgets
-Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
-
 Package: htmlTable
 Version: 2.4.1
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -4756,3 +4719,40 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: Rcpp (>= 0.9.10)
 SystemRequirements: GNU make
 LinkingTo: Rcpp
+
+Package: knitr
+Version: 1.44
+Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
+License: GPL
+File: knitr_1.44_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/knitr/releases/download/1.44/knitr_1.44_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-09-12 17:16:23 UTC; unix
+Filesize: 1515741
+SHA256: c23e3ed4c295e7099a4424546a047e1ff6db35497d18e920dd20e048e3c327e2
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bslib, codetools, DBI (>= 0.4-1), digest, formatR, gifski, gridSVG, htmlwidgets (>= 0.7), curl, jpeg, JuliaCall (>= 0.11.1), magick, markdown (>= 1.3), png, ragg, reticulate (>= 1.4), rgl
+        (>= 0.95.1201), rlang, rmarkdown, sass, showtext, styler (>= 1.2.0), targets (>= 0.6.0), testit, tibble, tikzDevice (>= 0.10), tinytex (>= 0.46), webshot, rstudioapi, svglite, xml2 (>= 1.2.0)
+Imports: evaluate (>= 0.15), highr, methods, tools, xfun (>= 0.39), yaml (>= 2.1.19)
+SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
+
+Package: Hmisc
+Version: 5.1-1
+Depends: R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: Hmisc_5.1-1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/Hmisc/releases/download/5.1-1/Hmisc_5.1-1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-09-12 17:16:41 UTC; unix
+Filesize: 3947392
+SHA256: 857b88f19f8679278f4f45240e69b6749d19d42ceb83a70fea4616b6292c9e0d
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice,
+        latticeExtra, gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer
+Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
