@@ -3201,26 +3201,6 @@ File: RcppParallel_5.1.7_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: rstanarm
-Version: 2.21.4
-Depends: R (>= 3.4.0), Rcpp (>= 0.12.0), methods, R (>= 4.4), R (< 4.4.99)
-Imports: bayesplot (>= 1.7.0), ggplot2 (>= 2.2.1), lme4 (>= 1.1-8), loo (>= 2.1.0), Matrix (>= 1.2-13), nlme (>= 3.1-124), rstan (>= 2.21.1), rstantools (>= 2.1.0), shinystan (>= 2.3.0), stats,
-        survival (>= 2.40.1), RcppParallel (>= 5.0.1), utils
-Suggests: biglm, betareg, data.table (>= 1.10.0), digest, gridExtra, HSAUR3, knitr (>= 1.15.1), MASS, mgcv (>= 1.8-13), rmarkdown, roxygen2, StanHeaders (>= 2.21.0), testthat (>= 1.0.2), gamm4, shiny
-License: GPL (>= 3)
-DownloadURL: https://github.com/cran/rstanarm/releases/download/2.21.4/rstanarm_2.21.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-23 21:12:56 UTC; unix
-Filesize: 101027440
-SHA256: 2e2a8b0cf594cf455219db0d75040df7573e0d2fbe37aa44377fb452b2ede8e5
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: rstanarm_2.21.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: StanHeaders (>= 2.21.0), rstan (>= 2.21.1), BH (>= 1.72.0-2), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0), RcppParallel (>= 5.0.1)
-
 Package: shinyjs
 Version: 2.1.0
 Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
@@ -4068,26 +4048,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: knitr
 
-Package: units
-Version: 0.8-3
-Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
-Imports: Rcpp
-Suggests: NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0), dplyr (>= 1.0.0), vctrs (>= 0.3.1), ggplot2 (> 3.2.1), testthat (>= 3.0.0), vdiffr, knitr, rmarkdown
-License: GPL-2
-DownloadURL: https://github.com/cran/units/releases/download/0.8-3/units_0.8-3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-08-11 16:33:40 UTC; unix
-Filesize: 808447
-SHA256: 3978dedacb589e13a9b4f7dd861ce58c31d729f11fccf22c612f462219f55785
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: units_0.8-3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: udunits-2
-LinkingTo: Rcpp (>= 0.12.10)
-
 Package: progressr
 Version: 0.14.0
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -4883,3 +4843,44 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make
 LinkingTo: Rcpp
+
+Package: rstanarm
+Version: 2.26.1
+Depends: R (>= 3.4.0), Rcpp (>= 0.12.0), methods, R (>= 4.4), R (< 4.4.99)
+Imports: bayesplot (>= 1.7.0), ggplot2 (>= 2.2.1), lme4 (>= 1.1-8), loo (>= 2.1.0), Matrix (>= 1.2-13), nlme (>= 3.1-124), posterior, rstan (>= 2.26.1), rstantools (>= 2.1.0), shinystan (>= 2.3.0),
+        stats, survival (>= 2.40.1), RcppParallel (>= 5.0.1), utils
+Suggests: biglm, betareg, data.table (>= 1.10.0), digest, gridExtra, HSAUR3, knitr (>= 1.15.1), MASS, mgcv (>= 1.8-13), rmarkdown, roxygen2, StanHeaders (>= 2.21.0), testthat (>= 1.0.2), gamm4, shiny
+License: GPL (>= 3)
+DownloadURL: https://github.com/cran/rstanarm/releases/download/2.26.1/rstanarm_2.26.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-09-14 16:37:35 UTC; unix
+Filesize: 121893340
+SHA256: f3e276b5c13be95d7e42e3612896d62048735b1afd79e273a077d003ddcb2132
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: rstanarm_2.26.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, pandoc (>= 1.12.3), pandoc-citeproc
+LinkingTo: StanHeaders (>= 2.21.0), rstan (>= 2.21.1), BH (>= 1.72.0-2), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0), RcppParallel (>= 5.0.1)
+
+Package: units
+Version: 0.8-4
+Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
+Imports: Rcpp
+Suggests: NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0), dplyr (>= 1.0.0), vctrs (>= 0.3.1), ggplot2 (> 3.2.1), testthat (>= 3.0.0), vdiffr, knitr, rmarkdown
+License: GPL-2
+DownloadURL: https://github.com/cran/units/releases/download/0.8-4/units_0.8-4_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-09-14 16:37:30 UTC; unix
+Filesize: 808125
+SHA256: bc588e72cf4f74c338af9946ec7fb14843c331c585291db5034229231953163a
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: units_0.8-4_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: udunits-2
+LinkingTo: Rcpp (>= 0.12.10)
