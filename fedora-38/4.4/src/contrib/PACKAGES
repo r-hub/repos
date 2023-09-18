@@ -3988,24 +3988,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: knitr, rmarkdown, gridGraphics, gridExtra, ragg, testthat (>= 2.1.0), vdiffr, covr, png
 Imports: ggplot2 (>= 3.0.0), gtable, grid, stats, grDevices, utils, graphics, rlang, cli
 
-Package: rmarkdown
-Version: 2.24
-Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
-License: GPL-3
-File: rmarkdown_2.24_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/rmarkdown/releases/download/2.24/rmarkdown_2.24_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-08-14 17:16:24 UTC; unix
-Filesize: 2675256
-SHA256: a8c95c5bfee7f82f637d5d84e4f15684dc004db1861e01e168a172e7a59c3d61
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>= 3.0.3), tibble, vctrs, cleanrmd, withr (>= 2.4.2)
-Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.22), methods, stringr (>= 1.2.0), tinytex (>= 0.31), tools, utils, xfun
-        (>= 0.36), yaml (>= 2.1.19)
-SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
-
 Package: ggplot2
 Version: 3.4.3
 Depends: R (>= 3.3), R (>= 4.4), R (< 4.4.99)
@@ -4756,3 +4738,21 @@ Imports: bayesplot (>= 1.7.0), ggplot2 (>= 2.2.1), lme4 (>= 1.1-8), loo (>= 2.1.
         stats, survival (>= 2.40.1), RcppParallel (>= 5.0.1), utils
 SystemRequirements: GNU make, pandoc (>= 1.12.3), pandoc-citeproc
 LinkingTo: StanHeaders (>= 2.21.0), rstan (>= 2.21.1), BH (>= 1.72.0-2), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0), RcppParallel (>= 5.0.1)
+
+Package: rmarkdown
+Version: 2.25
+Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
+License: GPL-3
+File: rmarkdown_2.25_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/rmarkdown/releases/download/2.25/rmarkdown_2.25_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-09-18 17:16:20 UTC; unix
+Filesize: 2678320
+SHA256: f1a826d64ced91c89010c365e9008254500c3eb42b489005a29f983696ec9357
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>= 3.0.3), tibble, vctrs, cleanrmd, withr (>= 2.4.2)
+Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.22), methods, stringr (>= 1.2.0), tinytex (>= 0.31), tools, utils, xfun
+        (>= 0.36), yaml (>= 2.1.19)
+SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
