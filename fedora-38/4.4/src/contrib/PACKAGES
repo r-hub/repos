@@ -692,21 +692,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, testthat, disposables (>= 1.0.3)
 Imports: utils
 
-Package: prettyunits
-Version: 1.1.1
-Depends: R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: prettyunits_1.1.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/prettyunits/releases/download/1.1.1/prettyunits_1.1.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-06-26 11:43:17 UTC; unix
-Filesize: 37753
-SHA256: 5be1c04a4aa7a05ab8070ef05c5ab5c9633fd385cbc964fa91804e5747a8f82a
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: codetools, covr, testthat
-
 Package: progress
 Version: 1.2.2
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -4756,3 +4741,18 @@ Suggests: blob, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, 
 Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
 SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional)
 LinkingTo: cpp11 (>= 0.4.2)
+
+Package: prettyunits
+Version: 1.2.0
+Depends: R(>= 2.10), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: prettyunits_1.2.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/prettyunits/releases/download/1.2.0/prettyunits_1.2.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-09-25 17:15:52 UTC; unix
+Filesize: 161065
+SHA256: e7e6a30a530ede6b2304e3b04a3a94095da097bc982808e2507556b40e82bbf8
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: codetools, covr, testthat
