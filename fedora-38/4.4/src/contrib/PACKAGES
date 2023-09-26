@@ -1183,22 +1183,6 @@ Suggests: archive, bench (>= 1.1.0), covr, curl, dplyr, forcats, fs, ggplot2, kn
 Imports: bit64, cli (>= 3.2.0), crayon, glue, hms, lifecycle (>= 1.0.3), methods, rlang (>= 0.4.2), stats, tibble (>= 2.0.0), tidyselect, tzdb (>= 0.1.1), vctrs (>= 0.2.0), withr
 LinkingTo: cpp11 (>= 0.2.0), progress (>= 1.2.1), tzdb (>= 0.1.1)
 
-Package: withr
-Version: 2.5.0
-Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: withr_2.5.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/withr/releases/download/2.5.0/withr_2.5.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-06-26 11:45:53 UTC; unix
-Filesize: 247296
-SHA256: 018259ed80e677dfaf2b4e08ac3dad2088b1ccdbb9f4bb22bb586f717f47c48b
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: callr, covr, DBI, knitr, lattice, methods, rlang, rmarkdown (>= 2.12), RSQLite, testthat (>= 3.0.0)
-Imports: graphics, grDevices, stats
-
 Package: yaml
 Version: 2.3.7
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -3552,25 +3536,6 @@ Suggests: testthat, knitr, rmarkdown, withr, shiny, curl
 Imports: fs (>= 1.2.4), rlang (>= 0.4.10), htmltools (>= 0.5.1), R6, rappdirs
 SystemRequirements: GNU make
 
-Package: openssl
-Version: 2.1.0
-Depends: R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: openssl_2.1.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/openssl/releases/download/2.1.0/openssl_2.1.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-16 17:16:09 UTC; unix
-Filesize: 1409432
-SHA256: 0942e7ca54c87285ce2bca3211b16473b10c5b59bf268040a471fa2f82e796a2
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
-Imports: askpass
-SystemRequirements: OpenSSL >= 1.0.2
-
 Package: remotes
 Version: 2.4.2.1
 Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
@@ -3675,25 +3640,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: hexbin (>= 1.27.0), scales, MASS, knitr, dichromat, colorspace, httr, mapproj, vdiffr, svglite (>= 1.2.0), testthat, covr, rmarkdown, maps, terra
 Imports: ggplot2 (>= 1.0.1), gridExtra
-
-Package: gert
-Version: 1.9.3
-Depends: R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: gert_1.9.3_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/gert/releases/download/1.9.3/gert_1.9.3_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-08-07 17:15:07 UTC; unix
-Filesize: 348554
-SHA256: 64a7eb9589d5bdbb73c8f3772adb6ffbd9552d9aa9f42b33be0d97846895b7a6
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: spelling, knitr, rmarkdown, testthat
-Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
-SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
 
 Package: modeldata
 Version: 1.2.0
@@ -4756,3 +4702,57 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: codetools, covr, testthat
+
+Package: withr
+Version: 2.5.1
+Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: withr_2.5.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/withr/releases/download/2.5.1/withr_2.5.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-09-26 17:15:51 UTC; unix
+Filesize: 245313
+SHA256: d8704de829fa3aa69d5b36e7b9ac8316d5deaa40882142c3ee695bb2e5e371ea
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: callr, covr, DBI, knitr, lattice, methods, rlang, rmarkdown (>= 2.12), RSQLite, testthat (>= 3.0.0)
+Imports: graphics, grDevices, stats
+
+Package: openssl
+Version: 2.1.1
+Depends: R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: openssl_2.1.1_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/openssl/releases/download/2.1.1/openssl_2.1.1_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-09-26 17:15:52 UTC; unix
+Filesize: 1413096
+SHA256: 7c55372ea73628d2e0b85a67670f4b26fb449efb99dcda1ee3c092a27fedf058
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
+Imports: askpass
+SystemRequirements: OpenSSL >= 1.0.2
+
+Package: gert
+Version: 2.0.0
+Depends: R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: gert_2.0.0_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/gert/releases/download/2.0.0/gert_2.0.0_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-09-26 17:16:17 UTC; unix
+Filesize: 351206
+SHA256: 8ea2879d66fdbe535c5ce57375dd2a98600b60ce5a1eae55312f7ac24be0fbab
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: spelling, knitr, rmarkdown, testthat
+Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
+SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
