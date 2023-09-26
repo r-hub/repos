@@ -30,22 +30,6 @@ RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: filelock_1.0.2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 
-Package: withr
-Version: 2.5.0
-Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
-Imports: graphics, grDevices, stats
-Suggests: callr, covr, DBI, knitr, lattice, methods, rlang, rmarkdown (>= 2.12), RSQLite, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/withr/releases/download/2.5.0/withr_2.5.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-06-19 13:23:15 UTC; unix
-Filesize: 229155
-SHA256: 8c2e764c2b0b7fa4f70fbe3f989c04a40d5d679f59b4460777ba00a704bbae29
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: withr_2.5.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: glue
 Version: 1.6.2
 Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
@@ -3714,25 +3698,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make
 
-Package: openssl
-Version: 2.1.0
-Depends: R (>= 4.4), R (< 4.4.99)
-Imports: askpass
-Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/openssl/releases/download/2.1.0/openssl_2.1.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-16 16:38:39 UTC; unix
-Filesize: 1404116
-SHA256: 7ec5e315448757f1f36a9dd3969d99de413ef770cb49bf3ef38c3a570eb146c4
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: openssl_2.1.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: OpenSSL >= 1.0.2
-
 Package: remotes
 Version: 2.4.2.1
 Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
@@ -3837,25 +3802,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: viridis_0.6.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: gert
-Version: 1.9.3
-Depends: R (>= 4.4), R (< 4.4.99)
-Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
-Suggests: spelling, knitr, rmarkdown, testthat
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/gert/releases/download/1.9.3/gert_1.9.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-08-07 16:36:03 UTC; unix
-Filesize: 3184455
-SHA256: 3a3a6bd538612808999d93350340c5a6f1e0d05a4227d68af8c01a60bcada85d
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: gert_1.9.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
 
 Package: modeldata
 Version: 1.2.0
@@ -4884,3 +4830,57 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: prettyunits_1.2.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: withr
+Version: 2.5.1
+Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
+Imports: graphics, grDevices, stats
+Suggests: callr, covr, DBI, knitr, lattice, methods, rlang, rmarkdown (>= 2.12), RSQLite, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/withr/releases/download/2.5.1/withr_2.5.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-09-26 16:36:56 UTC; unix
+Filesize: 232991
+SHA256: c722983b99b2d079a598e96babe456825e3199637dfaa2aaa8b809a14a09e144
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: withr_2.5.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: openssl
+Version: 2.1.1
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: askpass
+Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/openssl/releases/download/2.1.1/openssl_2.1.1_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-09-26 16:37:15 UTC; unix
+Filesize: 1407791
+SHA256: 98fdbc1f30be4e585381ce4affb38d63accc9c0f8de6fa96d6e3c226b1f090db
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: openssl_2.1.1_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: OpenSSL >= 1.0.2
+
+Package: gert
+Version: 2.0.0
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
+Suggests: spelling, knitr, rmarkdown, testthat
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/gert/releases/download/2.0.0/gert_2.0.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-09-26 16:37:23 UTC; unix
+Filesize: 3185346
+SHA256: 4f6698133a175431fb32ed8b8c93117e5339a488d3a02c8f21c4bfc1508ab1b4
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: gert_2.0.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
