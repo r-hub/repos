@@ -557,26 +557,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, crayon, knitr, lintr, rmarkdown, testthat (>= 3.0.1), tibble, tidyverse, tools, vctrs, withr
 Imports: cli (>= 3.4.0), glue, rlang (>= 1.0.6)
 
-Package: lubridate
-Version: 1.9.2
-Depends: methods, R (>= 3.2), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2)
-File: lubridate_1.9.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/lubridate/releases/download/1.9.2/lubridate_1.9.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 11:55:36 UTC; unix
-Filesize: 1056807
-SHA256: 3a626d8c9b952f82b883af920f63fc7f70441e355bbe87890a7f11a30d883262
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: chron, data.table, timeDate, tis, zoo
-Suggests: covr, knitr, rmarkdown, testthat (>= 2.1.0), vctrs (>= 0.5.0)
-Imports: generics, timechange (>= 0.1.1)
-SystemRequirements: C++11, A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
-
 Package: magrittr
 Version: 2.0.3
 Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
@@ -3260,23 +3240,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: callr (>= 3.7.3), cli (>= 3.3.0), codetools, covr, curl, debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0), webfakes, withr
 Imports: ps (>= 1.2.0), R6, utils
 
-Package: dbplyr
-Version: 2.3.3
-Depends: R (>= 3.1), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: dbplyr_2.3.3_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/dbplyr/releases/download/2.3.3/dbplyr_2.3.3_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-07-07 17:20:17 UTC; unix
-Filesize: 1162621
-SHA256: 4e3e2479d9093f9ffd4e6633a021a786ea7d520e98d74424e48394668d69a0c8
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bit64, covr, knitr, Lahman, nycflights13, odbc, RMariaDB (>= 1.0.2), rmarkdown, RPostgres (>= 1.1.3), RPostgreSQL, RSQLite (>= 2.2.15), testthat (>= 3.0.2)
-Imports: blob (>= 1.2.0), cli (>= 3.4.1), DBI (>= 1.0.0), dplyr (>= 1.1.0), glue (>= 1.2.0), lifecycle (>= 1.0.3), magrittr, methods, pillar (>= 1.5.0), purrr (>= 1.0.1), R6 (>= 2.2.2), rlang (>=
-        1.0.6), tibble (>= 1.4.2), tidyr (>= 1.3.0), tidyselect (>= 1.2.0), utils, vctrs (>= 0.5.0), withr
-
 Package: readxl
 Version: 1.4.3
 Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
@@ -4756,3 +4719,40 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: spelling, knitr, rmarkdown, testthat
 Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
 SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
+
+Package: lubridate
+Version: 1.9.3
+Depends: methods, R (>= 3.2), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: lubridate_1.9.3_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/lubridate/releases/download/1.9.3/lubridate_1.9.3_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-09-27 17:16:24 UTC; unix
+Filesize: 1062480
+SHA256: aa62faab40c3481f5039bc3183b3850156d712b36cc4e429054cb2e7f9b850fb
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: chron, data.table, timeDate, tis, zoo
+Suggests: covr, knitr, rmarkdown, testthat (>= 2.1.0), vctrs (>= 0.5.0)
+Imports: generics, timechange (>= 0.1.1)
+SystemRequirements: C++11, A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
+
+Package: dbplyr
+Version: 2.3.4
+Depends: R (>= 3.1), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: dbplyr_2.3.4_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/dbplyr/releases/download/2.3.4/dbplyr_2.3.4_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-09-27 17:16:31 UTC; unix
+Filesize: 1159770
+SHA256: 02339f19faf1623a87c5a61547f951ae4c3b0962cdddaad0aa1061399177fa90
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bit64, covr, knitr, Lahman, nycflights13, odbc, RMariaDB (>= 1.0.2), rmarkdown, RPostgres (>= 1.1.3), RPostgreSQL, RSQLite (>= 2.2.15), testthat (>= 3.0.2)
+Imports: blob (>= 1.2.0), cli (>= 3.4.1), DBI (>= 1.0.0), dplyr (>= 1.1.0), glue (>= 1.2.0), lifecycle (>= 1.0.3), magrittr, methods, pillar (>= 1.5.0), purrr (>= 1.0.1), R6 (>= 2.2.2), rlang (>=
+        1.0.6), tibble (>= 1.4.2), tidyr (>= 1.3.0), tidyselect (>= 1.2.0), utils, vctrs (>= 0.5.0), withr
