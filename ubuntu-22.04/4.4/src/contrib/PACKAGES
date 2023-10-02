@@ -1797,26 +1797,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11 (>= 0.4.2)
 
-Package: vroom
-Version: 1.6.3
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-Imports: bit64, cli (>= 3.2.0), crayon, glue, hms, lifecycle (>= 1.0.3), methods, rlang (>= 0.4.2), stats, tibble (>= 2.0.0), tidyselect, tzdb (>= 0.1.1), vctrs (>= 0.2.0), withr
-Suggests: archive, bench (>= 1.1.0), covr, curl, dplyr, forcats, fs, ggplot2, knitr, patchwork, prettyunits, purrr, rmarkdown, rstudioapi, scales, spelling, testthat (>= 2.1.0), tidyr, utils, waldo,
-        xml2
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/vroom/releases/download/1.6.3/vroom_1.6.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:38:29 UTC; unix
-Filesize: 7362292
-SHA256: 16a73b53f5f705eb5cbe429b425f87f2b0bc41cac1e5054ff02be673d4a4e054
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: vroom_1.6.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cpp11 (>= 0.2.0), progress (>= 1.2.1), tzdb (>= 0.1.1)
-
 Package: clock
 Version: 0.7.0
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -2749,25 +2729,6 @@ File: plotly_4.10.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: plyr
-Version: 1.8.8
-Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
-Imports: Rcpp (>= 0.11.0)
-Suggests: abind, covr, doParallel, foreach, iterators, itertools, tcltk, testthat
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/plyr/releases/download/1.8.8/plyr_1.8.8_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 16:41:12 UTC; unix
-Filesize: 1152401
-SHA256: afd6eaa6bbc8c3796a5d26c1507677ada55af93acd6ad8c21a60f576089457b9
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: plyr_1.8.8_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: png
 Version: 0.1-8
 Depends: R (>= 2.9.0), R (>= 4.4), R (< 4.4.99)
@@ -3250,24 +3211,6 @@ File: webshot_0.5.5_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: PhantomJS for taking screenshots, ImageMagick or GraphicsMagick and OptiPNG for manipulating images.
-
-Package: sp
-Version: 2.0-0
-Depends: R (>= 3.2.0), methods, R (>= 4.4), R (< 4.4.99)
-Imports: utils, stats, graphics, grDevices, lattice, grid
-Suggests: RColorBrewer, rgdal (>= 1.2-3), rgeos (>= 0.3-13), gstat, maptools, deldir, knitr, rmarkdown, sf, terra, raster
-License: GPL (>= 2)
-DownloadURL: https://github.com/cran/sp/releases/download/2.0-0/sp_2.0-0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-29 13:00:10 UTC; unix
-Filesize: 2052196
-SHA256: f49df7f28754334ff40c65ce02d4f1db951ae87d9576c3500c566b8a91243a87
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: sp_2.0-0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: tripack
 Version: 1.3-9.1
@@ -3942,24 +3885,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: shiny_1.7.5_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: curl
-Version: 5.0.2
-Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, rmarkdown, magrittr, httpuv (>= 1.4.4), webutils
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/curl/releases/download/5.0.2/curl_5.0.2_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-08-14 16:33:49 UTC; unix
-Filesize: 843141
-SHA256: a2854e9a4323e0c41690b40fe1953f9c5727cfe11428f1fc1df9065e677bdc71
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: curl_5.0.2_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libcurl: libcurl-devel (rpm) or libcurl4-openssl-dev (deb).
 
 Package: patchwork
 Version: 1.1.3
@@ -4884,3 +4809,97 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: markdown_1.9_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: lattice
+Version: 0.21-9
+Depends: R (>= 4.0.0), R (>= 4.4), R (< 4.4.99)
+Imports: grid, grDevices, graphics, stats, utils
+Suggests: KernSmooth, MASS, latticeExtra, colorspace
+License: GPL (>= 2)
+DownloadURL: https://github.com/cran/lattice/releases/download/0.21-9/lattice_0.21-9_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-02 16:36:11 UTC; unix
+Filesize: 1358834
+SHA256: f3cec7854172d6666b9b746cda3f972e017188097d790b5c73bc32b451ba09ec
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: lattice_0.21-9_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: chron
+
+Package: vroom
+Version: 1.6.4
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+Imports: bit64, cli (>= 3.2.0), crayon, glue, hms, lifecycle (>= 1.0.3), methods, rlang (>= 0.4.2), stats, tibble (>= 2.0.0), tidyselect, tzdb (>= 0.1.1), vctrs (>= 0.2.0), withr
+Suggests: archive, bench (>= 1.1.0), covr, curl, dplyr, forcats, fs, ggplot2, knitr, patchwork, prettyunits, purrr, rmarkdown, rstudioapi, scales, spelling, testthat (>= 2.1.0), tidyr, utils, waldo,
+        xml2
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/vroom/releases/download/1.6.4/vroom_1.6.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-02 16:36:19 UTC; unix
+Filesize: 6906915
+SHA256: 7ef7c9b896827e18b51fc2b5fbaae8a18cc2024890a9c73eec0952867d919f5c
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: vroom_1.6.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11 (>= 0.2.0), progress (>= 1.2.1), tzdb (>= 0.1.1)
+
+Package: plyr
+Version: 1.8.9
+Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
+Imports: Rcpp (>= 0.11.0)
+Suggests: abind, covr, doParallel, foreach, iterators, itertools, tcltk, testthat
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/plyr/releases/download/1.8.9/plyr_1.8.9_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-02 16:36:22 UTC; unix
+Filesize: 1154351
+SHA256: a070bd7f92d8002f9eae7a55f5d06e65464739ca4aa7f3f8ba40c673ad45171c
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: plyr_1.8.9_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: sp
+Version: 2.1-0
+Depends: R (>= 3.5.0), methods, R (>= 4.4), R (< 4.4.99)
+Imports: utils, stats, graphics, grDevices, lattice, grid
+Suggests: RColorBrewer, gstat, deldir, knitr, rmarkdown, sf, terra, raster
+License: GPL (>= 2)
+DownloadURL: https://github.com/cran/sp/releases/download/2.1-0/sp_2.1-0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-02 16:36:38 UTC; unix
+Filesize: 2126415
+SHA256: fafc1444e28d3a696c9094dddb1ece11e8aa0860bef09b124e256bba54774b71
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: sp_2.1-0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: curl
+Version: 5.1.0
+Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, rmarkdown, magrittr, httpuv (>= 1.4.4), webutils
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/curl/releases/download/5.1.0/curl_5.1.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-02 16:36:11 UTC; unix
+Filesize: 843144
+SHA256: 94ea22ae2ac6953b09edf2296e32e7f4b0909878e148d4f4cd44ec21cee6cdf5
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: curl_5.1.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libcurl: libcurl-devel (rpm) or libcurl4-openssl-dev (deb).
