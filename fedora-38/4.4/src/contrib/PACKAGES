@@ -2982,25 +2982,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: RColorBrewer, MASS
 
-Package: hunspell
-Version: 3.0.2
-Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
-License: GPL-2 | LGPL-2.1 | MPL-1.1
-File: hunspell_3.0.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/hunspell/releases/download/3.0.2/hunspell_3.0.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:33:51 UTC; unix
-Filesize: 3487148
-SHA256: fdab6d8f58d0c7696fc8870b4219bc79a7037b481df2ba784ec5680f3f9edb93
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: spelling, testthat, pdftools, janeaustenr, wordcloud2, knitr, stopwords, rmarkdown
-Imports: Rcpp, digest
-LinkingTo: Rcpp (>= 0.12.12)
-
 Package: spelling
 Version: 2.2.1
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -3222,25 +3203,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
 Imports: methods, utils
-
-Package: testthat
-Version: 3.1.10
-Depends: R (>= 3.1), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: testthat_3.1.10_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/testthat/releases/download/3.1.10/testthat_3.1.10_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-07 17:20:56 UTC; unix
-Filesize: 3401585
-SHA256: b64a4e7c5797ee00a7db99d0c379239a0b4245d5f11c39f2573b6da96043815c
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, curl (>= 0.9.5), diffviewer (>= 0.1.0), knitr, rmarkdown, rstudioapi, shiny, usethis, vctrs (>= 0.1.0), xml2
-Imports: brio, callr (>= 3.5.1), cli (>= 3.4.0), desc, digest, ellipsis (>= 0.2.0), evaluate, jsonlite, lifecycle, magrittr, methods, pkgload (>= 1.3.0), praise, processx (>= 3.8.2), ps (>= 1.3.4),
-        R6 (>= 2.2.0), rlang (>= 1.1.0), utils, waldo (>= 0.5.0), withr (>= 2.4.3)
 
 Package: lme4
 Version: 1.1-34
@@ -4775,3 +4737,41 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: knitr (>= 1.8), rmarkdown, shiny (>= 1.6), bslib, future, testit, tibble
 Imports: htmltools (>= 0.3.6), htmlwidgets (>= 1.3), httpuv, jsonlite (>= 0.9.16), magrittr, crosstalk, jquerylib, promises
+
+Package: hunspell
+Version: 3.0.3
+Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
+License: GPL-2 | LGPL-2.1 | MPL-1.1
+File: hunspell_3.0.3_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/hunspell/releases/download/3.0.3/hunspell_3.0.3_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-06 17:15:54 UTC; unix
+Filesize: 3537163
+SHA256: 57ca8e1af7385df3bf9c219dc20549a656843391fc35ae429bf16dc3a179716d
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: spelling, testthat, pdftools, janeaustenr, wordcloud2, knitr, stopwords, rmarkdown
+Imports: Rcpp, digest
+LinkingTo: Rcpp (>= 0.12.12)
+
+Package: testthat
+Version: 3.2.0
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: testthat_3.2.0_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/testthat/releases/download/3.2.0/testthat_3.2.0_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-06 17:16:07 UTC; unix
+Filesize: 3417816
+SHA256: 23a185383842763a2916979e799cf8cef59522001d78ca26bba98358e8f68a2e
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, curl (>= 0.9.5), diffviewer (>= 0.1.0), knitr, rmarkdown, rstudioapi, shiny, usethis, vctrs (>= 0.1.0), xml2
+Imports: brio (>= 1.1.3), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.2), digest (>= 0.6.33), ellipsis (>= 0.3.2), evaluate (>= 0.21), jsonlite (>= 1.8.7), lifecycle (>= 1.0.3), magrittr (>=
+        2.0.3), methods, pkgload (>= 1.3.2.1), praise (>= 1.0.0), processx (>= 3.8.2), ps (>= 1.7.5), R6 (>= 2.5.1), rlang (>= 1.1.1), utils, waldo (>= 0.5.1), withr (>= 2.5.0)
