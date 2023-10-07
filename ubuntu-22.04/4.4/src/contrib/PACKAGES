@@ -3780,25 +3780,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: gmp (optional), libxml2 (optional), glpk (>= 4.57, optional)
 LinkingTo: cpp11 (>= 0.2.0)
 
-Package: htmltools
-Version: 0.5.6
-Depends: R (>= 2.14.1), R (>= 4.4), R (< 4.4.99)
-Imports: utils, digest, grDevices, base64enc, rlang (>= 0.4.12), fastmap (>= 1.1.0), ellipsis
-Suggests: markdown, testthat, withr, Cairo, ragg, shiny
-License: GPL (>= 2)
-DownloadURL: https://github.com/cran/htmltools/releases/download/0.5.6/htmltools_0.5.6_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-08-11 16:33:37 UTC; unix
-Filesize: 358269
-SHA256: 938d3e22b512db978990dd79aecba3b9ca7d376e3bdc5e219a5434a36623d431
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: htmltools_0.5.6_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: knitr
-
 Package: progressr
 Version: 0.14.0
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -4903,3 +4884,22 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: testthat_3.2.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: htmltools
+Version: 0.5.6.1
+Depends: R (>= 2.14.1), R (>= 4.4), R (< 4.4.99)
+Imports: utils, digest, grDevices, base64enc, rlang (>= 0.4.12), fastmap (>= 1.1.0), ellipsis
+Suggests: markdown, testthat, withr, Cairo, ragg, shiny
+License: GPL (>= 2)
+DownloadURL: https://github.com/cran/htmltools/releases/download/0.5.6.1/htmltools_0.5.6.1_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-07 16:33:15 UTC; unix
+Filesize: 358531
+SHA256: acebd7b4f732648241b527b0466521590dd977b80108b240b3300ac279233927
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: htmltools_0.5.6.1_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: knitr
