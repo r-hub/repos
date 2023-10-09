@@ -120,24 +120,6 @@ File: colorspace_2.1-0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: fansi
-Version: 1.0.4
-Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
-Imports: grDevices, utils
-Suggests: unitizer, knitr, rmarkdown
-License: GPL-2 | GPL-3
-DownloadURL: https://github.com/cran/fansi/releases/download/1.0.4/fansi_1.0.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-19 13:21:02 UTC; unix
-Filesize: 416510
-SHA256: 3fb2379ac22cdfaaf965179d1ebb7bb8698174d4432b5777ed711a4fb3398ef3
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: fansi_1.0.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: farver
 Version: 2.1.1
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -1200,45 +1182,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: sessioninfo_1.2.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: systemfonts
-Version: 1.0.4
-Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
-Suggests: testthat (>= 2.1.0), covr, knitr, rmarkdown, tools
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/systemfonts/releases/download/1.0.4/systemfonts_1.0.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:10:54 UTC; unix
-Filesize: 2166308
-SHA256: 453ba4448f4eae7d6b5a86f87bde4485f0570548178849eb5a1711aa0248a471
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: systemfonts_1.0.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++11, fontconfig, freetype2
-LinkingTo: cpp11 (>= 0.2.1)
-
-Package: textshaping
-Version: 0.3.6
-Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
-Imports: systemfonts (>= 1.0.0)
-Suggests: covr, knitr, rmarkdown
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/textshaping/releases/download/0.3.6/textshaping_0.3.6_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:11:43 UTC; unix
-Filesize: 774042
-SHA256: a7fbc27cbe96c583ee2f0377cf3b59c460c22d0279b8fdcb1e03fad5624b7c6b
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: textshaping_0.3.6_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++11, freetype2, harfbuzz, fribidi
-LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
 
 Package: urlchecker
 Version: 1.0.1
@@ -4903,3 +4846,60 @@ File: htmltools_0.5.6.1_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: knitr
+
+Package: fansi
+Version: 1.0.5
+Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
+Imports: grDevices, utils
+Suggests: unitizer, knitr, rmarkdown
+License: GPL-2 | GPL-3
+DownloadURL: https://github.com/cran/fansi/releases/download/1.0.5/fansi_1.0.5_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-09 16:36:27 UTC; unix
+Filesize: 425502
+SHA256: 5d647e7f397401188da08c1ea5d2fa55dc14fe9ead90d16190ca2f18044c0d98
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: fansi_1.0.5_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: systemfonts
+Version: 1.0.5
+Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
+Suggests: covr, knitr, rmarkdown, testthat (>= 2.1.0), tools
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/systemfonts/releases/download/1.0.5/systemfonts_1.0.5_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-09 16:36:28 UTC; unix
+Filesize: 2054012
+SHA256: a8f8a38ad17c8a9b90596201919b4500c80af2f0ecf1c02015ad32baa819d8f1
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: systemfonts_1.0.5_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: fontconfig, freetype2
+LinkingTo: cpp11 (>= 0.2.1)
+
+Package: textshaping
+Version: 0.3.7
+Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
+Imports: systemfonts (>= 1.0.0)
+Suggests: covr, knitr, rmarkdown
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/textshaping/releases/download/0.3.7/textshaping_0.3.7_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-09 16:36:56 UTC; unix
+Filesize: 754102
+SHA256: d8331bca6c159e5947ff5773174d19937058c9dd0b9c27750da3274bf13263b8
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: textshaping_0.3.7_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: freetype2, harfbuzz, fribidi
+LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
