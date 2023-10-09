@@ -305,24 +305,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, testthat
 Imports: rlang (>= 0.3.0)
 
-Package: fansi
-Version: 1.0.4
-Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
-License: GPL-2 | GPL-3
-File: fansi_1.0.4_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/fansi/releases/download/1.0.4/fansi_1.0.4_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 11:51:29 UTC; unix
-Filesize: 453361
-SHA256: 54bdc94319909cfb6a06b7c1aee8bd25a856f48a34100fbf7b03de13c13c1665
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: unitizer, knitr, rmarkdown
-Imports: grDevices, utils
-
 Package: farver
 Version: 2.1.1
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -925,45 +907,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: unix (>= 1.4), spelling, testthat
-
-Package: systemfonts
-Version: 1.0.4
-Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: systemfonts_1.0.4_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/systemfonts/releases/download/1.0.4/systemfonts_1.0.4_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 11:53:53 UTC; unix
-Filesize: 2136354
-SHA256: 7ba8e66460855ca5c5b7f363013bd04e0adc518804536762474fd12728faad73
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testthat (>= 2.1.0), covr, knitr, rmarkdown, tools
-SystemRequirements: C++11, fontconfig, freetype2
-LinkingTo: cpp11 (>= 0.2.1)
-
-Package: textshaping
-Version: 0.3.6
-Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: textshaping_0.3.6_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/textshaping/releases/download/0.3.6/textshaping_0.3.6_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 11:55:30 UTC; unix
-Filesize: 770570
-SHA256: 34a221511f7583f4b3f1791e00026c24febee99525fb7d92d9021df93c51a5c9
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, knitr, rmarkdown
-Imports: systemfonts (>= 1.0.0)
-SystemRequirements: C++11, freetype2, harfbuzz, fribidi
-LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
 
 Package: tibble
 Version: 3.2.1
@@ -4775,3 +4718,60 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: knitr
 Suggests: markdown, testthat, withr, Cairo, ragg, shiny
 Imports: utils, digest, grDevices, base64enc, rlang (>= 0.4.12), fastmap (>= 1.1.0), ellipsis
+
+Package: fansi
+Version: 1.0.5
+Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
+License: GPL-2 | GPL-3
+File: fansi_1.0.5_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/fansi/releases/download/1.0.5/fansi_1.0.5_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-09 17:15:57 UTC; unix
+Filesize: 453989
+SHA256: 6e8fbfc1c27938852d1ab6d60a9c0b203689b1cf378f871a1d2b99aa828171e4
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: unitizer, knitr, rmarkdown
+Imports: grDevices, utils
+
+Package: systemfonts
+Version: 1.0.5
+Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: systemfonts_1.0.5_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/systemfonts/releases/download/1.0.5/systemfonts_1.0.5_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-09 17:15:58 UTC; unix
+Filesize: 2055186
+SHA256: 3ea1e600eb3a80eab3715a59c0e3a2f3c95e6d4732f8fae4075023b36f93da51
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, knitr, rmarkdown, testthat (>= 2.1.0), tools
+SystemRequirements: fontconfig, freetype2
+LinkingTo: cpp11 (>= 0.2.1)
+
+Package: textshaping
+Version: 0.3.7
+Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: textshaping_0.3.7_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/textshaping/releases/download/0.3.7/textshaping_0.3.7_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-09 17:16:26 UTC; unix
+Filesize: 754835
+SHA256: cf2ded54677faa426c5aea4a7991c1eee72484a4e47c07d82b8e74dfb0549560
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, knitr, rmarkdown
+Imports: systemfonts (>= 1.0.0)
+SystemRequirements: freetype2, harfbuzz, fribidi
+LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
