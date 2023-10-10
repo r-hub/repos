@@ -687,26 +687,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat, pryr
 
-Package: ragg
-Version: 1.2.5
-Depends: R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: ragg_1.2.5_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/ragg/releases/download/1.2.5/ragg_1.2.5_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 11:55:57 UTC; unix
-Filesize: 5431270
-SHA256: a8208c6a270a8cc0c9b74c173bfcf326f272487aa02c8a1ab39a5199b49b517e
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, graphics, grid, testthat
-Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
-SystemRequirements: C++11, freetype2, libpng, libtiff, libjpeg
-LinkingTo: systemfonts, textshaping
-
 Package: rappdirs
 Version: 0.3.3
 Depends: R (>= 3.2), R (>= 4.4), R (< 4.4.99)
@@ -4536,22 +4516,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testit, rstudioapi
 Imports: xfun (>= 0.29)
 
-Package: markdown
-Version: 1.9
-Depends: R (>= 2.11.1), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: markdown_1.9_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/markdown/releases/download/1.9/markdown_1.9_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-09-30 17:14:19 UTC; unix
-Filesize: 197536
-SHA256: 3e443135822950d6777d7bb381dd88a4fe3300fcdfac648db38344556cd6d5eb
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: knitr, rmarkdown (>= 2.18), yaml, RCurl
-Imports: utils, commonmark (>= 1.9.0), xfun (>= 0.38)
-
 Package: lattice
 Version: 0.21-9
 Depends: R (>= 4.0.0), R (>= 4.4), R (< 4.4.99)
@@ -4775,3 +4739,39 @@ Suggests: covr, knitr, rmarkdown
 Imports: systemfonts (>= 1.0.0)
 SystemRequirements: freetype2, harfbuzz, fribidi
 LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
+
+Package: ragg
+Version: 1.2.6
+Depends: R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: ragg_1.2.6_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/ragg/releases/download/1.2.6/ragg_1.2.6_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-10 17:15:06 UTC; unix
+Filesize: 5478952
+SHA256: d3ae0cf2f4dce1d7de1ab7b67dd2d26a6d33fd0ea1d558c89426197bc315eb8d
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, graphics, grid, testthat (>= 3.0.0)
+Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
+SystemRequirements: freetype2, libpng, libtiff, libjpeg
+LinkingTo: systemfonts, textshaping
+
+Package: markdown
+Version: 1.10
+Depends: R (>= 2.11.1), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: markdown_1.10_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/markdown/releases/download/1.10/markdown_1.10_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-10-10 17:15:06 UTC; unix
+Filesize: 198207
+SHA256: d19df20204694ef59ff1d32a51bea8511205f7ef3cea3c731245491e0f2bc1f6
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr, rmarkdown (>= 2.18), yaml, RCurl
+Imports: utils, commonmark (>= 1.9.0), xfun (>= 0.38)
