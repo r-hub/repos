@@ -1064,26 +1064,6 @@ File: ps_1.7.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: ragg
-Version: 1.2.5
-Depends: R (>= 4.4), R (< 4.4.99)
-Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
-Suggests: covr, graphics, grid, testthat
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/ragg/releases/download/1.2.5/ragg_1.2.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:12:13 UTC; unix
-Filesize: 5446412
-SHA256: c1351f11079b9de69dcd17ff6e1a6f8eda70e1d5a87b4c374ef8be7b4545fd69
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: ragg_1.2.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++11, freetype2, libpng, libtiff, libjpeg
-LinkingTo: systemfonts, textshaping
-
 Package: rcmdcheck
 Version: 1.4.0
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -4664,22 +4644,6 @@ File: tinytex_0.47_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: markdown
-Version: 1.9
-Depends: R (>= 2.11.1), R (>= 4.4), R (< 4.4.99)
-Imports: utils, commonmark (>= 1.9.0), xfun (>= 0.38)
-Suggests: knitr, rmarkdown (>= 2.18), yaml, RCurl
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/markdown/releases/download/1.9/markdown_1.9_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-09-30 16:32:46 UTC; unix
-Filesize: 198856
-SHA256: 8ce6a884ac3b9b10609a1576222a909eeb3ab08ce8c1bc5655a6c1b05ef9597f
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: markdown_1.9_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: lattice
 Version: 0.21-9
 Depends: R (>= 4.0.0), R (>= 4.4), R (< 4.4.99)
@@ -4903,3 +4867,39 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: freetype2, harfbuzz, fribidi
 LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
+
+Package: ragg
+Version: 1.2.6
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
+Suggests: covr, graphics, grid, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/ragg/releases/download/1.2.6/ragg_1.2.6_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-10 16:37:45 UTC; unix
+Filesize: 5528069
+SHA256: b23170f07d7a78b54b7cb9c6a0635a148453a6cc339fc1f03ad901064d73a797
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: ragg_1.2.6_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: freetype2, libpng, libtiff, libjpeg
+LinkingTo: systemfonts, textshaping
+
+Package: markdown
+Version: 1.10
+Depends: R (>= 2.11.1), R (>= 4.4), R (< 4.4.99)
+Imports: utils, commonmark (>= 1.9.0), xfun (>= 0.38)
+Suggests: knitr, rmarkdown (>= 2.18), yaml, RCurl
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/markdown/releases/download/1.10/markdown_1.10_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-10-10 16:37:45 UTC; unix
+Filesize: 198902
+SHA256: db115481f0a9f046eb0f350dd9f2dfa217d45424d190fcf7c4e4b195cf9ad538
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: markdown_1.10_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
