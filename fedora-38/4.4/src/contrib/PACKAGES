@@ -2738,26 +2738,6 @@ Suggests: testthat, magick, formattable, sparkline
 Imports: knitr (>= 1.16), magrittr, stringr (>= 1.0), xml2 (>= 1.1.1), rvest, rmarkdown (>= 1.6.0), scales, viridisLite, stats, grDevices, htmltools, rstudioapi, glue, tools, webshot, digest,
         graphics, svglite
 
-Package: svglite
-Version: 2.1.1
-Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2)
-File: svglite_2.1.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/svglite/releases/download/2.1.1/svglite_2.1.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 14:44:37 UTC; unix
-Filesize: 774091
-SHA256: 831d6ee4c1adb4f1b02cd699caca41ad392fe3cd3f0232ee1143c2a26451e576
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, fontquiver (>= 0.2.0), htmltools, knitr, rmarkdown, testthat, xml2 (>= 1.0.0)
-Imports: systemfonts (>= 1.0.0)
-SystemRequirements: C++11, libpng
-LinkingTo: cpp11, systemfonts
-
 Package: plotly
 Version: 4.10.2
 Depends: R (>= 3.2.0), ggplot2 (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
@@ -4775,3 +4755,23 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: knitr, rmarkdown (>= 2.18), yaml, RCurl
 Imports: utils, commonmark (>= 1.9.0), xfun (>= 0.38)
+
+Package: svglite
+Version: 2.1.2
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: svglite_2.1.2_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/svglite/releases/download/2.1.2/svglite_2.1.2_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-11 17:16:43 UTC; unix
+Filesize: 758182
+SHA256: e0777f77f8382ab2a66f48c9ab73648786b6a092318bd487112177c9439f39dc
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, fontquiver (>= 0.2.0), htmltools, knitr, rmarkdown, testthat (>= 3.0.0), xml2 (>= 1.0.0)
+Imports: systemfonts (>= 1.0.0)
+SystemRequirements: libpng
+LinkingTo: cpp11, systemfonts
