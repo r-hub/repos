@@ -2042,26 +2042,6 @@ File: shape_1.4.6_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: slider
-Version: 0.3.0
-Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
-Imports: cli (>= 3.4.1), rlang (>= 1.0.6), vctrs (>= 0.5.0), warp
-Suggests: covr, dplyr (>= 1.0.0), knitr, lubridate, rmarkdown, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/slider/releases/download/0.3.0/slider_0.3.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:46:34 UTC; unix
-Filesize: 389141
-SHA256: 709bd9bb3dcf20601af609bb9cb273c04295063b65bd868568d2c3e5286b0805
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: slider_0.3.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++11
-LinkingTo: vctrs (>= 0.5.0)
-
 Package: SQUAREM
 Version: 2021.1
 Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
@@ -3730,24 +3710,6 @@ File: patchwork_1.1.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: ggplot2
-Version: 3.4.3
-Depends: R (>= 3.3), R (>= 4.4), R (< 4.4.99)
-Imports: cli, glue, grDevices, grid, gtable (>= 0.1.1), isoband, lifecycle (> 1.0.1), MASS, mgcv, rlang (>= 1.1.0), scales (>= 1.2.0), stats, tibble, vctrs (>= 0.5.0), withr (>= 2.5.0)
-Suggests: covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, lattice, mapproj, maps, maptools, multcomp, munsell, nlme, profvis, quantreg, ragg, RColorBrewer, rgeos, rmarkdown, rpart, sf (>= 0.7-3),
-        svglite (>= 1.2.0.9001), testthat (>= 3.1.2), vdiffr (>= 1.0.0), xml2
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/ggplot2/releases/download/3.4.3/ggplot2_3.4.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-08-14 16:36:34 UTC; unix
-Filesize: 3345694
-SHA256: a3de40b5a1812949eab2a1b056666dc6239c456c6b292d374ad13556e58dff16
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: ggplot2_3.4.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: sp
-
 Package: httr
 Version: 1.4.7
 Depends: R (>= 3.5), R (>= 4.4), R (< 4.4.99)
@@ -4903,3 +4865,40 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libpng
 LinkingTo: cpp11, systemfonts
+
+Package: slider
+Version: 0.3.1
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+Imports: cli (>= 3.6.1), rlang (>= 1.1.1), vctrs (>= 0.6.3), warp
+Suggests: covr, dplyr (>= 1.0.0), knitr, lubridate, rmarkdown, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/slider/releases/download/0.3.1/slider_0.3.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-12 16:37:43 UTC; unix
+Filesize: 394954
+SHA256: 5c47b3f9d99e48a544a3395e7d952ff4166a2796fd40b2ffd7568be78cdaeece
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: slider_0.3.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: vctrs (>= 0.6.3)
+
+Package: ggplot2
+Version: 3.4.4
+Depends: R (>= 3.3), R (>= 4.4), R (< 4.4.99)
+Imports: cli, glue, grDevices, grid, gtable (>= 0.1.1), isoband, lifecycle (> 1.0.1), MASS, mgcv, rlang (>= 1.1.0), scales (>= 1.2.0), stats, tibble, vctrs (>= 0.5.0), withr (>= 2.5.0)
+Suggests: covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, lattice, mapproj, maps, multcomp, munsell, nlme, profvis, quantreg, ragg, RColorBrewer, rmarkdown, rpart, sf (>= 0.7-3), svglite (>=
+        1.2.0.9001), testthat (>= 3.1.2), vdiffr (>= 1.0.0), xml2
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/ggplot2/releases/download/3.4.4/ggplot2_3.4.4_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-10-12 16:37:48 UTC; unix
+Filesize: 4315547
+SHA256: 5194bc626ba5fd18cdbd33d32cb5867274db83d6e78d4f1563f109f6b3c41b38
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: ggplot2_3.4.4_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: sp
