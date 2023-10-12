@@ -1390,26 +1390,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: stats, graphics, grDevices
 
-Package: slider
-Version: 0.3.0
-Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: slider_0.3.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/slider/releases/download/0.3.0/slider_0.3.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 12:14:09 UTC; unix
-Filesize: 409077
-SHA256: e6fae7147707282424b814d807efc04e5a1cfdc74929a0f4d7b42172e3d842b4
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, dplyr (>= 1.0.0), knitr, lubridate, rmarkdown, testthat (>= 3.0.0)
-Imports: cli (>= 3.4.1), rlang (>= 1.0.6), vctrs (>= 0.5.0), warp
-SystemRequirements: C++11
-LinkingTo: vctrs (>= 0.5.0)
-
 Package: SQUAREM
 Version: 2021.1
 Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
@@ -3586,24 +3566,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: knitr, rmarkdown, gridGraphics, gridExtra, ragg, testthat (>= 2.1.0), vdiffr, covr, png
 Imports: ggplot2 (>= 3.0.0), gtable, grid, stats, grDevices, utils, graphics, rlang, cli
 
-Package: ggplot2
-Version: 3.4.3
-Depends: R (>= 3.3), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: ggplot2_3.4.3_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/ggplot2/releases/download/3.4.3/ggplot2_3.4.3_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-08-14 17:18:24 UTC; unix
-Filesize: 3517298
-SHA256: d6d611eddf2aad6a0325f37f97874bfd8e5f058b67f08348d7137a8532086dd4
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: sp
-Suggests: covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, lattice, mapproj, maps, maptools, multcomp, munsell, nlme, profvis, quantreg, ragg, RColorBrewer, rgeos, rmarkdown, rpart, sf (>= 0.7-3),
-        svglite (>= 1.2.0.9001), testthat (>= 3.1.2), vdiffr (>= 1.0.0), xml2
-Imports: cli, glue, grDevices, grid, gtable (>= 0.1.1), isoband, lifecycle (> 1.0.1), MASS, mgcv, rlang (>= 1.1.0), scales (>= 1.2.0), stats, tibble, vctrs (>= 0.5.0), withr (>= 2.5.0)
-
 Package: httr
 Version: 1.4.7
 Depends: R (>= 3.5), R (>= 4.4), R (< 4.4.99)
@@ -4775,3 +4737,40 @@ Suggests: covr, fontquiver (>= 0.2.0), htmltools, knitr, rmarkdown, testthat (>=
 Imports: systemfonts (>= 1.0.0)
 SystemRequirements: libpng
 LinkingTo: cpp11, systemfonts
+
+Package: slider
+Version: 0.3.1
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: slider_0.3.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/slider/releases/download/0.3.1/slider_0.3.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-12 17:16:47 UTC; unix
+Filesize: 408024
+SHA256: 12a8e1867371681a1f57ca3135c534b55c90f64fb514fa33c399d8b043d6ffb0
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, dplyr (>= 1.0.0), knitr, lubridate, rmarkdown, testthat (>= 3.0.0)
+Imports: cli (>= 3.6.1), rlang (>= 1.1.1), vctrs (>= 0.6.3), warp
+LinkingTo: vctrs (>= 0.6.3)
+
+Package: ggplot2
+Version: 3.4.4
+Depends: R (>= 3.3), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: ggplot2_3.4.4_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/ggplot2/releases/download/3.4.4/ggplot2_3.4.4_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-10-12 17:16:52 UTC; unix
+Filesize: 4486848
+SHA256: acd402b9c008500061524e21fc2b917baeffae403f222ce9131a2b695c994974
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: sp
+Suggests: covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, lattice, mapproj, maps, multcomp, munsell, nlme, profvis, quantreg, ragg, RColorBrewer, rmarkdown, rpart, sf (>= 0.7-3), svglite (>=
+        1.2.0.9001), testthat (>= 3.1.2), vdiffr (>= 1.0.0), xml2
+Imports: cli, glue, grDevices, grid, gtable (>= 0.1.1), isoband, lifecycle (> 1.0.1), MASS, mgcv, rlang (>= 1.1.0), scales (>= 1.2.0), stats, tibble, vctrs (>= 0.5.0), withr (>= 2.5.0)
