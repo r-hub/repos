@@ -3237,25 +3237,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp (>= 0.10.5), RcppEigen
 
-Package: raster
-Version: 3.6-23
-Depends: sp (>= 1.4-5), R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Imports: Rcpp, methods, terra (>= 1.7-29)
-Suggests: ncdf4, igraph, tcltk, parallel, rasterVis, MASS, sf, tinytest, gstat, fields, exactextractr
-License: GPL (>= 3)
-DownloadURL: https://github.com/cran/raster/releases/download/3.6-23/raster_3.6-23_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-04 16:43:10 UTC; unix
-Filesize: 6616513
-SHA256: f383966c258f13e19f79e80cb36d65e2a0e64ebfff27a220952f2989f1b76c95
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: raster_3.6-23_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: digest
 Version: 0.6.33
 Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
@@ -3637,23 +3618,6 @@ SHA256: a0548f7514f589e1264350743f20da59e6e8d774903c5f94bbddb92dc7e234bd
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: bslib_0.5.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: shiny
-Version: 1.7.5
-Depends: R (>= 3.0.2), methods, R (>= 4.4), R (< 4.4.99)
-Imports: utils, grDevices, httpuv (>= 1.5.2), mime (>= 0.3), jsonlite (>= 0.9.16), xtable, fontawesome (>= 0.4.0), htmltools (>= 0.5.4), R6 (>= 2.0), sourcetools, later (>= 1.0.0), promises (>=
-        1.1.0), tools, crayon, rlang (>= 0.4.10), fastmap (>= 1.1.1), withr, commonmark (>= 1.7), glue (>= 1.3.2), bslib (>= 0.3.0), cachem, ellipsis, lifecycle (>= 0.2.0)
-Suggests: datasets, Cairo (>= 1.5-5), testthat (>= 3.0.0), knitr (>= 1.6), markdown, rmarkdown, ggplot2, reactlog (>= 1.0.0), magrittr, yaml, future, dygraphs, ragg, showtext, sass
-License: GPL-3 | file LICENSE
-DownloadURL: https://github.com/cran/shiny/releases/download/1.7.5/shiny_1.7.5_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-08-13 16:32:43 UTC; unix
-Filesize: 4346649
-SHA256: 0918632b5c0ae0d9ac2cfde856c0125bec2a6d51b8e9d66b183cdcb88726d501
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: shiny_1.7.5_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
@@ -4900,5 +4864,41 @@ SHA256: 4db403e5df552e7045538af5178e81df812912e6ec428280bfede34f3d809916
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: tinytex_0.48_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: raster
+Version: 3.6-26
+Depends: sp (>= 1.4-5), R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Imports: Rcpp, methods, terra (>= 1.7-29)
+Suggests: ncdf4, igraph, tcltk, parallel, rasterVis, MASS, sf, tinytest, gstat, fields, exactextractr
+License: GPL (>= 3)
+DownloadURL: https://github.com/cran/raster/releases/download/3.6-26/raster_3.6-26_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-14 16:34:09 UTC; unix
+Filesize: 6592031
+SHA256: 70d8d8f094e6508b048664517ea9e157264080d3fe3bd481d985e80c3850007a
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: raster_3.6-26_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: shiny
+Version: 1.7.5.1
+Depends: R (>= 3.0.2), methods, R (>= 4.4), R (< 4.4.99)
+Imports: utils, grDevices, httpuv (>= 1.5.2), mime (>= 0.3), jsonlite (>= 0.9.16), xtable, fontawesome (>= 0.4.0), htmltools (>= 0.5.4), R6 (>= 2.0), sourcetools, later (>= 1.0.0), promises (>=
+        1.1.0), tools, crayon, rlang (>= 0.4.10), fastmap (>= 1.1.1), withr, commonmark (>= 1.7), glue (>= 1.3.2), bslib (>= 0.3.0), cachem, ellipsis, lifecycle (>= 0.2.0)
+Suggests: datasets, Cairo (>= 1.5-5), testthat (>= 3.0.0), knitr (>= 1.6), markdown, rmarkdown, ggplot2, reactlog (>= 1.0.0), magrittr, yaml, future, dygraphs, ragg, showtext, sass
+License: GPL-3 | file LICENSE
+DownloadURL: https://github.com/cran/shiny/releases/download/1.7.5.1/shiny_1.7.5.1_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-10-14 16:34:14 UTC; unix
+Filesize: 4347008
+SHA256: 831fb09a410f9b2a791e7333d239ad67259019516ddee8b5a85b3685d7b74650
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: shiny_1.7.5.1_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
