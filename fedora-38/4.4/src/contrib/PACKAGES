@@ -3959,26 +3959,6 @@ Suggests: callr, DBItest (>= 1.7.2.9001), gert, gh, hms, knitr, magrittr, rmarkd
 Imports: bit64, blob (>= 1.2.0), DBI (>= 1.1.0), memoise, methods, pkgconfig
 LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
 
-Package: rstan
-Version: 2.26.23
-Depends: R (>= 3.4.0), StanHeaders (>= 2.26.22), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 3)
-File: rstan_2.26.23_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/rstan/releases/download/2.26.23/rstan_2.26.23_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-09-08 17:16:48 UTC; unix
-Filesize: 15864554
-SHA256: de41d69cc6893aaf3dc2281757a34fb20d5ef04d76abcb2c750bb66af13d398a
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testthat (>= 3.0.4), parallel, KernSmooth, shinystan, bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr, rstanarm, coda
-Imports: methods, stats4, inline (>= 0.3.19), gridExtra (>= 2.3), Rcpp (>= 1.0.7), RcppParallel (>= 5.1.4), loo (>= 2.4.1), pkgbuild (>= 1.2.0), QuickJSR, ggplot2 (>= 3.3.5)
-SystemRequirements: GNU make, pandoc
-LinkingTo: Rcpp (>= 1.0.7), RcppEigen (>= 0.3.3.9.1), BH (>= 1.75.0-0), StanHeaders (>= 2.26.22), RcppParallel (>= 5.1.4)
-
 Package: RcppArmadillo
 Version: 0.12.6.4.0
 Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
@@ -4073,26 +4053,6 @@ Suggests: NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0), dplyr (>= 
 Imports: Rcpp
 SystemRequirements: udunits-2
 LinkingTo: Rcpp (>= 0.12.10)
-
-Package: QuickJSR
-Version: 1.0.6
-Depends: R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: QuickJSR_1.0.6_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/QuickJSR/releases/download/1.0.6/QuickJSR_1.0.6_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-09-13 17:16:12 UTC; unix
-Filesize: 4475725
-SHA256: 74263e4e0daa1d49394220e6aeaa661e6e085de4f51f6ff573a3ca55f2b1be3c
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testthat (>= 3.0.0)
-Imports: jsonlite, R6, Rcpp
-SystemRequirements: GNU make
-LinkingTo: Rcpp
 
 Package: rstanarm
 Version: 2.26.1
@@ -4774,3 +4734,43 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: datasets, Cairo (>= 1.5-5), testthat (>= 3.0.0), knitr (>= 1.6), markdown, rmarkdown, ggplot2, reactlog (>= 1.0.0), magrittr, yaml, future, dygraphs, ragg, showtext, sass
 Imports: utils, grDevices, httpuv (>= 1.5.2), mime (>= 0.3), jsonlite (>= 0.9.16), xtable, fontawesome (>= 0.4.0), htmltools (>= 0.5.4), R6 (>= 2.0), sourcetools, later (>= 1.0.0), promises (>=
         1.1.0), tools, crayon, rlang (>= 0.4.10), fastmap (>= 1.1.1), withr, commonmark (>= 1.7), glue (>= 1.3.2), bslib (>= 0.3.0), cachem, ellipsis, lifecycle (>= 0.2.0)
+
+Package: rstan
+Version: 2.32.3
+Depends: R (>= 3.4.0), StanHeaders (>= 2.26.28), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 3)
+File: rstan_2.32.3_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/rstan/releases/download/2.32.3/rstan_2.32.3_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-15 17:17:24 UTC; unix
+Filesize: 15855471
+SHA256: aaa04365f125c1dac2d3f6b9a99a589ba72346c40bd72f96857000e3a8ca9fbd
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat (>= 3.0.4), parallel, KernSmooth, shinystan, bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr, coda, V8
+Imports: methods, stats4, inline (>= 0.3.19), gridExtra (>= 2.3), Rcpp (>= 1.0.7), RcppParallel (>= 5.1.4), loo (>= 2.4.1), pkgbuild (>= 1.2.0), QuickJSR, ggplot2 (>= 3.3.5)
+SystemRequirements: GNU make, pandoc
+LinkingTo: Rcpp (>= 1.0.7), RcppEigen (>= 0.3.3.9.3), BH (>= 1.75.0-0), StanHeaders (>= 2.26.28), RcppParallel (>= 5.1.4)
+
+Package: QuickJSR
+Version: 1.0.7
+Depends: R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: QuickJSR_1.0.7_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/QuickJSR/releases/download/1.0.7/QuickJSR_1.0.7_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-15 17:16:31 UTC; unix
+Filesize: 4416921
+SHA256: 7a2c194753c8426cc3a91cbc72d5dcb3877e5661b654c51caa7b9c9eeb2a26a7
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat (>= 3.0.0)
+Imports: jsonlite, R6, Rcpp
+SystemRequirements: GNU make
+LinkingTo: Rcpp
