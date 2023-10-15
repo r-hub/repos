@@ -4069,26 +4069,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, pandoc
 LinkingTo: RcppEigen, RcppParallel (>= 5.1.4)
 
-Package: rstan
-Version: 2.26.23
-Depends: R (>= 3.4.0), StanHeaders (>= 2.26.22), R (>= 4.4), R (< 4.4.99)
-Imports: methods, stats4, inline (>= 0.3.19), gridExtra (>= 2.3), Rcpp (>= 1.0.7), RcppParallel (>= 5.1.4), loo (>= 2.4.1), pkgbuild (>= 1.2.0), QuickJSR, ggplot2 (>= 3.3.5)
-Suggests: testthat (>= 3.0.4), parallel, KernSmooth, shinystan, bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr, rstanarm, coda
-License: GPL (>= 3)
-DownloadURL: https://github.com/cran/rstan/releases/download/2.26.23/rstan_2.26.23_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-09-08 16:37:38 UTC; unix
-Filesize: 15921718
-SHA256: 9ab510733a2099422c5fef9ed6d81d04ae91b8d94bce481dcb10bcdb616d883e
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: rstan_2.26.23_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make, pandoc
-LinkingTo: Rcpp (>= 1.0.7), RcppEigen (>= 0.3.3.9.1), BH (>= 1.75.0-0), StanHeaders (>= 2.26.22), RcppParallel (>= 5.1.4)
-
 Package: RcppArmadillo
 Version: 0.12.6.4.0
 Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
@@ -4163,26 +4143,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: Hmisc_5.1-1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: QuickJSR
-Version: 1.0.6
-Depends: R (>= 4.4), R (< 4.4.99)
-Imports: jsonlite, R6, Rcpp
-Suggests: testthat (>= 3.0.0)
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/QuickJSR/releases/download/1.0.6/QuickJSR_1.0.6_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-09-13 16:36:48 UTC; unix
-Filesize: 4474781
-SHA256: 1f7268c2dbae4af967c7e765b98ea5806a7c1a7a91c21c99987b6232d413e955
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: QuickJSR_1.0.6_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make
-LinkingTo: Rcpp
 
 Package: rstanarm
 Version: 2.26.1
@@ -4902,3 +4862,43 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: shiny_1.7.5.1_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rstan
+Version: 2.32.3
+Depends: R (>= 3.4.0), StanHeaders (>= 2.26.28), R (>= 4.4), R (< 4.4.99)
+Imports: methods, stats4, inline (>= 0.3.19), gridExtra (>= 2.3), Rcpp (>= 1.0.7), RcppParallel (>= 5.1.4), loo (>= 2.4.1), pkgbuild (>= 1.2.0), QuickJSR, ggplot2 (>= 3.3.5)
+Suggests: testthat (>= 3.0.4), parallel, KernSmooth, shinystan, bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr, coda, V8
+License: GPL (>= 3)
+DownloadURL: https://github.com/cran/rstan/releases/download/2.32.3/rstan_2.32.3_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-15 16:35:28 UTC; unix
+Filesize: 15912046
+SHA256: eb4b06afaf8590c33a3a833ee97cd3056a308dd1e58b30f42218cb307edbf566
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: rstan_2.32.3_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, pandoc
+LinkingTo: Rcpp (>= 1.0.7), RcppEigen (>= 0.3.3.9.3), BH (>= 1.75.0-0), StanHeaders (>= 2.26.28), RcppParallel (>= 5.1.4)
+
+Package: QuickJSR
+Version: 1.0.7
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: jsonlite, R6, Rcpp
+Suggests: testthat (>= 3.0.0)
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/QuickJSR/releases/download/1.0.7/QuickJSR_1.0.7_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-15 16:34:42 UTC; unix
+Filesize: 4413274
+SHA256: 770a062d1647d334e80b8b0ba9c81cd9ace87ba6f0d8a514091558dc05826676
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: QuickJSR_1.0.7_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make
+LinkingTo: Rcpp
