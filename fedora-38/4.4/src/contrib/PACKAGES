@@ -3392,24 +3392,6 @@ Suggests: future (>= 1.21.0), knitr, purrr, rmarkdown, spelling, testthat, vembe
 Imports: fastmap (>= 1.1.0), later, magrittr (>= 1.5), R6, Rcpp, rlang, stats
 LinkingTo: later, Rcpp
 
-Package: bookdown
-Version: 0.35
-Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-License: GPL-3
-File: bookdown_0.35_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/bookdown/releases/download/0.35/bookdown_0.35_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-08-10 17:16:50 UTC; unix
-Filesize: 1099670
-SHA256: f67b0535e7aea43ba1055d484f5514bd73ae2a6a9ff2b9b59b2e2661ef2ae90a
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, rstudioapi, miniUI, rsconnect (>= 0.4.3), servr (>= 0.13), shiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat (>=
-        3.1.0), withr (>= 2.3.0)
-Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.39), tinytex (>= 0.12), yaml (>= 2.1.19)
-SystemRequirements: Pandoc (>= 1.17.2)
-
 Package: cpp11
 Version: 0.4.6
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -4349,24 +4331,6 @@ Suggests: abind, covr, doParallel, foreach, iterators, itertools, tcltk, testtha
 Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
 
-Package: sp
-Version: 2.1-0
-Depends: R (>= 3.5.0), methods, R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2)
-File: sp_2.1-0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/sp/releases/download/2.1-0/sp_2.1-0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-02 17:16:45 UTC; unix
-Filesize: 2186782
-SHA256: 1686d395ea22ed5881533f1d5331e6dfd5c252fb33412a155022e75c9d6370b2
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: RColorBrewer, gstat, deldir, knitr, rmarkdown, sf, terra, raster
-Imports: utils, stats, graphics, grDevices, lattice, grid
-
 Package: curl
 Version: 5.1.0
 Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
@@ -4774,3 +4738,39 @@ Suggests: testthat (>= 3.0.0)
 Imports: jsonlite, R6, Rcpp
 SystemRequirements: GNU make
 LinkingTo: Rcpp
+
+Package: bookdown
+Version: 0.36
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+License: GPL-3
+File: bookdown_0.36_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/bookdown/releases/download/0.36/bookdown_0.36_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-10-17 17:16:32 UTC; unix
+Filesize: 1100062
+SHA256: 82477669487d7c34ad00b6953e965ad435365442197056a8cc4568252aef551e
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, rstudioapi, miniUI, rsconnect (>= 0.4.3), servr (>= 0.13), shiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat (>=
+        3.1.0), withr (>= 2.3.0)
+Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.39), tinytex (>= 0.12), yaml (>= 2.1.19)
+SystemRequirements: Pandoc (>= 1.17.2)
+
+Package: sp
+Version: 2.1-1
+Depends: R (>= 3.5.0), methods, R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: sp_2.1-1_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/sp/releases/download/2.1-1/sp_2.1-1_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-17 17:16:27 UTC; unix
+Filesize: 2193966
+SHA256: f1efa413bcec2a3f0c69d7d9c30dbcfa9a2ea603fc2e4b14d7dbefa0257bebbc
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: RColorBrewer, gstat, deldir, knitr, rmarkdown, sf, terra, raster
+Imports: utils, stats, graphics, grDevices, lattice, grid
