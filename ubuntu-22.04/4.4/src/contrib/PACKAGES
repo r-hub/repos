@@ -3499,24 +3499,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cli
 
-Package: bookdown
-Version: 0.35
-Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.39), tinytex (>= 0.12), yaml (>= 2.1.19)
-Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, rstudioapi, miniUI, rsconnect (>= 0.4.3), servr (>= 0.13), shiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat (>=
-        3.1.0), withr (>= 2.3.0)
-License: GPL-3
-DownloadURL: https://github.com/cran/bookdown/releases/download/0.35/bookdown_0.35_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-08-10 16:37:22 UTC; unix
-Filesize: 1090565
-SHA256: 4eeaad896c1539c1fe588d802f6ef2f4ee11aafec929789d58d3db37f3b0ad4e
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: bookdown_0.35_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: Pandoc (>= 1.17.2)
-
 Package: xfun
 Version: 0.40
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -4459,24 +4441,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: sp
-Version: 2.1-0
-Depends: R (>= 3.5.0), methods, R (>= 4.4), R (< 4.4.99)
-Imports: utils, stats, graphics, grDevices, lattice, grid
-Suggests: RColorBrewer, gstat, deldir, knitr, rmarkdown, sf, terra, raster
-License: GPL (>= 2)
-DownloadURL: https://github.com/cran/sp/releases/download/2.1-0/sp_2.1-0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-02 16:36:38 UTC; unix
-Filesize: 2126415
-SHA256: fafc1444e28d3a696c9094dddb1ece11e8aa0860bef09b124e256bba54774b71
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: sp_2.1-0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: curl
 Version: 5.1.0
 Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
@@ -4902,3 +4866,39 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make
 LinkingTo: Rcpp
+
+Package: bookdown
+Version: 0.36
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.39), tinytex (>= 0.12), yaml (>= 2.1.19)
+Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, rstudioapi, miniUI, rsconnect (>= 0.4.3), servr (>= 0.13), shiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat (>=
+        3.1.0), withr (>= 2.3.0)
+License: GPL-3
+DownloadURL: https://github.com/cran/bookdown/releases/download/0.36/bookdown_0.36_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-10-17 16:37:24 UTC; unix
+Filesize: 1091157
+SHA256: 87a1fb26785120d78c3ab941b0bc51d7446aa697fd1e0ffc8aa1e447f4595792
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: bookdown_0.36_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: Pandoc (>= 1.17.2)
+
+Package: sp
+Version: 2.1-1
+Depends: R (>= 3.5.0), methods, R (>= 4.4), R (< 4.4.99)
+Imports: utils, stats, graphics, grDevices, lattice, grid
+Suggests: RColorBrewer, gstat, deldir, knitr, rmarkdown, sf, terra, raster
+License: GPL (>= 2)
+DownloadURL: https://github.com/cran/sp/releases/download/2.1-1/sp_2.1-1_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-17 16:37:19 UTC; unix
+Filesize: 2129771
+SHA256: 977f5aff01556a8a91ea6e822a7636fd7a04603a0aaec677679ae71534f16e59
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: sp_2.1-1_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
