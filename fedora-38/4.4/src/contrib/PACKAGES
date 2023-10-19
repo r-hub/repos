@@ -4499,22 +4499,6 @@ Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
 SystemRequirements: freetype2, libpng, libtiff, libjpeg
 LinkingTo: systemfonts, textshaping
 
-Package: markdown
-Version: 1.10
-Depends: R (>= 2.11.1), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: markdown_1.10_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/markdown/releases/download/1.10/markdown_1.10_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-10-10 17:15:06 UTC; unix
-Filesize: 198207
-SHA256: d19df20204694ef59ff1d32a51bea8511205f7ef3cea3c731245491e0f2bc1f6
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: knitr, rmarkdown (>= 2.18), yaml, RCurl
-Imports: utils, commonmark (>= 1.9.0), xfun (>= 0.38)
-
 Package: svglite
 Version: 2.1.2
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -4774,3 +4758,19 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: RColorBrewer, gstat, deldir, knitr, rmarkdown, sf, terra, raster
 Imports: utils, stats, graphics, grDevices, lattice, grid
+
+Package: markdown
+Version: 1.11
+Depends: R (>= 2.11.1), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: markdown_1.11_b5_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/markdown/releases/download/1.11/markdown_1.11_b5_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-10-19 17:16:33 UTC; unix
+Filesize: 199542
+SHA256: ef749ca1ed64472dd911b5e30fc645fd3874e8d49dd436341f04352d5c65f0df
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr, rmarkdown (>= 2.18), yaml, RCurl
+Imports: utils, commonmark (>= 1.9.0), xfun (>= 0.38)
