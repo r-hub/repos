@@ -2681,24 +2681,6 @@ Suggests: testthat, magick, formattable, sparkline
 Imports: knitr (>= 1.16), magrittr, stringr (>= 1.0), xml2 (>= 1.1.1), rvest, rmarkdown (>= 1.6.0), scales, viridisLite, stats, grDevices, htmltools, rstudioapi, glue, tools, webshot, digest,
         graphics, svglite
 
-Package: plotly
-Version: 4.10.2
-Depends: R (>= 3.2.0), ggplot2 (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: plotly_4.10.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/plotly/releases/download/4.10.2/plotly_4.10.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-06-26 14:45:01 UTC; unix
-Filesize: 3240932
-SHA256: c30719bf0b63c9d021599e3b18c370c35298dbe32c216bfbe59766ae7696620f
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: MASS, maps, hexbin, ggthemes, GGally, ggalluvial, testthat, knitr, shiny (>= 1.1.0), shinytest (>= 1.3.0), curl, rmarkdown, Cairo, broom, webshot, listviewer, dendextend, maptools, rgeos,
-        sf, png, IRdisplay, processx, plotlyGeoAssets, forcats, palmerpenguins, rversions, reticulate, rsvg
-Imports: tools, scales, httr (>= 1.3.0), jsonlite (>= 1.6), magrittr, digest, viridisLite, base64enc, htmltools (>= 0.3.6), htmlwidgets (>= 1.5.2.9001), tidyr (>= 1.0.0), RColorBrewer, dplyr, vctrs,
-        tibble, lazyeval (>= 0.2.0), rlang (>= 0.4.10), crosstalk, purrr, data.table, promises
-
 Package: png
 Version: 0.1-8
 Depends: R (>= 2.9.0), R (>= 4.4), R (< 4.4.99)
@@ -3715,23 +3697,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: qrng, numDeriv
 Imports: stats
 
-Package: wk
-Version: 0.8.0
-Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: wk_0.8.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/wk/releases/download/0.8.0/wk_0.8.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-08-25 17:15:43 UTC; unix
-Filesize: 2126950
-SHA256: 76b796a24ba29c43f480ee2933c59d1d60d450c09db6b4ef33a9029ca5f28afc
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testthat (>= 3.0.0), vctrs (>= 0.3.0), sf, tibble, readr
-
 Package: recipes
 Version: 1.0.8
 Depends: dplyr (>= 1.1.0), R (>= 3.6), R (>= 4.4), R (< 4.4.99)
@@ -4273,25 +4238,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, ggplot2, lattice, rlang, testthat (>= 3.0.0), withr
 Imports: methods
 
-Package: lattice
-Version: 0.21-9
-Depends: R (>= 4.0.0), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2)
-File: lattice_0.21-9_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/lattice/releases/download/0.21-9/lattice_0.21-9_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-02 17:16:13 UTC; unix
-Filesize: 1482603
-SHA256: a20c539c722dd0671c04f30beb580ec18f124c342d4bc0cea07dd3c2ebf259a0
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: chron
-Suggests: KernSmooth, MASS, latticeExtra, colorspace
-Imports: grid, grDevices, graphics, stats, utils
-
 Package: vroom
 Version: 1.6.4
 Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
@@ -4774,3 +4720,57 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: knitr, rmarkdown (>= 2.18), yaml, RCurl
 Imports: utils, commonmark (>= 1.9.0), xfun (>= 0.38)
+
+Package: plotly
+Version: 4.10.3
+Depends: R (>= 3.2.0), ggplot2 (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: plotly_4.10.3_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/plotly/releases/download/4.10.3/plotly_4.10.3_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-10-22 17:16:51 UTC; unix
+Filesize: 3233973
+SHA256: cb7a814250a0158077f357395a846b39b4fd7a729b40aaf22c345c225033b9d9
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: MASS, maps, hexbin, ggthemes, GGally, ggalluvial, testthat, knitr, shiny (>= 1.1.0), shinytest (>= 1.3.0), curl, rmarkdown, Cairo, broom, webshot, listviewer, dendextend, sf, png,
+        IRdisplay, processx, plotlyGeoAssets, forcats, withr, palmerpenguins, rversions, reticulate, rsvg
+Imports: tools, scales, httr (>= 1.3.0), jsonlite (>= 1.6), magrittr, digest, viridisLite, base64enc, htmltools (>= 0.3.6), htmlwidgets (>= 1.5.2.9001), tidyr (>= 1.0.0), RColorBrewer, dplyr, vctrs,
+        tibble, lazyeval (>= 0.2.0), rlang (>= 0.4.10), crosstalk, purrr, data.table, promises
+
+Package: wk
+Version: 0.9.0
+Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: wk_0.9.0_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/wk/releases/download/0.9.0/wk_0.9.0_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-22 17:16:26 UTC; unix
+Filesize: 2168330
+SHA256: ccff2762c85474a29486cfbd69cae24490abd603cfeefdbedb0fabf3508ae472
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat (>= 3.0.0), vctrs (>= 0.3.0), sf, tibble, readr
+
+Package: lattice
+Version: 0.22-4
+Depends: R (>= 4.0.0), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: lattice_0.22-4_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/lattice/releases/download/0.22-4/lattice_0.22-4_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-22 17:16:26 UTC; unix
+Filesize: 1502327
+SHA256: a1e6916071ec4d1d829d50b03c4ce1cd58b1caacc42990ce17ca5295a73d90a9
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: chron, zoo
+Suggests: KernSmooth, MASS, latticeExtra, colorspace
+Imports: grid, grDevices, graphics, stats, utils
