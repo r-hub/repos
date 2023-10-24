@@ -606,26 +606,6 @@ File: crayon_1.5.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: httpuv
-Version: 1.6.11
-Depends: R (>= 2.15.1), R (>= 4.4), R (< 4.4.99)
-Imports: Rcpp (>= 1.0.7), utils, R6, promises, later (>= 0.8.0)
-Suggests: testthat, callr, curl, websocket
-License: GPL (>= 2) | file LICENSE
-DownloadURL: https://github.com/cran/httpuv/releases/download/1.6.11/httpuv_1.6.11_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 08:21:31 UTC; unix
-Filesize: 4760547
-SHA256: 2a83f85edff3735473c5ac6842e742e704912941265348f8a233d1f9003f4a0e
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: httpuv_1.6.11_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make, zlib
-LinkingTo: Rcpp, later
-
 Package: later
 Version: 1.3.1
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -4867,25 +4847,6 @@ File: wk_0.9.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: lattice
-Version: 0.22-4
-Depends: R (>= 4.0.0), R (>= 4.4), R (< 4.4.99)
-Imports: grid, grDevices, graphics, stats, utils
-Suggests: KernSmooth, MASS, latticeExtra, colorspace
-License: GPL (>= 2)
-DownloadURL: https://github.com/cran/lattice/releases/download/0.22-4/lattice_0.22-4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-22 16:33:58 UTC; unix
-Filesize: 1377001
-SHA256: 327165968e30f1d40531251aefbddecd0321326dadb7c111589c7051656eb25b
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: lattice_0.22-4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: chron, zoo
-
 Package: utf8
 Version: 1.2.4
 Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
@@ -4902,3 +4863,42 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: utf8_1.2.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: httpuv
+Version: 1.6.12
+Depends: R (>= 2.15.1), R (>= 4.4), R (< 4.4.99)
+Imports: later (>= 0.8.0), promises, R6, Rcpp (>= 1.0.7), utils
+Suggests: callr, curl, testthat, websocket
+License: GPL (>= 2) | file LICENSE
+DownloadURL: https://github.com/cran/httpuv/releases/download/1.6.12/httpuv_1.6.12_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-24 16:37:18 UTC; unix
+Filesize: 4514186
+SHA256: 2e78eb35b2c56a0fa75ec5c19c3cdddd114da0a7dc895f16d613af2cadaf8128
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: httpuv_1.6.12_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, zlib
+LinkingTo: later, Rcpp
+
+Package: lattice
+Version: 0.22-5
+Depends: R (>= 4.0.0), R (>= 4.4), R (< 4.4.99)
+Imports: grid, grDevices, graphics, stats, utils
+Suggests: KernSmooth, MASS, latticeExtra, colorspace
+License: GPL (>= 2)
+DownloadURL: https://github.com/cran/lattice/releases/download/0.22-5/lattice_0.22-5_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-24 16:37:16 UTC; unix
+Filesize: 1376388
+SHA256: f7c8dc76b719c5b59fc5ae1f7ecd174e763fb69d6b414ff0d0c46c9a20e37346
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: lattice_0.22-5_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: chron, zoo
