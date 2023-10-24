@@ -1606,26 +1606,6 @@ Enhances: shiny (>= 1.1)
 Suggests: testthat
 Imports: grDevices, htmltools (>= 0.5.4), jsonlite (>= 0.9.16), yaml, knitr (>= 1.8), rmarkdown
 
-Package: httpuv
-Version: 1.6.11
-Depends: R (>= 2.15.1), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2) | file LICENSE
-File: httpuv_1.6.11_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/httpuv/releases/download/1.6.11/httpuv_1.6.11_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 12:25:24 UTC; unix
-Filesize: 4603685
-SHA256: b4d5ec069a075a687128679c52ecd27a8cf19367815f2238509595cb518ba04e
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testthat, callr, curl, websocket
-Imports: Rcpp (>= 1.0.7), utils, R6, promises, later (>= 0.8.0)
-SystemRequirements: GNU make, zlib
-LinkingTo: Rcpp, later
-
 Package: httr2
 Version: 0.2.3
 Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
@@ -4739,25 +4719,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat (>= 3.0.0), vctrs (>= 0.3.0), sf, tibble, readr
 
-Package: lattice
-Version: 0.22-4
-Depends: R (>= 4.0.0), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2)
-File: lattice_0.22-4_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/lattice/releases/download/0.22-4/lattice_0.22-4_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-22 17:16:26 UTC; unix
-Filesize: 1502327
-SHA256: a1e6916071ec4d1d829d50b03c4ce1cd58b1caacc42990ce17ca5295a73d90a9
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: chron, zoo
-Suggests: KernSmooth, MASS, latticeExtra, colorspace
-Imports: grid, grDevices, graphics, stats, utils
-
 Package: utf8
 Version: 1.2.4
 Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
@@ -4774,3 +4735,42 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: cli, covr, knitr, rlang, rmarkdown, testthat (>= 3.0.0), withr
+
+Package: httpuv
+Version: 1.6.12
+Depends: R (>= 2.15.1), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2) | file LICENSE
+File: httpuv_1.6.12_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/httpuv/releases/download/1.6.12/httpuv_1.6.12_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-24 17:16:38 UTC; unix
+Filesize: 4457580
+SHA256: 91fcdda749c41c57bdacde360c98bf3ab0df1c5a5828fdf318b3bb621715ffa8
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: callr, curl, testthat, websocket
+Imports: later (>= 0.8.0), promises, R6, Rcpp (>= 1.0.7), utils
+SystemRequirements: GNU make, zlib
+LinkingTo: later, Rcpp
+
+Package: lattice
+Version: 0.22-5
+Depends: R (>= 4.0.0), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: lattice_0.22-5_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/lattice/releases/download/0.22-5/lattice_0.22-5_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-24 17:16:36 UTC; unix
+Filesize: 1502212
+SHA256: 94ae96948c7c8a230e21d8d364f1c1233cf82f9ac7129b03da2eca1f7a42f980
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: chron, zoo
+Suggests: KernSmooth, MASS, latticeExtra, colorspace
+Imports: grid, grDevices, graphics, stats, utils
