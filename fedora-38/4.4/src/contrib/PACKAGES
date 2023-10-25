@@ -1981,24 +1981,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: checkmate
-Version: 2.2.0
-Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
-License: BSD_3_clause + file LICENSE
-File: checkmate_2.2.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/checkmate/releases/download/2.2.0/checkmate_2.2.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 13:51:29 UTC; unix
-Filesize: 832313
-SHA256: 3302dce760e8f4bcb5e60c4fdf410adf86707665e291556441b918317ed0dee6
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: R6, fastmatch, data.table (>= 1.9.8), devtools, ggplot2, knitr, magrittr, microbenchmark, rmarkdown, testthat (>= 3.0.4), tinytest (>= 1.1.0), tibble
-Imports: backports (>= 1.1.0), utils
-
 Package: crosstalk
 Version: 1.2.0
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -3552,24 +3534,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: grDevices, testthat, rstudioapi, rprojroot, gbRd
 Imports: tools, utils, rbibutils (>= 1.3)
 
-Package: rbibutils
-Version: 2.2.15
-Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
-License: GPL-2
-File: rbibutils_2.2.15_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/rbibutils/releases/download/2.2.15/rbibutils_2.2.15_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-08-21 17:15:18 UTC; unix
-Filesize: 1290728
-SHA256: 440197cace8a0a53439f9221c2ad4b62eeddcd2371b01cf0a1d3eff48b3dfd4f
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testthat
-Imports: utils, tools
-
 Package: glmnet
 Version: 4.1-8
 Depends: R (>= 3.6.0), Matrix (>= 1.0-6), R (>= 4.4), R (< 4.4.99)
@@ -4774,3 +4738,39 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: chron, zoo
 Suggests: KernSmooth, MASS, latticeExtra, colorspace
 Imports: grid, grDevices, graphics, stats, utils
+
+Package: checkmate
+Version: 2.3.0
+Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
+License: BSD_3_clause + file LICENSE
+File: checkmate_2.3.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/checkmate/releases/download/2.3.0/checkmate_2.3.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-25 17:15:37 UTC; unix
+Filesize: 862433
+SHA256: 75fc56523d279d3dc2c9c91eccda6a708660197ad94e5f64e9ee0863521a52c4
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: R6, fastmatch, data.table (>= 1.9.8), devtools, ggplot2, knitr, magrittr, microbenchmark, rmarkdown, testthat (>= 3.0.4), tinytest (>= 1.1.0), tibble
+Imports: backports (>= 1.1.0), utils
+
+Package: rbibutils
+Version: 2.2.16
+Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
+License: GPL-2
+File: rbibutils_2.2.16_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/rbibutils/releases/download/2.2.16/rbibutils_2.2.16_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-25 17:15:36 UTC; unix
+Filesize: 1291011
+SHA256: c35ddb9c89824e2b4b02b7836b88d27158cf0e7b84d113d969a3d0ae3a2103b8
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat
+Imports: utils, tools
