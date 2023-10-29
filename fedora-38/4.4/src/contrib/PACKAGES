@@ -3814,25 +3814,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: Rcpp
 
-Package: RSQLite
-Version: 2.3.1
-Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
-License: LGPL (>= 2.1)
-File: RSQLite_2.3.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/RSQLite/releases/download/2.3.1/RSQLite_2.3.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-09-08 17:16:02 UTC; unix
-Filesize: 5030838
-SHA256: 650aa1750f6c17e40bd467a929a46e3d3f3439310a39d691c8a6f43e3292ad21
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: callr, DBItest (>= 1.7.2.9001), gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
-Imports: bit64, blob (>= 1.2.0), DBI (>= 1.1.0), memoise, methods, pkgconfig
-LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
-
 Package: RcppArmadillo
 Version: 0.12.6.4.0
 Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
@@ -4774,3 +4755,22 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: bit64, covr, knitr, Lahman, nycflights13, odbc, RMariaDB (>= 1.2.2), rmarkdown, RPostgres (>= 1.4.5), RPostgreSQL, RSQLite (>= 2.3.1), testthat (>= 3.1.10)
 Imports: blob (>= 1.2.0), cli (>= 3.6.1), DBI (>= 1.1.3), dplyr (>= 1.1.2), glue (>= 1.6.2), lifecycle (>= 1.0.3), magrittr, methods, pillar (>= 1.9.0), purrr (>= 1.0.1), R6 (>= 2.2.2), rlang (>=
         1.1.1), tibble (>= 3.2.1), tidyr (>= 1.3.0), tidyselect (>= 1.2.0), utils, vctrs (>= 0.6.3), withr (>= 2.5.0)
+
+Package: RSQLite
+Version: 2.3.2
+Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
+License: LGPL (>= 2.1)
+File: RSQLite_2.3.2_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/RSQLite/releases/download/2.3.2/RSQLite_2.3.2_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-29 17:14:37 UTC; unix
+Filesize: 5073212
+SHA256: a1b8206fd73fe402e0b2746f18ffa72b8b204aa95781ef7a6a7f56bb0f5ac708
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: callr, DBItest (>= 1.7.2.9001), gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
+Imports: bit64, blob (>= 1.2.0), DBI (>= 1.1.0), memoise, methods, pkgconfig
+LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
