@@ -2165,22 +2165,6 @@ Suggests: knitr, rmarkdown, xml2, testthat (>= 3.0.0), covr
 SystemRequirements: cmake (>= 3.2.0) which is used only on Linux or macOS systems when no system build of nlopt (>= 2.7.0) can be found.
 LinkingTo: testthat
 
-Package: posterior
-Version: 1.4.1
-Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
-License: BSD_3_clause + file LICENSE
-File: posterior_1.4.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/posterior/releases/download/1.4.1/posterior_1.4.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-06-26 13:54:00 UTC; unix
-Filesize: 921399
-SHA256: 475500af2bcdce7e7703bc308172d914f46f9fbd86a93f252dc9709d3109a92e
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testthat (>= 2.1.0), caret (>= 6.0.84), gbm (>= 2.1.8), randomForest (>= 4.6.14), e1071 (>= 1.7.3), dplyr, tidyr, knitr, ggplot2, rmarkdown
-Imports: methods, abind, checkmate, rlang (>= 1.0.6), stats, tibble (>= 3.1.0), vctrs (>= 0.5.0), tensorA, pillar, distributional, parallel, matrixStats
-
 Package: RcppEigen
 Version: 0.3.3.9.3
 Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
@@ -4774,3 +4758,19 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: arrow (>= 13.0.0), bit64, callr, DBItest, dplyr, dbplyr, rlang, testthat, tibble, vctrs, withr, adbcdrivermanager
 Imports: methods, utils
+
+Package: posterior
+Version: 1.5.0
+Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
+License: BSD_3_clause + file LICENSE
+File: posterior_1.5.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/posterior/releases/download/1.5.0/posterior_1.5.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-10-31 17:16:04 UTC; unix
+Filesize: 1021010
+SHA256: 616623b5d15872f5068b6f4de536752b672ccbeeb4338cfad9f24d7032f38b8f
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat (>= 2.1.0), caret (>= 6.0.84), gbm (>= 2.1.8), randomForest (>= 4.6.14), e1071 (>= 1.7.3), dplyr, tidyr, knitr, ggplot2, ggdist, rmarkdown
+Imports: methods, abind, checkmate, rlang (>= 1.0.6), stats, tibble (>= 3.1.0), vctrs (>= 0.5.0), tensorA, pillar, distributional, parallel, matrixStats
