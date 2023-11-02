@@ -1106,22 +1106,6 @@ File: urlchecker_1.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: waldo
-Version: 0.5.1
-Depends: R (>= 4.4), R (< 4.4.99)
-Imports: cli, diffobj (>= 0.3.4), fansi, glue, methods, rematch2, rlang (>= 1.0.0), tibble
-Suggests: covr, R6, testthat (>= 3.0.0), withr, xml2
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/waldo/releases/download/0.5.1/waldo_0.5.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-06-21 09:11:24 UTC; unix
-Filesize: 102971
-SHA256: d78848f56dae1b99cabbb17e16fb81313316c046b5e1fac88950c9ba9013e8ff
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: waldo_0.5.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: whisker
 Version: 0.4.1
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -3075,25 +3059,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11 (>= 0.4.0), progress
 
-Package: pROC
-Version: 1.18.4
-Depends: R (>= 2.14), R (>= 4.4), R (< 4.4.99)
-Imports: methods, plyr, Rcpp (>= 0.11.1)
-Suggests: microbenchmark, tcltk, MASS, logcondens, doParallel, testthat, vdiffr, ggplot2, rlang
-License: GPL (>= 3)
-DownloadURL: https://github.com/cran/pROC/releases/download/1.18.4/pROC_1.18.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-06 16:45:50 UTC; unix
-Filesize: 1478139
-SHA256: aa553b3a7733ba26ae86c3db03e25e22c02fedc426e8e6c4df20e725dd86e6b5
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: pROC_1.18.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: lme4
 Version: 1.1-34
 Depends: R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats, R (>= 4.4), R (< 4.4.99)
@@ -4902,3 +4867,38 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: evaluate_0.23_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: waldo
+Version: 0.5.2
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+Imports: cli, diffobj (>= 0.3.4), fansi, glue, methods, rematch2, rlang (>= 1.0.0), tibble
+Suggests: covr, R6, testthat (>= 3.0.0), withr, xml2
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/waldo/releases/download/0.5.2/waldo_0.5.2_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-11-02 16:37:58 UTC; unix
+Filesize: 105102
+SHA256: 81e0879a6ba6493e1a711a40d14c66db09cfcc7ce3f148bd4f7b015ab0332e09
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: waldo_0.5.2_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: pROC
+Version: 1.18.5
+Depends: R (>= 2.14), R (>= 4.4), R (< 4.4.99)
+Imports: methods, plyr, Rcpp (>= 0.11.1)
+Suggests: microbenchmark, tcltk, MASS, logcondens, doParallel, testthat, vdiffr, ggplot2, rlang
+License: GPL (>= 3)
+DownloadURL: https://github.com/cran/pROC/releases/download/1.18.5/pROC_1.18.5_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-02 16:37:59 UTC; unix
+Filesize: 1480718
+SHA256: 2e7d7691212345228f934c73e19378e919734dc1bc0252b80e6e5d787809a9e5
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: pROC_1.18.5_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
