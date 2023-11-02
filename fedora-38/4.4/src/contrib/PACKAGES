@@ -1838,22 +1838,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr
 Imports: cli, curl, tools, xml2
 
-Package: waldo
-Version: 0.5.1
-Depends: R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: waldo_0.5.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/waldo/releases/download/0.5.1/waldo_0.5.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-06-26 12:24:26 UTC; unix
-Filesize: 107585
-SHA256: be15122181a302c3e38daf29bc14c42c53f4f901433c0249d428ecd1591b4bfe
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, R6, testthat (>= 3.0.0), withr, xml2
-Imports: cli, diffobj (>= 0.3.4), fansi, glue, methods, rematch2, rlang (>= 1.0.0), tibble
-
 Package: whisker
 Version: 0.4.1
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -2985,25 +2969,6 @@ Suggests: MASS, rmarkdown (>= 2.16), deldir (>= 1.0-4), orientlib, lattice, misc
 Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
 SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
         (optional), libpng (>=1.2.9, optional), FreeType (optional), pandoc (>=1.14, needed for vignettes)
-
-Package: pROC
-Version: 1.18.4
-Depends: R (>= 2.14), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 3)
-File: pROC_1.18.4_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/pROC/releases/download/1.18.4/pROC_1.18.4_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-06 17:21:18 UTC; unix
-Filesize: 1533104
-SHA256: 58b5d02169f99007203bccbc8c27eaf5b837f0f6352d3a41dea7999e9f757bbf
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: microbenchmark, tcltk, MASS, logcondens, doParallel, testthat, vdiffr, ggplot2, rlang
-Imports: methods, plyr, Rcpp (>= 0.11.1)
-LinkingTo: Rcpp
 
 Package: digest
 Version: 0.6.33
@@ -4774,3 +4739,38 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, ggplot2, lattice, rlang, testthat (>= 3.0.0), withr
 Imports: methods
+
+Package: waldo
+Version: 0.5.2
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: waldo_0.5.2_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/waldo/releases/download/0.5.2/waldo_0.5.2_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-11-02 17:17:02 UTC; unix
+Filesize: 107963
+SHA256: 67f3d21d4b699bd59af89c26f41d22defe415aedec4e7631ed38407df8a35d40
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, R6, testthat (>= 3.0.0), withr, xml2
+Imports: cli, diffobj (>= 0.3.4), fansi, glue, methods, rematch2, rlang (>= 1.0.0), tibble
+
+Package: pROC
+Version: 1.18.5
+Depends: R (>= 2.14), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 3)
+File: pROC_1.18.5_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/pROC/releases/download/1.18.5/pROC_1.18.5_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-02 17:17:02 UTC; unix
+Filesize: 1535837
+SHA256: 8d8948b533a53395d4448e9cf736b65a19c510c49e969ca2cfda25d1e9a71d34
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: microbenchmark, tcltk, MASS, logcondens, doParallel, testthat, vdiffr, ggplot2, rlang
+Imports: methods, plyr, Rcpp (>= 0.11.1)
+LinkingTo: Rcpp
