@@ -770,25 +770,6 @@ Suggests: covr, fortunes, miniUI, mockr, rprojroot, sessioninfo, shiny, spelling
 Imports: callr (>= 3.6.0), cli (>= 3.2.0), clipr (>= 0.4.0), fs, glue, knitr (>= 1.23), lifecycle, rlang (>= 1.0.0), rmarkdown, rstudioapi, utils, withr (>= 2.3.0)
 SystemRequirements: pandoc (>= 2.0) - http://pandoc.org
 
-Package: rlang
-Version: 1.1.1
-Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: rlang_1.1.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/rlang/releases/download/1.1.1/rlang_1.1.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 11:45:45 UTC; unix
-Filesize: 2165311
-SHA256: 0081bfe32aef700379a58c53a6650312b5a4593ed1d1d1c44b8c5b733a7cb725
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: winch
-Suggests: cli (>= 3.1.0), covr, crayon, fs, glue, knitr, magrittr, methods, pillar, rmarkdown, stats, testthat (>= 3.0.0), tibble, usethis, vctrs (>= 0.2.3), withr
-Imports: utils
-
 Package: rvest
 Version: 1.0.3
 Depends: R (>= 3.2), R (>= 4.4), R (< 4.4.99)
@@ -4774,3 +4755,22 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: knitr
 Suggests: Cairo, markdown, ragg, shiny, testthat, withr
 Imports: base64enc, digest, ellipsis, fastmap (>= 1.1.0), grDevices, rlang (>= 1.0.0), utils
+
+Package: rlang
+Version: 1.1.2
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: rlang_1.1.2_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/rlang/releases/download/1.1.2/rlang_1.1.2_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-04 17:14:37 UTC; unix
+Filesize: 2179591
+SHA256: 0b828a3faf70344841aa0d87ba0feb2e3c5f3b49ab16603aa79761989404d8ad
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: winch
+Suggests: cli (>= 3.1.0), covr, crayon, fs, glue, knitr, magrittr, methods, pillar, rmarkdown, stats, testthat (>= 3.0.0), tibble, usethis, vctrs (>= 0.2.3), withr
+Imports: utils
