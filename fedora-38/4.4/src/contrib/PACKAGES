@@ -1225,23 +1225,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: RUnit, foreach
 
-Package: lava
-Version: 1.7.2.1
-Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
-License: GPL-3
-File: lava_1.7.2.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/lava/releases/download/1.7.2.1/lava_1.7.2.1_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-06-26 12:14:03 UTC; unix
-Filesize: 2555702
-SHA256: bca03ef29dd48fc33a45bbfab79b307f97d6900e168e9d88a89b5d7cd17f2abe
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: KernSmooth, Matrix, Rgraphviz, data.table, ellipse, fields, geepack, graph, knitr, bookdown, rmarkdown, igraph (>= 0.6), lavaSearch2, lme4, mets (>= 1.1), nlme, optimx, polycor, quantreg,
-        rgl, R.rsp (>= 0.40), targeted (>= 0.2), testthat (>= 0.11), visNetwork, zoo
-Imports: future.apply, grDevices, graphics, methods, numDeriv, progressr, stats, survival, SQUAREM, utils
-
 Package: lhs
 Version: 1.1.6
 Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
@@ -1721,21 +1704,6 @@ Suggests: covr, R.methodsS3, R.oo, rmarkdown (>= 2.16), testthat (>= 3.1.2), yam
 Imports: brew, cli (>= 3.3.0), commonmark, desc (>= 1.2.0), knitr, methods, pkgload (>= 1.0.2), purrr (>= 0.3.3), R6 (>= 2.1.2), rlang (>= 1.0.6), stringi, stringr (>= 1.0.0), utils, withr, xml2
 SystemRequirements: C++11
 LinkingTo: cpp11
-
-Package: rprojroot
-Version: 2.0.3
-Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: rprojroot_2.0.3_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/rprojroot/releases/download/2.0.3/rprojroot_2.0.3_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-06-26 11:43:22 UTC; unix
-Filesize: 106694
-SHA256: 25c3e15432acf3aa34e4ec6cf76834c8ecfd4705766609248ecac4d0aa503d8b
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, knitr, lifecycle, mockr, rmarkdown, testthat (>= 3.0.0), withr
 
 Package: rversions
 Version: 2.1.2
@@ -4473,25 +4441,6 @@ Suggests: bit64, covr, knitr, Lahman, nycflights13, odbc, RMariaDB (>= 1.2.2), r
 Imports: blob (>= 1.2.0), cli (>= 3.6.1), DBI (>= 1.1.3), dplyr (>= 1.1.2), glue (>= 1.6.2), lifecycle (>= 1.0.3), magrittr, methods, pillar (>= 1.9.0), purrr (>= 1.0.1), R6 (>= 2.2.2), rlang (>=
         1.1.1), tibble (>= 3.2.1), tidyr (>= 1.3.0), tidyselect (>= 1.2.0), utils, vctrs (>= 0.6.3), withr (>= 2.5.0)
 
-Package: RSQLite
-Version: 2.3.2
-Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
-License: LGPL (>= 2.1)
-File: RSQLite_2.3.2_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/RSQLite/releases/download/2.3.2/RSQLite_2.3.2_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-29 17:14:37 UTC; unix
-Filesize: 5073212
-SHA256: a1b8206fd73fe402e0b2746f18ffa72b8b204aa95781ef7a6a7f56bb0f5ac708
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: callr, DBItest (>= 1.7.2.9001), gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
-Imports: bit64, blob (>= 1.2.0), DBI (>= 1.1.0), memoise, methods, pkgconfig
-LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
-
 Package: htmlTable
 Version: 2.4.2
 Depends: R (>= 4.1), R (>= 4.4), R (< 4.4.99)
@@ -4718,25 +4667,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: bitops, RCurl
 SystemRequirements: libxml2 (>= 2.6.3)
 
-Package: lme4
-Version: 1.1-35
-Depends: R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats, R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2)
-File: lme4_1.1-35_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/lme4/releases/download/1.1-35/lme4_1.1-35_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-03 17:17:38 UTC; unix
-Filesize: 8766921
-SHA256: c06dfed32c5b8e5385a31d045a3e785edfeef78b8c5d7140c6a30ef187308a5f
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
-Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
-LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.3.2), Matrix
-
 Package: htmltools
 Version: 0.5.7
 Depends: R (>= 2.14.1), R (>= 4.4), R (< 4.4.99)
@@ -4774,3 +4704,73 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: winch
 Suggests: cli (>= 3.1.0), covr, crayon, fs, glue, knitr, magrittr, methods, pillar, rmarkdown, stats, testthat (>= 3.0.0), tibble, usethis, vctrs (>= 0.2.3), withr
 Imports: utils
+
+Package: lava
+Version: 1.7.3
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+License: GPL-3
+File: lava_1.7.3_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/lava/releases/download/1.7.3/lava_1.7.3_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-11-05 17:14:23 UTC; unix
+Filesize: 2626490
+SHA256: e314bfa83b93808b290652f6067aca90e0962fadfb079f40244e3f67d0788c2b
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: KernSmooth, Matrix, Rgraphviz, data.table, ellipse, fields, geepack, graph, knitr, bookdown, rmarkdown, igraph (>= 0.6), lavaSearch2, lme4, mets (>= 1.1), nlme, optimx, polycor, quantreg,
+        rgl, R.rsp (>= 0.40), targeted (>= 0.2), testthat (>= 0.11), visNetwork, zoo
+Imports: future.apply, grDevices, graphics, methods, numDeriv, progressr, stats, survival, SQUAREM, utils
+
+Package: rprojroot
+Version: 2.0.4
+Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: rprojroot_2.0.4_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/rprojroot/releases/download/2.0.4/rprojroot_2.0.4_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-11-05 17:14:04 UTC; unix
+Filesize: 111715
+SHA256: 863bcf39d18e0f829e061c9b42ff08e00113299fcdb77f0e9f16d0739e94f76b
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, knitr, lifecycle, mockr, rlang, rmarkdown, testthat (>= 3.0.0), withr
+
+Package: RSQLite
+Version: 2.3.3
+Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
+License: LGPL (>= 2.1)
+File: RSQLite_2.3.3_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/RSQLite/releases/download/2.3.3/RSQLite_2.3.3_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-05 17:14:30 UTC; unix
+Filesize: 5112792
+SHA256: 8356fcf5baac9dede3a82941b783e81b96a2d2311c45e174f973b0290717ca06
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: callr, DBItest (>= 1.7.2.9001), gert, gh, hms, knitr, magrittr, rlang, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
+Imports: bit64, blob (>= 1.2.0), DBI (>= 1.1.0), memoise, methods, pkgconfig
+LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
+
+Package: lme4
+Version: 1.1-35.1
+Depends: R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats, R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: lme4_1.1-35.1_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/lme4/releases/download/1.1-35.1/lme4_1.1-35.1_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-05 17:14:30 UTC; unix
+Filesize: 8765450
+SHA256: 11948ca4438d8ad7a76cbeb44a7986a00a06c7fbec87b435bfe8494c2857fef0
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
+Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
+LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix
