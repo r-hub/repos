@@ -2917,21 +2917,6 @@ Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr,
 SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
 LinkingTo: Rcpp
 
-Package: MatrixModels
-Version: 0.5-2
-Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2)
-File: MatrixModels_0.5-2_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/MatrixModels/releases/download/0.5-2/MatrixModels_0.5-2_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-07-11 17:18:27 UTC; unix
-Filesize: 465396
-SHA256: a4c8af46ff06d450298a76c94c84c26f64df3c573f57d9e1c6fbda031ed5b1a4
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: stats, methods, Matrix (>= 1.6-0)
-
 Package: sass
 Version: 0.4.7
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -4774,3 +4759,18 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
 Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
 LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix
+
+Package: MatrixModels
+Version: 0.5-3
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: MatrixModels_0.5-3_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/MatrixModels/releases/download/0.5-3/MatrixModels_0.5-3_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-11-06 17:16:06 UTC; unix
+Filesize: 438474
+SHA256: 4ce6994ac23909f047026070815b82fcdba0c1a4387458e68c0cfaa72702c78d
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: stats, methods, Matrix (>= 1.6-0)
