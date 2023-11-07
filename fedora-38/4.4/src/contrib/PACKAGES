@@ -507,22 +507,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat
 Imports: htmltools
 
-Package: lifecycle
-Version: 1.0.3
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: lifecycle_1.0.3_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/lifecycle/releases/download/1.0.3/lifecycle_1.0.3_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-06-26 11:54:41 UTC; unix
-Filesize: 129687
-SHA256: 802fb4b190d2d062b91c768b74d73bca02fbef2a03b3760462c9d96c8d3f5911
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, crayon, knitr, lintr, rmarkdown, testthat (>= 3.0.1), tibble, tidyverse, tools, vctrs, withr
-Imports: cli (>= 3.4.0), glue, rlang (>= 1.0.6)
-
 Package: magrittr
 Version: 2.0.3
 Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
@@ -2044,23 +2028,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: bayesplot (>= 1.7.0), brms (>= 2.10.0), ggplot2, graphics, knitr, posterior, rmarkdown, rstan, rstanarm (>= 2.19.0), rstantools, spdep, testthat (>= 2.1.0)
 Imports: checkmate, matrixStats (>= 0.52), parallel, stats
 SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
-
-Package: matrixStats
-Version: 1.0.0
-Depends: R (>= 2.12.0), R (>= 4.4), R (< 4.4.99)
-License: Artistic-2.0
-File: matrixStats_1.0.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/matrixStats/releases/download/1.0.0/matrixStats_1.0.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 13:51:04 UTC; unix
-Filesize: 762605
-SHA256: 46b711f8649a79d280c2a806ae9694af96535cd691f93b393a6210973882ff39
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: base64enc, ggplot2, knitr, markdown, microbenchmark, R.devices, R.rsp
 
 Package: nloptr
 Version: 2.0.3
@@ -4774,3 +4741,36 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: stats, methods, Matrix (>= 1.6-0)
+
+Package: lifecycle
+Version: 1.0.4
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: lifecycle_1.0.4_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/lifecycle/releases/download/1.0.4/lifecycle_1.0.4_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-11-07 17:16:14 UTC; unix
+Filesize: 130710
+SHA256: 8f83ad92a5f4a0f4a7650c505a75ac9ddf4103034b8a3f7c1e1ed9428d6f841f
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, crayon, knitr, lintr, rmarkdown, testthat (>= 3.0.1), tibble, tidyverse, tools, vctrs, withr
+Imports: cli (>= 3.4.0), glue, rlang (>= 1.1.0)
+
+Package: matrixStats
+Version: 1.1.0
+Depends: R (>= 2.12.0), R (>= 4.4), R (< 4.4.99)
+License: Artistic-2.0
+File: matrixStats_1.1.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/matrixStats/releases/download/1.1.0/matrixStats_1.1.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-07 17:16:14 UTC; unix
+Filesize: 762776
+SHA256: 06a41f55cfc63adfba21dc22e939c81143e1a7a3305d483df28307e77182b1bc
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: base64enc, ggplot2, knitr, markdown, microbenchmark, R.devices, R.rsp
