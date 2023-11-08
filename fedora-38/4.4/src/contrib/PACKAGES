@@ -3261,22 +3261,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: knitr (>= 1.7), rmarkdown, rstudioapi (>= 0.5), shinydisconnect
 Imports: ggplot2, htmltools, htmlwidgets (>= 0.7), jsonlite, miniUI (>= 0.1.1), shiny (>= 0.11.1), shinyjs (>= 2.0.0), utils
 
-Package: Rdpack
-Version: 2.5
-Depends: R (>= 2.15.0), methods, R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2)
-File: Rdpack_2.5_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/Rdpack/releases/download/2.5/Rdpack_2.5_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-08-21 17:15:33 UTC; unix
-Filesize: 810267
-SHA256: e46ce8cd809ee82eddb037b8edefe946428fe6313e43ee077ec88fd938a67672
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: grDevices, testthat, rstudioapi, rprojroot, gbRd
-Imports: tools, utils, rbibutils (>= 1.3)
-
 Package: glmnet
 Version: 4.1-8
 Depends: R (>= 3.6.0), Matrix (>= 1.0-6), R (>= 4.4), R (< 4.4.99)
@@ -3653,25 +3637,6 @@ Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0),
 Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.22), methods, stringr (>= 1.2.0), tinytex (>= 0.31), tools, utils, xfun
         (>= 0.36), yaml (>= 2.1.19)
 SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
-
-Package: Matrix
-Version: 1.6-1.1
-Depends: R (>= 3.5.0), methods, R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2) | file LICENCE
-File: Matrix_1.6-1.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/Matrix/releases/download/1.6-1.1/Matrix_1.6-1.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-09-19 17:15:48 UTC; unix
-Filesize: 6056479
-SHA256: 22965fd01c3758ac3d5ea6b114caf5bb61a8232d770c3d1cade3ba117fbeff7c
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: SparseM, graph
-Suggests: MASS, datasets, sfsmisc
-Imports: grDevices, graphics, grid, lattice, stats, utils
 
 Package: pkgload
 Version: 1.3.3
@@ -4774,3 +4739,38 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: base64enc, ggplot2, knitr, markdown, microbenchmark, R.devices, R.rsp
+
+Package: Rdpack
+Version: 2.6
+Depends: R (>= 2.15.0), methods, R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: Rdpack_2.6_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/Rdpack/releases/download/2.6/Rdpack_2.6_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-11-08 17:16:24 UTC; unix
+Filesize: 811102
+SHA256: 7bc068bbf178da95a3e9dbb6b6e946da4e7cf12b697ea8e82cbbcf1207a4aeab
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: grDevices, testthat, rstudioapi, rprojroot, gbRd
+Imports: tools, utils, rbibutils (>= 1.3)
+
+Package: Matrix
+Version: 1.6-2
+Depends: R (>= 3.5.0), methods, R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2) | file LICENCE
+File: Matrix_1.6-2_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/Matrix/releases/download/1.6-2/Matrix_1.6-2_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-08 17:16:25 UTC; unix
+Filesize: 6118230
+SHA256: 58d9d2ece0e49e9bc1dd34ea44d38190780f44b9d877da3264b6a4fd902b7163
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: SparseM, graph
+Suggests: MASS, datasets, sfsmisc, tools
+Imports: grDevices, graphics, grid, lattice, stats, utils
