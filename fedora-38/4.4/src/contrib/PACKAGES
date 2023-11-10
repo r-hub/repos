@@ -2475,22 +2475,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libpng
 
-Package: pracma
-Version: 2.4.2
-Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 3)
-File: pracma_2.4.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/pracma/releases/download/2.4.2/pracma_2.4.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-06-26 14:30:12 UTC; unix
-Filesize: 1931064
-SHA256: e0752ce27e8513321940d08e6a1bffbc0df5bdba478fce0b94c9a68b49903234
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: NlcOptim, quadprog
-Imports: graphics, grDevices, stats, utils
-
 Package: R.cache
 Version: 0.16.0
 Depends: R (>= 2.14.0), R (>= 4.4), R (< 4.4.99)
@@ -4774,3 +4758,19 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: SparseM, graph
 Suggests: MASS, datasets, sfsmisc, tools
 Imports: grDevices, graphics, grid, lattice, stats, utils
+
+Package: pracma
+Version: 2.4.4
+Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 3)
+File: pracma_2.4.4_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/pracma/releases/download/2.4.4/pracma_2.4.4_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-11-10 17:16:12 UTC; unix
+Filesize: 1944729
+SHA256: 0f16ec0be3867587c2eba48ccf2a11f459f056c54713f703e2dc9e257caad801
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: NlcOptim, quadprog
+Imports: graphics, grDevices, stats, utils
