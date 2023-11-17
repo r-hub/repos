@@ -3351,26 +3351,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, testthat
 
-Package: dplyr
-Version: 1.1.3
-Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: dplyr_1.1.3_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/dplyr/releases/download/1.1.3/dplyr_1.1.3_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-09-03 17:15:12 UTC; unix
-Filesize: 1674722
-SHA256: 1aca484add9835711a670b6af68dd11629b5db98cd68baa560846ac29a9fa34c
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bench, broom, callr, covr, DBI, dbplyr (>= 2.2.1), ggplot2, knitr, Lahman, lobstr, microbenchmark, nycflights13, purrr, rmarkdown, RMySQL, RPostgreSQL, RSQLite, stringi (>= 1.7.6), testthat
-        (>= 3.1.5), tidyr (>= 1.3.0), withr
-Imports: cli (>= 3.4.0), generics, glue (>= 1.3.2), lifecycle (>= 1.0.3), magrittr (>= 1.5), methods, pillar (>= 1.9.0), R6, rlang (>= 1.1.0), tibble (>= 3.2.0), tidyselect (>= 1.2.0), utils, vctrs
-        (>= 0.6.0)
-
 Package: askpass
 Version: 1.2.0
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -4321,24 +4301,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: callr, covr, DBI, knitr, lattice, methods, rlang, rmarkdown (>= 2.12), RSQLite, testthat (>= 3.0.0)
 Imports: graphics, grDevices, stats
 
-Package: duckdb
-Version: 0.9.1-1
-Depends: DBI, R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: duckdb_0.9.1-1_b6_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/0.9.1-1/duckdb_0.9.1-1_b6_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-30 17:16:39 UTC; unix
-Filesize: 157748080
-SHA256: 8f4f069dcbb08a3d70338a290df75b0746ca91470de25c93c1dfb0aaefda5fd5
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: arrow (>= 13.0.0), bit64, callr, DBItest, dplyr, dbplyr, rlang, testthat, tibble, vctrs, withr, adbcdrivermanager
-Imports: methods, utils
-
 Package: posterior
 Version: 1.5.0
 Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
@@ -4774,3 +4736,41 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: SparseM, graph
 Suggests: MASS, datasets, sfsmisc, tools
 Imports: grDevices, graphics, grid, lattice, stats, utils
+
+Package: dplyr
+Version: 1.1.4
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: dplyr_1.1.4_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/dplyr/releases/download/1.1.4/dplyr_1.1.4_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-17 17:16:36 UTC; unix
+Filesize: 1679254
+SHA256: a2c35e08e0c26f878902f4cf87cf04ba7562dabad2b44775586b1483460a8477
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bench, broom, callr, covr, DBI, dbplyr (>= 2.2.1), ggplot2, knitr, Lahman, lobstr, microbenchmark, nycflights13, purrr, rmarkdown, RMySQL, RPostgreSQL, RSQLite, stringi (>= 1.7.6), testthat
+        (>= 3.1.5), tidyr (>= 1.3.0), withr
+Imports: cli (>= 3.4.0), generics, glue (>= 1.3.2), lifecycle (>= 1.0.3), magrittr (>= 1.5), methods, pillar (>= 1.9.0), R6, rlang (>= 1.1.0), tibble (>= 3.2.0), tidyselect (>= 1.2.0), utils, vctrs
+        (>= 0.6.4)
+
+Package: duckdb
+Version: 0.9.2
+Depends: DBI, R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: duckdb_0.9.2_b7_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/0.9.2/duckdb_0.9.2_b7_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-17 17:16:40 UTC; unix
+Filesize: 157844850
+SHA256: 75bc1c7c8340e8619aaa8b4d00b6021141fa0f51cab6537e6c41abea9b0fed58
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: arrow (>= 13.0.0), bit64, callr, DBItest, dplyr, dbplyr, rlang, testthat, tibble, vctrs, withr, adbcdrivermanager
+Imports: methods, utils
