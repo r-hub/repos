@@ -2488,22 +2488,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: tcltk, markdown, knitr, R.devices, base64enc, ascii
 Imports: methods, stats, tools, utils, R.methodsS3 (>= 1.8.0), R.oo (>= 1.23.0), R.utils, R.cache, digest
 
-Package: R.utils
-Version: 2.12.2
-Depends: R (>= 2.14.0), R.oo, R (>= 4.4), R (< 4.4.99)
-License: LGPL (>= 2.1)
-File: R.utils_2.12.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/R.utils/releases/download/2.12.2/R.utils_2.12.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-06-26 14:45:18 UTC; unix
-Filesize: 1547877
-SHA256: 06cff81ef6bc820f3d318c7aff61c2c8f45b24c28a25d8097dda6c5c480a7c62
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: datasets, digest (>= 0.6.10)
-Imports: methods, utils, tools, R.methodsS3
-
 Package: randomForest
 Version: 4.7-1.1
 Depends: R (>= 4.1.0), stats, R (>= 4.4), R (< 4.4.99)
@@ -3998,23 +3982,6 @@ Suggests: ncdf4, igraph, tcltk, parallel, rasterVis, MASS, sf, tinytest, gstat, 
 Imports: Rcpp, methods, terra (>= 1.7-29)
 LinkingTo: Rcpp
 
-Package: shiny
-Version: 1.7.5.1
-Depends: R (>= 3.0.2), methods, R (>= 4.4), R (< 4.4.99)
-License: GPL-3 | file LICENSE
-File: shiny_1.7.5.1_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/shiny/releases/download/1.7.5.1/shiny_1.7.5.1_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-10-14 17:15:50 UTC; unix
-Filesize: 4481678
-SHA256: 10f8dd705fc4b15b331f5c84187364f80f3ac0ca6807e92cfb13c16db2885aca
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: datasets, Cairo (>= 1.5-5), testthat (>= 3.0.0), knitr (>= 1.6), markdown, rmarkdown, ggplot2, reactlog (>= 1.0.0), magrittr, yaml, future, dygraphs, ragg, showtext, sass
-Imports: utils, grDevices, httpuv (>= 1.5.2), mime (>= 0.3), jsonlite (>= 0.9.16), xtable, fontawesome (>= 0.4.0), htmltools (>= 0.5.4), R6 (>= 2.0), sourcetools, later (>= 1.0.0), promises (>=
-        1.1.0), tools, crayon, rlang (>= 0.4.10), fastmap (>= 1.1.1), withr, commonmark (>= 1.7), glue (>= 1.3.2), bslib (>= 0.3.0), cachem, ellipsis, lifecycle (>= 0.2.0)
-
 Package: rstan
 Version: 2.32.3
 Depends: R (>= 3.4.0), StanHeaders (>= 2.26.28), R (>= 4.4), R (< 4.4.99)
@@ -4774,3 +4741,36 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: arrow (>= 13.0.0), bit64, callr, DBItest, dplyr, dbplyr, rlang, testthat, tibble, vctrs, withr, adbcdrivermanager
 Imports: methods, utils
+
+Package: R.utils
+Version: 2.12.3
+Depends: R (>= 2.14.0), R.oo, R (>= 4.4), R (< 4.4.99)
+License: LGPL (>= 2.1)
+File: R.utils_2.12.3_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/R.utils/releases/download/2.12.3/R.utils_2.12.3_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-11-18 17:15:02 UTC; unix
+Filesize: 1539718
+SHA256: bd11fdf09bf4ee8cf415af5a040a245ee753bc75dca71c31f873dd9e3b4189f2
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: datasets, digest (>= 0.6.10)
+Imports: methods, utils, tools, R.methodsS3
+
+Package: shiny
+Version: 1.8.0
+Depends: R (>= 3.0.2), methods, R (>= 4.4), R (< 4.4.99)
+License: GPL-3 | file LICENSE
+File: shiny_1.8.0_b5_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/shiny/releases/download/1.8.0/shiny_1.8.0_b5_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-11-18 17:15:09 UTC; unix
+Filesize: 4594276
+SHA256: e1a9b797d146d2969d4dd6d5a2a297db316cb99c87d9d5478b8389530759a1b5
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: datasets, Cairo (>= 1.5-5), testthat (>= 3.0.0), knitr (>= 1.6), markdown, rmarkdown, ggplot2, reactlog (>= 1.0.0), magrittr, yaml, future, dygraphs, ragg, showtext, sass
+Imports: utils, grDevices, httpuv (>= 1.5.2), mime (>= 0.3), jsonlite (>= 0.9.16), xtable, fontawesome (>= 0.4.0), htmltools (>= 0.5.4), R6 (>= 2.0), sourcetools, later (>= 1.0.0), promises (>=
+        1.1.0), tools, crayon, rlang (>= 0.4.10), fastmap (>= 1.1.1), withr, commonmark (>= 1.7), glue (>= 1.3.2), bslib (>= 0.3.0), cachem, ellipsis, lifecycle (>= 0.2.0)
