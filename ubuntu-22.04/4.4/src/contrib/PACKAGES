@@ -2362,22 +2362,6 @@ File: R.rsp_0.45.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: R.utils
-Version: 2.12.2
-Depends: R (>= 2.14.0), R.oo, R (>= 4.4), R (< 4.4.99)
-Imports: methods, utils, tools, R.methodsS3
-Suggests: datasets, digest (>= 0.6.10)
-License: LGPL (>= 2.1)
-DownloadURL: https://github.com/cran/R.utils/releases/download/2.12.2/R.utils_2.12.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-06-21 16:48:19 UTC; unix
-Filesize: 1409294
-SHA256: 99dee4d39428f36d7205daa5443c75e38cfeeebde5d69cd9dd8887061ae74c60
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: R.utils_2.12.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: randomForest
 Version: 4.7-1.1
 Depends: R (>= 4.1.0), stats, R (>= 4.4), R (< 4.4.99)
@@ -3476,26 +3460,6 @@ File: rematch_2.0.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: dplyr
-Version: 1.1.3
-Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Imports: cli (>= 3.4.0), generics, glue (>= 1.3.2), lifecycle (>= 1.0.3), magrittr (>= 1.5), methods, pillar (>= 1.9.0), R6, rlang (>= 1.1.0), tibble (>= 3.2.0), tidyselect (>= 1.2.0), utils, vctrs
-        (>= 0.6.0)
-Suggests: bench, broom, callr, covr, DBI, dbplyr (>= 2.2.1), ggplot2, knitr, Lahman, lobstr, microbenchmark, nycflights13, purrr, rmarkdown, RMySQL, RPostgreSQL, RSQLite, stringi (>= 1.7.6), testthat
-        (>= 3.1.5), tidyr (>= 1.3.0), withr
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/dplyr/releases/download/1.1.3/dplyr_1.1.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-09-03 16:34:25 UTC; unix
-Filesize: 1591992
-SHA256: 9d1828833023f9a5cccc82235cbdaaed40deb81a7db848af90b1415cc537df5a
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: dplyr_1.1.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: askpass
 Version: 1.2.0
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -4127,23 +4091,6 @@ File: raster_3.6-26_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
-
-Package: shiny
-Version: 1.7.5.1
-Depends: R (>= 3.0.2), methods, R (>= 4.4), R (< 4.4.99)
-Imports: utils, grDevices, httpuv (>= 1.5.2), mime (>= 0.3), jsonlite (>= 0.9.16), xtable, fontawesome (>= 0.4.0), htmltools (>= 0.5.4), R6 (>= 2.0), sourcetools, later (>= 1.0.0), promises (>=
-        1.1.0), tools, crayon, rlang (>= 0.4.10), fastmap (>= 1.1.1), withr, commonmark (>= 1.7), glue (>= 1.3.2), bslib (>= 0.3.0), cachem, ellipsis, lifecycle (>= 0.2.0)
-Suggests: datasets, Cairo (>= 1.5-5), testthat (>= 3.0.0), knitr (>= 1.6), markdown, rmarkdown, ggplot2, reactlog (>= 1.0.0), magrittr, yaml, future, dygraphs, ragg, showtext, sass
-License: GPL-3 | file LICENSE
-DownloadURL: https://github.com/cran/shiny/releases/download/1.7.5.1/shiny_1.7.5.1_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-10-14 16:34:14 UTC; unix
-Filesize: 4347008
-SHA256: 831fb09a410f9b2a791e7333d239ad67259019516ddee8b5a85b3685d7b74650
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: shiny_1.7.5.1_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: rstan
 Version: 2.32.3
@@ -4900,5 +4847,58 @@ SHA256: e4d1ab87d7cd176fb8e68b4b7d8d5706a218b84d5311991b8a4bcadbbe78c1cc
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: duckdb_0.9.2_b7_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: R.utils
+Version: 2.12.3
+Depends: R (>= 2.14.0), R.oo, R (>= 4.4), R (< 4.4.99)
+Imports: methods, utils, tools, R.methodsS3
+Suggests: datasets, digest (>= 0.6.10)
+License: LGPL (>= 2.1)
+DownloadURL: https://github.com/cran/R.utils/releases/download/2.12.3/R.utils_2.12.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-11-18 16:34:14 UTC; unix
+Filesize: 1456209
+SHA256: 9430145f6c347d64a75973ef190337798c56ea45384f6a47ddbde10f78dc5fc3
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: R.utils_2.12.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: dplyr
+Version: 1.1.4
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Imports: cli (>= 3.4.0), generics, glue (>= 1.3.2), lifecycle (>= 1.0.3), magrittr (>= 1.5), methods, pillar (>= 1.9.0), R6, rlang (>= 1.1.0), tibble (>= 3.2.0), tidyselect (>= 1.2.0), utils, vctrs
+        (>= 0.6.4)
+Suggests: bench, broom, callr, covr, DBI, dbplyr (>= 2.2.1), ggplot2, knitr, Lahman, lobstr, microbenchmark, nycflights13, purrr, rmarkdown, RMySQL, RPostgreSQL, RSQLite, stringi (>= 1.7.6), testthat
+        (>= 3.1.5), tidyr (>= 1.3.0), withr
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/dplyr/releases/download/1.1.4/dplyr_1.1.4_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-18 16:34:17 UTC; unix
+Filesize: 1622190
+SHA256: ed1bd4635e5fd425938f6d75a77b3431dcc357f687084630f816096119101f2e
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: dplyr_1.1.4_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: shiny
+Version: 1.8.0
+Depends: R (>= 3.0.2), methods, R (>= 4.4), R (< 4.4.99)
+Imports: utils, grDevices, httpuv (>= 1.5.2), mime (>= 0.3), jsonlite (>= 0.9.16), xtable, fontawesome (>= 0.4.0), htmltools (>= 0.5.4), R6 (>= 2.0), sourcetools, later (>= 1.0.0), promises (>=
+        1.1.0), tools, crayon, rlang (>= 0.4.10), fastmap (>= 1.1.1), withr, commonmark (>= 1.7), glue (>= 1.3.2), bslib (>= 0.3.0), cachem, ellipsis, lifecycle (>= 0.2.0)
+Suggests: datasets, Cairo (>= 1.5-5), testthat (>= 3.0.0), knitr (>= 1.6), markdown, rmarkdown, ggplot2, reactlog (>= 1.0.0), magrittr, yaml, future, dygraphs, ragg, showtext, sass
+License: GPL-3 | file LICENSE
+DownloadURL: https://github.com/cran/shiny/releases/download/1.8.0/shiny_1.8.0_b5_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-11-18 16:34:20 UTC; unix
+Filesize: 4496679
+SHA256: e62c72a29af14f65732de6ad2a46d478f43aba2ee3e4309dc7daeafa14d1028c
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: shiny_1.8.0_b5_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
