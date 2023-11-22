@@ -790,23 +790,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: git
 
-Package: htmlwidgets
-Version: 1.6.2
-Depends: R (>= 4.4), R (< 4.4.99)
-Imports: grDevices, htmltools (>= 0.5.4), jsonlite (>= 0.9.16), yaml, knitr (>= 1.8), rmarkdown
-Suggests: testthat
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/htmlwidgets/releases/download/1.6.2/htmlwidgets_1.6.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-06-21 09:10:57 UTC; unix
-Filesize: 812563
-SHA256: 9d80d0783925d6ba67b06b81538cee53934c412a5d30bd648a71abd1304b14c2
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: htmlwidgets_1.6.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: shiny (>= 1.1)
-
 Package: ini
 Version: 0.3.1
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -3139,22 +3122,6 @@ File: progressr_0.14.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: bslib
-Version: 0.5.1
-Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
-Imports: base64enc, cachem, grDevices, htmltools (>= 0.5.4), jquerylib (>= 0.1.3), jsonlite, memoise (>= 2.0.1), mime, rlang, sass (>= 0.4.0)
-Suggests: bsicons, curl, fontawesome, ggplot2, knitr, magrittr, rappdirs, rmarkdown (>= 2.7), shiny (>= 1.6.0), testthat, thematic, withr
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/bslib/releases/download/0.5.1/bslib_0.5.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-08-12 16:32:00 UTC; unix
-Filesize: 5884605
-SHA256: a0548f7514f589e1264350743f20da59e6e8d774903c5f94bbddb92dc7e234bd
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: bslib_0.5.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: patchwork
 Version: 1.1.3
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -4900,5 +4867,38 @@ SHA256: 1e57592c5fe14e1520c343f54c790f896c35df17481bf24f4263e75902ebdaec
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: gtools_3.9.5_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: htmlwidgets
+Version: 1.6.3
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: grDevices, htmltools (>= 0.5.7), jsonlite (>= 0.9.16), knitr (>= 1.8), rmarkdown, yaml
+Suggests: testthat
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/htmlwidgets/releases/download/1.6.3/htmlwidgets_1.6.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-11-22 16:38:08 UTC; unix
+Filesize: 816516
+SHA256: ad786e310162a4fc21a42061e9d1e45ad98ef65ca27f5e9df2a11b49636a41c4
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: htmlwidgets_1.6.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: shiny (>= 1.1)
+
+Package: bslib
+Version: 0.6.0
+Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
+Imports: base64enc, cachem, grDevices, htmltools (>= 0.5.7), jquerylib (>= 0.1.3), jsonlite, lifecycle, memoise (>= 2.0.1), mime, rlang, sass (>= 0.4.0)
+Suggests: bsicons, curl, fontawesome, ggplot2, knitr, magrittr, rappdirs, rmarkdown (>= 2.7), shiny (>= 1.8.0), testthat, thematic, withr
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/bslib/releases/download/0.6.0/bslib_0.6.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-11-22 16:38:04 UTC; unix
+Filesize: 6211020
+SHA256: 26be768bc539d3eb353ab3c8407bdd577473e510754b017ba4aa4ef35a61793c
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: bslib_0.6.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
