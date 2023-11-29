@@ -2643,28 +2643,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
 Imports: methods, utils
 
-Package: rgl
-Version: 1.2.1
-Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
-License: GPL
-File: rgl_1.2.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/rgl/releases/download/1.2.1/rgl_1.2.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-07-06 17:20:51 UTC; unix
-Filesize: 6375543
-SHA256: ce25ce539c618760381f5ad3fba2bd040e357c0708bbe4fd15c078cfd136d01a
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: waldo
-Suggests: MASS, rmarkdown (>= 2.16), deldir (>= 1.0-4), orientlib, lattice, misc3d, magick, plotrix (>= 3.7-3), tripack, interp, alphashape3d, tcltk, js (>= 1.2), webshot2 (>= 0.1.0), downlit (>=
-        0.4.0), pkgdown (>= 2.0.0), extrafont, shiny, manipulateWidget (>= 0.9.0), testthat, markdown, crosstalk, V8, chromote, jpeg, png
-Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
-SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
-        (optional), libpng (>=1.2.9, optional), FreeType (optional), pandoc (>=1.14, needed for vignettes)
-
 Package: digest
 Version: 0.6.33
 Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
@@ -3918,23 +3896,6 @@ Suggests: MASS, maps, hexbin, ggthemes, GGally, ggalluvial, testthat, knitr, shi
 Imports: tools, scales, httr (>= 1.3.0), jsonlite (>= 1.6), magrittr, digest, viridisLite, base64enc, htmltools (>= 0.3.6), htmlwidgets (>= 1.5.2.9001), tidyr (>= 1.0.0), RColorBrewer, dplyr, vctrs,
         tibble, lazyeval (>= 0.2.0), rlang (>= 0.4.10), crosstalk, purrr, data.table, promises
 
-Package: wk
-Version: 0.9.0
-Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: wk_0.9.0_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/wk/releases/download/0.9.0/wk_0.9.0_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-22 17:16:26 UTC; unix
-Filesize: 2168330
-SHA256: ccff2762c85474a29486cfbd69cae24490abd603cfeefdbedb0fabf3508ae472
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testthat (>= 3.0.0), vctrs (>= 0.3.0), sf, tibble, readr
-
 Package: utf8
 Version: 1.2.4
 Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
@@ -4233,24 +4194,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: Matrix, inline, tinytest, pkgKitten, microbenchmark
 Imports: Rcpp (>= 0.11.0), stats, utils
 LinkingTo: Rcpp
-
-Package: XML
-Version: 3.99-0.15
-Depends: R (>= 4.0.0), methods, utils, R (>= 4.4), R (< 4.4.99)
-License: BSD_3_clause + file LICENSE
-File: XML_3.99-0.15_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/XML/releases/download/3.99-0.15/XML_3.99-0.15_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-03 17:16:47 UTC; unix
-Filesize: 2073978
-SHA256: 579e1436c519d4ff06553ad62d22701f84e07e5ce4c60793d39f859dd83b8bc7
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bitops, RCurl
-SystemRequirements: libxml2 (>= 2.6.3)
 
 Package: htmltools
 Version: 0.5.7
@@ -4578,22 +4521,6 @@ Enhances: shiny (>= 1.1)
 Suggests: testthat
 Imports: grDevices, htmltools (>= 0.5.7), jsonlite (>= 0.9.16), knitr (>= 1.8), rmarkdown, yaml
 
-Package: bslib
-Version: 0.6.0
-Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: bslib_0.6.0_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/bslib/releases/download/0.6.0/bslib_0.6.0_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-11-22 17:17:52 UTC; unix
-Filesize: 6247475
-SHA256: d13ce75633f3bab9b66b4dd76a7347c51899ebee08045aeb6da6a22d83d2fac5
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bsicons, curl, fontawesome, ggplot2, knitr, magrittr, rappdirs, rmarkdown (>= 2.7), shiny (>= 1.8.0), testthat, thematic, withr
-Imports: base64enc, cachem, grDevices, htmltools (>= 0.5.7), jquerylib (>= 0.1.3), jsonlite, lifecycle, memoise (>= 2.0.1), mime, rlang, sass (>= 0.4.0)
-
 Package: crosstalk
 Version: 1.2.1
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -4774,3 +4701,76 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
 Imports: methods, utils
+
+Package: rgl
+Version: 1.2.8
+Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
+License: GPL
+File: rgl_1.2.8_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/rgl/releases/download/1.2.8/rgl_1.2.8_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-29 17:16:52 UTC; unix
+Filesize: 6377431
+SHA256: c8d2873c143a9ae13f09e47ab482613fd5011cae2674e11ffa4efe545f1d0571
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: waldo
+Suggests: MASS, rmarkdown (>= 2.16), deldir (>= 1.0-4), orientlib, lattice, misc3d, magick, plotrix (>= 3.7-3), tripack, interp, alphashape3d, tcltk, js (>= 1.2), webshot2 (>= 0.1.0), downlit (>=
+        0.4.0), pkgdown (>= 2.0.0), extrafont, shiny, manipulateWidget (>= 0.9.0), testthat, markdown, crosstalk, V8, chromote, jpeg, png
+Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
+SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
+        (optional), libpng (>=1.2.9, optional), FreeType (optional), pandoc (>=1.14, needed for vignettes)
+
+Package: wk
+Version: 0.9.1
+Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: wk_0.9.1_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/wk/releases/download/0.9.1/wk_0.9.1_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-29 17:16:34 UTC; unix
+Filesize: 2167181
+SHA256: db2419bb4f22e0f1a85040fc9bf212a6b389e18071f2aca1a5e552e879e9c9a9
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat (>= 3.0.0), vctrs (>= 0.3.0), sf, tibble, readr
+
+Package: XML
+Version: 3.99-0.16
+Depends: R (>= 4.0.0), methods, utils, R (>= 4.4), R (< 4.4.99)
+License: BSD_3_clause + file LICENSE
+File: XML_3.99-0.16_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/XML/releases/download/3.99-0.16/XML_3.99-0.16_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-29 17:16:37 UTC; unix
+Filesize: 2074367
+SHA256: fca928943a684897384d34a5d6c3dfb3e7cccb6ce28740c8d10a415874a02023
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bitops, RCurl
+SystemRequirements: libxml2 (>= 2.6.3)
+
+Package: bslib
+Version: 0.6.1
+Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: bslib_0.6.1_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/bslib/releases/download/0.6.1/bslib_0.6.1_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-11-29 17:16:40 UTC; unix
+Filesize: 6241824
+SHA256: 3a2809dd6dfb8d6e585de3bb15e3216afe68b947b904536776081ec3a4d69666
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bsicons, curl, fontawesome, ggplot2, knitr, magrittr, rappdirs, rmarkdown (>= 2.7), shiny (>= 1.8.0), testthat, thematic, withr
+Imports: base64enc, cachem, grDevices, htmltools (>= 0.5.7), jquerylib (>= 0.1.3), jsonlite, lifecycle, memoise (>= 2.0.1), mime, rlang, sass (>= 0.4.0)
