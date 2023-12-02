@@ -2892,21 +2892,6 @@ Suggests: future (>= 1.21.0), knitr, purrr, rmarkdown, spelling, testthat, vembe
 Imports: fastmap (>= 1.1.0), later, magrittr (>= 1.5), R6, Rcpp, rlang, stats
 LinkingTo: later, Rcpp
 
-Package: cpp11
-Version: 0.4.6
-Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: cpp11_0.4.6_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/cpp11/releases/download/0.4.6/cpp11_0.4.6_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-08-10 17:16:21 UTC; unix
-Filesize: 294319
-SHA256: a320567835053c9abe8507250bf72114b7d2ba1ba98afcf8d8dbe4356d3a5076
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue, knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp, testthat, tibble, utils, vctrs, withr
-
 Package: igraph
 Version: 1.5.1
 Depends: methods, R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -3595,25 +3580,6 @@ Suggests: spelling, testthat, pdftools, janeaustenr, wordcloud2, knitr, stopword
 Imports: Rcpp, digest
 LinkingTo: Rcpp (>= 0.12.12)
 
-Package: testthat
-Version: 3.2.0
-Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: testthat_3.2.0_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/testthat/releases/download/3.2.0/testthat_3.2.0_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-06 17:16:07 UTC; unix
-Filesize: 3417816
-SHA256: 23a185383842763a2916979e799cf8cef59522001d78ca26bba98358e8f68a2e
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, curl (>= 0.9.5), diffviewer (>= 0.1.0), knitr, rmarkdown, rstudioapi, shiny, usethis, vctrs (>= 0.1.0), xml2
-Imports: brio (>= 1.1.3), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.2), digest (>= 0.6.33), ellipsis (>= 0.3.2), evaluate (>= 0.21), jsonlite (>= 1.8.7), lifecycle (>= 1.0.3), magrittr (>=
-        2.0.3), methods, pkgload (>= 1.3.2.1), praise (>= 1.0.0), processx (>= 3.8.2), ps (>= 1.7.5), R6 (>= 2.5.1), rlang (>= 1.1.1), utils, waldo (>= 0.5.1), withr (>= 2.5.0)
-
 Package: fansi
 Version: 1.0.5
 Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
@@ -3748,24 +3714,6 @@ Suggests: covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, lattice, mapproj, ma
         1.2.0.9001), testthat (>= 3.1.2), vdiffr (>= 1.0.0), xml2
 Imports: cli, glue, grDevices, grid, gtable (>= 0.1.1), isoband, lifecycle (> 1.0.1), MASS, mgcv, rlang (>= 1.1.0), scales (>= 1.2.0), stats, tibble, vctrs (>= 0.5.0), withr (>= 2.5.0)
 
-Package: vctrs
-Version: 0.6.4
-Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: vctrs_0.6.4_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/vctrs/releases/download/0.6.4/vctrs_0.6.4_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-13 17:17:11 UTC; unix
-Filesize: 2300523
-SHA256: 745632340826dc2fb5b401dc04f411ef32ef9070435b6114a756b9514da59881
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr, pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>= 3.0.0), tibble (>= 3.1.3), waldo (>= 0.2.0), withr, xml2, zeallot
-Imports: cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.0)
-
 Package: ggrepel
 Version: 0.9.4
 Depends: R (>= 3.0.0), ggplot2 (>= 2.2.0), R (>= 4.4), R (< 4.4.99)
@@ -3843,24 +3791,6 @@ Suggests: testthat (>= 3.0.4), parallel, KernSmooth, shinystan, bayesplot, rmark
 Imports: methods, stats4, inline (>= 0.3.19), gridExtra (>= 2.3), Rcpp (>= 1.0.7), RcppParallel (>= 5.1.4), loo (>= 2.4.1), pkgbuild (>= 1.2.0), QuickJSR, ggplot2 (>= 3.3.5)
 SystemRequirements: GNU make, pandoc
 LinkingTo: Rcpp (>= 1.0.7), RcppEigen (>= 0.3.3.9.3), BH (>= 1.75.0-0), StanHeaders (>= 2.26.28), RcppParallel (>= 5.1.4)
-
-Package: bookdown
-Version: 0.36
-Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-License: GPL-3
-File: bookdown_0.36_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/bookdown/releases/download/0.36/bookdown_0.36_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-10-17 17:16:32 UTC; unix
-Filesize: 1100062
-SHA256: 82477669487d7c34ad00b6953e965ad435365442197056a8cc4568252aef551e
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, rstudioapi, miniUI, rsconnect (>= 0.4.3), servr (>= 0.13), shiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat (>=
-        3.1.0), withr (>= 2.3.0)
-Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.39), tinytex (>= 0.12), yaml (>= 2.1.19)
-SystemRequirements: Pandoc (>= 1.17.2)
 
 Package: markdown
 Version: 1.11
@@ -4572,27 +4502,6 @@ Imports: jsonlite, R6, Rcpp
 SystemRequirements: GNU make
 LinkingTo: Rcpp
 
-Package: arrow
-Version: 14.0.0.1
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-License: Apache License (>= 2.0)
-File: arrow_14.0.0.1_b6_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/arrow/releases/download/14.0.0.1/arrow_14.0.0.1_b6_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-25 17:29:22 UTC; unix
-Filesize: 176570289
-SHA256: 67b1c53c661e4698adcb5d20f6fe5b836cf2e86ddc8059d8fb2c3f2300538ded
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
-        tibble, tzdb, withr
-Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
-SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional)
-LinkingTo: cpp11 (>= 0.4.2)
-
 Package: mvtnorm
 Version: 1.2-4
 Depends: R(>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -4774,3 +4683,94 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: SparseM, graph
 Suggests: MASS, datasets, sfsmisc, tools
 Imports: grDevices, graphics, grid, lattice, stats, utils
+
+Package: cpp11
+Version: 0.4.7
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: cpp11_0.4.7_b5_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/cpp11/releases/download/0.4.7/cpp11_0.4.7_b5_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-12-02 17:15:30 UTC; unix
+Filesize: 281309
+SHA256: 8b3747222333faeb0e0d7972d28b629a98fc308c4928bbfcfc0eff7dc5f0b1ed
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue, knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp, testthat (>= 3.2.0), tibble, utils, vctrs, withr
+
+Package: testthat
+Version: 3.2.1
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: testthat_3.2.1_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/testthat/releases/download/3.2.1/testthat_3.2.1_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-12-02 17:15:35 UTC; unix
+Filesize: 3414675
+SHA256: 261807791e6a092e89a2ec0fb48eb50c660faac4b2500d57d760ea58f74b9d72
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, curl (>= 0.9.5), diffviewer (>= 0.1.0), knitr, rmarkdown, rstudioapi, shiny, usethis, vctrs (>= 0.1.0), xml2
+Imports: brio (>= 1.1.3), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.2), digest (>= 0.6.33), evaluate (>= 0.21), jsonlite (>= 1.8.7), lifecycle (>= 1.0.3), magrittr (>= 2.0.3), methods, pkgload
+        (>= 1.3.2.1), praise (>= 1.0.0), processx (>= 3.8.2), ps (>= 1.7.5), R6 (>= 2.5.1), rlang (>= 1.1.1), utils, waldo (>= 0.5.1), withr (>= 2.5.0)
+
+Package: vctrs
+Version: 0.6.5
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: vctrs_0.6.5_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/vctrs/releases/download/0.6.5/vctrs_0.6.5_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-12-02 17:14:52 UTC; unix
+Filesize: 2302266
+SHA256: 33710c92a4955a6a8dd89c3d30cebca24f58956bdb9dc06923c5f6175c408ff8
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr, pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>= 3.0.0), tibble (>= 3.1.3), waldo (>= 0.2.0), withr, xml2, zeallot
+Imports: cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.0)
+
+Package: bookdown
+Version: 0.37
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+License: GPL-3
+File: bookdown_0.37_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/bookdown/releases/download/0.37/bookdown_0.37_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2023-12-02 17:15:38 UTC; unix
+Filesize: 1100233
+SHA256: 11cf307e686c58fb8808a3e3f2c2428c2900093a601646e5160fe86c133209af
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, rstudioapi, miniUI, rsconnect (>= 0.4.3), servr (>= 0.13), shiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat (>=
+        3.1.0), withr (>= 2.3.0)
+Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.39), tinytex (>= 0.12), yaml (>= 2.1.19)
+SystemRequirements: Pandoc (>= 1.17.2)
+
+Package: arrow
+Version: 14.0.0.2
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+License: Apache License (>= 2.0)
+File: arrow_14.0.0.2_b7_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/arrow/releases/download/14.0.0.2/arrow_14.0.0.2_b7_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-12-02 17:29:53 UTC; unix
+Filesize: 176574082
+SHA256: b60aedfc7fb8ce2f0e8afeb9cace1246f5aefc0423350e0d53a8b7b665675e05
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
+        tibble, tzdb, withr
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional)
+LinkingTo: cpp11 (>= 0.4.2)
