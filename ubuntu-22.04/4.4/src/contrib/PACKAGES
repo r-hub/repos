@@ -1960,22 +1960,6 @@ Imports: lattice
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: cowplot
-Version: 1.1.1
-Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Suggests: Cairo, covr, dplyr, forcats, gridGraphics (>= 0.4-0), knitr, lattice, magick, maps, PASWR, patchwork, rmarkdown, ragg, testthat (>= 1.0.0), tidyr, vdiffr (>= 0.3.0), VennDiagram
-License: GPL-2
-DownloadURL: https://github.com/cran/cowplot/releases/download/1.1.1/cowplot_1.1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-06-21 16:45:25 UTC; unix
-Filesize: 1378231
-SHA256: 1ace3f84e39e2720407bf058ded6f20fc1d4d49002d680352a4d6928ad46e28b
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: cowplot_1.1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Imports: ggplot2 (> 2.2.1), grid, gtable, grDevices, methods, rlang, scales
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: doParallel
 Version: 1.0.17
 Depends: R (>= 2.14.0), foreach (>= 1.2.0), iterators (>= 1.0.0), parallel, utils, R (>= 4.4), R (< 4.4.99)
@@ -2205,22 +2189,6 @@ Imports: magrittr, htmlwidgets (>= 0.6), htmltools (>= 0.3.5), zoo (>= 1.7-10), 
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: rmarkdown (>= 0.3.3), shiny (>= 0.10.2.1)
-
-Package: ggridges
-Version: 0.5.4
-Depends: R (>= 3.2), R (>= 4.4), R (< 4.4.99)
-Suggests: covr, dplyr, patchwork, ggplot2movies, forcats, knitr, rmarkdown, testthat, vdiffr
-License: GPL-2 | file LICENSE
-DownloadURL: https://github.com/cran/ggridges/releases/download/0.5.4/ggridges_0.5.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-06-23 20:47:36 UTC; unix
-Filesize: 2238639
-SHA256: d4ff09a7d3415483318aa5e2ef8e4b8d05b8302a0e6c5fd889a12f3fba1b9b7d
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: ggridges_0.5.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Imports: ggplot2 (>= 3.0.0), grid (>= 3.0.0), scales (>= 0.4.1), withr (>= 2.1.1)
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: inline
 Version: 0.3.19
@@ -3360,26 +3328,6 @@ File: ggrepel_0.9.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Imports: grid, Rcpp, rlang (>= 0.3.0), scales (>= 0.5.0), withr (>= 2.5.0)
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
-Package: terra
-Version: 1.7-55
-Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet, htmlwidgets
-License: GPL (>= 3)
-DownloadURL: https://github.com/cran/terra/releases/download/1.7-55/terra_1.7-55_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-13 16:37:01 UTC; unix
-Filesize: 29653059
-SHA256: 4c8cf2bec19be2956f7dc181bf92f688f3561472895bf2119021d6fcc2c10736
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: terra_1.7-55_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Imports: methods, Rcpp (>= 1.0-10)
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
 LinkingTo: Rcpp
 
 Package: raster
@@ -4906,3 +4854,55 @@ Imports: cli, clock (>= 0.6.1), ellipsis, generics (>= 0.1.2), glue, gower, hard
         rlang (>= 1.1.0), stats, tibble, tidyr (>= 1.0.0), tidyselect (>= 1.2.0), timeDate, utils, vctrs (>= 0.5.0), withr
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: cowplot
+Version: 1.1.2
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Suggests: Cairo, covr, dplyr, forcats, gridGraphics (>= 0.4-0), knitr, lattice, magick, maps, PASWR, patchwork, rmarkdown, ragg, testthat (>= 1.0.0), tidyr, vdiffr (>= 0.3.0), VennDiagram
+License: GPL-2
+DownloadURL: https://github.com/cran/cowplot/releases/download/1.1.2/cowplot_1.1.2_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-12-15 16:38:14 UTC; unix
+Filesize: 1382401
+SHA256: c9f75f5e1e5ec45c5311865667f6a542b125154524b5b33a0c927b0a14362e8b
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: cowplot_1.1.2_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: ggplot2 (>= 3.4.0), grid, gtable, grDevices, methods, rlang, scales
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: ggridges
+Version: 0.5.5
+Depends: R (>= 3.2), R (>= 4.4), R (< 4.4.99)
+Suggests: covr, dplyr, patchwork, ggplot2movies, forcats, knitr, rmarkdown, testthat, vdiffr
+License: GPL-2 | file LICENSE
+DownloadURL: https://github.com/cran/ggridges/releases/download/0.5.5/ggridges_0.5.5_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2023-12-15 16:38:14 UTC; unix
+Filesize: 2259525
+SHA256: b3cec6822f3c364fa4e4fd7ac15f77908a22a8ae3e904afecb5c95da8ee8e83b
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: ggridges_0.5.5_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: ggplot2 (>= 3.4.0), grid (>= 3.0.0), scales (>= 0.4.1), withr (>= 2.1.1)
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: terra
+Version: 1.7-65
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet, htmlwidgets
+License: GPL (>= 3)
+DownloadURL: https://github.com/cran/terra/releases/download/1.7-65/terra_1.7-65_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-12-15 16:38:18 UTC; unix
+Filesize: 29708656
+SHA256: 51fcc438f2121be800c547bbf3a7d014752737ffc5db1d63d45aef34eb932ebe
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: terra_1.7-65_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: methods, Rcpp (>= 1.0-10)
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
+LinkingTo: Rcpp
