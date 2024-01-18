@@ -551,24 +551,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, testthat, disposables (>= 1.0.3)
 Imports: utils
 
-Package: ps
-Version: 1.7.5
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: ps_1.7.5_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/ps/releases/download/1.7.5/ps_1.7.5_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 11:43:26 UTC; unix
-Filesize: 406515
-SHA256: fb3b6debe5807f402466612fc1f78a6f5a50d96848a92ec40aae91e111b9fc19
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes
-Imports: utils
-
 Package: R6
 Version: 2.5.1
 Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
@@ -754,25 +736,6 @@ Imports: broom (>= 1.0.3), conflicted (>= 1.2.0), cli (>= 3.6.0), dbplyr (>= 2.3
         (>= 1.0.1), haven (>= 2.5.1), hms (>= 1.1.2), httr (>= 1.4.4), jsonlite (>= 1.8.4), lubridate (>= 1.9.2), magrittr (>= 2.0.3), modelr (>= 0.1.10), pillar (>= 1.8.1), purrr (>= 1.0.1), ragg
         (>= 1.2.5), readr (>= 2.1.4), readxl (>= 1.4.2), reprex (>= 2.0.2), rlang (>= 1.0.6), rstudioapi (>= 0.14), rvest (>= 1.0.3), stringr (>= 1.5.0), tibble (>= 3.1.8), tidyr (>= 1.3.0), xml2 (>=
         1.3.3)
-
-Package: timechange
-Version: 0.2.0
-Depends: R (>= 3.3), R (>= 4.4), R (< 4.4.99)
-License: GPL-3
-File: timechange_0.2.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/timechange/releases/download/0.2.0/timechange_0.2.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 11:53:46 UTC; unix
-Filesize: 1401388
-SHA256: dea343079f4f70554e1f3fff9bdb0727de027752061dc492e8a5d323054cb4ce
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testthat (>= 0.7.1.99), knitr
-SystemRequirements: A system with zoneinfo data (e.g.  /usr/share/zoneinfo) as well as a recent-enough C++11 compiler (such as g++-4.8 or later). On Windows the zoneinfo included with R is used.
-LinkingTo: cpp11 (>= 0.2.7)
 
 Package: tzdb
 Version: 0.4.0
@@ -4773,3 +4736,40 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: callr, covr, DBI, knitr, lattice, methods, rlang, rmarkdown (>= 2.12), RSQLite, testthat (>= 3.0.0)
 Imports: graphics, grDevices,
+
+Package: ps
+Version: 1.7.6
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: ps_1.7.6_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/ps/releases/download/1.7.6/ps_1.7.6_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-01-18 17:17:07 UTC; unix
+Filesize: 407005
+SHA256: 52aa6b0bc05f6bb1be2f07f14bb2592dc647b0069f26105e998612aeed81a7d0
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes
+Imports: utils
+
+Package: timechange
+Version: 0.3.0
+Depends: R (>= 3.3), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 3)
+File: timechange_0.3.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/timechange/releases/download/0.3.0/timechange_0.3.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-01-18 17:17:24 UTC; unix
+Filesize: 1377516
+SHA256: ee697ea3cd2998281745ccdcfa67ea793e6f917b314d4b5b2fe0c5bec2d50104
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat (>= 0.7.1.99), knitr
+SystemRequirements: A system with zoneinfo data (e.g.  /usr/share/zoneinfo) as well as a recent-enough C++11 compiler (such as g++-4.8 or later). On Windows the zoneinfo included with R is used.
+LinkingTo: cpp11 (>= 0.2.7)
