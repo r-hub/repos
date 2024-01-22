@@ -2225,22 +2225,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: hexbin (>= 1.27.0), scales, MASS, knitr, dichromat, colorspace, httr, mapproj, vdiffr, svglite (>= 1.2.0), testthat, covr, rmarkdown, maps, terra
 Imports: ggplot2 (>= 1.0.1), gridExtra
 
-Package: modeldata
-Version: 1.2.0
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: modeldata_1.2.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/modeldata/releases/download/1.2.0/modeldata_1.2.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-08-09 17:16:09 UTC; unix
-Filesize: 5051484
-SHA256: 4d8a22bd5cd74aac09b12bf3c7bdeae5daed6facb4f776d91a8c1c95689b89ae
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, testthat (>= 3.0.0), ggplot2
-Imports: dplyr, MASS, purrr, rlang, tibble
-
 Package: purrr
 Version: 1.0.2
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -3483,24 +3467,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat (>= 3.0.0), vctrs (>= 0.3.0), sf, tibble, readr
-
-Package: XML
-Version: 3.99-0.16
-Depends: R (>= 4.0.0), methods, utils, R (>= 4.4), R (< 4.4.99)
-License: BSD_3_clause + file LICENSE
-File: XML_3.99-0.16_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/XML/releases/download/3.99-0.16/XML_3.99-0.16_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-29 17:16:37 UTC; unix
-Filesize: 2074367
-SHA256: fca928943a684897384d34a5d6c3dfb3e7cccb6ce28740c8d10a415874a02023
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bitops, RCurl
-SystemRequirements: libxml2 (>= 2.6.3)
 
 Package: bslib
 Version: 0.6.1
@@ -4774,3 +4740,37 @@ Suggests: testthat (>= 3.0.0)
 Imports: jsonlite, R6, Rcpp
 SystemRequirements: GNU make
 LinkingTo: Rcpp
+
+Package: modeldata
+Version: 1.3.0
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: modeldata_1.3.0_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/modeldata/releases/download/1.3.0/modeldata_1.3.0_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2024-01-22 17:17:18 UTC; unix
+Filesize: 5156657
+SHA256: 82d636b1324272048423ad55340902ab9ad27858d944f30742576afc92e309e0
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, testthat (>= 3.0.0), ggplot2
+Imports: dplyr, MASS, purrr, rlang, tibble
+
+Package: XML
+Version: 3.99-0.16.1
+Depends: R (>= 4.0.0), methods, utils, R (>= 4.4), R (< 4.4.99)
+License: BSD_3_clause + file LICENSE
+File: XML_3.99-0.16.1_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/XML/releases/download/3.99-0.16.1/XML_3.99-0.16.1_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-01-22 17:17:18 UTC; unix
+Filesize: 2084013
+SHA256: d1435db52315ea0d484e33e5a909d9e0503e4e810cf5439a9e39c5ca8164f5a2
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bitops, RCurl
+SystemRequirements: libxml2 (>= 2.6.3)
