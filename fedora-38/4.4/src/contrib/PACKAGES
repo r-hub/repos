@@ -681,27 +681,6 @@ Suggests: bench, bit64, blob, brio, callr, cli, covr, crayon (>= 1.3.4), Diagram
         pkgload, purrr, rmarkdown, stringi, testthat (>= 3.0.2), tidyr, withr
 Imports: fansi (>= 0.4.0), lifecycle (>= 1.0.0), magrittr, methods, pillar (>= 1.8.1), pkgconfig, rlang (>= 1.0.2), utils, vctrs (>= 0.4.2)
 
-Package: tidyr
-Version: 1.3.0
-Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: tidyr_1.3.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/tidyr/releases/download/1.3.0/tidyr_1.3.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 11:58:06 UTC; unix
-Filesize: 1491053
-SHA256: 769efd705e7783ae18032793bdc89ef71e0fb4e5af4ed85c91953d90401b10c8
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, data.table, knitr, readr, repurrrsive (>= 1.1.0), rmarkdown, testthat (>= 3.0.0)
-Imports: cli (>= 3.4.1), dplyr (>= 1.0.10), glue, lifecycle (>= 1.0.3), magrittr, purrr (>= 1.0.1), rlang (>= 1.0.4), stringr (>= 1.5.0), tibble (>= 2.1.1), tidyselect (>= 1.2.0), utils, vctrs (>=
-        0.5.2)
-SystemRequirements: C++11
-LinkingTo: cpp11 (>= 0.4.0)
-
 Package: tidyselect
 Version: 1.2.0
 Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
@@ -1875,23 +1854,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: compiler
 Suggests: caret, mlbench, rpart, RUnit
 
-Package: kableExtra
-Version: 1.3.4
-Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: kableExtra_1.3.4_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/kableExtra/releases/download/1.3.4/kableExtra_1.3.4_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-06-26 14:44:58 UTC; unix
-Filesize: 1879674
-SHA256: ab093d5ae502789dbf5e598d2f544b5bf5528d7e590b40bb4aa4cdd0b77cb6b4
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testthat, magick, formattable, sparkline
-Imports: knitr (>= 1.16), magrittr, stringr (>= 1.0), xml2 (>= 1.1.1), rvest, rmarkdown (>= 1.6.0), scales, viridisLite, stats, grDevices, htmltools, rstudioapi, glue, tools, webshot, digest,
-        graphics, svglite
-
 Package: png
 Version: 0.1-8
 Depends: R (>= 2.9.0), R (>= 4.4), R (< 4.4.99)
@@ -1939,22 +1901,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: codetools
 Imports: utils
-
-Package: R.oo
-Version: 1.25.0
-Depends: R (>= 2.13.0), R.methodsS3 (>= 1.8.1), R (>= 4.4), R (< 4.4.99)
-License: LGPL (>= 2.1)
-File: R.oo_1.25.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/R.oo/releases/download/1.25.0/R.oo_1.25.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-06-26 14:45:07 UTC; unix
-Filesize: 1037296
-SHA256: caffa66fd995400e152e6dc062965691e52e8994b98ea887ed840f95841d1e5b
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: tools
-Imports: methods, utils
 
 Package: R.rsp
 Version: 0.45.0
@@ -4774,3 +4720,55 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, R.methodsS3, R.oo, rmarkdown (>= 2.16), testthat (>= 3.1.2), yaml
 Imports: brew, cli (>= 3.3.0), commonmark, desc (>= 1.2.0), knitr, methods, pkgload (>= 1.0.2), purrr (>= 1.0.0), R6 (>= 2.1.2), rlang (>= 1.0.6), stringi, stringr (>= 1.0.0), utils, withr, xml2
 LinkingTo: cpp11
+
+Package: tidyr
+Version: 1.3.1
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: tidyr_1.3.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/tidyr/releases/download/1.3.1/tidyr_1.3.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-01-24 17:17:17 UTC; unix
+Filesize: 1435954
+SHA256: 1b7be92e50c5036daff47026a3d64463c998edc22396c9bb2717417be7c7e481
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, data.table, knitr, readr, repurrrsive (>= 1.1.0), rmarkdown, testthat (>= 3.0.0)
+Imports: cli (>= 3.4.1), dplyr (>= 1.0.10), glue, lifecycle (>= 1.0.3), magrittr, purrr (>= 1.0.1), rlang (>= 1.1.1), stringr (>= 1.5.0), tibble (>= 2.1.1), tidyselect (>= 1.2.0), utils, vctrs (>=
+        0.5.2)
+LinkingTo: cpp11 (>= 0.4.0)
+
+Package: kableExtra
+Version: 1.4.0
+Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: kableExtra_1.4.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/kableExtra/releases/download/1.4.0/kableExtra_1.4.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2024-01-24 17:17:23 UTC; unix
+Filesize: 2076444
+SHA256: e443ad61656d7399bf5eaa6051b3343f1b95f78c1be0200bf728c8215b2919b5
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat, magick, tinytex, formattable, sparkline, webshot2
+Imports: knitr (>= 1.33), magrittr, stringr (>= 1.0), xml2 (>= 1.1.1), rmarkdown (>= 1.6.0), scales, viridisLite, stats, grDevices, htmltools, rstudioapi, tools, digest, graphics, svglite
+
+Package: R.oo
+Version: 1.26.0
+Depends: R (>= 2.13.0), R.methodsS3 (>= 1.8.2), R (>= 4.4), R (< 4.4.99)
+License: LGPL (>= 2.1)
+File: R.oo_1.26.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/R.oo/releases/download/1.26.0/R.oo_1.26.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2024-01-24 17:17:23 UTC; unix
+Filesize: 1037713
+SHA256: 574e0dde4113aef78d056048857e8c2fc6f4513c92caee598d297d4d7dd16c11
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: tools
+Imports: methods, utils
