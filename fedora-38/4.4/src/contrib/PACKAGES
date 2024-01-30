@@ -1056,23 +1056,6 @@ Suggests: covr, dials (>= 0.1.0), finetune, kknn, knitr, modeldata, recipes (>= 
 Imports: cli, dplyr (>= 1.0.0), generics (>= 0.1.2), ggplot2, glue, hardhat (>= 1.2.0), lifecycle (>= 1.0.0), parsnip (>= 1.0.0), pillar (>= 1.7.0), prettyunits, purrr, rlang, rsample (>= 0.0.9),
         stats, tibble (>= 3.1.0), tidyr, tune (>= 1.1.0), vctrs, withr, workflows (>= 1.0.0)
 
-Package: commonmark
-Version: 1.9.0
-Depends: R (>= 4.4), R (< 4.4.99)
-License: BSD_2_clause + file LICENSE
-File: commonmark_1.9.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/commonmark/releases/download/1.9.0/commonmark_1.9.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-26 12:23:42 UTC; unix
-Filesize: 506955
-SHA256: 72cacfd7c5ed8710decd8a6cecc6a511c1aa687d1a21501cbeff0472000c3c8d
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: curl, testthat, xml2
-
 Package: devtools
 Version: 2.4.5
 Depends: R (>= 3.0.2), usethis (>= 2.1.6), R (>= 4.4), R (< 4.4.99)
@@ -3255,24 +3238,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: qrng, numDeriv
 Imports: stats
 
-Package: sp
-Version: 2.1-2
-Depends: R (>= 3.5.0), methods, R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2)
-File: sp_2.1-2_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/sp/releases/download/2.1-2/sp_2.1-2_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-27 17:16:50 UTC; unix
-Filesize: 2192575
-SHA256: 1d5c35fbf96c34a48dcd7ea76eddd4891176391102adadfdccd807438214fccc
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: RColorBrewer, gstat, deldir, knitr, rmarkdown, sf, terra, raster
-Imports: utils, stats, graphics, grDevices, lattice, grid
-
 Package: scales
 Version: 1.3.0
 Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
@@ -3706,25 +3671,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: rgl, randtoolbox, lattice
-
-Package: data.table
-Version: 1.14.10
-Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
-License: MPL-2.0 | file LICENSE
-File: data.table_1.14.10_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/data.table/releases/download/1.14.10/data.table_1.14.10_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-12-08 17:16:25 UTC; unix
-Filesize: 2692086
-SHA256: 50f70af282c8f0690b2bd87803c447f15923336f6772f80a1229140f9a4512ca
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), curl, R.utils, xts, nanotime, zoo (>= 1.8-1), yaml, knitr, rmarkdown
-Imports: methods
-SystemRequirements: zlib
 
 Package: curl
 Version: 5.2.0
@@ -4753,17 +4699,70 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: hexbin (>= 1.27.0), scales, MASS, knitr, dichromat, colorspace, httr, mapproj, vdiffr, svglite (>= 1.2.0), testthat, covr, rmarkdown, maps, terra
 Imports: ggplot2 (>= 1.0.1), gridExtra
 
-Package: igraph
-Version: 2.0.1
-Depends: methods, R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2)
-File: igraph_2.0.1_b5_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/igraph/releases/download/2.0.1/igraph_2.0.1_b5_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Package: commonmark
+Version: 1.9.1
+Depends: R (>= 4.4), R (< 4.4.99)
+License: BSD_2_clause + file LICENSE
+File: commonmark_1.9.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/commonmark/releases/download/1.9.1/commonmark_1.9.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
 OS: linux
 Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-01-29 17:17:15 UTC; unix
-Filesize: 11025751
-SHA256: 1920cb24a091b7594c2d0a6746b542d2cdd7dc94301189c4fd50d4c1ae02fac5
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-01-30 17:16:59 UTC; unix
+Filesize: 514312
+SHA256: b25ca54c68f228647d3ea93a45c1bf691dc7c9e4dff11be5d4b945e78f5b5b2b
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: curl, testthat, xml2
+
+Package: sp
+Version: 2.1-3
+Depends: R (>= 3.5.0), methods, R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: sp_2.1-3_b5_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/sp/releases/download/2.1-3/sp_2.1-3_b5_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-01-30 17:16:59 UTC; unix
+Filesize: 2196735
+SHA256: 26fca3d83b86208a7f6cf4fcf462fd1e83248ffb12f27891813afa043fa38e36
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: RColorBrewer, gstat, deldir, knitr, rmarkdown, sf, terra, raster
+Imports: utils, stats, graphics, grDevices, lattice, grid
+
+Package: data.table
+Version: 1.15.0
+Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
+License: MPL-2.0 | file LICENSE
+File: data.table_1.15.0_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/data.table/releases/download/1.15.0/data.table_1.15.0_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-01-30 17:17:02 UTC; unix
+Filesize: 2843303
+SHA256: a8a780416076fa6eaefa279bbb00b16db0825a9803e7f37a78e002deb40ae5b8
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
+Imports: methods
+
+Package: igraph
+Version: 2.0.1.1
+Depends: methods, R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: igraph_2.0.1.1_b6_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/igraph/releases/download/2.0.1.1/igraph_2.0.1.1_b6_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-01-30 17:17:11 UTC; unix
+Filesize: 10999706
+SHA256: bf8f942a444ed788f19280b2a41fafb5df09bea9896604115bb3eb73dfb73efc
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
