@@ -1365,24 +1365,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: methods, utils
 
-Package: bayesplot
-Version: 1.10.0
-Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 3)
-File: bayesplot_1.10.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/bayesplot/releases/download/1.10.0/bayesplot_1.10.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-06-26 13:54:14 UTC; unix
-Filesize: 5418643
-SHA256: 6ac1d045d6bd05d8bf0c098f1cb7a2dd6b2ba48cac133075ff30615c5d864e98
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: ggfortify, gridExtra (>= 2.2.1), hexbin, knitr (>= 1.16), loo (>= 2.0.0), RColorBrewer, rmarkdown (>= 1.0.0), rstan (>= 2.17.1), rstanarm (>= 2.17.4), rstantools (>= 1.5.0), scales,
-        shinystan (>= 2.3.0), survival, testthat (>= 2.0.0), vdiffr (>= 1.0.2)
-Imports: dplyr (>= 0.8.0), ggplot2 (>= 3.0.0), ggridges, glue, posterior, reshape2, rlang (>= 0.3.0), stats, tibble (>= 2.0.0), tidyselect, utils
-SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
-
 Package: distributional
 Version: 0.3.2
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -1774,21 +1756,6 @@ Suggests: testthat
 Imports: Rcpp, data.table
 LinkingTo: Rcpp
 
-Package: coda
-Version: 0.19-4
-Depends: R (>= 2.14.0), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2)
-File: coda_0.19-4_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/coda/releases/download/0.19-4/coda_0.19-4_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-06-26 14:30:06 UTC; unix
-Filesize: 350678
-SHA256: 67f6c7fc405c998079acb778725de4cb4caef441d03666ed68324219006a0610
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: lattice
-
 Package: doParallel
 Version: 1.0.17
 Depends: R (>= 2.14.0), foreach (>= 1.2.0), iterators (>= 1.0.0), parallel, utils, R (>= 4.4), R (< 4.4.99)
@@ -2033,23 +2000,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: brew, callr, codetools, curl, covr, git2r (>= 0.23.0), knitr, mockery, pkgbuild (>= 1.0.1), pingr, rmarkdown, rprojroot, testthat, webfakes, withr
 Imports: methods, stats, tools, utils
 SystemRequirements: Subversion for install_svn, git for install_git
-
-Package: rstantools
-Version: 2.3.1.1
-Depends: R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 3)
-File: rstantools_2.3.1.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/rstantools/releases/download/2.3.1.1/rstantools_2.3.1.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-07-18 17:17:06 UTC; unix
-Filesize: 170635
-SHA256: 231cc8f0b0ff483ee0d3dc967383799d712a3a3a5a8efef493ea6a3b2094c31d
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0), knitr, pkgbuild, pkgload, roxygen2 (>= 6.0.1), rmarkdown, rstudioapi
-Imports: desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1)
-SystemRequirements: pandoc, C++14
 
 Package: rgeos
 Version: 0.6-4
@@ -2415,22 +2365,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: spData (>= 0.2.6.2), units, knitr, rmarkdown, tinytest
 Imports: grDevices, stats, graphics, e1071, class, KernSmooth
-
-Package: infer
-Version: 1.0.5
-Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: infer_1.0.5_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/infer/releases/download/1.0.5/infer_1.0.5_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-09-06 17:16:19 UTC; unix
-Filesize: 2130573
-SHA256: dc3a205e5f0f3b63f84370a6a262657224d1a09820edde3491de3bc98737262d
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, devtools (>= 1.12.0), fs, knitr, nycflights13, parsnip, rmarkdown, stringr, testthat (>= 3.0.0), vdiffr (>= 1.0.0)
-Imports: broom, dplyr (>= 0.7.0), generics, ggplot2, glue (>= 1.3.0), grDevices, magrittr, methods, patchwork, purrr, rlang (>= 0.2.0), tibble, tidyr, vctrs
 
 Package: credentials
 Version: 2.0.1
@@ -4040,26 +3974,6 @@ Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
 SystemRequirements: freetype2, libpng, libtiff, libjpeg
 LinkingTo: systemfonts, textshaping
 
-Package: terra
-Version: 1.7-65
-Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 3)
-File: terra_1.7-65_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/terra/releases/download/1.7-65/terra_1.7-65_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-01-09 17:18:50 UTC; unix
-Filesize: 28910897
-SHA256: 20f370b5b17df1e7b3cf407003a010de133c31ffddba7f2b7f8a9a92b3120758
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet, htmlwidgets
-Imports: methods, Rcpp (>= 1.0-10)
-SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
-LinkingTo: Rcpp
-
 Package: matrixStats
 Version: 1.2.0
 Depends: R (>= 2.12.0), R (>= 4.4), R (< 4.4.99)
@@ -4474,26 +4388,6 @@ Suggests: callr, DBItest (>= 1.8.0), gert, gh, hms, knitr, magrittr, rmarkdown, 
 Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
 LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
 
-Package: QuickJSR
-Version: 1.1.0
-Depends: R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: QuickJSR_1.1.0_b6_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/QuickJSR/releases/download/1.1.0/QuickJSR_1.1.0_b6_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-01-21 17:16:26 UTC; unix
-Filesize: 4547110
-SHA256: bdc9e98315ba77e2b93f59ea2ec18054c9b89c7015bf17d21fb412cc5f69b680
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testthat (>= 3.0.0)
-Imports: jsonlite, R6, Rcpp
-SystemRequirements: GNU make
-LinkingTo: Rcpp
-
 Package: modeldata
 Version: 1.3.0
 Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
@@ -4771,3 +4665,109 @@ Suggests: ape (>= 5.7-0.1), callr, decor, digest, graph, igraphdata, knitr, rgl,
 Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang, stats, utils
 SystemRequirements: gmp, libxml2, glpk (>= 4.57)
 LinkingTo: cpp11 (>= 0.4.7)
+
+Package: bayesplot
+Version: 1.11.0
+Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 3)
+File: bayesplot_1.11.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/bayesplot/releases/download/1.11.0/bayesplot_1.11.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2024-01-31 17:15:09 UTC; unix
+Filesize: 5403452
+SHA256: d2fcf5d32856fd20f86f0046a35eec85b508ff340f200e40947d77a1bcbeff26
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: ggfortify, gridExtra (>= 2.2.1), hexbin, knitr (>= 1.16), loo (>= 2.0.0), RColorBrewer, rmarkdown (>= 1.0.0), rstan (>= 2.17.1), rstanarm (>= 2.17.4), rstantools (>= 1.5.0), scales,
+        shinystan (>= 2.3.0), survival, testthat (>= 2.0.0), vdiffr (>= 1.0.2)
+Imports: dplyr (>= 0.8.0), ggplot2 (>= 3.4.0), ggridges (>= 0.5.5), glue, posterior, reshape2, rlang (>= 0.3.0), stats, tibble (>= 2.0.0), tidyselect, utils
+SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
+
+Package: coda
+Version: 0.19-4.1
+Depends: R (>= 2.14.0), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: coda_0.19-4.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/coda/releases/download/0.19-4.1/coda_0.19-4.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2024-01-31 17:15:05 UTC; unix
+Filesize: 353594
+SHA256: 265a25bdb161cf22cbb6bc416408c1fdd986e5c64cc3a82a8d3c15c0f1665531
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: lattice
+
+Package: rstantools
+Version: 2.4.0
+Depends: R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 3)
+File: rstantools_2.4.0_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/rstantools/releases/download/2.4.0/rstantools_2.4.0_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2024-01-31 17:15:10 UTC; unix
+Filesize: 175666
+SHA256: 3d3c371fb629af09712e5f54ce8e6be5509cf3ec2fa7d5efb5accd35a2940d4d
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0), knitr, pkgbuild, pkgload, roxygen2 (>= 6.0.1), rmarkdown, rstudioapi
+Imports: desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1)
+SystemRequirements: pandoc, C++14
+
+Package: infer
+Version: 1.0.6
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: infer_1.0.6_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/infer/releases/download/1.0.6/infer_1.0.6_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2024-01-31 17:15:15 UTC; unix
+Filesize: 2135322
+SHA256: 5b49764028d7ed733887268f989e9943b20592a1c73c033b68dc57d664c1e336
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, devtools (>= 1.12.0), fs, knitr, nycflights13, parsnip, rmarkdown, stringr, testthat (>= 3.0.0), vdiffr (>= 1.0.0)
+Imports: broom, cli, dplyr (>= 0.7.0), generics, ggplot2, glue (>= 1.3.0), grDevices, magrittr, methods, patchwork, purrr, rlang (>= 0.2.0), tibble, tidyr, vctrs
+
+Package: terra
+Version: 1.7-71
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 3)
+File: terra_1.7-71_b5_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/terra/releases/download/1.7-71/terra_1.7-71_b5_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-01-31 17:15:13 UTC; unix
+Filesize: 28981048
+SHA256: 38786e01bfeea2291781ec081a04dc520960cf895f331c37da2d6b8cd8e3af8d
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
+Imports: methods, Rcpp (>= 1.0-10)
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
+LinkingTo: Rcpp
+
+Package: QuickJSR
+Version: 1.1.3
+Depends: R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: QuickJSR_1.1.3_b7_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/QuickJSR/releases/download/1.1.3/QuickJSR_1.1.3_b7_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-01-31 17:15:15 UTC; unix
+Filesize: 4546523
+SHA256: 15049274cf21cf32b6d82f3bcebd8f4bf58b27ebb966488328273eeafc63175a
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat (>= 3.0.0)
+Imports: jsonlite, R6, Rcpp
+SystemRequirements: GNU make
+LinkingTo: Rcpp
