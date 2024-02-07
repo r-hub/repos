@@ -1349,22 +1349,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: methods, utils
 
-Package: distributional
-Version: 0.3.2
-Depends: R (>= 4.4), R (< 4.4.99)
-License: GPL-3
-File: distributional_0.3.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/distributional/releases/download/0.3.2/distributional_0.3.2_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-06-26 13:51:59 UTC; unix
-Filesize: 587706
-SHA256: c11b2656bfa7007cedf1a45824f08370793023af4b2bf79d3d76ffece2d79bef
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testthat (>= 2.1.0), covr, mvtnorm, actuar (>= 2.0.0), ggdist
-Imports: vctrs (>= 0.3.0), rlang (>= 0.4.5), generics, stats, numDeriv, ggplot2, scales, farver, digest, utils, lifecycle
-
 Package: dygraphs
 Version: 1.1.1.6
 Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
@@ -4771,3 +4755,19 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, crayon, devtools, knitr, Matrix, modeldata (>= 0.0.2), recipes (>= 1.0.5), rmarkdown (>= 2.3), roxygen2, testthat (>= 3.0.0), usethis (>= 2.1.5)
 Imports: cli (>= 3.6.0), glue (>= 1.6.2), rlang (>= 1.1.0), tibble (>= 3.2.1), vctrs (>= 0.6.0)
+
+Package: distributional
+Version: 0.4.0
+Depends: R (>= 4.4), R (< 4.4.99)
+License: GPL-3
+File: distributional_0.4.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/distributional/releases/download/0.4.0/distributional_0.4.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2024-02-07 17:15:36 UTC; unix
+Filesize: 448785
+SHA256: 0188499cdf2171b8b4073c6bca7298cda50c40c68384b8b761a89f27c7dce7d2
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat (>= 2.1.0), covr, mvtnorm, actuar (>= 2.0.0), ggdist, ggplot2
+Imports: vctrs (>= 0.3.0), rlang (>= 0.4.5), generics, stats, numDeriv, utils, lifecycle
