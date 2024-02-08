@@ -3413,25 +3413,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: R6, fastmatch, data.table (>= 1.9.8), devtools, ggplot2, knitr, magrittr, microbenchmark, rmarkdown, testthat (>= 3.0.4), tinytest (>= 1.1.0), tibble
 Imports: backports (>= 1.1.0), utils
 
-Package: RcppArmadillo
-Version: 0.12.6.6.1
-Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2)
-File: RcppArmadillo_0.12.6.6.1_b6_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/0.12.6.6.1/RcppArmadillo_0.12.6.6.1_b6_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-12-04 17:17:00 UTC; unix
-Filesize: 1946752
-SHA256: 4dce10d6c159641dc837322418847b53ffa0c62c5e87231324ded99a1474c5b7
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-Imports: Rcpp (>= 0.11.0), stats, utils, methods
-LinkingTo: Rcpp
-
 Package: progress
 Version: 1.2.3
 Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
@@ -4771,3 +4752,22 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat (>= 2.1.0), covr, mvtnorm, actuar (>= 2.0.0), ggdist, ggplot2
 Imports: vctrs (>= 0.3.0), rlang (>= 0.4.5), generics, stats, numDeriv, utils, lifecycle
+
+Package: RcppArmadillo
+Version: 0.12.8.0.0
+Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: RcppArmadillo_0.12.8.0.0_b7_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/0.12.8.0.0/RcppArmadillo_0.12.8.0.0_b7_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-08 17:16:42 UTC; unix
+Filesize: 1944007
+SHA256: 4257e64235d9bb157db385d4e4ecc4d4499186e2650f9b53b639a1e5ab0f3b08
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+Imports: Rcpp (>= 0.11.0), stats, utils, methods
+LinkingTo: Rcpp
