@@ -26,7 +26,7 @@ runs:
 
   - uses: r-lib/actions/setup-r-dependencies@v2-branch
     with:
-      packages: r-lib/pkgdepends@feature/builder, gh, pkgsearch, withr, yaml
+      packages: r-lib/pkgdepends@feature/builder, gh, pkgsearch, withr, yaml, glue
       dependencies: NA
       pak-version: devel
 
