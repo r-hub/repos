@@ -101,15 +101,15 @@ Name             | CRAN                              | ✓ | Repo
 `ubuntu-clang`   | r-devel-linux-x86_64-debian-clang | ✓ | ubuntu-22.04-R4.4
 `ubuntu-gcc12`   | r-devel-linux-x86_64-debian-gcc   | ✓ | ubuntu-22.04-R4.4
 `ubuntu-libc++`  | r-devel-linux-x86_64-fedora-clang |   | ubuntu-22.04-R4.4-libc++
-                 | r-devel-linux-x86_64-fedora-gcc   |   |
-                 | r-devel-windows-x86_64            | ✓ | CRAN
+`fedora-gcc`     | r-devel-linux-x86_64-fedora-gcc   |   | fedora-38-R4.4
+`windows`        | r-devel-windows-x86_64            | ✓ | CRAN
 `ubuntu-next`    | r-patched-linux-x86_64            | ✓ | PPM
 `ubuntu-release` | r-release-linux-x86_64            | ✓ | PPM
-                 | r-release-macos-arm64             | ✓ | CRAN
-                 | r-release-macos-x86_64            | ✓ | CRAN
-                 | r-release-windows-x86_64          | ✓ | CRAN
-                 | r-oldrel-macos-arm64              | ✓ | CRAN
-                 | r-oldrel-windows-x86_64	         | ✓ | CRAN
+`macos-arm64`    | r-release-macos-arm64             | ✓ | CRAN
+`macos`          | r-release-macos-x86_64            | ✓ | CRAN
+`windows`        | r-release-windows-x86_64          | ✓ | CRAN
+`macos-arm64`    | r-oldrel-macos-arm64              | ✓ | CRAN
+`windows`        | r-oldrel-windows-x86_64	         | ✓ | CRAN
 
 [CRAN Package Check Issue Kinds](https://cran.r-project.org/web/checks/check_issue_kinds.html)
 
