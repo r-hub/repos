@@ -613,22 +613,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, testthat
 Imports: tibble
 
-Package: rvest
-Version: 1.0.3
-Depends: R (>= 3.2), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: rvest_1.0.3_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/rvest/releases/download/1.0.3/rvest_1.0.3_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-06-26 11:58:11 UTC; unix
-Filesize: 221042
-SHA256: f461010ffe2f1ef9e8de761aa62a84432449764d5b62aa2ee14ce786c6b2c49c
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, knitr, readr, repurrrsive, rmarkdown, spelling, stringi (>= 0.3.1), testthat (>= 3.0.2), webfakes
-Imports: glue, cli, httr (>= 0.5), lifecycle (>= 1.0.0), magrittr, rlang (>= 1.0.0), selectr, tibble, xml2 (>= 1.3), withr
-
 Package: selectr
 Version: 0.4-2
 Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
@@ -4771,3 +4755,19 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testit, parallel, codetools, rstudioapi, tinytex (>= 0.30), mime, markdown (>= 1.5), knitr (>= 1.42), htmltools, remotes, pak, rhub, renv, curl, jsonlite, magick, yaml, rmarkdown
 Imports: grDevices, stats, tools
+
+Package: rvest
+Version: 1.0.4
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: rvest_1.0.4_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/rvest/releases/download/1.0.4/rvest_1.0.4_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2024-02-13 17:15:14 UTC; unix
+Filesize: 309213
+SHA256: 9ee35f316694665be56aeab469b297a1cfa4cc3cff9237128bdb8ea8ec0fee04
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: chromote, covr, knitr, R6, readr, repurrrsive, rmarkdown, spelling, stringi (>= 0.3.1), testthat (>= 3.0.2), webfakes
+Imports: cli, glue, httr (>= 0.5), lifecycle (>= 1.0.3), magrittr, rlang (>= 1.1.0), selectr, tibble, xml2 (>= 1.3)
