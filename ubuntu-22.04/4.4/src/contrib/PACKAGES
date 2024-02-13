@@ -1041,22 +1041,6 @@ Imports: broom, magrittr, purrr (>= 0.2.2), rlang (>= 1.0.6), tibble, tidyr (>= 
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: rvest
-Version: 1.0.3
-Depends: R (>= 3.2), R (>= 4.4), R (< 4.4.99)
-Suggests: covr, knitr, readr, repurrrsive, rmarkdown, spelling, stringi (>= 0.3.1), testthat (>= 3.0.2), webfakes
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/rvest/releases/download/1.0.3/rvest_1.0.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-06-21 09:38:26 UTC; unix
-Filesize: 210763
-SHA256: 6bff334b42100cc52e74f1c25eebed590d5d1aba7ee8c7522926af850c9d50d5
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: rvest_1.0.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Imports: glue, cli, httr (>= 0.5), lifecycle (>= 1.0.0), magrittr, rlang (>= 1.0.0), selectr, tibble, xml2 (>= 1.3), withr
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: selectr
 Version: 0.4-2
 Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
@@ -4904,3 +4888,19 @@ Imports: brew, cli (>= 3.3.0), commonmark, desc (>= 1.2.0), knitr, methods, pkgl
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11
+
+Package: rvest
+Version: 1.0.4
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+Suggests: chromote, covr, knitr, R6, readr, repurrrsive, rmarkdown, spelling, stringi (>= 0.3.1), testthat (>= 3.0.2), webfakes
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/rvest/releases/download/1.0.4/rvest_1.0.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2024-02-13 16:36:50 UTC; unix
+Filesize: 301405
+SHA256: 21335b9055042e7fbeb1f3ae984cbbd33650c1324dc92932f21fac446a315990
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: rvest_1.0.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: cli, glue, httr (>= 0.5), lifecycle (>= 1.0.3), magrittr, rlang (>= 1.1.0), selectr, tibble, xml2 (>= 1.3)
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
