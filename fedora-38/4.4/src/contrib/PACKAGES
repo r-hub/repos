@@ -945,21 +945,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: parallelly
-Version: 1.36.0
-Depends: R (>= 4.4), R (< 4.4.99)
-License: LGPL (>= 2.1)
-File: parallelly_1.36.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/parallelly/releases/download/1.36.0/parallelly_1.36.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-06-26 12:12:32 UTC; unix
-Filesize: 385634
-SHA256: f4d7900c9417fc08e90cfde027d3fb75c425d7dec35f2effc2a69c7c0e504887
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: parallel, tools, utils
-
 Package: shape
 Version: 1.4.6
 Depends: R (>= 2.01), R (>= 4.4), R (< 4.4.99)
@@ -4581,24 +4566,6 @@ Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.
 SystemRequirements: gmp, libxml2, glpk (>= 4.57)
 LinkingTo: cpp11 (>= 0.4.7)
 
-Package: bayesplot
-Version: 1.11.0
-Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 3)
-File: bayesplot_1.11.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/bayesplot/releases/download/1.11.0/bayesplot_1.11.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2024-01-31 17:15:09 UTC; unix
-Filesize: 5403452
-SHA256: d2fcf5d32856fd20f86f0046a35eec85b508ff340f200e40947d77a1bcbeff26
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: ggfortify, gridExtra (>= 2.2.1), hexbin, knitr (>= 1.16), loo (>= 2.0.0), RColorBrewer, rmarkdown (>= 1.0.0), rstan (>= 2.17.1), rstanarm (>= 2.17.4), rstantools (>= 1.5.0), scales,
-        shinystan (>= 2.3.0), survival, testthat (>= 2.0.0), vdiffr (>= 1.0.2)
-Imports: dplyr (>= 0.8.0), ggplot2 (>= 3.4.0), ggridges (>= 0.5.5), glue, posterior, reshape2, rlang (>= 0.3.0), stats, tibble (>= 2.0.0), tidyselect, utils
-SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
-
 Package: coda
 Version: 0.19-4.1
 Depends: R (>= 2.14.0), R (>= 4.4), R (< 4.4.99)
@@ -4771,3 +4738,38 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: chromote, covr, knitr, R6, readr, repurrrsive, rmarkdown, spelling, stringi (>= 0.3.1), testthat (>= 3.0.2), webfakes
 Imports: cli, glue, httr (>= 0.5), lifecycle (>= 1.0.3), magrittr, rlang (>= 1.1.0), selectr, tibble, xml2 (>= 1.3)
+
+Package: parallelly
+Version: 1.37.0
+Depends: R (>= 4.4), R (< 4.4.99)
+License: LGPL (>= 2.1)
+File: parallelly_1.37.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/parallelly/releases/download/1.37.0/parallelly_1.37.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-15 17:16:51 UTC; unix
+Filesize: 398130
+SHA256: ba62cbcdd7415260f87353111ecdb200e7844c504f8654b11dcc5f4d26a7375d
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: parallel, tools, utils
+
+Package: bayesplot
+Version: 1.11.1
+Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 3)
+File: bayesplot_1.11.1_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/bayesplot/releases/download/1.11.1/bayesplot_1.11.1_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2024-02-15 17:16:54 UTC; unix
+Filesize: 5402770
+SHA256: 74404df015814067ca8cc3f19a31e52c90979b252c8e14c3b5c060cb8dcfbd04
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: ggfortify, gridExtra (>= 2.2.1), hexbin, knitr (>= 1.16), loo (>= 2.0.0), RColorBrewer, rmarkdown (>= 1.0.0), rstan (>= 2.17.1), rstanarm (>= 2.17.4), rstantools (>= 1.5.0), scales,
+        shinystan (>= 2.3.0), survival, testthat (>= 2.0.0), vdiffr (>= 1.0.2)
+Imports: dplyr (>= 0.8.0), ggplot2 (>= 3.4.0), ggridges (>= 0.5.5), glue, posterior, reshape2, rlang (>= 0.3.0), stats, tibble (>= 2.0.0), tidyselect, utils
+SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
