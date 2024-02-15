@@ -1323,21 +1323,6 @@ File: numDeriv_2016.8-1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: parallelly
-Version: 1.36.0
-Depends: R (>= 4.4), R (< 4.4.99)
-License: LGPL (>= 2.1)
-DownloadURL: https://github.com/cran/parallelly/releases/download/1.36.0/parallelly_1.36.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-06-21 09:45:09 UTC; unix
-Filesize: 349773
-SHA256: 0570906374f38e4d07b7f361c0160d823b8aa346b361ff2a1dd6d44c1901c671
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: parallelly_1.36.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Imports: parallel, tools, utils
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: shape
 Version: 1.4.6
 Depends: R (>= 2.01), R (>= 4.4), R (< 4.4.99)
@@ -4442,24 +4427,6 @@ Imports: methods, utils
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: bayesplot
-Version: 1.11.0
-Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
-Suggests: ggfortify, gridExtra (>= 2.2.1), hexbin, knitr (>= 1.16), loo (>= 2.0.0), RColorBrewer, rmarkdown (>= 1.0.0), rstan (>= 2.17.1), rstanarm (>= 2.17.4), rstantools (>= 1.5.0), scales,
-        shinystan (>= 2.3.0), survival, testthat (>= 2.0.0), vdiffr (>= 1.0.2)
-License: GPL (>= 3)
-DownloadURL: https://github.com/cran/bayesplot/releases/download/1.11.0/bayesplot_1.11.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2024-02-11 09:39:27 UTC; unix
-Filesize: 5358330
-SHA256: f21f12d386cce3cb921d4df6822057b597ec116860f5471e4ed47f8fbdbf750c
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: bayesplot_1.11.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Imports: dplyr (>= 0.8.0), ggplot2 (>= 3.4.0), ggridges (>= 0.5.5), glue, posterior, reshape2, rlang (>= 0.3.0), stats, tibble (>= 2.0.0), tidyselect, utils
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
-
 Package: distributional
 Version: 0.4.0
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -4904,3 +4871,38 @@ File: rvest_1.0.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Imports: cli, glue, httr (>= 0.5), lifecycle (>= 1.0.3), magrittr, rlang (>= 1.1.0), selectr, tibble, xml2 (>= 1.3)
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: parallelly
+Version: 1.37.0
+Depends: R (>= 4.4), R (< 4.4.99)
+License: LGPL (>= 2.1)
+DownloadURL: https://github.com/cran/parallelly/releases/download/1.37.0/parallelly_1.37.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-15 16:34:12 UTC; unix
+Filesize: 368236
+SHA256: f2c64a5f1387773ae7c1e35253f0849ca5e6a14eacba8e7870d4b5e6dee99982
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: parallelly_1.37.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: parallel, tools, utils
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: bayesplot
+Version: 1.11.1
+Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
+Suggests: ggfortify, gridExtra (>= 2.2.1), hexbin, knitr (>= 1.16), loo (>= 2.0.0), RColorBrewer, rmarkdown (>= 1.0.0), rstan (>= 2.17.1), rstanarm (>= 2.17.4), rstantools (>= 1.5.0), scales,
+        shinystan (>= 2.3.0), survival, testthat (>= 2.0.0), vdiffr (>= 1.0.2)
+License: GPL (>= 3)
+DownloadURL: https://github.com/cran/bayesplot/releases/download/1.11.1/bayesplot_1.11.1_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2024-02-15 16:34:16 UTC; unix
+Filesize: 5358534
+SHA256: 4f59c60aa66e16f502fc30ba694d8dc3c9a63744b07d54d0113e437b88d0da9c
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: bayesplot_1.11.1_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: dplyr (>= 0.8.0), ggplot2 (>= 3.4.0), ggridges (>= 0.5.5), glue, posterior, reshape2, rlang (>= 0.3.0), stats, tibble (>= 2.0.0), tidyselect, utils
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
