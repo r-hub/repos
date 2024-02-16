@@ -4092,21 +4092,6 @@ Enhances: SparseM, graph
 Suggests: MASS, datasets, sfsmisc, tools
 Imports: grDevices, graphics, grid, lattice, stats, utils
 
-Package: DBI
-Version: 1.2.1
-Depends: methods, R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
-License: LGPL (>= 2.1)
-File: DBI_1.2.1_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/DBI/releases/download/1.2.1/DBI_1.2.1_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2024-01-12 17:16:51 UTC; unix
-Filesize: 953571
-SHA256: 7b55aad8e0a8b6b841ce766d15b4e067e808cb594d4162494766ff2771c62be2
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: arrow, blob, covr, DBItest, dbplyr, downlit, dplyr, glue, hms, knitr, magrittr, nanoarrow (>= 0.3.0.1), RMariaDB, rmarkdown, rprojroot, RSQLite (>= 1.1-2), testthat (>= 3.0.0), vctrs, xml2
-
 Package: uuid
 Version: 1.2-0
 Depends: R (>= 2.9.0), R (>= 4.4), R (< 4.4.99)
@@ -4773,3 +4758,18 @@ Suggests: ggfortify, gridExtra (>= 2.2.1), hexbin, knitr (>= 1.16), loo (>= 2.0.
         shinystan (>= 2.3.0), survival, testthat (>= 2.0.0), vdiffr (>= 1.0.2)
 Imports: dplyr (>= 0.8.0), ggplot2 (>= 3.4.0), ggridges (>= 0.5.5), glue, posterior, reshape2, rlang (>= 0.3.0), stats, tibble (>= 2.0.0), tidyselect, utils
 SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
+
+Package: DBI
+Version: 1.2.2
+Depends: methods, R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
+License: LGPL (>= 2.1)
+File: DBI_1.2.2_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/DBI/releases/download/1.2.2/DBI_1.2.2_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2024-02-16 17:15:14 UTC; unix
+Filesize: 942748
+SHA256: 26f1e8651c9cdd0d6091f33d44b887a2aad3a0216b19216e7182e6a9a90f869b
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: arrow, blob, covr, DBItest, dbplyr, downlit, dplyr, glue, hms, knitr, magrittr, nanoarrow (>= 0.3.0.1), RMariaDB, rmarkdown, rprojroot, RSQLite (>= 1.1-2), testthat (>= 3.0.0), vctrs, xml2
