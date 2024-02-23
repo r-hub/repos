@@ -913,21 +913,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: shape
-Version: 1.4.6
-Depends: R (>= 2.01), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 3)
-File: shape_1.4.6_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/shape/releases/download/1.4.6/shape_1.4.6_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-06-26 12:12:35 UTC; unix
-Filesize: 801394
-SHA256: afc6e69518957224a7df8d8d0af1f8eab3534fe5bd3c62a1ab06a9880248618e
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: stats, graphics, grDevices
-
 Package: SQUAREM
 Version: 2021.1
 Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
@@ -3152,27 +3137,6 @@ Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, rstudioap
 Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.39), tinytex (>= 0.12), yaml (>= 2.1.19)
 SystemRequirements: Pandoc (>= 1.17.2)
 
-Package: arrow
-Version: 14.0.0.2
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-License: Apache License (>= 2.0)
-File: arrow_14.0.0.2_b7_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/arrow/releases/download/14.0.0.2/arrow_14.0.0.2_b7_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-12-02 17:29:53 UTC; unix
-Filesize: 176574082
-SHA256: b60aedfc7fb8ce2f0e8afeb9cace1246f5aefc0423350e0d53a8b7b665675e05
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
-        tibble, tzdb, withr
-Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
-SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional)
-LinkingTo: cpp11 (>= 0.4.2)
-
 Package: jsonlite
 Version: 1.8.8
 Depends: methods, R (>= 4.4), R (< 4.4.99)
@@ -4773,3 +4737,39 @@ Suggests: ape (>= 5.7-0.1), callr, decor, digest, graph, igraphdata, knitr, rgl,
 Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang, stats, utils, vctrs
 SystemRequirements: libxml2, glpk (>= 4.57)
 LinkingTo: cpp11 (>= 0.4.7)
+
+Package: shape
+Version: 1.4.6.1
+Depends: R (>= 2.01), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 3)
+File: shape_1.4.6.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/shape/releases/download/1.4.6.1/shape_1.4.6.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2024-02-23 17:16:12 UTC; unix
+Filesize: 764295
+SHA256: 5b4ce58fa0a6f9114f94b034559f0c54d86a39a25f84fec1f352a3d7dc8906ce
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: stats, graphics, grDevices
+
+Package: arrow
+Version: 14.0.2.1
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+License: Apache License (>= 2.0)
+File: arrow_14.0.2.1_b8_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/arrow/releases/download/14.0.2.1/arrow_14.0.2.1_b8_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-23 17:30:40 UTC; unix
+Filesize: 176290259
+SHA256: 1d5e29151f1a4f105762e117f068647eb303dcec23e1fbdfbff469d4f728eb41
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
+        tibble, tzdb, withr
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
+LinkingTo: cpp11 (>= 0.4.2)
