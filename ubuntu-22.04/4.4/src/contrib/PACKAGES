@@ -3235,27 +3235,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Pandoc (>= 1.17.2)
 
-Package: arrow
-Version: 14.0.0.2
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
-        tibble, tzdb, withr
-License: Apache License (>= 2.0)
-DownloadURL: https://github.com/cran/arrow/releases/download/14.0.0.2/arrow_14.0.0.2_b7_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-12-02 16:34:40 UTC; unix
-Filesize: 42010682
-SHA256: 4c3501b69296f5661f7b483316fa3fe86810f7d3d191f9510c4644b29b17d4a2
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: arrow_14.0.0.2_b7_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional)
-LinkingTo: cpp11 (>= 0.4.2)
-
 Package: jsonlite
 Version: 1.8.8
 Depends: methods, R (>= 4.4), R (< 4.4.99)
@@ -4906,3 +4885,24 @@ File: shape_1.4.6.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Imports: stats, graphics, grDevices
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: arrow
+Version: 14.0.2.1
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
+        tibble, tzdb, withr
+License: Apache License (>= 2.0)
+DownloadURL: https://github.com/cran/arrow/releases/download/14.0.2.1/arrow_14.0.2.1_b8_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-24 16:32:02 UTC; unix
+Filesize: 42020918
+SHA256: 8cb8058c1489f1b548ac8cbd05380cb9bf62d4c8c2727808ec77c589b2a5b209
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: arrow_14.0.2.1_b8_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
+LinkingTo: cpp11 (>= 0.4.2)
