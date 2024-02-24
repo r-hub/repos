@@ -4286,27 +4286,6 @@ Imports: diffobj, glue, grDevices, htmltools, lifecycle, rlang, testthat (>= 3.0
 SystemRequirements: C++11, libpng
 LinkingTo: cpp11
 
-Package: arrow
-Version: 14.0.0.2
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-License: Apache License (>= 2.0)
-File: arrow_14.0.0.2_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/arrow/releases/download/14.0.0.2/arrow_14.0.0.2_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-11 12:20:24 UTC; unix
-Filesize: 20721817
-SHA256: c65827fdd2cb127486cfd5be5f17f2ff220725854eb6912e11c91cb36e013419
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
-        tibble, tzdb, withr
-Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
-SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional)
-LinkingTo: cpp11 (>= 0.4.2)
-
 Package: duckdb
 Version: 0.9.2-1
 Depends: DBI, R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
@@ -4788,3 +4767,24 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: stats, graphics, grDevices
+
+Package: arrow
+Version: 14.0.2.1
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+License: Apache License (>= 2.0)
+File: arrow_14.0.2.1_b5_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/arrow/releases/download/14.0.2.1/arrow_14.0.2.1_b5_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-24 17:12:42 UTC; unix
+Filesize: 15495566
+SHA256: d16fa611f59f516fad5dd9100b0c0942d008b277d0426f93b4a430d11f54d093
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
+        tibble, tzdb, withr
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
+LinkingTo: cpp11 (>= 0.4.2)
