@@ -1641,23 +1641,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: Rcpp (>= 0.11.0), tinytest
 Imports: methods
 
-Package: loo
-Version: 2.6.0
-Depends: R (>= 3.1.2), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 3)
-File: loo_2.6.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/loo/releases/download/2.6.0/loo_2.6.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.4.0; ; 2023-06-24 10:04:52 UTC; unix
-Filesize: 1926489
-SHA256: 76066825b167b424c74124a43174107738e96de672d8c8d1ba9f5a1f353cd9e4
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bayesplot (>= 1.7.0), brms (>= 2.10.0), ggplot2, graphics, knitr, posterior, rmarkdown, rstan, rstanarm (>= 2.19.0), rstantools, spdep, testthat (>= 2.1.0)
-Imports: checkmate, matrixStats (>= 0.52), parallel, stats
-SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
-
 Package: RcppParallel
 Version: 5.1.7
 Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
@@ -4788,3 +4771,20 @@ Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8),
 Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
 SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
+
+Package: loo
+Version: 2.7.0
+Depends: R (>= 3.1.2), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 3)
+File: loo_2.7.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/loo/releases/download/2.7.0/loo_2.7.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.4.0; ; 2024-02-25 17:00:30 UTC; unix
+Filesize: 1856937
+SHA256: 5968efd81d58431a1fa4b4db26b63280a14a6a01ef5cdd9dc0a5fbb992589a26
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bayesplot (>= 1.7.0), brms (>= 2.10.0), ggplot2, graphics, knitr, rmarkdown, rstan, rstanarm (>= 2.19.0), rstantools, spdep, testthat (>= 2.1.0)
+Imports: checkmate, matrixStats (>= 0.52), parallel, posterior (>= 1.5.0), stats
+SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
