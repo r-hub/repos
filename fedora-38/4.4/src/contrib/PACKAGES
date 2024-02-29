@@ -2637,25 +2637,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, knitr, rmarkdown, testthat (>= 3.0.0)
 
-Package: RcppEigen
-Version: 0.3.3.9.4
-Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2) | file LICENSE
-File: RcppEigen_0.3.3.9.4_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/RcppEigen/releases/download/0.3.3.9.4/RcppEigen_0.3.3.9.4_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-03 17:16:49 UTC; unix
-Filesize: 6961759
-SHA256: 70a94992269799a081e4726ff8fb3f7ab2cd8ef8c42506eb5d4a30a1aeafb00d
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: Matrix, inline, tinytest, pkgKitten, microbenchmark
-Imports: Rcpp (>= 0.11.0), stats, utils
-LinkingTo: Rcpp
-
 Package: htmltools
 Version: 0.5.7
 Depends: R (>= 2.14.1), R (>= 4.4), R (< 4.4.99)
@@ -4308,24 +4289,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: RColorBrewer, gstat, deldir, knitr, rmarkdown, sf, terra, raster
 Imports: utils, stats, graphics, grDevices, lattice, grid
 
-Package: data.table
-Version: 1.15.0
-Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
-License: MPL-2.0 | file LICENSE
-File: data.table_1.15.0_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/data.table/releases/download/1.15.0/data.table_1.15.0_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-01-30 17:17:02 UTC; unix
-Filesize: 2843303
-SHA256: a8a780416076fa6eaefa279bbb00b16db0825a9803e7f37a78e002deb40ae5b8
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
-Imports: methods
-
 Package: coda
 Version: 0.19-4.1
 Depends: R (>= 2.14.0), R (>= 4.4), R (< 4.4.99)
@@ -4498,23 +4461,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: chromote, covr, knitr, R6, readr, repurrrsive, rmarkdown, spelling, stringi (>= 0.3.1), testthat (>= 3.0.2), webfakes
 Imports: cli, glue, httr (>= 0.5), lifecycle (>= 1.0.3), magrittr, rlang (>= 1.1.0), selectr, tibble, xml2 (>= 1.3)
-
-Package: parallelly
-Version: 1.37.0
-Depends: R (>= 4.4), R (< 4.4.99)
-License: LGPL (>= 2.1)
-File: parallelly_1.37.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/parallelly/releases/download/1.37.0/parallelly_1.37.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-15 17:16:51 UTC; unix
-Filesize: 398130
-SHA256: ba62cbcdd7415260f87353111ecdb200e7844c504f8654b11dcc5f4d26a7375d
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: parallel, tools, utils
 
 Package: bayesplot
 Version: 1.11.1
@@ -4773,3 +4719,57 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: bayesplot (>= 1.7.0), brms (>= 2.10.0), ggplot2, graphics, knitr, rmarkdown, rstan, rstanarm (>= 2.19.0), rstantools, spdep, testthat (>= 2.1.0)
 Imports: checkmate, matrixStats (>= 0.52), parallel, posterior (>= 1.5.0), stats
 SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
+
+Package: RcppEigen
+Version: 0.3.4.0.0
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2) | file LICENSE
+File: RcppEigen_0.3.4.0.0_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/RcppEigen/releases/download/0.3.4.0.0/RcppEigen_0.3.4.0.0_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-29 17:15:38 UTC; unix
+Filesize: 7542468
+SHA256: 19c523cbe90a9653e4e0941a370ac6d05d13585703adfe0705bb42a44d4e5e51
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: Matrix, inline, tinytest, pkgKitten, microbenchmark
+Imports: Rcpp (>= 0.11.0), stats, utils
+LinkingTo: Rcpp
+
+Package: data.table
+Version: 1.15.2
+Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
+License: MPL-2.0 | file LICENSE
+File: data.table_1.15.2_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/data.table/releases/download/1.15.2/data.table_1.15.2_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-29 17:15:37 UTC; unix
+Filesize: 2844129
+SHA256: 290dee19b84c22e4f88f0a25e651bc92105c1c9ce61036d5bdd5274a856d7d79
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
+Imports: methods
+
+Package: parallelly
+Version: 1.37.1
+Depends: R (>= 4.4), R (< 4.4.99)
+License: LGPL (>= 2.1)
+File: parallelly_1.37.1_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/parallelly/releases/download/1.37.1/parallelly_1.37.1_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-29 17:15:35 UTC; unix
+Filesize: 398210
+SHA256: a36b262ba80d276be1d9db0d64585436a02e67bc72d9dd971778bdbd828cd3c1
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: parallel, tools, utils
