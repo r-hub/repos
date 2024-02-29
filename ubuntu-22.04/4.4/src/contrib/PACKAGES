@@ -2718,25 +2718,6 @@ File: warp_0.2.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: RcppEigen
-Version: 0.3.3.9.4
-Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-Suggests: Matrix, inline, tinytest, pkgKitten, microbenchmark
-License: GPL (>= 2) | file LICENSE
-DownloadURL: https://github.com/cran/RcppEigen/releases/download/0.3.3.9.4/RcppEigen_0.3.3.9.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-03 16:36:34 UTC; unix
-Filesize: 6974824
-SHA256: 7152f6bc2b9a57acb1e8445d9c72ac1f10b1784e9d7b2afc8dcab903a3b36ed3
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: RcppEigen_0.3.3.9.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Imports: Rcpp (>= 0.11.0), stats, utils
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: htmltools
 Version: 0.5.7
 Depends: R (>= 2.14.1), R (>= 4.4), R (< 4.4.99)
@@ -4489,24 +4470,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, zlib
 LinkingTo: later, Rcpp
 
-Package: data.table
-Version: 1.15.0
-Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
-Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
-License: MPL-2.0 | file LICENSE
-DownloadURL: https://github.com/cran/data.table/releases/download/1.15.0/data.table_1.15.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-11 09:35:39 UTC; unix
-Filesize: 2752790
-SHA256: 521afb0c3faae711656d44d42f940980cafc78d55e062b31149ac1f4c3721e81
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: data.table_1.15.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Imports: methods
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: RSQLite
 Version: 2.3.5
 Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
@@ -4630,23 +4593,6 @@ RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: rvest_1.0.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Imports: cli, glue, httr (>= 0.5), lifecycle (>= 1.0.3), magrittr, rlang (>= 1.1.0), selectr, tibble, xml2 (>= 1.3)
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: parallelly
-Version: 1.37.0
-Depends: R (>= 4.4), R (< 4.4.99)
-License: LGPL (>= 2.1)
-DownloadURL: https://github.com/cran/parallelly/releases/download/1.37.0/parallelly_1.37.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-15 16:34:12 UTC; unix
-Filesize: 368236
-SHA256: f2c64a5f1387773ae7c1e35253f0849ca5e6a14eacba8e7870d4b5e6dee99982
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: parallelly_1.37.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Imports: parallel, tools, utils
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
@@ -4907,3 +4853,57 @@ Imports: checkmate, matrixStats (>= 0.52), parallel, posterior (>= 1.5.0), stats
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
+
+Package: RcppEigen
+Version: 0.3.4.0.0
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+Suggests: Matrix, inline, tinytest, pkgKitten, microbenchmark
+License: GPL (>= 2) | file LICENSE
+DownloadURL: https://github.com/cran/RcppEigen/releases/download/0.3.4.0.0/RcppEigen_0.3.4.0.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-29 16:33:07 UTC; unix
+Filesize: 7564006
+SHA256: 4e95cf38956245b3bbe5577507eea5ecbd02c9a2a186e15967521e18016a1fe4
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: RcppEigen_0.3.4.0.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: Rcpp (>= 0.11.0), stats, utils
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: data.table
+Version: 1.15.2
+Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
+Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
+License: MPL-2.0 | file LICENSE
+DownloadURL: https://github.com/cran/data.table/releases/download/1.15.2/data.table_1.15.2_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-29 16:33:06 UTC; unix
+Filesize: 2753118
+SHA256: 5814139a252d8e49c116ba8c240775d46aa775691ab6a982bf189e4010e8cfa2
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: data.table_1.15.2_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: methods
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: parallelly
+Version: 1.37.1
+Depends: R (>= 4.4), R (< 4.4.99)
+License: LGPL (>= 2.1)
+DownloadURL: https://github.com/cran/parallelly/releases/download/1.37.1/parallelly_1.37.1_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-29 16:33:04 UTC; unix
+Filesize: 368075
+SHA256: 967313ed4e1baec7db6d43de049238ddeaf7fec4f38348d65db8e2c0077ac2ac
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: parallelly_1.37.1_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: parallel, tools, utils
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
