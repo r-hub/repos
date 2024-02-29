@@ -2296,24 +2296,6 @@ Suggests: callr, covr, crayon, digest, glue (>= 1.6.0), grDevices, htmltools, ht
         rstudioapi, testthat, tibble, whoami, withr
 Imports: utils
 
-Package: data.table
-Version: 1.15.0
-Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
-License: MPL-2.0 | file LICENSE
-File: data.table_1.15.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/data.table/releases/download/1.15.0/data.table_1.15.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-11 11:41:39 UTC; unix
-Filesize: 2235269
-SHA256: 616b13aec559111f9d4de48fa3aff610cd768d21b28b202eb89aff32abccc8ac
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
-Imports: methods
-
 Package: evaluate
 Version: 0.23
 Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
@@ -3404,25 +3386,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: datasets, digest (>= 0.6.10)
 Imports: methods, utils, tools, R.methodsS3
 
-Package: RcppEigen
-Version: 0.3.3.9.4
-Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2) | file LICENSE
-File: RcppEigen_0.3.3.9.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/RcppEigen/releases/download/0.3.3.9.4/RcppEigen_0.3.3.9.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-11 11:45:27 UTC; unix
-Filesize: 1584101
-SHA256: c529346315caf7e3851a2679e7ee2ced90b6c5207cb00d719caaf0d2b457069e
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: Matrix, inline, tinytest, pkgKitten, microbenchmark
-Imports: Rcpp (>= 0.11.0), stats, utils
-LinkingTo: Rcpp
-
 Package: hunspell
 Version: 3.0.3
 Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
@@ -4492,23 +4455,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: graphics, Matrix, methods, splines, stats, utils
 
-Package: parallelly
-Version: 1.37.0
-Depends: R (>= 4.4), R (< 4.4.99)
-License: LGPL (>= 2.1)
-File: parallelly_1.37.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/parallelly/releases/download/1.37.0/parallelly_1.37.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-15 17:00:40 UTC; unix
-Filesize: 362331
-SHA256: a9b8f108690cf5d5e6b84e6619fb5e6dbe35c7963f09dfe71a63138481e4d55b
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: parallel, tools, utils
-
 Package: rstanarm
 Version: 2.32.1
 Depends: R (>= 3.4.0), Rcpp (>= 0.12.0), methods, R (>= 4.4), R (< 4.4.99)
@@ -4788,3 +4734,57 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: bayesplot (>= 1.7.0), brms (>= 2.10.0), ggplot2, graphics, knitr, rmarkdown, rstan, rstanarm (>= 2.19.0), rstantools, spdep, testthat (>= 2.1.0)
 Imports: checkmate, matrixStats (>= 0.52), parallel, posterior (>= 1.5.0), stats
 SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
+
+Package: data.table
+Version: 1.15.2
+Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
+License: MPL-2.0 | file LICENSE
+File: data.table_1.15.2_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/data.table/releases/download/1.15.2/data.table_1.15.2_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-29 17:00:28 UTC; unix
+Filesize: 2235987
+SHA256: 36b3066a57814ed537027db293164fb5fc39db50c231f52b600c16fa5d55ff5c
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
+Imports: methods
+
+Package: RcppEigen
+Version: 0.3.4.0.0
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2) | file LICENSE
+File: RcppEigen_0.3.4.0.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/RcppEigen/releases/download/0.3.4.0.0/RcppEigen_0.3.4.0.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-29 17:00:29 UTC; unix
+Filesize: 1903529
+SHA256: 1cb1afd9754072457ebf074f5aa35ae2f4e0c6629e33e3949af7803b5513f9df
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: Matrix, inline, tinytest, pkgKitten, microbenchmark
+Imports: Rcpp (>= 0.11.0), stats, utils
+LinkingTo: Rcpp
+
+Package: parallelly
+Version: 1.37.1
+Depends: R (>= 4.4), R (< 4.4.99)
+License: LGPL (>= 2.1)
+File: parallelly_1.37.1_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/parallelly/releases/download/1.37.1/parallelly_1.37.1_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-29 17:00:27 UTC; unix
+Filesize: 362205
+SHA256: 3217aba6c1108f4351e5f70cf468b476fc79d703382800ee5c286bf1d6c6ea5f
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: parallel, tools, utils
