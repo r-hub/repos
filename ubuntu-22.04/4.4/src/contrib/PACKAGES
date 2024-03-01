@@ -3833,26 +3833,6 @@ File: BH_1.84.0-0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: StanHeaders
-Version: 2.32.5
-Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
-Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix, methods, rstan, withr
-License: BSD_3_clause + file LICENSE
-DownloadURL: https://github.com/cran/StanHeaders/releases/download/2.32.5/StanHeaders_2.32.5_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-01-10 16:37:36 UTC; unix
-Filesize: 3143515
-SHA256: 6bdf0f3236608dca40c658493512aab812d648871e4c4739aa05aa2a6c3bbf05
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: StanHeaders_2.32.5_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Imports: RcppParallel (>= 5.1.4)
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make, pandoc
-LinkingTo: RcppEigen (>= 0.3.3.9.3), RcppParallel (>= 5.1.4)
-
 Package: rlang
 Version: 1.1.3
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -4907,3 +4887,23 @@ File: parallelly_1.37.1_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Imports: parallel, tools, utils
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: StanHeaders
+Version: 2.32.6
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix, methods, rstan, withr
+License: BSD_3_clause + file LICENSE
+DownloadURL: https://github.com/cran/StanHeaders/releases/download/2.32.6/StanHeaders_2.32.6_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-03-01 16:33:26 UTC; unix
+Filesize: 3143393
+SHA256: 713bf5a98e7740db7e1564af1c6dd77fe0a4ad1fb968bd8cda960747c9e99c4e
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: StanHeaders_2.32.6_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: RcppParallel (>= 5.1.4)
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, pandoc
+LinkingTo: RcppEigen (>= 0.3.4.0.0), RcppParallel (>= 5.1.4)
