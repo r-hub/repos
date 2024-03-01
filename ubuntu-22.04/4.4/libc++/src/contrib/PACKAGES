@@ -4306,26 +4306,6 @@ Imports: methods, Rcpp (>= 1.0-10)
 SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
 LinkingTo: Rcpp
 
-Package: StanHeaders
-Version: 2.32.5
-Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
-License: BSD_3_clause + file LICENSE
-File: StanHeaders_2.32.5_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/StanHeaders/releases/download/2.32.5/StanHeaders_2.32.5_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-11 11:49:29 UTC; unix
-Filesize: 1904267
-SHA256: b899ac9ebdc84a58c3aa26627f5ae9d64a073df1a1a127f2a2c7ee6887de045e
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix, methods, rstan, withr
-Imports: RcppParallel (>= 5.1.4)
-SystemRequirements: GNU make, pandoc
-LinkingTo: RcppEigen (>= 0.3.3.9.3), RcppParallel (>= 5.1.4)
-
 Package: RSQLite
 Version: 2.3.5
 Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
@@ -4788,3 +4768,23 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: parallel, tools, utils
+
+Package: StanHeaders
+Version: 2.32.6
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+License: BSD_3_clause + file LICENSE
+File: StanHeaders_2.32.6_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/StanHeaders/releases/download/2.32.6/StanHeaders_2.32.6_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-03-01 17:00:26 UTC; unix
+Filesize: 1904192
+SHA256: 4a79589635791b8cbe05028143842c26c4433a0a0ade0f972c1fbf83f0317390
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix, methods, rstan, withr
+Imports: RcppParallel (>= 5.1.4)
+SystemRequirements: GNU make, pandoc
+LinkingTo: RcppEigen (>= 0.3.4.0.0), RcppParallel (>= 5.1.4)
