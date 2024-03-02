@@ -3316,24 +3316,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: rgl, randtoolbox, lattice
 
-Package: curl
-Version: 5.2.0
-Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: curl_5.2.0_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/curl/releases/download/5.2.0/curl_5.2.0_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-12-08 17:16:05 UTC; unix
-Filesize: 850996
-SHA256: 97e6f47643b5471eeb24c53f2910c802388bdabe98f89644c8ab41651aedac8b
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, magrittr, httpuv (>= 1.4.4), webutils
-SystemRequirements: libcurl: libcurl-devel (rpm) or libcurl4-openssl-dev (deb).
-
 Package: fansi
 Version: 1.0.6
 Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
@@ -4773,3 +4755,21 @@ Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix, methods, r
 Imports: RcppParallel (>= 5.1.4)
 SystemRequirements: GNU make, pandoc
 LinkingTo: RcppEigen (>= 0.3.4.0.0), RcppParallel (>= 5.1.4)
+
+Package: curl
+Version: 5.2.1
+Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: curl_5.2.1_b5_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/curl/releases/download/5.2.1/curl_5.2.1_b5_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-03-02 17:14:03 UTC; unix
+Filesize: 852024
+SHA256: 557ad6a191fccf7df2113175c78c6041002d792a0985a421999fbc1208855836
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+SystemRequirements: libcurl: libcurl-devel (rpm) or libcurl4-openssl-dev (deb).
