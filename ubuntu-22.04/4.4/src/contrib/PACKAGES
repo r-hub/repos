@@ -3415,24 +3415,6 @@ File: DiceDesign_1.10_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: curl
-Version: 5.2.0
-Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, magrittr, httpuv (>= 1.4.4), webutils
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/curl/releases/download/5.2.0/curl_5.2.0_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-12-08 16:38:05 UTC; unix
-Filesize: 848852
-SHA256: bcc5bf4d9acc700ca9a48572dd9429a5f8d24804bb56c639e9364e75fcd4aa80
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: curl_5.2.0_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libcurl: libcurl-devel (rpm) or libcurl4-openssl-dev (deb).
-
 Package: fansi
 Version: 1.0.6
 Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
@@ -4907,3 +4889,21 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, pandoc
 LinkingTo: RcppEigen (>= 0.3.4.0.0), RcppParallel (>= 5.1.4)
+
+Package: curl
+Version: 5.2.1
+Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/curl/releases/download/5.2.1/curl_5.2.1_b5_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-03-02 16:32:20 UTC; unix
+Filesize: 849591
+SHA256: c4781b799c06e9d2187b682b9024e34f76dc33661c270132636615eb7fb222b9
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: curl_5.2.1_b5_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libcurl: libcurl-devel (rpm) or libcurl4-openssl-dev (deb).
