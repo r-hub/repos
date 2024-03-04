@@ -3182,24 +3182,6 @@ Imports: cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.0)
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: bookdown
-Version: 0.37
-Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, rstudioapi, miniUI, rsconnect (>= 0.4.3), servr (>= 0.13), shiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat (>=
-        3.1.0), withr (>= 2.3.0)
-License: GPL-3
-DownloadURL: https://github.com/cran/bookdown/releases/download/0.37/bookdown_0.37_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-12-02 16:34:31 UTC; unix
-Filesize: 1093482
-SHA256: 246125b995fb1738e6e07cf9bff24b7fe5b07c505adda9023e1dafe66e445d70
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: bookdown_0.37_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.39), tinytex (>= 0.12), yaml (>= 2.1.19)
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: Pandoc (>= 1.17.2)
-
 Package: jsonlite
 Version: 1.8.8
 Depends: methods, R (>= 4.4), R (< 4.4.99)
@@ -4907,3 +4889,21 @@ Imports: Rcpp (>= 0.11.0), stats, utils, methods
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
+
+Package: bookdown
+Version: 0.38
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, rstudioapi, miniUI, rsconnect (>= 0.4.3), servr (>= 0.13), shiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat (>=
+        3.1.0), withr (>= 2.3.0)
+License: GPL-3
+DownloadURL: https://github.com/cran/bookdown/releases/download/0.38/bookdown_0.38_b5_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2024-03-04 16:36:14 UTC; unix
+Filesize: 1093841
+SHA256: f01ff117600b2b3da287e8390450c696958259ad2aa1399433903442943ab170
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: bookdown_0.38_b5_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.39), tinytex (>= 0.12), yaml (>= 2.1.19)
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: Pandoc (>= 1.17.2)
