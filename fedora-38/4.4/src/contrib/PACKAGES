@@ -2225,24 +2225,6 @@ Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plot
         latticeExtra, gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer
 Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
 
-Package: rmarkdown
-Version: 2.25
-Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
-License: GPL-3
-File: rmarkdown_2.25_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/rmarkdown/releases/download/2.25/rmarkdown_2.25_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-09-18 17:16:20 UTC; unix
-Filesize: 2678320
-SHA256: f1a826d64ced91c89010c365e9008254500c3eb42b489005a29f983696ec9357
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>= 3.0.3), tibble, vctrs, cleanrmd, withr (>= 2.4.2)
-Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.22), methods, stringr (>= 1.2.0), tinytex (>= 0.31), tools, utils, xfun
-        (>= 0.36), yaml (>= 2.1.19)
-SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
-
 Package: vdiffr
 Version: 1.0.7
 Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
@@ -4773,3 +4755,21 @@ Suggests: testthat (>= 3.0.4), parallel, KernSmooth, shinystan, bayesplot, rmark
 Imports: methods, stats4, inline (>= 0.3.19), gridExtra (>= 2.3), Rcpp (>= 1.0.7), RcppParallel (>= 5.1.4), loo (>= 2.4.1), pkgbuild (>= 1.2.0), QuickJSR, ggplot2 (>= 3.3.5)
 SystemRequirements: GNU make, pandoc
 LinkingTo: Rcpp (>= 1.0.7), RcppEigen (>= 0.3.4.0.0), BH (>= 1.75.0-0), StanHeaders (>= 2.32.0), RcppParallel (>= 5.1.4)
+
+Package: rmarkdown
+Version: 2.26
+Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
+License: GPL-3
+File: rmarkdown_2.26_b5_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/rmarkdown/releases/download/2.26/rmarkdown_2.26_b5_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2024-03-06 17:17:03 UTC; unix
+Filesize: 2680390
+SHA256: 8ca2bec0c47078d4c64fdda1c9a4368fb8c4c3b91b439c4bd6bcf3dd74372a17
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>= 3.0.3), tibble, vctrs, cleanrmd, withr (>= 2.4.2)
+Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.43), methods, tinytex (>= 0.31), tools, utils, xfun (>= 0.36), yaml (>=
+        2.1.19)
+SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
