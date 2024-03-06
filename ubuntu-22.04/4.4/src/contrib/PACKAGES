@@ -2306,24 +2306,6 @@ Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtr
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: rmarkdown
-Version: 2.25
-Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
-Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>= 3.0.3), tibble, vctrs, cleanrmd, withr (>= 2.4.2)
-License: GPL-3
-DownloadURL: https://github.com/cran/rmarkdown/releases/download/2.25/rmarkdown_2.25_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-09-18 16:37:19 UTC; unix
-Filesize: 2624456
-SHA256: 7b479e35554109e0f7d4f3d2dd54268cce803b8f61a97c6ef690449b5cd3ac83
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: rmarkdown_2.25_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.22), methods, stringr (>= 1.2.0), tinytex (>= 0.31), tools, utils, xfun
-        (>= 0.36), yaml (>= 2.1.19)
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
-
 Package: vdiffr
 Version: 1.0.7
 Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
@@ -3834,26 +3816,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: rstan
-Version: 2.32.5
-Depends: R (>= 3.4.0), StanHeaders (>= 2.32.0), R (>= 4.4), R (< 4.4.99)
-Suggests: testthat (>= 3.0.4), parallel, KernSmooth, shinystan, bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr, coda, V8
-License: GPL (>= 3)
-DownloadURL: https://github.com/cran/rstan/releases/download/2.32.5/rstan_2.32.5_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-01-11 16:38:39 UTC; unix
-Filesize: 15341024
-SHA256: f4a1bf008c9a83c951854e4e926e4c7076d1511a91b4f77728524cb5d4cc4c66
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: rstan_2.32.5_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Imports: methods, stats4, inline (>= 0.3.19), gridExtra (>= 2.3), Rcpp (>= 1.0.7), RcppParallel (>= 5.1.4), loo (>= 2.4.1), pkgbuild (>= 1.2.0), QuickJSR, ggplot2 (>= 3.3.5)
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make, pandoc
-LinkingTo: Rcpp (>= 1.0.7), RcppEigen (>= 0.3.3.9.3), BH (>= 1.75.0-0), StanHeaders (>= 2.26.28), RcppParallel (>= 5.1.4)
-
 Package: Matrix
 Version: 1.6-5
 Depends: R (>= 3.5.0), methods, R (>= 4.4), R (< 4.4.99)
@@ -4907,3 +4869,41 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
         (optional), libpng (>=1.2.9, optional), FreeType (optional)
 Enhances: waldo
+
+Package: rmarkdown
+Version: 2.26
+Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
+Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>= 3.0.3), tibble, vctrs, cleanrmd, withr (>= 2.4.2)
+License: GPL-3
+DownloadURL: https://github.com/cran/rmarkdown/releases/download/2.26/rmarkdown_2.26_b5_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2024-03-06 16:35:57 UTC; unix
+Filesize: 2641916
+SHA256: 21ad83fb6a7fb01e2205ff8a3f5a0ed62543c3ff52a068fba8bb01b1d6fa10a7
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: rmarkdown_2.26_b5_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.43), methods, tinytex (>= 0.31), tools, utils, xfun (>= 0.36), yaml (>=
+        2.1.19)
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
+
+Package: rstan
+Version: 2.32.6
+Depends: R (>= 3.4.0), StanHeaders (>= 2.32.0), R (>= 4.4), R (< 4.4.99)
+Suggests: testthat (>= 3.0.4), parallel, KernSmooth, shinystan, bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr, coda, V8
+License: GPL (>= 3)
+DownloadURL: https://github.com/cran/rstan/releases/download/2.32.6/rstan_2.32.6_b5_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-03-06 16:36:02 UTC; unix
+Filesize: 17786190
+SHA256: 44a22ad73841ac12abb930191f7194cec15ceb93c077f0cd5c9ca455ddb0e1c7
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: rstan_2.32.6_b5_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: methods, stats4, inline (>= 0.3.19), gridExtra (>= 2.3), Rcpp (>= 1.0.7), RcppParallel (>= 5.1.4), loo (>= 2.4.1), pkgbuild (>= 1.2.0), QuickJSR, ggplot2 (>= 3.3.5)
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, pandoc
+LinkingTo: Rcpp (>= 1.0.7), RcppEigen (>= 0.3.4.0.0), BH (>= 1.75.0-0), StanHeaders (>= 2.32.0), RcppParallel (>= 5.1.4)
