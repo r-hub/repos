@@ -2337,25 +2337,6 @@ Suggests: spelling, testthat, pdftools, janeaustenr, wordcloud2, knitr, stopword
 Imports: Rcpp, digest
 LinkingTo: Rcpp (>= 0.12.12)
 
-Package: systemfonts
-Version: 1.0.5
-Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: systemfonts_1.0.5_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/systemfonts/releases/download/1.0.5/systemfonts_1.0.5_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-09 17:15:58 UTC; unix
-Filesize: 2055186
-SHA256: 3ea1e600eb3a80eab3715a59c0e3a2f3c95e6d4732f8fae4075023b36f93da51
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, knitr, rmarkdown, testthat (>= 2.1.0), tools
-SystemRequirements: fontconfig, freetype2
-LinkingTo: cpp11 (>= 0.2.1)
-
 Package: textshaping
 Version: 0.3.7
 Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
@@ -4773,3 +4754,22 @@ Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0),
 Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.43), methods, tinytex (>= 0.31), tools, utils, xfun (>= 0.36), yaml (>=
         2.1.19)
 SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
+
+Package: systemfonts
+Version: 1.0.6
+Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: systemfonts_1.0.6_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/systemfonts/releases/download/1.0.6/systemfonts_1.0.6_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-03-07 17:18:29 UTC; unix
+Filesize: 2052968
+SHA256: 2afe0a6f889d481d5f6253c888ff5cc5bac51ed5adbb273d3074140b6456e6a7
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, knitr, rmarkdown, testthat (>= 2.1.0), tools
+SystemRequirements: fontconfig, freetype2
+LinkingTo: cpp11 (>= 0.2.1)
