@@ -649,22 +649,6 @@ Suggests: bench, bit64, blob, brio, callr, cli, covr, crayon (>= 1.3.4), Diagram
         pkgload, purrr, rmarkdown, stringi, testthat (>= 3.0.2), tidyr, withr
 Imports: fansi (>= 0.4.0), lifecycle (>= 1.0.0), magrittr, methods, pillar (>= 1.8.1), pkgconfig, rlang (>= 1.0.2), utils, vctrs (>= 0.4.2)
 
-Package: tidyselect
-Version: 1.2.0
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: tidyselect_1.2.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/tidyselect/releases/download/1.2.0/tidyselect_1.2.0_b1_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-06-26 11:57:24 UTC; unix
-Filesize: 235787
-SHA256: aa7b9476629ca39328ee9e666c9668a0fb9900513c1286255e77bd201f52fee2
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, crayon, dplyr, knitr, magrittr, rmarkdown, stringr, testthat (>= 3.1.1), tibble (>= 2.1.3)
-Imports: cli (>= 3.3.0), glue (>= 1.3.0), lifecycle (>= 1.0.3), rlang (>= 1.0.4), vctrs (>= 0.4.1), withr
-
 Package: tidyverse
 Version: 2.0.0
 Depends: R (>= 3.3), R (>= 4.4), R (< 4.4.99)
@@ -3629,24 +3613,6 @@ Suggests: covr, fortunes, miniUI, rprojroot, sessioninfo, shiny, spelling, style
 Imports: callr (>= 3.6.0), cli (>= 3.2.0), clipr (>= 0.4.0), fs, glue, knitr (>= 1.23), lifecycle, rlang (>= 1.0.0), rmarkdown, rstudioapi, utils, withr (>= 2.3.0)
 SystemRequirements: pandoc (>= 2.0) - http://pandoc.org
 
-Package: digest
-Version: 0.6.34
-Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2)
-File: digest_0.6.34_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/digest/releases/download/0.6.34/digest_0.6.34_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-01-11 17:16:46 UTC; unix
-Filesize: 392601
-SHA256: ef6cdb067cf75f239cdc4b94f3b4d5983beb48815729f5ba028f843180b2d61f
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: tinytest, simplermarkdown
-Imports: utils
-
 Package: ggrepel
 Version: 0.9.5
 Depends: R (>= 3.0.0), ggplot2 (>= 2.2.0), R (>= 4.4), R (< 4.4.99)
@@ -4773,3 +4739,37 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: codetools
+
+Package: tidyselect
+Version: 1.2.1
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: tidyselect_1.2.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/tidyselect/releases/download/1.2.1/tidyselect_1.2.1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2024-03-11 17:16:25 UTC; unix
+Filesize: 236807
+SHA256: a0b7b48782d4c079427da1180be1df86b0be927279d49457f1ab287ee17fa912
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, crayon, dplyr, knitr, magrittr, rmarkdown, stringr, testthat (>= 3.1.1), tibble (>= 2.1.3)
+Imports: cli (>= 3.3.0), glue (>= 1.3.0), lifecycle (>= 1.0.3), rlang (>= 1.0.4), vctrs (>= 0.5.2), withr
+
+Package: digest
+Version: 0.6.35
+Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: digest_0.6.35_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/digest/releases/download/0.6.35/digest_0.6.35_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-03-11 17:16:23 UTC; unix
+Filesize: 488809
+SHA256: 4fef825bbf794c555b81826c598a6bad4ee401f202a3c6d8bb0076b5192aded6
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: tinytest, simplermarkdown
+Imports: utils
