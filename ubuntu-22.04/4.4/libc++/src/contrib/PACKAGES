@@ -649,22 +649,6 @@ Suggests: bench, bit64, blob, brio, callr, cli, covr, crayon (>= 1.3.4), Diagram
         pkgload, purrr, rmarkdown, stringi, testthat (>= 3.0.2), tidyr, withr
 Imports: fansi (>= 0.4.0), lifecycle (>= 1.0.0), magrittr, methods, pillar (>= 1.8.1), pkgconfig, rlang (>= 1.0.2), utils, vctrs (>= 0.4.2)
 
-Package: tidyselect
-Version: 1.2.0
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: tidyselect_1.2.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/tidyselect/releases/download/1.2.0/tidyselect_1.2.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.4.0; ; 2023-06-22 11:06:27 UTC; unix
-Filesize: 219919
-SHA256: e66bd6f72b867794cc0ad5b47f554b454a00497c45ec5106054113fd3ef4c27f
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, crayon, dplyr, knitr, magrittr, rmarkdown, stringr, testthat (>= 3.1.1), tibble (>= 2.1.3)
-Imports: cli (>= 3.3.0), glue (>= 1.3.0), lifecycle (>= 1.0.3), rlang (>= 1.0.4), vctrs (>= 0.4.1), withr
-
 Package: tidyverse
 Version: 2.0.0
 Depends: R (>= 3.3), R (>= 4.4), R (< 4.4.99)
@@ -3638,24 +3622,6 @@ Suggests: ncdf4, igraph, tcltk, parallel, rasterVis, MASS, sf, tinytest, gstat, 
 Imports: Rcpp, methods, terra (>= 1.7-29)
 LinkingTo: Rcpp
 
-Package: digest
-Version: 0.6.34
-Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2)
-File: digest_0.6.34_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/digest/releases/download/0.6.34/digest_0.6.34_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-11 11:43:13 UTC; unix
-Filesize: 211006
-SHA256: 00e39a0a8dae016de715c54f21a7c643c4b55cdc0a6c3ff6348055cefd4a67af
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: tinytest, simplermarkdown
-Imports: utils
-
 Package: pkgload
 Version: 1.3.4
 Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
@@ -4788,3 +4754,37 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: codetools
+
+Package: tidyselect
+Version: 1.2.1
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: tidyselect_1.2.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/tidyselect/releases/download/1.2.1/tidyselect_1.2.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.4.0; ; 2024-03-11 17:00:07 UTC; unix
+Filesize: 224325
+SHA256: c2ea255402e67fbc829192b6861adac4d3e537cbb4f3f2efd8b758ca81e33624
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, crayon, dplyr, knitr, magrittr, rmarkdown, stringr, testthat (>= 3.1.1), tibble (>= 2.1.3)
+Imports: cli (>= 3.3.0), glue (>= 1.3.0), lifecycle (>= 1.0.3), rlang (>= 1.0.4), vctrs (>= 0.5.2), withr
+
+Package: digest
+Version: 0.6.35
+Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: digest_0.6.35_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/digest/releases/download/0.6.35/digest_0.6.35_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-03-11 17:00:06 UTC; unix
+Filesize: 226160
+SHA256: 6cb3a19cda3481d1b55830b5b0fd5c4b4f6dae9d4d5a8f1d7ba0e8637a8f3ea4
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: tinytest, simplermarkdown
+Imports: utils
