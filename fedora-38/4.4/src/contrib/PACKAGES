@@ -2175,25 +2175,6 @@ Imports: Rcpp (>= 0.9.10)
 SystemRequirements: GNU make
 LinkingTo: Rcpp
 
-Package: Hmisc
-Version: 5.1-1
-Depends: R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2)
-File: Hmisc_5.1-1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/Hmisc/releases/download/5.1-1/Hmisc_5.1-1_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-09-12 17:16:41 UTC; unix
-Filesize: 3947392
-SHA256: 857b88f19f8679278f4f45240e69b6749d19d42ceb83a70fea4616b6292c9e0d
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice,
-        latticeExtra, gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer
-Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
-
 Package: vdiffr
 Version: 1.0.7
 Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
@@ -4446,27 +4427,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: stats, graphics, grDevices
 
-Package: arrow
-Version: 14.0.2.1
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-License: Apache License (>= 2.0)
-File: arrow_14.0.2.1_b8_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/arrow/releases/download/14.0.2.1/arrow_14.0.2.1_b8_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-23 17:30:40 UTC; unix
-Filesize: 176290259
-SHA256: 1d5e29151f1a4f105762e117f068647eb303dcec23e1fbdfbff469d4f728eb41
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
-        tibble, tzdb, withr
-Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
-SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
-LinkingTo: cpp11 (>= 0.4.2)
-
 Package: loo
 Version: 2.7.0
 Depends: R (>= 3.1.2), R (>= 4.4), R (< 4.4.99)
@@ -4773,3 +4733,43 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: tinytest, simplermarkdown
 Imports: utils
+
+Package: Hmisc
+Version: 5.1-2
+Depends: R (>= 4.1.0), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: Hmisc_5.1-2_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/Hmisc/releases/download/5.1-2/Hmisc_5.1-2_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-03-12 17:16:38 UTC; unix
+Filesize: 3948668
+SHA256: 8ba800be40fbadc6f2dec36494f535ad7924ee188962759daadfe9ef9c19b848
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice,
+        latticeExtra, gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer, htm2txt
+Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
+
+Package: arrow
+Version: 15.0.1
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+License: Apache License (>= 2.0)
+File: arrow_15.0.1_b9_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/arrow/releases/download/15.0.1/arrow_15.0.1_b9_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-03-12 17:31:16 UTC; unix
+Filesize: 179485606
+SHA256: 20acd896049fdfffe7d0c95787f49d8ddec56653c2b53d51eb90bd7258b54769
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
+        tibble, tzdb, withr
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
+LinkingTo: cpp11 (>= 0.4.2)
