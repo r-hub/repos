@@ -2256,25 +2256,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make
 LinkingTo: Rcpp
 
-Package: Hmisc
-Version: 5.1-1
-Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice,
-        latticeExtra, gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer
-License: GPL (>= 2)
-DownloadURL: https://github.com/cran/Hmisc/releases/download/5.1-1/Hmisc_5.1-1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-09-12 16:37:05 UTC; unix
-Filesize: 3557560
-SHA256: 434281c9995b45996269cbfadd9acc493d10e926112a343e080132d540bc65f2
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: Hmisc_5.1-1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: vdiffr
 Version: 1.0.7
 Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
@@ -4580,27 +4561,6 @@ Imports: stats, graphics, grDevices
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: arrow
-Version: 14.0.2.1
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
-        tibble, tzdb, withr
-License: Apache License (>= 2.0)
-DownloadURL: https://github.com/cran/arrow/releases/download/14.0.2.1/arrow_14.0.2.1_b8_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-24 16:32:02 UTC; unix
-Filesize: 42020918
-SHA256: 8cb8058c1489f1b548ac8cbd05380cb9bf62d4c8c2727808ec77c589b2a5b209
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: arrow_14.0.2.1_b8_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
-LinkingTo: cpp11 (>= 0.4.2)
-
 Package: loo
 Version: 2.7.0
 Depends: R (>= 3.1.2), R (>= 4.4), R (< 4.4.99)
@@ -4907,3 +4867,43 @@ File: digest_0.6.35_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Imports: utils
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: Hmisc
+Version: 5.1-2
+Depends: R (>= 4.1.0), R (>= 4.4), R (< 4.4.99)
+Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice,
+        latticeExtra, gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer, htm2txt
+License: GPL (>= 2)
+DownloadURL: https://github.com/cran/Hmisc/releases/download/5.1-2/Hmisc_5.1-2_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-03-12 16:35:08 UTC; unix
+Filesize: 3607082
+SHA256: 5054c5225f7075fa1ae2e882affc7ff068335c490335142ede7e6a09d791b737
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: Hmisc_5.1-2_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: arrow
+Version: 15.0.1
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
+        tibble, tzdb, withr
+License: Apache License (>= 2.0)
+DownloadURL: https://github.com/cran/arrow/releases/download/15.0.1/arrow_15.0.1_b9_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-03-12 16:35:15 UTC; unix
+Filesize: 42078085
+SHA256: 09bc9d803673d06f2c685461acf2660e4d13ef515a436117b842203a8c0c1df7
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: arrow_15.0.1_b9_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
+LinkingTo: cpp11 (>= 0.4.2)
