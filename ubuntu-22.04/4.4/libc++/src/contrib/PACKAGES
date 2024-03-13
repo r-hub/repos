@@ -4788,3 +4788,23 @@ Suggests: ape (>= 5.7-0.1), callr, decor, digest, graph, igraphdata, knitr, rgl,
 Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang, stats, utils, vctrs
 SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
 LinkingTo: cpp11 (>= 0.4.7)
+
+Package: magick
+Version: 2.8.3
+Depends: R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: magick_2.8.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/magick/releases/download/2.8.3/magick_2.8.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-03-13 11:50:23 UTC; unix
+Filesize: 5037500
+SHA256: 5638fca785350fcafdc3e3eadb24b139c52fecb509454a53fbdced3606e99495
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: av (>= 0.3), spelling, jsonlite, methods, knitr, rmarkdown, rsvg, webp, pdftools, ggplot2, gapminder, IRdisplay, tesseract (>= 2.0), gifski
+Imports: Rcpp (>= 0.12.12), magrittr, curl
+SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or libmagick++-dev (deb)
+LinkingTo: Rcpp
