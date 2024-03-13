@@ -2954,24 +2954,6 @@ File: wk_0.9.1_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: duckdb
-Version: 0.9.2-1
-Depends: DBI, R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/duckdb/releases/download/0.9.2-1/duckdb_0.9.2-1_b8_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-29 16:39:19 UTC; unix
-Filesize: 158696682
-SHA256: b2a536673ec112cef9eb83d2e8e08c3eae77a7c264c8ea7398c942a4de4058a7
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: duckdb_0.9.2-1_b8_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Imports: methods, utils
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: bslib
 Version: 0.6.1
 Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
@@ -4526,26 +4508,6 @@ Imports: cli, clock (>= 0.6.1), ellipsis, generics (>= 0.1.2), glue, gower, hard
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: igraph
-Version: 2.0.2
-Depends: methods, R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Suggests: ape (>= 5.7-0.1), callr, decor, digest, graph, igraphdata, knitr, rgl, rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
-License: GPL (>= 2)
-DownloadURL: https://github.com/cran/igraph/releases/download/2.0.2/igraph_2.0.2_b6_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-23 12:05:40 UTC; unix
-Filesize: 10931025
-SHA256: 90b77e6c6c372311059e1225cbc77f8b4d622e3a8f4e441e90e9a353cd2686ce
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: igraph_2.0.2_b6_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang, stats, utils, vctrs
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libxml2, glpk (>= 4.57)
-LinkingTo: cpp11 (>= 0.4.7)
-
 Package: shape
 Version: 1.4.6.1
 Depends: R (>= 2.01), R (>= 4.4), R (< 4.4.99)
@@ -4907,3 +4869,61 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
+
+Package: magick
+Version: 2.8.3
+Depends: R (>= 4.4), R (< 4.4.99)
+Suggests: av (>= 0.3), spelling, jsonlite, methods, knitr, rmarkdown, rsvg, webp, pdftools, ggplot2, gapminder, IRdisplay, tesseract (>= 2.0), gifski
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/magick/releases/download/2.8.3/magick_2.8.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-03-13 16:34:10 UTC; unix
+Filesize: 8657344
+SHA256: 420d9992adeba9f872cd9b7942d257a1b0a05f60f563bf60757130982e4e5e6d
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: magick_2.8.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: Rcpp (>= 0.12.12), magrittr, curl
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or libmagick++-dev (deb)
+LinkingTo: Rcpp
+
+Package: duckdb
+Version: 0.10.0
+Depends: DBI, R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/duckdb/releases/download/0.10.0/duckdb_0.10.0_b9_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-03-13 16:34:07 UTC; unix
+Filesize: 180764501
+SHA256: b29d16a656bf3202ddc8261e5503ec331a38f6fcc5631f38ad1d4fc293677bac
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: duckdb_0.10.0_b9_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: methods, utils
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: igraph
+Version: 2.0.3
+Depends: methods, R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Suggests: ape (>= 5.7-0.1), callr, decor, digest, graph, igraphdata, knitr, rgl, rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
+License: GPL (>= 2)
+DownloadURL: https://github.com/cran/igraph/releases/download/2.0.3/igraph_2.0.3_b7_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-03-13 16:34:12 UTC; unix
+Filesize: 10955271
+SHA256: 38c32e9f272bab9ac43507ec61d243c7ae1f52f1797db21b7a792e4aa1c31194
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: igraph_2.0.3_b7_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang, stats, utils, vctrs
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
+LinkingTo: cpp11 (>= 0.4.7)
