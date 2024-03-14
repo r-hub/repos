@@ -3434,26 +3434,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: knitr, rmarkdown, gridGraphics, gridExtra, ragg, testthat (>= 2.1.0), vdiffr, covr, png
 Imports: ggplot2 (>= 3.0.0), gtable, grid, stats, grDevices, utils, graphics, rlang, cli
 
-Package: ragg
-Version: 1.2.7
-Depends: R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: ragg_1.2.7_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/ragg/releases/download/1.2.7/ragg_1.2.7_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-01-09 17:20:19 UTC; unix
-Filesize: 5481884
-SHA256: 342e6ca3fbd873a7734db73f21a16c9f9aaeb3dacb3adf86f4f731575c50537a
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, graphics, grid, testthat (>= 3.0.0)
-Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
-SystemRequirements: freetype2, libpng, libtiff, libjpeg
-LinkingTo: systemfonts, textshaping
-
 Package: matrixStats
 Version: 1.2.0
 Depends: R (>= 2.12.0), R (>= 4.4), R (< 4.4.99)
@@ -4793,3 +4773,23 @@ Suggests: ape (>= 5.7-0.1), callr, decor, digest, graph, igraphdata, knitr, rgl,
 Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang, stats, utils, vctrs
 SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
 LinkingTo: cpp11 (>= 0.4.7)
+
+Package: ragg
+Version: 1.3.0
+Depends: R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: ragg_1.3.0_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/ragg/releases/download/1.3.0/ragg_1.3.0_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-03-14 18:38:20 UTC; unix
+Filesize: 9228209
+SHA256: c977431def34c53b89e79e4793470e21e3ef3a43df0e92bbf124b4efd4ed04b1
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, graphics, grid, testthat (>= 3.0.0)
+Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
+SystemRequirements: freetype2, libpng, libtiff, libjpeg
+LinkingTo: systemfonts, textshaping
