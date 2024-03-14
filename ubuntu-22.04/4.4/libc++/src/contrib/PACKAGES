@@ -2367,26 +2367,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes
 Imports: utils
 
-Package: ragg
-Version: 1.2.7
-Depends: R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: ragg_1.2.7_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/ragg/releases/download/1.2.7/ragg_1.2.7_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-11 11:53:15 UTC; unix
-Filesize: 585966
-SHA256: f1d9fbe57ba57025f70312609c49f96e3c7961f138847b673f2d8e359650d4cc
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, graphics, grid, testthat (>= 3.0.0)
-Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
-SystemRequirements: freetype2, libpng, libtiff, libjpeg
-LinkingTo: systemfonts, textshaping
-
 Package: readr
 Version: 2.1.5
 Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
@@ -4808,3 +4788,23 @@ Suggests: av (>= 0.3), spelling, jsonlite, methods, knitr, rmarkdown, rsvg, webp
 Imports: Rcpp (>= 0.12.12), magrittr, curl
 SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or libmagick++-dev (deb)
 LinkingTo: Rcpp
+
+Package: ragg
+Version: 1.3.0
+Depends: R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: ragg_1.3.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/ragg/releases/download/1.3.0/ragg_1.3.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-03-14 16:59:48 UTC; unix
+Filesize: 810985
+SHA256: 97a1871cf102092ccca10e0c35ed34c10bf11d6eadcba62612d1d59b986690ae
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, graphics, grid, testthat (>= 3.0.0)
+Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
+SystemRequirements: freetype2, libpng, libtiff, libjpeg
+LinkingTo: systemfonts, textshaping
