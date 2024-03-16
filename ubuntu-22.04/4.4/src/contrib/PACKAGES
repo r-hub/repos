@@ -2867,22 +2867,6 @@ Imports: htmltools (>= 0.3.6), jsonlite, lazyeval, R6
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: tinytex
-Version: 0.49
-Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: testit, rstudioapi
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/tinytex/releases/download/0.49/tinytex_0.49_b5_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-11-23 16:37:48 UTC; unix
-Filesize: 140658
-SHA256: 8fb312f2c98c6712a0086934fd5ab80cfaed99421c0811b81853d4a2dd458ad2
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: tinytex_0.49_b5_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Imports: xfun (>= 0.29)
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: mvtnorm
 Version: 1.2-4
 Depends: R(>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -3148,25 +3132,6 @@ Imports: crayon, hms, prettyunits, R6
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: sass
-Version: 0.4.8
-Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: testthat, knitr, rmarkdown, withr, shiny, curl
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/sass/releases/download/0.4.8/sass_0.4.8_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-12-06 16:39:13 UTC; unix
-Filesize: 2573837
-SHA256: c400bf820231666470fbd6ba898fe4e0cead1383880acd7ef2f77ab946cd885e
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: sass_0.4.8_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Imports: fs (>= 1.2.4), rlang (>= 0.4.10), htmltools (>= 0.5.1), R6, rappdirs
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make
-
 Package: vroom
 Version: 1.6.5
 Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
@@ -3305,24 +3270,6 @@ RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: desc_1.4.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Imports: cli, R6, utils
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: processx
-Version: 3.8.3
-Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
-Suggests: callr (>= 3.7.3), cli (>= 3.3.0), codetools, covr, curl, debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0), webfakes, withr
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/processx/releases/download/3.8.3/processx_3.8.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-12-10 16:34:24 UTC; unix
-Filesize: 451356
-SHA256: ab03aa1d2e56f2b09043ce60f7c7d02ef04587872b07606d851ed24af1276c05
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: processx_3.8.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Imports: ps (>= 1.2.0), R6, utils
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
@@ -4927,3 +4874,56 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: freetype2, libpng, libtiff, libjpeg
 LinkingTo: systemfonts, textshaping
+
+Package: tinytex
+Version: 0.50
+Depends: R (>= 4.4), R (< 4.4.99)
+Suggests: testit, rstudioapi
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/tinytex/releases/download/0.50/tinytex_0.50_b6_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2024-03-16 16:31:11 UTC; unix
+Filesize: 141485
+SHA256: fe4c400abf91f3648a6b4106d500002dfc8b6ff462140b5f5bafa0d25f344890
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: tinytex_0.50_b6_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: xfun (>= 0.29)
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: sass
+Version: 0.4.9
+Depends: R (>= 4.4), R (< 4.4.99)
+Suggests: testthat, knitr, rmarkdown, withr, shiny, curl
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/sass/releases/download/0.4.9/sass_0.4.9_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-03-16 16:31:14 UTC; unix
+Filesize: 2574586
+SHA256: c5ecac51e9246d9864a264ebbc9cbf7105de9ad3f5a035732e44405ea4ffbcd3
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: sass_0.4.9_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: fs (>= 1.2.4), rlang (>= 0.4.10), htmltools (>= 0.5.1), R6, rappdirs
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make
+
+Package: processx
+Version: 3.8.4
+Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
+Suggests: callr (>= 3.7.3), cli (>= 3.3.0), codetools, covr, curl, debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0), webfakes, withr
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/processx/releases/download/3.8.4/processx_3.8.4_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-03-16 16:31:14 UTC; unix
+Filesize: 451622
+SHA256: a0e2b34e9165268a665dd41e2937b1bebc68ff4e6e7b38ea4960d06ca2b2d164
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: processx_3.8.4_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: ps (>= 1.2.0), R6, utils
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
