@@ -2768,22 +2768,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: shiny, ggplot2, testthat (>= 2.1.0), sass, bslib
 Imports: htmltools (>= 0.3.6), jsonlite, lazyeval, R6
 
-Package: tinytex
-Version: 0.49
-Depends: R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: tinytex_0.49_b5_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/tinytex/releases/download/0.49/tinytex_0.49_b5_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-11-23 17:16:09 UTC; unix
-Filesize: 148010
-SHA256: 95d015a3a09eb602bb66792ac588ef059a50c88837155de75b395b254ac32173
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testit, rstudioapi
-Imports: xfun (>= 0.29)
-
 Package: mvtnorm
 Version: 1.2-4
 Depends: R(>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -3048,25 +3032,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable, Matrix, MASS, slam
 Imports: graphics, grDevices, class, stats, methods, utils, proxy
-
-Package: sass
-Version: 0.4.8
-Depends: R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: sass_0.4.8_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/sass/releases/download/0.4.8/sass_0.4.8_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-12-06 17:17:02 UTC; unix
-Filesize: 2569382
-SHA256: 42635b0ea7f00f755af0f01379f7d36b3ae7fe32d5f845bdf5e9241d177d372e
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testthat, knitr, rmarkdown, withr, shiny, curl
-Imports: fs (>= 1.2.4), rlang (>= 0.4.10), htmltools (>= 0.5.1), R6, rappdirs
-SystemRequirements: GNU make
 
 Package: vroom
 Version: 1.6.5
@@ -3343,24 +3308,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: methods, RhpcBLASctl, R.rsp, markdown
 Imports: digest, globals (>= 0.16.1), listenv (>= 0.8.0), parallel, parallelly (>= 1.34.0), utils
-
-Package: processx
-Version: 3.8.3
-Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: processx_3.8.3_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/processx/releases/download/3.8.3/processx_3.8.3_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-01-09 17:16:42 UTC; unix
-Filesize: 457599
-SHA256: 7c82d393b5dfb194ded3803a937b90291304d07351f1407425d89ed5ab916fb7
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: callr (>= 3.7.3), cli (>= 3.3.0), codetools, covr, curl, debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0), webfakes, withr
-Imports: ps (>= 1.2.0), R6, utils
 
 Package: Rcpp
 Version: 1.0.12
@@ -4793,3 +4740,56 @@ Suggests: covr, graphics, grid, testthat (>= 3.0.0)
 Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
 SystemRequirements: freetype2, libpng, libtiff, libjpeg
 LinkingTo: systemfonts, textshaping
+
+Package: tinytex
+Version: 0.50
+Depends: R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: tinytex_0.50_b6_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/tinytex/releases/download/0.50/tinytex_0.50_b6_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2024-03-16 17:15:12 UTC; unix
+Filesize: 149247
+SHA256: 11eba82290a283cc9998eff12abab9384c209eeee8b0bbc00321bb374d3f10c1
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testit, rstudioapi
+Imports: xfun (>= 0.29)
+
+Package: sass
+Version: 0.4.9
+Depends: R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: sass_0.4.9_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/sass/releases/download/0.4.9/sass_0.4.9_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-03-16 17:15:15 UTC; unix
+Filesize: 2570100
+SHA256: 3b94f18de9862b5fb1d6e16e8000a69b30a47cb26a3e420fadb473ee5094950b
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat, knitr, rmarkdown, withr, shiny, curl
+Imports: fs (>= 1.2.4), rlang (>= 0.4.10), htmltools (>= 0.5.1), R6, rappdirs
+SystemRequirements: GNU make
+
+Package: processx
+Version: 3.8.4
+Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: processx_3.8.4_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/processx/releases/download/3.8.4/processx_3.8.4_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-03-16 17:14:54 UTC; unix
+Filesize: 458213
+SHA256: 04b37c3747327016d031016422f7ea4c8123ff89ff8f11788f8077103611f8ac
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: callr (>= 3.7.3), cli (>= 3.3.0), codetools, covr, curl, debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0), webfakes, withr
+Imports: ps (>= 1.2.0), R6, utils
