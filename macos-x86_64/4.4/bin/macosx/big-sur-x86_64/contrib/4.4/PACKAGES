@@ -290,22 +290,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli (>= 2.3.0), fansi, glue, lifecycle, rlang (>= 1.0.2), utf8 (>= 1.1.0), utils, vctrs (>= 0.5.0)
 
-Package: pkgbuild
-Version: 1.4.3
-Depends: R (>= 3.5), R (>= 4.4), R (< 4.4.99)
-Suggests: covr, cpp11, knitr, mockery, Rcpp, rmarkdown, testthat (>= 3.0.0), withr (>= 2.3.0)
-License: MIT + file LICENSE
-File: pkgbuild_1.4.3_b1_R4.4_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/pkgbuild/releases/download/1.4.3/pkgbuild_1.4.3_b1_R4.4_x86_64-apple-darwin20.tgz
-Built: R 4.4.0; ; 2024-01-22 09:04:40 UTC; unix
-Filesize: 200700
-SHA256: 82a554c479cf35dfb4933ee5a1394ef9548f19d56ff5d510a0b1f0904d6f3a6e
-RVersion: 4.4
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: callr (>= 3.2.0), cli (>= 3.4.0), desc, processx, R6
-
 Package: pkgconfig
 Version: 2.0.3
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -524,3 +508,19 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: ps (>= 1.2.0), R6, utils
 OS: darwin
 Arch: amd64
+
+Package: pkgbuild
+Version: 1.4.4
+Depends: R (>= 3.5), R (>= 4.4), R (< 4.4.99)
+Suggests: covr, cpp11, knitr, mockery, Rcpp, rmarkdown, testthat (>= 3.0.0), withr (>= 2.3.0)
+License: MIT + file LICENSE
+File: pkgbuild_1.4.4_b2_R4.4_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/pkgbuild/releases/download/1.4.4/pkgbuild_1.4.4_b2_R4.4_x86_64-apple-darwin20.tgz
+Built: R 4.4.0; ; 2024-03-17 17:33:31 UTC; unix
+Filesize: 202937
+SHA256: 236df83e4ef21bea4d529ae96c2599428e4189f9a9cd590b431478f25ffef605
+RVersion: 4.4
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: callr (>= 3.2.0), cli (>= 3.4.0), desc, processx, R6
