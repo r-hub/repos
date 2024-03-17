@@ -1777,23 +1777,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: MASS, carData
 
-Package: remotes
-Version: 2.4.2.1
-Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: remotes_2.4.2.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/remotes/releases/download/2.4.2.1/remotes_2.4.2.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.4.0; ; 2023-07-18 16:59:55 UTC; unix
-Filesize: 397680
-SHA256: e78c0fe704f81d8711cdc4fb22577b931713a4ede7fa1c69791d283eab4b07ea
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: brew, callr, codetools, curl, covr, git2r (>= 0.23.0), knitr, mockery, pkgbuild (>= 1.0.1), pingr, rmarkdown, rprojroot, testthat, webfakes, withr
-Imports: methods, stats, tools, utils
-SystemRequirements: Subversion for install_svn, git for install_git
-
 Package: rgeos
 Version: 0.6-4
 Depends: R (>= 3.3.0), methods, sp (>= 1.1-0), R (>= 4.4), R (< 4.4.99)
@@ -3581,22 +3564,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: bitops, covr, mathjaxr, mockr, pak, Rcpp, remotes, rstudioapi, testthat (>= 3.1.0)
 Imports: cli (>= 3.3.0), crayon, desc, fs, glue, methods, pkgbuild, rlang (>= 1.1.1), rprojroot, utils, withr (>= 2.4.3)
 
-Package: pkgbuild
-Version: 1.4.3
-Depends: R (>= 3.5), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: pkgbuild_1.4.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/pkgbuild/releases/download/1.4.3/pkgbuild_1.4.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.4.0; ; 2024-02-11 11:45:19 UTC; unix
-Filesize: 200648
-SHA256: 3129ce4c68e7012b997658f1dfb6c19b7a34fbdcf6fe4c4cea46f74001f0c82e
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, cpp11, knitr, mockery, Rcpp, rmarkdown, testthat (>= 3.0.0), withr (>= 2.3.0)
-Imports: callr (>= 3.2.0), cli (>= 3.4.0), desc, processx, R6
-
 Package: sf
 Version: 1.0-15
 Depends: methods, R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
@@ -4808,3 +4775,36 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testit, rstudioapi
 Imports: xfun (>= 0.29)
+
+Package: remotes
+Version: 2.5.0
+Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: remotes_2.5.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/remotes/releases/download/2.5.0/remotes_2.5.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.4.0; ; 2024-03-17 17:00:06 UTC; unix
+Filesize: 437232
+SHA256: 905eeb826f1409865f42950ca43e4b9325384232e6f7e2e332240fa51f172bae
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: brew, callr, codetools, covr, curl, git2r (>= 0.23.0), knitr, mockery, pingr, pkgbuild (>= 1.0.1), rmarkdown, rprojroot, testthat (>= 3.0.0), webfakes, withr
+Imports: methods, stats, tools, utils
+SystemRequirements: Subversion for install_svn, git for install_git
+
+Package: pkgbuild
+Version: 1.4.4
+Depends: R (>= 3.5), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: pkgbuild_1.4.4_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/pkgbuild/releases/download/1.4.4/pkgbuild_1.4.4_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.4.0; ; 2024-03-17 17:00:07 UTC; unix
+Filesize: 202653
+SHA256: bb1b0fcd7e7aebb09cfbe9845196b5d9c5a7cf6ccd96d9ee354144cf06d0ee42
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, cpp11, knitr, mockery, Rcpp, rmarkdown, testthat (>= 3.0.0), withr (>= 2.3.0)
+Imports: callr (>= 3.2.0), cli (>= 3.4.0), desc, processx, R6
