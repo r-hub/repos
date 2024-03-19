@@ -3499,63 +3499,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: abind, MASS, mgcv, nnet, pbkrtest (>= 0.4-4), quantreg, grDevices, utils, stats, graphics, lme4 (>= 1.1-27.1), nlme, scales
 
-Package: lme4
-Version: 1.1-35.1
-Depends: R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats, R (>= 4.4), R (< 4.4.99)
-Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
-License: GPL (>= 2)
-File: lme4_1.1-35.1_b1_R4.4_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/lme4/releases/download/1.1-35.1/lme4_1.1-35.1_b1_R4.4_x86_64-apple-darwin20.tgz
-Built: R 4.4.0; x86_64-apple-darwin20; 2024-01-22 16:32:08 UTC; unix
-Filesize: 6907181
-SHA256: 6b164d04f8bd49aaca7ea34868b25657123393f1eb37b24d5df92fe24e19eb38
-RVersion: 4.4
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
-OS: darwin
-Arch: amd64
-LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix
-
-Package: minqa
-Version: 1.2.6
-Depends: R (>= 4.4), R (< 4.4.99)
-License: GPL-2
-File: minqa_1.2.6_b1_R4.4_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/minqa/releases/download/1.2.6/minqa_1.2.6_b1_R4.4_x86_64-apple-darwin20.tgz
-Built: R 4.4.0; x86_64-apple-darwin20; 2024-01-22 04:41:36 UTC; unix
-Filesize: 344689
-SHA256: 2994c4c2ab7d52d5743f6913fb96552b969dd77d05dc4e0c89ef931fa8467264
-RVersion: 4.4
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: Rcpp (>= 0.9.10)
-OS: darwin
-Arch: amd64
-SystemRequirements: GNU make
-LinkingTo: Rcpp
-
-Package: nloptr
-Version: 2.0.3
-Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: knitr, rmarkdown, xml2, testthat (>= 3.0.0), covr
-License: LGPL (>= 3)
-File: nloptr_2.0.3_b1_R4.4_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/nloptr/releases/download/2.0.3/nloptr_2.0.3_b1_R4.4_x86_64-apple-darwin20.tgz
-Built: R 4.4.0; x86_64-apple-darwin20; 2024-01-22 15:16:13 UTC; unix
-Filesize: 1870916
-SHA256: 868778a74aef0c37cc7d6af6f48e4643566651cc944fb4d0df632955008c3615
-RVersion: 4.4
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-OS: darwin
-Arch: amd64
-SystemRequirements: cmake (>= 3.2.0) which is used only on Linux or macOS systems when no system build of nlopt (>= 2.7.0) can be found.
-LinkingTo: testthat
-
 Package: pbkrtest
 Version: 0.5.2
 Depends: R (>= 4.1.0), lme4 (>= 1.1.31), R (>= 4.4), R (< 4.4.99)
@@ -3780,3 +3723,152 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 OS: darwin
 Arch: amd64
+
+Package: ggrepel
+Version: 0.9.5
+Depends: R (>= 3.0.0), ggplot2 (>= 2.2.0), R (>= 4.4), R (< 4.4.99)
+Suggests: knitr, rmarkdown, testthat, svglite, vdiffr, gridExtra, ggpp, patchwork, devtools, prettydoc, ggbeeswarm, dplyr, magrittr, readr, stringr
+License: GPL-3 | file LICENSE
+File: ggrepel_0.9.5_b1_R4.4_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/ggrepel/releases/download/0.9.5/ggrepel_0.9.5_b1_R4.4_x86_64-apple-darwin20.tgz
+Built: R 4.4.0; x86_64-apple-darwin20; 2024-01-22 13:47:44 UTC; unix
+Filesize: 578687
+SHA256: e78338c8e492a31910db2e39dd11ee224bb6c42e9991eb93edfce1f7772b122b
+RVersion: 4.4
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: grid, Rcpp, rlang (>= 0.3.0), scales (>= 0.5.0), withr (>= 2.5.0)
+OS: darwin
+Arch: amd64
+LinkingTo: Rcpp
+
+Package: glmnet
+Version: 4.1-8
+Depends: R (>= 3.6.0), Matrix (>= 1.0-6), R (>= 4.4), R (< 4.4.99)
+Suggests: knitr, lars, testthat, xfun, rmarkdown
+License: GPL-2
+File: glmnet_4.1-8_b1_R4.4_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/glmnet/releases/download/4.1-8/glmnet_4.1-8_b1_R4.4_x86_64-apple-darwin20.tgz
+Built: R 4.4.0; x86_64-apple-darwin20; 2024-01-22 09:04:41 UTC; unix
+Filesize: 5967895
+SHA256: 4c05c3d7815414c897dd1cbf6ffdea64f2d17fe776042cda3087d90fe1f7855e
+RVersion: 4.4
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: methods, utils, foreach, shape, survival, Rcpp
+OS: darwin
+Arch: amd64
+SystemRequirements: C++17
+LinkingTo: RcppEigen, Rcpp
+
+Package: gtools
+Version: 3.9.5
+Depends: methods, stats, utils, R (>= 4.4), R (< 4.4.99)
+Suggests: car, gplots, knitr, rstudioapi, SGP, taxize
+License: GPL-2
+File: gtools_3.9.5_b1_R4.4_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/gtools/releases/download/3.9.5/gtools_3.9.5_b1_R4.4_x86_64-apple-darwin20.tgz
+Built: R 4.4.0; x86_64-apple-darwin20; 2024-01-22 04:46:19 UTC; unix
+Filesize: 367014
+SHA256: 33ad84a5c315553aeac91266c5a561deeaf0f2e13149323c9fe316cd6e3de541
+RVersion: 4.4
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+OS: darwin
+Arch: amd64
+
+Package: kableExtra
+Version: 1.4.0
+Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
+Suggests: testthat, magick, tinytex, formattable, sparkline, webshot2
+License: MIT + file LICENSE
+File: kableExtra_1.4.0_b1_R4.4_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/kableExtra/releases/download/1.4.0/kableExtra_1.4.0_b1_R4.4_x86_64-apple-darwin20.tgz
+Built: R 4.4.0; ; 2024-01-24 16:31:30 UTC; unix
+Filesize: 2049154
+SHA256: 99001f85361a2180803b1b9647afe0a361522629b689f1c7b35d7d9908479e0f
+RVersion: 4.4
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: knitr (>= 1.33), magrittr, stringr (>= 1.0), xml2 (>= 1.1.1), rmarkdown (>= 1.6.0), scales, viridisLite, stats, grDevices, htmltools, rstudioapi, tools, digest, graphics, svglite
+
+Package: svglite
+Version: 2.1.3
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Suggests: covr, fontquiver (>= 0.2.0), htmltools, knitr, rmarkdown, testthat (>= 3.0.0), xml2 (>= 1.0.0)
+License: GPL (>= 2)
+File: svglite_2.1.3_b1_R4.4_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/svglite/releases/download/2.1.3/svglite_2.1.3_b1_R4.4_x86_64-apple-darwin20.tgz
+Built: R 4.4.0; x86_64-apple-darwin20; 2024-01-22 07:08:01 UTC; unix
+Filesize: 931195
+SHA256: 4a46bbcd7ea0530b50ff375d976af02e19ed0c76fa5638310b09a385550b0557
+RVersion: 4.4
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: systemfonts (>= 1.0.0)
+OS: darwin
+Arch: amd64
+SystemRequirements: libpng
+LinkingTo: cpp11, systemfonts
+
+Package: lme4
+Version: 1.1-35.1
+Depends: R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats, R (>= 4.4), R (< 4.4.99)
+Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
+License: GPL (>= 2)
+File: lme4_1.1-35.1_b1_R4.4_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/lme4/releases/download/1.1-35.1/lme4_1.1-35.1_b1_R4.4_x86_64-apple-darwin20.tgz
+Built: R 4.4.0; x86_64-apple-darwin20; 2024-01-22 16:32:08 UTC; unix
+Filesize: 6907185
+SHA256: ae0829f871d37ad2e62174032e2d705ee9a50975cf5c039e1afb9c02c512cb7e
+RVersion: 4.4
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
+OS: darwin
+Arch: amd64
+LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix
+
+Package: minqa
+Version: 1.2.6
+Depends: R (>= 4.4), R (< 4.4.99)
+License: GPL-2
+File: minqa_1.2.6_b1_R4.4_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/minqa/releases/download/1.2.6/minqa_1.2.6_b1_R4.4_x86_64-apple-darwin20.tgz
+Built: R 4.4.0; x86_64-apple-darwin20; 2024-01-22 04:41:36 UTC; unix
+Filesize: 344690
+SHA256: bb51ba3e918854fff7bbdbe3d7a44b457520726756dce75fd5231c631693f2ec
+RVersion: 4.4
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: Rcpp (>= 0.9.10)
+OS: darwin
+Arch: amd64
+SystemRequirements: GNU make
+LinkingTo: Rcpp
+
+Package: nloptr
+Version: 2.0.3
+Depends: R (>= 4.4), R (< 4.4.99)
+Suggests: knitr, rmarkdown, xml2, testthat (>= 3.0.0), covr
+License: LGPL (>= 3)
+File: nloptr_2.0.3_b1_R4.4_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/nloptr/releases/download/2.0.3/nloptr_2.0.3_b1_R4.4_x86_64-apple-darwin20.tgz
+Built: R 4.4.0; x86_64-apple-darwin20; 2024-01-22 15:16:13 UTC; unix
+Filesize: 1870917
+SHA256: 807762b3d3c83fcb1fc8ca0b3b422799de8c52145a68f524fadd309ba9ffa40d
+RVersion: 4.4
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+OS: darwin
+Arch: amd64
+SystemRequirements: cmake (>= 3.2.0) which is used only on Linux or macOS systems when no system build of nlopt (>= 2.7.0) can be found.
+LinkingTo: testthat
