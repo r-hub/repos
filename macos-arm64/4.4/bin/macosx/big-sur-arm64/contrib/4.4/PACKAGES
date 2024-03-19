@@ -4270,3 +4270,405 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
+
+Package: duckdb
+Version: 0.10.0
+Depends: DBI, R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+Imports: methods, utils
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+License: MIT + file LICENSE
+File: duckdb_0.10.0_b1_R4.4_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/duckdb/releases/download/0.10.0/duckdb_0.10.0_b1_R4.4_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.4.0; aarch64-apple-darwin20; 2024-03-15 01:09:22 UTC; unix
+Filesize: 95928352
+SHA256: 9fbf48095237ff9df7bd1d617f5bec39578f466bf2230e2233d13f88fec10226
+RVersion: 4.4
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: QuickJSR
+Version: 1.1.3
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: jsonlite, R6, Rcpp
+Suggests: testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: QuickJSR_1.1.3_b1_R4.4_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/QuickJSR/releases/download/1.1.3/QuickJSR_1.1.3_b1_R4.4_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.4.0; aarch64-apple-darwin20; 2024-02-13 03:23:53 UTC; unix
+Filesize: 3766981
+SHA256: ecc06ccb853503d754d9042b643367790f2325d340caee464b55d5c35ab7e6a7
+RVersion: 4.4
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make
+LinkingTo: Rcpp
+
+Package: RcppParallel
+Version: 5.1.7
+Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
+Suggests: Rcpp, RUnit, knitr, rmarkdown
+License: GPL (>= 3)
+File: RcppParallel_5.1.7_b1_R4.4_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/RcppParallel/releases/download/5.1.7/RcppParallel_5.1.7_b1_R4.4_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.4.0; aarch64-apple-darwin20; 2024-02-13 03:23:48 UTC; unix
+Filesize: 579054
+SHA256: 9a09b2ba110746866a38e0879d8d449427e28c409584cd21b23c0bccb287194b
+RVersion: 4.4
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, Intel TBB, Windows: cmd.exe and cscript.exe, Solaris: g++ is required
+
+Package: StanHeaders
+Version: 2.32.6
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+Imports: RcppParallel (>= 5.1.4)
+Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix, methods, rstan, withr
+License: BSD_3_clause + file LICENSE
+File: StanHeaders_2.32.6_b1_R4.4_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/StanHeaders/releases/download/2.32.6/StanHeaders_2.32.6_b1_R4.4_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.4.0; aarch64-apple-darwin20; 2024-03-04 01:07:50 UTC; unix
+Filesize: 2731339
+SHA256: 374d7ce3413b8cc9fc794ac754f10217cfbdb9e838e4056bfc4ae860367c1d56
+RVersion: 4.4
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, pandoc
+LinkingTo: RcppEigen (>= 0.3.4.0.0), RcppParallel (>= 5.1.4)
+
+Package: bayesplot
+Version: 1.11.1
+Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
+Imports: dplyr (>= 0.8.0), ggplot2 (>= 3.4.0), ggridges (>= 0.5.5), glue, posterior, reshape2, rlang (>= 0.3.0), stats, tibble (>= 2.0.0), tidyselect, utils
+Suggests: ggfortify, gridExtra (>= 2.2.1), hexbin, knitr (>= 1.16), loo (>= 2.0.0), RColorBrewer, rmarkdown (>= 1.0.0), rstan (>= 2.17.1), rstanarm (>= 2.17.4), rstantools (>= 1.5.0), scales,
+        shinystan (>= 2.3.0), survival, testthat (>= 2.0.0), vdiffr (>= 1.0.2)
+License: GPL (>= 3)
+File: bayesplot_1.11.1_b1_R4.4_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/bayesplot/releases/download/1.11.1/bayesplot_1.11.1_b1_R4.4_aarch64-apple-darwin20.tgz
+Built: R 4.4.0; ; 2024-02-18 09:30:29 UTC; unix
+Filesize: 5343630
+SHA256: 6a35a34c0a3240ae0c12fe1f1098595cecb4e2d0d37c592f2c596b89a1c042a0
+RVersion: 4.4
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
+
+Package: colourpicker
+Version: 1.3.0
+Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
+Imports: ggplot2, htmltools, htmlwidgets (>= 0.7), jsonlite, miniUI (>= 0.1.1), shiny (>= 0.11.1), shinyjs (>= 2.0.0), utils
+Suggests: knitr (>= 1.7), rmarkdown, rstudioapi (>= 0.5), shinydisconnect
+License: MIT + file LICENSE
+File: colourpicker_1.3.0_b1_R4.4_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/colourpicker/releases/download/1.3.0/colourpicker_1.3.0_b1_R4.4_aarch64-apple-darwin20.tgz
+Built: R 4.4.0; ; 2024-02-14 04:25:21 UTC; unix
+Filesize: 1334423
+SHA256: 0fa1d445b26221d51c3e01218fa5868e39acec321f7a5119593bf035820bf8d1
+RVersion: 4.4
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: distributional
+Version: 0.4.0
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: vctrs (>= 0.3.0), rlang (>= 0.4.5), generics, stats, numDeriv, utils, lifecycle
+Suggests: testthat (>= 2.1.0), covr, mvtnorm, actuar (>= 2.0.0), ggdist, ggplot2
+License: GPL-3
+File: distributional_0.4.0_b1_R4.4_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/distributional/releases/download/0.4.0/distributional_0.4.0_b1_R4.4_aarch64-apple-darwin20.tgz
+Built: R 4.4.0; ; 2024-02-13 15:00:22 UTC; unix
+Filesize: 430150
+SHA256: a17d654dd6d6efa861ce260fb1a7d562f7db23b6ad1e9b1cc9af74ece51975ab
+RVersion: 4.4
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: dygraphs
+Version: 1.1.1.6
+Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
+Imports: magrittr, htmlwidgets (>= 0.6), htmltools (>= 0.3.5), zoo (>= 1.7-10), xts (>= 0.9-7)
+Suggests: testthat
+Enhances: rmarkdown (>= 0.3.3), shiny (>= 0.10.2.1)
+License: MIT + file LICENSE
+File: dygraphs_1.1.1.6_b1_R4.4_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/dygraphs/releases/download/1.1.1.6/dygraphs_1.1.1.6_b1_R4.4_aarch64-apple-darwin20.tgz
+Built: R 4.4.0; ; 2024-02-13 22:51:07 UTC; unix
+Filesize: 431753
+SHA256: 7eae4b6c11d82b75b652f8b997e9d08d107962cc2a296c8bdf33250b68f865a5
+RVersion: 4.4
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: ggridges
+Version: 0.5.6
+Depends: R (>= 3.2), R (>= 4.4), R (< 4.4.99)
+Imports: ggplot2 (>= 3.4.0), grid (>= 3.0.0), scales (>= 0.4.1), withr (>= 2.1.1)
+Suggests: covr, dplyr, patchwork, ggplot2movies, forcats, knitr, rmarkdown, testthat, vdiffr
+License: GPL-2 | file LICENSE
+File: ggridges_0.5.6_b1_R4.4_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/ggridges/releases/download/0.5.6/ggridges_0.5.6_b1_R4.4_aarch64-apple-darwin20.tgz
+Built: R 4.4.0; ; 2024-02-14 04:24:51 UTC; unix
+Filesize: 2258854
+SHA256: d374d7a22bbda56507f483687011e1f4dfedf5cbe2a823d450acb560a1f26c05
+RVersion: 4.4
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: inline
+Version: 0.3.19
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: methods
+Suggests: Rcpp (>= 0.11.0), tinytest
+License: LGPL
+File: inline_0.3.19_b1_R4.4_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/inline/releases/download/0.3.19/inline_0.3.19_b1_R4.4_aarch64-apple-darwin20.tgz
+Built: R 4.4.0; ; 2024-02-13 03:23:35 UTC; unix
+Filesize: 129132
+SHA256: 1027b7f476a8b5ccc5b75bd36e9c36e80d5c431be24b0a68f46b8a8d6765b128
+RVersion: 4.4
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: loo
+Version: 2.7.0
+Depends: R (>= 3.1.2), R (>= 4.4), R (< 4.4.99)
+Imports: checkmate, matrixStats (>= 0.52), parallel, posterior (>= 1.5.0), stats
+Suggests: bayesplot (>= 1.7.0), brms (>= 2.10.0), ggplot2, graphics, knitr, rmarkdown, rstan, rstanarm (>= 2.19.0), rstantools, spdep, testthat (>= 2.1.0)
+License: GPL (>= 3)
+File: loo_2.7.0_b1_R4.4_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/loo/releases/download/2.7.0/loo_2.7.0_b1_R4.4_aarch64-apple-darwin20.tgz
+Built: R 4.4.0; ; 2024-02-25 01:59:00 UTC; unix
+Filesize: 1848285
+SHA256: 17fb6b25c0c187572b59853dd928410200ba199da4b070c54c8d21a8d7887353
+RVersion: 4.4
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
+
+Package: posterior
+Version: 1.5.0
+Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
+Imports: methods, abind, checkmate, rlang (>= 1.0.6), stats, tibble (>= 3.1.0), vctrs (>= 0.5.0), tensorA, pillar, distributional, parallel, matrixStats
+Suggests: testthat (>= 2.1.0), caret (>= 6.0.84), gbm (>= 2.1.8), randomForest (>= 4.6.14), e1071 (>= 1.7.3), dplyr, tidyr, knitr, ggplot2, ggdist, rmarkdown
+License: BSD_3_clause + file LICENSE
+File: posterior_1.5.0_b1_R4.4_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/posterior/releases/download/1.5.0/posterior_1.5.0_b1_R4.4_aarch64-apple-darwin20.tgz
+Built: R 4.4.0; ; 2024-02-13 21:10:38 UTC; unix
+Filesize: 969312
+SHA256: 5411ab00a6fef9480b58f82fabdeb075d6c057f411402e20ad603ddc4fb5826d
+RVersion: 4.4
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rstan
+Version: 2.32.6
+Depends: R (>= 3.4.0), StanHeaders (>= 2.32.0), R (>= 4.4), R (< 4.4.99)
+Imports: methods, stats4, inline (>= 0.3.19), gridExtra (>= 2.3), Rcpp (>= 1.0.7), RcppParallel (>= 5.1.4), loo (>= 2.4.1), pkgbuild (>= 1.2.0), QuickJSR, ggplot2 (>= 3.3.5)
+Suggests: testthat (>= 3.0.4), parallel, KernSmooth, shinystan, bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr, coda, V8
+License: GPL (>= 3)
+File: rstan_2.32.6_b1_R4.4_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/rstan/releases/download/2.32.6/rstan_2.32.6_b1_R4.4_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.4.0; aarch64-apple-darwin20; 2024-03-05 19:30:29 UTC; unix
+Filesize: 8931568
+SHA256: 918d39cbff89a171f4e3979ec422aa2f7210adbe01fb12dbfabd174f433a281b
+RVersion: 4.4
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, pandoc
+LinkingTo: Rcpp (>= 1.0.7), RcppEigen (>= 0.3.4.0.0), BH (>= 1.75.0-0), StanHeaders (>= 2.32.0), RcppParallel (>= 5.1.4)
+
+Package: rstanarm
+Version: 2.32.1
+Depends: R (>= 3.4.0), Rcpp (>= 0.12.0), methods, R (>= 4.4), R (< 4.4.99)
+Imports: bayesplot (>= 1.7.0), ggplot2 (>= 2.2.1), lme4 (>= 1.1-8), loo (>= 2.1.0), Matrix (>= 1.2-13), nlme (>= 3.1-124), posterior, rstan (>= 2.32.0), rstantools (>= 2.1.0), shinystan (>= 2.3.0),
+        stats, survival (>= 2.40.1), RcppParallel (>= 5.0.1), utils
+Suggests: biglm, betareg, data.table (>= 1.10.0), digest, gridExtra, HSAUR3, knitr (>= 1.15.1), MASS, mgcv (>= 1.8-13), rmarkdown, roxygen2, StanHeaders (>= 2.21.0), testthat (>= 1.0.2), gamm4,
+        shiny, V8
+License: GPL (>= 3)
+File: rstanarm_2.32.1_b1_R4.4_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/rstanarm/releases/download/2.32.1/rstanarm_2.32.1_b1_R4.4_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.4.0; aarch64-apple-darwin20; 2024-02-15 22:15:41 UTC; unix
+Filesize: 56796480
+SHA256: a4ca8692bfd6c54f7648700159f39f79a079425f3130478ea4499de8fea394d9
+RVersion: 4.4
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, pandoc (>= 1.12.3), pandoc-citeproc
+LinkingTo: StanHeaders (>= 2.32.0), rstan (>= 2.32.0), BH (>= 1.72.0-2), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0), RcppParallel (>= 5.0.1)
+
+Package: rstantools
+Version: 2.4.0
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1)
+Suggests: rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0), knitr, pkgbuild, pkgload, roxygen2 (>= 6.0.1), rmarkdown, rstudioapi
+License: GPL (>= 3)
+File: rstantools_2.4.0_b1_R4.4_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/rstantools/releases/download/2.4.0/rstantools_2.4.0_b1_R4.4_aarch64-apple-darwin20.tgz
+Built: R 4.4.0; ; 2024-02-13 10:33:28 UTC; unix
+Filesize: 166420
+SHA256: 66cdf76dc20017aa66feecab664661c8a3dc039638c7fd5316d3eebb1b6bb0ce
+RVersion: 4.4
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc, C++14
+
+Package: shinyjs
+Version: 2.1.0
+Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
+Imports: digest (>= 0.6.8), jsonlite, shiny (>= 1.0.0)
+Suggests: htmltools (>= 0.2.9), knitr (>= 1.7), rmarkdown, shinyAce, shinydisconnect, testthat (>= 0.9.1)
+License: MIT + file LICENSE
+File: shinyjs_2.1.0_b1_R4.4_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/shinyjs/releases/download/2.1.0/shinyjs_2.1.0_b1_R4.4_aarch64-apple-darwin20.tgz
+Built: R 4.4.0; ; 2024-02-13 22:43:20 UTC; unix
+Filesize: 1085490
+SHA256: 26aaa242b9b7bfd56c6c74bd4820c7727fa04a5d9e60793b49a987312236f3da
+RVersion: 4.4
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: shinystan
+Version: 2.6.0
+Depends: R (>= 3.1.0), shiny (>= 1.0.3), R (>= 4.4), R (< 4.4.99)
+Imports: bayesplot (>= 1.5.0), colourpicker, DT (>= 0.2), dygraphs (>= 1.1.1.2), ggplot2 (>= 2.1.1), gridExtra, gtools, markdown (>= 0.7.4), methods, reshape2, rstan (>= 2.17.1), stats, shinyjs (>=
+        0.6.0), shinythemes (>= 1.0.1), threejs (>= 0.2.1), utils, xtable, xts (>= 0.9-7)
+Suggests: cmdstanr (>= 0.4.0), coda, knitr (>= 1.9), posterior (>= 1.0.0), rmarkdown (>= 0.8.1), rsconnect (>= 0.4.2), rstanarm (>= 2.17.4), testthat
+License: GPL (>= 3)
+File: shinystan_2.6.0_b1_R4.4_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/shinystan/releases/download/2.6.0/shinystan_2.6.0_b1_R4.4_aarch64-apple-darwin20.tgz
+Built: R 4.4.0; ; 2024-02-14 05:03:47 UTC; unix
+Filesize: 1341183
+SHA256: 5b0d5c0934d3ae21af317029d15257d2322cd6998f58052f35636d387040e1c9
+RVersion: 4.4
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: shinythemes
+Version: 1.2.0
+Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
+Imports: shiny (>= 0.11)
+License: GPL-3 | file LICENSE
+File: shinythemes_1.2.0_b1_R4.4_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/shinythemes/releases/download/1.2.0/shinythemes_1.2.0_b1_R4.4_aarch64-apple-darwin20.tgz
+Built: R 4.4.0; ; 2024-02-13 22:43:10 UTC; unix
+Filesize: 964026
+SHA256: a0482679d0e1a8f288751b852c9eee27408859ee18589ad11ce55473d3ffdc12
+RVersion: 4.4
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: tensorA
+Version: 0.36.2.1
+Depends: R (>= 2.2.0), stats, R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: tensorA_0.36.2.1_b1_R4.4_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/tensorA/releases/download/0.36.2.1/tensorA_0.36.2.1_b1_R4.4_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.4.0; aarch64-apple-darwin20; 2024-02-13 03:54:13 UTC; unix
+Filesize: 225951
+SHA256: 913d303ef11b7f07e5f98647291bdd524f57bc572b99bdcfc16aebecd2e714e7
+RVersion: 4.4
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: threejs
+Version: 0.3.3
+Depends: R (>= 3.0.0), igraph (>= 1.0.0), R (>= 4.4), R (< 4.4.99)
+Imports: htmlwidgets (>= 0.3.2), base64enc, crosstalk, methods, stats
+Suggests: maps
+Enhances: knitr, shiny
+License: MIT + file LICENSE
+File: threejs_0.3.3_b1_R4.4_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/threejs/releases/download/0.3.3/threejs_0.3.3_b1_R4.4_aarch64-apple-darwin20.tgz
+Built: R 4.4.0; ; 2024-02-13 23:11:47 UTC; unix
+Filesize: 946105
+SHA256: a0d5f889f231d1e7563f6ddc38b5272197f264d82705644a78c1be6a05d56ffb
+RVersion: 4.4
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: xts
+Version: 0.13.2
+Depends: R (>= 3.6.0), zoo (>= 1.7-12), R (>= 4.4), R (< 4.4.99)
+Imports: methods
+Suggests: timeSeries, timeDate, tseries, chron, tinytest
+License: GPL (>= 2)
+File: xts_0.13.2_b1_R4.4_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/xts/releases/download/0.13.2/xts_0.13.2_b1_R4.4_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.4.0; aarch64-apple-darwin20; 2024-02-13 10:31:12 UTC; unix
+Filesize: 904676
+SHA256: 1aaf52002020d45673077f268cb869a4b9743117672a6185d633005ea50c0555
+RVersion: 4.4
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: zoo
+
+Package: RSQLite
+Version: 2.3.5
+Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
+Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
+Suggests: callr, DBItest (>= 1.8.0), gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
+License: LGPL (>= 2.1)
+File: RSQLite_2.3.5_b1_R4.4_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/RSQLite/releases/download/2.3.5/RSQLite_2.3.5_b1_R4.4_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.4.0; aarch64-apple-darwin20; 2024-02-13 18:11:31 UTC; unix
+Filesize: 4383170
+SHA256: a3dfc7f5b3f2e1948a91cfb8dfd9387ed5f012af3cd27ad6803eb196bb3ba5c9
+RVersion: 4.4
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
+
+Package: tripack
+Version: 1.3-9.1
+Depends: R (>= 4.4), R (< 4.4.99)
+License: ACM | file LICENSE
+File: tripack_1.3-9.1_b1_R4.4_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/tripack/releases/download/1.3-9.1/tripack_1.3-9.1_b1_R4.4_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.4.0; aarch64-apple-darwin20; 2024-02-13 10:10:14 UTC; unix
+Filesize: 251309
+SHA256: 0a9fc3f24e2e6ae1432ef960efe45d3cebd93b686b3b65682ecce8756ea27092
+RVersion: 4.4
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
