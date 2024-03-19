@@ -4072,24 +4072,6 @@ OS: darwin
 Arch: amd64
 LinkingTo: Rcpp
 
-Package: sp
-Version: 2.1-3
-Depends: R (>= 3.5.0), methods, R (>= 4.4), R (< 4.4.99)
-Suggests: RColorBrewer, gstat, deldir, knitr, rmarkdown, sf, terra, raster
-License: GPL (>= 2)
-File: sp_2.1-3_b1_R4.4_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/sp/releases/download/2.1-3/sp_2.1-3_b1_R4.4_x86_64-apple-darwin20.tgz
-Built: R 4.4.0; x86_64-apple-darwin20; 2024-01-30 12:48:12 UTC; unix
-Filesize: 2132347
-SHA256: f69c98d60b688818a14f4a928114817ccd97e15b9727aefe1853f097cef9f47c
-RVersion: 4.4
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: utils, stats, graphics, grDevices, lattice, grid
-OS: darwin
-Arch: amd64
-
 Package: RcppArmadillo
 Version: 0.12.8.1.0
 Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
@@ -4108,3 +4090,109 @@ Imports: Rcpp (>= 0.11.0), stats, utils, methods
 OS: darwin
 Arch: amd64
 LinkingTo: Rcpp
+
+Package: RcppEigen
+Version: 0.3.4.0.0
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+Suggests: Matrix, inline, tinytest, pkgKitten, microbenchmark
+License: GPL (>= 2) | file LICENSE
+File: RcppEigen_0.3.4.0.0_b1_R4.4_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/RcppEigen/releases/download/0.3.4.0.0/RcppEigen_0.3.4.0.0_b1_R4.4_x86_64-apple-darwin20.tgz
+Built: R 4.4.0; x86_64-apple-darwin20; 2024-02-28 22:36:46 UTC; unix
+Filesize: 5077789
+SHA256: f0c576cdbaf1412643d898319b5c009c04c9628d80913f75e2146098b756bebe
+RVersion: 4.4
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: Rcpp (>= 0.11.0), stats, utils
+OS: darwin
+Arch: amd64
+LinkingTo: Rcpp
+
+Package: Rdpack
+Version: 2.6
+Depends: R (>= 2.15.0), methods, R (>= 4.4), R (< 4.4.99)
+Suggests: grDevices, testthat, rstudioapi, rprojroot, gbRd
+License: GPL (>= 2)
+File: Rdpack_2.6_b1_R4.4_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/Rdpack/releases/download/2.6/Rdpack_2.6_b1_R4.4_x86_64-apple-darwin20.tgz
+Built: R 4.4.0; ; 2024-01-22 07:09:34 UTC; unix
+Filesize: 751280
+SHA256: 5e1efca57afdfed78bda23f53e24503f25aec0577944a088436974292d954575
+RVersion: 4.4
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: tools, utils, rbibutils (>= 1.3)
+
+Package: rbibutils
+Version: 2.2.16
+Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
+Suggests: testthat
+License: GPL-2
+File: rbibutils_2.2.16_b1_R4.4_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/rbibutils/releases/download/2.2.16/rbibutils_2.2.16_b1_R4.4_x86_64-apple-darwin20.tgz
+Built: R 4.4.0; x86_64-apple-darwin20; 2024-01-22 04:42:24 UTC; unix
+Filesize: 1053079
+SHA256: 6964b5fb66abb82849118317bf3c4c98304143ac950e8a9d6ec6d233bb7fc9d6
+RVersion: 4.4
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: utils, tools
+OS: darwin
+Arch: amd64
+
+Package: sp
+Version: 2.1-3
+Depends: R (>= 3.5.0), methods, R (>= 4.4), R (< 4.4.99)
+Suggests: RColorBrewer, gstat, deldir, knitr, rmarkdown, sf, terra, raster
+License: GPL (>= 2)
+File: sp_2.1-3_b1_R4.4_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/sp/releases/download/2.1-3/sp_2.1-3_b1_R4.4_x86_64-apple-darwin20.tgz
+Built: R 4.4.0; x86_64-apple-darwin20; 2024-01-30 12:48:12 UTC; unix
+Filesize: 2132341
+SHA256: 5457eafa34d3cb9624d01ba99664c6dd413ba5e9e67b4c20ab40f853b4587335
+RVersion: 4.4
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: utils, stats, graphics, grDevices, lattice, grid
+OS: darwin
+Arch: amd64
+
+Package: hunspell
+Version: 3.0.3
+Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
+Suggests: spelling, testthat, pdftools, janeaustenr, wordcloud2, knitr, stopwords, rmarkdown
+License: GPL-2 | LGPL-2.1 | MPL-1.1
+File: hunspell_3.0.3_b1_R4.4_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/hunspell/releases/download/3.0.3/hunspell_3.0.3_b1_R4.4_x86_64-apple-darwin20.tgz
+Built: R 4.4.0; x86_64-apple-darwin20; 2024-01-22 04:44:20 UTC; unix
+Filesize: 2602702
+SHA256: 608dd80118ba180abdc27aafa3db9d46605396228ae248ac2e111dee8978b822
+RVersion: 4.4
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: Rcpp, digest
+OS: darwin
+Arch: amd64
+LinkingTo: Rcpp (>= 0.12.12)
+
+Package: spelling
+Version: 2.3.0
+Depends: R (>= 4.4), R (< 4.4.99)
+Suggests: pdftools
+License: MIT + file LICENSE
+File: spelling_2.3.0_b1_R4.4_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/spelling/releases/download/2.3.0/spelling_2.3.0_b1_R4.4_x86_64-apple-darwin20.tgz
+Built: R 4.4.0; ; 2024-03-05 07:17:12 UTC; unix
+Filesize: 55074
+SHA256: e97581f073979bc9b95866a87b64ddf7e6b1429ff77c7346f9d0b689781e631f
+RVersion: 4.4
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: commonmark, xml2, hunspell (>= 3.0), knitr
