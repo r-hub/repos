@@ -39,18 +39,13 @@ runs:
       }
       if (is.null(conf$release_org)) conf$release_org <- "cran"
       if (is.null(conf$source)) conf$source <- "https://cran.r-project.org"
-      # we do these in chunks, in case time limit kicks in, so we don't
-      # lose all builds in that case
-      chunks <- split(conf$packages, ceiling(seq_along(conf$packages)/5))
-      lapply(chunks, function(pkgs) {
-        pkgdepends:::ghrepo$update(
-          "${{ github.repository }}",
-          "${{ inputs.directory }}",
-          release_org = conf$release_org,
-          source_repo = conf$source,
-          packages = pkgs
-        )
-      })
+      pkgdepends:::ghrepo$update(
+        "${{ github.repository }}",
+        "${{ inputs.directory }}",
+        release_org = conf$release_org,
+        source_repo = conf$source,
+        packages = conf$packages
+      )
     shell: Rscript {0}
     env:
       GITHUB_PAT: ${{ inputs.token }}
