@@ -4477,3 +4477,441 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libxml2 (>= 2.6.3)
+
+Package: arrow
+Version: 15.0.1
+Depends: R (>= 3.4), R (>= 4.3), R (< 4.3.99)
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
+        tibble, tzdb, withr
+License: Apache License (>= 2.0)
+File: arrow_15.0.1_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/arrow/releases/download/15.0.1/arrow_15.0.1_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.3.2; aarch64-unknown-linux-gnu; 2024-03-19 19:54:12 UTC; unix
+Filesize: 179738190
+SHA256: e93dc2dc5f3792dead1a8d4d9c119832f91de5f487c31db1b7724b2d5be2a4e1
+RVersion: 4.3
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
+LinkingTo: cpp11 (>= 0.4.2)
+
+Package: duckdb
+Version: 0.10.0
+Depends: DBI, R (>= 3.6.0), R (>= 4.3), R (< 4.3.99)
+Imports: methods, utils
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+License: MIT + file LICENSE
+File: duckdb_0.10.0_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/0.10.0/duckdb_0.10.0_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.3.2; aarch64-unknown-linux-gnu; 2024-03-19 19:28:01 UTC; unix
+Filesize: 178772379
+SHA256: 73e3756662edb5e3fa7107045edf52e621cae4f6d9ff1ad9da3163f25c10c0fb
+RVersion: 4.3
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: bayesplot
+Version: 1.11.1
+Depends: R (>= 3.1.0), R (>= 4.3), R (< 4.3.99)
+Imports: dplyr (>= 0.8.0), ggplot2 (>= 3.4.0), ggridges (>= 0.5.5), glue, posterior, reshape2, rlang (>= 0.3.0), stats, tibble (>= 2.0.0), tidyselect, utils
+Suggests: ggfortify, gridExtra (>= 2.2.1), hexbin, knitr (>= 1.16), loo (>= 2.0.0), RColorBrewer, rmarkdown (>= 1.0.0), rstan (>= 2.17.1), rstanarm (>= 2.17.4), rstantools (>= 1.5.0), scales,
+        shinystan (>= 2.3.0), survival, testthat (>= 2.0.0), vdiffr (>= 1.0.2)
+License: GPL (>= 3)
+File: bayesplot_1.11.1_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/bayesplot/releases/download/1.11.1/bayesplot_1.11.1_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.3.2; ; 2024-03-19 20:02:19 UTC; unix
+Filesize: 5339877
+SHA256: 4e1fba0e7e8a5c3c97234013635200aceec385c2063806efa190d6ab9c1eedea
+RVersion: 4.3
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
+
+Package: colourpicker
+Version: 1.3.0
+Depends: R (>= 3.1.0), R (>= 4.3), R (< 4.3.99)
+Imports: ggplot2, htmltools, htmlwidgets (>= 0.7), jsonlite, miniUI (>= 0.1.1), shiny (>= 0.11.1), shinyjs (>= 2.0.0), utils
+Suggests: knitr (>= 1.7), rmarkdown, rstudioapi (>= 0.5), shinydisconnect
+License: MIT + file LICENSE
+File: colourpicker_1.3.0_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/colourpicker/releases/download/1.3.0/colourpicker_1.3.0_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.3.2; ; 2024-03-19 20:02:10 UTC; unix
+Filesize: 1335451
+SHA256: 1bb957f4278883daab2d3a076ec39dded95bfbb5e1b8d18292aa1a72b1538af9
+RVersion: 4.3
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: distributional
+Version: 0.4.0
+Depends: R (>= 4.3), R (< 4.3.99)
+Imports: vctrs (>= 0.3.0), rlang (>= 0.4.5), generics, stats, numDeriv, utils, lifecycle
+Suggests: testthat (>= 2.1.0), covr, mvtnorm, actuar (>= 2.0.0), ggdist, ggplot2
+License: GPL-3
+File: distributional_0.4.0_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/distributional/releases/download/0.4.0/distributional_0.4.0_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.3.2; ; 2024-03-19 20:01:20 UTC; unix
+Filesize: 422562
+SHA256: 13440bbb23e3ca1d470a5ca4afb6b77dc1dffff5bc03d1956e99cca2c7d698b7
+RVersion: 4.3
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: dygraphs
+Version: 1.1.1.6
+Depends: R (>= 3.0), R (>= 4.3), R (< 4.3.99)
+Imports: magrittr, htmlwidgets (>= 0.6), htmltools (>= 0.3.5), zoo (>= 1.7-10), xts (>= 0.9-7)
+Suggests: testthat
+Enhances: rmarkdown (>= 0.3.3), shiny (>= 0.10.2.1)
+License: MIT + file LICENSE
+File: dygraphs_1.1.1.6_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/dygraphs/releases/download/1.1.1.6/dygraphs_1.1.1.6_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.3.2; ; 2024-03-19 20:05:49 UTC; unix
+Filesize: 424169
+SHA256: 008b070dc932f8ef2490ca5e138eaa98acc74aba1ab63ffd69121162aabaaee8
+RVersion: 4.3
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: ggridges
+Version: 0.5.6
+Depends: R (>= 3.2), R (>= 4.3), R (< 4.3.99)
+Imports: ggplot2 (>= 3.4.0), grid (>= 3.0.0), scales (>= 0.4.1), withr (>= 2.1.1)
+Suggests: covr, dplyr, patchwork, ggplot2movies, forcats, knitr, rmarkdown, testthat, vdiffr
+License: GPL-2 | file LICENSE
+File: ggridges_0.5.6_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/ggridges/releases/download/0.5.6/ggridges_0.5.6_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.3.2; ; 2024-03-19 20:01:25 UTC; unix
+Filesize: 2258536
+SHA256: c7c333ad4e21b71e1682a069e889e22f63f334d1c51528b686bd7445c97b90fb
+RVersion: 4.3
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: inline
+Version: 0.3.19
+Depends: R (>= 4.3), R (< 4.3.99)
+Imports: methods
+Suggests: Rcpp (>= 0.11.0), tinytest
+License: LGPL
+File: inline_0.3.19_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/inline/releases/download/0.3.19/inline_0.3.19_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.3.2; ; 2024-03-19 19:27:28 UTC; unix
+Filesize: 128077
+SHA256: 1ab11b55b42746e0f0e008885b319729860e00b2501d45a29f9c39beb9d2d837
+RVersion: 4.3
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: loo
+Version: 2.7.0
+Depends: R (>= 3.1.2), R (>= 4.3), R (< 4.3.99)
+Imports: checkmate, matrixStats (>= 0.52), parallel, posterior (>= 1.5.0), stats
+Suggests: bayesplot (>= 1.7.0), brms (>= 2.10.0), ggplot2, graphics, knitr, rmarkdown, rstan, rstanarm (>= 2.19.0), rstantools, spdep, testthat (>= 2.1.0)
+License: GPL (>= 3)
+File: loo_2.7.0_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/loo/releases/download/2.7.0/loo_2.7.0_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.3.2; ; 2024-03-19 20:02:26 UTC; unix
+Filesize: 1843905
+SHA256: 17a494ab49c0d3cf5bdd12abb9e62a572b86a6bb341f46b812ec71d24386afcb
+RVersion: 4.3
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
+
+Package: posterior
+Version: 1.5.0
+Depends: R (>= 3.2.0), R (>= 4.3), R (< 4.3.99)
+Imports: methods, abind, checkmate, rlang (>= 1.0.6), stats, tibble (>= 3.1.0), vctrs (>= 0.5.0), tensorA, pillar, distributional, parallel, matrixStats
+Suggests: testthat (>= 2.1.0), caret (>= 6.0.84), gbm (>= 2.1.8), randomForest (>= 4.6.14), e1071 (>= 1.7.3), dplyr, tidyr, knitr, ggplot2, ggdist, rmarkdown
+License: BSD_3_clause + file LICENSE
+File: posterior_1.5.0_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/posterior/releases/download/1.5.0/posterior_1.5.0_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.3.2; ; 2024-03-19 20:02:13 UTC; unix
+Filesize: 955668
+SHA256: 95c71ea847f72afa6351400aabb67eb4e9b2c4d5e279d64d1df770288d223ed2
+RVersion: 4.3
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: QuickJSR
+Version: 1.1.3
+Depends: R (>= 4.3), R (< 4.3.99)
+Imports: jsonlite, R6, Rcpp
+Suggests: testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: QuickJSR_1.1.3_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/QuickJSR/releases/download/1.1.3/QuickJSR_1.1.3_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.3.2; aarch64-unknown-linux-gnu; 2024-03-19 20:00:29 UTC; unix
+Filesize: 4412121
+SHA256: 6bd753adbd93aaf90b3a32657fa3949bf245481731cddba13b22795376cb7751
+RVersion: 4.3
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make
+LinkingTo: Rcpp
+
+Package: RcppParallel
+Version: 5.1.7
+Depends: R (>= 3.0.2), R (>= 4.3), R (< 4.3.99)
+Suggests: Rcpp, RUnit, knitr, rmarkdown
+License: GPL (>= 3)
+File: RcppParallel_5.1.7_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/RcppParallel/releases/download/5.1.7/RcppParallel_5.1.7_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.3.2; aarch64-unknown-linux-gnu; 2024-03-19 19:27:30 UTC; unix
+Filesize: 1762319
+SHA256: a11945f8c0839efad126e3344bd4bc51c175194316f880429e99514ab3486e10
+RVersion: 4.3
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, Intel TBB, Windows: cmd.exe and cscript.exe, Solaris: g++ is required
+
+Package: rstan
+Version: 2.32.6
+Depends: R (>= 3.4.0), StanHeaders (>= 2.32.0), R (>= 4.3), R (< 4.3.99)
+Imports: methods, stats4, inline (>= 0.3.19), gridExtra (>= 2.3), Rcpp (>= 1.0.7), RcppParallel (>= 5.1.4), loo (>= 2.4.1), pkgbuild (>= 1.2.0), QuickJSR, ggplot2 (>= 3.3.5)
+Suggests: testthat (>= 3.0.4), parallel, KernSmooth, shinystan, bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr, coda, V8
+License: GPL (>= 3)
+File: rstan_2.32.6_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/rstan/releases/download/2.32.6/rstan_2.32.6_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.3.2; aarch64-unknown-linux-gnu; 2024-03-19 20:02:31 UTC; unix
+Filesize: 17797117
+SHA256: de6d90b3a68b232fc7cd0c47b8257e8d78a4156766c67ce33528c1a29a9ad36f
+RVersion: 4.3
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, pandoc
+LinkingTo: Rcpp (>= 1.0.7), RcppEigen (>= 0.3.4.0.0), BH (>= 1.75.0-0), StanHeaders (>= 2.32.0), RcppParallel (>= 5.1.4)
+
+Package: rstanarm
+Version: 2.32.1
+Depends: R (>= 3.4.0), Rcpp (>= 0.12.0), methods, R (>= 4.3), R (< 4.3.99)
+Imports: bayesplot (>= 1.7.0), ggplot2 (>= 2.2.1), lme4 (>= 1.1-8), loo (>= 2.1.0), Matrix (>= 1.2-13), nlme (>= 3.1-124), posterior, rstan (>= 2.32.0), rstantools (>= 2.1.0), shinystan (>= 2.3.0),
+        stats, survival (>= 2.40.1), RcppParallel (>= 5.0.1), utils
+Suggests: biglm, betareg, data.table (>= 1.10.0), digest, gridExtra, HSAUR3, knitr (>= 1.15.1), MASS, mgcv (>= 1.8-13), rmarkdown, roxygen2, StanHeaders (>= 2.21.0), testthat (>= 1.0.2), gamm4,
+        shiny, V8
+License: GPL (>= 3)
+File: rstanarm_2.32.1_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/rstanarm/releases/download/2.32.1/rstanarm_2.32.1_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.3.2; aarch64-unknown-linux-gnu; 2024-03-19 20:06:05 UTC; unix
+Filesize: 135528925
+SHA256: 4beecdd0fc52f7a5b143f6419f4515e8f30fca37c55d0414e3d084d87443619e
+RVersion: 4.3
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, pandoc (>= 1.12.3), pandoc-citeproc
+LinkingTo: StanHeaders (>= 2.32.0), rstan (>= 2.32.0), BH (>= 1.72.0-2), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0), RcppParallel (>= 5.0.1)
+
+Package: rstantools
+Version: 2.4.0
+Depends: R (>= 4.3), R (< 4.3.99)
+Imports: desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1)
+Suggests: rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0), knitr, pkgbuild, pkgload, roxygen2 (>= 6.0.1), rmarkdown, rstudioapi
+License: GPL (>= 3)
+File: rstantools_2.4.0_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/rstantools/releases/download/2.4.0/rstantools_2.4.0_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.3.2; ; 2024-03-19 20:01:46 UTC; unix
+Filesize: 166528
+SHA256: 4c2e60cf3f45bbb5486e410962e99b67790ff04eaae723d3a28c113d7c51f6d3
+RVersion: 4.3
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc, C++14
+
+Package: shinyjs
+Version: 2.1.0
+Depends: R (>= 3.1.0), R (>= 4.3), R (< 4.3.99)
+Imports: digest (>= 0.6.8), jsonlite, shiny (>= 1.0.0)
+Suggests: htmltools (>= 0.2.9), knitr (>= 1.7), rmarkdown, shinyAce, shinydisconnect, testthat (>= 0.9.1)
+License: MIT + file LICENSE
+File: shinyjs_2.1.0_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/shinyjs/releases/download/2.1.0/shinyjs_2.1.0_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.3.2; ; 2024-03-19 20:01:14 UTC; unix
+Filesize: 1085020
+SHA256: f980a3f3b55c39baeb0be0c59d786bc0956f6da3f5749c53955b33a0b0edfa72
+RVersion: 4.3
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: shinystan
+Version: 2.6.0
+Depends: R (>= 3.1.0), shiny (>= 1.0.3), R (>= 4.3), R (< 4.3.99)
+Imports: bayesplot (>= 1.5.0), colourpicker, DT (>= 0.2), dygraphs (>= 1.1.1.2), ggplot2 (>= 2.1.1), gridExtra, gtools, markdown (>= 0.7.4), methods, reshape2, rstan (>= 2.17.1), stats, shinyjs (>=
+        0.6.0), shinythemes (>= 1.0.1), threejs (>= 0.2.1), utils, xtable, xts (>= 0.9-7)
+Suggests: cmdstanr (>= 0.4.0), coda, knitr (>= 1.9), posterior (>= 1.0.0), rmarkdown (>= 0.8.1), rsconnect (>= 0.4.2), rstanarm (>= 2.17.4), testthat
+License: GPL (>= 3)
+File: shinystan_2.6.0_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/shinystan/releases/download/2.6.0/shinystan_2.6.0_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.3.2; ; 2024-03-19 20:05:52 UTC; unix
+Filesize: 1337068
+SHA256: fcfd79c65543d1e87984918c529f01b84a2a9192a3ab595daa6049e38c75c444
+RVersion: 4.3
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: shinythemes
+Version: 1.2.0
+Depends: R (>= 3.0.0), R (>= 4.3), R (< 4.3.99)
+Imports: shiny (>= 0.11)
+License: GPL-3 | file LICENSE
+File: shinythemes_1.2.0_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/shinythemes/releases/download/1.2.0/shinythemes_1.2.0_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.3.2; ; 2024-03-19 20:01:15 UTC; unix
+Filesize: 963828
+SHA256: 6385c776e67ae35779c2d6e2240d64f5f1214a43d65c0285af0ae5a086be6935
+RVersion: 4.3
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: StanHeaders
+Version: 2.32.6
+Depends: R (>= 3.6.0), R (>= 4.3), R (< 4.3.99)
+Imports: RcppParallel (>= 5.1.4)
+Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix, methods, rstan, withr
+License: BSD_3_clause + file LICENSE
+File: StanHeaders_2.32.6_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/StanHeaders/releases/download/2.32.6/StanHeaders_2.32.6_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.3.2; aarch64-unknown-linux-gnu; 2024-03-19 20:01:51 UTC; unix
+Filesize: 3100982
+SHA256: 21517421f27f5185f8336b127faf85545b0e69b49e602e4b56be4f0364a707b1
+RVersion: 4.3
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, pandoc
+LinkingTo: RcppEigen (>= 0.3.4.0.0), RcppParallel (>= 5.1.4)
+
+Package: tensorA
+Version: 0.36.2.1
+Depends: R (>= 2.2.0), stats, R (>= 4.3), R (< 4.3.99)
+License: GPL (>= 2)
+File: tensorA_0.36.2.1_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/tensorA/releases/download/0.36.2.1/tensorA_0.36.2.1_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.3.2; aarch64-unknown-linux-gnu; 2024-03-19 19:27:29 UTC; unix
+Filesize: 221380
+SHA256: c1eed21079cfbfd93aafdc89adee7d0a88abcee6d64f04f82193ffbf58ca09f8
+RVersion: 4.3
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: threejs
+Version: 0.3.3
+Depends: R (>= 3.0.0), igraph (>= 1.0.0), R (>= 4.3), R (< 4.3.99)
+Imports: htmlwidgets (>= 0.3.2), base64enc, crosstalk, methods, stats
+Suggests: maps
+Enhances: knitr, shiny
+License: MIT + file LICENSE
+File: threejs_0.3.3_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/threejs/releases/download/0.3.3/threejs_0.3.3_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.3.2; ; 2024-03-19 20:01:43 UTC; unix
+Filesize: 943093
+SHA256: 7e9eda02c4e996ed1cbb01a8f656786f819bd86c5c2b812e7f5e43aa9939a3ad
+RVersion: 4.3
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: xts
+Version: 0.13.2
+Depends: R (>= 3.6.0), zoo (>= 1.7-12), R (>= 4.3), R (< 4.3.99)
+Imports: methods
+Suggests: timeSeries, timeDate, tseries, chron, tinytest
+License: GPL (>= 2)
+File: xts_0.13.2_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/xts/releases/download/0.13.2/xts_0.13.2_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.3.2; aarch64-unknown-linux-gnu; 2024-03-19 20:01:30 UTC; unix
+Filesize: 925620
+SHA256: 9eb90669902137cdf8c6dfe2f3dc4ffb366f77e4df0cc42c32ed065d6317e768
+RVersion: 4.3
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: zoo
+
+Package: plogr
+Version: 0.2.0
+Depends: R (>= 4.3), R (< 4.3.99)
+Suggests: Rcpp
+License: MIT + file LICENSE
+File: plogr_0.2.0_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/plogr/releases/download/0.2.0/plogr_0.2.0_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.3.2; ; 2024-03-19 19:27:31 UTC; unix
+Filesize: 13377
+SHA256: bf84f658869b7646e4497c0c9da96e02173d9bfab703cfbad0ee582929bc00e1
+RVersion: 4.3
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: RSQLite
+Version: 2.3.5
+Depends: R (>= 3.1.0), R (>= 4.3), R (< 4.3.99)
+Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
+Suggests: callr, DBItest (>= 1.8.0), gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
+License: LGPL (>= 2.1)
+File: RSQLite_2.3.5_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/RSQLite/releases/download/2.3.5/RSQLite_2.3.5_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.3.2; aarch64-unknown-linux-gnu; 2024-03-19 20:11:44 UTC; unix
+Filesize: 5158640
+SHA256: 9463b8b19ba5f7fd7d86688b925e7e682065335c5033b9ffd6afcbbfd4783cc0
+RVersion: 4.3
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
+
+Package: tripack
+Version: 1.3-9.1
+Depends: R (>= 4.3), R (< 4.3.99)
+License: ACM | file LICENSE
+File: tripack_1.3-9.1_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/tripack/releases/download/1.3-9.1/tripack_1.3-9.1_b1_R4.3_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.3.2; aarch64-unknown-linux-gnu; 2024-03-19 19:27:32 UTC; unix
+Filesize: 246066
+SHA256: 10286b681dd865de37fbf1f58f590b3913c33129270c9c3ee34b9a1010885889
+RVersion: 4.3
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
