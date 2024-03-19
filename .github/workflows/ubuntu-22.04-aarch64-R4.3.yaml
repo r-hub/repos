@@ -6,7 +6,7 @@ on:
 
 jobs:
   update:
-    runs-on: [linux-arm64]
+    runs-on: [ARM64]
     container: ghcr.io/r-lib/rig/ubuntu-22.04-release
     steps:
     - uses: actions/checkout@v3
