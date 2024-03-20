@@ -12,6 +12,7 @@ jobs:
     steps:
     - name: Check Distro and R version
       run: |
+        #
         readRenviron("/etc/os-release")
         if (Sys.getenv("ID") != "fedora") stop("Not Fedora")
         if (Sys.getenv("VERSION_ID") != "38") stop("Not Fedora 38")
