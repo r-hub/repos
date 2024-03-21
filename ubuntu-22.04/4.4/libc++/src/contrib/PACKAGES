@@ -1175,23 +1175,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: setRNG
 
-Package: workflowsets
-Version: 1.0.1
-Depends: R (>= 3.5), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: workflowsets_1.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/workflowsets/releases/download/1.0.1/workflowsets_1.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.4.0; ; 2023-06-23 10:31:38 UTC; unix
-Filesize: 2820798
-SHA256: de4f1960414cd837c89cdb80d29a2235a7cfa428642ed83147dc127d3ae6d166
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, dials (>= 0.1.0), finetune, kknn, knitr, modeldata, recipes (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tidyclust, yardstick (>= 1.0.0)
-Imports: cli, dplyr (>= 1.0.0), generics (>= 0.1.2), ggplot2, glue, hardhat (>= 1.2.0), lifecycle (>= 1.0.0), parsnip (>= 1.0.0), pillar (>= 1.7.0), prettyunits, purrr, rlang, rsample (>= 0.0.9),
-        stats, tibble (>= 3.1.0), tidyr, tune (>= 1.1.0), vctrs, withr, workflows (>= 1.0.0)
-
 Package: proxy
 Version: 0.4-27
 Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
@@ -2002,24 +1985,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: broom, covr, ggplot2, knitr, modeldata, recipes (>= 0.1.4), rmarkdown, stats, testthat (>= 3.0.0), utils, whisker, withr, xml2
 Imports: cli, dplyr (>= 1.1.1), furrr, generics, glue, lifecycle, methods, pillar, purrr (>= 1.0.0), rlang (>= 0.4.10), slider (>= 0.1.5), tibble, tidyr, tidyselect, vctrs (>= 0.5.0)
-
-Package: tune
-Version: 1.1.2
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: tune_1.1.2_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/tune/releases/download/1.1.2/tune_1.1.2_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.4.0; ; 2023-08-24 17:00:17 UTC; unix
-Filesize: 1679399
-SHA256: 21d3621b48ba6f6036af5db1f1d4770a74d8796778736d6164ca5f001ea25abd
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: C50, covr, kernlab, kknn, knitr, modeldata, spelling, testthat (>= 3.0.0), xgboost, xml2
-Imports: cli (>= 3.3.0), dials (>= 1.0.0), dplyr (>= 1.0.8), foreach, generics (>= 0.1.2), ggplot2, glue (>= 1.6.2), GPfit, hardhat (>= 1.2.0), lifecycle (>= 1.0.0), parsnip (>= 1.0.2), purrr (>=
-        1.0.0), recipes (>= 1.0.4), rlang (>= 1.0.2), rsample (>= 1.2.0), tibble (>= 3.1.0), tidyr (>= 1.2.0), tidyselect (>= 1.1.2), vctrs (>= 0.6.1), withr, workflows (>= 1.0.0), yardstick (>=
-        1.0.0)
 
 Package: tidymodels
 Version: 1.1.1
@@ -4807,3 +4772,54 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: bit64, covr, knitr, Lahman, nycflights13, odbc (>= 1.4.2), RMariaDB (>= 1.2.2), rmarkdown, RPostgres (>= 1.4.5), RPostgreSQL, RSQLite (>= 2.3.1), testthat (>= 3.1.10)
 Imports: blob (>= 1.2.0), cli (>= 3.6.1), DBI (>= 1.1.3), dplyr (>= 1.1.2), glue (>= 1.6.2), lifecycle (>= 1.0.3), magrittr, methods, pillar (>= 1.9.0), purrr (>= 1.0.1), R6 (>= 2.2.2), rlang (>=
         1.1.1), tibble (>= 3.2.1), tidyr (>= 1.3.0), tidyselect (>= 1.2.1), utils, vctrs (>= 0.6.3), withr (>= 2.5.0)
+
+Package: doFuture
+Version: 1.0.1
+Depends: foreach (>= 1.5.0), future (>= 1.32.0), R (>= 4.4), R (< 4.4.99)
+License: LGPL (>= 2.1)
+File: doFuture_1.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/doFuture/releases/download/1.0.1/doFuture_1.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.4.0; ; 2024-03-21 16:59:58 UTC; unix
+Filesize: 129912
+SHA256: b1ae280db1eaa59748fc0f93bf85419d07e0c673696f512986e323fbcae39aea
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: doRNG (>= 1.8.2), markdown, R.rsp
+Imports: future.apply, globals, iterators, parallel, utils
+
+Package: workflowsets
+Version: 1.1.0
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: workflowsets_1.1.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/workflowsets/releases/download/1.1.0/workflowsets_1.1.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.4.0; ; 2024-03-21 17:00:10 UTC; unix
+Filesize: 2833944
+SHA256: 982f0a8c95cc3f152888bccf75eaa57bab519c9e5f4cf67e0542399b66d502d8
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, dials (>= 0.1.0), finetune, kknn, knitr, modeldata, recipes (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tidyclust, yardstick (>= 1.3.0)
+Imports: cli, dplyr (>= 1.0.0), generics (>= 0.1.2), ggplot2, glue, hardhat (>= 1.2.0), lifecycle (>= 1.0.0), parsnip (>= 1.2.0), pillar (>= 1.7.0), prettyunits, purrr, rlang (>= 1.1.0), rsample (>=
+        0.0.9), stats, tibble (>= 3.1.0), tidyr, tune (>= 1.2.0), vctrs, withr, workflows (>= 1.1.4)
+
+Package: tune
+Version: 1.2.0
+Depends: R (>= 4.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: tune_1.2.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/tune/releases/download/1.2.0/tune_1.2.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.4.0; ; 2024-03-21 17:00:01 UTC; unix
+Filesize: 1964201
+SHA256: 2e918b93b9b498dc82148189c285ad5009fbf862338c23de85a29d4facaa2b8b
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: C50, censored (>= 0.3.0), covr, kernlab, kknn, knitr, modeldata, scales, spelling, testthat (>= 3.0.0), xgboost, xml2
+Imports: cli (>= 3.3.0), dials (>= 1.0.0), doFuture (>= 1.0.0), dplyr (>= 1.1.0), foreach, future (>= 1.33.0), generics (>= 0.1.2), ggplot2, glue (>= 1.6.2), GPfit, hardhat (>= 1.2.0), lifecycle (>=
+        1.0.0), parsnip (>= 1.2.0), purrr (>= 1.0.0), recipes (>= 1.0.4), rlang (>= 1.1.0), rsample (>= 1.2.0), tibble (>= 3.1.0), tidyr (>= 1.2.0), tidyselect (>= 1.1.2), vctrs (>= 0.6.1), withr,
+        workflows (>= 1.1.4), yardstick (>= 1.3.0)
