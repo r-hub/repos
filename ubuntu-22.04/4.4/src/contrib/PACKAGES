@@ -1275,23 +1275,6 @@ File: SQUAREM_2021.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: workflowsets
-Version: 1.0.1
-Depends: R (>= 3.5), R (>= 4.4), R (< 4.4.99)
-Suggests: covr, dials (>= 0.1.0), finetune, kknn, knitr, modeldata, recipes (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tidyclust, yardstick (>= 1.0.0)
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/workflowsets/releases/download/1.0.1/workflowsets_1.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-06-21 09:48:03 UTC; unix
-Filesize: 2820437
-SHA256: 682abe06d06d8e7846ba390ed67aba760f5e91dafb38bec856548796a600c7af
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: workflowsets_1.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Imports: cli, dplyr (>= 1.0.0), generics (>= 0.1.2), ggplot2, glue, hardhat (>= 1.2.0), lifecycle (>= 1.0.0), parsnip (>= 1.0.0), pillar (>= 1.7.0), prettyunits, purrr, rlang, rsample (>= 0.0.9),
-        stats, tibble (>= 3.1.0), tidyr, tune (>= 1.1.0), vctrs, withr, workflows (>= 1.0.0)
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: Formula
 Version: 1.2-5
 Depends: R (>= 2.0.0), stats, R (>= 4.4), R (< 4.4.99)
@@ -2060,24 +2043,6 @@ RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: rsample_1.2.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Imports: cli, dplyr (>= 1.1.1), furrr, generics, glue, lifecycle, methods, pillar, purrr (>= 1.0.0), rlang (>= 0.4.10), slider (>= 0.1.5), tibble, tidyr, tidyselect, vctrs (>= 0.5.0)
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: tune
-Version: 1.1.2
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-Suggests: C50, covr, kernlab, kknn, knitr, modeldata, spelling, testthat (>= 3.0.0), xgboost, xml2
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/tune/releases/download/1.1.2/tune_1.1.2_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-08-24 16:36:33 UTC; unix
-Filesize: 1678077
-SHA256: ec9c5739cb593cccfaaf7e5dbf24246807e692fcc010ce9758f99e811b1010e3
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: tune_1.1.2_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Imports: cli (>= 3.3.0), dials (>= 1.0.0), dplyr (>= 1.0.8), foreach, generics (>= 0.1.2), ggplot2, glue (>= 1.6.2), GPfit, hardhat (>= 1.2.0), lifecycle (>= 1.0.0), parsnip (>= 1.0.2), purrr (>=
-        1.0.0), recipes (>= 1.0.4), rlang (>= 1.0.2), rsample (>= 1.2.0), tibble (>= 3.1.0), tidyr (>= 1.2.0), tidyselect (>= 1.1.2), vctrs (>= 0.6.1), withr, workflows (>= 1.0.0), yardstick (>=
-        1.0.0)
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
@@ -4905,5 +4870,56 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: dbplyr_2.5.0_b5_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Imports: blob (>= 1.2.0), cli (>= 3.6.1), DBI (>= 1.1.3), dplyr (>= 1.1.2), glue (>= 1.6.2), lifecycle (>= 1.0.3), magrittr, methods, pillar (>= 1.9.0), purrr (>= 1.0.1), R6 (>= 2.2.2), rlang (>=
         1.1.1), tibble (>= 3.2.1), tidyr (>= 1.3.0), tidyselect (>= 1.2.1), utils, vctrs (>= 0.6.3), withr (>= 2.5.0)
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: doFuture
+Version: 1.0.1
+Depends: foreach (>= 1.5.0), future (>= 1.32.0), R (>= 4.4), R (< 4.4.99)
+Suggests: doRNG (>= 1.8.2), markdown, R.rsp
+License: LGPL (>= 2.1)
+DownloadURL: https://github.com/cran/doFuture/releases/download/1.0.1/doFuture_1.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2024-03-21 16:38:32 UTC; unix
+Filesize: 130873
+SHA256: 6ce40fe27d4b5141c1bc987823760a890fbd4913a55009567f0b76d008ad5f87
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: doFuture_1.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: future.apply, globals, iterators, parallel, utils
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: workflowsets
+Version: 1.1.0
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+Suggests: covr, dials (>= 0.1.0), finetune, kknn, knitr, modeldata, recipes (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tidyclust, yardstick (>= 1.3.0)
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/workflowsets/releases/download/1.1.0/workflowsets_1.1.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2024-03-21 16:38:43 UTC; unix
+Filesize: 2842904
+SHA256: 6082d85e26da4779eef0eb48a26be24b45896a422c20da9d06e0e43fb6677743
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: workflowsets_1.1.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: cli, dplyr (>= 1.0.0), generics (>= 0.1.2), ggplot2, glue, hardhat (>= 1.2.0), lifecycle (>= 1.0.0), parsnip (>= 1.2.0), pillar (>= 1.7.0), prettyunits, purrr, rlang (>= 1.1.0), rsample (>=
+        0.0.9), stats, tibble (>= 3.1.0), tidyr, tune (>= 1.2.0), vctrs, withr, workflows (>= 1.1.4)
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: tune
+Version: 1.2.0
+Depends: R (>= 4.0), R (>= 4.4), R (< 4.4.99)
+Suggests: C50, censored (>= 0.3.0), covr, kernlab, kknn, knitr, modeldata, scales, spelling, testthat (>= 3.0.0), xgboost, xml2
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/tune/releases/download/1.2.0/tune_1.2.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2024-03-21 16:38:34 UTC; unix
+Filesize: 1972671
+SHA256: b6c2d3e7926480fb9cf42eeac1b96725f2053b40094fe51108164a06b66c6c91
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: tune_1.2.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: cli (>= 3.3.0), dials (>= 1.0.0), doFuture (>= 1.0.0), dplyr (>= 1.1.0), foreach, future (>= 1.33.0), generics (>= 0.1.2), ggplot2, glue (>= 1.6.2), GPfit, hardhat (>= 1.2.0), lifecycle (>=
+        1.0.0), parsnip (>= 1.2.0), purrr (>= 1.0.0), recipes (>= 1.0.4), rlang (>= 1.1.0), rsample (>= 1.2.0), tibble (>= 3.1.0), tidyr (>= 1.2.0), tidyselect (>= 1.1.2), vctrs (>= 0.6.1), withr,
+        workflows (>= 1.1.4), yardstick (>= 1.3.0)
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
