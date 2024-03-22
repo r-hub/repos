@@ -2731,22 +2731,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat (>= 3.0.0), vctrs (>= 0.3.0), sf, tibble, readr
 
-Package: bslib
-Version: 0.6.1
-Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: bslib_0.6.1_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/bslib/releases/download/0.6.1/bslib_0.6.1_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-11-29 17:16:40 UTC; unix
-Filesize: 6241824
-SHA256: 3a2809dd6dfb8d6e585de3bb15e3216afe68b947b904536776081ec3a4d69666
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bsicons, curl, fontawesome, ggplot2, knitr, magrittr, rappdirs, rmarkdown (>= 2.7), shiny (>= 1.8.0), testthat, thematic, withr
-Imports: base64enc, cachem, grDevices, htmltools (>= 0.5.7), jquerylib (>= 0.1.3), jsonlite, lifecycle, memoise (>= 2.0.1), mime, rlang, sass (>= 0.4.0)
-
 Package: cpp11
 Version: 0.4.7
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -3541,24 +3525,6 @@ Imports: bayesplot (>= 1.7.0), ggplot2 (>= 2.2.1), lme4 (>= 1.1-8), loo (>= 2.1.
         stats, survival (>= 2.40.1), RcppParallel (>= 5.0.1), utils
 SystemRequirements: GNU make, pandoc (>= 1.12.3), pandoc-citeproc
 LinkingTo: StanHeaders (>= 2.32.0), rstan (>= 2.32.0), BH (>= 1.72.0-2), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0), RcppParallel (>= 5.0.1)
-
-Package: yardstick
-Version: 1.3.0
-Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: yardstick_1.3.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/yardstick/releases/download/1.3.0/yardstick_1.3.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-01-20 17:15:53 UTC; unix
-Filesize: 1135779
-SHA256: 5c4826b1bc39c9f81ccb31d6aeaa8f29bc1f1284e8fc8795860136012ef0f072
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, crayon, ggplot2, knitr, probably (>= 1.0.0), rmarkdown, survival (>= 3.5-0), testthat (>= 3.0.0), tidyr
-Imports: cli, dplyr (>= 1.1.0), generics (>= 0.1.2), hardhat (>= 1.3.0), lifecycle (>= 1.0.3), rlang (>= 1.1.0), tibble, tidyselect (>= 1.2.0), utils, vctrs (>= 0.5.0), withr
 
 Package: xts
 Version: 0.13.2
@@ -4789,3 +4755,37 @@ Suggests: C50, censored (>= 0.3.0), covr, kernlab, kknn, knitr, modeldata, scale
 Imports: cli (>= 3.3.0), dials (>= 1.0.0), doFuture (>= 1.0.0), dplyr (>= 1.1.0), foreach, future (>= 1.33.0), generics (>= 0.1.2), ggplot2, glue (>= 1.6.2), GPfit, hardhat (>= 1.2.0), lifecycle (>=
         1.0.0), parsnip (>= 1.2.0), purrr (>= 1.0.0), recipes (>= 1.0.4), rlang (>= 1.1.0), rsample (>= 1.2.0), tibble (>= 3.1.0), tidyr (>= 1.2.0), tidyselect (>= 1.1.2), vctrs (>= 0.6.1), withr,
         workflows (>= 1.1.4), yardstick (>= 1.3.0)
+
+Package: bslib
+Version: 0.6.2
+Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: bslib_0.6.2_b5_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/bslib/releases/download/0.6.2/bslib_0.6.2_b5_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2024-03-22 17:15:17 UTC; unix
+Filesize: 6248782
+SHA256: 6cbb9023f4b8d8c2ade9f793b0b87b16b060f3db97b48dceb720738c6c425626
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bsicons, curl, fontawesome, ggplot2, knitr, magrittr, rappdirs, rmarkdown (>= 2.7), shiny (>= 1.8.0), testthat, thematic, withr
+Imports: base64enc, cachem, grDevices, htmltools (>= 0.5.7), jquerylib (>= 0.1.3), jsonlite, lifecycle, memoise (>= 2.0.1), mime, rlang, sass (>= 0.4.9)
+
+Package: yardstick
+Version: 1.3.1
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: yardstick_1.3.1_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/yardstick/releases/download/1.3.1/yardstick_1.3.1_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-03-22 17:15:19 UTC; unix
+Filesize: 1136487
+SHA256: 6a0831095c115caa4dbb22f906fa235298d36e126bbff21e3c290f6370e2ecf2
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, crayon, ggplot2, knitr, probably (>= 1.0.0), rmarkdown, survival (>= 3.5-0), testthat (>= 3.0.0), tidyr
+Imports: cli, dplyr (>= 1.1.0), generics (>= 0.1.2), hardhat (>= 1.3.0), lifecycle (>= 1.0.3), rlang (>= 1.1.0), tibble, tidyselect (>= 1.2.0), utils, vctrs (>= 0.5.0), withr
