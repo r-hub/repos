@@ -1728,21 +1728,6 @@ Suggests: covr, knitr, rmarkdown, testthat (>= 3.1.6), withr
 Imports: cellranger, tibble (>= 2.0.1), utils
 LinkingTo: cpp11 (>= 0.4.0), progress
 
-Package: rstudioapi
-Version: 0.15.0
-Depends: R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: rstudioapi_0.15.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/rstudioapi/releases/download/0.15.0/rstudioapi_0.15.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-07-08 17:16:55 UTC; unix
-Filesize: 330544
-SHA256: 1e8a22efcf3e356bdd7e29c3a76ca72d347f2b07e52ed9c0a379102e26e9b634
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testthat, knitr, rmarkdown, clipr, covr
-
 Package: fs
 Version: 1.6.3
 Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
@@ -4789,3 +4774,18 @@ Suggests: C50, bench, covr, dials (>= 1.1.0), earth, ggrepel, keras, kernlab, kk
         sparklyr (>= 1.0.0), survival, tensorflow, testthat (>= 3.0.0), xgboost (>= 1.5.0.1)
 Imports: cli, dplyr (>= 1.1.0), generics (>= 0.1.2), ggplot2, globals, glue, hardhat (>= 1.1.0), lifecycle, magrittr, pillar, prettyunits, purrr (>= 1.0.0), rlang (>= 0.3.1), stats, tibble (>=
         2.1.1), tidyr (>= 1.3.0), utils, vctrs (>= 0.6.0), withr
+
+Package: rstudioapi
+Version: 0.16.0
+Depends: R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: rstudioapi_0.16.0_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/rstudioapi/releases/download/0.16.0/rstudioapi_0.16.0_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2024-03-24 17:15:13 UTC; unix
+Filesize: 344714
+SHA256: e0050ed0bff9f0b9b52a9cc5c6d0f5971d2f01f733cd835ec12efb16b92a8fce
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat, knitr, rmarkdown, clipr, covr
