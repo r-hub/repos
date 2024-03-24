@@ -1235,21 +1235,6 @@ OS: darwin
 Arch: amd64
 LinkingTo: cpp11
 
-Package: rstudioapi
-Version: 0.15.0
-Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: testthat, knitr, rmarkdown, clipr, covr
-License: MIT + file LICENSE
-File: rstudioapi_0.15.0_b1_R4.4_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/rstudioapi/releases/download/0.15.0/rstudioapi_0.15.0_b1_R4.4_x86_64-apple-darwin20.tgz
-Built: R 4.4.0; ; 2024-01-22 04:38:27 UTC; unix
-Filesize: 305728
-SHA256: 3dcc1e56386baa49ffac44db42d2d75932ca8190b4d66d0d5aa7b4d97bb37420
-RVersion: 4.4
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: rversions
 Version: 2.1.2
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -4722,3 +4707,18 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli, dplyr (>= 1.1.0), generics (>= 0.1.2), ggplot2, globals, glue, hardhat (>= 1.1.0), lifecycle, magrittr, pillar, prettyunits, purrr (>= 1.0.0), rlang (>= 0.3.1), stats, tibble (>=
         2.1.1), tidyr (>= 1.3.0), utils, vctrs (>= 0.6.0), withr
+
+Package: rstudioapi
+Version: 0.16.0
+Depends: R (>= 4.4), R (< 4.4.99)
+Suggests: testthat, knitr, rmarkdown, clipr, covr
+License: MIT + file LICENSE
+File: rstudioapi_0.16.0_b2_R4.4_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/rstudioapi/releases/download/0.16.0/rstudioapi_0.16.0_b2_R4.4_x86_64-apple-darwin20.tgz
+Built: R 4.4.0; ; 2024-03-24 17:33:13 UTC; unix
+Filesize: 313641
+SHA256: 04251159ed4a58e586d4323f4b6affc5367d0ac942532433d696331e2770c346
+RVersion: 4.4
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
