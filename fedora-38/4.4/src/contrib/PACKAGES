@@ -1919,22 +1919,6 @@ Imports: methods, utils, foreach, shape, survival, Rcpp
 SystemRequirements: C++17
 LinkingTo: RcppEigen, Rcpp
 
-Package: rsample
-Version: 1.2.0
-Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: rsample_1.2.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/rsample/releases/download/1.2.0/rsample_1.2.0_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2023-08-23 17:14:22 UTC; unix
-Filesize: 553117
-SHA256: 1ae55268e4ca9f5d375748d0426dc08674671bf27c683b3ef129ffef9169c99d
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: broom, covr, ggplot2, knitr, modeldata, recipes (>= 0.1.4), rmarkdown, stats, testthat (>= 3.0.0), utils, whisker, withr, xml2
-Imports: cli, dplyr (>= 1.1.1), furrr, generics, glue, lifecycle, methods, pillar, purrr (>= 1.0.0), rlang (>= 0.4.10), slider (>= 0.1.5), tibble, tidyr, tidyselect, vctrs (>= 0.5.0)
-
 Package: tidymodels
 Version: 1.1.1
 Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
@@ -3188,28 +3172,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
 Imports: methods, utils
 
-Package: sf
-Version: 1.0-15
-Depends: methods, R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
-License: GPL-2 | MIT + file LICENSE
-File: sf_1.0-15_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/sf/releases/download/1.0-15/sf_1.0-15_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-01-09 17:25:27 UTC; unix
-Filesize: 8851711
-SHA256: a1ac1028088853ae8319aee3314ad504718f2a45ec0f9781a744de12f09b07a9
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: blob, nanoarrow, covr, dplyr (>= 0.8-3), ggplot2, knitr, lwgeom (>= 0.2-1), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>=
-        1.1.0), RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.2-0), terra, testthat (>= 3.0.0), tibble (>=
-        1.4.1), tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk (>= 0.9.0)
-Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, Rcpp (>= 0.12.18), s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
-SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
-LinkingTo: Rcpp
-
 Package: patchwork
 Version: 1.2.0
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -3909,24 +3871,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat (>= 2.1.0), covr, mvtnorm, actuar (>= 2.0.0), ggdist, ggplot2
 Imports: vctrs (>= 0.3.0), rlang (>= 0.4.5), generics, stats, numDeriv, utils, lifecycle
 
-Package: xfun
-Version: 0.42
-Depends: R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: xfun_0.42_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/xfun/releases/download/0.42/xfun_0.42_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-09 17:15:32 UTC; unix
-Filesize: 523981
-SHA256: 722732da87aad18f99c7f586b881dd6464c48999f836128972a5eae294c6b64a
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testit, parallel, codetools, rstudioapi, tinytex (>= 0.30), mime, markdown (>= 1.5), knitr (>= 1.42), htmltools, remotes, pak, rhub, renv, curl, jsonlite, magick, yaml, rmarkdown
-Imports: grDevices, stats, tools
-
 Package: rvest
 Version: 1.0.4
 Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
@@ -3975,22 +3919,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: arrow, blob, covr, DBItest, dbplyr, downlit, dplyr, glue, hms, knitr, magrittr, nanoarrow (>= 0.3.0.1), RMariaDB, rmarkdown, rprojroot, RSQLite (>= 1.1-2), testthat (>= 3.0.0), vctrs, xml2
-
-Package: callr
-Version: 3.7.5
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: callr_3.7.5_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/callr/releases/download/3.7.5/callr_3.7.5_b2_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.4.0; ; 2024-02-23 11:06:31 UTC; unix
-Filesize: 461038
-SHA256: 5f7d192efdb3eaa87364efb296d36e752a9551b02b83ee82b09d2a123752465b
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: asciicast (>= 2.3.1), cli (>= 1.1.0), covr, mockery, ps, rprojroot, spelling, testthat (>= 3.2.0), withr (>= 2.3.0)
-Imports: processx (>= 3.6.1), R6, utils
 
 Package: dials
 Version: 1.2.1
@@ -4789,3 +4717,75 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat, knitr, rmarkdown, clipr, covr
+
+Package: rsample
+Version: 1.2.1
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: rsample_1.2.1_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/rsample/releases/download/1.2.1/rsample_1.2.1_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2024-03-25 17:17:38 UTC; unix
+Filesize: 552794
+SHA256: f168e4ca97255dd6ea0c29ba4587b34663d3f31af0d452041fe8f98068258b4a
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: broom, covr, ggplot2, knitr, modeldata, recipes (>= 0.1.4), rmarkdown, stats, testthat (>= 3.0.0), utils, whisker, withr, xml2
+Imports: cli, dplyr (>= 1.1.1), furrr, generics, glue, lifecycle, methods, pillar, purrr (>= 1.0.0), rlang (>= 0.4.10), slider (>= 0.1.5), tibble, tidyr, tidyselect, vctrs (>= 0.5.0)
+
+Package: sf
+Version: 1.0-16
+Depends: methods, R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
+License: GPL-2 | MIT + file LICENSE
+File: sf_1.0-16_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/sf/releases/download/1.0-16/sf_1.0-16_b4_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-03-25 17:17:44 UTC; unix
+Filesize: 8928033
+SHA256: 6bf4321adc7cba234a9a4a0133b457c5d23fcc85eda5e919ecbad349741ba28f
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: blob, nanoarrow, covr, dplyr (>= 1.0.0), ggplot2, knitr, lwgeom (>= 0.2-14), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>=
+        1.1.0), RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.2-0), terra, testthat (>= 3.0.0), tibble (>=
+        1.4.1), tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk (>= 0.9.0)
+Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, Rcpp (>= 0.12.18), s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
+SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
+LinkingTo: Rcpp
+
+Package: xfun
+Version: 0.43
+Depends: R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: xfun_0.43_b5_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/xfun/releases/download/0.43/xfun_0.43_b5_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-03-25 17:17:35 UTC; unix
+Filesize: 520460
+SHA256: 0e3588e420f684a90026a4ca5e2987b84a3c1cebb953c6e2d299812276ac6338
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testit, parallel, codetools, rstudioapi, tinytex (>= 0.30), mime, markdown (>= 1.5), knitr (>= 1.42), htmltools, remotes, pak, rhub, renv, curl, xml2, jsonlite, magick, yaml, rmarkdown
+Imports: grDevices, stats, tools
+
+Package: callr
+Version: 3.7.6
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: callr_3.7.6_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/callr/releases/download/3.7.6/callr_3.7.6_b3_R4.4_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.4.0; ; 2024-03-25 17:16:27 UTC; unix
+Filesize: 463570
+SHA256: 33f1d85fe214dc79e8b823c404eb03d3e28cc87bbcec560dd7b18e75465b65de
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: asciicast (>= 2.3.1), cli (>= 1.1.0), mockery, ps, rprojroot, spelling, testthat (>= 3.2.0), withr (>= 2.3.0)
+Imports: processx (>= 3.6.1), R6, utils
