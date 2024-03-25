@@ -1936,22 +1936,6 @@ Imports: methods, utils, foreach, shape, survival, Rcpp
 SystemRequirements: C++17
 LinkingTo: RcppEigen, Rcpp
 
-Package: rsample
-Version: 1.2.0
-Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: rsample_1.2.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/rsample/releases/download/1.2.0/rsample_1.2.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.4.0; ; 2023-08-23 16:59:43 UTC; unix
-Filesize: 519223
-SHA256: a1ab30bd0ef315659a1495969308d0dea391ca05aa6c69de1a72114f4e7c7577
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: broom, covr, ggplot2, knitr, modeldata, recipes (>= 0.1.4), rmarkdown, stats, testthat (>= 3.0.0), utils, whisker, withr, xml2
-Imports: cli, dplyr (>= 1.1.1), furrr, generics, glue, lifecycle, methods, pillar, purrr (>= 1.0.0), rlang (>= 0.4.10), slider (>= 0.1.5), tibble, tidyr, tidyselect, vctrs (>= 0.5.0)
-
 Package: tidymodels
 Version: 1.1.1
 Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
@@ -3440,28 +3424,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: bitops, covr, mathjaxr, mockr, pak, Rcpp, remotes, rstudioapi, testthat (>= 3.1.0)
 Imports: cli (>= 3.3.0), crayon, desc, fs, glue, methods, pkgbuild, rlang (>= 1.1.1), rprojroot, utils, withr (>= 2.4.3)
 
-Package: sf
-Version: 1.0-15
-Depends: methods, R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
-License: GPL-2 | MIT + file LICENSE
-File: sf_1.0-15_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/sf/releases/download/1.0-15/sf_1.0-15_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-11 12:08:55 UTC; unix
-Filesize: 3604174
-SHA256: 8af9daba6bebb388f8cb182ef7103d24ca8314e38c4fed211f67648810318e17
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: blob, nanoarrow, covr, dplyr (>= 0.8-3), ggplot2, knitr, lwgeom (>= 0.2-1), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>=
-        1.1.0), RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.2-0), terra, testthat (>= 3.0.0), tibble (>=
-        1.4.1), tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk (>= 0.9.0)
-Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, Rcpp (>= 0.12.18), s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
-SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
-LinkingTo: Rcpp
-
 Package: MatrixModels
 Version: 0.5-3
 Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
@@ -3990,22 +3952,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: arrow, blob, covr, DBItest, dbplyr, downlit, dplyr, glue, hms, knitr, magrittr, nanoarrow (>= 0.3.0.1), RMariaDB, rmarkdown, rprojroot, RSQLite (>= 1.1-2), testthat (>= 3.0.0), vctrs, xml2
-
-Package: callr
-Version: 3.7.5
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: callr_3.7.5_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/callr/releases/download/3.7.5/callr_3.7.5_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.4.0; ; 2024-02-23 12:06:21 UTC; unix
-Filesize: 441248
-SHA256: dc58289787597f63a5c7a038318003aa5241cda796de1b6cf05d30a27a626323
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: asciicast (>= 2.3.1), cli (>= 1.1.0), covr, mockery, ps, rprojroot, spelling, testthat (>= 3.2.0), withr (>= 2.3.0)
-Imports: processx (>= 3.6.1), R6, utils
 
 Package: dials
 Version: 1.2.1
@@ -4823,3 +4769,57 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat, knitr, rmarkdown, clipr, covr
+
+Package: rsample
+Version: 1.2.1
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: rsample_1.2.1_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/rsample/releases/download/1.2.1/rsample_1.2.1_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.4.0; ; 2024-03-25 17:00:44 UTC; unix
+Filesize: 527366
+SHA256: 6384a61d63df8aa00371010a34ad24fd9ee1ba9a2efa0242c2b04329b3cc06f7
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: broom, covr, ggplot2, knitr, modeldata, recipes (>= 0.1.4), rmarkdown, stats, testthat (>= 3.0.0), utils, whisker, withr, xml2
+Imports: cli, dplyr (>= 1.1.1), furrr, generics, glue, lifecycle, methods, pillar, purrr (>= 1.0.0), rlang (>= 0.4.10), slider (>= 0.1.5), tibble, tidyr, tidyselect, vctrs (>= 0.5.0)
+
+Package: sf
+Version: 1.0-16
+Depends: methods, R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
+License: GPL-2 | MIT + file LICENSE
+File: sf_1.0-16_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/sf/releases/download/1.0-16/sf_1.0-16_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-03-25 17:00:51 UTC; unix
+Filesize: 3626303
+SHA256: cb746d55e334dd88e6a75e73be5ea7144365273a80a5da77d08e37efcc7b692a
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: blob, nanoarrow, covr, dplyr (>= 1.0.0), ggplot2, knitr, lwgeom (>= 0.2-14), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>=
+        1.1.0), RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.2-0), terra, testthat (>= 3.0.0), tibble (>=
+        1.4.1), tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk (>= 0.9.0)
+Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, Rcpp (>= 0.12.18), s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
+SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
+LinkingTo: Rcpp
+
+Package: callr
+Version: 3.7.6
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: callr_3.7.6_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/callr/releases/download/3.7.6/callr_3.7.6_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.4.0; ; 2024-03-25 17:00:45 UTC; unix
+Filesize: 445853
+SHA256: c6499f8403d57707d0f9e1d973e132170f692d6e7c77fdcdfdfe70cb4b9c9333
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: asciicast (>= 2.3.1), cli (>= 1.1.0), mockery, ps, rprojroot, spelling, testthat (>= 3.2.0), withr (>= 2.3.0)
+Imports: processx (>= 3.6.1), R6, utils
