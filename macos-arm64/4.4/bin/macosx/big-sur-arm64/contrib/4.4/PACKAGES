@@ -49,22 +49,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: callr
-Version: 3.7.5
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-Imports: processx (>= 3.6.1), R6, utils
-Suggests: asciicast (>= 2.3.1), cli (>= 1.1.0), covr, mockery, ps, rprojroot, spelling, testthat (>= 3.2.0), withr (>= 2.3.0)
-License: MIT + file LICENSE
-File: callr_3.7.5_b1_R4.4_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/callr/releases/download/3.7.5/callr_3.7.5_b1_R4.4_aarch64-apple-darwin20.tgz
-Built: R 4.4.0; ; 2024-02-19 21:43:24 UTC; unix
-Filesize: 436294
-SHA256: ba32a70eaa96760bb11355a78ead94bfb90734a656e8391a1862728f74e6ba92
-RVersion: 4.4
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: cli
 Version: 3.6.2
 Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
@@ -2314,22 +2298,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: rsample
-Version: 1.2.0
-Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
-Imports: cli, dplyr (>= 1.1.1), furrr, generics, glue, lifecycle, methods, pillar, purrr (>= 1.0.0), rlang (>= 0.4.10), slider (>= 0.1.5), tibble, tidyr, tidyselect, vctrs (>= 0.5.0)
-Suggests: broom, covr, ggplot2, knitr, modeldata, recipes (>= 0.1.4), rmarkdown, stats, testthat (>= 3.0.0), utils, whisker, withr, xml2
-License: MIT + file LICENSE
-File: rsample_1.2.0_b1_R4.4_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/rsample/releases/download/1.2.0/rsample_1.2.0_b1_R4.4_aarch64-apple-darwin20.tgz
-Built: R 4.4.0; ; 2024-02-14 04:36:05 UTC; unix
-Filesize: 525780
-SHA256: da9da5dfba1fd78d09871a3bac0abbe642979028205cb6584e99e3c3fb8d8c4c
-RVersion: 4.4
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: scales
 Version: 1.3.0
 Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
@@ -3155,28 +3123,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: OpenSSL >= 1.0.1
 LinkingTo: Rcpp, wk
-
-Package: sf
-Version: 1.0-15
-Depends: methods, R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
-Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, Rcpp (>= 0.12.18), s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
-Suggests: blob, nanoarrow, covr, dplyr (>= 0.8-3), ggplot2, knitr, lwgeom (>= 0.2-1), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>=
-        1.1.0), RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.2-0), terra, testthat (>= 3.0.0), tibble (>=
-        1.4.1), tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk (>= 0.9.0)
-License: GPL-2 | MIT + file LICENSE
-File: sf_1.0-15_b1_R4.4_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/sf/releases/download/1.0-15/sf_1.0-15_b1_R4.4_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.4.0; aarch64-apple-darwin20; 2024-02-13 18:13:14 UTC; unix
-Filesize: 86837942
-SHA256: a36345f34ba377478332a6aa253327d675e9843eaddee581a0fb4343893dca98
-RVersion: 4.4
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
-LinkingTo: Rcpp
 
 Package: units
 Version: 0.8-5
@@ -4688,3 +4634,57 @@ RVersion: 4.4
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: callr
+Version: 3.7.6
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+Imports: processx (>= 3.6.1), R6, utils
+Suggests: asciicast (>= 2.3.1), cli (>= 1.1.0), mockery, ps, rprojroot, spelling, testthat (>= 3.2.0), withr (>= 2.3.0)
+License: MIT + file LICENSE
+File: callr_3.7.6_b2_R4.4_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/callr/releases/download/3.7.6/callr_3.7.6_b2_R4.4_aarch64-apple-darwin20.tgz
+Built: R 4.4.0; ; 2024-03-25 17:30:51 UTC; unix
+Filesize: 438404
+SHA256: e2c854b3167920c584a162050c97e894d8566ebc58f98520f03eb9ae800c5871
+RVersion: 4.4
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rsample
+Version: 1.2.1
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+Imports: cli, dplyr (>= 1.1.1), furrr, generics, glue, lifecycle, methods, pillar, purrr (>= 1.0.0), rlang (>= 0.4.10), slider (>= 0.1.5), tibble, tidyr, tidyselect, vctrs (>= 0.5.0)
+Suggests: broom, covr, ggplot2, knitr, modeldata, recipes (>= 0.1.4), rmarkdown, stats, testthat (>= 3.0.0), utils, whisker, withr, xml2
+License: MIT + file LICENSE
+File: rsample_1.2.1_b2_R4.4_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/rsample/releases/download/1.2.1/rsample_1.2.1_b2_R4.4_aarch64-apple-darwin20.tgz
+Built: R 4.4.0; ; 2024-03-25 17:30:55 UTC; unix
+Filesize: 525384
+SHA256: bbce3d2f88ed813c68d44f97466842ea3ef3e1fea12fda4be2f1db6076046ad5
+RVersion: 4.4
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: sf
+Version: 1.0-16
+Depends: methods, R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
+Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, Rcpp (>= 0.12.18), s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
+Suggests: blob, nanoarrow, covr, dplyr (>= 1.0.0), ggplot2, knitr, lwgeom (>= 0.2-14), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>=
+        1.1.0), RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.2-0), terra, testthat (>= 3.0.0), tibble (>=
+        1.4.1), tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk (>= 0.9.0)
+License: GPL-2 | MIT + file LICENSE
+File: sf_1.0-16_b2_R4.4_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/sf/releases/download/1.0-16/sf_1.0-16_b2_R4.4_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.4.0; aarch64-apple-darwin20; 2024-03-25 01:18:48 UTC; unix
+Filesize: 86885463
+SHA256: b9b679de4a8d7d99b8d7eaf18325ea9320cf4da452d1003f35a18e7dce5e344e
+RVersion: 4.4
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
+LinkingTo: Rcpp
