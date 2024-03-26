@@ -2015,24 +2015,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17
 LinkingTo: RcppEigen, Rcpp
 
-Package: tidymodels
-Version: 1.1.1
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-Suggests: covr, glue, knitr, rmarkdown, testthat (>= 3.0.0), xml2
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/tidymodels/releases/download/1.1.1/tidymodels_1.1.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-08-25 16:35:58 UTC; unix
-Filesize: 87779
-SHA256: aed8ff335542dcd6bab7c5f4b5154a5e3bfcd992f440d0249c0a9bf4fb9e30f0
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: tidymodels_1.1.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Imports: broom (>= 1.0.5), cli (>= 3.6.1), conflicted (>= 1.2.0), dials (>= 1.2.0), dplyr (>= 1.1.2), ggplot2 (>= 3.4.3), hardhat (>= 1.3.0), infer (>= 1.0.4), modeldata (>= 1.2.0), parsnip (>=
-        1.1.1), purrr (>= 1.0.2), recipes (>= 1.0.7), rlang (>= 1.1.1), rsample (>= 1.2.0), rstudioapi (>= 0.15.0), tibble (>= 3.2.1), tidyr (>= 1.3.0), tune (>= 1.1.2), workflows (>= 1.1.3),
-        workflowsets (>= 1.0.1), yardstick (>= 1.2.0)
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: prodlim
 Version: 2023.08.28
 Depends: R (>= 2.9.0), R (>= 4.4), R (< 4.4.99)
@@ -2476,25 +2458,6 @@ File: warp_0.2.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: htmltools
-Version: 0.5.7
-Depends: R (>= 2.14.1), R (>= 4.4), R (< 4.4.99)
-Suggests: Cairo, markdown, ragg, shiny, testthat, withr
-License: GPL (>= 2)
-DownloadURL: https://github.com/cran/htmltools/releases/download/0.5.7/htmltools_0.5.7_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-04 16:34:54 UTC; unix
-Filesize: 361211
-SHA256: 6dfd3f57bfdb751c37c6fd6bdc2914902f2529a1a4548bcfe761a41e8c771c6b
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: htmltools_0.5.7_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Imports: base64enc, digest, ellipsis, fastmap (>= 1.1.0), grDevices, rlang (>= 1.0.0), utils
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: knitr
-
 Package: rprojroot
 Version: 2.0.4
 Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
@@ -2675,23 +2638,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: dplyr_1.1.4_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Imports: cli (>= 3.4.0), generics, glue (>= 1.3.2), lifecycle (>= 1.0.3), magrittr (>= 1.5), methods, pillar (>= 1.9.0), R6, rlang (>= 1.1.0), tibble (>= 3.2.0), tidyselect (>= 1.2.0), utils, vctrs
         (>= 0.6.4)
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: shiny
-Version: 1.8.0
-Depends: R (>= 3.0.2), methods, R (>= 4.4), R (< 4.4.99)
-Suggests: datasets, Cairo (>= 1.5-5), testthat (>= 3.0.0), knitr (>= 1.6), markdown, rmarkdown, ggplot2, reactlog (>= 1.0.0), magrittr, yaml, future, dygraphs, ragg, showtext, sass
-License: GPL-3 | file LICENSE
-DownloadURL: https://github.com/cran/shiny/releases/download/1.8.0/shiny_1.8.0_b5_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2023-11-18 16:34:20 UTC; unix
-Filesize: 4496679
-SHA256: e62c72a29af14f65732de6ad2a46d478f43aba2ee3e4309dc7daeafa14d1028c
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: shiny_1.8.0_b5_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Imports: utils, grDevices, httpuv (>= 1.5.2), mime (>= 0.3), jsonlite (>= 0.9.16), xtable, fontawesome (>= 0.4.0), htmltools (>= 0.5.4), R6 (>= 2.0), sourcetools, later (>= 1.0.0), promises (>=
-        1.1.0), tools, crayon, rlang (>= 0.4.10), fastmap (>= 1.1.1), withr, commonmark (>= 1.7), glue (>= 1.3.2), bslib (>= 0.3.0), cachem, ellipsis, lifecycle (>= 0.2.0)
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
@@ -3751,22 +3697,6 @@ File: uuid_1.2-0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: infer
-Version: 1.0.6
-Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Suggests: covr, devtools (>= 1.12.0), fs, knitr, nycflights13, parsnip, rmarkdown, stringr, testthat (>= 3.0.0), vdiffr (>= 1.0.0)
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/infer/releases/download/1.0.6/infer_1.0.6_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2024-02-11 09:38:29 UTC; unix
-Filesize: 2121815
-SHA256: f026c167b24716397d6f07103d6579f6af4b768617809e36e05437f20ece3140
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: infer_1.0.6_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Imports: broom, cli, dplyr (>= 0.7.0), generics, ggplot2, glue (>= 1.3.0), grDevices, magrittr, methods, patchwork, purrr, rlang (>= 0.2.0), tibble, tidyr, vctrs
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: rstanarm
 Version: 2.32.1
 Depends: R (>= 3.4.0), Rcpp (>= 0.12.0), methods, R (>= 4.4), R (< 4.4.99)
@@ -3839,24 +3769,6 @@ Imports: graphics, grDevices,
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: xfun
-Version: 0.42
-Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: testit, parallel, codetools, rstudioapi, tinytex (>= 0.30), mime, markdown (>= 1.5), knitr (>= 1.42), htmltools, remotes, pak, rhub, renv, curl, jsonlite, magick, yaml, rmarkdown
-License: MIT + file LICENSE
-DownloadURL: https://github.com/cran/xfun/releases/download/0.42/xfun_0.42_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-11 09:35:33 UTC; unix
-Filesize: 487648
-SHA256: 3b3722b590dba3938c126d3dd0f29ba8c4de80137c5ac039dcf1f1dcbca3c3b7
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: xfun_0.42_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Imports: grDevices, stats, tools
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: sp
 Version: 2.1-3
 Depends: R (>= 3.5.0), methods, R (>= 4.4), R (< 4.4.99)
@@ -3892,26 +3804,6 @@ File: XML_3.99-0.16.1_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libxml2 (>= 2.6.3)
-
-Package: httpuv
-Version: 1.6.14
-Depends: R (>= 2.15.1), R (>= 4.4), R (< 4.4.99)
-Suggests: callr, curl, testthat, websocket
-License: GPL (>= 2) | file LICENSE
-DownloadURL: https://github.com/cran/httpuv/releases/download/1.6.14/httpuv_1.6.14_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-11 09:37:02 UTC; unix
-Filesize: 4515987
-SHA256: b27bffbc78cf3e36ae0e0e5b9a3416a581659ca5c26d5256271f946cb4f4c9ef
-RVersion: 4.4
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-File: httpuv_1.6.14_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Imports: later (>= 0.8.0), promises, R6, Rcpp (>= 1.0.7), utils
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make, zlib
-LinkingTo: later, Rcpp
 
 Package: RSQLite
 Version: 2.3.5
@@ -4923,3 +4815,111 @@ File: callr_3.7.6_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Imports: processx (>= 3.6.1), R6, utils
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: tidymodels
+Version: 1.2.0
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+Suggests: covr, glue, knitr, rmarkdown, testthat (>= 3.0.0), xml2
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/tidymodels/releases/download/1.2.0/tidymodels_1.2.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2024-03-26 16:35:28 UTC; unix
+Filesize: 87954
+SHA256: 1ff8af9d4844e49affec8b8ef682da84799ba7d173473685015168f2e2e2ff4a
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: tidymodels_1.2.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: broom (>= 1.0.5), cli (>= 3.6.2), conflicted (>= 1.2.0), dials (>= 1.2.1), dplyr (>= 1.1.4), ggplot2 (>= 3.5.0), hardhat (>= 1.3.1), infer (>= 1.0.6), modeldata (>= 1.3.0), parsnip (>=
+        1.2.1), purrr (>= 1.0.2), recipes (>= 1.0.10), rlang (>= 1.1.3), rsample (>= 1.2.1), rstudioapi (>= 0.16.0), tibble (>= 3.2.1), tidyr (>= 1.3.1), tune (>= 1.2.0), workflows (>= 1.1.4),
+        workflowsets (>= 1.1.0), yardstick (>= 1.3.1)
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: htmltools
+Version: 0.5.8
+Depends: R (>= 2.14.1), R (>= 4.4), R (< 4.4.99)
+Suggests: Cairo, markdown, ragg, shiny, testthat, withr
+License: GPL (>= 2)
+DownloadURL: https://github.com/cran/htmltools/releases/download/0.5.8/htmltools_0.5.8_b5_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-03-26 16:35:24 UTC; unix
+Filesize: 365436
+SHA256: d77017b984dbf5e93b26e7fd5e6ddfa7bf7d7a5492c5c22817d154db7b260a87
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: htmltools_0.5.8_b5_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: base64enc, digest, fastmap (>= 1.1.0), grDevices, rlang (>= 1.0.0), utils
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: knitr
+
+Package: shiny
+Version: 1.8.1
+Depends: R (>= 3.0.2), methods, R (>= 4.4), R (< 4.4.99)
+Suggests: datasets, DT, Cairo (>= 1.5-5), testthat (>= 3.0.0), knitr (>= 1.6), markdown, rmarkdown, ggplot2, reactlog (>= 1.0.0), magrittr, yaml, future, dygraphs, ragg, showtext, sass
+License: GPL-3 | file LICENSE
+DownloadURL: https://github.com/cran/shiny/releases/download/1.8.1/shiny_1.8.1_b6_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2024-03-26 16:37:12 UTC; unix
+Filesize: 4775366
+SHA256: 39eedf88a69b5109f36e9f6863082190f045644c72800aec392bdd0d5b0b0280
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: shiny_1.8.1_b6_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: utils, grDevices, httpuv (>= 1.5.2), mime (>= 0.3), jsonlite (>= 0.9.16), xtable, fontawesome (>= 0.4.0), htmltools (>= 0.5.4), R6 (>= 2.0), sourcetools, later (>= 1.0.0), promises (>=
+        1.1.0), tools, crayon, rlang (>= 0.4.10), fastmap (>= 1.1.1), withr, commonmark (>= 1.7), glue (>= 1.3.2), bslib (>= 0.3.0), cachem, lifecycle (>= 0.2.0)
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: infer
+Version: 1.0.7
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Suggests: covr, devtools (>= 1.12.0), fs, knitr, nycflights13, parsnip, rmarkdown, stringr, testthat (>= 3.0.0), vdiffr (>= 1.0.0)
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/infer/releases/download/1.0.7/infer_1.0.7_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2024-03-26 16:35:22 UTC; unix
+Filesize: 2118415
+SHA256: 13a6ae440a426e70943a0210e2e5c2941f557a5b94232b1d6df4fda9f4b8db3c
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: infer_1.0.7_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: broom, cli, dplyr (>= 0.7.0), generics, ggplot2, glue (>= 1.3.0), grDevices, lifecycle, magrittr, methods, patchwork, purrr, rlang (>= 0.2.0), tibble, tidyr, vctrs
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: xfun
+Version: 0.43
+Depends: R (>= 4.4), R (< 4.4.99)
+Suggests: testit, parallel, codetools, rstudioapi, tinytex (>= 0.30), mime, markdown (>= 1.5), knitr (>= 1.42), htmltools, remotes, pak, rhub, renv, curl, xml2, jsonlite, magick, yaml, rmarkdown
+License: MIT + file LICENSE
+DownloadURL: https://github.com/cran/xfun/releases/download/0.43/xfun_0.43_b5_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-03-26 16:35:15 UTC; unix
+Filesize: 498234
+SHA256: 5e3cf6e709ce975da0078967e11a9c0f05ecc7473bfa4b8877e7221881c6594f
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: xfun_0.43_b5_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: grDevices, stats, tools
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: httpuv
+Version: 1.6.15
+Depends: R (>= 2.15.1), R (>= 4.4), R (< 4.4.99)
+Suggests: callr, curl, testthat, websocket
+License: GPL (>= 2) | file LICENSE
+DownloadURL: https://github.com/cran/httpuv/releases/download/1.6.15/httpuv_1.6.15_b5_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-03-26 16:35:27 UTC; unix
+Filesize: 4516185
+SHA256: 783df61dea72b9316d73bd4caca92e7f4dbb44e96ca14010302f071ec54d13e3
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: httpuv_1.6.15_b5_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Imports: later (>= 0.8.0), promises, R6, Rcpp (>= 1.0.7), utils
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, zlib
+LinkingTo: later, Rcpp
