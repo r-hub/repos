@@ -1,5 +1,5 @@
 
-name: Fedora 38, R 4.4
+name: Fedora 38, R 4.5
 on:
   workflow_dispatch:
   schedule:
@@ -16,12 +16,12 @@ jobs:
         readRenviron("/etc/os-release")
         if (Sys.getenv("ID") != "fedora") stop("Not Fedora")
         if (Sys.getenv("VERSION_ID") != "38") stop("Not Fedora 38")
-        if (getRversion() < "4.4.0" || getRversion() >= "4.5.0") {
-          stop("Not R 4.4.x")
+        if (getRversion() < "4.5.0" || getRversion() >= "4.6.0") {
+          stop("Not R 4.5.x")
         }
       shell: Rscript {0}
     - uses: actions/checkout@v3
     - uses: r-hub/repos/actions/update-repo@main
       with:
-        directory: fedora-38/4.4
+        directory: fedora-38/4.5
         token: ${{ secrets.CRANATGH_GITHUB_TOKEN }}
