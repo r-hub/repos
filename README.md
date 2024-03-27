@@ -50,6 +50,7 @@ options(repos = c(
 * [x] `clang-asan` (extra `clang-ASAN` and `clang-UBSAN`)
 * [x] `clang16`
 * [x] `clang17`
+* [x] `clang18`
 * [ ] `ubuntu-libc++` (CRAN's `r-devel-linux-x86_64-fedora-clang`)
 
 ## `ubuntu-22.04-R4.4-noshlib`
