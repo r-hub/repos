@@ -427,22 +427,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
 
-Package: gh
-Version: 1.4.0
-Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
-Imports: cli (>= 3.0.1), gitcreds, httr2, ini, jsonlite, rlang (>= 1.0.0)
-Suggests: covr, knitr, mockery, rmarkdown, rprojroot, spelling, testthat (>= 3.0.0), withr
-License: MIT + file LICENSE
-File: gh_1.4.0_b1_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/gh/releases/download/1.4.0/gh_1.4.0_b1_R4.5_x86_64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-03-27 16:08:56 UTC; unix
-Filesize: 103437
-SHA256: 8d910071d529826d6b0b752a1b37b51f88d24fdd1ec186156e7a89c6cac64fa0
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: gitcreds
 Version: 0.1.2
 Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
@@ -1877,22 +1861,6 @@ DownloadURL: https://github.com/cran/future/releases/download/1.33.2/future_1.33
 Built: R 4.5.0; ; 2024-03-27 17:23:12 UTC; unix
 Filesize: 655433
 SHA256: eb174e79f96ea74925cad92721f3e55399418e819931a3c8abe635c048a1458a
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: future.apply
-Version: 1.11.1
-Depends: R (>= 3.2.0), future (>= 1.28.0), R (>= 4.5), R (< 4.5.99)
-Imports: globals (>= 0.16.1), parallel, utils
-Suggests: datasets, stats, tools, listenv (>= 0.8.0), R.rsp, markdown
-License: GPL (>= 2)
-File: future.apply_1.11.1_b1_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/future.apply/releases/download/1.11.1/future.apply_1.11.1_b1_R4.5_x86_64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-03-27 17:29:35 UTC; unix
-Filesize: 154720
-SHA256: 4351b46a513af379f65c54702d6a9ac1f0eda9719a4dcae28b6200912b5dabef
 RVersion: 4.5
 Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
@@ -4649,6 +4617,38 @@ Arch: amd64
 Built: R 4.5.0; x86_64-apple-darwin20; 2024-03-27 16:30:04 UTC; unix
 Filesize: 200101
 SHA256: 48ac6ac75ea8fcfce929e9a2ffe015700b8093578ed0fc7636b629e895a5d9d6
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: gh
+Version: 1.4.1
+Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+Imports: cli (>= 3.0.1), gitcreds, glue, httr2, ini, jsonlite, lifecycle, rlang (>= 1.0.0)
+Suggests: covr, knitr, mockery, rmarkdown, rprojroot, spelling, testthat (>= 3.0.0), withr
+License: MIT + file LICENSE
+File: gh_1.4.1_b2_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/gh/releases/download/1.4.1/gh_1.4.1_b2_R4.5_x86_64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-03-28 17:34:35 UTC; unix
+Filesize: 119087
+SHA256: 074955c1c2ec2bdaa6df74d522090a4c5e91c19e1031ceae73b7b41dec15ee15
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: future.apply
+Version: 1.11.2
+Depends: R (>= 3.2.0), future (>= 1.28.0), R (>= 4.5), R (< 4.5.99)
+Imports: globals (>= 0.16.1), parallel, utils
+Suggests: datasets, stats, tools, listenv (>= 0.8.0), R.rsp, markdown
+License: GPL (>= 2)
+File: future.apply_1.11.2_b2_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/future.apply/releases/download/1.11.2/future.apply_1.11.2_b2_R4.5_x86_64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-03-28 17:35:56 UTC; unix
+Filesize: 155387
+SHA256: c966d26938728ae9b612384596422a330de284b896ccdde954108be84e279e13
 RVersion: 4.5
 Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
