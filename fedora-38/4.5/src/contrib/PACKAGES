@@ -427,22 +427,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
 
-Package: gh
-Version: 1.4.0
-Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
-Imports: cli (>= 3.0.1), gitcreds, httr2, ini, jsonlite, rlang (>= 1.0.0)
-Suggests: covr, knitr, mockery, rmarkdown, rprojroot, spelling, testthat (>= 3.0.0), withr
-License: MIT + file LICENSE
-File: gh_1.4.0_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/gh/releases/download/1.4.0/gh_1.4.0_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.5.0; ; 2024-03-27 17:19:58 UTC; unix
-Filesize: 108962
-SHA256: 7373b97af3523efc27392c6374bb9353f65f21a9dcd7276020add50c43bd9b79
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: gitcreds
 Version: 0.1.2
 Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
@@ -1877,22 +1861,6 @@ DownloadURL: https://github.com/cran/future/releases/download/1.33.2/future_1.33
 Built: R 4.5.0; ; 2024-03-27 17:39:29 UTC; unix
 Filesize: 685053
 SHA256: 8e50d3f576ca88f0f171ff0a4183b19e2eb2b6e332083ed377755c8b408395b8
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: future.apply
-Version: 1.11.1
-Depends: R (>= 3.2.0), future (>= 1.28.0), R (>= 4.5), R (< 4.5.99)
-Imports: globals (>= 0.16.1), parallel, utils
-Suggests: datasets, stats, tools, listenv (>= 0.8.0), R.rsp, markdown
-License: GPL (>= 2)
-File: future.apply_1.11.1_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/future.apply/releases/download/1.11.1/future.apply_1.11.1_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.5.0; ; 2024-03-27 17:47:25 UTC; unix
-Filesize: 165590
-SHA256: b7c2f7596a6a315a98926498546692fcd4289fdceed4e4f6176c1c56df87127b
 RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
@@ -4750,6 +4718,38 @@ Arch: amd64
 Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 17:24:36 UTC; unix
 Filesize: 263051
 SHA256: 714107e38b6901b3834cb4dcee99c284d39583f7ed71e9ff3e6df65186e60070
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: gh
+Version: 1.4.1
+Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+Imports: cli (>= 3.0.1), gitcreds, glue, httr2, ini, jsonlite, lifecycle, rlang (>= 1.0.0)
+Suggests: covr, knitr, mockery, rmarkdown, rprojroot, spelling, testthat (>= 3.0.0), withr
+License: MIT + file LICENSE
+File: gh_1.4.1_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/gh/releases/download/1.4.1/gh_1.4.1_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.5.0; ; 2024-03-28 17:21:03 UTC; unix
+Filesize: 125038
+SHA256: 83623b8e120d80a15e0a9db4eab69a41fcad66092824f29c465bd863e302854a
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: future.apply
+Version: 1.11.2
+Depends: R (>= 3.2.0), future (>= 1.28.0), R (>= 4.5), R (< 4.5.99)
+Imports: globals (>= 0.16.1), parallel, utils
+Suggests: datasets, stats, tools, listenv (>= 0.8.0), R.rsp, markdown
+License: GPL (>= 2)
+File: future.apply_1.11.2_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/future.apply/releases/download/1.11.2/future.apply_1.11.2_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.5.0; ; 2024-03-28 17:21:23 UTC; unix
+Filesize: 166132
+SHA256: f6c66b4f8e038a97c448e1fbd4d5044c9e8fa9e59f84f33671a4fed622b152e9
 RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
