@@ -427,22 +427,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
 
-Package: gh
-Version: 1.4.0
-Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
-Imports: cli (>= 3.0.1), gitcreds, httr2, ini, jsonlite, rlang (>= 1.0.0)
-Suggests: covr, knitr, mockery, rmarkdown, rprojroot, spelling, testthat (>= 3.0.0), withr
-License: MIT + file LICENSE
-File: gh_1.4.0_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/gh/releases/download/1.4.0/gh_1.4.0_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.5.0; ; 2024-03-27 12:55:49 UTC; unix
-Filesize: 103482
-SHA256: 5084e7ce48009fb34f22711436447616fbfd23e6742582af39f50465367698bc
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: gitcreds
 Version: 0.1.2
 Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
@@ -1877,22 +1861,6 @@ DownloadURL: https://github.com/cran/future/releases/download/1.33.2/future_1.33
 Built: R 4.5.0; ; 2024-03-27 13:15:04 UTC; unix
 Filesize: 655882
 SHA256: fc5e4c6511b749d07916a0c39be5cdff651f6f229f020a31a9a51109ba9d9f95
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: future.apply
-Version: 1.11.1
-Depends: R (>= 3.2.0), future (>= 1.28.0), R (>= 4.5), R (< 4.5.99)
-Imports: globals (>= 0.16.1), parallel, utils
-Suggests: datasets, stats, tools, listenv (>= 0.8.0), R.rsp, markdown
-License: GPL (>= 2)
-File: future.apply_1.11.1_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/future.apply/releases/download/1.11.1/future.apply_1.11.1_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.5.0; ; 2024-03-27 13:26:07 UTC; unix
-Filesize: 156439
-SHA256: cd246a23a50f5d317503ea173e5dd38688c4556a6f3fd060b378c3657eb4eceb
 RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
@@ -4401,6 +4369,38 @@ Arch: amd64
 Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 13:00:30 UTC; unix
 Filesize: 200197
 SHA256: a9972e53d5ecc2b056ded29ba23548a2571ec66892c427fbe1c3855874563938
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: gh
+Version: 1.4.1
+Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+Imports: cli (>= 3.0.1), gitcreds, glue, httr2, ini, jsonlite, lifecycle, rlang (>= 1.0.0)
+Suggests: covr, knitr, mockery, rmarkdown, rprojroot, spelling, testthat (>= 3.0.0), withr
+License: MIT + file LICENSE
+File: gh_1.4.1_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/gh/releases/download/1.4.1/gh_1.4.1_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.5.0; ; 2024-03-28 17:04:19 UTC; unix
+Filesize: 119140
+SHA256: cb216e6f85426aaf70893f006a6b7ec6efae7cdc0189dd124d37f54d6e86d0da
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: future.apply
+Version: 1.11.2
+Depends: R (>= 3.2.0), future (>= 1.28.0), R (>= 4.5), R (< 4.5.99)
+Imports: globals (>= 0.16.1), parallel, utils
+Suggests: datasets, stats, tools, listenv (>= 0.8.0), R.rsp, markdown
+License: GPL (>= 2)
+File: future.apply_1.11.2_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/future.apply/releases/download/1.11.2/future.apply_1.11.2_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.5.0; ; 2024-03-28 17:04:45 UTC; unix
+Filesize: 156768
+SHA256: eadc8a575cc538f3fe2d14e418f366fa09361969fad44ce8392d021e1ba01307
 RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
