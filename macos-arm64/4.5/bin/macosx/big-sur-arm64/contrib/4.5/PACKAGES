@@ -65,22 +65,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: bslib
-Version: 0.6.2
-Depends: R (>= 2.10), R (>= 4.5), R (< 4.5.99)
-Imports: base64enc, cachem, grDevices, htmltools (>= 0.5.7), jquerylib (>= 0.1.3), jsonlite, lifecycle, memoise (>= 2.0.1), mime, rlang, sass (>= 0.4.9)
-Suggests: bsicons, curl, fontawesome, ggplot2, knitr, magrittr, rappdirs, rmarkdown (>= 2.7), shiny (>= 1.8.0), testthat, thematic, withr
-License: MIT + file LICENSE
-File: bslib_0.6.2_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/bslib/releases/download/0.6.2/bslib_0.6.2_b1_R4.5_aarch64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-03-27 21:38:38 UTC; unix
-Filesize: 6212223
-SHA256: a1ff43abb941770fd6122c409496736b921f7abf4e2d5e76921011d203eb2f4b
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: cachem
 Version: 1.0.8
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -3733,25 +3717,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: lme4
-Version: 1.1-35.1
-Depends: R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats, R (>= 4.5), R (< 4.5.99)
-Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
-Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
-License: GPL (>= 2)
-File: lme4_1.1-35.1_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/lme4/releases/download/1.1-35.1/lme4_1.1-35.1_b1_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-03-27 21:42:12 UTC; unix
-Filesize: 4246758
-SHA256: 19d31628dab81cc6cd95236d68d3d868157f126bffd6dfe68012978b8e8a8d97
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix
-
 Package: markdown
 Version: 1.12
 Depends: R (>= 2.11.1), R (>= 4.5), R (< 4.5.99)
@@ -4597,3 +4562,114 @@ RVersion: 4.5
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: units
+Version: 0.8-5
+Depends: R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
+Imports: Rcpp
+Suggests: NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0), dplyr (>= 1.0.0), vctrs (>= 0.3.1), ggplot2 (> 3.2.1), testthat (>= 3.0.0), vdiffr, knitr, rmarkdown
+License: GPL-2
+File: units_0.8-5_b1_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/units/releases/download/0.8-5/units_0.8-5_b1_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-03-29 11:33:03 UTC; unix
+Filesize: 456652
+SHA256: 6d11cc127d51f01f26f368937d816f1b694dccef93355377156035a5c5f9db35
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: udunits-2
+LinkingTo: Rcpp (>= 0.12.10)
+
+Package: kableExtra
+Version: 1.4.0
+Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
+Imports: knitr (>= 1.33), magrittr, stringr (>= 1.0), xml2 (>= 1.1.1), rmarkdown (>= 1.6.0), scales, viridisLite, stats, grDevices, htmltools, rstudioapi, tools, digest, graphics, svglite
+Suggests: testthat, magick, tinytex, formattable, sparkline, webshot2
+License: MIT + file LICENSE
+File: kableExtra_1.4.0_b1_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/kableExtra/releases/download/1.4.0/kableExtra_1.4.0_b1_R4.5_aarch64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-03-29 11:34:44 UTC; unix
+Filesize: 2048000
+SHA256: 96354ea59e671286bcebbe0b30d4df7fc526561ec83f532d329b7608b13b385f
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: svglite
+Version: 2.1.3
+Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+Imports: systemfonts (>= 1.0.0)
+Suggests: covr, fontquiver (>= 0.2.0), htmltools, knitr, rmarkdown, testthat (>= 3.0.0), xml2 (>= 1.0.0)
+License: GPL (>= 2)
+File: svglite_2.1.3_b1_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/svglite/releases/download/2.1.3/svglite_2.1.3_b1_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-03-29 11:33:49 UTC; unix
+Filesize: 297976
+SHA256: b2f9c75e1e969e3cb189b766261e74ff2a7069cb5e8b41f522fbe0c697792805
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libpng
+LinkingTo: cpp11, systemfonts
+
+Package: vdiffr
+Version: 1.0.7
+Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
+Imports: diffobj, glue, grDevices, htmltools, lifecycle, rlang, testthat (>= 3.0.3), xml2 (>= 1.0.0)
+Suggests: covr, ggplot2 (>= 3.2.0), roxygen2, withr
+License: MIT + file LICENSE
+File: vdiffr_1.0.7_b1_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/vdiffr/releases/download/1.0.7/vdiffr_1.0.7_b1_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-03-29 11:33:52 UTC; unix
+Filesize: 323267
+SHA256: 77ac7e4fa220de3a04459fb5b45b804bb166d977ad67ffa84b0da2a6c25520d8
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++11, libpng
+LinkingTo: cpp11
+
+Package: bslib
+Version: 0.7.0
+Depends: R (>= 2.10), R (>= 4.5), R (< 4.5.99)
+Imports: base64enc, cachem, fastmap (>= 1.1.1), grDevices, htmltools (>= 0.5.8), jquerylib (>= 0.1.3), jsonlite, lifecycle, memoise (>= 2.0.1), mime, rlang, sass (>= 0.4.9)
+Suggests: bsicons, curl, fontawesome, future, ggplot2, knitr, magrittr, rappdirs, rmarkdown (>= 2.7), shiny (>= 1.8.1), testthat, thematic, withr
+License: MIT + file LICENSE
+File: bslib_0.7.0_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/bslib/releases/download/0.7.0/bslib_0.7.0_b2_R4.5_aarch64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-03-29 11:32:56 UTC; unix
+Filesize: 5312522
+SHA256: aee33a48267a5e3e673d9bb6b147663534b5e572c2d83670c080a4eaa55ddffe
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: lme4
+Version: 1.1-35.2
+Depends: R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats, R (>= 4.5), R (< 4.5.99)
+Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
+Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
+License: GPL (>= 2)
+File: lme4_1.1-35.2_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/lme4/releases/download/1.1-35.2/lme4_1.1-35.2_b2_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-03-29 11:33:17 UTC; unix
+Filesize: 4247590
+SHA256: fed19709e0c7a0490ebaec9a7c4cff5420cc6ac14f70fd7a42e643b13d295067
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix
