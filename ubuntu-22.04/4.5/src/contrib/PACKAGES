@@ -533,22 +533,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: httr2
-Version: 1.0.0
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-Imports: cli (>= 3.0.0), curl (>= 5.1.0), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
-Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
-License: MIT + file LICENSE
-File: httr2_1.0.0_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/httr2/releases/download/1.0.0/httr2_1.0.0_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.0; ; 2024-03-27 09:34:59 UTC; unix
-Filesize: 552261
-SHA256: 65b82739d59294705ef3bd868c7c5ee1b90c0c416b8a6f6800e35dba88d42ddc
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: ini
 Version: 0.3.1
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -2127,22 +2111,6 @@ DownloadURL: https://github.com/cran/modelenv/releases/download/0.1.1/modelenv_0
 Built: R 4.5.0; ; 2024-03-27 09:47:22 UTC; unix
 Filesize: 77161
 SHA256: 76b9f88d0b821934bf4784c473492f4ea493dc9d7aeb00b48ac2f34d64105064
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: munsell
-Version: 0.5.0
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: colorspace, methods
-Suggests: ggplot2, testthat
-License: MIT + file LICENSE
-File: munsell_0.5.0_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/munsell/releases/download/0.5.0/munsell_0.5.0_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.0; ; 2024-03-27 09:48:14 UTC; unix
-Filesize: 244782
-SHA256: cba01152bd08570acc043664dbecf2b68cc9232c67bdc275cfc05ab96c5ded95
 RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4253,24 +4221,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
 
-Package: duckdb
-Version: 0.10.0
-Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-Imports: methods, utils
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-License: MIT + file LICENSE
-File: duckdb_0.10.0_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/0.10.0/duckdb_0.10.0_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 09:50:22 UTC; unix
-Filesize: 180764578
-SHA256: f9cb2f69da8b2e60a182cb4e3cfee281365c560149afbaf40cf200471b50eec5
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: bayesplot
 Version: 1.11.1
 Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
@@ -4754,3 +4704,53 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
+
+Package: httr2
+Version: 1.0.1
+Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+Imports: cli (>= 3.0.0), curl (>= 5.1.0), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
+Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
+License: MIT + file LICENSE
+File: httr2_1.0.1_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/httr2/releases/download/1.0.1/httr2_1.0.1_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.0; ; 2024-04-02 16:36:28 UTC; unix
+Filesize: 555500
+SHA256: c907afba114608c80fbe5fa645a89df53cebadb534a694cc4f1e1c46ba9b4bde
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: munsell
+Version: 0.5.1
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: colorspace, methods
+Suggests: ggplot2, testthat
+License: MIT + file LICENSE
+File: munsell_0.5.1_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/munsell/releases/download/0.5.1/munsell_0.5.1_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.0; ; 2024-04-02 16:36:27 UTC; unix
+Filesize: 244686
+SHA256: 21265f2205e1cea9948cdd103bfa800c698c0ec4dd5ef95da7631ef383e7bf4b
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: duckdb
+Version: 0.10.1
+Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+Imports: methods, utils
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+License: MIT + file LICENSE
+File: duckdb_0.10.1_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/0.10.1/duckdb_0.10.1_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-04-02 16:36:32 UTC; unix
+Filesize: 181880343
+SHA256: 9655d15a0f90c6730d98b60410e0426db34e43e78552d9851ec97db36d78bd75
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
