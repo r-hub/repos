@@ -533,22 +533,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: httr2
-Version: 1.0.0
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-Imports: cli (>= 3.0.0), curl (>= 5.1.0), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
-Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
-License: MIT + file LICENSE
-File: httr2_1.0.0_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/httr2/releases/download/1.0.0/httr2_1.0.0_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.5.0; ; 2024-03-27 12:55:45 UTC; unix
-Filesize: 545270
-SHA256: b802d24bd0419f032027d8a63f76acfd7477a71efeef7db8f5cf099f460d6aac
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: ini
 Version: 0.3.1
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -1576,23 +1560,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc
 
-Package: shiny
-Version: 1.8.1
-Depends: R (>= 3.0.2), methods, R (>= 4.5), R (< 4.5.99)
-Imports: utils, grDevices, httpuv (>= 1.5.2), mime (>= 0.3), jsonlite (>= 0.9.16), xtable, fontawesome (>= 0.4.0), htmltools (>= 0.5.4), R6 (>= 2.0), sourcetools, later (>= 1.0.0), promises (>=
-        1.1.0), tools, crayon, rlang (>= 0.4.10), fastmap (>= 1.1.1), withr, commonmark (>= 1.7), glue (>= 1.3.2), bslib (>= 0.3.0), cachem, lifecycle (>= 0.2.0)
-Suggests: datasets, DT, Cairo (>= 1.5-5), testthat (>= 3.0.0), knitr (>= 1.6), markdown, rmarkdown, ggplot2, reactlog (>= 1.0.0), magrittr, yaml, future, dygraphs, ragg, showtext, sass
-License: GPL-3 | file LICENSE
-File: shiny_1.8.1_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/shiny/releases/download/1.8.1/shiny_1.8.1_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.5.0; ; 2024-03-27 13:23:02 UTC; unix
-Filesize: 4786129
-SHA256: 3d4cb3d9a1e45c9ce11e362faef9fc6bc6a58d2c2842e1239a7bea7360e0bf89
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: backports
 Version: 1.4.1
 Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
@@ -2127,22 +2094,6 @@ DownloadURL: https://github.com/cran/modelenv/releases/download/0.1.1/modelenv_0
 Built: R 4.5.0; ; 2024-03-27 13:07:04 UTC; unix
 Filesize: 76403
 SHA256: 4a86307269548c40137e9ec3d1c2234d1ff8f5267cbf7bee0470afa08c94ccee
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: munsell
-Version: 0.5.0
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: colorspace, methods
-Suggests: ggplot2, testthat
-License: MIT + file LICENSE
-File: munsell_0.5.0_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/munsell/releases/download/0.5.0/munsell_0.5.0_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.5.0; ; 2024-03-27 13:07:51 UTC; unix
-Filesize: 243412
-SHA256: cb631b3ab7edb21be17f73e7978e824b07e7c60d94b1a3636101ca2c7344136a
 RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
@@ -4253,24 +4204,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
 
-Package: duckdb
-Version: 0.10.0
-Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-Imports: methods, utils
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-License: MIT + file LICENSE
-File: duckdb_0.10.0_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/0.10.0/duckdb_0.10.0_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 13:09:28 UTC; unix
-Filesize: 13288387
-SHA256: 0231905184a508e813551c2925c1a458345ec200258af4e1865aec893b1087c3
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: plogr
 Version: 0.2.0
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4405,3 +4338,70 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
+
+Package: httr2
+Version: 1.0.1
+Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+Imports: cli (>= 3.0.0), curl (>= 5.1.0), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
+Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
+License: MIT + file LICENSE
+File: httr2_1.0.1_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/httr2/releases/download/1.0.1/httr2_1.0.1_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.5.0; ; 2024-04-03 09:36:15 UTC; unix
+Filesize: 548190
+SHA256: 4a070e9f6099743fe6df524520ef272779c64bf3e920d30c11560cdad73e2047
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: shiny
+Version: 1.8.1.1
+Depends: R (>= 3.0.2), methods, R (>= 4.5), R (< 4.5.99)
+Imports: utils, grDevices, httpuv (>= 1.5.2), mime (>= 0.3), jsonlite (>= 0.9.16), xtable, fontawesome (>= 0.4.0), htmltools (>= 0.5.4), R6 (>= 2.0), sourcetools, later (>= 1.0.0), promises (>=
+        1.1.0), tools, crayon, rlang (>= 0.4.10), fastmap (>= 1.1.1), withr, commonmark (>= 1.7), glue (>= 1.3.2), bslib (>= 0.3.0), cachem, lifecycle (>= 0.2.0)
+Suggests: datasets, DT, Cairo (>= 1.5-5), testthat (>= 3.0.0), knitr (>= 1.6), markdown, rmarkdown, ggplot2, reactlog (>= 1.0.0), magrittr, yaml, future, dygraphs, ragg, showtext, sass
+License: GPL-3 | file LICENSE
+File: shiny_1.8.1.1_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/shiny/releases/download/1.8.1.1/shiny_1.8.1.1_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.5.0; ; 2024-04-03 09:36:19 UTC; unix
+Filesize: 4779894
+SHA256: e3aa4274f1970ad683e0aa76cd60d413d9cd923adfa48a7826f7dc9ad4bf4fc2
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: munsell
+Version: 0.5.1
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: colorspace, methods
+Suggests: ggplot2, testthat
+License: MIT + file LICENSE
+File: munsell_0.5.1_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/munsell/releases/download/0.5.1/munsell_0.5.1_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.5.0; ; 2024-04-03 09:36:18 UTC; unix
+Filesize: 243897
+SHA256: 9d7703eb77a05f9087366ac028d0d38d5b9662d2b9ce9baf36439d7b2605462e
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: duckdb
+Version: 0.10.1
+Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+Imports: methods, utils
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+License: MIT + file LICENSE
+File: duckdb_0.10.1_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/0.10.1/duckdb_0.10.1_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-04-03 09:36:23 UTC; unix
+Filesize: 13568907
+SHA256: c0ddce9a17e5f8ce342553d74df3863b869a03fc2866b1ae174dc20af1e0a140
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
