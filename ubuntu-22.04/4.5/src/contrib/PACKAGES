@@ -461,25 +461,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: htmltools
-Version: 0.5.8
-Depends: R (>= 2.14.1), R (>= 4.5), R (< 4.5.99)
-Imports: base64enc, digest, fastmap (>= 1.1.0), grDevices, rlang (>= 1.0.0), utils
-Suggests: Cairo, markdown, ragg, shiny, testthat, withr
-License: GPL (>= 2)
-File: htmltools_0.5.8_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/htmltools/releases/download/0.5.8/htmltools_0.5.8_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 09:54:12 UTC; unix
-Filesize: 365731
-SHA256: 94a068245f39f0329aade4e1ef0db4b8828f395567fd1de2ea22ec2ccb21d394
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: knitr
-
 Package: htmlwidgets
 Version: 1.6.4
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -3643,22 +3624,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: DT
-Version: 0.32
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: htmltools (>= 0.3.6), htmlwidgets (>= 1.3), httpuv, jsonlite (>= 0.9.16), magrittr, crosstalk, jquerylib, promises
-Suggests: knitr (>= 1.8), rmarkdown, shiny (>= 1.6), bslib, future, testit, tibble
-License: GPL-3 | file LICENSE
-File: DT_0.32_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/DT/releases/download/0.32/DT_0.32_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.0; ; 2024-03-27 10:02:14 UTC; unix
-Filesize: 1794045
-SHA256: 9b2fe3b0aed4a7afb8ec11fbea3cf2297e448813ddfc56398bbc14d428482134
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: lazyeval
 Version: 0.2.2
 Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
@@ -4750,6 +4715,41 @@ DownloadURL: https://github.com/cran/shiny/releases/download/1.8.1.1/shiny_1.8.1
 Built: R 4.5.0; ; 2024-04-03 16:37:59 UTC; unix
 Filesize: 4762987
 SHA256: fcb72ded31ce5c456bfc2de394d7ec7d71fed76877a7f247b5ea2c47d9fded80
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: htmltools
+Version: 0.5.8.1
+Depends: R (>= 2.14.1), R (>= 4.5), R (< 4.5.99)
+Imports: base64enc, digest, fastmap (>= 1.1.0), grDevices, rlang (>= 1.0.0), utils
+Suggests: Cairo, markdown, ragg, shiny, testthat, withr
+License: GPL (>= 2)
+File: htmltools_0.5.8.1_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/htmltools/releases/download/0.5.8.1/htmltools_0.5.8.1_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-04-04 16:35:05 UTC; unix
+Filesize: 365229
+SHA256: d76a0fdc4d8472c0ca59d39dc5dfb5061e6e0e44ae3a8d5785351c3eb814c36c
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: knitr
+
+Package: DT
+Version: 0.33
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: htmltools (>= 0.3.6), htmlwidgets (>= 1.3), httpuv, jsonlite (>= 0.9.16), magrittr, crosstalk, jquerylib, promises
+Suggests: knitr (>= 1.8), rmarkdown, shiny (>= 1.6), bslib, future, testit, tibble
+License: GPL-3 | file LICENSE
+File: DT_0.33_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/DT/releases/download/0.33/DT_0.33_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.0; ; 2024-04-04 16:35:10 UTC; unix
+Filesize: 1794196
+SHA256: 11c20a6c2d68e39a41a1c166432773de9ec496e6b831fec8ba7a516cace720c2
 RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
