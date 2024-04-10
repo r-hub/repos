@@ -1486,24 +1486,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Pandoc (>= 1.17.2)
 
-Package: pkgdown
-Version: 2.0.7
-Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
-Imports: bslib (>= 0.3.1), callr (>= 3.7.3), cli, desc, digest, downlit (>= 0.4.0), fs (>= 1.4.0), httr (>= 1.4.2), jsonlite, magrittr, memoise, purrr, ragg, rlang (>= 1.0.0), rmarkdown (>=
-        1.1.9007), tibble, whisker, withr (>= 2.4.3), xml2 (>= 1.3.1), yaml
-Suggests: covr, diffviewer, evaluate, htmltools, htmlwidgets, knitr, lifecycle, methods, openssl, pkgload (>= 1.0.2), rsconnect, rstudioapi, rticles, sass, testthat (>= 3.1.3), tools
-License: MIT + file LICENSE
-File: pkgdown_2.0.7_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/pkgdown/releases/download/2.0.7/pkgdown_2.0.7_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.5.0; ; 2024-03-27 13:23:25 UTC; unix
-Filesize: 741741
-SHA256: 6df0e1006f693d34d1f37ad22dffd91b1fe6be41de479d8b0278931758823140
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc
-
 Package: backports
 Version: 1.4.1
 Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
@@ -4405,3 +4387,21 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
+
+Package: pkgdown
+Version: 2.0.8
+Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+Imports: bslib (>= 0.5.1), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.0), digest, downlit (>= 0.4.0), fs (>= 1.4.0), httr (>= 1.4.2), jsonlite, magrittr, memoise, purrr (>= 1.0.0), ragg, rlang
+        (>= 1.0.0), rmarkdown (>= 1.1.9007), tibble, whisker, withr (>= 2.4.3), xml2 (>= 1.3.1), yaml
+Suggests: covr, diffviewer, evaluate, gert, htmltools, htmlwidgets, knitr, lifecycle, methods, openssl, pkgload (>= 1.0.2), rsconnect, rstudioapi, rticles, rvest, sass, testthat (>= 3.1.3), tools
+License: MIT + file LICENSE
+File: pkgdown_2.0.8_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/pkgdown/releases/download/2.0.8/pkgdown_2.0.8_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.5.0; ; 2024-04-10 17:04:38 UTC; unix
+Filesize: 709304
+SHA256: c394512bceef34d021ecf48d5beffdc211c950a00e566c9f6b147a13c5310867
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc
