@@ -3247,25 +3247,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: ape
-Version: 5.7-1
-Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
-Imports: nlme, lattice, graphics, methods, stats, utils, parallel, Rcpp (>= 0.12.0), digest
-Suggests: gee, expm, igraph, phangorn
-License: GPL-2 | GPL-3
-File: ape_5.7-1_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/ape/releases/download/5.7-1/ape_5.7-1_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 13:15:19 UTC; unix
-Filesize: 3123471
-SHA256: 589d2f0ac3bfb7a7aec51c9851320bae5a1bc859a98368851967e9fea691d48f
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: assertthat
 Version: 0.2.1
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -3689,23 +3670,6 @@ DownloadURL: https://github.com/cran/markdown/releases/download/1.12/markdown_1.
 Built: R 4.5.0; ; 2024-03-27 13:07:26 UTC; unix
 Filesize: 198113
 SHA256: 5bdc953e5d81aca89332bc31fe829ce991071d1becbfc316bd82c405673d8ad1
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: matrixStats
-Version: 1.2.0
-Depends: R (>= 2.12.0), R (>= 4.5), R (< 4.5.99)
-Suggests: base64enc, ggplot2, knitr, markdown, microbenchmark, R.devices, R.rsp
-License: Artistic-2.0
-File: matrixStats_1.2.0_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/matrixStats/releases/download/1.2.0/matrixStats_1.2.0_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 12:59:57 UTC; unix
-Filesize: 521188
-SHA256: ae9b6e1cdac0b3641ecd61fe25d2416ac5d1a5b3e3b385e78ec1f0126fa7d18f
 RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
@@ -4405,3 +4369,39 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc
+
+Package: ape
+Version: 5.8
+Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
+Imports: nlme, lattice, graphics, methods, stats, utils, parallel, Rcpp (>= 0.12.0), digest
+Suggests: gee, expm, igraph, phangorn
+License: GPL-2 | GPL-3
+File: ape_5.8_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/ape/releases/download/5.8/ape_5.8_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-04-11 17:04:51 UTC; unix
+Filesize: 3130565
+SHA256: 0bcddb76769632a4cd324d1a05fa98637a36d04e42e613e0d6a2a72764cd7fbc
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: matrixStats
+Version: 1.3.0
+Depends: R (>= 2.12.0), R (>= 4.5), R (< 4.5.99)
+Suggests: utils, base64enc, ggplot2, knitr, markdown, microbenchmark, R.devices, R.rsp
+License: Artistic-2.0
+File: matrixStats_1.3.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/matrixStats/releases/download/1.3.0/matrixStats_1.3.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-04-11 17:04:51 UTC; unix
+Filesize: 530856
+SHA256: c4e6bb08790148ff42d225e6e94f4940f373c665e5ff724cdeb7655ab8e1f1cc
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
