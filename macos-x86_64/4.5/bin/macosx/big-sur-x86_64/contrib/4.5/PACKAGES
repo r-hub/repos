@@ -3650,25 +3650,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libpng
 LinkingTo: cpp11, systemfonts
 
-Package: lme4
-Version: 1.1-35.2
-Depends: R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats, R (>= 4.5), R (< 4.5.99)
-Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
-Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
-License: GPL (>= 2)
-File: lme4_1.1-35.2_b1_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/lme4/releases/download/1.1-35.2/lme4_1.1-35.2_b1_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-03-29 16:31:20 UTC; unix
-Filesize: 4278464
-SHA256: 7a0d27746b75903e3b017399c69139e00b55042a5cd46376e6f2abdb91e199ee
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix
-
 Package: markdown
 Version: 1.12
 Depends: R (>= 2.11.1), R (>= 4.5), R (< 4.5.99)
@@ -4586,25 +4567,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: later, Rcpp
 
-Package: RcppArmadillo
-Version: 0.12.8.2.0
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-Imports: Rcpp (>= 0.11.0), stats, utils, methods
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-License: GPL (>= 2)
-File: RcppArmadillo_0.12.8.2.0_b2_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/0.12.8.2.0/RcppArmadillo_0.12.8.2.0_b2_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-04-05 17:31:34 UTC; unix
-Filesize: 1091015
-SHA256: 6889e13e08b1eb20816aae1a24394d1e3b464996a4c4a63a24663f7c4daefdef
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: knitr
 Version: 1.46
 Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
@@ -4713,3 +4675,41 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Pandoc (>= 1.17.2)
+
+Package: lme4
+Version: 1.1-35.3
+Depends: R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats, R (>= 4.5), R (< 4.5.99)
+Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
+Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
+License: GPL (>= 2)
+File: lme4_1.1-35.3_b2_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/lme4/releases/download/1.1-35.3/lme4_1.1-35.3_b2_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2024-04-16 17:34:23 UTC; unix
+Filesize: 4277453
+SHA256: 0e2d35cdf859a4c148a58790c0a9bf8c9f38ceeb45d2da5888102923f512449d
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix
+
+Package: RcppArmadillo
+Version: 0.12.8.2.1
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+Imports: Rcpp (>= 0.11.0), stats, utils, methods
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+File: RcppArmadillo_0.12.8.2.1_b3_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/0.12.8.2.1/RcppArmadillo_0.12.8.2.1_b3_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2024-04-16 17:33:50 UTC; unix
+Filesize: 1091076
+SHA256: 3fb6b1c29d758c23a3ff98ac9e76e7d76def43a26dd00b16b164d481f1af8bbd
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
