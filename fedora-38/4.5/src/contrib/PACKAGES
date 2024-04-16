@@ -4450,25 +4450,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: lme4
-Version: 1.1-35.2
-Depends: R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats, R (>= 4.5), R (< 4.5.99)
-Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
-Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
-License: GPL (>= 2)
-File: lme4_1.1-35.2_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/lme4/releases/download/1.1-35.2/lme4_1.1-35.2_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-29 17:19:33 UTC; unix
-Filesize: 9119051
-SHA256: c60972df6828fa694295eb694be315a5edc41e084fb3d0cc187b14a64e239a22
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix
-
 Package: data.table
 Version: 1.15.4
 Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
@@ -4627,25 +4608,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: later, Rcpp
 
-Package: RcppArmadillo
-Version: 0.12.8.2.0
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-Imports: Rcpp (>= 0.11.0), stats, utils, methods
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-License: GPL (>= 2)
-File: RcppArmadillo_0.12.8.2.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/0.12.8.2.0/RcppArmadillo_0.12.8.2.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-04-06 17:19:54 UTC; unix
-Filesize: 1904413
-SHA256: 228106b7aec7fbd45ed8a8e0d9f266ee3c1d25f3ee317c9c0a17d3f8a0d4ac7a
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: knitr
 Version: 1.46
 Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
@@ -4754,3 +4716,41 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Pandoc (>= 1.17.2)
+
+Package: lme4
+Version: 1.1-35.3
+Depends: R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats, R (>= 4.5), R (< 4.5.99)
+Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
+Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
+License: GPL (>= 2)
+File: lme4_1.1-35.3_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/lme4/releases/download/1.1-35.3/lme4_1.1-35.3_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-04-16 17:20:18 UTC; unix
+Filesize: 9087746
+SHA256: 66e15d233cbf94c916dcba678972a432bca099b74ab027a413a8aa69b5ba6827
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix
+
+Package: RcppArmadillo
+Version: 0.12.8.2.1
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+Imports: Rcpp (>= 0.11.0), stats, utils, methods
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+File: RcppArmadillo_0.12.8.2.1_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/0.12.8.2.1/RcppArmadillo_0.12.8.2.1_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-04-16 17:20:19 UTC; unix
+Filesize: 1904444
+SHA256: d24620b0d5c955826c6eed6456a5aaccc71cb48c8642aa94c3d42c72520616e8
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
