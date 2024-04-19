@@ -2337,24 +2337,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: tune
-Version: 1.2.0
-Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
-Imports: cli (>= 3.3.0), dials (>= 1.0.0), doFuture (>= 1.0.0), dplyr (>= 1.1.0), foreach, future (>= 1.33.0), generics (>= 0.1.2), ggplot2, glue (>= 1.6.2), GPfit, hardhat (>= 1.2.0), lifecycle (>=
-        1.0.0), parsnip (>= 1.2.0), purrr (>= 1.0.0), recipes (>= 1.0.4), rlang (>= 1.1.0), rsample (>= 1.2.0), tibble (>= 3.1.0), tidyr (>= 1.2.0), tidyselect (>= 1.1.2), vctrs (>= 0.6.1), withr,
-        workflows (>= 1.1.4), yardstick (>= 1.3.0)
-Suggests: C50, censored (>= 0.3.0), covr, kernlab, kknn, knitr, modeldata, scales, spelling, testthat (>= 3.0.0), xgboost, xml2
-License: MIT + file LICENSE
-File: tune_1.2.0_b1_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/tune/releases/download/1.2.0/tune_1.2.0_b1_R4.5_x86_64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-03-29 16:28:12 UTC; unix
-Filesize: 2002145
-SHA256: 800af67c87d1e32ba8c1b9cd68454c7243247fa854fb57e2796c7c5b5ef34160
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: tzdb
 Version: 0.4.0
 Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
@@ -4585,24 +4567,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
 
-Package: pkgdown
-Version: 2.0.8
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-Imports: bslib (>= 0.5.1), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.0), digest, downlit (>= 0.4.0), fs (>= 1.4.0), httr (>= 1.4.2), jsonlite, magrittr, memoise, purrr (>= 1.0.0), ragg, rlang
-        (>= 1.0.0), rmarkdown (>= 1.1.9007), tibble, whisker, withr (>= 2.4.3), xml2 (>= 1.3.1), yaml
-Suggests: covr, diffviewer, evaluate, gert, htmltools, htmlwidgets, knitr, lifecycle, methods, openssl, pkgload (>= 1.0.2), rsconnect, rstudioapi, rticles, rvest, sass, testthat (>= 3.1.3), tools
-License: MIT + file LICENSE
-File: pkgdown_2.0.8_b2_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/pkgdown/releases/download/2.0.8/pkgdown_2.0.8_b2_R4.5_x86_64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-04-10 17:30:58 UTC; unix
-Filesize: 709177
-SHA256: be52e7616827e0dc55d1d0c87736c688b853215122491540c99794d224b0140a
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc
-
 Package: ape
 Version: 5.8
 Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
@@ -4713,3 +4677,39 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
+
+Package: tune
+Version: 1.2.1
+Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
+Imports: cli (>= 3.3.0), dials (>= 1.0.0), doFuture (>= 1.0.0), dplyr (>= 1.1.0), foreach, future (>= 1.33.0), generics (>= 0.1.2), ggplot2, glue (>= 1.6.2), GPfit, hardhat (>= 1.2.0), lifecycle (>=
+        1.0.0), parsnip (>= 1.2.0), purrr (>= 1.0.0), recipes (>= 1.0.4), rlang (>= 1.1.0), rsample (>= 1.2.0), tibble (>= 3.1.0), tidyr (>= 1.2.0), tidyselect (>= 1.1.2), vctrs (>= 0.6.1), withr,
+        workflows (>= 1.1.4), yardstick (>= 1.3.0)
+Suggests: C50, censored (>= 0.3.0), covr, kernlab, kknn, knitr, modeldata, scales, spelling, testthat (>= 3.0.0), xgboost, xml2
+License: MIT + file LICENSE
+File: tune_1.2.1_b2_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/tune/releases/download/1.2.1/tune_1.2.1_b2_R4.5_x86_64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-04-19 17:32:46 UTC; unix
+Filesize: 2002104
+SHA256: bd41d52293d8b5cdd07b1e3257efedede9b948b80e6091954ff6b688194f2d6f
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: pkgdown
+Version: 2.0.9
+Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+Imports: bslib (>= 0.5.1), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.0), digest, downlit (>= 0.4.0), fs (>= 1.4.0), httr (>= 1.4.2), jsonlite, magrittr, memoise, purrr (>= 1.0.0), ragg, rlang
+        (>= 1.1.0), rmarkdown (>= 1.1.9007), tibble, whisker, withr (>= 2.4.3), xml2 (>= 1.3.1), yaml
+Suggests: covr, diffviewer, evaluate, gert, htmltools, htmlwidgets, knitr, lifecycle, methods, openssl, pkgload (>= 1.0.2), rsconnect, rstudioapi, rticles, rvest, sass, testthat (>= 3.1.3), tools
+License: MIT + file LICENSE
+File: pkgdown_2.0.9_b3_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/pkgdown/releases/download/2.0.9/pkgdown_2.0.9_b3_R4.5_x86_64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-04-19 17:33:07 UTC; unix
+Filesize: 737721
+SHA256: 35ea070abf6fac2b9ee19d4c9527d2e391f052ef004061fc72ad39b2a0881ab1
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc
