@@ -694,25 +694,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: openssl
-Version: 2.1.1
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: askpass
-Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
-License: MIT + file LICENSE
-File: openssl_2.1.1_b1_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/openssl/releases/download/2.1.1/openssl_2.1.1_b1_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-03-29 15:35:38 UTC; unix
-Filesize: 2746138
-SHA256: 538c949974cdfb6fe22eb0e317d48405f988d375e567db31c969de5e87e75cc5
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: OpenSSL >= 1.0.2
-
 Package: pillar
 Version: 1.9.0
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4713,3 +4694,22 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc
+
+Package: openssl
+Version: 2.1.2
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: askpass
+Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
+License: MIT + file LICENSE
+File: openssl_2.1.2_b2_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/openssl/releases/download/2.1.2/openssl_2.1.2_b2_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2024-04-22 17:30:58 UTC; unix
+Filesize: 3081426
+SHA256: 37f8656cf1acef9cbf37df0dea25886d601f430c5637c8d68abd501b9108f881
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: OpenSSL >= 1.0.2
