@@ -1685,24 +1685,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: ggplot2
-Version: 3.5.0
-Depends: R (>= 3.5), R (>= 4.5), R (< 4.5.99)
-Imports: cli, glue, grDevices, grid, gtable (>= 0.1.1), isoband, lifecycle (> 1.0.1), MASS, mgcv, rlang (>= 1.1.0), scales (>= 1.3.0), stats, tibble, vctrs (>= 0.5.0), withr (>= 2.5.0)
-Suggests: covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, mapproj, maps, multcomp, munsell, nlme, profvis, quantreg, ragg (>= 1.2.6), RColorBrewer, rmarkdown, rpart, sf (>= 0.7-3), svglite (>=
-        2.1.2), testthat (>= 3.1.2), vdiffr (>= 1.0.6), xml2
-License: MIT + file LICENSE
-File: ggplot2_3.5.0_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/ggplot2/releases/download/3.5.0/ggplot2_3.5.0_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.5.0; ; 2024-03-27 17:32:52 UTC; unix
-Filesize: 5025740
-SHA256: 731018de4883d0adaa0ffc2db79eae1a3be36c897c652ce779a6e68b815d2564
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: sp
-
 Package: globals
 Version: 0.16.3
 Depends: R (>= 3.1.2), R (>= 4.5), R (< 4.5.99)
@@ -1746,22 +1728,6 @@ DownloadURL: https://github.com/cran/GPfit/releases/download/1.0-8/GPfit_1.0-8_b
 Built: R 4.5.0; ; 2024-03-27 17:32:17 UTC; unix
 Filesize: 84618
 SHA256: 24adf06a5f3fafd15361ca7b795c3b08ee5236456ea90553909a4bbd00bd96d2
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: gtable
-Version: 0.3.4
-Depends: R (>= 3.5), R (>= 4.5), R (< 4.5.99)
-Imports: cli, glue, grid, lifecycle, rlang (>= 1.1.0)
-Suggests: covr, ggplot2, knitr, profvis, rmarkdown, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: gtable_0.3.4_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/gtable/releases/download/0.3.4/gtable_0.3.4_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.5.0; ; 2024-03-27 17:27:51 UTC; unix
-Filesize: 227117
-SHA256: a66cf3486d2ef93958e7557a854242add7af71d7ae63db8221e4d42e493499c3
 RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
@@ -4754,3 +4720,37 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: OpenSSL >= 1.0.2
+
+Package: ggplot2
+Version: 3.5.1
+Depends: R (>= 3.5), R (>= 4.5), R (< 4.5.99)
+Imports: cli, glue, grDevices, grid, gtable (>= 0.1.1), isoband, lifecycle (> 1.0.1), MASS, mgcv, rlang (>= 1.1.0), scales (>= 1.3.0), stats, tibble, vctrs (>= 0.6.0), withr (>= 2.5.0)
+Suggests: covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, mapproj, maps, multcomp, munsell, nlme, profvis, quantreg, ragg (>= 1.2.6), RColorBrewer, rmarkdown, rpart, sf (>= 0.7-3), svglite (>=
+        2.1.2), testthat (>= 3.1.2), vdiffr (>= 1.0.6), xml2
+License: MIT + file LICENSE
+File: ggplot2_3.5.1_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/ggplot2/releases/download/3.5.1/ggplot2_3.5.1_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.5.0; ; 2024-04-23 17:20:15 UTC; unix
+Filesize: 5172541
+SHA256: 32f48f86d3966cc1f059be8a01753ba4fd41429315103b4b278713bc29f3a118
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: sp
+
+Package: gtable
+Version: 0.3.5
+Depends: R (>= 3.5), R (>= 4.5), R (< 4.5.99)
+Imports: cli, glue, grid, lifecycle, rlang (>= 1.1.0)
+Suggests: covr, ggplot2, knitr, profvis, rmarkdown, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: gtable_0.3.5_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/gtable/releases/download/0.3.5/gtable_0.3.5_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.5.0; ; 2024-04-23 17:20:10 UTC; unix
+Filesize: 226984
+SHA256: 20b33745bef9e73b0dbe221d902c9ac1b0fcb0341a1f94c0027c06019551f3f0
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
