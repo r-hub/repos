@@ -1794,24 +1794,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: ggplot2
-Version: 3.5.0
-Depends: R (>= 3.5), R (>= 4.5), R (< 4.5.99)
-Imports: cli, glue, grDevices, grid, gtable (>= 0.1.1), isoband, lifecycle (> 1.0.1), MASS, mgcv, rlang (>= 1.1.0), scales (>= 1.3.0), stats, tibble, vctrs (>= 0.5.0), withr (>= 2.5.0)
-Suggests: covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, mapproj, maps, multcomp, munsell, nlme, profvis, quantreg, ragg (>= 1.2.6), RColorBrewer, rmarkdown, rpart, sf (>= 0.7-3), svglite (>=
-        2.1.2), testthat (>= 3.1.2), vdiffr (>= 1.0.6), xml2
-License: MIT + file LICENSE
-File: ggplot2_3.5.0_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/ggplot2/releases/download/3.5.0/ggplot2_3.5.0_b1_R4.5_aarch64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-03-29 15:17:34 UTC; unix
-Filesize: 4839129
-SHA256: cf8040ade474f790fb07babf43695e34a64530f742ccbe7eefd36faa004c43f8
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: sp
-
 Package: globals
 Version: 0.16.3
 Depends: R (>= 3.1.2), R (>= 4.5), R (< 4.5.99)
@@ -1855,22 +1837,6 @@ DownloadURL: https://github.com/cran/GPfit/releases/download/1.0-8/GPfit_1.0-8_b
 Built: R 4.5.0; ; 2024-03-29 15:16:16 UTC; unix
 Filesize: 76475
 SHA256: 35632357ae62daf978091f8ea99805d8df6367e99be61371be37ba6804b7d421
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: gtable
-Version: 0.3.4
-Depends: R (>= 3.5), R (>= 4.5), R (< 4.5.99)
-Imports: cli, glue, grid, lifecycle, rlang (>= 1.1.0)
-Suggests: covr, ggplot2, knitr, profvis, rmarkdown, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: gtable_0.3.4_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/gtable/releases/download/0.3.4/gtable_0.3.4_b1_R4.5_aarch64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-03-29 15:12:44 UTC; unix
-Filesize: 218305
-SHA256: dcc8f07f8f1bdd68ba22129c5927d000520321ac29413f31a5e700f5193dc188
 RVersion: 4.5
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
@@ -4638,3 +4604,37 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: OpenSSL >= 1.0.2
+
+Package: ggplot2
+Version: 3.5.1
+Depends: R (>= 3.5), R (>= 4.5), R (< 4.5.99)
+Imports: cli, glue, grDevices, grid, gtable (>= 0.1.1), isoband, lifecycle (> 1.0.1), MASS, mgcv, rlang (>= 1.1.0), scales (>= 1.3.0), stats, tibble, vctrs (>= 0.6.0), withr (>= 2.5.0)
+Suggests: covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, mapproj, maps, multcomp, munsell, nlme, profvis, quantreg, ragg (>= 1.2.6), RColorBrewer, rmarkdown, rpart, sf (>= 0.7-3), svglite (>=
+        2.1.2), testthat (>= 3.1.2), vdiffr (>= 1.0.6), xml2
+License: MIT + file LICENSE
+File: ggplot2_3.5.1_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/ggplot2/releases/download/3.5.1/ggplot2_3.5.1_b2_R4.5_aarch64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-04-23 17:31:31 UTC; unix
+Filesize: 4979214
+SHA256: 976ab69f68abd6f96c0c5b3a32f76103d8627d9ff1c62a33460d8dfc1d853239
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: sp
+
+Package: gtable
+Version: 0.3.5
+Depends: R (>= 3.5), R (>= 4.5), R (< 4.5.99)
+Imports: cli, glue, grid, lifecycle, rlang (>= 1.1.0)
+Suggests: covr, ggplot2, knitr, profvis, rmarkdown, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: gtable_0.3.5_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/gtable/releases/download/0.3.5/gtable_0.3.5_b2_R4.5_aarch64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-04-23 17:31:28 UTC; unix
+Filesize: 218147
+SHA256: e0e1a37a750a29be0b105faa620bbfd691c98904f43b0695619d18b741e636c8
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
