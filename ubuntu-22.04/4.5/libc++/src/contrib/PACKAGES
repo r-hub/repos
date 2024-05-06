@@ -793,26 +793,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: ragg
-Version: 1.3.0
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
-Suggests: covr, graphics, grid, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: ragg_1.3.0_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/ragg/releases/download/1.3.0/ragg_1.3.0_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 13:04:15 UTC; unix
-Filesize: 811156
-SHA256: 775ceed48563e24eb2c20350479d4b468d9af3f46c45f9fa93dd62a91cdfde97
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: freetype2, libpng, libtiff, libjpeg
-LinkingTo: systemfonts, textshaping
-
 Package: rappdirs
 Version: 0.3.3
 Depends: R (>= 3.2), R (>= 4.5), R (< 4.5.99)
@@ -1050,24 +1030,6 @@ RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: stringi
-Version: 1.8.3
-Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
-Imports: tools, utils, stats
-License: file LICENSE
-File: stringi_1.8.3_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/stringi/releases/download/1.8.3/stringi_1.8.3_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 12:58:05 UTC; unix
-Filesize: 943905
-SHA256: fdd299f87dcfd2a12d0ae3dffecef796448445817eae7b5f88a97cec9fb41bf1
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: ICU4C (>= 61, optional)
 
 Package: stringr
 Version: 1.5.1
@@ -4405,3 +4367,41 @@ RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: ragg
+Version: 1.3.1
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
+Suggests: covr, graphics, grid, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: ragg_1.3.1_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/ragg/releases/download/1.3.1/ragg_1.3.1_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-06 17:08:00 UTC; unix
+Filesize: 814526
+SHA256: ef32dc71b558cfd91e29bc85c17c63e77763d8fded081538a884ff695c828eb6
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: freetype2, libpng, libtiff, libjpeg
+LinkingTo: systemfonts, textshaping
+
+Package: stringi
+Version: 1.8.4
+Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
+Imports: tools, utils, stats
+License: file LICENSE
+File: stringi_1.8.4_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/stringi/releases/download/1.8.4/stringi_1.8.4_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-06 17:08:08 UTC; unix
+Filesize: 942672
+SHA256: 6f685ed39605a0f39381986a4360669373d19761a9cd46f0d7e886d343c94390
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: ICU4C (>= 61, optional)
