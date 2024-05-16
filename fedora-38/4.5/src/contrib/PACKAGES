@@ -48,24 +48,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: cachem
-Version: 1.0.8
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: rlang, fastmap (>= 1.1.1)
-Suggests: testthat
-License: MIT + file LICENSE
-File: cachem_1.0.8_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/cachem/releases/download/1.0.8/cachem_1.0.8_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 17:27:03 UTC; unix
-Filesize: 75400
-SHA256: 9b33fae6e93fed1204e7085b82510b4194e70a4ba6f75334cd4e03ff34eb76e1
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: callr
 Version: 3.7.6
 Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
@@ -4449,25 +4431,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc
 
-Package: openssl
-Version: 2.1.2
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: askpass
-Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
-License: MIT + file LICENSE
-File: openssl_2.1.2_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/openssl/releases/download/2.1.2/openssl_2.1.2_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-04-22 17:18:54 UTC; unix
-Filesize: 1416718
-SHA256: 3d035ebf223ef92ad0e66da9c5756cd68324b040401d0b64a9348e13c1ded6d8
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: OpenSSL >= 1.0.2
-
 Package: ggplot2
 Version: 3.5.1
 Depends: R (>= 3.5), R (>= 4.5), R (< 4.5.99)
@@ -4755,3 +4718,40 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: freetype2, libpng, libtiff, libjpeg
 LinkingTo: systemfonts, textshaping
+
+Package: cachem
+Version: 1.1.0
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: rlang, fastmap (>= 1.2.0)
+Suggests: testthat
+License: MIT + file LICENSE
+File: cachem_1.1.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/cachem/releases/download/1.1.0/cachem_1.1.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-16 17:21:11 UTC; unix
+Filesize: 75254
+SHA256: 2ffa0f4da71fbb4f1075777796f26ac747b6721c96cf8f9cc36f24feb3c7e6db
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: openssl
+Version: 2.2.0
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: askpass
+Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
+License: MIT + file LICENSE
+File: openssl_2.2.0_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/openssl/releases/download/2.2.0/openssl_2.2.0_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-16 17:21:13 UTC; unix
+Filesize: 1414384
+SHA256: a2d22d64353f008fda2144a334961445c8dfa5d670dd0febef22964f43e24e5f
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: OpenSSL >= 1.0.2
