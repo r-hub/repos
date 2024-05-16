@@ -4,12 +4,19 @@
 These repositories are **experimental**. They are **not** compatible
 with `install.packages()`, only with pak.
 
+* [Ubuntu 22.04 + R-devel](#ubuntu-2204--r-devel-ubuntu-2204-r45)
+* [Ubuntu 22.04 + R-devel + libc++](#ubuntu-2204--r-devel--libc-ubuntu-2204-r45-libc)
+* [Fedora 38 + R-devel](#fedora-38--r-devel-fedora-38-r45)
+* [Ubuntu 22.04 + R-release on aarch64](#ubuntu-2204--r-release-on-aarch64-ubuntu-2204-aarch64-r44)
+* [macOS 11 Big Sur or later, x86_64 + R-devel](#macos-11-big-sur-or-later-x86_64--r-devel-macos-x86_64-r45)
+* [macOS 11 Big Sur or later, arm64 + R-devel](#macos-11-big-sur-or-later-arm64--r-devel-macos-arm64-r45)
+
 ## Can use PPPM:
 
 * [x] `ubuntu-next` (CRAN's `r-patched-linux-x86_64`)
 * [x] `ubuntu-release` (CRAN's `r-release-linux-x86_64`)
 
-## `ubuntu-22.04-R4.5`
+## Ubuntu 22.04 + R-devel (`ubuntu-22.04-R4.5`)
 
 ### Setup
 
@@ -34,7 +41,7 @@ options(repos = c(
 * [ ] `rcnst` (extra `rcnst`)
 * [ ] `rlibro` (extra `rlibro`)
 
-## `ubuntu-22.04-R4.5-libc++`
+## Ubuntu 22.04 + R-devel + libc++ (`ubuntu-22.04-R4.5-libc++`)
 
 ### Setup
 
@@ -53,16 +60,17 @@ options(repos = c(
 * [x] `clang18`
 * [ ] `ubuntu-libc++` (CRAN's `r-devel-linux-x86_64-fedora-clang`)
 
-## `ubuntu-22.04-R4.5-noshlib`
+## Ubuntu 22.04 + R-devel + no shared lib `ubuntu-22.04-R4.5-noshlib`
 
 ALthough we can potentially use packages that were built with
 a shared R lib, by removing the linkage after installation.
+The repository is not implemeneted yet.
 
 ### Containers using this repo
 
 * [ ] `rchk` (extra `rchk`)
 
-## `fedora-38-R4.5`
+## Fedora 38 + R-devel (`fedora-38-R4.5`)
 
 ### Setup
 
@@ -83,13 +91,46 @@ options(repos = c(
 * [x] `nosuggests` (extra `noSuggests`)
 * [x] `valgrind` (extra `valgrind`)
 
+## Ubuntu 22.04 + R-release on aarch64 (`ubuntu-22.04-aarch64-R4.4`)
+
+### Setup
+
+```
+options(repos = c(
+  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04-aarch64/4.4",
+  CRAN = "https://cloud.r-project.org"
+))
+```
+
+## macOS 11 Big Sur or later, x86_64 + R-devel (`macos-x86_64-R4.5`)
+
+```
+options(repos = c(
+  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/macos-x86_64/4.5",
+  CRAN = "https://cloud.r-project.org"
+))
+```
+
+## macOS 11 Big Sur or later, arm64 + R-devel (`macos-arm64-R4.5`)
+
+```
+options(repos = c(
+  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/macos-arm64/4.5",
+  CRAN = "https://cloud.r-project.org"
+))
+```
+
 ## Not needed?
+
+We probably do not need to create containers for these CRAN platforms:
 
 * [ ] extra `BLAS`
 * [ ] extra `gcc11`
 * [ ] extra `gcc12`
 
 ## Not possible (= very hard) currently
+
+We practically cannot implement this platform currently:
 
 * [ ] `m1mac` (extra `M1mac`)
 
