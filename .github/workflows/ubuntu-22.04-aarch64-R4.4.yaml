@@ -7,7 +7,7 @@ on:
 jobs:
   update:
     runs-on: [ARM64]
-    container: ghcr.io/r-lib/rig/ubuntu-22.04-devel
+    container: ghcr.io/r-lib/rig/ubuntu-22.04-release
     steps:
     - name: Check Distro and R version
       run: |
