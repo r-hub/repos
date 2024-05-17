@@ -1038,24 +1038,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Subversion for install_svn, git for install_git
 
-Package: rmarkdown
-Version: 2.26
-Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
-Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.43), methods, tinytex (>= 0.31), tools, utils, xfun (>= 0.36), yaml (>=
-        2.1.19)
-Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>= 3.0.3), tibble, vctrs, cleanrmd, withr (>= 2.4.2)
-License: GPL-3
-File: rmarkdown_2.26_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/rmarkdown/releases/download/2.26/rmarkdown_2.26_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2024-05-16 08:46:38 UTC; unix
-Filesize: 2639023
-SHA256: 7968297daf0d2df7e49052609954a60debf14abc287189cf8619f26315ab6e19
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
-
 Package: roxygen2
 Version: 7.3.1
 Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
@@ -1601,25 +1583,6 @@ Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-16 07:40:55 UTC; unix
 Filesize: 102560
 SHA256: a00dfd8ad75a8f8a830e27296167a5d23a2b9336640954c05cc638926d7fd668
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: broom
-Version: 1.0.5
-Depends: R (>= 3.5), R (>= 4.4), R (< 4.4.99)
-Imports: backports, dplyr (>= 1.0.0), ellipsis, generics (>= 0.0.2), glue, lifecycle, purrr, rlang, stringr, tibble (>= 3.0.0), tidyr (>= 1.0.0)
-Suggests: AER, AUC, bbmle, betareg, biglm, binGroup, boot, btergm (>= 1.10.6), car, carData, caret, cluster, cmprsk, coda, covr, drc, e1071, emmeans, epiR, ergm (>= 3.10.4), fixest (>= 0.9.0), gam
-        (>= 1.15), gee, geepack, ggplot2, glmnet, glmnetUtils, gmm, Hmisc, irlba, interp, joineRML, Kendall, knitr, ks, Lahman, lavaan, leaps, lfe, lm.beta, lme4, lmodel2, lmtest (>= 0.9.38),
-        lsmeans, maps, margins, MASS, mclust, mediation, metafor, mfx, mgcv, mlogit, modeldata, modeltests, muhaz, multcomp, network, nnet, orcutt (>= 2.2), ordinal, plm, poLCA, psych, quantreg,
-        rmarkdown, robust, robustbase, rsample, sandwich, sp, spdep (>= 1.1), spatialreg, speedglm, spelling, survey, survival, systemfit, testthat (>= 2.1.0), tseries, vars, zoo
-License: MIT + file LICENSE
-File: broom_1.0.5_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/broom/releases/download/1.0.5/broom_1.0.5_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2024-05-16 07:56:20 UTC; unix
-Filesize: 1924634
-SHA256: e067dc02bf73b49decf7c80db009c0d3da927b2993c0d95b22da68cb02bb5e5c
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4772,3 +4735,40 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: OpenSSL >= 1.0.2
+
+Package: rmarkdown
+Version: 2.27
+Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
+Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.43), methods, tinytex (>= 0.31), tools, utils, xfun (>= 0.36), yaml (>=
+        2.1.19)
+Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>= 3.0.3), tibble, vctrs, cleanrmd, withr (>= 2.4.2), xml2
+License: GPL-3
+File: rmarkdown_2.27_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/rmarkdown/releases/download/2.27/rmarkdown_2.27_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2024-05-17 18:33:02 UTC; unix
+Filesize: 2639385
+SHA256: c7871cf3a02274b0519a827fdebeb05a0b5ab5cf5238e30142d951fe4a5b63dc
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
+
+Package: broom
+Version: 1.0.6
+Depends: R (>= 3.5), R (>= 4.4), R (< 4.4.99)
+Imports: backports, dplyr (>= 1.0.0), generics (>= 0.0.2), glue, lifecycle, purrr, rlang, stringr, tibble (>= 3.0.0), tidyr (>= 1.0.0)
+Suggests: AER, AUC, bbmle, betareg, biglm, binGroup, boot, btergm (>= 1.10.6), car, carData, caret, cluster, cmprsk, coda, covr, drc, e1071, emmeans, epiR, ergm (>= 3.10.4), fixest (>= 0.9.0), gam
+        (>= 1.15), gee, geepack, ggplot2, glmnet, glmnetUtils, gmm, Hmisc, irlba, interp, joineRML, Kendall, knitr, ks, Lahman, lavaan, leaps, lfe, lm.beta, lme4, lmodel2, lmtest (>= 0.9.38),
+        lsmeans, maps, MASS, mclust, mediation, metafor, mfx, mgcv, mlogit, modeldata, modeltests (>= 0.1.6), muhaz, multcomp, network, nnet, orcutt (>= 2.2), ordinal, plm, poLCA, psych, quantreg,
+        rmarkdown, robust, robustbase, rsample, sandwich, spdep (>= 1.1), spatialreg, speedglm, spelling, survey, survival (>= 3.6-4), systemfit, testthat (>= 2.1.0), tseries, vars, zoo
+License: MIT + file LICENSE
+File: broom_1.0.6_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/broom/releases/download/1.0.6/broom_1.0.6_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.0; ; 2024-05-17 18:33:04 UTC; unix
+Filesize: 1919173
+SHA256: f50756d6f080851fd3426bbc5d4ee131d631ba601e9951687a84db361fbbf0cd
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
