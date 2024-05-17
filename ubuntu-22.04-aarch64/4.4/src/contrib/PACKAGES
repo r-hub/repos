@@ -119,24 +119,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: cachem
-Version: 1.0.8
-Depends: R (>= 4.4), R (< 4.4.99)
-Imports: rlang, fastmap (>= 1.1.1)
-Suggests: testthat
-License: MIT + file LICENSE
-File: cachem_1.0.8_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/cachem/releases/download/1.0.8/cachem_1.0.8_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-16 07:48:40 UTC; unix
-Filesize: 70729
-SHA256: 71db4823d7cc70fad74d173dcf01d3fcd7d0f277a97909f85354c80ff9b55707
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: callr
 Version: 3.7.6
 Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
@@ -765,25 +747,6 @@ RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: openssl
-Version: 2.1.2
-Depends: R (>= 4.4), R (< 4.4.99)
-Imports: askpass
-Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
-License: MIT + file LICENSE
-File: openssl_2.1.2_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/openssl/releases/download/2.1.2/openssl_2.1.2_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-16 07:36:10 UTC; unix
-Filesize: 1398468
-SHA256: bb73edd5ad87959be682fcd3ad21409fb4d654b6e46fa239a26005416c7624e2
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: OpenSSL >= 1.0.2
 
 Package: pillar
 Version: 1.9.0
@@ -4750,3 +4713,62 @@ RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rstanarm
+Version: 2.32.1
+Depends: R (>= 3.4.0), Rcpp (>= 0.12.0), methods, R (>= 4.4), R (< 4.4.99)
+Imports: bayesplot (>= 1.7.0), ggplot2 (>= 2.2.1), lme4 (>= 1.1-8), loo (>= 2.1.0), Matrix (>= 1.2-13), nlme (>= 3.1-124), posterior, rstan (>= 2.32.0), rstantools (>= 2.1.0), shinystan (>= 2.3.0),
+        stats, survival (>= 2.40.1), RcppParallel (>= 5.0.1), utils
+Suggests: biglm, betareg, data.table (>= 1.10.0), digest, gridExtra, HSAUR3, knitr (>= 1.15.1), MASS, mgcv (>= 1.8-13), rmarkdown, roxygen2, StanHeaders (>= 2.21.0), testthat (>= 1.0.2), gamm4,
+        shiny, V8
+License: GPL (>= 3)
+File: rstanarm_2.32.1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/rstanarm/releases/download/2.32.1/rstanarm_2.32.1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-17 07:33:04 UTC; unix
+Filesize: 135758271
+SHA256: 035cb93e20d9ffbb7d1d08138c91205e5314fe3190eef52a968802182c268e34
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, pandoc (>= 1.12.3), pandoc-citeproc
+LinkingTo: StanHeaders (>= 2.32.0), rstan (>= 2.32.0), BH (>= 1.72.0-2), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0), RcppParallel (>= 5.0.1)
+
+Package: cachem
+Version: 1.1.0
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: rlang, fastmap (>= 1.2.0)
+Suggests: testthat
+License: MIT + file LICENSE
+File: cachem_1.1.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/cachem/releases/download/1.1.0/cachem_1.1.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-16 18:32:04 UTC; unix
+Filesize: 70678
+SHA256: 8515ca2fb2e507a1190f6a4e5a03ff44d799990f68b6f1687e4fb0fae18b662a
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: openssl
+Version: 2.2.0
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: askpass
+Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
+License: MIT + file LICENSE
+File: openssl_2.2.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/openssl/releases/download/2.2.0/openssl_2.2.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-16 18:32:04 UTC; unix
+Filesize: 1396769
+SHA256: 024da7b849dec0c444a599e5cf28f45508262deb0b56393c7bdde41224af1c27
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: OpenSSL >= 1.0.2
