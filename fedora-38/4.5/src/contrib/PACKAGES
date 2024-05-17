@@ -861,24 +861,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: winch
 
-Package: rmarkdown
-Version: 2.26
-Depends: R (>= 3.0), R (>= 4.5), R (< 4.5.99)
-Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.43), methods, tinytex (>= 0.31), tools, utils, xfun (>= 0.36), yaml (>=
-        2.1.19)
-Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>= 3.0.3), tibble, vctrs, cleanrmd, withr (>= 2.4.2)
-License: GPL-3
-File: rmarkdown_2.26_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/rmarkdown/releases/download/2.26/rmarkdown_2.26_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.5.0; ; 2024-03-27 17:45:29 UTC; unix
-Filesize: 2679723
-SHA256: 265be7417385ce126141635d6365c4d16e6f0d1eafaa8607ff3ee5e3cfbc63a9
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
-
 Package: roxygen2
 Version: 7.3.1
 Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
@@ -1263,25 +1245,6 @@ Arch: amd64
 Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 17:22:10 UTC; unix
 Filesize: 109906
 SHA256: ff537364ccc26090241381d69cbb5adc327a5b508a53a3c61c74301021041167
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: broom
-Version: 1.0.5
-Depends: R (>= 3.5), R (>= 4.5), R (< 4.5.99)
-Imports: backports, dplyr (>= 1.0.0), ellipsis, generics (>= 0.0.2), glue, lifecycle, purrr, rlang, stringr, tibble (>= 3.0.0), tidyr (>= 1.0.0)
-Suggests: AER, AUC, bbmle, betareg, biglm, binGroup, boot, btergm (>= 1.10.6), car, carData, caret, cluster, cmprsk, coda, covr, drc, e1071, emmeans, epiR, ergm (>= 3.10.4), fixest (>= 0.9.0), gam
-        (>= 1.15), gee, geepack, ggplot2, glmnet, glmnetUtils, gmm, Hmisc, irlba, interp, joineRML, Kendall, knitr, ks, Lahman, lavaan, leaps, lfe, lm.beta, lme4, lmodel2, lmtest (>= 0.9.38),
-        lsmeans, maps, margins, MASS, mclust, mediation, metafor, mfx, mgcv, mlogit, modeldata, modeltests, muhaz, multcomp, network, nnet, orcutt (>= 2.2), ordinal, plm, poLCA, psych, quantreg,
-        rmarkdown, robust, robustbase, rsample, sandwich, sp, spdep (>= 1.1), spatialreg, speedglm, spelling, survey, survival, systemfit, testthat (>= 2.1.0), tseries, vars, zoo
-License: MIT + file LICENSE
-File: broom_1.0.5_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/broom/releases/download/1.0.5/broom_1.0.5_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.5.0; ; 2024-03-27 17:33:39 UTC; unix
-Filesize: 1984692
-SHA256: c6c2869ca1ea4fceee396d4c696bc371334f00779feae57633a08b626f1dc06c
 RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
@@ -4755,3 +4718,40 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: OpenSSL >= 1.0.2
+
+Package: rmarkdown
+Version: 2.27
+Depends: R (>= 3.0), R (>= 4.5), R (< 4.5.99)
+Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.43), methods, tinytex (>= 0.31), tools, utils, xfun (>= 0.36), yaml (>=
+        2.1.19)
+Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>= 3.0.3), tibble, vctrs, cleanrmd, withr (>= 2.4.2), xml2
+License: GPL-3
+File: rmarkdown_2.27_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/rmarkdown/releases/download/2.27/rmarkdown_2.27_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.5.0; ; 2024-05-17 17:20:55 UTC; unix
+Filesize: 2681072
+SHA256: b4f1d857228b8a09061439d2027aba0df40960a1f15ac1a3c5fe86fce5c025af
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
+
+Package: broom
+Version: 1.0.6
+Depends: R (>= 3.5), R (>= 4.5), R (< 4.5.99)
+Imports: backports, dplyr (>= 1.0.0), generics (>= 0.0.2), glue, lifecycle, purrr, rlang, stringr, tibble (>= 3.0.0), tidyr (>= 1.0.0)
+Suggests: AER, AUC, bbmle, betareg, biglm, binGroup, boot, btergm (>= 1.10.6), car, carData, caret, cluster, cmprsk, coda, covr, drc, e1071, emmeans, epiR, ergm (>= 3.10.4), fixest (>= 0.9.0), gam
+        (>= 1.15), gee, geepack, ggplot2, glmnet, glmnetUtils, gmm, Hmisc, irlba, interp, joineRML, Kendall, knitr, ks, Lahman, lavaan, leaps, lfe, lm.beta, lme4, lmodel2, lmtest (>= 0.9.38),
+        lsmeans, maps, MASS, mclust, mediation, metafor, mfx, mgcv, mlogit, modeldata, modeltests (>= 0.1.6), muhaz, multcomp, network, nnet, orcutt (>= 2.2), ordinal, plm, poLCA, psych, quantreg,
+        rmarkdown, robust, robustbase, rsample, sandwich, spdep (>= 1.1), spatialreg, speedglm, spelling, survey, survival (>= 3.6-4), systemfit, testthat (>= 2.1.0), tseries, vars, zoo
+License: MIT + file LICENSE
+File: broom_1.0.6_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/broom/releases/download/1.0.6/broom_1.0.6_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.5.0; ; 2024-05-17 17:21:00 UTC; unix
+Filesize: 1973146
+SHA256: d8c4226c39fb6aa2dcb1019527c546daf6d105d4d2efb8bffe86fe24762439b4
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
