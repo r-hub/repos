@@ -954,24 +954,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: winch
 
-Package: rmarkdown
-Version: 2.26
-Depends: R (>= 3.0), R (>= 4.5), R (< 4.5.99)
-Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.43), methods, tinytex (>= 0.31), tools, utils, xfun (>= 0.36), yaml (>=
-        2.1.19)
-Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>= 3.0.3), tibble, vctrs, cleanrmd, withr (>= 2.4.2)
-License: GPL-3
-File: rmarkdown_2.26_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/rmarkdown/releases/download/2.26/rmarkdown_2.26_b1_R4.5_aarch64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-03-29 15:31:24 UTC; unix
-Filesize: 2628339
-SHA256: 9b882bbb8a68ae34daf419411204e699133b18824ef77f5602326f00d1bc0e8e
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
-
 Package: roxygen2
 Version: 7.3.1
 Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
@@ -1356,25 +1338,6 @@ Arch: arm64
 Built: R 4.5.0; aarch64-apple-darwin20; 2024-03-29 15:08:02 UTC; unix
 Filesize: 100257
 SHA256: 1897f6a996df4ab47276ba3917b302b0de9651a0954e0b9b4eacde548207a324
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: broom
-Version: 1.0.5
-Depends: R (>= 3.5), R (>= 4.5), R (< 4.5.99)
-Imports: backports, dplyr (>= 1.0.0), ellipsis, generics (>= 0.0.2), glue, lifecycle, purrr, rlang, stringr, tibble (>= 3.0.0), tidyr (>= 1.0.0)
-Suggests: AER, AUC, bbmle, betareg, biglm, binGroup, boot, btergm (>= 1.10.6), car, carData, caret, cluster, cmprsk, coda, covr, drc, e1071, emmeans, epiR, ergm (>= 3.10.4), fixest (>= 0.9.0), gam
-        (>= 1.15), gee, geepack, ggplot2, glmnet, glmnetUtils, gmm, Hmisc, irlba, interp, joineRML, Kendall, knitr, ks, Lahman, lavaan, leaps, lfe, lm.beta, lme4, lmodel2, lmtest (>= 0.9.38),
-        lsmeans, maps, margins, MASS, mclust, mediation, metafor, mfx, mgcv, mlogit, modeldata, modeltests, muhaz, multcomp, network, nnet, orcutt (>= 2.2), ordinal, plm, poLCA, psych, quantreg,
-        rmarkdown, robust, robustbase, rsample, sandwich, sp, spdep (>= 1.1), spatialreg, speedglm, spelling, survey, survival, systemfit, testthat (>= 2.1.0), tseries, vars, zoo
-License: MIT + file LICENSE
-File: broom_1.0.5_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/broom/releases/download/1.0.5/broom_1.0.5_b1_R4.5_aarch64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-03-29 15:16:50 UTC; unix
-Filesize: 1879902
-SHA256: 76e77dc3f5014d13370b7abfa3fcb4deb7fc323951dd7af6d6ed355440284a34
 RVersion: 4.5
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
@@ -4315,25 +4278,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc
 
-Package: openssl
-Version: 2.1.2
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: askpass
-Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
-License: MIT + file LICENSE
-File: openssl_2.1.2_b2_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/openssl/releases/download/2.1.2/openssl_2.1.2_b2_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-04-22 17:30:05 UTC; unix
-Filesize: 2868894
-SHA256: f4697e1d5a1fc7b1b11b5ae0f6f4b0901c820c2626753ccf18cd77b387ebc1b7
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: OpenSSL >= 1.0.2
-
 Package: ggplot2
 Version: 3.5.1
 Depends: R (>= 3.5), R (>= 4.5), R (< 4.5.99)
@@ -4639,3 +4583,59 @@ RVersion: 4.5
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rmarkdown
+Version: 2.27
+Depends: R (>= 3.0), R (>= 4.5), R (< 4.5.99)
+Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.43), methods, tinytex (>= 0.31), tools, utils, xfun (>= 0.36), yaml (>=
+        2.1.19)
+Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>= 3.0.3), tibble, vctrs, cleanrmd, withr (>= 2.4.2), xml2
+License: GPL-3
+File: rmarkdown_2.27_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/rmarkdown/releases/download/2.27/rmarkdown_2.27_b2_R4.5_aarch64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-05-17 17:30:52 UTC; unix
+Filesize: 2630968
+SHA256: 43df760c2602d8116f470ce2139ff8502e46c17e33b3a222c327866bc1857906
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
+
+Package: broom
+Version: 1.0.6
+Depends: R (>= 3.5), R (>= 4.5), R (< 4.5.99)
+Imports: backports, dplyr (>= 1.0.0), generics (>= 0.0.2), glue, lifecycle, purrr, rlang, stringr, tibble (>= 3.0.0), tidyr (>= 1.0.0)
+Suggests: AER, AUC, bbmle, betareg, biglm, binGroup, boot, btergm (>= 1.10.6), car, carData, caret, cluster, cmprsk, coda, covr, drc, e1071, emmeans, epiR, ergm (>= 3.10.4), fixest (>= 0.9.0), gam
+        (>= 1.15), gee, geepack, ggplot2, glmnet, glmnetUtils, gmm, Hmisc, irlba, interp, joineRML, Kendall, knitr, ks, Lahman, lavaan, leaps, lfe, lm.beta, lme4, lmodel2, lmtest (>= 0.9.38),
+        lsmeans, maps, MASS, mclust, mediation, metafor, mfx, mgcv, mlogit, modeldata, modeltests (>= 0.1.6), muhaz, multcomp, network, nnet, orcutt (>= 2.2), ordinal, plm, poLCA, psych, quantreg,
+        rmarkdown, robust, robustbase, rsample, sandwich, spdep (>= 1.1), spatialreg, speedglm, spelling, survey, survival (>= 3.6-4), systemfit, testthat (>= 2.1.0), tseries, vars, zoo
+License: MIT + file LICENSE
+File: broom_1.0.6_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/broom/releases/download/1.0.6/broom_1.0.6_b2_R4.5_aarch64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-05-17 17:30:57 UTC; unix
+Filesize: 1876561
+SHA256: d086f012150f0dd57d40383069e76dc03a26812b24af6123c26a1d859c681009
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: openssl
+Version: 2.2.0
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: askpass
+Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
+License: MIT + file LICENSE
+File: openssl_2.2.0_b3_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/openssl/releases/download/2.2.0/openssl_2.2.0_b3_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-05-17 17:30:37 UTC; unix
+Filesize: 3591528
+SHA256: 8014a84b55dc879f40e6f4f310ba37d94bf8278e712bef47d17ca5ff8c10c10a
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: OpenSSL >= 1.0.2
