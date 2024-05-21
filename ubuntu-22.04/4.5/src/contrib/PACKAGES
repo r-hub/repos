@@ -4461,26 +4461,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: StanHeaders
-Version: 2.32.7
-Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
-Imports: RcppParallel (>= 5.1.4)
-Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix, methods, rstan, withr
-License: BSD_3_clause + file LICENSE
-File: StanHeaders_2.32.7_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/StanHeaders/releases/download/2.32.7/StanHeaders_2.32.7_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-04-25 16:49:57 UTC; unix
-Filesize: 3146969
-SHA256: 43ccea01cc656a3907540dc8c7ff4ddcf9880ef132e0d8c39db455bd380bce6f
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make, pandoc
-LinkingTo: RcppEigen (>= 0.3.3.9.3), RcppParallel (>= 5.1.4)
-
 Package: sp
 Version: 2.1-4
 Depends: R (>= 3.5.0), methods, R (>= 4.5), R (< 4.5.99)
@@ -4755,3 +4735,23 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make
 LinkingTo: Rcpp
+
+Package: StanHeaders
+Version: 2.32.8
+Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
+Imports: RcppParallel (>= 5.1.4)
+Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix, methods, rstan, withr
+License: BSD_3_clause + file LICENSE
+File: StanHeaders_2.32.8_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/StanHeaders/releases/download/2.32.8/StanHeaders_2.32.8_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-21 16:36:03 UTC; unix
+Filesize: 3146614
+SHA256: a747beda9f94757a1cdf6bbc640dfd23f2a6ae58994a62cacf055580953bcb08
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, pandoc
+LinkingTo: RcppEigen (>= 0.3.4.0.0), RcppParallel (>= 5.1.4)
