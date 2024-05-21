@@ -2680,24 +2680,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or libmagick++-dev (deb)
 LinkingTo: Rcpp
 
-Package: mvtnorm
-Version: 1.2-4
-Depends: R(>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-Imports: stats
-Suggests: qrng, numDeriv
-License: GPL-2
-File: mvtnorm_1.2-4_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.2-4/mvtnorm_1.2-4_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 17:23:15 UTC; unix
-Filesize: 822914
-SHA256: 629f178e86f016e7a45b7329b74cca8e6a6fd8a92c13f3bbc1af1930cb92fec8
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: rgl
 Version: 1.3.1
 Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
@@ -4461,26 +4443,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: StanHeaders
-Version: 2.32.7
-Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
-Imports: RcppParallel (>= 5.1.4)
-Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix, methods, rstan, withr
-License: BSD_3_clause + file LICENSE
-File: StanHeaders_2.32.7_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/StanHeaders/releases/download/2.32.7/StanHeaders_2.32.7_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-04-25 17:22:37 UTC; unix
-Filesize: 3126648
-SHA256: 481f8866fa1cd883158cc9e41d14f7673d0cb89bf6927edc2af6bbd15689b2d4
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make, pandoc
-LinkingTo: RcppEigen (>= 0.3.3.9.3), RcppParallel (>= 5.1.4)
-
 Package: sp
 Version: 2.1-4
 Depends: R (>= 3.5.0), methods, R (>= 4.5), R (< 4.5.99)
@@ -4755,3 +4717,41 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make
 LinkingTo: Rcpp
+
+Package: mvtnorm
+Version: 1.2-5
+Depends: R(>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+Imports: stats
+Suggests: qrng, numDeriv
+License: GPL-2
+File: mvtnorm_1.2-5_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.2-5/mvtnorm_1.2-5_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-21 17:20:07 UTC; unix
+Filesize: 846193
+SHA256: fedbe9e06bb35342401991c7853318073b82ce1c6c90a5ee025b3165ebd55092
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: StanHeaders
+Version: 2.32.8
+Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
+Imports: RcppParallel (>= 5.1.4)
+Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix, methods, rstan, withr
+License: BSD_3_clause + file LICENSE
+File: StanHeaders_2.32.8_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/StanHeaders/releases/download/2.32.8/StanHeaders_2.32.8_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-21 17:20:10 UTC; unix
+Filesize: 3126648
+SHA256: b07929d51092a6ea3e9b53cc97be7b4633100e1bcde17627644005664fecf833
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, pandoc
+LinkingTo: RcppEigen (>= 0.3.4.0.0), RcppParallel (>= 5.1.4)
