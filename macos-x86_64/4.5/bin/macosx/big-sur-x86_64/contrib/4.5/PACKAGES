@@ -4420,26 +4420,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: StanHeaders
-Version: 2.32.7
-Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
-Imports: RcppParallel (>= 5.1.4)
-Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix, methods, rstan, withr
-License: BSD_3_clause + file LICENSE
-File: StanHeaders_2.32.7_b2_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/StanHeaders/releases/download/2.32.7/StanHeaders_2.32.7_b2_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-04-25 17:36:05 UTC; unix
-Filesize: 2881960
-SHA256: 482a73e4db60acbd8470aa805611ab98114a09a43e6bdf08e011154057408b33
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make, pandoc
-LinkingTo: RcppEigen (>= 0.3.3.9.3), RcppParallel (>= 5.1.4)
-
 Package: sp
 Version: 2.1-4
 Depends: R (>= 3.5.0), methods, R (>= 4.5), R (< 4.5.99)
@@ -4714,3 +4694,23 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make
 LinkingTo: Rcpp
+
+Package: StanHeaders
+Version: 2.32.8
+Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
+Imports: RcppParallel (>= 5.1.4)
+Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix, methods, rstan, withr
+License: BSD_3_clause + file LICENSE
+File: StanHeaders_2.32.8_b3_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/StanHeaders/releases/download/2.32.8/StanHeaders_2.32.8_b3_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2024-05-21 17:31:04 UTC; unix
+Filesize: 2881990
+SHA256: ba6bc46b488d6b4a4987af9269e9edf0f5952e9ddd8e9abb027931f9d7c405a7
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, pandoc
+LinkingTo: RcppEigen (>= 0.3.4.0.0), RcppParallel (>= 5.1.4)
