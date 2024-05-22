@@ -20,26 +20,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
 LinkingTo: Rcpp
 
-Package: terra
-Version: 1.7-71
-Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-Imports: methods, Rcpp (>= 1.0-10)
-Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
-License: GPL (>= 3)
-File: terra_1.7-71_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/terra/releases/download/1.7-71/terra_1.7-71_b1_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-03-29 14:52:15 UTC; unix
-Filesize: 19056877
-SHA256: 8cc9d32042bc84fb0535ab5802420a258bdf6d430b513dfe4f742bad3dcd6354
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
-LinkingTo: Rcpp
-
 Package: raster
 Version: 3.6-26
 Depends: sp (>= 1.4-5), R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
@@ -2769,24 +2749,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
 LinkingTo: cpp11 (>= 0.4.7)
 
-Package: mvtnorm
-Version: 1.2-4
-Depends: R(>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-Imports: stats
-Suggests: qrng, numDeriv
-License: GPL-2
-File: mvtnorm_1.2-4_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.2-4/mvtnorm_1.2-4_b1_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-03-29 15:08:54 UTC; unix
-Filesize: 753383
-SHA256: e619d212dcdd9a50c2a554a700f4b84cd8dc11e85e9f5be8a6afc6f449ab20e8
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: rgl
 Version: 1.3.1
 Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
@@ -4639,3 +4601,41 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, pandoc
 LinkingTo: RcppEigen (>= 0.3.4.0.0), RcppParallel (>= 5.1.4)
+
+Package: terra
+Version: 1.7-78
+Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+Imports: methods, Rcpp (>= 1.0-10)
+Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
+License: GPL (>= 3)
+File: terra_1.7-78_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/terra/releases/download/1.7-78/terra_1.7-78_b2_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-05-22 17:30:09 UTC; unix
+Filesize: 19095413
+SHA256: 8eedeb2cfc7d3c6b07bfafbb185176a2687ba7cd0adf7bbfef1eb93d7b8beee9
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
+LinkingTo: Rcpp
+
+Package: mvtnorm
+Version: 1.2-5
+Depends: R(>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+Imports: stats
+Suggests: qrng, numDeriv
+License: GPL-2
+File: mvtnorm_1.2-5_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.2-5/mvtnorm_1.2-5_b2_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-05-22 17:29:58 UTC; unix
+Filesize: 774417
+SHA256: 6c531c04d391ee77721b5adf4f5f2634ca6b2228b3cbf0cedee6fe1a6a1791fd
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
