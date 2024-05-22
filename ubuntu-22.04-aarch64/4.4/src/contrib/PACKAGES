@@ -3309,26 +3309,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: terra
-Version: 1.7-71
-Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Imports: methods, Rcpp (>= 1.0-10)
-Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
-License: GPL (>= 3)
-File: terra_1.7-71_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/terra/releases/download/1.7-71/terra_1.7-71_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-16 07:46:16 UTC; unix
-Filesize: 29622196
-SHA256: f40ad9df1f4bb6eac55f497d98e3f2ac095a7f2b73f60ddca6db3e8075ba1240
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
-LinkingTo: Rcpp
-
 Package: zoo
 Version: 1.8-12
 Depends: R (>= 3.1.0), stats, R (>= 4.4), R (< 4.4.99)
@@ -4772,3 +4752,23 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, pandoc
 LinkingTo: RcppEigen (>= 0.3.4.0.0), RcppParallel (>= 5.1.4)
+
+Package: terra
+Version: 1.7-78
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Imports: methods, Rcpp (>= 1.0-10)
+Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
+License: GPL (>= 3)
+File: terra_1.7-78_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/terra/releases/download/1.7-78/terra_1.7-78_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-22 18:34:09 UTC; unix
+Filesize: 29700277
+SHA256: 049331640802d77ed07ace27e8e0d617b98f8f5ded0b5dbf2d08f82f6ebdfef0
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
+LinkingTo: Rcpp
