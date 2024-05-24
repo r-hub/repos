@@ -1011,26 +1011,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: textshaping
-Version: 0.3.7
-Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
-Imports: systemfonts (>= 1.0.0)
-Suggests: covr, knitr, rmarkdown
-License: MIT + file LICENSE
-File: textshaping_0.3.7_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/textshaping/releases/download/0.3.7/textshaping_0.3.7_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 09:44:04 UTC; unix
-Filesize: 754836
-SHA256: 68154aa7f7fecfb6715a174d643b614a9cc1d35f9b93558b7076cf709aee0378
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: freetype2, harfbuzz, fribidi
-LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
-
 Package: tibble
 Version: 3.2.1
 Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
@@ -4755,3 +4735,23 @@ RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: textshaping
+Version: 0.4.0
+Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
+Imports: lifecycle, systemfonts (>= 1.1.0)
+Suggests: covr, knitr, rmarkdown
+License: MIT + file LICENSE
+File: textshaping_0.4.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/textshaping/releases/download/0.4.0/textshaping_0.4.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-24 16:39:44 UTC; unix
+Filesize: 999548
+SHA256: 8d8a35c4f8d9146af1aaea6500a7a5810b4c9a3d456a3ba9fcf90611e6da7fd0
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: freetype2, harfbuzz, fribidi
+LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
