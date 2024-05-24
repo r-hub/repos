@@ -1011,26 +1011,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: textshaping
-Version: 0.3.7
-Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
-Imports: systemfonts (>= 1.0.0)
-Suggests: covr, knitr, rmarkdown
-License: MIT + file LICENSE
-File: textshaping_0.3.7_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/textshaping/releases/download/0.3.7/textshaping_0.3.7_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 13:03:56 UTC; unix
-Filesize: 114539
-SHA256: e6becce590e06208862cede93327ff5e967ba22da2499bbfe72c56d4a31041a4
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: freetype2, harfbuzz, fribidi
-LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
-
 Package: tibble
 Version: 3.2.1
 Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
@@ -4406,3 +4386,23 @@ RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: textshaping
+Version: 0.4.0
+Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
+Imports: lifecycle, systemfonts (>= 1.1.0)
+Suggests: covr, knitr, rmarkdown
+License: MIT + file LICENSE
+File: textshaping_0.4.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/textshaping/releases/download/0.4.0/textshaping_0.4.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-24 17:07:13 UTC; unix
+Filesize: 135037
+SHA256: 4e4bc8e1dff63be34511894d0cb9299d54b94b3fda7fb4b77e89beb885ba64f2
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: freetype2, harfbuzz, fribidi
+LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
