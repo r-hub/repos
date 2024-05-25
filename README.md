@@ -54,6 +54,7 @@ options(repos = c(
 
 ### Containers using this repo
 
+* [x] `c23` (extra `C23`)
 * [x] `clang-asan` (extra `clang-ASAN` and `clang-UBSAN`)
 * [x] `clang16`
 * [x] `clang17`
@@ -90,6 +91,21 @@ options(repos = c(
 * [ ] `openblas` (extra `OpenBLAS`)
 * [x] `nosuggests` (extra `noSuggests`)
 * [x] `valgrind` (extra `valgrind`)
+
+## Fedora 40 + R-devel (`fedora-40-R4.5`)
+
+### Setup
+
+```
+options(repos = c(
+  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/fedora-40/4.5",
+  CRAN = "https://cloud.r-project.org"
+))
+```
+
+### Containers using this repo
+
+* [x] `gcc14` (extra `gcc141)
 
 ## Ubuntu 22.04 + R-release on aarch64 (`ubuntu-22.04-aarch64-R4.4`)
 
@@ -165,6 +181,7 @@ Name         | CRAN       | ✓ | Repo                      | Description
 `m1mac`      | M1mac      |   | CRAN?                     | Checks on a M1 (arm64) Mac
 `mkl`        | MKL        | ✓ | fedora-38-R4.5            | Tests with alternative BLAS/LAPACK implementations
 `openblas`   | OpenBLAS   |   | fedora-38-R4.5            | Tests with alternative BLAS/LAPACK implementations
+`c23`        | `C23`      | ✓ | ubuntu-22.04-R4.5-libc++  | Checks of compiling C code in C23 mode
 `clang-asan` | clang-ASAN | ✓ | ubuntu-22.04-R4.5-libc++  | Tests of memory access errors using AddressSanitizer
 `clang-asan` | clang-UBSAN| ✓ | ubuntu-22.04-R4.5-libc++  | Tests of memory access errors using Undefined Behavior Sanitizer
 `clang16`    | clang16    | ✓ | ubuntu-22.04-R4.5-libc++  | Checks with Clang 16.0.0
@@ -176,6 +193,7 @@ Name         | CRAN       | ✓ | Repo                      | Description
 `gcc11`      | gcc11      |   |                           | Checks with GCC trunk aka 11.0
 `gcc12`      | gcc12      |   |                           | Installation issues with fedora-gcc but not fedora-clang
 `gcc13`      | gcc13      | ✓ | fedora-38-R4.5            | Checks with GCC trunk aka 13.0
+`gcc14`      | gcc14      | ✓ | fedora-40-R4.5            | Checks with GCC trunk aka 14.0
 `nold`       | noLD`      | ✓ | ubuntu-22.04-R4.5         | Tests without long double
 `noomp`      | noOMP      |   | ubuntu-22.04-R4.5         | Tests without OpenMP support
 `nosuggests` | noSuggests | ✓ | fedora-38-R4.5            | Tests without suggested packages
