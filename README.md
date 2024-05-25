@@ -40,6 +40,7 @@ options(repos = c(
 * [ ] `noomp` (extra `noOMP`)
 * [ ] `rcnst` (extra `rcnst`)
 * [ ] `rlibro` (extra `rlibro`)
+* [ ] `noremap` (extra `noremap`)
 
 ## Ubuntu 22.04 + R-devel + libc++ (`ubuntu-22.04-R4.5-libc++`)
 
@@ -59,6 +60,7 @@ options(repos = c(
 * [x] `clang16`
 * [x] `clang17`
 * [x] `clang18`
+* [ ] `clang19`
 * [ ] `ubuntu-libc++` (CRAN's `r-devel-linux-x86_64-fedora-clang`)
 
 ## Ubuntu 22.04 + R-devel + no shared lib `ubuntu-22.04-R4.5-noshlib`
@@ -186,6 +188,7 @@ Name         | CRAN       | ✓ | Repo                      | Description
 `clang16`    | clang16    | ✓ | ubuntu-22.04-R4.5-libc++  | Checks with Clang 16.0.0
 `clang17`    | clang17    | ✓ | ubuntu-22.04-R4.5-libc++  | Checks with LLVM pre-17.0.0
 `clang18`    | clang18    |   | ubuntu-22.04-R4.5-libc++  | Checks with LLVM pre-18.0.0
+`clang19`    | clang19    |   | ubuntu-22.04-R4.5-libc++  | 
 `donttest`   | donttest   | ✓ | ubuntu-22.04-R4.5         | Tests including `\donttest` examples
 `gcc-asan`   | gcc-ASAN   |   | ubuntu-22.04-R4.5         | Tests of memory access errors using AddressSanitizer
 `gcc-asan`   | gcc-UBSAN  |   | ubuntu-22.04-R4.5         | Tests of memory access errors using Undefined Behavior Sanitizer
@@ -200,6 +203,7 @@ Name         | CRAN       | ✓ | Repo                      | Description
 `rchk`       | rchk       |   | ubuntu-22.04-R4.5-noshlib | Checks of native code (C/C++) based on static code analysis
 `rcnst`      | rcnst      |   | ubuntu-22.04-R4.5         | Checks of corruption of constants
 `rlibro`     | rlibro     |   | ubuntu-22.04-R4.5         | Checks with read-only user library
+`noremap`    | noRemap    |   | ubuntu-22.04-R4.5         | Checks with `-DR_NO_REMAP` used for C++ code
 
 # License
 
