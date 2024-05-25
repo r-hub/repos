@@ -33,7 +33,7 @@ options(repos = c(
 * [x] `ubuntu-gcc12` (CRAN's `r-devel-linux-x86_64-debian-gcc`)
 * [ ] `ubuntu-gcc` (CRAN's `r-devel-linux-x86_64-fedora-gcc`)
 * [x] `nold` (extra `noLD`)
-* [ ] `c23` (extra `C23`)
+* [x] `c23` (extra `C23`)
 * [ ] `lto` (extra `LTO`)
 * [x] `donttest` (extra `donttest`)
 * [ ] `gcc-asan` (extra `gcc-ASAN` and `gcc-UBSAN`)
@@ -175,7 +175,6 @@ Name         | CRAN       | ✓ | Repo                      | Description
 -------------|------------|---|---------------------------|---------------------------------------------------
 `atlas`      | ATLAS      | ✓ | fedora-38-R4.5            | Tests with alternative BLAS/LAPACK implementations
 `blas`       | BLAS`      |   |                           | Use of BLAS/LAPACK from C/C++ code
-`c23`        | C23        |   | ubuntu-22.04-R4.5         | Checks of compiling C code in C23 mode
 `intel`      | Intel      | ✓ | fedora-38-R4.5            | Checks with Intel oneAPI 2023.x compilers
 `lto`        | LTO        |   | ubuntu-22.04-R4.5         | Tests for link-time optimization type mismatches
 `m1mac`      | M1mac      |   | CRAN?                     | Checks on a M1 (arm64) Mac
