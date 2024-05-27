@@ -62,7 +62,7 @@ options(repos = c(
 * [x] `clang16`
 * [x] `clang17`
 * [x] `clang18`
-* [ ] `clang19`
+* [x] `clang19`
 * [ ] `ubuntu-libc++` (CRAN's `r-devel-linux-x86_64-fedora-clang`)
 
 ## Fedora 38 + R-devel (`fedora-38-R4.5`)
@@ -180,7 +180,7 @@ Name         | CRAN       | ✓ | Repo                      | Description
 `clang16`    | clang16    | ✓ | ubuntu-22.04-R4.5-libc++  | Checks with Clang 16.0.0
 `clang17`    | clang17    | ✓ | ubuntu-22.04-R4.5-libc++  | Checks with LLVM pre-17.0.0
 `clang18`    | clang18    | ✓ | ubuntu-22.04-R4.5-libc++  | Checks with LLVM pre-18.0.0
-`clang19`    | clang19    |   | ubuntu-22.04-R4.5-libc++  | 
+`clang19`    | clang19    | ✓ | ubuntu-22.04-R4.5-libc++  | Checks with LLVM pre-19.0.0
 `donttest`   | donttest   | ✓ | ubuntu-22.04-R4.5         | Tests including `\donttest` examples
 `gcc-asan`   | gcc-ASAN   |   | ubuntu-22.04-R4.5         | Tests of memory access errors using AddressSanitizer
 `gcc-asan`   | gcc-UBSAN  |   | ubuntu-22.04-R4.5         | Tests of memory access errors using Undefined Behavior Sanitizer
