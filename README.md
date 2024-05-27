@@ -7,6 +7,7 @@ with `install.packages()`, only with pak.
 * [Ubuntu 22.04 + R-devel](#ubuntu-2204--r-devel-ubuntu-2204-r45)
 * [Ubuntu 22.04 + R-devel + libc++](#ubuntu-2204--r-devel--libc-ubuntu-2204-r45-libc)
 * [Fedora 38 + R-devel](#fedora-38--r-devel-fedora-38-r45)
+* [Fedora 40 + R-devel](#fedora-40--r-devel-fedora-40-r45)
 * [Ubuntu 22.04 + R-release on aarch64](#ubuntu-2204--r-release-on-aarch64-ubuntu-2204-aarch64-r44)
 * [macOS 11 Big Sur or later, x86_64 + R-devel](#macos-11-big-sur-or-later-x86_64--r-devel-macos-x86_64-r45)
 * [macOS 11 Big Sur or later, arm64 + R-devel](#macos-11-big-sur-or-later-arm64--r-devel-macos-arm64-r45)
@@ -41,6 +42,7 @@ options(repos = c(
 * [ ] `rcnst` (extra `rcnst`)
 * [ ] `rlibro` (extra `rlibro`)
 * [ ] `noremap` (extra `noremap`)
+* [ ] `rchk` (extra `rchk`)
 
 ## Ubuntu 22.04 + R-devel + libc++ (`ubuntu-22.04-R4.5-libc++`)
 
@@ -62,16 +64,6 @@ options(repos = c(
 * [x] `clang18`
 * [ ] `clang19`
 * [ ] `ubuntu-libc++` (CRAN's `r-devel-linux-x86_64-fedora-clang`)
-
-## Ubuntu 22.04 + R-devel + no shared lib `ubuntu-22.04-R4.5-noshlib`
-
-ALthough we can potentially use packages that were built with
-a shared R lib, by removing the linkage after installation.
-The repository is not implemeneted yet.
-
-### Containers using this repo
-
-* [ ] `rchk` (extra `rchk`)
 
 ## Fedora 38 + R-devel (`fedora-38-R4.5`)
 
@@ -187,7 +179,7 @@ Name         | CRAN       | ✓ | Repo                      | Description
 `clang-asan` | clang-UBSAN| ✓ | ubuntu-22.04-R4.5-libc++  | Tests of memory access errors using Undefined Behavior Sanitizer
 `clang16`    | clang16    | ✓ | ubuntu-22.04-R4.5-libc++  | Checks with Clang 16.0.0
 `clang17`    | clang17    | ✓ | ubuntu-22.04-R4.5-libc++  | Checks with LLVM pre-17.0.0
-`clang18`    | clang18    |   | ubuntu-22.04-R4.5-libc++  | Checks with LLVM pre-18.0.0
+`clang18`    | clang18    | ✓ | ubuntu-22.04-R4.5-libc++  | Checks with LLVM pre-18.0.0
 `clang19`    | clang19    |   | ubuntu-22.04-R4.5-libc++  | 
 `donttest`   | donttest   | ✓ | ubuntu-22.04-R4.5         | Tests including `\donttest` examples
 `gcc-asan`   | gcc-ASAN   |   | ubuntu-22.04-R4.5         | Tests of memory access errors using AddressSanitizer
@@ -200,7 +192,7 @@ Name         | CRAN       | ✓ | Repo                      | Description
 `noomp`      | noOMP      |   | ubuntu-22.04-R4.5         | Tests without OpenMP support
 `nosuggests` | noSuggests | ✓ | fedora-38-R4.5            | Tests without suggested packages
 `valgrind`   | valgrind   | ✓ | fedora-38-R4.5            | Tests of memory access errors using valgrind
-`rchk`       | rchk       |   | ubuntu-22.04-R4.5-noshlib | Checks of native code (C/C++) based on static code analysis
+`rchk`       | rchk       |   | ubuntu-22.04-R4.5         | Checks of native code (C/C++) based on static code analysis
 `rcnst`      | rcnst      |   | ubuntu-22.04-R4.5         | Checks of corruption of constants
 `rlibro`     | rlibro     |   | ubuntu-22.04-R4.5         | Checks with read-only user library
 `noremap`    | noRemap    |   | ubuntu-22.04-R4.5         | Checks with `-DR_NO_REMAP` used for C++ code
