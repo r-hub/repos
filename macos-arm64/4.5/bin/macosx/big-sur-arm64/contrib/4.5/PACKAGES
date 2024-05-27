@@ -447,22 +447,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: highr
-Version: 0.10
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-Imports: xfun (>= 0.18)
-Suggests: knitr, markdown, testit
-License: GPL
-File: highr_0.10_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/highr/releases/download/0.10/highr_0.10_b1_R4.5_aarch64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-03-29 15:15:48 UTC; unix
-Filesize: 39724
-SHA256: 929ef913b7f2ffd380bac7efad434340e0ecd763cd3521b63383ec15ebe7e616
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: htmlwidgets
 Version: 1.6.4
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -3899,25 +3883,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: RSQLite
-Version: 2.3.6
-Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
-Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
-Suggests: callr, DBItest (>= 1.8.0), gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
-License: LGPL (>= 2.1)
-File: RSQLite_2.3.6_b2_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/RSQLite/releases/download/2.3.6/RSQLite_2.3.6_b2_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-04-01 17:32:05 UTC; unix
-Filesize: 1360432
-SHA256: 032009375771bafd4a0f4a4d3f62becdca3b89c34687cb747f83aed9bd3c8e49
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
-
 Package: httr2
 Version: 1.0.1
 Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
@@ -4639,3 +4604,38 @@ RVersion: 4.5
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: highr
+Version: 0.11
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+Imports: xfun (>= 0.18)
+Suggests: knitr, markdown, testit
+License: GPL
+File: highr_0.11_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/highr/releases/download/0.11/highr_0.11_b2_R4.5_aarch64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-05-27 17:30:03 UTC; unix
+Filesize: 37920
+SHA256: fee82c51192f7cb81ea71cd904007906b4f6914f22b11460b30b2d15312b63a4
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: RSQLite
+Version: 2.3.7
+Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
+Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
+Suggests: callr, DBItest (>= 1.8.0), gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
+License: LGPL (>= 2.1)
+File: RSQLite_2.3.7_b3_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/RSQLite/releases/download/2.3.7/RSQLite_2.3.7_b3_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-05-27 17:30:05 UTC; unix
+Filesize: 1369423
+SHA256: e654f3026d0c525fd45309f3b223969a60895cd4b3929a51605f15bc0680da47
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
