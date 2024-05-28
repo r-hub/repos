@@ -2537,25 +2537,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: Hmisc
-Version: 5.1-2
-Depends: R (>= 4.1.0), R (>= 4.5), R (< 4.5.99)
-Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
-Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice,
-        latticeExtra, gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer, htm2txt
-License: GPL (>= 2)
-File: Hmisc_5.1-2_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/Hmisc/releases/download/5.1-2/Hmisc_5.1-2_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 10:01:04 UTC; unix
-Filesize: 3607773
-SHA256: 3fffad88461d201a38713b18d2598ca91f885e274e52db4b38db9a0cc97674b7
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: htmlTable
 Version: 2.4.2
 Depends: R (>= 4.1), R (>= 4.5), R (< 4.5.99)
@@ -2922,23 +2903,6 @@ DownloadURL: https://github.com/cran/pbkrtest/releases/download/0.5.2/pbkrtest_0
 Built: R 4.5.0; ; 2024-03-27 10:04:46 UTC; unix
 Filesize: 192126
 SHA256: 4895773910a701b53687b14e2cf55761474a05e6eb6404e7438c7b75abd55cc7
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: SparseM
-Version: 1.81
-Depends: R (>= 2.15), methods, R (>= 4.5), R (< 4.5.99)
-Imports: graphics, stats, utils
-License: GPL (>= 2)
-File: SparseM_1.81_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/SparseM/releases/download/1.81/SparseM_1.81_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 09:39:29 UTC; unix
-Filesize: 1118744
-SHA256: db06f0fff8ab78213c99616453dd8b81ead7301b03c566ece2fd6567ba408f01
 RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4755,3 +4719,40 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
+
+Package: Hmisc
+Version: 5.1-3
+Depends: R (>= 4.1.0), R (>= 4.5), R (< 4.5.99)
+Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
+Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice,
+        latticeExtra, gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer, htm2txt
+License: GPL (>= 2)
+File: Hmisc_5.1-3_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/Hmisc/releases/download/5.1-3/Hmisc_5.1-3_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-28 16:36:50 UTC; unix
+Filesize: 3608060
+SHA256: 1676302dcc6b7532990a38d454428594f1fc48e7160833c5409ac0b2592b369d
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: SparseM
+Version: 1.82
+Depends: R (>= 2.15), methods, R (>= 4.5), R (< 4.5.99)
+Imports: graphics, stats, utils
+Suggests: R.rsp
+License: GPL (>= 2)
+File: SparseM_1.82_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/SparseM/releases/download/1.82/SparseM_1.82_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-28 16:36:46 UTC; unix
+Filesize: 1099701
+SHA256: a143c2acdd1cf7db53f1f408676dd0eb222bbd20b413a2c572439c1ab3a3278f
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
