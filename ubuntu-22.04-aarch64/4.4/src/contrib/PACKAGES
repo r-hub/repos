@@ -3011,25 +3011,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: Hmisc
-Version: 5.1-2
-Depends: R (>= 4.1.0), R (>= 4.4), R (< 4.4.99)
-Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
-Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice,
-        latticeExtra, gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer, htm2txt
-License: GPL (>= 2)
-File: Hmisc_5.1-2_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/Hmisc/releases/download/5.1-2/Hmisc_5.1-2_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-16 08:47:44 UTC; unix
-Filesize: 3597110
-SHA256: 627b2f78d833d8bef1dce1165f51ea514cd073f30302e777b40b7d33e4928790
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: htmlTable
 Version: 2.4.2
 Depends: R (>= 4.1), R (>= 4.4), R (< 4.4.99)
@@ -3415,23 +3396,6 @@ DownloadURL: https://github.com/cran/pbkrtest/releases/download/0.5.2/pbkrtest_0
 Built: R 4.4.0; ; 2024-05-16 08:49:55 UTC; unix
 Filesize: 190550
 SHA256: 36de317e31e0783ff46204deb4af9955d4307e66ed17932c7d787b6b14ad15b5
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: SparseM
-Version: 1.81
-Depends: R (>= 2.15), methods, R (>= 4.4), R (< 4.4.99)
-Imports: graphics, stats, utils
-License: GPL (>= 2)
-File: SparseM_1.81_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/SparseM/releases/download/1.81/SparseM_1.81_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-16 07:43:10 UTC; unix
-Filesize: 1112059
-SHA256: 9f7fd872f60d3aa3f70638f2bb37e12f6fa5cc3d92d4be557127eafaf6aac66e
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4772,3 +4736,40 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
+
+Package: Hmisc
+Version: 5.1-3
+Depends: R (>= 4.1.0), R (>= 4.4), R (< 4.4.99)
+Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
+Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice,
+        latticeExtra, gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer, htm2txt
+License: GPL (>= 2)
+File: Hmisc_5.1-3_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/Hmisc/releases/download/5.1-3/Hmisc_5.1-3_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-28 18:35:27 UTC; unix
+Filesize: 3606653
+SHA256: e1121dc2ff218e113698f296e804271c2f590a0d7b993dd70ad251c4c886f3b2
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: SparseM
+Version: 1.82
+Depends: R (>= 2.15), methods, R (>= 4.4), R (< 4.4.99)
+Imports: graphics, stats, utils
+Suggests: R.rsp
+License: GPL (>= 2)
+File: SparseM_1.82_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/SparseM/releases/download/1.82/SparseM_1.82_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-28 18:35:17 UTC; unix
+Filesize: 1095170
+SHA256: 3876d1c6b4247c2fbf7e46d953f16d567b09765f32153f3475aaa9c44127b8cb
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
