@@ -41,7 +41,7 @@ options(repos = c(
 * [ ] `noomp` (extra `noOMP`)
 * [ ] `rcnst` (extra `rcnst`)
 * [ ] `rlibro` (extra `rlibro`)
-* [ ] `noremap` (extra `noremap`)
+* [x] `noremap` (extra `noremap`)
 * [ ] `rchk` (extra `rchk`)
 
 ## Ubuntu 22.04 + R-devel + libc++ (`ubuntu-22.04-R4.5-libc++`)
@@ -195,7 +195,7 @@ Name         | CRAN       | ✓ | Repo                      | Description
 `rchk`       | rchk       |   | ubuntu-22.04-R4.5         | Checks of native code (C/C++) based on static code analysis
 `rcnst`      | rcnst      |   | ubuntu-22.04-R4.5         | Checks of corruption of constants
 `rlibro`     | rlibro     |   | ubuntu-22.04-R4.5         | Checks with read-only user library
-`noremap`    | noRemap    |   | ubuntu-22.04-R4.5         | Checks with `-DR_NO_REMAP` used for C++ code
+`noremap`    | noRemap    | ✓ | ubuntu-22.04-R4.5         | Checks with `-DR_NO_REMAP` used for C++ code
 
 # License
 
