@@ -4045,24 +4045,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: later, Rcpp
 
-Package: knitr
-Version: 1.46
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-Imports: evaluate (>= 0.15), highr, methods, tools, xfun (>= 0.43), yaml (>= 2.1.19)
-Suggests: bslib, codetools, DBI (>= 0.4-1), digest, formatR, gifski, gridSVG, htmlwidgets (>= 0.7), jpeg, JuliaCall (>= 0.11.1), magick, markdown (>= 1.3), png, ragg, reticulate (>= 1.4), rgl (>=
-        0.95.1201), rlang, rmarkdown, sass, showtext, styler (>= 1.2.0), targets (>= 0.6.0), testit, tibble, tikzDevice (>= 0.10), tinytex (>= 0.46), webshot, rstudioapi, svglite
-License: GPL
-File: knitr_1.46_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/knitr/releases/download/1.46/knitr_1.46_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.0; ; 2024-04-07 16:36:01 UTC; unix
-Filesize: 1049742
-SHA256: db52c88cad3957969609c1073922d5f96a79c549c4fcd22bf857ba8311519f58
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
-
 Package: ape
 Version: 5.8
 Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
@@ -4756,3 +4738,21 @@ RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: knitr
+Version: 1.47
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+Imports: evaluate (>= 0.15), highr (>= 0.11), methods, tools, xfun (>= 0.44), yaml (>= 2.1.19)
+Suggests: bslib, codetools, DBI (>= 0.4-1), digest, formatR, gifski, gridSVG, htmlwidgets (>= 0.7), jpeg, JuliaCall (>= 0.11.1), magick, markdown (>= 1.3), png, ragg, reticulate (>= 1.4), rgl (>=
+        0.95.1201), rlang, rmarkdown, sass, showtext, styler (>= 1.2.0), targets (>= 0.6.0), testit, tibble, tikzDevice (>= 0.10), tinytex (>= 0.46), webshot, rstudioapi, svglite
+License: GPL
+File: knitr_1.47_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/knitr/releases/download/1.47/knitr_1.47_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.0; ; 2024-05-29 16:37:30 UTC; unix
+Filesize: 1160792
+SHA256: 545f3dd4c630c2544a39b0dbf027e6bfba92e3b9f9c25f7d4ea73fd807f770b3
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
