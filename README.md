@@ -34,7 +34,6 @@ options(repos = c(
 * [x] `ubuntu-gcc12` (CRAN's `r-devel-linux-x86_64-debian-gcc`)
 * [ ] `ubuntu-gcc` (CRAN's `r-devel-linux-x86_64-fedora-gcc`)
 * [x] `nold` (extra `noLD`)
-* [x] `c23` (extra `C23`)
 * [ ] `lto` (extra `LTO`)
 * [x] `donttest` (extra `donttest`)
 * [ ] `gcc-asan` (extra `gcc-ASAN` and `gcc-UBSAN`)
@@ -42,7 +41,7 @@ options(repos = c(
 * [ ] `rcnst` (extra `rcnst`)
 * [ ] `rlibro` (extra `rlibro`)
 * [x] `noremap` (extra `noremap`)
-* [ ] `rchk` (extra `rchk`)
+* [x] `rchk` (extra `rchk`)
 
 ## Ubuntu 22.04 + R-devel + libc++ (`ubuntu-22.04-R4.5-libc++`)
 
@@ -192,7 +191,7 @@ Name         | CRAN       | ✓ | Repo                      | Description
 `noomp`      | noOMP      |   | ubuntu-22.04-R4.5         | Tests without OpenMP support
 `nosuggests` | noSuggests | ✓ | fedora-38-R4.5            | Tests without suggested packages
 `valgrind`   | valgrind   | ✓ | fedora-38-R4.5            | Tests of memory access errors using valgrind
-`rchk`       | rchk       |   | ubuntu-22.04-R4.5         | Checks of native code (C/C++) based on static code analysis
+`rchk`       | rchk       | ✓ | ubuntu-22.04-R4.5         | Checks of native code (C/C++) based on static code analysis
 `rcnst`      | rcnst      |   | ubuntu-22.04-R4.5         | Checks of corruption of constants
 `rlibro`     | rlibro     |   | ubuntu-22.04-R4.5         | Checks with read-only user library
 `noremap`    | noRemap    | ✓ | ubuntu-22.04-R4.5         | Checks with `-DR_NO_REMAP` used for C++ code
