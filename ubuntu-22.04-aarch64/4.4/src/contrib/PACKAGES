@@ -4569,26 +4569,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: StanHeaders
-Version: 2.32.8
-Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
-Imports: RcppParallel (>= 5.1.4)
-Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix, methods, rstan, withr
-License: BSD_3_clause + file LICENSE
-File: StanHeaders_2.32.8_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/StanHeaders/releases/download/2.32.8/StanHeaders_2.32.8_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-21 18:32:13 UTC; unix
-Filesize: 3104951
-SHA256: 33e08943d32ded726878e02e0097a6eb8c9948d7a1cf23013c621237121b8aa2
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make, pandoc
-LinkingTo: RcppEigen (>= 0.3.4.0.0), RcppParallel (>= 5.1.4)
-
 Package: terra
 Version: 1.7-78
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -4738,24 +4718,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: SparseM
-Version: 1.82
-Depends: R (>= 2.15), methods, R (>= 4.4), R (< 4.4.99)
-Imports: graphics, stats, utils
-Suggests: R.rsp
-License: GPL (>= 2)
-File: SparseM_1.82_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/SparseM/releases/download/1.82/SparseM_1.82_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-28 18:35:17 UTC; unix
-Filesize: 1095170
-SHA256: 3876d1c6b4247c2fbf7e46d953f16d567b09765f32153f3475aaa9c44127b8cb
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: knitr
 Version: 1.47
 Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
@@ -4773,3 +4735,41 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
+
+Package: StanHeaders
+Version: 2.32.9
+Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
+Imports: RcppParallel (>= 5.1.4)
+Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix, methods, rstan, withr
+License: BSD_3_clause + file LICENSE
+File: StanHeaders_2.32.9_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/StanHeaders/releases/download/2.32.9/StanHeaders_2.32.9_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-30 18:35:13 UTC; unix
+Filesize: 3104945
+SHA256: 727b0004b211d2b1d2e30d624c6f8087ec5c9c00c6cb0199308893db633bbe91
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, pandoc
+LinkingTo: RcppEigen (>= 0.3.4.0.0), RcppParallel (>= 5.1.4)
+
+Package: SparseM
+Version: 1.83
+Depends: R (>= 2.15), methods, R (>= 4.4), R (< 4.4.99)
+Imports: graphics, stats, utils
+Suggests: knitr
+License: GPL (>= 2)
+File: SparseM_1.83_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/SparseM/releases/download/1.83/SparseM_1.83_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-30 18:35:08 UTC; unix
+Filesize: 980010
+SHA256: 4e9f85847136f93a01eaaecb63dc81b1730414d35d75a1991adc7f23cc04179a
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
