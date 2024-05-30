@@ -4439,26 +4439,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make
 LinkingTo: Rcpp
 
-Package: StanHeaders
-Version: 2.32.8
-Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
-Imports: RcppParallel (>= 5.1.4)
-Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix, methods, rstan, withr
-License: BSD_3_clause + file LICENSE
-File: StanHeaders_2.32.8_b3_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/StanHeaders/releases/download/2.32.8/StanHeaders_2.32.8_b3_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-05-21 17:32:01 UTC; unix
-Filesize: 2753457
-SHA256: c49d8149f50100d676eb766ddbb9cc8814570296cb59ea4ba788e5cc7a8ef299
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make, pandoc
-LinkingTo: RcppEigen (>= 0.3.4.0.0), RcppParallel (>= 5.1.4)
-
 Package: terra
 Version: 1.7-78
 Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
@@ -4605,24 +4585,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: SparseM
-Version: 1.82
-Depends: R (>= 2.15), methods, R (>= 4.5), R (< 4.5.99)
-Imports: graphics, stats, utils
-Suggests: R.rsp
-License: GPL (>= 2)
-File: SparseM_1.82_b2_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/SparseM/releases/download/1.82/SparseM_1.82_b2_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-05-28 17:29:26 UTC; unix
-Filesize: 1034294
-SHA256: 22b84a130f079b50edd1e7f49dcc02ce9e028e755c28481a79219c760ef45e2b
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: knitr
 Version: 1.47
 Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
@@ -4640,3 +4602,41 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
+
+Package: StanHeaders
+Version: 2.32.9
+Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
+Imports: RcppParallel (>= 5.1.4)
+Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix, methods, rstan, withr
+License: BSD_3_clause + file LICENSE
+File: StanHeaders_2.32.9_b4_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/StanHeaders/releases/download/2.32.9/StanHeaders_2.32.9_b4_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-05-30 17:29:50 UTC; unix
+Filesize: 2755713
+SHA256: ba66ebc68127cdab6d9824a90fc9965126e3e7904c83267e5162aecb9bd1059e
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, pandoc
+LinkingTo: RcppEigen (>= 0.3.4.0.0), RcppParallel (>= 5.1.4)
+
+Package: SparseM
+Version: 1.83
+Depends: R (>= 2.15), methods, R (>= 4.5), R (< 4.5.99)
+Imports: graphics, stats, utils
+Suggests: knitr
+License: GPL (>= 2)
+File: SparseM_1.83_b3_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/SparseM/releases/download/1.83/SparseM_1.83_b3_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-05-30 17:29:44 UTC; unix
+Filesize: 917043
+SHA256: da1b99bbe8db8e038719cd2f635988b50791dca353c36615d46008cfcdbf06ff
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
