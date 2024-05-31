@@ -3601,26 +3601,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: QuickJSR
-Version: 1.1.3
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: jsonlite, R6, Rcpp
-Suggests: testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: QuickJSR_1.1.3_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/QuickJSR/releases/download/1.1.3/QuickJSR_1.1.3_b1_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-03-29 15:12:03 UTC; unix
-Filesize: 2288033
-SHA256: 7108bed57553ca817bc6174773bcfdccd5e8250345d470091590af72bce8aabc
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make
-LinkingTo: Rcpp
-
 Package: RcppParallel
 Version: 5.1.7
 Depends: R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
@@ -4234,25 +4214,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: RcppArmadillo
-Version: 0.12.8.3.0
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-Imports: Rcpp (>= 0.11.0), stats, utils, methods
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-License: GPL (>= 2)
-File: RcppArmadillo_0.12.8.3.0_b4_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/0.12.8.3.0/RcppArmadillo_0.12.8.3.0_b4_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-05-08 17:28:53 UTC; unix
-Filesize: 1085083
-SHA256: 86eeddf1122296030ec0a8870cf25bbc3aff8eecc69c2317e65652fb661cfdb7
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: farver
 Version: 2.1.2
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4640,3 +4601,40 @@ RVersion: 4.5
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: QuickJSR
+Version: 1.2.0
+Depends: R (>= 4.5), R (< 4.5.99)
+Suggests: tinytest
+License: MIT + file LICENSE
+File: QuickJSR_1.2.0_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/QuickJSR/releases/download/1.2.0/QuickJSR_1.2.0_b2_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-05-31 17:32:07 UTC; unix
+Filesize: 2312889
+SHA256: 076bb4e39747a37f8a9303585dcbcc94ab501318a727d3607a5b867820a03ccd
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make
+
+Package: RcppArmadillo
+Version: 0.12.8.4.0
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+Imports: Rcpp (>= 1.0.8), stats, utils, methods
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+File: RcppArmadillo_0.12.8.4.0_b5_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/0.12.8.4.0/RcppArmadillo_0.12.8.4.0_b5_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-05-31 17:32:23 UTC; unix
+Filesize: 1085122
+SHA256: 874e7d88209c453cd914a0394c12da9e53e2655b76c96200234385c766c1c613
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
