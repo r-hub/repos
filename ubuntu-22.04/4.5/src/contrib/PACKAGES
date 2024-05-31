@@ -3648,26 +3648,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: QuickJSR
-Version: 1.1.3
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: jsonlite, R6, Rcpp
-Suggests: testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: QuickJSR_1.1.3_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/QuickJSR/releases/download/1.1.3/QuickJSR_1.1.3_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 09:43:01 UTC; unix
-Filesize: 4540141
-SHA256: cd72d8f2448c50f397ecc84524d89cccaccde570c17a3ae46cdf8902e33f66db
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make
-LinkingTo: Rcpp
-
 Package: RcppParallel
 Version: 5.1.7
 Depends: R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
@@ -4329,25 +4309,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: RcppArmadillo
-Version: 0.12.8.3.0
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-Imports: Rcpp (>= 0.11.0), stats, utils, methods
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-License: GPL (>= 2)
-File: RcppArmadillo_0.12.8.3.0_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/0.12.8.3.0/RcppArmadillo_0.12.8.3.0_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-08 16:38:32 UTC; unix
-Filesize: 1904582
-SHA256: ecb81a1f333b388038e40b6f239fcb290bafe0565ea2c8984030c66832607b46
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: farver
 Version: 2.1.2
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4701,24 +4662,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: SparseM
-Version: 1.82
-Depends: R (>= 2.15), methods, R (>= 4.5), R (< 4.5.99)
-Imports: graphics, stats, utils
-Suggests: R.rsp
-License: GPL (>= 2)
-File: SparseM_1.82_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/SparseM/releases/download/1.82/SparseM_1.82_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-28 16:36:46 UTC; unix
-Filesize: 1099701
-SHA256: a143c2acdd1cf7db53f1f408676dd0eb222bbd20b413a2c572439c1ab3a3278f
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: knitr
 Version: 1.47
 Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
@@ -4756,3 +4699,58 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, pandoc
 LinkingTo: RcppEigen (>= 0.3.4.0.0), RcppParallel (>= 5.1.4)
+
+Package: QuickJSR
+Version: 1.2.0
+Depends: R (>= 4.5), R (< 4.5.99)
+Suggests: tinytest
+License: MIT + file LICENSE
+File: QuickJSR_1.2.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/QuickJSR/releases/download/1.2.0/QuickJSR_1.2.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-31 16:38:04 UTC; unix
+Filesize: 4680414
+SHA256: 72ae42ddf7752361e1abba0cdc4feeb2a9ca07871febe23ab4603461b454bb1e
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make
+
+Package: RcppArmadillo
+Version: 0.12.8.4.0
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+Imports: Rcpp (>= 1.0.8), stats, utils, methods
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+File: RcppArmadillo_0.12.8.4.0_b5_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/0.12.8.4.0/RcppArmadillo_0.12.8.4.0_b5_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-31 16:38:08 UTC; unix
+Filesize: 1904920
+SHA256: f9a99ecd1fd6283fdd8a203d6283f4aeb96cf2681bde05db0f16c62a90e868b4
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: SparseM
+Version: 1.83
+Depends: R (>= 2.15), methods, R (>= 4.5), R (< 4.5.99)
+Imports: graphics, stats, utils
+Suggests: knitr
+License: GPL (>= 2)
+File: SparseM_1.83_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/SparseM/releases/download/1.83/SparseM_1.83_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-31 16:38:04 UTC; unix
+Filesize: 984745
+SHA256: 52f34c2112f8ac9bba751f5743e439a260ac9b5a890f074a168f6d2a2c53410b
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
