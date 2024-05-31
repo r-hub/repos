@@ -3883,25 +3883,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: RcppArmadillo
-Version: 0.12.8.3.0
-Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
-Imports: Rcpp (>= 0.11.0), stats, utils, methods
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-License: GPL (>= 2)
-File: RcppArmadillo_0.12.8.3.0_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/0.12.8.3.0/RcppArmadillo_0.12.8.3.0_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-16 07:46:45 UTC; unix
-Filesize: 1871046
-SHA256: 466d153ef3686143ffdcdd452dfff58ba27f56ef4dd10268638f28f2d0089f07
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: RcppEigen
 Version: 0.3.4.0.0
 Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
@@ -4229,26 +4210,6 @@ RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: QuickJSR
-Version: 1.1.3
-Depends: R (>= 4.4), R (< 4.4.99)
-Imports: jsonlite, R6, Rcpp
-Suggests: testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: QuickJSR_1.1.3_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/QuickJSR/releases/download/1.1.3/QuickJSR_1.1.3_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-16 07:47:58 UTC; unix
-Filesize: 4413773
-SHA256: 03249be99f79f10b037aee215b3d823c342a9fd425c991f50f8453d454600b60
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make
-LinkingTo: Rcpp
 
 Package: RcppParallel
 Version: 5.1.7
@@ -4773,3 +4734,40 @@ RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: RcppArmadillo
+Version: 0.12.8.4.0
+Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
+Imports: Rcpp (>= 1.0.8), stats, utils, methods
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+File: RcppArmadillo_0.12.8.4.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/0.12.8.4.0/RcppArmadillo_0.12.8.4.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-31 18:32:19 UTC; unix
+Filesize: 1871387
+SHA256: 2d1d45f3ebdc7e29a813d634799eae9f918539c35eb6f3374305c7a737b64bb2
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: QuickJSR
+Version: 1.2.0
+Depends: R (>= 4.4), R (< 4.4.99)
+Suggests: tinytest
+License: MIT + file LICENSE
+File: QuickJSR_1.2.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/QuickJSR/releases/download/1.2.0/QuickJSR_1.2.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-31 18:32:16 UTC; unix
+Filesize: 4553666
+SHA256: 8abd9f386be7cda705a6e9cc5cabcaffc7ac536aefac180dc36afacb6b93e423
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make
