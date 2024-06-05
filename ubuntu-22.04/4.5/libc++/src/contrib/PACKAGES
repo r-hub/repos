@@ -3105,22 +3105,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libpng
 LinkingTo: cpp11, systemfonts
 
-Package: markdown
-Version: 1.12
-Depends: R (>= 2.11.1), R (>= 4.5), R (< 4.5.99)
-Imports: utils, commonmark (>= 1.9.0), xfun (>= 0.38)
-Suggests: knitr, rmarkdown (>= 2.18), yaml, RCurl
-License: MIT + file LICENSE
-File: markdown_1.12_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/markdown/releases/download/1.12/markdown_1.12_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.5.0; ; 2024-03-27 13:07:26 UTC; unix
-Filesize: 198113
-SHA256: 5bdc953e5d81aca89332bc31fe829ce991071d1becbfc316bd82c405673d8ad1
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: plotly
 Version: 4.10.4
 Depends: R (>= 3.2.0), ggplot2 (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
@@ -4407,3 +4391,19 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: winch
+
+Package: markdown
+Version: 1.13
+Depends: R (>= 2.11.1), R (>= 4.5), R (< 4.5.99)
+Imports: utils, commonmark (>= 1.9.0), xfun (>= 0.38)
+Suggests: knitr, rmarkdown (>= 2.18), yaml, RCurl
+License: MIT + file LICENSE
+File: markdown_1.13_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/markdown/releases/download/1.13/markdown_1.13_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.5.0; ; 2024-06-05 17:05:05 UTC; unix
+Filesize: 146905
+SHA256: b536234a4378112ea4b12e35c29987fa586ce8e26053b21c473a4fbe8e000f4f
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
