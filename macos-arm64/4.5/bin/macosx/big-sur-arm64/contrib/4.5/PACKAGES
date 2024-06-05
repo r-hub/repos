@@ -3077,22 +3077,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libpng
 LinkingTo: cpp11, systemfonts
 
-Package: markdown
-Version: 1.12
-Depends: R (>= 2.11.1), R (>= 4.5), R (< 4.5.99)
-Imports: utils, commonmark (>= 1.9.0), xfun (>= 0.38)
-Suggests: knitr, rmarkdown (>= 2.18), yaml, RCurl
-License: MIT + file LICENSE
-File: markdown_1.12_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/markdown/releases/download/1.12/markdown_1.12_b1_R4.5_aarch64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-03-29 15:15:50 UTC; unix
-Filesize: 198459
-SHA256: 42fb3cd51479abe2e16bc52fc7593fdcebee5229e24382dc8211cb73a6ad2414
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: plotly
 Version: 4.10.4
 Depends: R (>= 3.2.0), ggplot2 (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
@@ -4638,3 +4622,19 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: winch
+
+Package: markdown
+Version: 1.13
+Depends: R (>= 2.11.1), R (>= 4.5), R (< 4.5.99)
+Imports: utils, commonmark (>= 1.9.0), xfun (>= 0.38)
+Suggests: knitr, rmarkdown (>= 2.18), yaml, RCurl
+License: MIT + file LICENSE
+File: markdown_1.13_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/markdown/releases/download/1.13/markdown_1.13_b2_R4.5_aarch64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-06-05 17:31:14 UTC; unix
+Filesize: 147397
+SHA256: 45c29aeefc580359930d76b335995b21af6973af63b98ce3abb6576173549a81
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
