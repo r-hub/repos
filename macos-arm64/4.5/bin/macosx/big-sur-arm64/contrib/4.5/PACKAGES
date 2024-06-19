@@ -1640,22 +1640,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++11, A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
 Enhances: chron, data.table, timeDate, tis, zoo
 
-Package: modeldata
-Version: 1.3.0
-Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
-Imports: dplyr, MASS, purrr, rlang, tibble
-Suggests: covr, testthat (>= 3.0.0), ggplot2
-License: MIT + file LICENSE
-File: modeldata_1.3.0_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/modeldata/releases/download/1.3.0/modeldata_1.3.0_b1_R4.5_aarch64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-03-29 15:16:24 UTC; unix
-Filesize: 5139565
-SHA256: 5edb9191e77872a5990ec5e11fe91cc3d4615bcbbecc5ac70c8061ec78501cca
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: modelenv
 Version: 0.1.1
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -2726,25 +2710,6 @@ RVersion: 4.5
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: nloptr
-Version: 2.0.3
-Depends: R (>= 4.5), R (< 4.5.99)
-Suggests: knitr, rmarkdown, xml2, testthat (>= 3.0.0), covr
-License: LGPL (>= 3)
-File: nloptr_2.0.3_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/nloptr/releases/download/2.0.3/nloptr_2.0.3_b1_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-03-29 15:32:06 UTC; unix
-Filesize: 680397
-SHA256: e0f31b1e11f65015f55adf26f56ebf4d3b05c1c3fea8a73281d42d17412033ce
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: cmake (>= 3.2.0) which is used only on Linux or macOS systems when no system build of nlopt (>= 2.7.0) can be found.
-LinkingTo: testthat
 
 Package: pbkrtest
 Version: 0.5.2
@@ -3886,25 +3851,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Pandoc (>= 1.17.2)
 
-Package: lme4
-Version: 1.1-35.3
-Depends: R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats, R (>= 4.5), R (< 4.5.99)
-Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
-Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
-License: GPL (>= 2)
-File: lme4_1.1-35.3_b2_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/lme4/releases/download/1.1-35.3/lme4_1.1-35.3_b2_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-04-16 17:30:56 UTC; unix
-Filesize: 4249035
-SHA256: a6c72e3133c9604394879c8b5739cccde44c621bf3ca19183adcc69c49b93cdb
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix
-
 Package: tune
 Version: 1.2.1
 Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
@@ -4638,3 +4584,56 @@ RVersion: 4.5
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: modeldata
+Version: 1.4.0
+Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
+Imports: dplyr, MASS, purrr, rlang, tibble
+Suggests: covr, testthat (>= 3.0.0), ggplot2
+License: MIT + file LICENSE
+File: modeldata_1.4.0_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/modeldata/releases/download/1.4.0/modeldata_1.4.0_b2_R4.5_aarch64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-06-19 17:32:42 UTC; unix
+Filesize: 5168274
+SHA256: c78006fc0dccec46719f62719b3622fbceedcc8b7cfbac9b98fe60d00311ac98
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: nloptr
+Version: 2.1.0
+Depends: R (>= 4.5), R (< 4.5.99)
+Suggests: knitr, rmarkdown, covr, tinytest
+License: LGPL (>= 3)
+File: nloptr_2.1.0_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/nloptr/releases/download/2.1.0/nloptr_2.1.0_b2_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-06-19 17:32:40 UTC; unix
+Filesize: 517518
+SHA256: 81795c3633da2b62e704683a31d3addfa73d21adb77f0b4ffa551d851f479899
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: cmake (>= 3.2.0) which is used only on Linux or macOS systems when no system build of nlopt (>= 2.7.0) can be found.
+
+Package: lme4
+Version: 1.1-35.4
+Depends: R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats, R (>= 4.5), R (< 4.5.99)
+Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
+Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
+License: GPL (>= 2)
+File: lme4_1.1-35.4_b3_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/lme4/releases/download/1.1-35.4/lme4_1.1-35.4_b3_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-06-19 17:32:51 UTC; unix
+Filesize: 4252119
+SHA256: 98cd44d25e681f22bc17111575e3617d00c0d3b48a43162d2c54572ede36c9fe
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix (>= 1.6.2)
