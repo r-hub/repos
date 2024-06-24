@@ -2037,24 +2037,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: prodlim
-Version: 2023.08.28
-Depends: R (>= 2.9.0), R (>= 4.4), R (< 4.4.99)
-Imports: Rcpp (>= 0.11.5), stats, data.table, grDevices, graphics, diagram, survival, KernSmooth, lava
-License: GPL (>= 2)
-File: prodlim_2023.08.28_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/prodlim/releases/download/2023.08.28/prodlim_2023.08.28_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-16 08:46:18 UTC; unix
-Filesize: 440830
-SHA256: a62af0c671ca01ceb820b875cd20eb9fe884cac4bcdbaa8022c905470d24bd01
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: progressr
 Version: 0.14.0
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -3316,24 +3298,6 @@ DownloadURL: https://github.com/cran/cowplot/releases/download/1.1.3/cowplot_1.1
 Built: R 4.4.0; ; 2024-05-16 07:57:10 UTC; unix
 Filesize: 1381063
 SHA256: 266b6de5bb9cd8d2449eb54c64210178fbf9cfaa8414c4a2f1955971dfd28d2a
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: digest
-Version: 0.6.35
-Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
-Imports: utils
-Suggests: tinytest, simplermarkdown
-License: GPL (>= 2)
-File: digest_0.6.35_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/digest/releases/download/0.6.35/digest_0.6.35_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-16 07:43:19 UTC; unix
-Filesize: 492403
-SHA256: 2e392a6f6dde77f2806449f80e32a6ac52e7bd98dacb3ac2493ec303963c4928
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4820,7 +4784,7 @@ OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-04 18:33:16 UTC; unix
 Filesize: 2068875
-SHA256: 97648a059a897ab603c8cdc6e07997a5614cd1674e446d006e5a551b147a4ca2
+SHA256: c50b9f564a110690092c3d093c00fc9cb06cbb274a896740c69752fd37a41a8d
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4838,8 +4802,44 @@ DownloadURL: https://github.com/cran/cli/releases/download/3.6.3/cli_3.6.3_b2_R4
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-22 18:32:00 UTC; unix
-Filesize: 1417981
-SHA256: 2c3bcb0e15666e27ce31ed4ae440f7a45531c7d23f149e8dd9a1adb40db7ef83
+Filesize: 1417983
+SHA256: 4aa338a8ebe187007dd57b8b5222b4fa7577d5bae5491c4b4043778dbda82017
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: prodlim
+Version: 2024.06.25
+Depends: R (>= 2.9.0), R (>= 4.4), R (< 4.4.99)
+Imports: Rcpp (>= 0.11.5), stats, data.table, grDevices, graphics, diagram, survival, KernSmooth, lava
+License: GPL (>= 2)
+File: prodlim_2024.06.25_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/prodlim/releases/download/2024.06.25/prodlim_2024.06.25_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-06-24 18:33:56 UTC; unix
+Filesize: 445083
+SHA256: 419bba6eab8ff7b766de33afb707206d44f1b8f8f9b54dd6a58ae86a80c7ea70
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: digest
+Version: 0.6.36
+Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
+Imports: utils
+Suggests: tinytest, simplermarkdown
+License: GPL (>= 2)
+File: digest_0.6.36_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/digest/releases/download/0.6.36/digest_0.6.36_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-06-24 18:33:49 UTC; unix
+Filesize: 497945
+SHA256: d1260f40e9adaf4b5d80c624305dd8afde9093bac2529df7c80873eaa7694ea6
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
