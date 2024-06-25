@@ -3294,24 +3294,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++11, libpng
 LinkingTo: cpp11
 
-Package: XML
-Version: 3.99-0.16.1
-Depends: R (>= 4.0.0), methods, utils, R (>= 4.5), R (< 4.5.99)
-Suggests: bitops, RCurl
-License: BSD_3_clause + file LICENSE
-File: XML_3.99-0.16.1_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/XML/releases/download/3.99-0.16.1/XML_3.99-0.16.1_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 09:40:16 UTC; unix
-Filesize: 2002161
-SHA256: d13d7b6745bf9c97d0b7aa0585d9bfa32dd1e857118a763dea144ab74120d595
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libxml2 (>= 2.6.3)
-
 Package: bayesplot
 Version: 1.11.1
 Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
@@ -4440,24 +4422,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: SparseM
-Version: 1.83
-Depends: R (>= 2.15), methods, R (>= 4.5), R (< 4.5.99)
-Imports: graphics, stats, utils
-Suggests: knitr
-License: GPL (>= 2)
-File: SparseM_1.83_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/SparseM/releases/download/1.83/SparseM_1.83_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-31 16:38:04 UTC; unix
-Filesize: 984745
-SHA256: 52f34c2112f8ac9bba751f5743e439a260ac9b5a890f074a168f6d2a2c53410b
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: hardhat
 Version: 1.4.0
 Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
@@ -4646,24 +4610,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: nloptr
-Version: 2.1.0
-Depends: R (>= 4.5), R (< 4.5.99)
-Suggests: knitr, rmarkdown, covr, tinytest
-License: LGPL (>= 3)
-File: nloptr_2.1.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/nloptr/releases/download/2.1.0/nloptr_2.1.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-06-19 16:38:09 UTC; unix
-Filesize: 1538169
-SHA256: 917e3f53568cbb93577ef1965f08932e96cc5f24bfb1105f9aef87ece59a8612
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: cmake (>= 3.2.0) which is used only on Linux or macOS systems when no system build of nlopt (>= 2.7.0) can be found.
-
 Package: lme4
 Version: 1.1-35.4
 Depends: R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats, R (>= 4.5), R (< 4.5.99)
@@ -4753,3 +4699,57 @@ RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: XML
+Version: 3.99-0.17
+Depends: R (>= 4.0.0), methods, utils, R (>= 4.5), R (< 4.5.99)
+Suggests: bitops, RCurl
+License: BSD_3_clause + file LICENSE
+File: XML_3.99-0.17_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/XML/releases/download/3.99-0.17/XML_3.99-0.17_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-06-25 16:38:36 UTC; unix
+Filesize: 1993052
+SHA256: a5d076d8a97f1270bd826705b884ddc5793857e3e10e0198d60222bf113652bd
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libxml2 (>= 2.6.3)
+
+Package: SparseM
+Version: 1.84
+Depends: R (>= 2.15), methods, R (>= 4.5), R (< 4.5.99)
+Imports: graphics, stats, utils
+Suggests: knitr
+License: GPL (>= 2)
+File: SparseM_1.84_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/SparseM/releases/download/1.84/SparseM_1.84_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-06-25 16:38:33 UTC; unix
+Filesize: 1006811
+SHA256: 920fd19d8866e352c39418cd6e9d639177b2f776d723682a7ff8b3d9dfd4cbd2
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: nloptr
+Version: 2.1.1
+Depends: R (>= 4.5), R (< 4.5.99)
+Suggests: knitr, rmarkdown, covr, tinytest
+License: LGPL (>= 3)
+File: nloptr_2.1.1_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/nloptr/releases/download/2.1.1/nloptr_2.1.1_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-06-25 16:38:56 UTC; unix
+Filesize: 1538309
+SHA256: b73a6e152603bbd443495551279282df703a3a5207a0c8cb9750f5446bb0bb75
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: cmake (>= 3.2.0) which is used only on Linux or macOS systems when no system build of nlopt (>= 2.7.0) can be found.
