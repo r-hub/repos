@@ -3247,24 +3247,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++11, libpng
 LinkingTo: cpp11
 
-Package: XML
-Version: 3.99-0.16.1
-Depends: R (>= 4.0.0), methods, utils, R (>= 4.5), R (< 4.5.99)
-Suggests: bitops, RCurl
-License: BSD_3_clause + file LICENSE
-File: XML_3.99-0.16.1_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/XML/releases/download/3.99-0.16.1/XML_3.99-0.16.1_b1_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-03-29 15:10:08 UTC; unix
-Filesize: 1818739
-SHA256: bf1cea27506768a719de60bc16b817f6c120f4afa62ffac0d94c9b42d20347a5
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libxml2 (>= 2.6.3)
-
 Package: bayesplot
 Version: 1.11.1
 Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
@@ -4305,24 +4287,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, pandoc
 LinkingTo: RcppEigen (>= 0.3.4.0.0), RcppParallel (>= 5.1.4)
 
-Package: SparseM
-Version: 1.83
-Depends: R (>= 2.15), methods, R (>= 4.5), R (< 4.5.99)
-Imports: graphics, stats, utils
-Suggests: knitr
-License: GPL (>= 2)
-File: SparseM_1.83_b3_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/SparseM/releases/download/1.83/SparseM_1.83_b3_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-05-30 17:29:44 UTC; unix
-Filesize: 917043
-SHA256: da1b99bbe8db8e038719cd2f635988b50791dca353c36615d46008cfcdbf06ff
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: RcppArmadillo
 Version: 0.12.8.4.0
 Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
@@ -4530,24 +4494,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: nloptr
-Version: 2.1.0
-Depends: R (>= 4.5), R (< 4.5.99)
-Suggests: knitr, rmarkdown, covr, tinytest
-License: LGPL (>= 3)
-File: nloptr_2.1.0_b2_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/nloptr/releases/download/2.1.0/nloptr_2.1.0_b2_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-06-19 17:32:40 UTC; unix
-Filesize: 517518
-SHA256: 81795c3633da2b62e704683a31d3addfa73d21adb77f0b4ffa551d851f479899
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: cmake (>= 3.2.0) which is used only on Linux or macOS systems when no system build of nlopt (>= 2.7.0) can be found.
-
 Package: lme4
 Version: 1.1-35.4
 Depends: R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats, R (>= 4.5), R (< 4.5.99)
@@ -4637,3 +4583,57 @@ RVersion: 4.5
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: XML
+Version: 3.99-0.17
+Depends: R (>= 4.0.0), methods, utils, R (>= 4.5), R (< 4.5.99)
+Suggests: bitops, RCurl
+License: BSD_3_clause + file LICENSE
+File: XML_3.99-0.17_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/XML/releases/download/3.99-0.17/XML_3.99-0.17_b2_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-06-25 17:31:26 UTC; unix
+Filesize: 1817745
+SHA256: 2c8af4d0a2f7f4fa9de186401c471e3f9435c2f6a6fb426a24fe8e8d2a4cb836
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libxml2 (>= 2.6.3)
+
+Package: SparseM
+Version: 1.84
+Depends: R (>= 2.15), methods, R (>= 4.5), R (< 4.5.99)
+Imports: graphics, stats, utils
+Suggests: knitr
+License: GPL (>= 2)
+File: SparseM_1.84_b4_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/SparseM/releases/download/1.84/SparseM_1.84_b4_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-06-25 17:31:33 UTC; unix
+Filesize: 943516
+SHA256: 14e0bf436809216ad6f8e771c51126c28d77e77969628c0044c17952c756db09
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: nloptr
+Version: 2.1.1
+Depends: R (>= 4.5), R (< 4.5.99)
+Suggests: knitr, rmarkdown, covr, tinytest
+License: LGPL (>= 3)
+File: nloptr_2.1.1_b3_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/nloptr/releases/download/2.1.1/nloptr_2.1.1_b3_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-06-25 17:31:41 UTC; unix
+Filesize: 517687
+SHA256: 7a6d091bec95558585ff2351fe37bf56e02196604de744aaa769d8346e1ec66b
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: cmake (>= 3.2.0) which is used only on Linux or macOS systems when no system build of nlopt (>= 2.7.0) can be found.
