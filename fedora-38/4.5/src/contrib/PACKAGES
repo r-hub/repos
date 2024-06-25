@@ -3294,24 +3294,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++11, libpng
 LinkingTo: cpp11
 
-Package: XML
-Version: 3.99-0.16.1
-Depends: R (>= 4.0.0), methods, utils, R (>= 4.5), R (< 4.5.99)
-Suggests: bitops, RCurl
-License: BSD_3_clause + file LICENSE
-File: XML_3.99-0.16.1_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/XML/releases/download/3.99-0.16.1/XML_3.99-0.16.1_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 17:24:26 UTC; unix
-Filesize: 2082524
-SHA256: 54eede1a0306505cc495b7254176a73ca226c83afc1022f4c12671ce0df1ab2c
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libxml2 (>= 2.6.3)
-
 Package: bayesplot
 Version: 1.11.1
 Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
@@ -4421,24 +4403,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, pandoc
 LinkingTo: RcppEigen (>= 0.3.4.0.0), RcppParallel (>= 5.1.4)
 
-Package: SparseM
-Version: 1.83
-Depends: R (>= 2.15), methods, R (>= 4.5), R (< 4.5.99)
-Imports: graphics, stats, utils
-Suggests: knitr
-License: GPL (>= 2)
-File: SparseM_1.83_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/SparseM/releases/download/1.83/SparseM_1.83_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-30 17:19:18 UTC; unix
-Filesize: 998772
-SHA256: b06a404c2c80d82a7b440aaf13b6bd4b49e37b1f5f724f41a9c9ffeb56d9caf7
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: RcppArmadillo
 Version: 0.12.8.4.0
 Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
@@ -4646,24 +4610,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: nloptr
-Version: 2.1.0
-Depends: R (>= 4.5), R (< 4.5.99)
-Suggests: knitr, rmarkdown, covr, tinytest
-License: LGPL (>= 3)
-File: nloptr_2.1.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/nloptr/releases/download/2.1.0/nloptr_2.1.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-06-19 17:22:48 UTC; unix
-Filesize: 1543274
-SHA256: 30c3b53957ebd3c7a5e0298e344b9566c8c66e05d91a30fba6fcfc35845a315d
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: cmake (>= 3.2.0) which is used only on Linux or macOS systems when no system build of nlopt (>= 2.7.0) can be found.
-
 Package: lme4
 Version: 1.1-35.4
 Depends: R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats, R (>= 4.5), R (< 4.5.99)
@@ -4753,3 +4699,57 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
+
+Package: XML
+Version: 3.99-0.17
+Depends: R (>= 4.0.0), methods, utils, R (>= 4.5), R (< 4.5.99)
+Suggests: bitops, RCurl
+License: BSD_3_clause + file LICENSE
+File: XML_3.99-0.17_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/XML/releases/download/3.99-0.17/XML_3.99-0.17_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-06-25 17:21:36 UTC; unix
+Filesize: 2080062
+SHA256: 326bc630334c8e38bbb18cfda823c3f80a1cb81ef04ad5753bb63a1905357caa
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libxml2 (>= 2.6.3)
+
+Package: SparseM
+Version: 1.84
+Depends: R (>= 2.15), methods, R (>= 4.5), R (< 4.5.99)
+Imports: graphics, stats, utils
+Suggests: knitr
+License: GPL (>= 2)
+File: SparseM_1.84_b4_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/SparseM/releases/download/1.84/SparseM_1.84_b4_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-06-25 17:21:34 UTC; unix
+Filesize: 1028445
+SHA256: 846aa577c86ce26e5067fe5977cf8ebe82f155b8917b37fbfcc1bcba212a67e6
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: nloptr
+Version: 2.1.1
+Depends: R (>= 4.5), R (< 4.5.99)
+Suggests: knitr, rmarkdown, covr, tinytest
+License: LGPL (>= 3)
+File: nloptr_2.1.1_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/nloptr/releases/download/2.1.1/nloptr_2.1.1_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-06-25 17:21:57 UTC; unix
+Filesize: 1543520
+SHA256: e4999bdb04329646b0eae6371c893ae74302dc36e73908cfe16de3728a95bc4f
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: cmake (>= 3.2.0) which is used only on Linux or macOS systems when no system build of nlopt (>= 2.7.0) can be found.
