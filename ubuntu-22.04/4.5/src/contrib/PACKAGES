@@ -2722,22 +2722,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: pbkrtest
-Version: 0.5.2
-Depends: R (>= 4.1.0), lme4 (>= 1.1.31), R (>= 4.5), R (< 4.5.99)
-Imports: broom, dplyr, MASS, Matrix (>= 1.2.3), methods, numDeriv, parallel
-Suggests: knitr
-License: GPL (>= 2)
-File: pbkrtest_0.5.2_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/pbkrtest/releases/download/0.5.2/pbkrtest_0.5.2_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.0; ; 2024-03-27 10:04:46 UTC; unix
-Filesize: 192126
-SHA256: 4895773910a701b53687b14e2cf55761474a05e6eb6404e7438c7b75abd55cc7
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: caret
 Version: 6.0-94
 Depends: ggplot2, lattice (>= 0.20), R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
@@ -4753,3 +4737,71 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: cmake (>= 3.2.0) which is used only on Linux or macOS systems when no system build of nlopt (>= 2.7.0) can be found.
+
+Package: Deriv
+Version: 4.1.3
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: methods
+Suggests: testthat
+License: GPL (>= 3)
+File: Deriv_4.1.3_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/Deriv/releases/download/4.1.3/Deriv_4.1.3_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.0; ; 2024-06-27 16:39:12 UTC; unix
+Filesize: 147525
+SHA256: 25fcd1eb7e8ef197c33f459537dfbbec61a29bf52a8a3efd9d30c7301646bb43
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: doBy
+Version: 4.6.22
+Depends: R (>= 4.2.0), methods, R (>= 4.5), R (< 4.5.99)
+Imports: boot, broom, cowplot, Deriv, dplyr, ggplot2, MASS, Matrix, modelr, microbenchmark, rlang, tibble, tidyr,
+Suggests: geepack, knitr, lme4, markdown, multcomp, pbkrtest (>= 0.4-8.1), survival, testthat (>= 2.1.0)
+License: GPL (>= 2)
+File: doBy_4.6.22_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/doBy/releases/download/4.6.22/doBy_4.6.22_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.0; ; 2024-06-27 16:39:17 UTC; unix
+Filesize: 4689641
+SHA256: 7246ba130c5c7121f00bdff0da52457ced12e51fe7e9fa418892f627c803a461
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: microbenchmark
+Version: 1.4.10
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: graphics, stats
+Suggests: ggplot2, multcomp, RUnit
+License: BSD_2_clause + file LICENSE
+File: microbenchmark_1.4.10_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/microbenchmark/releases/download/1.4.10/microbenchmark_1.4.10_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-06-27 16:39:15 UTC; unix
+Filesize: 69777
+SHA256: 398bcb6d0b32a2bed2be46c20103cce15a3cb3ac0b5fba233a69db666acba66a
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: On a Unix-alike, one of the C functions mach_absolute_time (macOS), clock_gettime or gethrtime. If none of these is found, the obsolescent POSIX function gettimeofday will be
+        tried.
+
+Package: pbkrtest
+Version: 0.5.3
+Depends: R (>= 4.2.0), lme4 (>= 1.1.31), R (>= 4.5), R (< 4.5.99)
+Imports: broom, dplyr, MASS, methods, numDeriv, Matrix (>= 1.2.3), doBy
+Suggests: markdown, knitr
+License: GPL (>= 2)
+File: pbkrtest_0.5.3_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/pbkrtest/releases/download/0.5.3/pbkrtest_0.5.3_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.0; ; 2024-06-27 16:39:28 UTC; unix
+Filesize: 178499
+SHA256: 775f654ae9dead7355845be550b26d67e7ffbe92d3a79733f9ed026603bc8e88
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
