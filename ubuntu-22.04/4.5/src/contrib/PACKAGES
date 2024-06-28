@@ -541,22 +541,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: pkgload
-Version: 1.3.4
-Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
-Imports: cli (>= 3.3.0), crayon, desc, fs, glue, methods, pkgbuild, rlang (>= 1.1.1), rprojroot, utils, withr (>= 2.4.3)
-Suggests: bitops, covr, mathjaxr, mockr, pak, Rcpp, remotes, rstudioapi, testthat (>= 3.1.0)
-License: GPL-3
-File: pkgload_1.3.4_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/pkgload/releases/download/1.3.4/pkgload_1.3.4_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.0; ; 2024-03-27 09:51:12 UTC; unix
-Filesize: 182841
-SHA256: 1833a3d219767cc3300cbe41649fbf83e6825ff03f3993112344a7d969ac8649
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: praise
 Version: 1.0.0
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -758,25 +742,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Subversion for install_svn, git for install_git
-
-Package: roxygen2
-Version: 7.3.1
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-Imports: brew, cli (>= 3.3.0), commonmark, desc (>= 1.2.0), knitr, methods, pkgload (>= 1.0.2), purrr (>= 1.0.0), R6 (>= 2.1.2), rlang (>= 1.0.6), stringi, stringr (>= 1.0.0), utils, withr, xml2
-Suggests: covr, R.methodsS3, R.oo, rmarkdown (>= 2.16), testthat (>= 3.1.2), yaml
-License: MIT + file LICENSE
-File: roxygen2_7.3.1_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/roxygen2/releases/download/7.3.1/roxygen2_7.3.1_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 09:51:16 UTC; unix
-Filesize: 1062625
-SHA256: cc92dab490d39e289ea3528bf6a4641ca1e7708b86fbcb6c69334b1368c4eb45
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cpp11
 
 Package: rprojroot
 Version: 2.0.4
@@ -4805,3 +4770,38 @@ RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: pkgload
+Version: 1.4.0
+Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
+Imports: cli (>= 3.3.0), desc, fs, glue, lifecycle, methods, pkgbuild, processx, rlang (>= 1.1.1), rprojroot, utils, withr (>= 2.4.3)
+Suggests: bitops, jsonlite, mathjaxr, pak, Rcpp, remotes, rstudioapi, testthat (>= 3.2.1.1), usethis
+License: GPL-3
+File: pkgload_1.4.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/pkgload/releases/download/1.4.0/pkgload_1.4.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.0; ; 2024-06-28 16:36:59 UTC; unix
+Filesize: 217252
+SHA256: 216ec90a4289cd62b7dc25f5b25676274726f66c71219a375c3380bfe9b7ad06
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: roxygen2
+Version: 7.3.2
+Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+Imports: brew, cli (>= 3.3.0), commonmark, desc (>= 1.2.0), knitr, methods, pkgload (>= 1.0.2), purrr (>= 1.0.0), R6 (>= 2.1.2), rlang (>= 1.0.6), stringi, stringr (>= 1.0.0), utils, withr, xml2
+Suggests: covr, R.methodsS3, R.oo, rmarkdown (>= 2.16), testthat (>= 3.1.2), yaml
+License: MIT + file LICENSE
+File: roxygen2_7.3.2_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/roxygen2/releases/download/7.3.2/roxygen2_7.3.2_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-06-28 16:37:02 UTC; unix
+Filesize: 1053538
+SHA256: f25bd01612cf45b016b8ea0eb6da3c27ddc7c06779f5101c4f81a0d967b8d617
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11
