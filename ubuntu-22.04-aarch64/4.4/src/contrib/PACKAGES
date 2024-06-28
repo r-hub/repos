@@ -699,22 +699,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: pkgload
-Version: 1.3.4
-Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
-Imports: cli (>= 3.3.0), crayon, desc, fs, glue, methods, pkgbuild, rlang (>= 1.1.1), rprojroot, utils, withr (>= 2.4.3)
-Suggests: bitops, covr, mathjaxr, mockr, pak, Rcpp, remotes, rstudioapi, testthat (>= 3.1.0)
-License: GPL-3
-File: pkgload_1.3.4_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/pkgload/releases/download/1.3.4/pkgload_1.3.4_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2024-05-16 08:01:05 UTC; unix
-Filesize: 180668
-SHA256: f22234d270bbd3904c0271cec479bacbaa5539f2beb243066cee5da7dffeb3d8
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: praise
 Version: 1.0.0
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -955,25 +939,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Subversion for install_svn, git for install_git
-
-Package: roxygen2
-Version: 7.3.1
-Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
-Imports: brew, cli (>= 3.3.0), commonmark, desc (>= 1.2.0), knitr, methods, pkgload (>= 1.0.2), purrr (>= 1.0.0), R6 (>= 2.1.2), rlang (>= 1.0.6), stringi, stringr (>= 1.0.0), utils, withr, xml2
-Suggests: covr, R.methodsS3, R.oo, rmarkdown (>= 2.16), testthat (>= 3.1.2), yaml
-License: MIT + file LICENSE
-File: roxygen2_7.3.1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/roxygen2/releases/download/7.3.1/roxygen2_7.3.1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-16 08:01:08 UTC; unix
-Filesize: 1045336
-SHA256: cb340a1474d78310fdc7248ff242dcb632397b08c730e2ac75b985903d147cc9
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cpp11
 
 Package: rprojroot
 Version: 2.0.4
@@ -3199,22 +3164,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: pbkrtest
-Version: 0.5.2
-Depends: R (>= 4.1.0), lme4 (>= 1.1.31), R (>= 4.4), R (< 4.4.99)
-Imports: broom, dplyr, MASS, Matrix (>= 1.2.3), methods, numDeriv, parallel
-Suggests: knitr
-License: GPL (>= 2)
-File: pbkrtest_0.5.2_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/pbkrtest/releases/download/0.5.2/pbkrtest_0.5.2_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2024-05-16 08:49:55 UTC; unix
-Filesize: 190550
-SHA256: 36de317e31e0783ff46204deb4af9955d4307e66ed17932c7d787b6b14ad15b5
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: caret
 Version: 6.0-94
 Depends: ggplot2, lattice (>= 0.20), R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
@@ -4807,6 +4756,58 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: cmake (>= 3.2.0) which is used only on Linux or macOS systems when no system build of nlopt (>= 2.7.0) can be found.
 
+Package: Deriv
+Version: 4.1.3
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: methods
+Suggests: testthat
+License: GPL (>= 3)
+File: Deriv_4.1.3_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/Deriv/releases/download/4.1.3/Deriv_4.1.3_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.1; ; 2024-06-28 18:33:39 UTC; unix
+Filesize: 147568
+SHA256: 5239bb7c0040edaef436d2aec793a7c40360d6aea26075e3cf2d4c3c9fc79b9f
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: doBy
+Version: 4.6.22
+Depends: R (>= 4.2.0), methods, R (>= 4.4), R (< 4.4.99)
+Imports: boot, broom, cowplot, Deriv, dplyr, ggplot2, MASS, Matrix, modelr, microbenchmark, rlang, tibble, tidyr,
+Suggests: geepack, knitr, lme4, markdown, multcomp, pbkrtest (>= 0.4-8.1), survival, testthat (>= 2.1.0)
+License: GPL (>= 2)
+File: doBy_4.6.22_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/doBy/releases/download/4.6.22/doBy_4.6.22_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.1; ; 2024-06-28 18:33:52 UTC; unix
+Filesize: 4694203
+SHA256: 497c3ccbfdd4054efc7f1a63f4e00d46c28d8f394720392b70579923b5556211
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: microbenchmark
+Version: 1.4.10
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: graphics, stats
+Suggests: ggplot2, multcomp, RUnit
+License: BSD_2_clause + file LICENSE
+File: microbenchmark_1.4.10_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/microbenchmark/releases/download/1.4.10/microbenchmark_1.4.10_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-06-28 18:33:40 UTC; unix
+Filesize: 69548
+SHA256: eb487f3c54d3c59457c81f35554fe3b312d1dbb8735973b3d944b0365e9e2366
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: On a Unix-alike, one of the C functions mach_absolute_time (macOS), clock_gettime or gethrtime. If none of these is found, the obsolescent POSIX function gettimeofday will be
+        tried.
+
 Package: rlang
 Version: 1.1.4
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -4819,8 +4820,8 @@ DownloadURL: https://github.com/cran/rlang/releases/download/1.1.4/rlang_1.1.4_b
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-04 18:33:16 UTC; unix
-Filesize: 2068877
-SHA256: fd25804a7c47fadddcdc48b9c29f78ce354881b01980aede287fbd60feceaa04
+Filesize: 2068874
+SHA256: 988b66104a0dc1c9b6c38a224fe4a3aee21ae08b7076725e53b97efb9a6a962e
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4838,8 +4839,59 @@ DownloadURL: https://github.com/cran/cli/releases/download/3.6.3/cli_3.6.3_b2_R4
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-22 18:32:00 UTC; unix
-Filesize: 1417984
-SHA256: f0d26c5d0513b98d06c09bed297706105fb0f10c0f58f79989d9db19e4d2a591
+Filesize: 1417981
+SHA256: 399049accc7a9ecb1f3a9cc8ec5811951a33e32841695401705b0816aaf52ebd
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: pkgload
+Version: 1.4.0
+Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
+Imports: cli (>= 3.3.0), desc, fs, glue, lifecycle, methods, pkgbuild, processx, rlang (>= 1.1.1), rprojroot, utils, withr (>= 2.4.3)
+Suggests: bitops, jsonlite, mathjaxr, pak, Rcpp, remotes, rstudioapi, testthat (>= 3.2.1.1), usethis
+License: GPL-3
+File: pkgload_1.4.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/pkgload/releases/download/1.4.0/pkgload_1.4.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.1; ; 2024-06-28 18:33:43 UTC; unix
+Filesize: 217324
+SHA256: dfe88be0bbf6cac0af7c306df56a6154f33e092ecea1e88de07b800647f295c5
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: roxygen2
+Version: 7.3.2
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+Imports: brew, cli (>= 3.3.0), commonmark, desc (>= 1.2.0), knitr, methods, pkgload (>= 1.0.2), purrr (>= 1.0.0), R6 (>= 2.1.2), rlang (>= 1.0.6), stringi, stringr (>= 1.0.0), utils, withr, xml2
+Suggests: covr, R.methodsS3, R.oo, rmarkdown (>= 2.16), testthat (>= 3.1.2), yaml
+License: MIT + file LICENSE
+File: roxygen2_7.3.2_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/roxygen2/releases/download/7.3.2/roxygen2_7.3.2_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-06-28 18:33:47 UTC; unix
+Filesize: 1049108
+SHA256: 543390a5740c28f617cae97fcdd4191acc3e45d12e95013af201016e0356a5cc
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11
+
+Package: pbkrtest
+Version: 0.5.3
+Depends: R (>= 4.2.0), lme4 (>= 1.1.31), R (>= 4.4), R (< 4.4.99)
+Imports: broom, dplyr, MASS, methods, numDeriv, Matrix (>= 1.2.3), doBy
+Suggests: markdown, knitr
+License: GPL (>= 2)
+File: pbkrtest_0.5.3_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/pbkrtest/releases/download/0.5.3/pbkrtest_0.5.3_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.1; ; 2024-06-28 18:34:07 UTC; unix
+Filesize: 178554
+SHA256: 988a4501e2c411eccff06c360561fb6028dd46d9b3b6c90169b6cbc52ff1d85d
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
