@@ -784,24 +784,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: later, Rcpp
 
-Package: ps
-Version: 1.7.6
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-Imports: utils
-Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes
-License: MIT + file LICENSE
-File: ps_1.7.6_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/ps/releases/download/1.7.6/ps_1.7.6_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-16 07:35:51 UTC; unix
-Filesize: 389823
-SHA256: 7a20acfc498517bec833cb145699ee1e4419b37f3760f3782777c64aac1a6b87
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: purrr
 Version: 1.0.2
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -4594,25 +4576,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: lme4
-Version: 1.1-35.4
-Depends: R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats, R (>= 4.4), R (< 4.4.99)
-Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
-Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
-License: GPL (>= 2)
-File: lme4_1.1-35.4_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/lme4/releases/download/1.1-35.4/lme4_1.1-35.4_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-19 18:34:48 UTC; unix
-Filesize: 8915948
-SHA256: 9e910dc8c99cadff5f49d51834ebc7d61547f80b3d049f1cc018e1bf947e93ad
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix (>= 1.6.2)
-
 Package: crayon
 Version: 1.5.3
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -4841,6 +4804,24 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
+Package: bookdown
+Version: 0.40
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.39), tinytex (>= 0.12), yaml (>= 2.1.19)
+Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, rstudioapi, miniUI, rsconnect (>= 0.4.3), servr (>= 0.13), shiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat (>=
+        3.1.0), withr (>= 2.3.0)
+License: GPL-3
+File: bookdown_0.40_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/bookdown/releases/download/0.40/bookdown_0.40_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.1; ; 2024-07-02 18:35:09 UTC; unix
+Filesize: 1091274
+SHA256: 01ec10f19a7ee9503ff79be5856f528a773ce412c2a512afa06212ad444d7af6
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: Pandoc (>= 1.17.2)
+
 Package: rlang
 Version: 1.1.4
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -4854,7 +4835,7 @@ OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-04 18:33:16 UTC; unix
 Filesize: 2068874
-SHA256: 45f889faa3aa5816716fd955afa05c99e2f99d18e886bbdba2a92e061db01779
+SHA256: 0dbb9d83646ed4da2747bae7be30c2824d0a8011a0f4469c737ea5b297b91714
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4873,26 +4854,45 @@ OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-22 18:32:00 UTC; unix
 Filesize: 1417982
-SHA256: 3a8a2d06c0c084bcd121b7a21222b00fc82fc7820456bab68d3d4505866251f7
+SHA256: c0ec987167a57c8d215c2ed0833005e93b4df5e21d9446d2599d726a144ad363
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: bookdown
-Version: 0.40
-Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.39), tinytex (>= 0.12), yaml (>= 2.1.19)
-Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, rstudioapi, miniUI, rsconnect (>= 0.4.3), servr (>= 0.13), shiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat (>=
-        3.1.0), withr (>= 2.3.0)
-License: GPL-3
-File: bookdown_0.40_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/bookdown/releases/download/0.40/bookdown_0.40_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.1; ; 2024-07-02 18:35:09 UTC; unix
-Filesize: 1091274
-SHA256: 01ec10f19a7ee9503ff79be5856f528a773ce412c2a512afa06212ad444d7af6
+Package: ps
+Version: 1.7.7
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+Imports: utils
+Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes
+License: MIT + file LICENSE
+File: ps_1.7.7_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/ps/releases/download/1.7.7/ps_1.7.7_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-03 18:32:18 UTC; unix
+Filesize: 390017
+SHA256: c73307259dbc79cd8d7f77fb3695c2725d79f062b43cdc8b866abd4d8b525a1e
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: Pandoc (>= 1.17.2)
+
+Package: lme4
+Version: 1.1-35.5
+Depends: R (>= 3.6.0), Matrix, methods, stats, R (>= 4.4), R (< 4.4.99)
+Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
+Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
+License: GPL (>= 2)
+File: lme4_1.1-35.5_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/lme4/releases/download/1.1-35.5/lme4_1.1-35.5_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-03 18:32:48 UTC; unix
+Filesize: 8909420
+SHA256: 168e6eccb3c9cc0b0a5e529a6eda6765d3105bc880b17931fbc0a0264ef2ec5b
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix (>= 1.2-3)
