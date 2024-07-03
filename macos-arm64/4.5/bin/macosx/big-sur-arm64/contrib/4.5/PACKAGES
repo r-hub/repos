@@ -680,24 +680,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: ps
-Version: 1.7.6
-Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
-Imports: utils
-Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes
-License: MIT + file LICENSE
-File: ps_1.7.6_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/ps/releases/download/1.7.6/ps_1.7.6_b1_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-03-29 15:06:32 UTC; unix
-Filesize: 316823
-SHA256: f7516ee932a1b97f110cc17cf58a17b3584a91c3e94b7259888ed963314d7607
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: purrr
 Version: 1.0.2
 Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
@@ -4406,25 +4388,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: lme4
-Version: 1.1-35.4
-Depends: R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats, R (>= 4.5), R (< 4.5.99)
-Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
-Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
-License: GPL (>= 2)
-File: lme4_1.1-35.4_b3_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/lme4/releases/download/1.1-35.4/lme4_1.1-35.4_b3_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-06-19 17:32:51 UTC; unix
-Filesize: 4252119
-SHA256: 98cd44d25e681f22bc17111575e3617d00c0d3b48a43162d2c54572ede36c9fe
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix (>= 1.6.2)
-
 Package: crayon
 Version: 1.5.3
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4689,3 +4652,40 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Pandoc (>= 1.17.2)
+
+Package: ps
+Version: 1.7.7
+Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
+Imports: utils
+Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes
+License: MIT + file LICENSE
+File: ps_1.7.7_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/ps/releases/download/1.7.7/ps_1.7.7_b2_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-07-03 17:30:33 UTC; unix
+Filesize: 316441
+SHA256: c935135e1abb1ddb0fd59acb4120a74d83b2a1f63438e09b29ed154f06affc7b
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: lme4
+Version: 1.1-35.5
+Depends: R (>= 3.6.0), Matrix, methods, stats, R (>= 4.5), R (< 4.5.99)
+Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
+Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
+License: GPL (>= 2)
+File: lme4_1.1-35.5_b4_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/lme4/releases/download/1.1-35.5/lme4_1.1-35.5_b4_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-07-03 17:30:45 UTC; unix
+Filesize: 4245524
+SHA256: 4ac257d8f83872365ff673871d8e376f65ad61800d291c482c331e91dac0d61e
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix (>= 1.2-3)
