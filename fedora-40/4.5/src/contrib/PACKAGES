@@ -2049,24 +2049,6 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: recipes
-Version: 1.0.10
-Depends: dplyr (>= 1.1.0), R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-Imports: cli, clock (>= 0.6.1), ellipsis, generics (>= 0.1.2), glue, gower, hardhat (>= 1.3.0), ipred (>= 0.9-12), lifecycle (>= 1.0.3), lubridate (>= 1.8.0), magrittr, Matrix, purrr (>= 1.0.0),
-        rlang (>= 1.1.0), stats, tibble, tidyr (>= 1.0.0), tidyselect (>= 1.2.0), timeDate, utils, vctrs (>= 0.5.0), withr
-Suggests: covr, ddalpha, dials (>= 1.2.0), ggplot2, igraph, kernlab, knitr, modeldata (>= 0.1.1), parsnip (>= 1.2.0), RANN, RcppRoll, rmarkdown, rpart, rsample, RSpectra, splines2, testthat (>=
-        3.0.0), workflows, xml2
-License: MIT + file LICENSE
-File: recipes_1.0.10_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/recipes/releases/download/1.0.10/recipes_1.0.10_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-Built: R 4.5.0; ; 2024-05-24 21:43:17 UTC; unix
-Filesize: 1713720
-SHA256: b1e09192bd2def40fc5ae3607f062e8bc9adf2d6bf7273a139e78feb669597a9
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: rsample
 Version: 1.2.1
 Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
@@ -3944,39 +3926,6 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: loo
-Version: 2.7.0
-Depends: R (>= 3.1.2), R (>= 4.5), R (< 4.5.99)
-Imports: checkmate, matrixStats (>= 0.52), parallel, posterior (>= 1.5.0), stats
-Suggests: bayesplot (>= 1.7.0), brms (>= 2.10.0), ggplot2, graphics, knitr, rmarkdown, rstan, rstanarm (>= 2.19.0), rstantools, spdep, testthat (>= 2.1.0)
-License: GPL (>= 3)
-File: loo_2.7.0_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/loo/releases/download/2.7.0/loo_2.7.0_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-Built: R 4.5.0; ; 2024-05-24 21:52:33 UTC; unix
-Filesize: 1916403
-SHA256: 938ad1b70a090ff6b993e39069ef54186611bf8f9964f24c991e98948d663d83
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
-
-Package: posterior
-Version: 1.5.0
-Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
-Imports: methods, abind, checkmate, rlang (>= 1.0.6), stats, tibble (>= 3.1.0), vctrs (>= 0.5.0), tensorA, pillar, distributional, parallel, matrixStats
-Suggests: testthat (>= 2.1.0), caret (>= 6.0.84), gbm (>= 2.1.8), randomForest (>= 4.6.14), e1071 (>= 1.7.3), dplyr, tidyr, knitr, ggplot2, ggdist, rmarkdown
-License: BSD_3_clause + file LICENSE
-File: posterior_1.5.0_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/posterior/releases/download/1.5.0/posterior_1.5.0_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-Built: R 4.5.0; ; 2024-05-24 21:52:01 UTC; unix
-Filesize: 1024676
-SHA256: 8d7f02f69c46f3d6ab4ab53f9880dac88f9e81da19cbd574b62c8492a186d702
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: RcppParallel
 Version: 5.1.7
 Depends: R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
@@ -4805,3 +4754,54 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix (>= 1.2-3)
+
+Package: recipes
+Version: 1.1.0
+Depends: dplyr (>= 1.1.0), R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+Imports: cli, clock (>= 0.6.1), generics (>= 0.1.2), glue, gower, hardhat (>= 1.4.0), ipred (>= 0.9-12), lifecycle (>= 1.0.3), lubridate (>= 1.8.0), magrittr, Matrix, purrr (>= 1.0.0), rlang (>=
+        1.1.0), stats, tibble, tidyr (>= 1.0.0), tidyselect (>= 1.2.0), timeDate, utils, vctrs (>= 0.5.0), withr
+Suggests: covr, ddalpha, dials (>= 1.2.0), ggplot2, igraph, kernlab, knitr, modeldata (>= 0.1.1), parsnip (>= 1.2.0), RANN, RcppRoll, rmarkdown, rpart, rsample, RSpectra, splines2, testthat (>=
+        3.0.0), workflows, xml2
+License: MIT + file LICENSE
+File: recipes_1.1.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/recipes/releases/download/1.1.0/recipes_1.1.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.5.0; ; 2024-07-04 17:22:29 UTC; unix
+Filesize: 1743184
+SHA256: b61e85324c6fa8077c605bec5ebfa04ed36d75073c01d2f63a5fabeb853b4565
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: loo
+Version: 2.8.0
+Depends: R (>= 3.1.2), R (>= 4.5), R (< 4.5.99)
+Imports: checkmate, matrixStats (>= 0.52), parallel, posterior (>= 1.5.0), stats
+Suggests: bayesplot (>= 1.7.0), brms (>= 2.10.0), ggplot2, graphics, knitr, rmarkdown, rstan, rstanarm (>= 2.19.0), rstantools, spdep, testthat (>= 2.1.0)
+License: GPL (>= 3)
+File: loo_2.8.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/loo/releases/download/2.8.0/loo_2.8.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.5.0; ; 2024-07-04 17:22:38 UTC; unix
+Filesize: 1922107
+SHA256: e2f3bb259ccb003beb36c6a0f000c89ae644e81b4068cd9f636b6064e850bc40
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
+
+Package: posterior
+Version: 1.6.0
+Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
+Imports: methods, abind, checkmate, rlang (>= 1.0.6), stats, tibble (>= 3.1.0), vctrs (>= 0.5.0), tensorA, pillar, distributional, parallel, matrixStats
+Suggests: testthat (>= 2.1.0), caret (>= 6.0-84), gbm (>= 2.1.8), randomForest (>= 4.6.14), e1071 (>= 1.7-3), dplyr, tidyr, knitr, ggplot2, ggdist, rmarkdown
+License: BSD_3_clause + file LICENSE
+File: posterior_1.6.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/posterior/releases/download/1.6.0/posterior_1.6.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.5.0; ; 2024-07-04 17:22:30 UTC; unix
+Filesize: 1082346
+SHA256: d6d4701191e72c4296b2ff18013c622637976822bb687111ff2921b82be1c4b5
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
