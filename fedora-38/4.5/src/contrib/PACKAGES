@@ -2111,23 +2111,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: reprex
-Version: 2.1.0
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-Imports: callr (>= 3.6.0), cli (>= 3.2.0), clipr (>= 0.4.0), fs, glue, knitr (>= 1.23), lifecycle, rlang (>= 1.0.0), rmarkdown, rstudioapi, utils, withr (>= 2.3.0)
-Suggests: covr, fortunes, miniUI, rprojroot, sessioninfo, shiny, spelling, styler (>= 1.2.0), testthat (>= 3.0.2)
-License: MIT + file LICENSE
-File: reprex_2.1.0_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/reprex/releases/download/2.1.0/reprex_2.1.0_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.5.0; ; 2024-03-27 17:46:38 UTC; unix
-Filesize: 507486
-SHA256: 19ccc82f442084c2f614fc1b13718dc41d323b9c90df7860243e2561ad83f15f
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc (>= 2.0) - http://pandoc.org
-
 Package: rvest
 Version: 1.0.4
 Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
@@ -3269,24 +3252,6 @@ RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: RcppParallel
-Version: 5.1.7
-Depends: R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
-Suggests: Rcpp, RUnit, knitr, rmarkdown
-License: GPL (>= 3)
-File: RcppParallel_5.1.7_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/RcppParallel/releases/download/5.1.7/RcppParallel_5.1.7_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 17:24:31 UTC; unix
-Filesize: 1866960
-SHA256: 52b6bb4c6bd7154d7816eb8802c7ce6ccfcff6297f998929baf36432d9270200
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make, Intel TBB, Windows: cmd.exe and cscript.exe, Solaris: g++ is required
 
 Package: rstan
 Version: 2.32.6
@@ -4805,3 +4770,38 @@ RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: reprex
+Version: 2.1.1
+Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+Imports: callr (>= 3.6.0), cli (>= 3.2.0), clipr (>= 0.4.0), fs, glue, knitr (>= 1.23), lifecycle, rlang (>= 1.0.0), rmarkdown, rstudioapi, utils, withr (>= 2.3.0)
+Suggests: covr, fortunes, miniUI, rprojroot, sessioninfo, shiny, spelling, styler (>= 1.2.0), testthat (>= 3.2.1)
+License: MIT + file LICENSE
+File: reprex_2.1.1_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/reprex/releases/download/2.1.1/reprex_2.1.1_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.5.0; ; 2024-07-06 17:18:48 UTC; unix
+Filesize: 507743
+SHA256: 1868db98cdc6b3f2cfd8af8cf3e495b610ee04d78f950ffc08bff203bd472891
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc (>= 2.0) - https://pandoc.org/
+
+Package: RcppParallel
+Version: 5.1.8
+Depends: R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
+Suggests: Rcpp, RUnit, knitr, rmarkdown
+License: GPL (>= 3)
+File: RcppParallel_5.1.8_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/RcppParallel/releases/download/5.1.8/RcppParallel_5.1.8_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-07-06 17:18:45 UTC; unix
+Filesize: 1867923
+SHA256: d0e96b872eee64ca64945009567ebf128dca2fba62e0ea79da4c45de5e6858ab
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, Intel TBB, Windows: cmd.exe and cscript.exe, Solaris: g++ is required
