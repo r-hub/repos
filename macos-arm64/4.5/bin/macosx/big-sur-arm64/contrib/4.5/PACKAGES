@@ -2200,23 +2200,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: reprex
-Version: 2.1.0
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-Imports: callr (>= 3.6.0), cli (>= 3.2.0), clipr (>= 0.4.0), fs, glue, knitr (>= 1.23), lifecycle, rlang (>= 1.0.0), rmarkdown, rstudioapi, utils, withr (>= 2.3.0)
-Suggests: covr, fortunes, miniUI, rprojroot, sessioninfo, shiny, spelling, styler (>= 1.2.0), testthat (>= 3.0.2)
-License: MIT + file LICENSE
-File: reprex_2.1.0_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/reprex/releases/download/2.1.0/reprex_2.1.0_b1_R4.5_aarch64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-03-29 15:31:40 UTC; unix
-Filesize: 494215
-SHA256: ca228158ef16ed5fb59826274760e45a02d7fb9e7a528da35cc28b0387b0146f
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc (>= 2.0) - http://pandoc.org
-
 Package: rvest
 Version: 1.0.4
 Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
@@ -3222,24 +3205,6 @@ RVersion: 4.5
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: RcppParallel
-Version: 5.1.7
-Depends: R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
-Suggests: Rcpp, RUnit, knitr, rmarkdown
-License: GPL (>= 3)
-File: RcppParallel_5.1.7_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/RcppParallel/releases/download/5.1.7/RcppParallel_5.1.7_b1_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-03-29 15:10:15 UTC; unix
-Filesize: 573186
-SHA256: 4b81f404bd7068b01485eaf5a66a09e3ff8a2cd2536f214f6946d4af5ed9d2ca
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make, Intel TBB, Windows: cmd.exe and cscript.exe, Solaris: g++ is required
 
 Package: rstan
 Version: 2.32.6
@@ -4689,3 +4654,38 @@ RVersion: 4.5
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: reprex
+Version: 2.1.1
+Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+Imports: callr (>= 3.6.0), cli (>= 3.2.0), clipr (>= 0.4.0), fs, glue, knitr (>= 1.23), lifecycle, rlang (>= 1.0.0), rmarkdown, rstudioapi, utils, withr (>= 2.3.0)
+Suggests: covr, fortunes, miniUI, rprojroot, sessioninfo, shiny, spelling, styler (>= 1.2.0), testthat (>= 3.2.1)
+License: MIT + file LICENSE
+File: reprex_2.1.1_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/reprex/releases/download/2.1.1/reprex_2.1.1_b2_R4.5_aarch64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-07-06 17:29:07 UTC; unix
+Filesize: 494224
+SHA256: 94452ad1b7b732b255a154cce7f0e436ec40201fc797666557b4cd45ccb853e6
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc (>= 2.0) - https://pandoc.org/
+
+Package: RcppParallel
+Version: 5.1.8
+Depends: R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
+Suggests: Rcpp, RUnit, knitr, rmarkdown
+License: GPL (>= 3)
+File: RcppParallel_5.1.8_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/RcppParallel/releases/download/5.1.8/RcppParallel_5.1.8_b2_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-07-06 17:28:55 UTC; unix
+Filesize: 573752
+SHA256: f0bfa7095370a5a945cc2260e649dd4e12f4e9fb66b9428b95eab756cd1ea523
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, Intel TBB, Windows: cmd.exe and cscript.exe, Solaris: g++ is required
