@@ -3666,24 +3666,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: pkgdown
-Version: 2.0.9
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-Imports: bslib (>= 0.5.1), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.0), digest, downlit (>= 0.4.0), fs (>= 1.4.0), httr (>= 1.4.2), jsonlite, magrittr, memoise, purrr (>= 1.0.0), ragg, rlang
-        (>= 1.1.0), rmarkdown (>= 1.1.9007), tibble, whisker, withr (>= 2.4.3), xml2 (>= 1.3.1), yaml
-Suggests: covr, diffviewer, evaluate, gert, htmltools, htmlwidgets, knitr, lifecycle, methods, openssl, pkgload (>= 1.0.2), rsconnect, rstudioapi, rticles, rvest, sass, testthat (>= 3.1.3), tools
-License: MIT + file LICENSE
-File: pkgdown_2.0.9_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/pkgdown/releases/download/2.0.9/pkgdown_2.0.9_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.5.0; ; 2024-04-19 17:20:29 UTC; unix
-Filesize: 759561
-SHA256: 3266d6b0902c79cd1fdee72456672e6594b4f0ffd3f8bbc15365b143249a32a2
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc
-
 Package: ggplot2
 Version: 3.5.1
 Depends: R (>= 3.5), R (>= 4.5), R (< 4.5.99)
@@ -4155,24 +4137,6 @@ RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: knitr
-Version: 1.47
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-Imports: evaluate (>= 0.15), highr (>= 0.11), methods, tools, xfun (>= 0.44), yaml (>= 2.1.19)
-Suggests: bslib, codetools, DBI (>= 0.4-1), digest, formatR, gifski, gridSVG, htmlwidgets (>= 0.7), jpeg, JuliaCall (>= 0.11.1), magick, markdown (>= 1.3), png, ragg, reticulate (>= 1.4), rgl (>=
-        0.95.1201), rlang, rmarkdown, sass, showtext, styler (>= 1.2.0), targets (>= 0.6.0), testit, tibble, tikzDevice (>= 0.10), tinytex (>= 0.46), webshot, rstudioapi, svglite
-License: GPL
-File: knitr_1.47_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/knitr/releases/download/1.47/knitr_1.47_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.5.0; ; 2024-05-29 17:20:50 UTC; unix
-Filesize: 1195687
-SHA256: d31ce47eeb6194059b128791910ac2d4d44731988508b1255134eeebdb5b4af5
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
 
 Package: StanHeaders
 Version: 2.32.9
@@ -4805,3 +4769,40 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, Intel TBB, Windows: cmd.exe and cscript.exe, Solaris: g++ is required
+
+Package: pkgdown
+Version: 2.1.0
+Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+Imports: bslib (>= 0.5.1), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.0), digest, downlit (>= 0.4.4), fontawesome, fs (>= 1.4.0), httr2 (>= 1.0.0), jsonlite, openssl, purrr (>= 1.0.0), ragg,
+        rlang (>= 1.1.0), rmarkdown (>= 2.27), tibble, whisker, withr (>= 2.4.3), xml2 (>= 1.3.1), yaml
+Suggests: covr, diffviewer, evaluate (>= 0.24.0), gert, gt, htmltools, htmlwidgets, knitr, lifecycle, magick, methods, pkgload (>= 1.0.2), quarto, rsconnect, rstudioapi, rticles, sass, testthat (>=
+        3.1.3), tools
+License: MIT + file LICENSE
+File: pkgdown_2.1.0_b4_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/pkgdown/releases/download/2.1.0/pkgdown_2.1.0_b4_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.5.0; ; 2024-07-07 17:21:39 UTC; unix
+Filesize: 917955
+SHA256: 30beb700f34f628becae34e8c8025f023a94955c0b57936d11c8f14fa3b716bb
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc
+
+Package: knitr
+Version: 1.48
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+Imports: evaluate (>= 0.15), highr (>= 0.11), methods, tools, xfun (>= 0.44), yaml (>= 2.1.19)
+Suggests: bslib, codetools, DBI (>= 0.4-1), digest, formatR, gifski, gridSVG, htmlwidgets (>= 0.7), jpeg, JuliaCall (>= 0.11.1), magick, markdown (>= 1.3), png, ragg, reticulate (>= 1.4), rgl (>=
+        0.95.1201), rlang, rmarkdown, sass, showtext, styler (>= 1.2.0), targets (>= 0.6.0), testit, tibble, tikzDevice (>= 0.10), tinytex (>= 0.46), webshot, rstudioapi, svglite
+License: GPL
+File: knitr_1.48_b4_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/knitr/releases/download/1.48/knitr_1.48_b4_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.5.0; ; 2024-07-07 17:21:32 UTC; unix
+Filesize: 1195039
+SHA256: dad2ecfbcc4870dae72e508990475d0411f6e56a2846487f2306ab1346a13c0d
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
