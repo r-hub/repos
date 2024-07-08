@@ -4158,25 +4158,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, pandoc
 LinkingTo: RcppEigen (>= 0.3.4.0.0), RcppParallel (>= 5.1.4)
 
-Package: RcppArmadillo
-Version: 0.12.8.4.0
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-Imports: Rcpp (>= 1.0.8), stats, utils, methods
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-License: GPL (>= 2)
-File: RcppArmadillo_0.12.8.4.0_b5_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/0.12.8.4.0/RcppArmadillo_0.12.8.4.0_b5_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-31 16:38:08 UTC; unix
-Filesize: 1904920
-SHA256: f9a99ecd1fd6283fdd8a203d6283f4aeb96cf2681bde05db0f16c62a90e868b4
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: hardhat
 Version: 1.4.0
 Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
@@ -4261,24 +4242,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: zoo
-
-Package: QuickJSR
-Version: 1.2.2
-Depends: R (>= 4.5), R (< 4.5.99)
-Suggests: knitr, rmarkdown, tinytest
-License: MIT + file LICENSE
-File: QuickJSR_1.2.2_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/QuickJSR/releases/download/1.2.2/QuickJSR_1.2.2_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-06-07 16:39:23 UTC; unix
-Filesize: 4727239
-SHA256: 555a7aef43e3a679ccbf95e1383f4c2d030b717c54c1afed275fc86750955269
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make
 
 Package: downlit
 Version: 0.4.4
@@ -4806,3 +4769,40 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
+
+Package: RcppArmadillo
+Version: 14.0.0-1
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+Imports: Rcpp (>= 1.0.8), stats, utils, methods
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+File: RcppArmadillo_14.0.0-1_b6_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/14.0.0-1/RcppArmadillo_14.0.0-1_b6_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-07-08 16:38:12 UTC; unix
+Filesize: 1913888
+SHA256: 5c45f19aa830983dd248448145f36e8610849ffe4bbeaefa112bb050eaa57183
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: QuickJSR
+Version: 1.3.0
+Depends: R (>= 4.5), R (< 4.5.99)
+Suggests: knitr, rmarkdown, tinytest
+License: MIT + file LICENSE
+File: QuickJSR_1.3.0_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/QuickJSR/releases/download/1.3.0/QuickJSR_1.3.0_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-07-08 16:38:09 UTC; unix
+Filesize: 4403122
+SHA256: 0eab33c03b58c87494180f245bb21c0fe550bfe7297ce530bfb0bb7a008864e3
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make
