@@ -4042,25 +4042,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, pandoc
 LinkingTo: RcppEigen (>= 0.3.4.0.0), RcppParallel (>= 5.1.4)
 
-Package: RcppArmadillo
-Version: 0.12.8.4.0
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-Imports: Rcpp (>= 1.0.8), stats, utils, methods
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-License: GPL (>= 2)
-File: RcppArmadillo_0.12.8.4.0_b5_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/0.12.8.4.0/RcppArmadillo_0.12.8.4.0_b5_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-05-31 17:32:23 UTC; unix
-Filesize: 1085122
-SHA256: 874e7d88209c453cd914a0394c12da9e53e2655b76c96200234385c766c1c613
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: hardhat
 Version: 1.4.0
 Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
@@ -4145,24 +4126,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: zoo
-
-Package: QuickJSR
-Version: 1.2.2
-Depends: R (>= 4.5), R (< 4.5.99)
-Suggests: knitr, rmarkdown, tinytest
-License: MIT + file LICENSE
-File: QuickJSR_1.2.2_b3_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/QuickJSR/releases/download/1.2.2/QuickJSR_1.2.2_b3_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-06-07 17:30:50 UTC; unix
-Filesize: 2330316
-SHA256: 5b2ccd732211466677340818e2527313b7c0962fb0a8b1780d1621cf7616cba6
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make
 
 Package: downlit
 Version: 0.4.4
@@ -4690,3 +4653,40 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
+
+Package: RcppArmadillo
+Version: 14.0.0-1
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+Imports: Rcpp (>= 1.0.8), stats, utils, methods
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+File: RcppArmadillo_14.0.0-1_b6_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/14.0.0-1/RcppArmadillo_14.0.0-1_b6_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-07-08 17:32:20 UTC; unix
+Filesize: 1090021
+SHA256: 6ae0cf8cff782e477b6d8bbffbfbd38fdf8daba882abbd1fbbd88d81d29f3c3a
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: QuickJSR
+Version: 1.3.0
+Depends: R (>= 4.5), R (< 4.5.99)
+Suggests: knitr, rmarkdown, tinytest
+License: MIT + file LICENSE
+File: QuickJSR_1.3.0_b4_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/QuickJSR/releases/download/1.3.0/QuickJSR_1.3.0_b4_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-07-08 17:31:52 UTC; unix
+Filesize: 2394394
+SHA256: f1588f029253a1947172c148c2d8a806934a25f8b8d1a7cb6d5a30868118a12d
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make
