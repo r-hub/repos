@@ -4294,24 +4294,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: duckdb
-Version: 1.0.0
-Depends: DBI, R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-Imports: methods, utils
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-License: MIT + file LICENSE
-File: duckdb_1.0.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.0.0/duckdb_1.0.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-13 18:34:31 UTC; unix
-Filesize: 193550793
-SHA256: ca4dc6e12b0253db141cc59bc1dcc510f836987cc82b288324ac043d7b5559a9
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: xfun
 Version: 0.45
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -4843,6 +4825,23 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make
 
+Package: wk
+Version: 0.9.2
+Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
+Suggests: testthat (>= 3.0.0), vctrs (>= 0.3.0), sf, tibble, readr
+License: MIT + file LICENSE
+File: wk_0.9.2_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/wk/releases/download/0.9.2/wk_0.9.2_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-09 18:34:54 UTC; unix
+Filesize: 2165081
+SHA256: 78e7cbbac9a404062824656a38fdcd97c49fc26adbd78814903a7ee8a91b23d2
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
 Package: rlang
 Version: 1.1.4
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -4855,8 +4854,8 @@ DownloadURL: https://github.com/cran/rlang/releases/download/1.1.4/rlang_1.1.4_b
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-04 18:33:16 UTC; unix
-Filesize: 2068875
-SHA256: e90f408f279f5461f17a47f77195a41de0f854dd8095c266fd4661c2a62356de
+Filesize: 2068874
+SHA256: f2ed2cefd2ae5afdba2fce8faed61c7d0abaed2121df773129825ed2116436d0
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4874,25 +4873,26 @@ DownloadURL: https://github.com/cran/cli/releases/download/3.6.3/cli_3.6.3_b2_R4
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-22 18:32:00 UTC; unix
-Filesize: 1417983
-SHA256: 2af123813bc904841cbd89ad229c97a9ab685eca4ff3bb1d724dfadd52cf3838
+Filesize: 1417980
+SHA256: 2198eb021801a54a954b03f9ee7dad9d28d27a9ebaa58d1e41ea26669550e253
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: wk
-Version: 0.9.2
-Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
-Suggests: testthat (>= 3.0.0), vctrs (>= 0.3.0), sf, tibble, readr
+Package: duckdb
+Version: 1.0.0-1
+Depends: DBI, R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+Imports: methods, utils
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
 License: MIT + file LICENSE
-File: wk_0.9.2_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/wk/releases/download/0.9.2/wk_0.9.2_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+File: duckdb_1.0.0-1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.0.0-1/duckdb_1.0.0-1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
 OS: linux
 Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-09 18:34:54 UTC; unix
-Filesize: 2165081
-SHA256: 78e7cbbac9a404062824656a38fdcd97c49fc26adbd78814903a7ee8a91b23d2
+Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-10 18:36:41 UTC; unix
+Filesize: 193379881
+SHA256: 2c6a4ec18ed5076bea83a9cbcd7083c5dc7643b98da388c66af3baca46800790
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
