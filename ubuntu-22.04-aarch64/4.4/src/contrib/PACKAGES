@@ -4842,6 +4842,24 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
+Package: duckdb
+Version: 1.0.0-1
+Depends: DBI, R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+Imports: methods, utils
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+License: MIT + file LICENSE
+File: duckdb_1.0.0-1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.0.0-1/duckdb_1.0.0-1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-10 18:36:41 UTC; unix
+Filesize: 193379881
+SHA256: 2c6a4ec18ed5076bea83a9cbcd7083c5dc7643b98da388c66af3baca46800790
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
 Package: rlang
 Version: 1.1.4
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -4855,7 +4873,7 @@ OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-04 18:33:16 UTC; unix
 Filesize: 2068874
-SHA256: f2ed2cefd2ae5afdba2fce8faed61c7d0abaed2121df773129825ed2116436d0
+SHA256: 087ecfaac190be2699ecd17b2041fd6769d79c3c7fb8f320c0ec3f668261f7f8
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4873,26 +4891,8 @@ DownloadURL: https://github.com/cran/cli/releases/download/3.6.3/cli_3.6.3_b2_R4
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-22 18:32:00 UTC; unix
-Filesize: 1417980
-SHA256: 2198eb021801a54a954b03f9ee7dad9d28d27a9ebaa58d1e41ea26669550e253
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: duckdb
-Version: 1.0.0-1
-Depends: DBI, R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-Imports: methods, utils
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-License: MIT + file LICENSE
-File: duckdb_1.0.0-1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.0.0-1/duckdb_1.0.0-1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-10 18:36:41 UTC; unix
-Filesize: 193379881
-SHA256: 2c6a4ec18ed5076bea83a9cbcd7083c5dc7643b98da388c66af3baca46800790
+Filesize: 1417977
+SHA256: 5e54524f562c87ac722c6b6588b350f4eb2367022fcb8ff0cc51272a60136cc5
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
