@@ -4022,26 +4022,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: StanHeaders
-Version: 2.32.9
-Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
-Imports: RcppParallel (>= 5.1.4)
-Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix, methods, rstan, withr
-License: BSD_3_clause + file LICENSE
-File: StanHeaders_2.32.9_b4_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/StanHeaders/releases/download/2.32.9/StanHeaders_2.32.9_b4_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-05-30 17:29:50 UTC; unix
-Filesize: 2755713
-SHA256: ba66ebc68127cdab6d9824a90fc9965126e3e7904c83267e5162aecb9bd1059e
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make, pandoc
-LinkingTo: RcppEigen (>= 0.3.4.0.0), RcppParallel (>= 5.1.4)
-
 Package: hardhat
 Version: 1.4.0
 Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
@@ -4690,3 +4670,23 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make
+
+Package: StanHeaders
+Version: 2.32.10
+Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
+Imports: RcppParallel (>= 5.1.4)
+Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix, methods, rstan, withr
+License: BSD_3_clause + file LICENSE
+File: StanHeaders_2.32.10_b5_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/StanHeaders/releases/download/2.32.10/StanHeaders_2.32.10_b5_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-07-15 17:31:16 UTC; unix
+Filesize: 2755525
+SHA256: 19f36c0144dc4f8340f0826681fa8c268cb52a8f953ffc22f5fb6b401972a25c
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, pandoc
+LinkingTo: RcppEigen (>= 0.3.4.0.0), RcppParallel (>= 5.1.4)
