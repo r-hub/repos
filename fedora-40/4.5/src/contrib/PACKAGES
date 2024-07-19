@@ -341,25 +341,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make
 
-Package: gert
-Version: 2.0.1
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
-Suggests: spelling, knitr, rmarkdown, testthat
-License: MIT + file LICENSE
-File: gert_2.0.1_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/gert/releases/download/2.0.1/gert_2.0.1_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-24 21:24:44 UTC; unix
-Filesize: 350541
-SHA256: f67001f202f5ae4ae9362577dd1b308ee254573c65aae5fa6277e2e1418a8af4
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
-
 Package: gh
 Version: 1.4.1
 Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
@@ -1366,25 +1347,6 @@ RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: clock
-Version: 0.7.0
-Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), rlang (>= 1.1.0), tzdb (>= 0.4.0), vctrs (>= 0.6.1)
-Suggests: covr, knitr, magrittr, pillar, rmarkdown, slider (>= 0.3.0), testthat (>= 3.0.0), withr
-License: MIT + file LICENSE
-File: clock_0.7.0_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/clock/releases/download/0.7.0/clock_0.7.0_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-24 21:26:11 UTC; unix
-Filesize: 7633548
-SHA256: 8d88eaf306fb988ad692617eb23c96fda4601c55cdea355240adcb1c2b63e080
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cpp11 (>= 0.4.3), tzdb (>= 0.4.0)
 
 Package: colorspace
 Version: 2.1-0
@@ -4606,24 +4568,6 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: duckdb
-Version: 1.0.0-1
-Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-Imports: methods, utils
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-License: MIT + file LICENSE
-File: duckdb_1.0.0-1_b3_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.0.0-1/duckdb_1.0.0-1_b3_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-07-10 17:21:24 UTC; unix
-Filesize: 197583772
-SHA256: b01387a02b6eb8ce157c9e954b7a394d0ea8b38234b16dbcfee4d562b07778e0
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: magick
 Version: 2.8.4
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4802,6 +4746,62 @@ Arch: amd64
 Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-07-18 17:21:47 UTC; unix
 Filesize: 578514
 SHA256: 13dd9ecf4e40489bd3e780f1a473274fc0c6a180a850055ddec5dca797e78a31
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: gert
+Version: 2.1.0
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
+Suggests: spelling, knitr, rmarkdown, testthat
+License: MIT + file LICENSE
+File: gert_2.1.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/gert/releases/download/2.1.0/gert_2.1.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-07-19 17:23:30 UTC; unix
+Filesize: 354325
+SHA256: 381d0058112405f2b2804a7a6d3023c3aa23daa74e0637cd8ce0bb3df3b73698
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
+
+Package: clock
+Version: 0.7.1
+Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), rlang (>= 1.1.0), tzdb (>= 0.4.0), vctrs (>= 0.6.1)
+Suggests: covr, knitr, magrittr, pillar, rmarkdown, slider (>= 0.3.0), testthat (>= 3.0.0), withr
+License: MIT + file LICENSE
+File: clock_0.7.1_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/clock/releases/download/0.7.1/clock_0.7.1_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-07-19 17:23:33 UTC; unix
+Filesize: 7636115
+SHA256: 1bd889b449dedeb63be13af6c5264fa2911aca31f8aa9e8781e24680ad561ff2
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11 (>= 0.4.3), tzdb (>= 0.4.0)
+
+Package: duckdb
+Version: 1.0.0-2
+Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+Imports: methods, utils
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+License: MIT + file LICENSE
+File: duckdb_1.0.0-2_b4_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.0.0-2/duckdb_1.0.0-2_b4_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-07-19 17:23:38 UTC; unix
+Filesize: 197584433
+SHA256: 3c754dadad60d33c7eae626b30ed1360fa94e3ca8d059e704116eeb69adc25e0
 RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
