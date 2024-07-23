@@ -9,6 +9,7 @@ with `install.packages()`, only with pak.
 * [Fedora 38 + R-devel](#fedora-38--r-devel-fedora-38-r45)
 * [Fedora 40 + R-devel](#fedora-40--r-devel-fedora-40-r45)
 * [Ubuntu 22.04 + R-release on aarch64](#ubuntu-2204--r-release-on-aarch64-ubuntu-2204-aarch64-r44)
+* [Ubuntu 24.04 + R-release on aarch64](#ubuntu-2404--r-release-on-aarch64-ubuntu-2404-aarch64-r44)
 * [macOS 11 Big Sur or later, x86_64 + R-devel](#macos-11-big-sur-or-later-x86_64--r-devel-macos-x86_64-r45)
 * [macOS 11 Big Sur or later, arm64 + R-devel](#macos-11-big-sur-or-later-arm64--r-devel-macos-arm64-r45)
 
@@ -107,6 +108,17 @@ options(repos = c(
 ```
 options(repos = c(
   RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04-aarch64/4.4",
+  CRAN = "https://cloud.r-project.org"
+))
+```
+
+## Ubuntu 24.04 + R-release on aarch64 (`ubuntu-24.04-aarch64-R4.4`)
+
+### Setup
+
+```
+options(repos = c(
+  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-24.04-aarch64/4.4",
   CRAN = "https://cloud.r-project.org"
 ))
 ```
