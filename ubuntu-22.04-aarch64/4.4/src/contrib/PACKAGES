@@ -1276,25 +1276,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: colorspace
-Version: 2.1-0
-Depends: R (>= 3.0.0), methods, R (>= 4.4), R (< 4.4.99)
-Imports: graphics, grDevices, stats
-Suggests: datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd, tcltk, shiny, shinyjs, ggplot2, dplyr, scales, grid, png, jpeg, knitr, rmarkdown, RColorBrewer, rcartocolor, scico, viridis,
-        wesanderson
-License: BSD_3_clause + file LICENSE
-File: colorspace_2.1-0_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/colorspace/releases/download/2.1-0/colorspace_2.1-0_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-16 07:40:58 UTC; unix
-Filesize: 2629841
-SHA256: c9714f72a407c036af8047b1d08100d0319ee098a83f4e8ede9d598894bb3c70
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: conflicted
 Version: 1.2.0
 Depends: R (>= 3.2), R (>= 4.4), R (< 4.4.99)
@@ -4480,23 +4461,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: yaml
-Version: 2.3.9
-Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: RUnit
-License: BSD_3_clause + file LICENSE
-File: yaml_2.3.9_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/yaml/releases/download/2.3.9/yaml_2.3.9_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-05 18:33:42 UTC; unix
-Filesize: 278000
-SHA256: c9ae680b46200d932de26a597cfab9b7b0a109b8c60088d5702eb62994ea1314
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: reprex
 Version: 2.1.1
 Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
@@ -4872,8 +4836,8 @@ DownloadURL: https://github.com/cran/rlang/releases/download/1.1.4/rlang_1.1.4_b
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-04 18:33:16 UTC; unix
-Filesize: 2068878
-SHA256: ec229fc788333a8767e7e9040ff5776ccf7e349ae54f6148e84b63e2b5126504
+Filesize: 2068874
+SHA256: 835aa6967ec06f9ecafded4f2c55a8ad1d33ff767852f5da7d12e2f09d9b98cf
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4891,8 +4855,44 @@ DownloadURL: https://github.com/cran/cli/releases/download/3.6.3/cli_3.6.3_b2_R4
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-22 18:32:00 UTC; unix
-Filesize: 1417984
-SHA256: dfd98e0dc16f23c551e23be1aa18f92b9e147dabfdb4c9f8d9fc2f12c1c0eb90
+Filesize: 1417982
+SHA256: 93728f9c745d739ead6d916876cfa7ebc4fd35b04b39ef1b6ecbc5eb2d5f279b
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: colorspace
+Version: 2.1-1
+Depends: R (>= 3.0.0), methods, R (>= 4.4), R (< 4.4.99)
+Imports: graphics, grDevices, stats
+Suggests: datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd, tcltk, shiny, shinyjs, ggplot2, dplyr, scales, grid, png, jpeg, knitr, rmarkdown, RColorBrewer, rcartocolor, scico, viridis,
+        wesanderson
+License: BSD_3_clause + file LICENSE
+File: colorspace_2.1-1_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/colorspace/releases/download/2.1-1/colorspace_2.1-1_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-26 18:33:41 UTC; unix
+Filesize: 2658913
+SHA256: 2abcaecd4af82fa4c82cee4fa541a164722a11b9b8b08e5c3a1d4c078894af8a
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: yaml
+Version: 2.3.10
+Depends: R (>= 4.4), R (< 4.4.99)
+Suggests: RUnit
+License: BSD_3_clause + file LICENSE
+File: yaml_2.3.10_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/yaml/releases/download/2.3.10/yaml_2.3.10_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-26 18:33:41 UTC; unix
+Filesize: 278486
+SHA256: 915ed340f209a8c7126bca32a044aa6f97cbd8bdaea3e6a0892027a55c8a37ad
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
