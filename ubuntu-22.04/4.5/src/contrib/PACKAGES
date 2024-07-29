@@ -854,23 +854,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: usethis
-Version: 2.2.3
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-Imports: cli (>= 3.0.1), clipr (>= 0.3.0), crayon, curl (>= 2.7), desc (>= 1.4.2), fs (>= 1.3.0), gert (>= 1.4.1), gh (>= 1.2.1), glue (>= 1.3.0), jsonlite, lifecycle (>= 1.0.0), purrr, rappdirs,
-        rlang (>= 1.1.0), rprojroot (>= 1.2), rstudioapi, stats, utils, whisker, withr (>= 2.3.0), yaml
-Suggests: covr, knitr, magick, pkgload (>= 1.3.2.1), rmarkdown, roxygen2 (>= 7.1.2), spelling (>= 1.2), styler (>= 1.2.0), testthat (>= 3.1.8)
-License: MIT + file LICENSE
-File: usethis_2.2.3_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/usethis/releases/download/2.2.3/usethis_2.2.3_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.0; ; 2024-03-27 09:48:11 UTC; unix
-Filesize: 891826
-SHA256: 6a167edd38f468d686b50eb92d8d9d9633f47450f57f977a2178f824abd3bfb9
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: utf8
 Version: 1.2.4
 Depends: R (>= 2.10), R (>= 4.5), R (< 4.5.99)
@@ -2052,22 +2035,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: uuid
-Version: 1.2-0
-Depends: R (>= 2.9.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: uuid_1.2-0_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/uuid/releases/download/1.2-0/uuid_1.2-0_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 09:39:07 UTC; unix
-Filesize: 85978
-SHA256: 90723cf07de9a40cb907f1bee524fd2c174e408214177f19de5412fc3eed374c
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: vroom
 Version: 1.6.5
 Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
@@ -2099,24 +2066,6 @@ DownloadURL: https://github.com/cran/pkgbuild/releases/download/1.4.4/pkgbuild_1
 Built: R 4.5.0; ; 2024-03-27 09:34:45 UTC; unix
 Filesize: 204643
 SHA256: 48fbf9d1b7e9a14f0c1f0134060bc6fafd6c9ea86b74efb49e1f0e8957fdca8e
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: checkmate
-Version: 2.3.1
-Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
-Imports: backports (>= 1.1.0), utils
-Suggests: R6, fastmatch, data.table (>= 1.9.8), devtools, ggplot2, knitr, magrittr, microbenchmark, rmarkdown, testthat (>= 3.0.4), tinytest (>= 1.1.0), tibble
-License: BSD_3_clause + file LICENSE
-File: checkmate_2.3.1_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/checkmate/releases/download/2.3.1/checkmate_2.3.1_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 09:48:05 UTC; unix
-Filesize: 843772
-SHA256: 9c533bc4995a552fc792b191f169e61237a23b0dec8ea78d134bb03fd2868f7a
 RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4802,6 +4751,57 @@ Arch: amd64
 Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-07-27 16:36:08 UTC; unix
 Filesize: 383904
 SHA256: 690db6feb2d30d90dc05216eabd8c975f8678e4e82b32b8e9f9a40a4aa3291ac
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: usethis
+Version: 3.0.0
+Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+Imports: cli (>= 3.0.1), clipr (>= 0.3.0), crayon, curl (>= 2.7), desc (>= 1.4.2), fs (>= 1.3.0), gert (>= 1.4.1), gh (>= 1.2.1), glue (>= 1.3.0), jsonlite, lifecycle (>= 1.0.0), purrr, rappdirs,
+        rlang (>= 1.1.0), rprojroot (>= 1.2), rstudioapi, stats, utils, whisker, withr (>= 2.3.0), yaml
+Suggests: covr, knitr, magick, pkgload (>= 1.3.2.1), rmarkdown, roxygen2 (>= 7.1.2), spelling (>= 1.2), styler (>= 1.2.0), testthat (>= 3.1.8)
+License: MIT + file LICENSE
+File: usethis_3.0.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/usethis/releases/download/3.0.0/usethis_3.0.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.0; ; 2024-07-29 16:42:13 UTC; unix
+Filesize: 908163
+SHA256: f090c656e643e5d873d32ac60ac3fa139757f7ac464ad6ae06eaf50f478f53aa
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: uuid
+Version: 1.2-1
+Depends: R (>= 2.9.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: uuid_1.2-1_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/uuid/releases/download/1.2-1/uuid_1.2-1_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-07-29 16:42:14 UTC; unix
+Filesize: 85868
+SHA256: 80f8e9ada5a217a161e5de8481570ed2175583cfa97c19f34207ea684583c427
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: checkmate
+Version: 2.3.2
+Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
+Imports: backports (>= 1.1.0), utils
+Suggests: R6, fastmatch, data.table (>= 1.9.8), devtools, ggplot2, knitr, magrittr, microbenchmark, rmarkdown, testthat (>= 3.0.4), tinytest (>= 1.1.0), tibble
+License: BSD_3_clause + file LICENSE
+File: checkmate_2.3.2_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/checkmate/releases/download/2.3.2/checkmate_2.3.2_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-07-29 16:42:13 UTC; unix
+Filesize: 817395
+SHA256: c05816e2f7eedb0428e98382a95e28f3401ea54b497b50b990935736002dbf0c
 RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
