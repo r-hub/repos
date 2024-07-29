@@ -1,0 +1,2044 @@
+Package: DBI
+Version: 1.2.3
+Depends: methods, R (>= 3.0.0), R (>= 4.1), R (< 4.1.99)
+Suggests: arrow, blob, covr, DBItest, dbplyr, downlit, dplyr, glue, hms, knitr, magrittr, nanoarrow (>= 0.3.0.1), RMariaDB, rmarkdown, rprojroot, RSQLite (>= 1.1-2), testthat (>= 3.0.0), vctrs, xml2
+License: LGPL (>= 2.1)
+File: DBI_1.2.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/DBI/releases/download/1.2.3/DBI_1.2.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-28 13:15:43 UTC; unix
+Filesize: 890240
+SHA256: 17b3c7a9d186073e51111cb453a28bdf41b72562492e2cb06cc78e13b27e3186
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: R6
+Version: 2.5.1
+Depends: R (>= 3.0), R (>= 4.1), R (< 4.1.99)
+Suggests: testthat, pryr
+License: MIT + file LICENSE
+File: R6_2.5.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/R6/releases/download/2.5.1/R6_2.5.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-28 12:29:29 UTC; unix
+Filesize: 82845
+SHA256: 1d0af25afdf8f5322e3f6e33b9b00fa99c2fb10166581c725b2d3e26195bb208
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: RColorBrewer
+Version: 1.1-3
+Depends: R (>= 2.0.0), R (>= 4.1), R (< 4.1.99)
+License: Apache License 2.0
+File: RColorBrewer_1.1-3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/RColorBrewer/releases/download/1.1-3/RColorBrewer_1.1-3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 07:49:59 UTC; unix
+Filesize: 53490
+SHA256: 4a5d58b5d120af6521433ba4b6ab994147906770e496ecc26efe0ea84724983b
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: Rcpp
+Version: 1.0.13
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
+License: GPL (>= 2)
+File: Rcpp_1.0.13_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/Rcpp/releases/download/1.0.13/Rcpp_1.0.13_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 13:18:07 UTC; unix
+Filesize: 2150526
+SHA256: aa7cc2436f014f189ce588360b2d6b500ae90d355ccf6a065a465a60ceb5ddd5
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: methods, utils
+OS: linux
+Arch: s390x
+
+Package: arrow
+Version: 16.1.0
+Depends: R (>= 4.0), R (>= 4.1), R (< 4.1.99)
+Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
+        tibble, tzdb, withr
+License: Apache License (>= 2.0)
+File: arrow_16.1.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/arrow/releases/download/16.1.0/arrow_16.1.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 20:24:12 UTC; unix
+Filesize: 15061555
+SHA256: 694dad1af8c56c45871706d88f17a5eb3ba1d1c1dcba9631fe266d26fae3798c
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+OS: linux
+Arch: s390x
+LinkingTo: cpp11 (>= 0.4.2)
+SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
+
+Package: askpass
+Version: 1.2.0
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: testthat
+License: MIT + file LICENSE
+File: askpass_1.2.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/askpass/releases/download/1.2.0/askpass_1.2.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 08:24:42 UTC; unix
+Filesize: 22376
+SHA256: fb543d9e29f6ff9f264620a855214f96950bc38546e4e4e07aa263f4afa740ea
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: sys (>= 2.1)
+OS: linux
+Arch: s390x
+
+Package: assertthat
+Version: 0.2.1
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: testthat, covr
+License: GPL-3
+File: assertthat_0.2.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/assertthat/releases/download/0.2.1/assertthat_0.2.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-28 13:46:44 UTC; unix
+Filesize: 53806
+SHA256: 51b9c0056dcf226ff1fa3b4eb502ce38c10aad3df88f0e28552d99d6bbf94b42
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: tools
+
+Package: backports
+Version: 1.5.0
+Depends: R (>= 3.0.0), R (>= 4.1), R (< 4.1.99)
+License: GPL-2 | GPL-3
+File: backports_1.5.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/backports/releases/download/1.5.0/backports_1.5.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 07:37:35 UTC; unix
+Filesize: 115648
+SHA256: e93fa442e19481a70ecc861154fb15931113843d121c6db28628c2442058bdfa
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+OS: linux
+Arch: s390x
+
+Package: base64enc
+Version: 0.1-3
+Depends: R (>= 2.9.0), R (>= 4.1), R (< 4.1.99)
+License: GPL-2 | GPL-3
+File: base64enc_0.1-3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/base64enc/releases/download/0.1-3/base64enc_0.1-3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 07:37:32 UTC; unix
+Filesize: 27124
+SHA256: 75268a85ab74a694f5c1139e8d817ea36e0875074ce95beee3e9ecf439ae48e1
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+OS: linux
+Arch: s390x
+Enhances: png
+
+Package: bit
+Version: 4.0.5
+Depends: R (>= 2.9.2), R (>= 4.1), R (< 4.1.99)
+Suggests: testthat (>= 0.11.0), roxygen2, knitr, rmarkdown, microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)
+License: GPL-2 | GPL-3
+File: bit_4.0.5_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/bit/releases/download/4.0.5/bit_4.0.5_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 13:15:21 UTC; unix
+Filesize: 1142934
+SHA256: 4c119bd0bb4364b1056dd4f966eb8f95e19984e0706ed5749c4eae4f463f6db7
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+OS: linux
+Arch: s390x
+
+Package: bit64
+Version: 4.0.5
+Depends: R (>= 3.0.1), bit (>= 4.0.0), utils, methods, stats, R (>= 4.1), R (< 4.1.99)
+License: GPL-2 | GPL-3
+File: bit64_4.0.5_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/bit64/releases/download/4.0.5/bit64_4.0.5_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 13:22:57 UTC; unix
+Filesize: 486305
+SHA256: 24ec548b6947fcc1581033f04fb2e2cc5674c36d0f92cb51afab3e11d8f62064
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+OS: linux
+Arch: s390x
+
+Package: blob
+Version: 1.2.4
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: covr, crayon, pillar (>= 1.2.1), testthat
+License: MIT + file LICENSE
+File: blob_1.2.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/blob/releases/download/1.2.4/blob_1.2.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 07:37:34 UTC; unix
+Filesize: 47257
+SHA256: ff110d57d8f8847418df98e535d5e7ea0545c09b70ccb0a22c2380b338591052
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: methods, rlang, vctrs (>= 0.2.1)
+
+Package: brio
+Version: 1.1.5
+Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: brio_1.1.5_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/brio/releases/download/1.1.5/brio_1.1.5_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 12:22:00 UTC; unix
+Filesize: 35418
+SHA256: 7c9922b3bb776cd7ed8fc0873f3cf625c0aac69008effe533ab6dcc8ce63186e
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+OS: linux
+Arch: s390x
+
+Package: broom
+Version: 1.0.6
+Depends: R (>= 3.5), R (>= 4.1), R (< 4.1.99)
+Suggests: AER, AUC, bbmle, betareg, biglm, binGroup, boot, btergm (>= 1.10.6), car, carData, caret, cluster, cmprsk, coda, covr, drc, e1071, emmeans, epiR, ergm (>= 3.10.4), fixest (>= 0.9.0), gam
+        (>= 1.15), gee, geepack, ggplot2, glmnet, glmnetUtils, gmm, Hmisc, irlba, interp, joineRML, Kendall, knitr, ks, Lahman, lavaan, leaps, lfe, lm.beta, lme4, lmodel2, lmtest (>= 0.9.38),
+        lsmeans, maps, MASS, mclust, mediation, metafor, mfx, mgcv, mlogit, modeldata, modeltests (>= 0.1.6), muhaz, multcomp, network, nnet, orcutt (>= 2.2), ordinal, plm, poLCA, psych, quantreg,
+        rmarkdown, robust, robustbase, rsample, sandwich, spdep (>= 1.1), spatialreg, speedglm, spelling, survey, survival (>= 3.6-4), systemfit, testthat (>= 2.1.0), tseries, vars, zoo
+License: MIT + file LICENSE
+File: broom_1.0.6_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/broom/releases/download/1.0.6/broom_1.0.6_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 09:08:45 UTC; unix
+Filesize: 1866003
+SHA256: b1dd0ac910fd07f98ed630796c52de0ec78899c1946687fa05c7ea8a6fb3e589
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: backports, dplyr (>= 1.0.0), generics (>= 0.0.2), glue, lifecycle, purrr, rlang, stringr, tibble (>= 3.0.0), tidyr (>= 1.0.0)
+
+Package: bslib
+Version: 0.7.0
+Depends: R (>= 2.10), R (>= 4.1), R (< 4.1.99)
+Suggests: bsicons, curl, fontawesome, future, ggplot2, knitr, magrittr, rappdirs, rmarkdown (>= 2.7), shiny (>= 1.8.1), testthat, thematic, withr
+License: MIT + file LICENSE
+File: bslib_0.7.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/bslib/releases/download/0.7.0/bslib_0.7.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 09:40:34 UTC; unix
+Filesize: 5311577
+SHA256: b4e0ca1b6727dfb5620870f64fb9efd724bc1071a13f83ed75584f3d06dc882a
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: base64enc, cachem, fastmap (>= 1.1.1), grDevices, htmltools (>= 0.5.8), jquerylib (>= 0.1.3), jsonlite, lifecycle, memoise (>= 2.0.1), mime, rlang, sass (>= 0.4.9)
+
+Package: cachem
+Version: 1.1.0
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: testthat
+License: MIT + file LICENSE
+File: cachem_1.1.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/cachem/releases/download/1.1.0/cachem_1.1.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 08:09:18 UTC; unix
+Filesize: 66911
+SHA256: 12e73e9e4bbc9250ec5afd388e81ed54e0f1369be69d1f8cd7f37c20bf579688
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: rlang, fastmap (>= 1.2.0)
+OS: linux
+Arch: s390x
+
+Package: callr
+Version: 3.7.6
+Depends: R (>= 3.4), R (>= 4.1), R (< 4.1.99)
+Suggests: asciicast (>= 2.3.1), cli (>= 1.1.0), mockery, ps, rprojroot, spelling, testthat (>= 3.2.0), withr (>= 2.3.0)
+License: MIT + file LICENSE
+File: callr_3.7.6_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/callr/releases/download/3.7.6/callr_3.7.6_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-28 12:41:43 UTC; unix
+Filesize: 439180
+SHA256: cbb1d4faf0e51faf535886010a8f152df276dafc007a362f1faff3fcae94dbae
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: processx (>= 3.6.1), R6, utils
+
+Package: cellranger
+Version: 1.1.0
+Depends: R (>= 3.0.0), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, testthat (>= 1.0.0), knitr, rmarkdown
+License: MIT + file LICENSE
+File: cellranger_1.1.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/cellranger/releases/download/1.1.0/cellranger_1.1.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 08:16:04 UTC; unix
+Filesize: 103122
+SHA256: 5dac01d534f36f6a1670a55c77a3253b0ea3b21ad50e9a94924265b30faa2913
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: rematch, tibble
+
+Package: cli
+Version: 3.6.3
+Depends: R (>= 3.4), R (>= 4.1), R (< 4.1.99)
+Suggests: callr, covr, crayon, digest, glue (>= 1.6.0), grDevices, htmltools, htmlwidgets, knitr, methods, mockery, processx, ps (>= 1.3.4.9000), rlang (>= 1.0.2.9003), rmarkdown, rprojroot,
+        rstudioapi, testthat, tibble, whoami, withr
+License: MIT + file LICENSE
+File: cli_3.6.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/cli/releases/download/3.6.3/cli_3.6.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 12:22:17 UTC; unix
+Filesize: 1293033
+SHA256: a7bfc6263192dbfa3d74f1ddaed4f11cf42072e5a6769408d4aefeae8e5ce252
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: utils
+OS: linux
+Arch: s390x
+
+Package: clipr
+Version: 0.8.0
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: covr, knitr, rmarkdown, rstudioapi (>= 0.5), testthat (>= 2.0.0)
+License: GPL-3
+File: clipr_0.8.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/clipr/releases/download/0.8.0/clipr_0.8.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 07:37:35 UTC; unix
+Filesize: 51482
+SHA256: ca334275a5f4baa378788b803abc4ace6bb1744c1a3edd292c5d943926ef9d11
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: utils
+SystemRequirements: xclip (https://github.com/astrand/xclip) or xsel (http://www.vergenet.net/~conrad/software/xsel/) for accessing the X11 clipboard, or wl-clipboard
+        (https://github.com/bugaevc/wl-clipboard) for systems using Wayland.
+
+Package: colorspace
+Version: 2.1-1
+Depends: R (>= 3.0.0), methods, R (>= 4.1), R (< 4.1.99)
+Suggests: datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd, tcltk, shiny, shinyjs, ggplot2, dplyr, scales, grid, png, jpeg, knitr, rmarkdown, RColorBrewer, rcartocolor, scico, viridis,
+        wesanderson
+License: BSD_3_clause + file LICENSE
+File: colorspace_2.1-1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/colorspace/releases/download/2.1-1/colorspace_2.1-1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 07:38:38 UTC; unix
+Filesize: 2623797
+SHA256: 72850a8db2cf2885208d54a65e111b12ce474df5a2b5fa7a0c6967c4c296d804
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: graphics, grDevices, stats
+OS: linux
+Arch: s390x
+
+Package: commonmark
+Version: 1.9.1
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: curl, testthat, xml2
+License: BSD_2_clause + file LICENSE
+File: commonmark_1.9.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/commonmark/releases/download/1.9.1/commonmark_1.9.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 13:15:25 UTC; unix
+Filesize: 153374
+SHA256: a972a4365893272ef62524d287284762465add9ee7593cc1811de7f281b9b1b6
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+OS: linux
+Arch: s390x
+
+Package: conflicted
+Version: 1.2.0
+Depends: R (>= 3.2), R (>= 4.1), R (< 4.1.99)
+Suggests: callr, covr, dplyr, Matrix, methods, pkgload, testthat (>= 3.0.0), withr
+License: MIT + file LICENSE
+File: conflicted_1.2.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/conflicted/releases/download/1.2.0/conflicted_1.2.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 08:14:15 UTC; unix
+Filesize: 55935
+SHA256: 975da0a175e236a812fc9066105c356376650940ddb9d917b19df1f2c0e7952e
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli (>= 3.4.0), memoise, rlang (>= 1.0.0)
+
+Package: cpp11
+Version: 0.4.7
+Depends: R (>= 3.5.0), R (>= 4.1), R (< 4.1.99)
+Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue, knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp, testthat (>= 3.2.0), tibble, utils, vctrs, withr
+License: MIT + file LICENSE
+File: cpp11_0.4.7_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/cpp11/releases/download/0.4.7/cpp11_0.4.7_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-28 13:48:50 UTC; unix
+Filesize: 281202
+SHA256: 5f16f31415beb69fdd2ee81ad18310e6a507799ea717782f0145023e3e097701
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: crayon
+Version: 1.5.3
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: mockery, rstudioapi, testthat, withr
+License: MIT + file LICENSE
+File: crayon_1.5.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/crayon/releases/download/1.5.3/crayon_1.5.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-28 12:22:09 UTC; unix
+Filesize: 164285
+SHA256: 8a855437b63401f13e1c5ff19203d686366b94f498368421d386043591fb5483
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: grDevices, methods, utils
+
+Package: curl
+Version: 5.2.1
+Depends: R (>= 3.0.0), R (>= 4.1), R (< 4.1.99)
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+License: MIT + file LICENSE
+File: curl_5.2.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/curl/releases/download/5.2.1/curl_5.2.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 07:38:56 UTC; unix
+Filesize: 767451
+SHA256: e71fc780cc7d7e2a0b18ebbdc58c5384cdc3b62fbe53026ef544d81e0fe4738e
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+OS: linux
+Arch: s390x
+SystemRequirements: libcurl: libcurl-devel (rpm) or libcurl4-openssl-dev (deb).
+
+Package: data.table
+Version: 1.15.4
+Depends: R (>= 3.1.0), R (>= 4.1), R (< 4.1.99)
+Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
+License: MPL-2.0 | file LICENSE
+File: data.table_1.15.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/data.table/releases/download/1.15.4/data.table_1.15.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 07:39:44 UTC; unix
+Filesize: 2206736
+SHA256: ac6678865d22772b3c5a537c76f7ce4e0d97b70fcf51c66ad3599f075cd18816
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: methods
+OS: linux
+Arch: s390x
+
+Package: dbplyr
+Version: 2.5.0
+Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
+Suggests: bit64, covr, knitr, Lahman, nycflights13, odbc (>= 1.4.2), RMariaDB (>= 1.2.2), rmarkdown, RPostgres (>= 1.4.5), RPostgreSQL, RSQLite (>= 2.3.1), testthat (>= 3.1.10)
+License: MIT + file LICENSE
+File: dbplyr_2.5.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/dbplyr/releases/download/2.5.0/dbplyr_2.5.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 09:14:33 UTC; unix
+Filesize: 1232940
+SHA256: 4adbdbd5a4a43017e656608fa4d2440e308622377b32cfd5f5ac041249de9afe
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: blob (>= 1.2.0), cli (>= 3.6.1), DBI (>= 1.1.3), dplyr (>= 1.1.2), glue (>= 1.6.2), lifecycle (>= 1.0.3), magrittr, methods, pillar (>= 1.9.0), purrr (>= 1.0.1), R6 (>= 2.2.2), rlang (>=
+        1.1.1), tibble (>= 3.2.1), tidyr (>= 1.3.0), tidyselect (>= 1.2.1), utils, vctrs (>= 0.6.3), withr (>= 2.5.0)
+
+Package: desc
+Version: 1.4.3
+Depends: R (>= 3.4), R (>= 4.1), R (< 4.1.99)
+Suggests: callr, covr, gh, spelling, testthat, whoami, withr
+License: MIT + file LICENSE
+File: desc_1.4.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/desc/releases/download/1.4.3/desc_1.4.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-28 12:36:01 UTC; unix
+Filesize: 332306
+SHA256: 9fd9f8229fb9e1388be9e5ecb1ee7733dc4c0eb217416e89b873a159814f773e
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli, R6, utils
+
+Package: diffobj
+Version: 0.3.5
+Depends: R (>= 3.1.0), R (>= 4.1), R (< 4.1.99)
+Suggests: knitr, rmarkdown
+License: GPL-2 | GPL-3
+File: diffobj_0.3.5_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/diffobj/releases/download/0.3.5/diffobj_0.3.5_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 12:34:15 UTC; unix
+Filesize: 998075
+SHA256: d86958943e1b9fe4b61c06a106fe29ea9293b20fa3b3881f804fad6de5ca353a
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: crayon (>= 1.3.2), tools, methods, utils, stats
+OS: linux
+Arch: s390x
+
+Package: digest
+Version: 0.6.36
+Depends: R (>= 3.3.0), R (>= 4.1), R (< 4.1.99)
+Suggests: tinytest, simplermarkdown
+License: GPL (>= 2)
+File: digest_0.6.36_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/digest/releases/download/0.6.36/digest_0.6.36_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 12:22:12 UTC; unix
+Filesize: 222894
+SHA256: dee1e229935582ff185b17fbd404fb89cffac04f397f606e5209c4424fc97e87
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: utils
+OS: linux
+Arch: s390x
+
+Package: dplyr
+Version: 1.1.4
+Depends: R (>= 3.5.0), R (>= 4.1), R (< 4.1.99)
+Suggests: bench, broom, callr, covr, DBI, dbplyr (>= 2.2.1), ggplot2, knitr, Lahman, lobstr, microbenchmark, nycflights13, purrr, rmarkdown, RMySQL, RPostgreSQL, RSQLite, stringi (>= 1.7.6), testthat
+        (>= 3.1.5), tidyr (>= 1.3.0), withr
+License: MIT + file LICENSE
+File: dplyr_1.1.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/dplyr/releases/download/1.1.4/dplyr_1.1.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 08:12:38 UTC; unix
+Filesize: 1490500
+SHA256: 2e5fe13cb959154e62256178a78e6b60a79bf709d5ccfbf9e2586042ae220179
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli (>= 3.4.0), generics, glue (>= 1.3.2), lifecycle (>= 1.0.3), magrittr (>= 1.5), methods, pillar (>= 1.9.0), R6, rlang (>= 1.1.0), tibble (>= 3.2.0), tidyselect (>= 1.2.0), utils, vctrs
+        (>= 0.6.4)
+OS: linux
+Arch: s390x
+
+Package: dtplyr
+Version: 1.3.1
+Depends: R (>= 3.3), R (>= 4.1), R (< 4.1.99)
+Suggests: bench, covr, knitr, rmarkdown, testthat (>= 3.1.2), tidyr (>= 1.1.0), waldo (>= 0.3.1)
+License: MIT + file LICENSE
+File: dtplyr_1.3.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/dtplyr/releases/download/1.3.1/dtplyr_1.3.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 08:21:51 UTC; unix
+Filesize: 356452
+SHA256: 680a1000d60154e24b3e208d599ace9d8b6f42aee031b390c3a37c5a3288e0c5
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli (>= 3.4.0), data.table (>= 1.13.0), dplyr (>= 1.1.0), glue, lifecycle, rlang (>= 1.0.4), tibble, tidyselect (>= 1.2.0), vctrs (>= 0.4.1)
+
+Package: duckdb
+Version: 1.0.0-2
+Depends: DBI, R (>= 3.6.0), R (>= 4.1), R (< 4.1.99)
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+License: MIT + file LICENSE
+File: duckdb_1.0.0-2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.0.0-2/duckdb_1.0.0-2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 13:52:37 UTC; unix
+Filesize: 12579637
+SHA256: 1599f109b455d9de50c44e374e007d7557eed0795cdc19e9d4c63e990bb7fb50
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: methods, utils
+OS: linux
+Arch: s390x
+
+Package: evaluate
+Version: 0.24.0
+Depends: R (>= 4.0.0), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, ggplot2, lattice, rlang, testthat (>= 3.0.0), withr
+License: MIT + file LICENSE
+File: evaluate_0.24.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/evaluate/releases/download/0.24.0/evaluate_0.24.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-28 12:23:14 UTC; unix
+Filesize: 84220
+SHA256: 0e5d41e6d2e42ba0b749eb7d9eb36270c4743d5db9f05cbcdd6fe5eaaf867533
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: methods
+
+Package: fansi
+Version: 1.0.6
+Depends: R (>= 3.1.0), R (>= 4.1), R (< 4.1.99)
+Suggests: unitizer, knitr, rmarkdown
+License: GPL-2 | GPL-3
+File: fansi_1.0.6_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/fansi/releases/download/1.0.6/fansi_1.0.6_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 12:23:22 UTC; unix
+Filesize: 307417
+SHA256: 55fd10d7aaf6e5feec57185022bd83c715a210455f476ddb0073aea3281d55e1
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: grDevices, utils
+OS: linux
+Arch: s390x
+
+Package: farver
+Version: 2.1.2
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: covr, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: farver_2.1.2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/farver/releases/download/2.1.2/farver_2.1.2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 07:39:03 UTC; unix
+Filesize: 1469680
+SHA256: 4d832a75610bf97ceb5500a5a246e993410178edaaa35f2682622de2df0e861a
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+OS: linux
+Arch: s390x
+
+Package: fastmap
+Version: 1.2.0
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: testthat (>= 2.1.1)
+License: MIT + file LICENSE
+File: fastmap_1.2.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/fastmap/releases/download/1.2.0/fastmap_1.2.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 07:42:34 UTC; unix
+Filesize: 64452
+SHA256: 6e1e17f25a55c7267f4921699d44c1010dae134fa688ae87c61baf2be60f4e16
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+OS: linux
+Arch: s390x
+
+Package: fontawesome
+Version: 0.5.2
+Depends: R (>= 3.3.0), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, dplyr (>= 1.0.8), knitr (>= 1.31), testthat (>= 3.0.0), rsvg
+License: MIT + file LICENSE
+File: fontawesome_0.5.2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/fontawesome/releases/download/0.5.2/fontawesome_0.5.2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 08:12:37 UTC; unix
+Filesize: 1366185
+SHA256: a4ae4404c7cd669201f2516815d74e688e5ae1cb7719815b5f0fc8799b97847e
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: rlang (>= 1.0.6), htmltools (>= 0.5.1.1)
+
+Package: forcats
+Version: 1.0.0
+Depends: R (>= 3.4), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, dplyr, ggplot2, knitr, readr, rmarkdown, testthat (>= 3.0.0), withr
+License: MIT + file LICENSE
+File: forcats_1.0.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/forcats/releases/download/1.0.0/forcats_1.0.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 07:43:18 UTC; unix
+Filesize: 425153
+SHA256: ff3585033cff48570e2cf583e94862906fa7c61d1e8808eeeba761b7ec5a3c7a
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli (>= 3.4.0), glue, lifecycle, magrittr, rlang (>= 1.0.0), tibble
+
+Package: fs
+Version: 1.6.4
+Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr
+License: MIT + file LICENSE
+File: fs_1.6.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/fs/releases/download/1.6.4/fs_1.6.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 12:24:26 UTC; unix
+Filesize: 312558
+SHA256: 07b2c489117c23cf2e3c5a5cf6570dfe0cdeed2ab3a8e8b28ca6dc2937581314
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: methods
+OS: linux
+Arch: s390x
+SystemRequirements: GNU make
+
+Package: gargle
+Version: 1.5.2
+Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
+Suggests: aws.ec2metadata, aws.signature, covr, httpuv, knitr, rmarkdown, sodium, spelling, testthat (>= 3.1.7)
+License: MIT + file LICENSE
+File: gargle_1.5.2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/gargle/releases/download/1.5.2/gargle_1.5.2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 08:36:06 UTC; unix
+Filesize: 763734
+SHA256: a58778e1dce863757a9f6576d806af852dc47698bdea9ba469af390ada08361a
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli (>= 3.0.1), fs (>= 1.3.1), glue (>= 1.3.0), httr (>= 1.4.5), jsonlite, lifecycle, openssl, rappdirs, rlang (>= 1.1.0), stats, utils, withr
+
+Package: generics
+Version: 0.1.3
+Depends: R (>= 3.2), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, pkgload, testthat (>= 3.0.0), tibble, withr
+License: MIT + file LICENSE
+File: generics_0.1.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/generics/releases/download/0.1.3/generics_0.1.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 07:44:49 UTC; unix
+Filesize: 79399
+SHA256: da2e6b44793eea0de5b88a4e22aeb62efdb9a0682331bae2b32c0c2d1f6670b4
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: methods
+
+Package: ggplot2
+Version: 3.5.1
+Depends: R (>= 3.5), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, mapproj, maps, multcomp, munsell, nlme, profvis, quantreg, ragg (>= 1.2.6), RColorBrewer, rmarkdown, rpart, sf (>= 0.7-3), svglite (>=
+        2.1.2), testthat (>= 3.1.2), vdiffr (>= 1.0.6), xml2
+License: MIT + file LICENSE
+File: ggplot2_3.5.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/ggplot2/releases/download/3.5.1/ggplot2_3.5.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 09:36:28 UTC; unix
+Filesize: 4965154
+SHA256: 92f26815c3d7b9ce479987b2c3253c7864e95c59cd87dbd55306d951af245d6c
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli, glue, grDevices, grid, gtable (>= 0.1.1), isoband, lifecycle (> 1.0.1), MASS, mgcv, rlang (>= 1.1.0), scales (>= 1.3.0), stats, tibble, vctrs (>= 0.6.0), withr (>= 2.5.0)
+Enhances: sp
+
+Package: glue
+Version: 1.7.0
+Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
+Suggests: crayon, DBI (>= 1.2.0), dplyr, knitr, magrittr, rlang, rmarkdown, RSQLite, testthat (>= 3.2.0), vctrs (>= 0.3.0), waldo (>= 0.3.0), withr
+License: MIT + file LICENSE
+File: glue_1.7.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/glue/releases/download/1.7.0/glue_1.7.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 12:26:31 UTC; unix
+Filesize: 151945
+SHA256: dd372018e5fb609b337f3685ce1f498d495315aa73e06dbf22070dc744a50717
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: methods
+OS: linux
+Arch: s390x
+
+Package: googledrive
+Version: 2.1.1
+Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
+Suggests: curl, dplyr (>= 1.0.0), knitr, mockr, rmarkdown, spelling, testthat (>= 3.1.3)
+License: MIT + file LICENSE
+File: googledrive_2.1.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/googledrive/releases/download/2.1.1/googledrive_2.1.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 09:25:39 UTC; unix
+Filesize: 1893358
+SHA256: d907df6c77f714487fce176e7f55f688e1ba14c07492ebcbe5647fe5360dee80
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli (>= 3.0.0), gargle (>= 1.5.0), glue (>= 1.4.2), httr, jsonlite, lifecycle, magrittr, pillar (>= 1.9.0), purrr (>= 1.0.1), rlang (>= 1.0.2), tibble (>= 2.0.0), utils, uuid, vctrs (>=
+        0.3.0), withr
+
+Package: googlesheets4
+Version: 1.1.1
+Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
+Suggests: readr, rmarkdown, spelling, testthat (>= 3.1.7)
+License: MIT + file LICENSE
+File: googlesheets4_1.1.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/googlesheets4/releases/download/1.1.1/googlesheets4_1.1.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 09:29:22 UTC; unix
+Filesize: 509189
+SHA256: 02692fb9be82ca54c3d3a9e222625c0ab17550c4e223dee78f199a62f1165658
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cellranger, cli (>= 3.0.0), curl, gargle (>= 1.5.0), glue (>= 1.3.0), googledrive (>= 2.1.0), httr, ids, lifecycle, magrittr, methods, purrr, rematch2, rlang (>= 1.0.2), tibble (>= 2.1.1),
+        utils, vctrs (>= 0.2.3), withr
+
+Package: gtable
+Version: 0.3.5
+Depends: R (>= 3.5), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, ggplot2, knitr, profvis, rmarkdown, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: gtable_0.3.5_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/gtable/releases/download/0.3.5/gtable_0.3.5_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 07:44:53 UTC; unix
+Filesize: 217771
+SHA256: d3d00979ce167529f48677386a337374c6989bd87a3440575ffa392dbcb4773c
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli, glue, grid, lifecycle, rlang (>= 1.1.0)
+
+Package: haven
+Version: 2.5.4
+Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, crayon, fs, knitr, pillar (>= 1.4.0), rmarkdown, testthat (>= 3.0.0), utf8
+License: MIT + file LICENSE
+File: haven_2.5.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/haven/releases/download/2.5.4/haven_2.5.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 09:58:13 UTC; unix
+Filesize: 387717
+SHA256: 63a9d3046f255595ba011cba2dd37d482e6f56502772e268c820282df5e38296
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli (>= 3.0.0), forcats (>= 0.2.0), hms, lifecycle, methods, readr (>= 0.1.0), rlang (>= 0.4.0), tibble, tidyselect, vctrs (>= 0.3.0)
+OS: linux
+Arch: s390x
+LinkingTo: cpp11
+SystemRequirements: GNU make, zlib: zlib1g-dev (deb), zlib-devel (rpm)
+
+Package: highr
+Version: 0.11
+Depends: R (>= 3.3.0), R (>= 4.1), R (< 4.1.99)
+Suggests: knitr, markdown, testit
+License: GPL
+File: highr_0.11_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/highr/releases/download/0.11/highr_0.11_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-28 13:23:56 UTC; unix
+Filesize: 37963
+SHA256: 91260e6c491f41e122b71ced5127623159fe5961bc64d4372bffbfde838f638c
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: xfun (>= 0.18)
+
+Package: hms
+Version: 1.1.3
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: crayon, lubridate, pillar (>= 1.1.0), testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: hms_1.1.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/hms/releases/download/1.1.3/hms_1.1.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-28 13:15:34 UTC; unix
+Filesize: 98481
+SHA256: 60150c109da9826fe9c197787fdf65188fce0bcfc855adffc5073c281d1e7932
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: lifecycle, methods, pkgconfig, rlang (>= 1.0.2), vctrs (>= 0.3.8)
+
+Package: htmltools
+Version: 0.5.8.1
+Depends: R (>= 2.14.1), R (>= 4.1), R (< 4.1.99)
+Suggests: Cairo, markdown, ragg, shiny, testthat, withr
+License: GPL (>= 2)
+File: htmltools_0.5.8.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/htmltools/releases/download/0.5.8.1/htmltools_0.5.8.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 08:09:26 UTC; unix
+Filesize: 354497
+SHA256: 96a4d5373a108320533de0dbc64facaa4a6671014ca7c80d293ce7e9016cab4b
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: base64enc, digest, fastmap (>= 1.1.0), grDevices, rlang (>= 1.0.0), utils
+OS: linux
+Arch: s390x
+Enhances: knitr
+
+Package: httr
+Version: 1.4.7
+Depends: R (>= 3.5), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, httpuv, jpeg, knitr, png, readr, rmarkdown, testthat (>= 0.8.0), xml2
+License: MIT + file LICENSE
+File: httr_1.4.7_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/httr/releases/download/1.4.7/httr_1.4.7_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 08:32:34 UTC; unix
+Filesize: 477923
+SHA256: 54d134adfe6a6ab6960259fcd7065224e645ff480211fcc2eb86963ab02ef0a2
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: curl (>= 5.0.2), jsonlite, mime, openssl (>= 0.8), R6
+
+Package: hunspell
+Version: 3.0.3
+Depends: R (>= 3.0.2), R (>= 4.1), R (< 4.1.99)
+Suggests: spelling, testthat, pdftools, janeaustenr, wordcloud2, knitr, stopwords, rmarkdown
+License: GPL-2 | LGPL-2.1 | MPL-1.1
+File: hunspell_3.0.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/hunspell/releases/download/3.0.3/hunspell_3.0.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 13:28:34 UTC; unix
+Filesize: 1179949
+SHA256: 1e293e3a95fb2c9d41a2196db3ada126cce6622a1e69d2f9954e91ffc4b08ead
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: Rcpp, digest
+OS: linux
+Arch: s390x
+LinkingTo: Rcpp (>= 0.12.12)
+
+Package: ids
+Version: 1.0.1
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: knitr, rcorpora, rmarkdown, testthat
+License: MIT + file LICENSE
+File: ids_1.0.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/ids/releases/download/1.0.1/ids_1.0.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 09:28:13 UTC; unix
+Filesize: 121226
+SHA256: 71a34cf4ed354d890d7b7660a22043c8afdcf9153a5425d79aa9f1bdab7986d7
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: openssl, uuid
+
+Package: isoband
+Version: 0.2.7
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: covr, ggplot2, knitr, magick, microbenchmark, rmarkdown, sf, testthat, xml2
+License: MIT + file LICENSE
+File: isoband_0.2.7_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/isoband/releases/download/0.2.7/isoband_0.2.7_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 07:45:54 UTC; unix
+Filesize: 1645201
+SHA256: afb51be4a289da03289b83a5cc1baf5a5569e294368a4a09c4fcd3e65fd5277d
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: grid, utils
+OS: linux
+Arch: s390x
+SystemRequirements: C++11
+
+Package: jquerylib
+Version: 0.1.4
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: testthat
+License: MIT + file LICENSE
+File: jquerylib_0.1.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/jquerylib/releases/download/0.1.4/jquerylib_0.1.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 08:12:48 UTC; unix
+Filesize: 526986
+SHA256: d0d19ffd56c5e3a697bf5c4ac09e34e6464f292d75da7275d450d2569da8269f
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: htmltools
+
+Package: jsonlite
+Version: 1.8.8
+Depends: methods, R (>= 4.1), R (< 4.1.99)
+Suggests: httr, vctrs, testthat, knitr, rmarkdown, R.rsp, sf
+License: MIT + file LICENSE
+File: jsonlite_1.8.8_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/jsonlite/releases/download/1.8.8/jsonlite_1.8.8_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 12:26:55 UTC; unix
+Filesize: 1090347
+SHA256: 20ce2ec2e31a8a7fa1c126039e4aa0245d760bebaf76b70d2a4012dd4d05b51a
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+OS: linux
+Arch: s390x
+
+Package: knitr
+Version: 1.48
+Depends: R (>= 3.3.0), R (>= 4.1), R (< 4.1.99)
+Suggests: bslib, codetools, DBI (>= 0.4-1), digest, formatR, gifski, gridSVG, htmlwidgets (>= 0.7), jpeg, JuliaCall (>= 0.11.1), magick, markdown (>= 1.3), png, ragg, reticulate (>= 1.4), rgl (>=
+        0.95.1201), rlang, rmarkdown, sass, showtext, styler (>= 1.2.0), targets (>= 0.6.0), testit, tibble, tikzDevice (>= 0.10), tinytex (>= 0.46), webshot, rstudioapi, svglite
+License: GPL
+File: knitr_1.48_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/knitr/releases/download/1.48/knitr_1.48_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-28 13:24:47 UTC; unix
+Filesize: 1160756
+SHA256: a600140398220f5c92889646646c6264b2a8bbc0b75210b400ced24b202b9423
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: evaluate (>= 0.15), highr (>= 0.11), methods, tools, xfun (>= 0.44), yaml (>= 2.1.19)
+SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
+
+Package: labeling
+Version: 0.4.3
+Depends: R (>= 4.1), R (< 4.1.99)
+License: MIT + file LICENSE | Unlimited
+File: labeling_0.4.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/labeling/releases/download/0.4.3/labeling_0.4.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 07:46:18 UTC; unix
+Filesize: 61140
+SHA256: 7d7e8272bafd8267a48701737ba6446bfffc4603e6c53e53b81c92dc021afc10
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: stats, graphics
+
+Package: lifecycle
+Version: 1.0.4
+Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, crayon, knitr, lintr, rmarkdown, testthat (>= 3.0.1), tibble, tidyverse, tools, vctrs, withr
+License: MIT + file LICENSE
+File: lifecycle_1.0.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/lifecycle/releases/download/1.0.4/lifecycle_1.0.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-28 12:38:45 UTC; unix
+Filesize: 125329
+SHA256: b4d958f2cb22ea35c0af4ed8bbaaef8e350bc6d771b37267b6026635c78a7242
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli (>= 3.4.0), glue, rlang (>= 1.1.0)
+
+Package: lubridate
+Version: 1.9.3
+Depends: methods, R (>= 3.2), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, knitr, rmarkdown, testthat (>= 2.1.0), vctrs (>= 0.5.0)
+License: GPL (>= 2)
+File: lubridate_1.9.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/lubridate/releases/download/1.9.3/lubridate_1.9.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 08:40:05 UTC; unix
+Filesize: 975797
+SHA256: 4711d4783268db3e41b7112dbce99709410fe3ce9afde2022e39275bbbb6a9f5
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: generics, timechange (>= 0.1.1)
+OS: linux
+Arch: s390x
+SystemRequirements: C++11, A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
+Enhances: chron, data.table, timeDate, tis, zoo
+
+Package: magrittr
+Version: 2.0.3
+Depends: R (>= 3.4.0), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, knitr, rlang, rmarkdown, testthat
+License: MIT + file LICENSE
+File: magrittr_2.0.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/magrittr/releases/download/2.0.3/magrittr_2.0.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 12:27:44 UTC; unix
+Filesize: 223170
+SHA256: 59fbbc399b14ecea9b652b2bd783b1b1a80252e5f7d7f44b88a72b12b36d39e4
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+OS: linux
+Arch: s390x
+
+Package: memoise
+Version: 2.0.1
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: digest, aws.s3, covr, googleAuthR, googleCloudStorageR, httr, testthat
+License: MIT + file LICENSE
+File: memoise_2.0.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/memoise/releases/download/2.0.1/memoise_2.0.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 08:10:56 UTC; unix
+Filesize: 48792
+SHA256: 30c1ab51f5e5e58cf7fff95290792a6bf2f67761896f81541a0256fcc820d43a
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: rlang (>= 0.4.10), cachem
+
+Package: mime
+Version: 0.12
+Depends: R (>= 4.1), R (< 4.1.99)
+License: GPL
+File: mime_0.12_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/mime/releases/download/0.12/mime_0.12_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 07:47:17 UTC; unix
+Filesize: 33644
+SHA256: db9bd9170cf16ead8626b5e619e30ff1824683f38bd76d813f395235803e13ef
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: tools
+OS: linux
+Arch: s390x
+
+Package: mockery
+Version: 0.4.4
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: knitr, R6, rmarkdown (>= 1.0)
+License: MIT + file LICENSE
+File: mockery_0.4.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/mockery/releases/download/0.4.4/mockery_0.4.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-28 13:16:37 UTC; unix
+Filesize: 42268
+SHA256: 9517c116863217262bd30faddc933e92ed977a6ea0578e249464774ecd24be03
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: testthat
+
+Package: modelr
+Version: 0.1.11
+Depends: R (>= 3.2), R (>= 4.1), R (< 4.1.99)
+Suggests: compiler, covr, ggplot2, testthat (>= 3.0.0)
+License: GPL-3
+File: modelr_0.1.11_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/modelr/releases/download/0.1.11/modelr_0.1.11_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 09:23:39 UTC; unix
+Filesize: 202029
+SHA256: 36db685462c70f05c7d55ac5123db86e00dd2832c5abe888cb148cbf9a34b8d8
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: broom, magrittr, purrr (>= 0.2.2), rlang (>= 1.0.6), tibble, tidyr (>= 0.8.0), tidyselect, vctrs
+
+Package: munsell
+Version: 0.5.1
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: ggplot2, testthat
+License: MIT + file LICENSE
+File: munsell_0.5.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/munsell/releases/download/0.5.1/munsell_0.5.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 08:07:50 UTC; unix
+Filesize: 245345
+SHA256: e7efd673bb9cf23352baacd9b315f3bce9ab03c5d3ca1eb2a3a3d52a9bdecba1
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: colorspace, methods
+
+Package: openssl
+Version: 2.2.0
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
+License: MIT + file LICENSE
+File: openssl_2.2.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/openssl/releases/download/2.2.0/openssl_2.2.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 08:26:20 UTC; unix
+Filesize: 1319281
+SHA256: 08d10350276ec755a65528137ccf38d2f8d9e003d2f61e3fd56bbdc783e399ec
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: askpass
+OS: linux
+Arch: s390x
+SystemRequirements: OpenSSL >= 1.0.2
+
+Package: pak
+Version: 0.7.2
+Depends: R (>= 3.5), R (>= 4.1), R (< 4.1.99)
+Suggests: callr (>= 3.7.0), cli (>= 3.2.0), covr, curl (>= 4.3.2), desc (>= 1.4.1), filelock (>= 1.0.2), gitcreds, glue (>= 1.6.2), jsonlite (>= 1.8.0), mockery, pingr, pkgbuild (>= 1.4.2), pkgcache
+        (>= 2.0.4), pkgdepends (>= 0.5.0.9001), pkgsearch (>= 3.1.0), processx (>= 3.8.1), ps (>= 1.6.0), rstudioapi, testthat (>= 3.2.0), withr
+License: GPL-3
+File: pak_0.7.2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/pak/releases/download/0.7.2/pak_0.7.2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 11:36:51 UTC; unix
+Filesize: 5538359
+SHA256: 1116cfb34c0d243e37d10478cd38f786a131fc846298736a66f610ebc8c654ef
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: tools, utils
+OS: linux
+Arch: s390x
+
+Package: pillar
+Version: 1.9.0
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: bit64, DBI, debugme, DiagrammeR, dplyr, formattable, ggplot2, knitr, lubridate, nanotime, nycflights13, palmerpenguins, rmarkdown, scales, stringi, survival, testthat (>= 3.1.1), tibble,
+        units (>= 0.7.2), vdiffr, withr
+License: MIT + file LICENSE
+File: pillar_1.9.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/pillar/releases/download/1.9.0/pillar_1.9.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-28 12:49:17 UTC; unix
+Filesize: 651837
+SHA256: 5f4c037b71006ec1cc71abe6334d2054a2771b5bd6516b426577f7ed2474bb90
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli (>= 2.3.0), fansi, glue, lifecycle, rlang (>= 1.0.2), utf8 (>= 1.1.0), utils, vctrs (>= 0.5.0)
+
+Package: pkgbuild
+Version: 1.4.4
+Depends: R (>= 3.5), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, cpp11, knitr, mockery, Rcpp, rmarkdown, testthat (>= 3.0.0), withr (>= 2.3.0)
+License: MIT + file LICENSE
+File: pkgbuild_1.4.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/pkgbuild/releases/download/1.4.4/pkgbuild_1.4.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-28 12:43:42 UTC; unix
+Filesize: 202580
+SHA256: 5989d3e65643d80adc100d0df664c7f696cc269b32cba925cd162059c391479e
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: callr (>= 3.2.0), cli (>= 3.4.0), desc, processx, R6
+
+Package: pkgconfig
+Version: 2.0.3
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: covr, testthat, disposables (>= 1.0.3)
+License: MIT + file LICENSE
+File: pkgconfig_2.0.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/pkgconfig/releases/download/2.0.3/pkgconfig_2.0.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-28 12:28:40 UTC; unix
+Filesize: 18030
+SHA256: cd2c935367d9e2efe3360427397162a377a3a133d9844b1750945daa9c6fbd85
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: utils
+
+Package: pkgload
+Version: 1.4.0
+Depends: R (>= 3.4.0), R (>= 4.1), R (< 4.1.99)
+Suggests: bitops, jsonlite, mathjaxr, pak, Rcpp, remotes, rstudioapi, testthat (>= 3.2.1.1), usethis
+License: GPL-3
+File: pkgload_1.4.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/pkgload/releases/download/1.4.0/pkgload_1.4.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-28 12:45:07 UTC; unix
+Filesize: 218693
+SHA256: 98879c3b81c7948655bbf993e25441c264378fc551a0ab3c58f4d455ed992c5b
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli (>= 3.3.0), desc, fs, glue, lifecycle, methods, pkgbuild, processx, rlang (>= 1.1.1), rprojroot, utils, withr (>= 2.4.3)
+
+Package: praise
+Version: 1.0.0
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: testthat
+License: MIT + file LICENSE
+File: praise_1.0.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/praise/releases/download/1.0.0/praise_1.0.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-28 12:28:48 UTC; unix
+Filesize: 16656
+SHA256: 87b907b5c1376f8ad2cf832fe12eb43d2db4f16035540b05b562f072e5e61214
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: prettyunits
+Version: 1.2.0
+Depends: R(>= 2.10), R (>= 4.1), R (< 4.1.99)
+Suggests: codetools, covr, testthat
+License: MIT + file LICENSE
+File: prettyunits_1.2.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/prettyunits/releases/download/1.2.0/prettyunits_1.2.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 07:48:21 UTC; unix
+Filesize: 156263
+SHA256: 1ada4f3266854d32e8131fed8d7cb1f0df15c4adea0acf3bbb2a76fcbfaf38f4
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: processx
+Version: 3.8.4
+Depends: R (>= 3.4.0), R (>= 4.1), R (< 4.1.99)
+Suggests: callr (>= 3.7.3), cli (>= 3.3.0), codetools, covr, curl, debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0), webfakes, withr
+License: MIT + file LICENSE
+File: processx_3.8.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/processx/releases/download/3.8.4/processx_3.8.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 12:37:54 UTC; unix
+Filesize: 359004
+SHA256: aeb739e3ab6d31ef93687299e8a1c6d4ccaebaa68133ce36487af3489657ca09
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: ps (>= 1.2.0), R6, utils
+OS: linux
+Arch: s390x
+
+Package: progress
+Version: 1.2.3
+Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
+Suggests: Rcpp, testthat (>= 3.0.0), withr
+License: MIT + file LICENSE
+File: progress_1.2.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/progress/releases/download/1.2.3/progress_1.2.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 08:14:20 UTC; unix
+Filesize: 86661
+SHA256: ecf68f4143c0fbd0c10c64ad5655a03f3f9a62b5f134c6197654f8a7986adead
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: crayon, hms, prettyunits, R6
+
+Package: ps
+Version: 1.7.7
+Depends: R (>= 3.4), R (>= 4.1), R (< 4.1.99)
+Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes
+License: MIT + file LICENSE
+File: ps_1.7.7_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/ps/releases/download/1.7.7/ps_1.7.7_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 12:29:35 UTC; unix
+Filesize: 326805
+SHA256: be1f1aaa1fa2137ae739321d72f07c0544e0a9943d625ad16dd6cc801a242c3d
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: utils
+OS: linux
+Arch: s390x
+
+Package: purrr
+Version: 1.0.2
+Depends: R (>= 3.5.0), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, dplyr (>= 0.7.8), httr, knitr, lubridate, rmarkdown, testthat (>= 3.0.0), tibble, tidyselect
+License: MIT + file LICENSE
+File: purrr_1.0.2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/purrr/releases/download/1.0.2/purrr_1.0.2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 13:47:09 UTC; unix
+Filesize: 494947
+SHA256: bbd0970c7ac6f52e0e5b32353452a35ad2fce23f94a8f11f677511d5199755c3
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), magrittr (>= 1.5.0), rlang (>= 1.1.1), vctrs (>= 0.6.3)
+OS: linux
+Arch: s390x
+LinkingTo: cli
+
+Package: ragg
+Version: 1.3.2
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: covr, graphics, grid, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: ragg_1.3.2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/ragg/releases/download/1.3.2/ragg_1.3.2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 08:40:47 UTC; unix
+Filesize: 589173
+SHA256: f24bf737bab99310676e91257ee6a8af09b1101ac3e604f14fd322e20bc0291c
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
+OS: linux
+Arch: s390x
+LinkingTo: systemfonts, textshaping
+SystemRequirements: freetype2, libpng, libtiff, libjpeg
+
+Package: rappdirs
+Version: 0.3.3
+Depends: R (>= 3.2), R (>= 4.1), R (< 4.1.99)
+Suggests: roxygen2, testthat (>= 3.0.0), covr, withr
+License: MIT + file LICENSE
+File: rappdirs_0.3.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/rappdirs/releases/download/0.3.3/rappdirs_0.3.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 07:49:26 UTC; unix
+Filesize: 44913
+SHA256: 93976dc48c109740ac8923acd939a43dce44a21b97c375960c71febe00f6c623
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+OS: linux
+Arch: s390x
+
+Package: readr
+Version: 2.1.5
+Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, curl, datasets, knitr, rmarkdown, spelling, stringi, testthat (>= 3.2.0), tzdb (>= 0.1.1), waldo, withr, xml2
+License: MIT + file LICENSE
+File: readr_2.1.5_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/readr/releases/download/2.1.5/readr_2.1.5_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 09:39:07 UTC; unix
+Filesize: 841978
+SHA256: cd8ee6ece7047d294a45d9237718501534e74378d601be7e82ff998def3e8413
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli (>= 3.2.0), clipr, crayon, hms (>= 0.4.1), lifecycle (>= 0.2.0), methods, R6, rlang, tibble, utils, vroom (>= 1.6.0)
+OS: linux
+Arch: s390x
+LinkingTo: cpp11, tzdb (>= 0.1.1)
+
+Package: readxl
+Version: 1.4.3
+Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, knitr, rmarkdown, testthat (>= 3.1.6), withr
+License: MIT + file LICENSE
+File: readxl_1.4.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/readxl/releases/download/1.4.3/readxl_1.4.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 08:17:39 UTC; unix
+Filesize: 865993
+SHA256: 6eff485b30bf140c81c05b9c08316bb4d6be75480d8731b83b882803ee9dd315
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cellranger, tibble (>= 2.0.1), utils
+OS: linux
+Arch: s390x
+LinkingTo: cpp11 (>= 0.4.0), progress
+
+Package: rematch
+Version: 2.0.0
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: covr, testthat
+License: MIT + file LICENSE
+File: rematch_2.0.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/rematch/releases/download/2.0.0/rematch_2.0.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 07:50:24 UTC; unix
+Filesize: 16426
+SHA256: c559c45624ba55069db309e137b8ed62e6b804570c3aa7336a03eb849c9a5ff1
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rematch2
+Version: 2.1.2
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: covr, testthat
+License: MIT + file LICENSE
+File: rematch2_2.1.2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/rematch2/releases/download/2.1.2/rematch2_2.1.2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-28 12:51:16 UTC; unix
+Filesize: 45431
+SHA256: 49c2225ff6a39a4e9c4f1c1c5fc96d31fe9514b756491d48380e5d782e45de60
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: tibble
+
+Package: reprex
+Version: 2.1.1
+Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, fortunes, miniUI, rprojroot, sessioninfo, shiny, spelling, styler (>= 1.2.0), testthat (>= 3.2.1)
+License: MIT + file LICENSE
+File: reprex_2.1.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/reprex/releases/download/2.1.1/reprex_2.1.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 09:48:00 UTC; unix
+Filesize: 494570
+SHA256: 39bcba11eab58f6c311e5a0bb6c3b687059b0717bef296ef418dc5fc0d03a9ad
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: callr (>= 3.6.0), cli (>= 3.2.0), clipr (>= 0.4.0), fs, glue, knitr (>= 1.23), lifecycle, rlang (>= 1.0.0), rmarkdown, rstudioapi, utils, withr (>= 2.3.0)
+SystemRequirements: pandoc (>= 2.0) - https://pandoc.org/
+
+Package: rlang
+Version: 1.1.4
+Depends: R (>= 3.5.0), R (>= 4.1), R (< 4.1.99)
+Suggests: cli (>= 3.1.0), covr, crayon, fs, glue, knitr, magrittr, methods, pillar, rmarkdown, stats, testthat (>= 3.0.0), tibble, usethis, vctrs (>= 0.2.3), withr
+License: MIT + file LICENSE
+File: rlang_1.1.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/rlang/releases/download/1.1.4/rlang_1.1.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 12:30:41 UTC; unix
+Filesize: 1581246
+SHA256: f29263578109d3bd75b3282a9be9ddd9e4b163d60ca24e7cd464858e9378483d
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: utils
+OS: linux
+Arch: s390x
+Enhances: winch
+
+Package: rmarkdown
+Version: 2.27
+Depends: R (>= 3.0), R (>= 4.1), R (< 4.1.99)
+Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>= 3.0.3), tibble, vctrs, cleanrmd, withr (>= 2.4.2), xml2
+License: GPL-3
+File: rmarkdown_2.27_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/rmarkdown/releases/download/2.27/rmarkdown_2.27_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 09:44:16 UTC; unix
+Filesize: 2628720
+SHA256: 8513013cdb518268f48fa034be89f1629ccb01a08fa4df32826322395f2a1a67
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.43), methods, tinytex (>= 0.31), tools, utils, xfun (>= 0.36), yaml (>=
+        2.1.19)
+SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
+
+Package: rprojroot
+Version: 2.0.4
+Depends: R (>= 3.0.0), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, knitr, lifecycle, mockr, rlang, rmarkdown, testthat (>= 3.0.0), withr
+License: MIT + file LICENSE
+File: rprojroot_2.0.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/rprojroot/releases/download/2.0.4/rprojroot_2.0.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-28 12:30:49 UTC; unix
+Filesize: 107101
+SHA256: e81fff2fc7a3e4fe9a83457d68307e46f99fa222524301e9ed9b13db0b7b4a08
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rstudioapi
+Version: 0.16.0
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: testthat, knitr, rmarkdown, clipr, covr
+License: MIT + file LICENSE
+File: rstudioapi_0.16.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/rstudioapi/releases/download/0.16.0/rstudioapi_0.16.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 07:51:08 UTC; unix
+Filesize: 302207
+SHA256: e192865175d6410d766dbe0f3bca5f822e4e533af7fe2c1621a46e8d0b3f6026
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rvest
+Version: 1.0.4
+Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
+Suggests: chromote, covr, knitr, R6, readr, repurrrsive, rmarkdown, spelling, stringi (>= 0.3.1), testthat (>= 3.0.2), webfakes
+License: MIT + file LICENSE
+File: rvest_1.0.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/rvest/releases/download/1.0.4/rvest_1.0.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 09:05:46 UTC; unix
+Filesize: 297991
+SHA256: b61921ab68949514949e4e88c0b24999fba38e3b5fdb8458507b4846fb2b4922
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli, glue, httr (>= 0.5), lifecycle (>= 1.0.3), magrittr, rlang (>= 1.1.0), selectr, tibble, xml2 (>= 1.3)
+
+Package: sass
+Version: 0.4.9
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: testthat, knitr, rmarkdown, withr, shiny, curl
+License: MIT + file LICENSE
+File: sass_0.4.9_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/sass/releases/download/0.4.9/sass_0.4.9_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 08:16:07 UTC; unix
+Filesize: 2481614
+SHA256: 0d11400bca7d536cd5ecfe5fd004312f1a74082e48c681c582cd3edb1e23eb86
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: fs (>= 1.2.4), rlang (>= 0.4.10), htmltools (>= 0.5.1), R6, rappdirs
+OS: linux
+Arch: s390x
+SystemRequirements: GNU make
+
+Package: scales
+Version: 1.3.0
+Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
+Suggests: bit64, covr, dichromat, ggplot2, hms (>= 0.5.0), stringi, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: scales_1.3.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/scales/releases/download/1.3.0/scales_1.3.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 09:32:13 UTC; unix
+Filesize: 701962
+SHA256: ed5737d46163ab7c64b1d290350c506cd7cde3298611e3547555a5d1c68a7e74
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli, farver (>= 2.0.3), glue, labeling, lifecycle, munsell (>= 0.5), R6, RColorBrewer, rlang (>= 1.0.0), viridisLite
+
+Package: selectr
+Version: 0.4-2
+Depends: R (>= 3.0), R (>= 4.1), R (< 4.1.99)
+Suggests: testthat, XML, xml2
+License: BSD_3_clause + file LICENCE
+File: selectr_0.4-2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/selectr/releases/download/0.4-2/selectr_0.4-2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 08:52:53 UTC; unix
+Filesize: 491056
+SHA256: 1120e8a5d536c5a7574e419e80e041c29953ca4e14a3e1b605c846646ef348c0
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: methods, stringr, R6
+
+Package: spelling
+Version: 2.3.0
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: pdftools
+License: MIT + file LICENSE
+File: spelling_2.3.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/spelling/releases/download/2.3.0/spelling_2.3.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-28 13:37:32 UTC; unix
+Filesize: 55030
+SHA256: 55f31894462fe8569e8fb801fa6ba2e524be0869648fca9323b8a0f58be9908a
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: commonmark, xml2, hunspell (>= 3.0), knitr
+
+Package: stringi
+Version: 1.8.4
+Depends: R (>= 3.4), R (>= 4.1), R (< 4.1.99)
+License: file LICENSE
+File: stringi_1.8.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/stringi/releases/download/1.8.4/stringi_1.8.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 07:56:15 UTC; unix
+Filesize: 942621
+SHA256: 4b5eb78665645432fa6a1083000b822bc68e72c8c7bef79577c801981e3cb356
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: tools, utils, stats
+OS: linux
+Arch: s390x
+SystemRequirements: ICU4C (>= 61, optional)
+
+Package: stringr
+Version: 1.5.1
+Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, dplyr, gt, htmltools, htmlwidgets, knitr, rmarkdown, testthat (>= 3.0.0), tibble
+License: MIT + file LICENSE
+File: stringr_1.5.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/stringr/releases/download/1.5.1/stringr_1.5.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 08:51:06 UTC; unix
+Filesize: 307794
+SHA256: 8f88bcb203615d14fdc83521caf7849370c27e383d4e7cb000ec34fc4446ea46
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli, glue (>= 1.6.1), lifecycle (>= 1.0.3), magrittr, rlang (>= 1.0.0), stringi (>= 1.5.3), vctrs (>= 0.4.0)
+
+Package: sys
+Version: 3.4.2
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: unix (>= 1.4), spelling, testthat
+License: MIT + file LICENSE
+File: sys_3.4.2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/sys/releases/download/3.4.2/sys_3.4.2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 07:52:17 UTC; unix
+Filesize: 40883
+SHA256: 25cbdedd5ab969e2b49c40f7cbe469484d8f652e290e0a069e083356063cbb21
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+OS: linux
+Arch: s390x
+
+Package: systemfonts
+Version: 1.1.0
+Depends: R (>= 3.2.0), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, knitr, rmarkdown, testthat (>= 2.1.0), tools
+License: MIT + file LICENSE
+File: systemfonts_1.1.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/systemfonts/releases/download/1.1.0/systemfonts_1.1.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 07:53:32 UTC; unix
+Filesize: 265989
+SHA256: 6d82ed97064e58070d6a112c70e50c70c0184d5d8d82e0dd09c3344d59126de3
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: lifecycle
+OS: linux
+Arch: s390x
+LinkingTo: cpp11 (>= 0.2.1)
+SystemRequirements: fontconfig, freetype2
+
+Package: testthat
+Version: 3.2.1.1
+Depends: R (>= 3.6.0), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, curl (>= 0.9.5), diffviewer (>= 0.1.0), knitr, rmarkdown, rstudioapi, shiny, usethis, vctrs (>= 0.1.0), xml2
+License: MIT + file LICENSE
+File: testthat_3.2.1.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/testthat/releases/download/3.2.1.1/testthat_3.2.1.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 12:52:26 UTC; unix
+Filesize: 1898354
+SHA256: 9240ae46dc0d42b602d821342d699793cf34fa546fa5c0beee285041d8ca21c9
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: brio (>= 1.1.3), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.2), digest (>= 0.6.33), evaluate (>= 0.21), jsonlite (>= 1.8.7), lifecycle (>= 1.0.3), magrittr (>= 2.0.3), methods, pkgload
+        (>= 1.3.2.1), praise (>= 1.0.0), processx (>= 3.8.2), ps (>= 1.7.5), R6 (>= 2.5.1), rlang (>= 1.1.1), utils, waldo (>= 0.5.1), withr (>= 2.5.0)
+OS: linux
+Arch: s390x
+
+Package: textshaping
+Version: 0.4.0
+Depends: R (>= 3.2.0), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, knitr, rmarkdown
+License: MIT + file LICENSE
+File: textshaping_0.4.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/textshaping/releases/download/0.4.0/textshaping_0.4.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 08:30:45 UTC; unix
+Filesize: 122473
+SHA256: dbc1cdefe7ed7278497fef8fb40ea44300a8bb97fe0bc4365fda19e19e77bec2
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: lifecycle, systemfonts (>= 1.1.0)
+OS: linux
+Arch: s390x
+LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
+SystemRequirements: freetype2, harfbuzz, fribidi
+
+Package: tibble
+Version: 3.2.1
+Depends: R (>= 3.4.0), R (>= 4.1), R (< 4.1.99)
+Suggests: bench, bit64, blob, brio, callr, cli, covr, crayon (>= 1.3.4), DiagrammeR, dplyr, evaluate, formattable, ggplot2, here, hms, htmltools, knitr, lubridate, mockr, nycflights13, pkgbuild,
+        pkgload, purrr, rmarkdown, stringi, testthat (>= 3.0.2), tidyr, withr
+License: MIT + file LICENSE
+File: tibble_3.2.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/tibble/releases/download/3.2.1/tibble_3.2.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 12:50:18 UTC; unix
+Filesize: 678273
+SHA256: 7a4f4eaf5d5be9ae7e918819fb0fba84560311012ab478b3f9df5bdeaf291e07
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: fansi (>= 0.4.0), lifecycle (>= 1.0.0), magrittr, methods, pillar (>= 1.8.1), pkgconfig, rlang (>= 1.0.2), utils, vctrs (>= 0.4.2)
+OS: linux
+Arch: s390x
+
+Package: tidyr
+Version: 1.3.1
+Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, data.table, knitr, readr, repurrrsive (>= 1.1.0), rmarkdown, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: tidyr_1.3.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/tidyr/releases/download/1.3.1/tidyr_1.3.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 08:59:05 UTC; unix
+Filesize: 1181293
+SHA256: ea8af0b872afa31740a97f798d2abe1ed639029b39e59d267ed49bb257bc3dbd
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli (>= 3.4.1), dplyr (>= 1.0.10), glue, lifecycle (>= 1.0.3), magrittr, purrr (>= 1.0.1), rlang (>= 1.1.1), stringr (>= 1.5.0), tibble (>= 2.1.1), tidyselect (>= 1.2.0), utils, vctrs (>=
+        0.5.2)
+OS: linux
+Arch: s390x
+LinkingTo: cpp11 (>= 0.4.0)
+
+Package: tidyselect
+Version: 1.2.1
+Depends: R (>= 3.4), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, crayon, dplyr, knitr, magrittr, rmarkdown, stringr, testthat (>= 3.1.1), tibble (>= 2.1.3)
+License: MIT + file LICENSE
+File: tidyselect_1.2.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/tidyselect/releases/download/1.2.1/tidyselect_1.2.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-28 13:48:15 UTC; unix
+Filesize: 226048
+SHA256: 29bb3d67230362f16ee6412bab4959ee4d7f667aff365669401c47f6062efff1
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli (>= 3.3.0), glue (>= 1.3.0), lifecycle (>= 1.0.3), rlang (>= 1.0.4), vctrs (>= 0.5.2), withr
+
+Package: tidyverse
+Version: 2.0.0
+Depends: R (>= 3.3), R (>= 4.1), R (< 4.1.99)
+Suggests: covr (>= 3.6.1), feather (>= 0.3.5), glue (>= 1.6.2), mockr (>= 0.2.0), knitr (>= 1.41), rmarkdown (>= 2.20), testthat (>= 3.1.6)
+License: MIT + file LICENSE
+File: tidyverse_2.0.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/tidyverse/releases/download/2.0.0/tidyverse_2.0.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 10:05:07 UTC; unix
+Filesize: 426288
+SHA256: f27d5d69891317cd2342d4dd0e70de7a19ccc510bca90cfe1e509e670f568cf0
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: broom (>= 1.0.3), conflicted (>= 1.2.0), cli (>= 3.6.0), dbplyr (>= 2.3.0), dplyr (>= 1.1.0), dtplyr (>= 1.2.2), forcats (>= 1.0.0), ggplot2 (>= 3.4.1), googledrive (>= 2.0.0), googlesheets4
+        (>= 1.0.1), haven (>= 2.5.1), hms (>= 1.1.2), httr (>= 1.4.4), jsonlite (>= 1.8.4), lubridate (>= 1.9.2), magrittr (>= 2.0.3), modelr (>= 0.1.10), pillar (>= 1.8.1), purrr (>= 1.0.1), ragg
+        (>= 1.2.5), readr (>= 2.1.4), readxl (>= 1.4.2), reprex (>= 2.0.2), rlang (>= 1.0.6), rstudioapi (>= 0.14), rvest (>= 1.0.3), stringr (>= 1.5.0), tibble (>= 3.1.8), tidyr (>= 1.3.0), xml2 (>=
+        1.3.3)
+
+Package: timechange
+Version: 0.3.0
+Depends: R (>= 3.3), R (>= 4.1), R (< 4.1.99)
+Suggests: testthat (>= 0.7.1.99), knitr
+License: GPL (>= 3)
+File: timechange_0.3.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/timechange/releases/download/0.3.0/timechange_0.3.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 07:53:52 UTC; unix
+Filesize: 178983
+SHA256: deea9fec1703f4a890b5e1973de2e6a37e06c410fb1d1499113b7aeb05c51c65
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+OS: linux
+Arch: s390x
+LinkingTo: cpp11 (>= 0.2.7)
+SystemRequirements: A system with zoneinfo data (e.g.  /usr/share/zoneinfo) as well as a recent-enough C++11 compiler (such as g++-4.8 or later). On Windows the zoneinfo included with R is used.
+
+Package: tinytex
+Version: 0.52
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: testit, rstudioapi
+License: MIT + file LICENSE
+File: tinytex_0.52_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/tinytex/releases/download/0.52/tinytex_0.52_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 07:56:34 UTC; unix
+Filesize: 140803
+SHA256: 390191af93255acee3a78468da46e7717c8435ad219dcfbeb957433754c67380
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: xfun (>= 0.29)
+
+Package: tzdb
+Version: 0.4.0
+Depends: R (>= 3.5.0), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: tzdb_0.4.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/tzdb/releases/download/0.4.0/tzdb_0.4.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 07:57:54 UTC; unix
+Filesize: 644890
+SHA256: 94cee4802cb85c5dc1f3e8b4fa2f2e8ae81cf8292df3bcf675a2291db9a2bc87
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+OS: linux
+Arch: s390x
+LinkingTo: cpp11 (>= 0.4.2)
+
+Package: utf8
+Version: 1.2.4
+Depends: R (>= 2.10), R (>= 4.1), R (< 4.1.99)
+Suggests: cli, covr, knitr, rlang, rmarkdown, testthat (>= 3.0.0), withr
+License: Apache License (== 2.0) | file LICENSE
+File: utf8_1.2.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/utf8/releases/download/1.2.4/utf8_1.2.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 12:31:50 UTC; unix
+Filesize: 152767
+SHA256: 92c23f2123149361c1561e2db8860ca06f323e98149ccb37010dfade2806b86b
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+OS: linux
+Arch: s390x
+
+Package: uuid
+Version: 1.2-0
+Depends: R (>= 2.9.0), R (>= 4.1), R (< 4.1.99)
+License: MIT + file LICENSE
+File: uuid_1.2-0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/uuid/releases/download/1.2-0/uuid_1.2-0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 08:10:03 UTC; unix
+Filesize: 50004
+SHA256: 673131964cd6c86452c3b7a04d7bb63761dd1c952a2df1fb48302c8327674b41
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+OS: linux
+Arch: s390x
+
+Package: vctrs
+Version: 0.6.5
+Depends: R (>= 3.5.0), R (>= 4.1), R (< 4.1.99)
+Suggests: bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr, pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>= 3.0.0), tibble (>= 3.1.3), waldo (>= 0.2.0), withr, xml2, zeallot
+License: MIT + file LICENSE
+File: vctrs_0.6.5_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/vctrs/releases/download/0.6.5/vctrs_0.6.5_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 12:40:06 UTC; unix
+Filesize: 1298674
+SHA256: 633defeef21893186df20d46267baed0dc0b350b27aa93e66c6f9969f9ef83b2
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.0)
+OS: linux
+Arch: s390x
+
+Package: viridisLite
+Version: 0.4.2
+Depends: R (>= 2.10), R (>= 4.1), R (< 4.1.99)
+Suggests: hexbin (>= 1.27.0), ggplot2 (>= 1.0.1), testthat, covr
+License: MIT + file LICENSE
+File: viridisLite_0.4.2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/viridisLite/releases/download/0.4.2/viridisLite_0.4.2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-29 08:06:36 UTC; unix
+Filesize: 1297320
+SHA256: 70a198aa4ac7343de094b3a8aa311ddba1162456f7a505950b69cf12a620eb8a
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: vroom
+Version: 1.6.5
+Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
+Suggests: archive, bench (>= 1.1.0), covr, curl, dplyr, forcats, fs, ggplot2, knitr, patchwork, prettyunits, purrr, rmarkdown, rstudioapi, scales, spelling, testthat (>= 2.1.0), tidyr, utils, waldo,
+        xml2
+License: MIT + file LICENSE
+File: vroom_1.6.5_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/vroom/releases/download/1.6.5/vroom_1.6.5_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 08:45:55 UTC; unix
+Filesize: 951631
+SHA256: cc3c335cd7faab7c4c68fb4cca7ff93804efbc339f1fbf72d971ecacf648a0ae
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: bit64, cli (>= 3.2.0), crayon, glue, hms, lifecycle (>= 1.0.3), methods, rlang (>= 0.4.2), stats, tibble (>= 2.0.0), tidyselect, tzdb (>= 0.1.1), vctrs (>= 0.2.0), withr
+OS: linux
+Arch: s390x
+LinkingTo: cpp11 (>= 0.2.0), progress (>= 1.2.1), tzdb (>= 0.1.1)
+
+Package: waldo
+Version: 0.5.2
+Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, R6, testthat (>= 3.0.0), withr, xml2
+License: MIT + file LICENSE
+File: waldo_0.5.2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/waldo/releases/download/0.5.2/waldo_0.5.2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-28 12:51:45 UTC; unix
+Filesize: 104942
+SHA256: 219dd3aeff887f7f5e4cdeec7d16d4dea85cb2aac4d6ea37cee793b18569adc8
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli, diffobj (>= 0.3.4), fansi, glue, methods, rematch2, rlang (>= 1.0.0), tibble
+
+Package: withr
+Version: 3.0.0
+Depends: R (>= 3.5.0), R (>= 4.1), R (< 4.1.99)
+Suggests: callr, covr, DBI, knitr, lattice, methods, rlang, rmarkdown (>= 2.12), RSQLite, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: withr_3.0.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/withr/releases/download/3.0.0/withr_3.0.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-28 12:32:45 UTC; unix
+Filesize: 241638
+SHA256: 043a18d29f4805d0d08afc0a2ce04ed81cd5e21191fe01439f80882878be6eda
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: graphics, grDevices,
+
+Package: xfun
+Version: 0.46
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, markdown (>= 1.5), knitr (>= 1.47), htmltools, remotes, pak, rhub, renv, curl, xml2, jsonlite, magick, yaml, qs,
+        rmarkdown
+License: MIT + file LICENSE
+File: xfun_0.46_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/xfun/releases/download/0.46/xfun_0.46_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 13:17:57 UTC; unix
+Filesize: 518852
+SHA256: 72a93908694b74aa64495034cb5455cdc270308c4ba5e426e888f9075bc6593c
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: grDevices, stats, tools
+OS: linux
+Arch: s390x
+
+Package: xml2
+Version: 1.3.6
+Depends: R (>= 3.6.0), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, curl, httr, knitr, magrittr, mockery, rmarkdown, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: xml2_1.3.6_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/xml2/releases/download/1.3.6/xml2_1.3.6_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 13:19:36 UTC; unix
+Filesize: 279951
+SHA256: f984fd8c0eeb0cce61d17bbabe65c8069113bbf7607745d46eaf677ce52762c4
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli, methods, rlang (>= 1.1.0)
+OS: linux
+Arch: s390x
+SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
+
+Package: yaml
+Version: 2.3.10
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: RUnit
+License: BSD_3_clause + file LICENSE
+File: yaml_2.3.10_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/yaml/releases/download/2.3.10/yaml_2.3.10_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 13:20:10 UTC; unix
+Filesize: 113068
+SHA256: fac4c779666fe41ed6e23389201098b37b0b28a7918b9fdb9da0e3247c25eae5
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+OS: linux
+Arch: s390x
