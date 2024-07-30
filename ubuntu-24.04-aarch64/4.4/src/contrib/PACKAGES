@@ -1648,22 +1648,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: dials
-Version: 1.2.1
-Depends: R (>= 3.4), scales (>= 1.3.0), R (>= 4.4), R (< 4.4.99)
-Imports: cli, DiceDesign, dplyr (>= 0.8.5), glue, hardhat (>= 1.1.0), lifecycle, pillar, purrr, rlang (>= 1.1.0), tibble, utils, vctrs (>= 0.3.8), withr
-Suggests: covr, kernlab, knitr, rmarkdown, rpart, testthat (>= 3.1.9), xml2
-License: MIT + file LICENSE
-File: dials_1.2.1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/dials/releases/download/1.2.1/dials_1.2.1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.4.1; ; 2024-07-20 15:11:50 UTC; unix
-Filesize: 425624
-SHA256: 7338a8304fe1c563747c3a59fe12091a0f12c37bb6920aec1843633f5502e518
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: DiceDesign
 Version: 1.10
 Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
@@ -4872,6 +4856,38 @@ Arch: arm64
 Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-29 23:23:11 UTC; unix
 Filesize: 816885
 SHA256: 851639f4e193af93a44d107fbb846df09e98113b505aacad8c469c3dcf021dc5
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: sfd
+Version: 0.1.0
+Depends: R (>= 2.10), tibble, R (>= 4.4), R (< 4.4.99)
+Imports: cli, rlang
+Suggests: ggplot2, spelling, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: sfd_0.1.0_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/sfd/releases/download/0.1.0/sfd_0.1.0_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.1; ; 2024-07-30 23:20:20 UTC; unix
+Filesize: 2460088
+SHA256: e52868aa62a05ba5ab91e8dbfb839aabcf33bbd36d730237a3e0a41b4d48d8a3
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: dials
+Version: 1.3.0
+Depends: R (>= 3.4), scales (>= 1.3.0), R (>= 4.4), R (< 4.4.99)
+Imports: cli, DiceDesign, dplyr (>= 0.8.5), glue, hardhat (>= 1.1.0), lifecycle, pillar, purrr, rlang (>= 1.1.0), sfd, tibble, utils, vctrs (>= 0.3.8), withr
+Suggests: covr, ggplot2, kernlab, knitr, rmarkdown, rpart, testthat (>= 3.1.9), xml2
+License: MIT + file LICENSE
+File: dials_1.3.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/dials/releases/download/1.3.0/dials_1.3.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.1; ; 2024-07-30 23:20:24 UTC; unix
+Filesize: 427657
+SHA256: add5f63915a64c04aea3f786e2b06d43565d2d6c3a273be4fd460ff319fc5129
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
