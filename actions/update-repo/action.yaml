@@ -11,6 +11,10 @@ inputs:
   token:
     description: |
       GitHub access token for the deployment.
+  pak-version:
+    default: 'devel'
+    description: |
+      'stable', 'rc', 'devel' or 'none'.
 
 runs:
   using: "composite"
@@ -24,11 +28,11 @@ runs:
       cat("::endgroup::\n")
     shell: Rscript {0}
 
-  - uses: r-lib/actions/setup-r-dependencies@v2-branch
+  - uses: r-lib/actions/setup-r-dependencies@feature/container
     with:
       packages: r-lib/pkgdepends, gh, pkgsearch, withr, yaml, glue
       dependencies: NA
-      pak-version: devel
+      pak-version: ${{ inputs.pak-version }}
 
   - name: Update repo
     run: |
