@@ -1940,22 +1940,6 @@ GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli, diffobj (>= 0.3.4), fansi, glue, methods, rematch2, rlang (>= 1.0.0), tibble
 
-Package: withr
-Version: 3.0.0
-Depends: R (>= 3.5.0), R (>= 4.1), R (< 4.1.99)
-Suggests: callr, covr, DBI, knitr, lattice, methods, rlang, rmarkdown (>= 2.12), RSQLite, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: withr_3.0.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/withr/releases/download/3.0.0/withr_3.0.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; ; 2024-07-28 12:32:45 UTC; unix
-Filesize: 241638
-SHA256: 043a18d29f4805d0d08afc0a2ce04ed81cd5e21191fe01439f80882878be6eda
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: graphics, grDevices,
-
 Package: xfun
 Version: 0.46
 Depends: R (>= 4.1), R (< 4.1.99)
@@ -2108,3 +2092,19 @@ GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 OS: linux
 Arch: s390x
+
+Package: withr
+Version: 3.0.1
+Depends: R (>= 3.6.0), R (>= 4.1), R (< 4.1.99)
+Suggests: callr, DBI, knitr, methods, rlang, rmarkdown (>= 2.12), RSQLite, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: withr_3.0.1_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/withr/releases/download/3.0.1/withr_3.0.1_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-07-31 14:26:58 UTC; unix
+Filesize: 216529
+SHA256: 6af0e8d037cf3b75d165f60f1c719d4b648e69ea4cc303a3a5e49e17a1be3753
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: graphics, grDevices
