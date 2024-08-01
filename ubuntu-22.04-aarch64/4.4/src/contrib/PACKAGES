@@ -4827,23 +4827,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: shiny
-Version: 1.9.0
-Depends: R (>= 3.0.2), methods, R (>= 4.4), R (< 4.4.99)
-Imports: utils, grDevices, httpuv (>= 1.5.2), mime (>= 0.3), jsonlite (>= 0.9.16), xtable, fontawesome (>= 0.4.0), htmltools (>= 0.5.4), R6 (>= 2.0), sourcetools, later (>= 1.0.0), promises (>=
-        1.1.0), tools, crayon, rlang (>= 0.4.10), fastmap (>= 1.1.1), withr, commonmark (>= 1.7), glue (>= 1.3.2), bslib (>= 0.6.0), cachem (>= 1.1.0), lifecycle (>= 0.2.0)
-Suggests: datasets, DT, Cairo (>= 1.5-5), testthat (>= 3.0.0), knitr (>= 1.6), markdown, rmarkdown, ggplot2, reactlog (>= 1.0.0), magrittr, yaml, future, dygraphs, ragg, showtext, sass
-License: GPL-3 | file LICENSE
-File: shiny_1.9.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/shiny/releases/download/1.9.0/shiny_1.9.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.1; ; 2024-07-30 18:35:45 UTC; unix
-Filesize: 5000481
-SHA256: 8a7de62bd53fbabe4aeda640cfc14ba9019af97aabdce2da53eb6196d762abd7
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: dials
 Version: 1.3.0
 Depends: R (>= 3.4), scales (>= 1.3.0), R (>= 4.4), R (< 4.4.99)
@@ -4855,6 +4838,22 @@ DownloadURL: https://github.com/cran/dials/releases/download/1.3.0/dials_1.3.0_b
 Built: R 4.4.1; ; 2024-07-30 18:35:45 UTC; unix
 Filesize: 428809
 SHA256: 727945a049fed3846a6bcf66613c4897f51b358e0a2db06ff6b70b0be8692766
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: withr
+Version: 3.0.1
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+Imports: graphics, grDevices
+Suggests: callr, DBI, knitr, methods, rlang, rmarkdown (>= 2.12), RSQLite, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: withr_3.0.1_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/withr/releases/download/3.0.1/withr_3.0.1_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.1; ; 2024-07-31 18:34:49 UTC; unix
+Filesize: 223955
+SHA256: b704023cec16dff9194a05fec893d1664878bbeb01edf306343454496742dc0b
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4872,8 +4871,8 @@ DownloadURL: https://github.com/cran/rlang/releases/download/1.1.4/rlang_1.1.4_b
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-04 18:33:16 UTC; unix
-Filesize: 2068877
-SHA256: f86ff35d834bee6f002725959edd44ea65b8c307c1576981609fe8eb9fd7019c
+Filesize: 2068875
+SHA256: 7168934c9e0c8e5b8ed4eb51174c69b53ccbc96411d222812910f783f12bda69
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4891,24 +4890,25 @@ DownloadURL: https://github.com/cran/cli/releases/download/3.6.3/cli_3.6.3_b2_R4
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-22 18:32:00 UTC; unix
-Filesize: 1417984
-SHA256: a2e0faf3300d3f3fec05c57da8cfca30441853fe3e5840624bd45c7ce3898725
+Filesize: 1417983
+SHA256: e49b85334b62903f1e98719cc77203e7288ea86df89a3b7e37b8b4b99a64e68a
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: withr
-Version: 3.0.1
-Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-Imports: graphics, grDevices
-Suggests: callr, DBI, knitr, methods, rlang, rmarkdown (>= 2.12), RSQLite, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: withr_3.0.1_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/withr/releases/download/3.0.1/withr_3.0.1_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.1; ; 2024-07-31 18:34:49 UTC; unix
-Filesize: 223955
-SHA256: b704023cec16dff9194a05fec893d1664878bbeb01edf306343454496742dc0b
+Package: shiny
+Version: 1.9.1
+Depends: R (>= 3.0.2), methods, R (>= 4.4), R (< 4.4.99)
+Imports: utils, grDevices, httpuv (>= 1.5.2), mime (>= 0.3), jsonlite (>= 0.9.16), xtable, fontawesome (>= 0.4.0), htmltools (>= 0.5.4), R6 (>= 2.0), sourcetools, later (>= 1.0.0), promises (>=
+        1.1.0), tools, crayon, rlang (>= 0.4.10), fastmap (>= 1.1.1), withr, commonmark (>= 1.7), glue (>= 1.3.2), bslib (>= 0.6.0), cachem (>= 1.1.0), lifecycle (>= 0.2.0)
+Suggests: datasets, DT, Cairo (>= 1.5-5), testthat (>= 3.0.0), knitr (>= 1.6), markdown, rmarkdown, ggplot2, reactlog (>= 1.0.0), magrittr, yaml, future, dygraphs, ragg, showtext, sass
+License: GPL-3 | file LICENSE
+File: shiny_1.9.1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/shiny/releases/download/1.9.1/shiny_1.9.1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.1; ; 2024-08-01 18:35:09 UTC; unix
+Filesize: 5000316
+SHA256: b93e81b9c6a563c3f344495a0f68409b6f582b348ae3d8f8cf5f1617dac5aa71
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
