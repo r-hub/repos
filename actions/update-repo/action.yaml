@@ -28,7 +28,7 @@ runs:
       cat("::endgroup::\n")
     shell: Rscript {0}
 
-  - uses: r-lib/actions/setup-r-dependencies@feature/container
+  - uses: r-lib/actions/setup-r-dependencies@v2
     with:
       packages: r-lib/pkgdepends, gh, pkgsearch, withr, yaml, glue
       dependencies: NA
