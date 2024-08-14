@@ -33,6 +33,8 @@ runs:
       packages: r-lib/pkgdepends, gh, pkgsearch, withr, yaml, glue
       dependencies: NA
       pak-version: ${{ inputs.pak-version }}
+    env:
+      GITHUB_PAT: ${{ inputs.token }}
 
   - name: Update repo
     run: |
