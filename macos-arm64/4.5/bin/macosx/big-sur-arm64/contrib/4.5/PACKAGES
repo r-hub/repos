@@ -2724,25 +2724,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: RcppEigen
-Version: 0.3.4.0.0
-Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-Imports: Rcpp (>= 0.11.0), stats, utils
-Suggests: Matrix, inline, tinytest, pkgKitten, microbenchmark
-License: GPL (>= 2) | file LICENSE
-File: RcppEigen_0.3.4.0.0_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/RcppEigen/releases/download/0.3.4.0.0/RcppEigen_0.3.4.0.0_b1_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-03-29 15:11:49 UTC; unix
-Filesize: 1857883
-SHA256: bb11dcb8a5b04b8b4ade6b6fa23be647ef49afccebd570ec1b40da33a3dba987
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: rbibutils
 Version: 2.2.16
 Depends: R (>= 2.10), R (>= 4.5), R (< 4.5.99)
@@ -3531,25 +3512,6 @@ RVersion: 4.5
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: openssl
-Version: 2.2.0
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: askpass
-Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
-License: MIT + file LICENSE
-File: openssl_2.2.0_b3_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/openssl/releases/download/2.2.0/openssl_2.2.0_b3_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-05-17 17:30:37 UTC; unix
-Filesize: 3591528
-SHA256: 8014a84b55dc879f40e6f4f310ba37d94bf8278e712bef47d17ca5ff8c10c10a
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: OpenSSL >= 1.0.2
 
 Package: minqa
 Version: 1.2.7
@@ -4418,25 +4380,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: gert
-Version: 2.1.0
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
-Suggests: spelling, knitr, rmarkdown, testthat
-License: MIT + file LICENSE
-File: gert_2.1.0_b2_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/gert/releases/download/2.1.0/gert_2.1.0_b2_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-07-19 17:33:34 UTC; unix
-Filesize: 1763493
-SHA256: 075a2dccaa26eb0765351f99738184534d5ff91e4bb06e7385f4516da060d0fa
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
-
 Package: clock
 Version: 0.7.1
 Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
@@ -4706,3 +4649,60 @@ RVersion: 4.5
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: RcppEigen
+Version: 0.3.4.0.1
+Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+Imports: Rcpp (>= 0.11.0), stats, utils
+Suggests: Matrix, inline, tinytest, pkgKitten, microbenchmark
+License: GPL (>= 2) | file LICENSE
+File: RcppEigen_0.3.4.0.1_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/RcppEigen/releases/download/0.3.4.0.1/RcppEigen_0.3.4.0.1_b2_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-08-16 17:31:39 UTC; unix
+Filesize: 1859151
+SHA256: c08a9175c77bbda5bf137047c83a90a6ec115085aca0d8d2f8a810745375e034
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: openssl
+Version: 2.2.1
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: askpass
+Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
+License: MIT + file LICENSE
+File: openssl_2.2.1_b4_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/openssl/releases/download/2.2.1/openssl_2.2.1_b4_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-08-16 17:31:25 UTC; unix
+Filesize: 3593631
+SHA256: 0eb5e20e5bfea7d3da53465651b19afa5fa5da93fb964875a43e54879a6f07d5
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: OpenSSL >= 1.0.2
+
+Package: gert
+Version: 2.1.1
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
+Suggests: spelling, knitr, rmarkdown, testthat
+License: MIT + file LICENSE
+File: gert_2.1.1_b3_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/gert/releases/download/2.1.1/gert_2.1.1_b3_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-08-16 17:32:03 UTC; unix
+Filesize: 1761229
+SHA256: 122a93c6cbe6e7f26b63fc19bb47a758a8824f5300da9a6c4d64ef7b9ab3d6d2
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
