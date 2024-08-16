@@ -2730,25 +2730,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: RcppEigen
-Version: 0.3.4.0.0
-Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-Imports: Rcpp (>= 0.11.0), stats, utils
-Suggests: Matrix, inline, tinytest, pkgKitten, microbenchmark
-License: GPL (>= 2) | file LICENSE
-File: RcppEigen_0.3.4.0.0_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/RcppEigen/releases/download/0.3.4.0.0/RcppEigen_0.3.4.0.0_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 09:42:35 UTC; unix
-Filesize: 7563973
-SHA256: 6889debfd110884e373469b2cf8fe573d618994c01bdaa1b94041f06bd082215
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: rbibutils
 Version: 2.2.16
 Depends: R (>= 2.10), R (>= 4.5), R (< 4.5.99)
@@ -3569,25 +3550,6 @@ RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: openssl
-Version: 2.2.0
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: askpass
-Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
-License: MIT + file LICENSE
-File: openssl_2.2.0_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/openssl/releases/download/2.2.0/openssl_2.2.0_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-17 16:37:06 UTC; unix
-Filesize: 1407606
-SHA256: 09a460c51952facf55fd406b7e2861d2602f7611a70b1a54e84a6170d45e839c
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: OpenSSL >= 1.0.2
 
 Package: minqa
 Version: 1.2.7
@@ -4518,25 +4480,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: gert
-Version: 2.1.0
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
-Suggests: spelling, knitr, rmarkdown, testthat
-License: MIT + file LICENSE
-File: gert_2.1.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/gert/releases/download/2.1.0/gert_2.1.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-07-19 16:38:35 UTC; unix
-Filesize: 3192345
-SHA256: ba2ea266818579a4539f40f9eb8156915f1d0236f05ab29b47150d8b13e5acd8
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
-
 Package: clock
 Version: 0.7.1
 Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
@@ -4822,3 +4765,60 @@ RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: RcppEigen
+Version: 0.3.4.0.1
+Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+Imports: Rcpp (>= 0.11.0), stats, utils
+Suggests: Matrix, inline, tinytest, pkgKitten, microbenchmark
+License: GPL (>= 2) | file LICENSE
+File: RcppEigen_0.3.4.0.1_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/RcppEigen/releases/download/0.3.4.0.1/RcppEigen_0.3.4.0.1_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-08-16 16:41:11 UTC; unix
+Filesize: 7577556
+SHA256: e30006a4992307b21019acdf4fcb4374c0aaafd6e7ae21e998a04e3c70d19ca0
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: openssl
+Version: 2.2.1
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: askpass
+Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
+License: MIT + file LICENSE
+File: openssl_2.2.1_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/openssl/releases/download/2.2.1/openssl_2.2.1_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-08-16 16:41:11 UTC; unix
+Filesize: 1410294
+SHA256: c11cc02952eee5f602acd755ec2a4386b7448d5eb104c98637d99dda1296191d
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: OpenSSL >= 1.0.2
+
+Package: gert
+Version: 2.1.1
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
+Suggests: spelling, knitr, rmarkdown, testthat
+License: MIT + file LICENSE
+File: gert_2.1.1_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/gert/releases/download/2.1.1/gert_2.1.1_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-08-16 16:41:19 UTC; unix
+Filesize: 3192551
+SHA256: 6bfa6e1ca569eb21b63347cd8d4675eaf440a357dc2ab16876beb374b18e2b33
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
