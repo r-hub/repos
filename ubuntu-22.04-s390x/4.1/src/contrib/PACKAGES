@@ -60,27 +60,6 @@ Imports: methods, utils
 OS: linux
 Arch: s390x
 
-Package: arrow
-Version: 16.1.0
-Depends: R (>= 4.0), R (>= 4.1), R (< 4.1.99)
-Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
-        tibble, tzdb, withr
-License: Apache License (>= 2.0)
-File: arrow_16.1.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/arrow/releases/download/16.1.0/arrow_16.1.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 20:24:12 UTC; unix
-Filesize: 15061555
-SHA256: 694dad1af8c56c45871706d88f17a5eb3ba1d1c1dcba9631fe266d26fae3798c
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
-OS: linux
-Arch: s390x
-LinkingTo: cpp11 (>= 0.4.2)
-SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
-
 Package: askpass
 Version: 1.2.0
 Depends: R (>= 4.1), R (< 4.1.99)
@@ -816,8 +795,8 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli (>= 3.0.0), forcats (>= 0.2.0), hms, lifecycle, methods, readr (>= 0.1.0), rlang (>= 0.4.0), tibble, tidyselect, vctrs (>= 0.3.0)
 OS: linux
 Arch: s390x
-LinkingTo: cpp11
 SystemRequirements: GNU make, zlib: zlib1g-dev (deb), zlib-devel (rpm)
+LinkingTo: cpp11
 
 Package: highr
 Version: 0.11
@@ -1039,8 +1018,8 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: generics, timechange (>= 0.1.1)
 OS: linux
 Arch: s390x
-SystemRequirements: C++11, A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
 Enhances: chron, data.table, timeDate, tis, zoo
+SystemRequirements: C++11, A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
 
 Package: magrittr
 Version: 2.0.3
@@ -1342,8 +1321,8 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
 OS: linux
 Arch: s390x
-LinkingTo: systemfonts, textshaping
 SystemRequirements: freetype2, libpng, libtiff, libjpeg
+LinkingTo: systemfonts, textshaping
 
 Package: rappdirs
 Version: 0.3.3
@@ -1466,24 +1445,6 @@ Imports: utils
 OS: linux
 Arch: s390x
 Enhances: winch
-
-Package: rmarkdown
-Version: 2.27
-Depends: R (>= 3.0), R (>= 4.1), R (< 4.1.99)
-Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>= 3.0.3), tibble, vctrs, cleanrmd, withr (>= 2.4.2), xml2
-License: GPL-3
-File: rmarkdown_2.27_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/rmarkdown/releases/download/2.27/rmarkdown_2.27_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; ; 2024-07-29 09:44:16 UTC; unix
-Filesize: 2628720
-SHA256: 8513013cdb518268f48fa034be89f1629ccb01a08fa4df32826322395f2a1a67
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.43), methods, tinytex (>= 0.31), tools, utils, xfun (>= 0.36), yaml (>=
-        2.1.19)
-SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
 
 Package: rprojroot
 Version: 2.0.4
@@ -1666,8 +1627,8 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: lifecycle
 OS: linux
 Arch: s390x
-LinkingTo: cpp11 (>= 0.2.1)
 SystemRequirements: fontconfig, freetype2
+LinkingTo: cpp11 (>= 0.2.1)
 
 Package: testthat
 Version: 3.2.1.1
@@ -1705,8 +1666,8 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: lifecycle, systemfonts (>= 1.1.0)
 OS: linux
 Arch: s390x
-LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
 SystemRequirements: freetype2, harfbuzz, fribidi
+LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
 
 Package: tibble
 Version: 3.2.1
@@ -1798,8 +1759,8 @@ GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 OS: linux
 Arch: s390x
-LinkingTo: cpp11 (>= 0.2.7)
 SystemRequirements: A system with zoneinfo data (e.g.  /usr/share/zoneinfo) as well as a recent-enough C++11 compiler (such as g++-4.8 or later). On Windows the zoneinfo included with R is used.
+LinkingTo: cpp11 (>= 0.2.7)
 
 Package: tinytex
 Version: 0.52
@@ -1920,25 +1881,6 @@ Platform: s390x-ibm-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli, diffobj (>= 0.3.4), fansi, glue, methods, rematch2, rlang (>= 1.0.0), tibble
-
-Package: xfun
-Version: 0.46
-Depends: R (>= 4.1), R (< 4.1.99)
-Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, markdown (>= 1.5), knitr (>= 1.47), htmltools, remotes, pak, rhub, renv, curl, xml2, jsonlite, magick, yaml, qs,
-        rmarkdown
-License: MIT + file LICENSE
-File: xfun_0.46_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/xfun/releases/download/0.46/xfun_0.46_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 13:17:57 UTC; unix
-Filesize: 518852
-SHA256: 72a93908694b74aa64495034cb5455cdc270308c4ba5e426e888f9075bc6593c
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: grDevices, stats, tools
-OS: linux
-Arch: s390x
 
 Package: xml2
 Version: 1.3.6
@@ -2108,3 +2050,61 @@ Imports: askpass
 OS: linux
 Arch: s390x
 SystemRequirements: OpenSSL >= 1.0.2
+
+Package: arrow
+Version: 17.0.0
+Depends: R (>= 4.0), R (>= 4.1), R (< 4.1.99)
+Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
+        tibble, tzdb, withr
+License: Apache License (>= 2.0)
+File: arrow_17.0.0_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/arrow/releases/download/17.0.0/arrow_17.0.0_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-08-17 15:59:27 UTC; unix
+Filesize: 31780278
+SHA256: e4a18a145a6a37e1c9821987553d4fa510c48ad27e6fc1dd7344be1ba7988193
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+OS: linux
+Arch: s390x
+SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
+LinkingTo: cpp11 (>= 0.4.2)
+
+Package: rmarkdown
+Version: 2.28
+Depends: R (>= 3.0), R (>= 4.1), R (< 4.1.99)
+Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>= 3.0.3), tibble, vctrs, cleanrmd, withr (>= 2.4.2), xml2
+License: GPL-3
+File: rmarkdown_2.28_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/rmarkdown/releases/download/2.28/rmarkdown_2.28_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-08-17 14:29:14 UTC; unix
+Filesize: 2618975
+SHA256: 4c5af3d6331b9ddf5116dd03e0f8f37899724641f975cf962eb4dbdd61313c01
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.43), methods, tinytex (>= 0.31), tools, utils, xfun (>= 0.36), yaml (>=
+        2.1.19)
+SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
+
+Package: xfun
+Version: 0.47
+Depends: R (>= 3.2.0), R (>= 4.1), R (< 4.1.99)
+Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, markdown (>= 1.5), knitr (>= 1.47), htmltools, remotes, pak, rhub, renv, curl, xml2, jsonlite, magick, yaml, qs,
+        rmarkdown
+License: MIT + file LICENSE
+File: xfun_0.47_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/xfun/releases/download/0.47/xfun_0.47_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-08-17 14:28:30 UTC; unix
+Filesize: 513975
+SHA256: d024a30ac0b4828fff0a679186ab63dbca9e272df227420eec2dc5540d89ba34
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: grDevices, stats, tools
+OS: linux
+Arch: s390x
