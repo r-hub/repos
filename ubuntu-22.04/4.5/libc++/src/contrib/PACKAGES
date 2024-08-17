@@ -3275,24 +3275,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: rmarkdown
-Version: 2.27
-Depends: R (>= 3.0), R (>= 4.5), R (< 4.5.99)
-Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.43), methods, tinytex (>= 0.31), tools, utils, xfun (>= 0.36), yaml (>=
-        2.1.19)
-Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>= 3.0.3), tibble, vctrs, cleanrmd, withr (>= 2.4.2), xml2
-License: GPL-3
-File: rmarkdown_2.27_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/rmarkdown/releases/download/2.27/rmarkdown_2.27_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.5.0; ; 2024-05-17 17:05:16 UTC; unix
-Filesize: 2635558
-SHA256: 69c551671c36f3020aedaa6c64ca2576364c7cf3028e141256c8dfed1708c68d
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
-
 Package: broom
 Version: 1.0.6
 Depends: R (>= 3.5), R (>= 4.5), R (< 4.5.99)
@@ -3330,24 +3312,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make
 LinkingTo: Rcpp
-
-Package: mvtnorm
-Version: 1.2-5
-Depends: R(>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-Imports: stats
-Suggests: qrng, numDeriv
-License: GPL-2
-File: mvtnorm_1.2-5_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.2-5/mvtnorm_1.2-5_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-22 17:04:56 UTC; unix
-Filesize: 780959
-SHA256: 9e700c2b1116f570abb31e6f34b2674a68f5a94079e0175b963bd8032bc980c8
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: terra
 Version: 1.7-78
@@ -4114,25 +4078,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: xfun
-Version: 0.46
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: grDevices, stats, tools
-Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, markdown (>= 1.5), knitr (>= 1.47), htmltools, remotes, pak, rhub, renv, curl, xml2, jsonlite, magick, yaml, qs,
-        rmarkdown
-License: MIT + file LICENSE
-File: xfun_0.46_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/xfun/releases/download/0.46/xfun_0.46_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-07-18 17:05:42 UTC; unix
-Filesize: 526901
-SHA256: bdb833566cfdcb08ecc8fd361d4a8f914c060fb7bbaf2521b2e95ef21c8b2d4c
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: clock
 Version: 0.7.1
 Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
@@ -4475,3 +4420,58 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
+
+Package: rmarkdown
+Version: 2.28
+Depends: R (>= 3.0), R (>= 4.5), R (< 4.5.99)
+Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.43), methods, tinytex (>= 0.31), tools, utils, xfun (>= 0.36), yaml (>=
+        2.1.19)
+Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>= 3.0.3), tibble, vctrs, cleanrmd, withr (>= 2.4.2), xml2
+License: GPL-3
+File: rmarkdown_2.28_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/rmarkdown/releases/download/2.28/rmarkdown_2.28_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.5.0; ; 2024-08-17 17:04:48 UTC; unix
+Filesize: 2636124
+SHA256: 4fff34f43de0d30668c14bc6cda3e997d030159e6f9789d4bf28d4efec1709e9
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
+
+Package: mvtnorm
+Version: 1.2-6
+Depends: R(>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+Imports: stats
+Suggests: qrng, numDeriv
+License: GPL-2
+File: mvtnorm_1.2-6_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.2-6/mvtnorm_1.2-6_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-08-17 17:04:42 UTC; unix
+Filesize: 789762
+SHA256: 29b3f0652e5a619437a850349cb0ee7326723548b54fd40837b2b43fba28ee83
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: xfun
+Version: 0.47
+Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
+Imports: grDevices, stats, tools
+Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, markdown (>= 1.5), knitr (>= 1.47), htmltools, remotes, pak, rhub, renv, curl, xml2, jsonlite, magick, yaml, qs,
+        rmarkdown
+License: MIT + file LICENSE
+File: xfun_0.47_b5_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/xfun/releases/download/0.47/xfun_0.47_b5_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-08-17 17:04:42 UTC; unix
+Filesize: 532668
+SHA256: 67d84e9b51134abd787724e0efe8c154012b3c28fc45982db2d35ad0a70fa33a
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
