@@ -2761,25 +2761,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: hunspell
-Version: 3.0.3
-Depends: R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
-Imports: Rcpp, digest
-Suggests: spelling, testthat, pdftools, janeaustenr, wordcloud2, knitr, stopwords, rmarkdown
-License: GPL-2 | LGPL-2.1 | MPL-1.1
-File: hunspell_3.0.3_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/hunspell/releases/download/3.0.3/hunspell_3.0.3_b1_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-03-29 15:30:18 UTC; unix
-Filesize: 1179039
-SHA256: 77a0b44649df075a7364d02c4e312b16f0d72e254c3cc54f4e0e0c99ec0bee72
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp (>= 0.12.12)
-
 Package: spelling
 Version: 2.3.0
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -3809,24 +3790,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: digest
-Version: 0.6.36
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-Imports: utils
-Suggests: tinytest, simplermarkdown
-License: GPL (>= 2)
-File: digest_0.6.36_b2_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/digest/releases/download/0.6.36/digest_0.6.36_b2_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-06-24 17:30:25 UTC; unix
-Filesize: 215389
-SHA256: 7e54595067c105c957808c4df4bc23f672a33bf09efd6df4e4246aff1227e103
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: XML
 Version: 3.99-0.17
 Depends: R (>= 4.0.0), methods, utils, R (>= 4.5), R (< 4.5.99)
@@ -4706,3 +4669,40 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make
 LinkingTo: Rcpp
+
+Package: hunspell
+Version: 3.0.4
+Depends: R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
+Imports: Rcpp, digest
+Suggests: spelling, testthat, knitr, rmarkdown
+License: GPL-2 | LGPL-2.1 | MPL-1.1
+File: hunspell_3.0.4_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/hunspell/releases/download/3.0.4/hunspell_3.0.4_b2_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-08-19 17:32:26 UTC; unix
+Filesize: 1149330
+SHA256: 0fcd1e61c228f8d621428a4e9a5fd334cf7bb9241bc11aee49554a55a7eb50fe
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp (>= 0.12.12)
+
+Package: digest
+Version: 0.6.37
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+Imports: utils
+Suggests: tinytest, simplermarkdown
+License: GPL (>= 2)
+File: digest_0.6.37_b3_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/digest/releases/download/0.6.37/digest_0.6.37_b3_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-08-19 17:32:22 UTC; unix
+Filesize: 217446
+SHA256: 01f886fc8ad6fbaa9447598b9aa751bfa494b297674506264ad7e4f322ab23b1
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
