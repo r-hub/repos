@@ -2767,25 +2767,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: hunspell
-Version: 3.0.3
-Depends: R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
-Imports: Rcpp, digest
-Suggests: spelling, testthat, pdftools, janeaustenr, wordcloud2, knitr, stopwords, rmarkdown
-License: GPL-2 | LGPL-2.1 | MPL-1.1
-File: hunspell_3.0.3_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/hunspell/releases/download/3.0.3/hunspell_3.0.3_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 09:56:03 UTC; unix
-Filesize: 3568928
-SHA256: c67ed291e75d0662d3c512a9a6ade70e0a442de3dd06e5620a4fff866d0ba591
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp (>= 0.12.12)
-
 Package: spelling
 Version: 2.3.0
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -3847,24 +3828,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: digest
-Version: 0.6.36
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-Imports: utils
-Suggests: tinytest, simplermarkdown
-License: GPL (>= 2)
-File: digest_0.6.36_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/digest/releases/download/0.6.36/digest_0.6.36_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-06-24 16:37:33 UTC; unix
-Filesize: 493729
-SHA256: a55b6de9d6678da9fcba8ede22f78fd31f0371580f8c2d2ed5baedff15938730
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: XML
 Version: 3.99-0.17
 Depends: R (>= 4.0.0), methods, utils, R (>= 4.5), R (< 4.5.99)
@@ -4822,3 +4785,40 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make
 LinkingTo: Rcpp
+
+Package: hunspell
+Version: 3.0.4
+Depends: R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
+Imports: Rcpp, digest
+Suggests: spelling, testthat, knitr, rmarkdown
+License: GPL-2 | LGPL-2.1 | MPL-1.1
+File: hunspell_3.0.4_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/hunspell/releases/download/3.0.4/hunspell_3.0.4_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-08-19 16:38:27 UTC; unix
+Filesize: 3580515
+SHA256: 0ae940d89bd082fdbb8eb0faf1de4bc74600ef6d77c2967d1c21da6aa5cce40a
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp (>= 0.12.12)
+
+Package: digest
+Version: 0.6.37
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+Imports: utils
+Suggests: tinytest, simplermarkdown
+License: GPL (>= 2)
+File: digest_0.6.37_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/digest/releases/download/0.6.37/digest_0.6.37_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-08-19 16:38:19 UTC; unix
+Filesize: 495685
+SHA256: be08d9a49c06c8b88090100c612ae5a12b532460a67ca12103f4d66458fdb74a
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
