@@ -865,25 +865,6 @@ GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: curl (>= 5.0.2), jsonlite, mime, openssl (>= 0.8), R6
 
-Package: hunspell
-Version: 3.0.3
-Depends: R (>= 3.0.2), R (>= 4.1), R (< 4.1.99)
-Suggests: spelling, testthat, pdftools, janeaustenr, wordcloud2, knitr, stopwords, rmarkdown
-License: GPL-2 | LGPL-2.1 | MPL-1.1
-File: hunspell_3.0.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/hunspell/releases/download/3.0.3/hunspell_3.0.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 13:28:34 UTC; unix
-Filesize: 1179949
-SHA256: 1e293e3a95fb2c9d41a2196db3ada126cce6622a1e69d2f9954e91ffc4b08ead
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: Rcpp, digest
-OS: linux
-Arch: s390x
-LinkingTo: Rcpp (>= 0.12.12)
-
 Package: ids
 Version: 1.0.1
 Depends: R (>= 4.1), R (< 4.1.99)
@@ -2108,3 +2089,22 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: grDevices, stats, tools
 OS: linux
 Arch: s390x
+
+Package: hunspell
+Version: 3.0.4
+Depends: R (>= 3.0.2), R (>= 4.1), R (< 4.1.99)
+Suggests: spelling, testthat, knitr, rmarkdown
+License: GPL-2 | LGPL-2.1 | MPL-1.1
+File: hunspell_3.0.4_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/hunspell/releases/download/3.0.4/hunspell_3.0.4_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-08-19 14:30:04 UTC; unix
+Filesize: 3501442
+SHA256: 590f5f3e02cae6b3e0bf18e88f70cbdb5666a1619369af85c84ca3a511c04e2c
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: Rcpp, digest
+OS: linux
+Arch: s390x
+LinkingTo: Rcpp (>= 0.12.12)
