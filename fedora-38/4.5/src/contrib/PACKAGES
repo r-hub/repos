@@ -2767,25 +2767,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: hunspell
-Version: 3.0.3
-Depends: R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
-Imports: Rcpp, digest
-Suggests: spelling, testthat, pdftools, janeaustenr, wordcloud2, knitr, stopwords, rmarkdown
-License: GPL-2 | LGPL-2.1 | MPL-1.1
-File: hunspell_3.0.3_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/hunspell/releases/download/3.0.3/hunspell_3.0.3_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 17:40:53 UTC; unix
-Filesize: 3535371
-SHA256: 4eeca5180325606a2599c6b67ba6aba1d022e8cc5e3dffcd83c57167e90c2f0f
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp (>= 0.12.12)
-
 Package: spelling
 Version: 2.3.0
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -3829,24 +3810,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: digest
-Version: 0.6.36
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-Imports: utils
-Suggests: tinytest, simplermarkdown
-License: GPL (>= 2)
-File: digest_0.6.36_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/digest/releases/download/0.6.36/digest_0.6.36_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-06-23 17:19:07 UTC; unix
-Filesize: 497826
-SHA256: 604491cc19e02fa2968cd9ac9ea1fb4bcac5bcadcc081fbf7cde29413f870f84
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: prodlim
 Version: 2024.06.25
 Depends: R (>= 2.9.0), R (>= 4.5), R (< 4.5.99)
@@ -4822,3 +4785,40 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make
 LinkingTo: Rcpp
+
+Package: hunspell
+Version: 3.0.4
+Depends: R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
+Imports: Rcpp, digest
+Suggests: spelling, testthat, knitr, rmarkdown
+License: GPL-2 | LGPL-2.1 | MPL-1.1
+File: hunspell_3.0.4_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/hunspell/releases/download/3.0.4/hunspell_3.0.4_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-08-19 17:22:50 UTC; unix
+Filesize: 3544277
+SHA256: 1445f89b07b8c87a2ee400e0c1422c580ba09d829bfb960b36fbbe6b00919640
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp (>= 0.12.12)
+
+Package: digest
+Version: 0.6.37
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+Imports: utils
+Suggests: tinytest, simplermarkdown
+License: GPL (>= 2)
+File: digest_0.6.37_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/digest/releases/download/0.6.37/digest_0.6.37_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-08-19 17:22:42 UTC; unix
+Filesize: 498351
+SHA256: 45d2bf1cdcf52452a8885a9fa9f5c48779859458128971f14fb189f6774fc909
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
