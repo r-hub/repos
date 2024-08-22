@@ -3932,22 +3932,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or libmagick++-dev (deb)
 LinkingTo: Rcpp
 
-Package: httr2
-Version: 1.0.2
-Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
-Imports: cli (>= 3.0.0), curl (>= 5.1.0), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
-Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
-License: MIT + file LICENSE
-File: httr2_1.0.2_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/httr2/releases/download/1.0.2/httr2_1.0.2_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.5.0; ; 2024-07-16 17:07:16 UTC; unix
-Filesize: 552303
-SHA256: 41548fc2443724a4dbe3d5d1b0c15b8665f2d66500e5569edda3a567ac423114
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: Rcpp
 Version: 1.0.13
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4471,6 +4455,22 @@ Arch: amd64
 Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-08-19 17:08:26 UTC; unix
 Filesize: 229386
 SHA256: d95c36b35860c35d8d7389a1ebdb5c0bc34bdb3b8c4557fc95e69545e966d0d1
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: httr2
+Version: 1.0.3
+Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
+Imports: cli (>= 3.0.0), curl (>= 5.1.0), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
+Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
+License: MIT + file LICENSE
+File: httr2_1.0.3_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/httr2/releases/download/1.0.3/httr2_1.0.3_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.5.0; ; 2024-08-22 17:07:12 UTC; unix
+Filesize: 585742
+SHA256: 56e8292044df4459d81a397ce2abdedfe6635aabcfded7a8a19d7672c076a914
 RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
