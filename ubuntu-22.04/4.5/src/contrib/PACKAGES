@@ -4240,22 +4240,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, pandoc
 LinkingTo: RcppEigen (>= 0.3.4.0.0), RcppParallel (>= 5.1.4)
 
-Package: httr2
-Version: 1.0.2
-Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
-Imports: cli (>= 3.0.0), curl (>= 5.1.0), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
-Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
-License: MIT + file LICENSE
-File: httr2_1.0.2_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/httr2/releases/download/1.0.2/httr2_1.0.2_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.0; ; 2024-07-16 16:39:54 UTC; unix
-Filesize: 553311
-SHA256: 2f92262ccb689e09bfcd79ffb6a528187b6383b8916f568d1d29127a21370515
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: Rcpp
 Version: 1.0.13
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4822,3 +4806,19 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
+
+Package: httr2
+Version: 1.0.3
+Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
+Imports: cli (>= 3.0.0), curl (>= 5.1.0), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
+Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
+License: MIT + file LICENSE
+File: httr2_1.0.3_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/httr2/releases/download/1.0.3/httr2_1.0.3_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.0; ; 2024-08-22 16:42:12 UTC; unix
+Filesize: 586782
+SHA256: 6507d14416cd4d263f782adfb019c2882cfb6b8d2e2c7a62e2291a0a363410a1
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
