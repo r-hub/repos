@@ -889,22 +889,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: waldo
-Version: 0.5.2
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-Imports: cli, diffobj (>= 0.3.4), fansi, glue, methods, rematch2, rlang (>= 1.0.0), tibble
-Suggests: covr, R6, testthat (>= 3.0.0), withr, xml2
-License: MIT + file LICENSE
-File: waldo_0.5.2_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/waldo/releases/download/0.5.2/waldo_0.5.2_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.5.0; ; 2024-03-27 17:31:03 UTC; unix
-Filesize: 107896
-SHA256: 33dfc042cfef1590d50a7a8064d35c960b7bdbbbe60b7ebe0eb1da55d87b2b85
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: whisker
 Version: 0.4.1
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4600,25 +4584,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: RcppEigen
-Version: 0.3.4.0.1
-Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-Imports: Rcpp (>= 0.11.0), stats, utils
-Suggests: Matrix, inline, tinytest, pkgKitten, microbenchmark
-License: GPL (>= 2) | file LICENSE
-File: RcppEigen_0.3.4.0.1_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/RcppEigen/releases/download/0.3.4.0.1/RcppEigen_0.3.4.0.1_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-08-16 17:21:13 UTC; unix
-Filesize: 7559767
-SHA256: 614e7cf10e25f7e895ad1630945bc80524d3687d9e90c4f1d21f2663d58b4c9f
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: openssl
 Version: 2.2.1
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4822,3 +4787,38 @@ RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: waldo
+Version: 0.5.3
+Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+Imports: cli, diffobj (>= 0.3.4), glue, methods, rematch2, rlang (>= 1.0.0), tibble
+Suggests: covr, R6, testthat (>= 3.0.0), withr, xml2
+License: MIT + file LICENSE
+File: waldo_0.5.3_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/waldo/releases/download/0.5.3/waldo_0.5.3_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.5.0; ; 2024-08-24 17:21:15 UTC; unix
+Filesize: 108112
+SHA256: 07bf4a3e61015323b3c8217ba900053bd3a1d82d1ea010513eb07d3756b171e3
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: RcppEigen
+Version: 0.3.4.0.2
+Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+Imports: Rcpp (>= 0.11.0), stats, utils
+Suggests: Matrix, inline, tinytest, pkgKitten, microbenchmark
+License: GPL (>= 2) | file LICENSE
+File: RcppEigen_0.3.4.0.2_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/RcppEigen/releases/download/0.3.4.0.2/RcppEigen_0.3.4.0.2_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-08-24 17:21:16 UTC; unix
+Filesize: 7559741
+SHA256: 84f87c294f98e54de3f521c3777ce57f5a347a984cde7710f8a331a82d16220c
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
