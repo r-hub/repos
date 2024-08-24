@@ -1829,22 +1829,6 @@ OS: linux
 Arch: s390x
 LinkingTo: cpp11 (>= 0.2.0), progress (>= 1.2.1), tzdb (>= 0.1.1)
 
-Package: waldo
-Version: 0.5.2
-Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
-Suggests: covr, R6, testthat (>= 3.0.0), withr, xml2
-License: MIT + file LICENSE
-File: waldo_0.5.2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/waldo/releases/download/0.5.2/waldo_0.5.2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; ; 2024-07-28 12:51:45 UTC; unix
-Filesize: 104942
-SHA256: 219dd3aeff887f7f5e4cdeec7d16d4dea85cb2aac4d6ea37cee793b18569adc8
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: cli, diffobj (>= 0.3.4), fansi, glue, methods, rematch2, rlang (>= 1.0.0), tibble
-
 Package: xml2
 Version: 1.3.6
 Depends: R (>= 3.6.0), R (>= 4.1), R (< 4.1.99)
@@ -2108,3 +2092,19 @@ OS: linux
 Arch: s390x
 SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
+
+Package: waldo
+Version: 0.5.3
+Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, R6, testthat (>= 3.0.0), withr, xml2
+License: MIT + file LICENSE
+File: waldo_0.5.3_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/waldo/releases/download/0.5.3/waldo_0.5.3_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-08-24 14:27:51 UTC; unix
+Filesize: 103985
+SHA256: 6184a5d5a21384b729be27360592bb65ede030aa91ee10406558b0d6964aeacb
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli, diffobj (>= 0.3.4), glue, methods, rematch2, rlang (>= 1.0.0), tibble
