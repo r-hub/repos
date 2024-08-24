@@ -946,22 +946,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: waldo
-Version: 0.5.2
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-Imports: cli, diffobj (>= 0.3.4), fansi, glue, methods, rematch2, rlang (>= 1.0.0), tibble
-Suggests: covr, R6, testthat (>= 3.0.0), withr, xml2
-License: MIT + file LICENSE
-File: waldo_0.5.2_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/waldo/releases/download/0.5.2/waldo_0.5.2_b1_R4.5_aarch64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-03-29 15:15:41 UTC; unix
-Filesize: 103844
-SHA256: 38ce86e4c21efb798bab43800a0c777f90f519ffe32b562eb40b351bd78ac897
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: whisker
 Version: 0.4.1
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4505,25 +4489,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: RcppEigen
-Version: 0.3.4.0.1
-Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-Imports: Rcpp (>= 0.11.0), stats, utils
-Suggests: Matrix, inline, tinytest, pkgKitten, microbenchmark
-License: GPL (>= 2) | file LICENSE
-File: RcppEigen_0.3.4.0.1_b2_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/RcppEigen/releases/download/0.3.4.0.1/RcppEigen_0.3.4.0.1_b2_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-08-16 17:31:39 UTC; unix
-Filesize: 1859151
-SHA256: c08a9175c77bbda5bf137047c83a90a6ec115085aca0d8d2f8a810745375e034
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: openssl
 Version: 2.2.1
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4706,3 +4671,38 @@ RVersion: 4.5
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: waldo
+Version: 0.5.3
+Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+Imports: cli, diffobj (>= 0.3.4), glue, methods, rematch2, rlang (>= 1.0.0), tibble
+Suggests: covr, R6, testthat (>= 3.0.0), withr, xml2
+License: MIT + file LICENSE
+File: waldo_0.5.3_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/waldo/releases/download/0.5.3/waldo_0.5.3_b2_R4.5_aarch64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-08-24 17:31:16 UTC; unix
+Filesize: 104086
+SHA256: e34dce13208fd36ba5cadc8642040c8344fa8e04303dd8eaa9361125d3975a6a
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: RcppEigen
+Version: 0.3.4.0.2
+Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+Imports: Rcpp (>= 0.11.0), stats, utils
+Suggests: Matrix, inline, tinytest, pkgKitten, microbenchmark
+License: GPL (>= 2) | file LICENSE
+File: RcppEigen_0.3.4.0.2_b3_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/RcppEigen/releases/download/0.3.4.0.2/RcppEigen_0.3.4.0.2_b3_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-08-24 17:31:18 UTC; unix
+Filesize: 1859448
+SHA256: bb286cf304169f578f0dcec9a7878055628bd7c52f17ea32859041e283ea1986
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
