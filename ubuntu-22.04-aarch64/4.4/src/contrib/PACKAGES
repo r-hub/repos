@@ -1111,22 +1111,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: waldo
-Version: 0.5.2
-Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
-Imports: cli, diffobj (>= 0.3.4), fansi, glue, methods, rematch2, rlang (>= 1.0.0), tibble
-Suggests: covr, R6, testthat (>= 3.0.0), withr, xml2
-License: MIT + file LICENSE
-File: waldo_0.5.2_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/waldo/releases/download/0.5.2/waldo_0.5.2_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2024-05-16 07:55:06 UTC; unix
-Filesize: 103586
-SHA256: b37bdabf35eb5a97b74f4fbb13ffeb8a0e6c9cd03c150e7f26c78582ff10c316
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: whisker
 Version: 0.4.1
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -4653,25 +4637,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: RcppEigen
-Version: 0.3.4.0.1
-Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-Imports: Rcpp (>= 0.11.0), stats, utils
-Suggests: Matrix, inline, tinytest, pkgKitten, microbenchmark
-License: GPL (>= 2) | file LICENSE
-File: RcppEigen_0.3.4.0.1_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/RcppEigen/releases/download/0.3.4.0.1/RcppEigen_0.3.4.0.1_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-08-16 18:35:28 UTC; unix
-Filesize: 7463317
-SHA256: 495b222fc4b72405ac3688607eb06c1af643d5f718cbd71099dd8b60dba91634
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: openssl
 Version: 2.2.1
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -4888,8 +4853,8 @@ DownloadURL: https://github.com/cran/rlang/releases/download/1.1.4/rlang_1.1.4_b
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-04 18:33:16 UTC; unix
-Filesize: 2068876
-SHA256: 245a401ae558fd9f383a98d7d9297ec53fcb82813fe26383570fafa48a62e8b9
+Filesize: 2068873
+SHA256: 983a88a4d6cdceff0134a3d46c632264418b1ba88a7e296b0714d45f184bedfd
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4908,8 +4873,43 @@ OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-22 18:32:00 UTC; unix
 Filesize: 1417981
-SHA256: 9befa2fd43b7bb6e29f0d193c584e7754767e60d856447e52559aa01a1b3e72e
+SHA256: 823b941e1366df0e093f3c14ffbae4b43788e7d0e55319683c20512c0971d0df
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: waldo
+Version: 0.5.3
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+Imports: cli, diffobj (>= 0.3.4), glue, methods, rematch2, rlang (>= 1.0.0), tibble
+Suggests: covr, R6, testthat (>= 3.0.0), withr, xml2
+License: MIT + file LICENSE
+File: waldo_0.5.3_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/waldo/releases/download/0.5.3/waldo_0.5.3_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.1; ; 2024-08-24 18:33:34 UTC; unix
+Filesize: 104002
+SHA256: 05899d103cb7a5fd039a2fed023552e0dd64720213d99a380ee2b477c7a969d7
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: RcppEigen
+Version: 0.3.4.0.2
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+Imports: Rcpp (>= 0.11.0), stats, utils
+Suggests: Matrix, inline, tinytest, pkgKitten, microbenchmark
+License: GPL (>= 2) | file LICENSE
+File: RcppEigen_0.3.4.0.2_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/RcppEigen/releases/download/0.3.4.0.2/RcppEigen_0.3.4.0.2_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-08-24 18:33:36 UTC; unix
+Filesize: 7463343
+SHA256: d3125a1d8bc48cc0ca3b06350188ac06303751edf1a98b54572f7c8e6cf69a02
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
