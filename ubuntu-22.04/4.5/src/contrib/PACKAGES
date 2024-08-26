@@ -131,24 +131,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: git (optional)
 
-Package: curl
-Version: 5.2.1
-Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
-License: MIT + file LICENSE
-File: curl_5.2.1_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/curl/releases/download/5.2.1/curl_5.2.1_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 09:33:57 UTC; unix
-Filesize: 849685
-SHA256: c23eee50d1881a8fbd2ec08917fd96ded03cd015a0bad75c9acadb4c5eafb441
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libcurl: libcurl-devel (rpm) or libcurl4-openssl-dev (deb).
-
 Package: desc
 Version: 1.4.3
 Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
@@ -4822,3 +4804,21 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
+
+Package: curl
+Version: 5.2.2
+Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+License: MIT + file LICENSE
+File: curl_5.2.2_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/curl/releases/download/5.2.2/curl_5.2.2_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-08-26 16:45:14 UTC; unix
+Filesize: 849574
+SHA256: 5e00b2f0305f6aeff4441bd125ea3fac37e6bf12e9ca74d2a77f6aa98e54af5f
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libcurl: libcurl-devel (rpm) or libcurl4-openssl-dev (deb).
