@@ -99,21 +99,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: cpp11
-Version: 0.4.7
-Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue, knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp, testthat (>= 3.2.0), tibble, utils, vctrs, withr
-License: MIT + file LICENSE
-File: cpp11_0.4.7_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/cpp11/releases/download/0.4.7/cpp11_0.4.7_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.5.0; ; 2024-03-27 17:21:23 UTC; unix
-Filesize: 281248
-SHA256: 2ea0b47ddc674d68f00e0d98845d16b4ee824aaa34864123aa80798ae7021fda
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: credentials
 Version: 2.0.1
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -3086,24 +3071,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: data.table
-Version: 1.15.4
-Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
-Imports: methods
-Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
-License: MPL-2.0 | file LICENSE
-File: data.table_1.15.4_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/data.table/releases/download/1.15.4/data.table_1.15.4_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-31 17:18:45 UTC; unix
-Filesize: 2843460
-SHA256: 1a078b88d359eefa8cb1da8430e7182b095431549241ea0a26c781d9e8d39de5
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: munsell
 Version: 0.5.1
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4822,3 +4789,36 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libcurl: libcurl-devel (rpm) or libcurl4-openssl-dev (deb).
+
+Package: cpp11
+Version: 0.5.0
+Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue, knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp, testthat (>= 3.2.0), tibble, utils, vctrs, withr
+License: MIT + file LICENSE
+File: cpp11_0.5.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/cpp11/releases/download/0.5.0/cpp11_0.5.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.5.0; ; 2024-08-27 17:20:56 UTC; unix
+Filesize: 273393
+SHA256: 6ba47b3fffd1b8b1acbd3d9ce7153f67db6124986d86ed399ecbac7ab5e1c8d5
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: data.table
+Version: 1.16.0
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+Imports: methods
+Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
+License: MPL-2.0 | file LICENSE
+File: data.table_1.16.0_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/data.table/releases/download/1.16.0/data.table_1.16.0_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-08-27 17:20:58 UTC; unix
+Filesize: 2922814
+SHA256: b9b5ec0d1da7d12613ffe08fb706a3016924f3dcec46cff9448f7ae4b6037b2d
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
