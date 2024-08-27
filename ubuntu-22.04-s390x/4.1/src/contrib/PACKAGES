@@ -351,21 +351,6 @@ GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli (>= 3.4.0), memoise, rlang (>= 1.0.0)
 
-Package: cpp11
-Version: 0.4.7
-Depends: R (>= 3.5.0), R (>= 4.1), R (< 4.1.99)
-Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue, knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp, testthat (>= 3.2.0), tibble, utils, vctrs, withr
-License: MIT + file LICENSE
-File: cpp11_0.4.7_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/cpp11/releases/download/0.4.7/cpp11_0.4.7_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; ; 2024-07-28 13:48:50 UTC; unix
-Filesize: 281202
-SHA256: 5f16f31415beb69fdd2ee81ad18310e6a507799ea717782f0145023e3e097701
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: crayon
 Version: 1.5.3
 Depends: R (>= 4.1), R (< 4.1.99)
@@ -381,24 +366,6 @@ Platform: s390x-ibm-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: grDevices, methods, utils
-
-Package: data.table
-Version: 1.15.4
-Depends: R (>= 3.1.0), R (>= 4.1), R (< 4.1.99)
-Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
-License: MPL-2.0 | file LICENSE
-File: data.table_1.15.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/data.table/releases/download/1.15.4/data.table_1.15.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 07:39:44 UTC; unix
-Filesize: 2206736
-SHA256: ac6678865d22772b3c5a537c76f7ce4e0d97b70fcf51c66ad3599f075cd18816
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: methods
-OS: linux
-Arch: s390x
 
 Package: dbplyr
 Version: 2.5.0
@@ -2106,5 +2073,38 @@ Platform: s390x-ibm-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: tools, utils
+OS: linux
+Arch: s390x
+
+Package: cpp11
+Version: 0.5.0
+Depends: R (>= 3.6.0), R (>= 4.1), R (< 4.1.99)
+Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue, knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp, testthat (>= 3.2.0), tibble, utils, vctrs, withr
+License: MIT + file LICENSE
+File: cpp11_0.5.0_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/cpp11/releases/download/0.5.0/cpp11_0.5.0_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-08-27 14:28:06 UTC; unix
+Filesize: 269611
+SHA256: 667fc9c9bf6773191ebb0b61bfb3c471b4e742b4a7274d58fed716226028bed4
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: data.table
+Version: 1.16.0
+Depends: R (>= 3.3.0), R (>= 4.1), R (< 4.1.99)
+Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
+License: MPL-2.0 | file LICENSE
+File: data.table_1.16.0_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/data.table/releases/download/1.16.0/data.table_1.16.0_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-08-27 14:28:19 UTC; unix
+Filesize: 2791646
+SHA256: 829af8a72bfe6344144381d0bfc99385c7ddc3c96e2db1f884c514073a707e11
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: methods
 OS: linux
 Arch: s390x
