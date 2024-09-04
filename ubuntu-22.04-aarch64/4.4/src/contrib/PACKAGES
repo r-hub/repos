@@ -2870,23 +2870,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libpng
 LinkingTo: cpp11, systemfonts
 
-Package: matrixStats
-Version: 1.3.0
-Depends: R (>= 2.12.0), R (>= 4.4), R (< 4.4.99)
-Suggests: utils, base64enc, ggplot2, knitr, markdown, microbenchmark, R.devices, R.rsp
-License: Artistic-2.0
-File: matrixStats_1.3.0_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/matrixStats/releases/download/1.3.0/matrixStats_1.3.0_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-16 07:43:32 UTC; unix
-Filesize: 707478
-SHA256: 28dd9d914437b8bd989445c30766c09e967e1a67b65d048ea5096d58977caafc
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: plotly
 Version: 4.10.4
 Depends: R (>= 3.2.0), ggplot2 (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
@@ -4858,6 +4841,24 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
+Package: mvtnorm
+Version: 1.3-1
+Depends: R(>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Imports: stats
+Suggests: qrng, numDeriv
+License: GPL-2
+File: mvtnorm_1.3-1_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.3-1/mvtnorm_1.3-1_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-09-03 18:36:49 UTC; unix
+Filesize: 969803
+SHA256: f4c4d80969d902ba4b622118c9bab4ad0ba0e55dac50291b8e3cb8771c1840fe
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
 Package: rlang
 Version: 1.1.4
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -4870,8 +4871,8 @@ DownloadURL: https://github.com/cran/rlang/releases/download/1.1.4/rlang_1.1.4_b
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-04 18:33:16 UTC; unix
-Filesize: 2068875
-SHA256: 4fb469e06f890aa568dcffd9edebfc94e71177dc1500ee36759c44a1978cdf00
+Filesize: 2068870
+SHA256: 83d7206e5f1bf814500438d259d36982901b45f4d3d669eaec851d42feb75307
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4889,26 +4890,25 @@ DownloadURL: https://github.com/cran/cli/releases/download/3.6.3/cli_3.6.3_b2_R4
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-22 18:32:00 UTC; unix
-Filesize: 1417983
-SHA256: ee2158c3b629d553082cea8697551c3fb16183ca15a7222276392a41bde240fa
+Filesize: 1417984
+SHA256: 4b4844d94c30aa9919b96447e6f2d3747befd820cf801f4cad3cd2b72c0142ea
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: mvtnorm
-Version: 1.3-1
-Depends: R(>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Imports: stats
-Suggests: qrng, numDeriv
-License: GPL-2
-File: mvtnorm_1.3-1_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.3-1/mvtnorm_1.3-1_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Package: matrixStats
+Version: 1.4.0
+Depends: R (>= 2.12.0), R (>= 4.4), R (< 4.4.99)
+Suggests: utils, base64enc, ggplot2, knitr, markdown, microbenchmark, R.devices, R.rsp
+License: Artistic-2.0
+File: matrixStats_1.4.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/matrixStats/releases/download/1.4.0/matrixStats_1.4.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
 OS: linux
 Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-09-03 18:36:49 UTC; unix
-Filesize: 969803
-SHA256: f4c4d80969d902ba4b622118c9bab4ad0ba0e55dac50291b8e3cb8771c1840fe
+Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-09-04 18:35:19 UTC; unix
+Filesize: 695467
+SHA256: e7801fae1a4ab52a1923af9c54178293e6115fc1de9611170819b58301cd8153
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
