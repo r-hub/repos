@@ -3812,26 +3812,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: microbenchmark
-Version: 1.4.10
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: graphics, stats
-Suggests: ggplot2, multcomp, RUnit
-License: BSD_2_clause + file LICENSE
-File: microbenchmark_1.4.10_b1_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/microbenchmark/releases/download/1.4.10/microbenchmark_1.4.10_b1_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-06-28 17:33:58 UTC; unix
-Filesize: 62971
-SHA256: 99d5a4c5f1cd06e36abcde3829abef21f5e244f10759cfd7f1bf39e79367fc03
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: On a Unix-alike, one of the C functions mach_absolute_time (macOS), clock_gettime or gethrtime. If none of these is found, the obsolescent POSIX function gettimeofday will be
-        tried.
-
 Package: pkgload
 Version: 1.4.0
 Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
@@ -4781,3 +4761,23 @@ RVersion: 4.5
 Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: microbenchmark
+Version: 1.5.0
+Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
+Imports: graphics, stats
+Suggests: ggplot2, multcomp, RUnit
+License: BSD_2_clause + file LICENSE
+File: microbenchmark_1.5.0_b2_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/microbenchmark/releases/download/1.5.0/microbenchmark_1.5.0_b2_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2024-09-05 17:35:39 UTC; unix
+Filesize: 66321
+SHA256: c4b43cbd0fad6678357a7f26202b5264b95fad901a225fd02cda982f6a178d44
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: On a Unix-alike, one of the C functions mach_absolute_time (macOS), clock_gettime or gethrtime. If none of these is found, the obsolescent POSIX function gettimeofday will be
+        tried.
