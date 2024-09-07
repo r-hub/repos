@@ -1,25 +1,3 @@
-Package: sf
-Version: 1.0-16
-Depends: methods, R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, Rcpp (>= 0.12.18), s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
-Suggests: blob, nanoarrow, covr, dplyr (>= 1.0.0), ggplot2, knitr, lwgeom (>= 0.2-14), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>=
-        1.1.0), RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.2-0), terra, testthat (>= 3.0.0), tibble (>=
-        1.4.1), tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk (>= 0.9.0)
-License: GPL-2 | MIT + file LICENSE
-File: sf_1.0-16_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/sf/releases/download/1.0-16/sf_1.0-16_b1_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-03-29 14:55:02 UTC; unix
-Filesize: 18546583
-SHA256: 3bac62599611acfb77d63e7dea70574071c87f2cc369c653634a4885fd50fa14
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
-LinkingTo: Rcpp
-
 Package: raster
 Version: 3.6-26
 Depends: sp (>= 1.4-5), R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
@@ -4706,3 +4684,100 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: On a Unix-alike, one of the C functions mach_absolute_time (macOS), clock_gettime or gethrtime. If none of these is found, the obsolescent POSIX function gettimeofday will be
         tried.
+
+Package: classInt
+Version: 0.4-10
+Depends: R (>= 2.2), R (>= 4.5), R (< 4.5.99)
+Imports: grDevices, stats, graphics, e1071, class, KernSmooth
+Suggests: spData (>= 0.2.6.2), units, knitr, rmarkdown, tinytest
+License: GPL (>= 2)
+File: classInt_0.4-10_b1_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/classInt/releases/download/0.4-10/classInt_0.4-10_b1_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-09-07 17:31:52 UTC; unix
+Filesize: 497345
+SHA256: 1f5397a88378c22eefb0c345b1266340a9b25b19f5937bff83765ee7a6da312d
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: s2
+Version: 1.1.7
+Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
+Imports: Rcpp, wk (>= 0.6.0)
+Suggests: bit64, testthat (>= 3.0.0), vctrs
+License: Apache License (== 2.0)
+File: s2_1.1.7_b1_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/s2/releases/download/1.1.7/s2_1.1.7_b1_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-09-07 17:32:00 UTC; unix
+Filesize: 2965391
+SHA256: 8c52a9be16c748ae52d391d8a51c64c089aee069190c878f466aa32d559e7459
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: OpenSSL >= 1.0.1
+LinkingTo: Rcpp, wk
+
+Package: units
+Version: 0.8-5
+Depends: R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
+Imports: Rcpp
+Suggests: NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0), dplyr (>= 1.0.0), vctrs (>= 0.3.1), ggplot2 (> 3.2.1), testthat (>= 3.0.0), vdiffr, knitr, rmarkdown
+License: GPL-2
+File: units_0.8-5_b1_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/units/releases/download/0.8-5/units_0.8-5_b1_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-09-07 17:31:56 UTC; unix
+Filesize: 458493
+SHA256: d8a32b410b89d984b1750942eb2ee08f34366032f437e14c021bfc8b069a8143
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: udunits-2
+LinkingTo: Rcpp (>= 0.12.10)
+
+Package: wk
+Version: 0.9.3
+Depends: R (>= 2.10), R (>= 4.5), R (< 4.5.99)
+Suggests: testthat (>= 3.0.0), vctrs (>= 0.3.0), sf, tibble, readr
+License: MIT + file LICENSE
+File: wk_0.9.3_b1_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/wk/releases/download/0.9.3/wk_0.9.3_b1_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-09-07 17:31:46 UTC; unix
+Filesize: 1720301
+SHA256: 3a92585608eb88ef0b14adc721023750548dd0ffa970cb8bf89066037c60baf9
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: sf
+Version: 1.0-17
+Depends: methods, R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
+Suggests: blob, nanoarrow, covr, dplyr (>= 1.0.0), ggplot2, knitr, lwgeom (>= 0.2-14), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>=
+        1.1.0), RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.2-0), terra, testthat (>= 3.0.0), tibble (>=
+        1.4.1), tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk (>= 0.9.0)
+License: GPL-2 | MIT + file LICENSE
+File: sf_1.0-17_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/sf/releases/download/1.0-17/sf_1.0-17_b2_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-09-07 17:33:48 UTC; unix
+Filesize: 18730604
+SHA256: ac04df62e0668ad1177ff3fb88dfa2657fd10996d451c472e10834d30c5cca06
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
+LinkingTo: Rcpp
