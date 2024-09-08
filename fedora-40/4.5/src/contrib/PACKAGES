@@ -2811,25 +2811,6 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: ggrepel
-Version: 0.9.5
-Depends: R (>= 3.0.0), ggplot2 (>= 2.2.0), R (>= 4.5), R (< 4.5.99)
-Imports: grid, Rcpp, rlang (>= 0.3.0), scales (>= 0.5.0), withr (>= 2.5.0)
-Suggests: knitr, rmarkdown, testthat, svglite, vdiffr, gridExtra, ggpp, patchwork, devtools, prettydoc, ggbeeswarm, dplyr, magrittr, readr, stringr
-License: GPL-3 | file LICENSE
-File: ggrepel_0.9.5_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/ggrepel/releases/download/0.9.5/ggrepel_0.9.5_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-24 21:27:41 UTC; unix
-Filesize: 846143
-SHA256: be2f2a2f35db98d20dad53053e35314f292293ec4d41b0cedecf6d79137b39d2
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: glmnet
 Version: 4.1-8
 Depends: R (>= 3.6.0), Matrix (>= 1.0-6), R (>= 4.5), R (< 4.5.99)
@@ -4747,23 +4728,6 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: matrixStats
-Version: 1.4.0
-Depends: R (>= 2.12.0), R (>= 4.5), R (< 4.5.99)
-Suggests: utils, base64enc, ggplot2, knitr, markdown, microbenchmark, R.devices, R.rsp
-License: Artistic-2.0
-File: matrixStats_1.4.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/matrixStats/releases/download/1.4.0/matrixStats_1.4.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-09-04 17:25:19 UTC; unix
-Filesize: 800386
-SHA256: f8e5d34586e9cc6a8be123090248a51f292d4287fa23d4df53c836a9ed931884
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: microbenchmark
 Version: 1.5.0
 Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
@@ -4822,3 +4786,39 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
 LinkingTo: Rcpp
+
+Package: ggrepel
+Version: 0.9.6
+Depends: R (>= 3.0.0), ggplot2 (>= 2.2.0), R (>= 4.5), R (< 4.5.99)
+Imports: grid, Rcpp, rlang (>= 0.3.0), scales (>= 0.5.0), withr (>= 2.5.0)
+Suggests: knitr, rmarkdown, testthat, svglite, vdiffr, gridExtra, ggpp, patchwork, devtools, prettydoc, ggbeeswarm, dplyr, magrittr, readr, stringr
+License: GPL-3 | file LICENSE
+File: ggrepel_0.9.6_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/ggrepel/releases/download/0.9.6/ggrepel_0.9.6_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-09-08 17:23:06 UTC; unix
+Filesize: 967141
+SHA256: 3a28eb9f1c3582f64901ca55b9df4c5f8d6f49acfa702a5a0425cf22ebe6c949
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: matrixStats
+Version: 1.4.1
+Depends: R (>= 2.12.0), R (>= 4.5), R (< 4.5.99)
+Suggests: utils, base64enc, ggplot2, knitr, markdown, microbenchmark, R.devices, R.rsp
+License: Artistic-2.0
+File: matrixStats_1.4.1_b3_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/matrixStats/releases/download/1.4.1/matrixStats_1.4.1_b3_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-09-08 17:23:03 UTC; unix
+Filesize: 800689
+SHA256: 5e14f75533628a7e9299bcf1d73d9571e8844b4a2a8a021416058317b3504d0d
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
