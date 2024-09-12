@@ -781,24 +781,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: later, Rcpp
 
-Package: ps
-Version: 1.7.7
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-Imports: utils
-Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes
-License: MIT + file LICENSE
-File: ps_1.7.7_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/ps/releases/download/1.7.7/ps_1.7.7_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-20 14:51:27 UTC; unix
-Filesize: 390042
-SHA256: 32a046bb7c241cd693a1643d11572b4d5cd3193da57ea06660760afe3a87174d
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: purrr
 Version: 1.0.2
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -3039,21 +3021,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: abind
-Version: 1.4-5
-Depends: R (>= 1.5.0), R (>= 4.4), R (< 4.4.99)
-Imports: methods, utils
-License: LGPL (>= 2)
-File: abind_1.4-5_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/abind/releases/download/1.4-5/abind_1.4-5_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.4.1; ; 2024-07-20 14:54:57 UTC; unix
-Filesize: 62230
-SHA256: 72a0c7575d95d83f8bea67fdcd7bc6b9d1ed20a92e721b2a8a7f79463f2f35ab
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: ape
 Version: 5.8
 Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
@@ -3691,25 +3658,6 @@ Arch: arm64
 Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-20 16:12:46 UTC; unix
 Filesize: 7113987
 SHA256: 650b9eb141f5555eefbbbb89fc996dfd93aab6e6d3cd0338ca8c7089aeb57685
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
-Package: RcppArmadillo
-Version: 14.0.0-1
-Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
-Imports: Rcpp (>= 1.0.8), stats, utils, methods
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-License: GPL (>= 2)
-File: RcppArmadillo_14.0.0-1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/14.0.0-1/RcppArmadillo_14.0.0-1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-20 14:59:38 UTC; unix
-Filesize: 1885940
-SHA256: ad789d1dd2834b3881e48dff39255ed59ef6d2d7a92bd0ae66e90d56891214e4
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
@@ -4892,3 +4840,55 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: freetype2, libpng, libtiff, libjpeg
 LinkingTo: systemfonts, textshaping
+
+Package: ps
+Version: 1.8.0
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+Imports: utils
+Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes, withr
+License: MIT + file LICENSE
+File: ps_1.8.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/ps/releases/download/1.8.0/ps_1.8.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-09-12 23:25:54 UTC; unix
+Filesize: 483572
+SHA256: 868de5d14228cfcbe5aeb31e718094e5cc302ce86f9da8f864869a8df8f292df
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: abind
+Version: 1.4-8
+Depends: R (>= 1.5.0), R (>= 4.4), R (< 4.4.99)
+Imports: methods, utils
+License: MIT + file LICENSE
+File: abind_1.4-8_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/abind/releases/download/1.4-8/abind_1.4-8_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.1; ; 2024-09-12 23:26:30 UTC; unix
+Filesize: 65335
+SHA256: 4e33c7a6a4a9d836cb3ef68a134447fabd294e83c28f7134181f032a20c46cd0
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: RcppArmadillo
+Version: 14.0.2-1
+Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
+Imports: Rcpp (>= 1.0.8), stats, utils, methods
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+File: RcppArmadillo_14.0.2-1_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/14.0.2-1/RcppArmadillo_14.0.2-1_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-09-12 23:26:35 UTC; unix
+Filesize: 1865770
+SHA256: 02005f1bb7b7a000b455eca97bb7859f4da3f001d303885dc3302c7e1fe8e38c
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
