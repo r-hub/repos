@@ -3294,26 +3294,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11 (>= 0.2.1)
 SystemRequirements: fontconfig, freetype2
 
-Package: ragg
-Version: 1.3.2
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
-Suggests: covr, graphics, grid, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: ragg_1.3.2_b3_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/ragg/releases/download/1.3.2/ragg_1.3.2_b3_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-05-15 17:30:42 UTC; unix
-Filesize: 2019358
-SHA256: 90ac41e84b9022c65eccb0b2340ecf48a10aa40c951d76fd67215baa0bc03d54
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: systemfonts, textshaping
-SystemRequirements: freetype2, libpng, libtiff, libjpeg
-
 Package: cachem
 Version: 1.1.0
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -3962,25 +3942,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
-
-Package: RcppArmadillo
-Version: 14.0.0-1
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-Imports: Rcpp (>= 1.0.8), stats, utils, methods
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-License: GPL (>= 2)
-File: RcppArmadillo_14.0.0-1_b6_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/14.0.0-1/RcppArmadillo_14.0.0-1_b6_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-07-08 17:32:20 UTC; unix
-Filesize: 1090021
-SHA256: 6ae0cf8cff782e477b6d8bbffbfbd38fdf8daba882abbd1fbbd88d81d29f3c3a
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
 
 Package: QuickJSR
 Version: 1.3.1
@@ -4781,3 +4742,42 @@ RVersion: 4.5
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: ragg
+Version: 1.3.3
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
+Suggests: covr, graphics, grid, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: ragg_1.3.3_b4_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/ragg/releases/download/1.3.3/ragg_1.3.3_b4_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-09-12 17:33:01 UTC; unix
+Filesize: 2020100
+SHA256: e750efdac6846efd96a97b64b3f8605f97e1bf1f13a537db48655cf678956ed8
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: systemfonts, textshaping
+SystemRequirements: freetype2, libpng, libtiff, libjpeg
+
+Package: RcppArmadillo
+Version: 14.0.2-1
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+Imports: Rcpp (>= 1.0.8), stats, utils, methods
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+File: RcppArmadillo_14.0.2-1_b7_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/14.0.2-1/RcppArmadillo_14.0.2-1_b7_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-09-12 17:33:43 UTC; unix
+Filesize: 1066121
+SHA256: fbc7260bb2a94ae444afd7dc0287baff049d70de7bfd540c0ce4990e22bc9d30
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
