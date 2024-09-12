@@ -3093,26 +3093,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: fontconfig, freetype2
 LinkingTo: cpp11 (>= 0.2.1)
 
-Package: ragg
-Version: 1.3.2
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
-Suggests: covr, graphics, grid, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: ragg_1.3.2_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/ragg/releases/download/1.3.2/ragg_1.3.2_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-15 17:06:58 UTC; unix
-Filesize: 814478
-SHA256: 94827b5ae5e95124e39f71824428b32f4a8595a048bf6314a3c8bb5ca502ae7e
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: freetype2, libpng, libtiff, libjpeg
-LinkingTo: systemfonts, textshaping
-
 Package: cachem
 Version: 1.1.0
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -3709,25 +3689,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
-
-Package: RcppArmadillo
-Version: 14.0.0-1
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-Imports: Rcpp (>= 1.0.8), stats, utils, methods
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-License: GPL (>= 2)
-File: RcppArmadillo_14.0.0-1_b6_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/14.0.0-1/RcppArmadillo_14.0.0-1_b6_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-07-08 17:05:47 UTC; unix
-Filesize: 1110367
-SHA256: 61a295752f9cfacb1e9b0cd0b07308a4b61c37a9e73f04f21049179853732d78
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
 
 Package: magick
 Version: 2.8.4
@@ -4475,3 +4436,42 @@ RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: ragg
+Version: 1.3.3
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
+Suggests: covr, graphics, grid, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: ragg_1.3.3_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/ragg/releases/download/1.3.3/ragg_1.3.3_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-09-12 17:07:35 UTC; unix
+Filesize: 814497
+SHA256: 1175541e2e9b3070051dd57778bab2e326f49039689f4b28b68d7f7f3e649bf3
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: freetype2, libpng, libtiff, libjpeg
+LinkingTo: systemfonts, textshaping
+
+Package: RcppArmadillo
+Version: 14.0.2-1
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+Imports: Rcpp (>= 1.0.8), stats, utils, methods
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+File: RcppArmadillo_14.0.2-1_b7_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/14.0.2-1/RcppArmadillo_14.0.2-1_b7_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-09-12 17:07:37 UTC; unix
+Filesize: 1087777
+SHA256: 586ecb9b673f2b408692b481fed0118ebb712351b1f9274041f47cb5731877ab
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
