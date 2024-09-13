@@ -2186,21 +2186,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: abind
-Version: 1.4-5
-Depends: R (>= 1.5.0), R (>= 4.5), R (< 4.5.99)
-Imports: methods, utils
-License: LGPL (>= 2)
-File: abind_1.4-5_b1_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/abind/releases/download/1.4-5/abind_1.4-5_b1_R4.5_x86_64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-03-29 15:17:37 UTC; unix
-Filesize: 62230
-SHA256: 41581cbd8f623f925dcf5f57f94818334431f38c2959d8d81e39a70ee96da7e3
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: assertthat
 Version: 0.2.1
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -3739,22 +3724,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: cmake (>= 3.2.0) which is used only on Linux or macOS systems when no system build of nlopt (>= 2.7.0) can be found.
 
-Package: Deriv
-Version: 4.1.3
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: methods
-Suggests: testthat
-License: GPL (>= 3)
-File: Deriv_4.1.3_b1_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/Deriv/releases/download/4.1.3/Deriv_4.1.3_b1_R4.5_x86_64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-06-28 17:33:48 UTC; unix
-Filesize: 147781
-SHA256: 9547a0db234cc617e65ebbb47ff988056129e73ed280a12f3fbc4b0b794ae23e
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: doBy
 Version: 4.6.22
 Depends: R (>= 4.2.0), methods, R (>= 4.5), R (< 4.5.99)
@@ -3858,24 +3827,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Pandoc (>= 1.17.2)
-
-Package: ps
-Version: 1.7.7
-Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
-Imports: utils
-Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes
-License: MIT + file LICENSE
-File: ps_1.7.7_b2_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/ps/releases/download/1.7.7/ps_1.7.7_b2_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-07-03 17:30:59 UTC; unix
-Filesize: 319130
-SHA256: c7b8b3a47ad6169228e993b3074472ed1e9a061bc99b1d88f61fcbd9af04d1f6
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: lme4
 Version: 1.1-35.5
@@ -4781,3 +4732,52 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
+
+Package: abind
+Version: 1.4-8
+Depends: R (>= 1.5.0), R (>= 4.5), R (< 4.5.99)
+Imports: methods, utils
+License: MIT + file LICENSE
+File: abind_1.4-8_b2_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/abind/releases/download/1.4-8/abind_1.4-8_b2_R4.5_x86_64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-09-13 17:35:21 UTC; unix
+Filesize: 65100
+SHA256: 2bcfe49bf1cf4ea667c69cc0a516ee8810447ab8fb61fe8cc01208b1bb55c759
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: Deriv
+Version: 4.1.6
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: methods
+Suggests: testthat (>= 0.11.0)
+License: GPL (>= 3)
+File: Deriv_4.1.6_b2_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/Deriv/releases/download/4.1.6/Deriv_4.1.6_b2_R4.5_x86_64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-09-13 17:35:23 UTC; unix
+Filesize: 150672
+SHA256: 4d85a07e60e84e14e9c23a7a08c9e5e2429285a8d3f1822f5bcbef0556a94727
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: ps
+Version: 1.8.0
+Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
+Imports: utils
+Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes, withr
+License: MIT + file LICENSE
+File: ps_1.8.0_b3_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/ps/releases/download/1.8.0/ps_1.8.0_b3_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2024-09-13 17:34:29 UTC; unix
+Filesize: 391856
+SHA256: 6ef7cbdf4e7f5d2821195baf3fc34877e64363da4c611df994b2759159141528
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
