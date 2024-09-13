@@ -2154,21 +2154,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: abind
-Version: 1.4-5
-Depends: R (>= 1.5.0), R (>= 4.5), R (< 4.5.99)
-Imports: methods, utils
-License: LGPL (>= 2)
-File: abind_1.4-5_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/abind/releases/download/1.4-5/abind_1.4-5_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.0; ; 2024-03-27 09:39:12 UTC; unix
-Filesize: 62667
-SHA256: ee97c42ee64e7c5ef2c7a2f517b203d8633cea9592a28d4ac52164c2c14f5b8e
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: assertthat
 Version: 0.2.1
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -3719,22 +3704,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: cmake (>= 3.2.0) which is used only on Linux or macOS systems when no system build of nlopt (>= 2.7.0) can be found.
 
-Package: Deriv
-Version: 4.1.3
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: methods
-Suggests: testthat
-License: GPL (>= 3)
-File: Deriv_4.1.3_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/Deriv/releases/download/4.1.3/Deriv_4.1.3_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.0; ; 2024-06-27 16:39:12 UTC; unix
-Filesize: 147525
-SHA256: 25fcd1eb7e8ef197c33f459537dfbbec61a29bf52a8a3efd9d30c7301646bb43
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: doBy
 Version: 4.6.22
 Depends: R (>= 4.2.0), methods, R (>= 4.5), R (< 4.5.99)
@@ -3838,24 +3807,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Pandoc (>= 1.17.2)
-
-Package: ps
-Version: 1.7.7
-Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
-Imports: utils
-Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes
-License: MIT + file LICENSE
-File: ps_1.7.7_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/ps/releases/download/1.7.7/ps_1.7.7_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-07-03 16:38:28 UTC; unix
-Filesize: 396641
-SHA256: e697d02f6bafc840c4deb690797d7e91617715df5d8b4554d2e84d744842b31b
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: lme4
 Version: 1.1-35.5
@@ -4822,3 +4773,52 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
+
+Package: abind
+Version: 1.4-8
+Depends: R (>= 1.5.0), R (>= 4.5), R (< 4.5.99)
+Imports: methods, utils
+License: MIT + file LICENSE
+File: abind_1.4-8_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/abind/releases/download/1.4-8/abind_1.4-8_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.0; ; 2024-09-13 16:40:02 UTC; unix
+Filesize: 65375
+SHA256: 374fb7a44f0ce08140e1786087df5a3b859fa218d798ca0f4c5288668f6f92bb
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: Deriv
+Version: 4.1.6
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: methods
+Suggests: testthat (>= 0.11.0)
+License: GPL (>= 3)
+File: Deriv_4.1.6_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/Deriv/releases/download/4.1.6/Deriv_4.1.6_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.0; ; 2024-09-13 16:40:02 UTC; unix
+Filesize: 150330
+SHA256: 21c125fef225f62810d30396814c0ac5030bd0d812f0fe549065f7be85fae3c5
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: ps
+Version: 1.8.0
+Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
+Imports: utils
+Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes, withr
+License: MIT + file LICENSE
+File: ps_1.8.0_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/ps/releases/download/1.8.0/ps_1.8.0_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-09-13 16:40:03 UTC; unix
+Filesize: 490281
+SHA256: d31d7ce079abb0c0a50a104199460daafc1de18d37f8c82a2aea880df92d7c0e
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
