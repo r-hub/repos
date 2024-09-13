@@ -2154,21 +2154,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: abind
-Version: 1.4-5
-Depends: R (>= 1.5.0), R (>= 4.5), R (< 4.5.99)
-Imports: methods, utils
-License: LGPL (>= 2)
-File: abind_1.4-5_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/abind/releases/download/1.4-5/abind_1.4-5_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.5.0; ; 2024-03-27 12:59:21 UTC; unix
-Filesize: 62209
-SHA256: 3d296115a8e7ae1e7460e37148d13575a118bc9e0994a866273a97714c40db09
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: assertthat
 Version: 0.2.1
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -3461,22 +3446,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: cmake (>= 3.2.0) which is used only on Linux or macOS systems when no system build of nlopt (>= 2.7.0) can be found.
 
-Package: Deriv
-Version: 4.1.3
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: methods
-Suggests: testthat
-License: GPL (>= 3)
-File: Deriv_4.1.3_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/Deriv/releases/download/4.1.3/Deriv_4.1.3_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.5.0; ; 2024-06-28 17:07:41 UTC; unix
-Filesize: 147372
-SHA256: 522f32bacddf760e0ddaf3ad8084ddbff334ef4b094833f7c578c4d33bd99ff5
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: doBy
 Version: 4.6.22
 Depends: R (>= 4.2.0), methods, R (>= 4.5), R (< 4.5.99)
@@ -3580,24 +3549,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Pandoc (>= 1.17.2)
-
-Package: ps
-Version: 1.7.7
-Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
-Imports: utils
-Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes
-License: MIT + file LICENSE
-File: ps_1.7.7_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/ps/releases/download/1.7.7/ps_1.7.7_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-07-03 17:03:31 UTC; unix
-Filesize: 324741
-SHA256: b2f4127ae6d0b5f6e8ede437d3225daa4ef285063e63191bf347c05e4996374b
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: lme4
 Version: 1.1-35.5
@@ -4475,3 +4426,52 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
+
+Package: abind
+Version: 1.4-8
+Depends: R (>= 1.5.0), R (>= 4.5), R (< 4.5.99)
+Imports: methods, utils
+License: MIT + file LICENSE
+File: abind_1.4-8_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/abind/releases/download/1.4-8/abind_1.4-8_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.5.0; ; 2024-09-13 17:07:28 UTC; unix
+Filesize: 65299
+SHA256: 1572add7e312a7ef0bcf3b5882dbab9be7f24321912d5d70c8de8f4ca7695443
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: Deriv
+Version: 4.1.6
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: methods
+Suggests: testthat (>= 0.11.0)
+License: GPL (>= 3)
+File: Deriv_4.1.6_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/Deriv/releases/download/4.1.6/Deriv_4.1.6_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.5.0; ; 2024-09-13 17:07:28 UTC; unix
+Filesize: 150097
+SHA256: 4a20d86e3802297d8e06bb55b12c95b0fea10a2dc6448caf146218c138d8cbbd
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: ps
+Version: 1.8.0
+Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
+Imports: utils
+Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes, withr
+License: MIT + file LICENSE
+File: ps_1.8.0_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/ps/releases/download/1.8.0/ps_1.8.0_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-09-13 17:07:29 UTC; unix
+Filesize: 398853
+SHA256: f8a9f07e974b04d7ebbc49891d06b02c7fec52ecd5b00d73891db1b668fba58a
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
