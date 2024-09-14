@@ -4573,22 +4573,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
 
-Package: httr2
-Version: 1.0.3
-Depends: R (>= 4.0), R (>= 4.4), R (< 4.4.99)
-Imports: cli (>= 3.0.0), curl (>= 5.1.0), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
-Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
-License: MIT + file LICENSE
-File: httr2_1.0.3_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/httr2/releases/download/1.0.3/httr2_1.0.3_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.1; ; 2024-08-22 18:35:33 UTC; unix
-Filesize: 588804
-SHA256: 2d31770bc60f4cd5f8e54d477f5caa3b50818f1f5a780ae50c8aff7a7a69e60e
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: waldo
 Version: 0.5.3
 Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
@@ -4860,6 +4844,22 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
+Package: Deriv
+Version: 4.1.6
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: methods
+Suggests: testthat (>= 0.11.0)
+License: GPL (>= 3)
+File: Deriv_4.1.6_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/Deriv/releases/download/4.1.6/Deriv_4.1.6_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.1; ; 2024-09-13 18:37:26 UTC; unix
+Filesize: 150494
+SHA256: 4e9283eb62247178379a219a9e522e04a2f002e779bed8855b7b9d33e3b87847
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
 Package: rlang
 Version: 1.1.4
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -4872,8 +4872,8 @@ DownloadURL: https://github.com/cran/rlang/releases/download/1.1.4/rlang_1.1.4_b
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-04 18:33:16 UTC; unix
-Filesize: 2068873
-SHA256: a74a496ffc1e96fa5f8f2a4df58da45681002031054468aec0888f2b25440749
+Filesize: 2068875
+SHA256: 30d884edadb8e2f3feb41f65e6a01662e184c354f68239d0ad5f26e598c50477
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4891,24 +4891,24 @@ DownloadURL: https://github.com/cran/cli/releases/download/3.6.3/cli_3.6.3_b2_R4
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-22 18:32:00 UTC; unix
-Filesize: 1417983
-SHA256: dd2e7f6ffcb8971ad425cbb666283dbe00a7ab35cf1a673d0dba9a1b0e14c7e0
+Filesize: 1417982
+SHA256: e561c348dec16289ff7d2063426fed9677834fcec7ef4ac13638a1f19ab4d52f
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: Deriv
-Version: 4.1.6
-Depends: R (>= 4.4), R (< 4.4.99)
-Imports: methods
-Suggests: testthat (>= 0.11.0)
-License: GPL (>= 3)
-File: Deriv_4.1.6_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/Deriv/releases/download/4.1.6/Deriv_4.1.6_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.1; ; 2024-09-13 18:37:26 UTC; unix
-Filesize: 150494
-SHA256: 4e9283eb62247178379a219a9e522e04a2f002e779bed8855b7b9d33e3b87847
+Package: httr2
+Version: 1.0.4
+Depends: R (>= 4.0), R (>= 4.4), R (< 4.4.99)
+Imports: cli (>= 3.0.0), curl (>= 5.2.2), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
+Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
+License: MIT + file LICENSE
+File: httr2_1.0.4_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/httr2/releases/download/1.0.4/httr2_1.0.4_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.1; ; 2024-09-14 18:35:14 UTC; unix
+Filesize: 618942
+SHA256: 3e8b45e941afaf94c7cf375812cf6b81b388a3df9e2882b7de4b6f68ddcfa808
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
