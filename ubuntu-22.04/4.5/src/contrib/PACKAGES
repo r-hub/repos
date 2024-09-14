@@ -4520,22 +4520,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
 
-Package: httr2
-Version: 1.0.3
-Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
-Imports: cli (>= 3.0.0), curl (>= 5.1.0), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
-Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
-License: MIT + file LICENSE
-File: httr2_1.0.3_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/httr2/releases/download/1.0.3/httr2_1.0.3_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.0; ; 2024-08-22 16:42:12 UTC; unix
-Filesize: 586782
-SHA256: 6507d14416cd4d263f782adfb019c2882cfb6b8d2e2c7a62e2291a0a363410a1
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: waldo
 Version: 0.5.3
 Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
@@ -4818,6 +4802,22 @@ Arch: amd64
 Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-09-13 16:40:03 UTC; unix
 Filesize: 490281
 SHA256: d31d7ce079abb0c0a50a104199460daafc1de18d37f8c82a2aea880df92d7c0e
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: httr2
+Version: 1.0.4
+Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
+Imports: cli (>= 3.0.0), curl (>= 5.2.2), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
+Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
+License: MIT + file LICENSE
+File: httr2_1.0.4_b5_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/httr2/releases/download/1.0.4/httr2_1.0.4_b5_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.0; ; 2024-09-14 16:39:13 UTC; unix
+Filesize: 615639
+SHA256: d3104b1549c622e4302c77189bf400e6c5f3c0a75fa20f8150a31b9d7b6b20db
 RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
