@@ -1569,22 +1569,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: patchwork
-Version: 1.2.0
-Depends: R (>= 4.4), R (< 4.4.99)
-Imports: ggplot2 (>= 3.0.0), gtable, grid, stats, grDevices, utils, graphics, rlang, cli
-Suggests: knitr, rmarkdown, gridGraphics, gridExtra, ragg, testthat (>= 2.1.0), vdiffr, covr, png
-License: MIT + file LICENSE
-File: patchwork_1.2.0_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/patchwork/releases/download/1.2.0/patchwork_1.2.0_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2024-05-16 07:57:06 UTC; unix
-Filesize: 3297867
-SHA256: 2fba064bb37679a957e313ad9734d542b62d336c47dca96d078b108122d6093c
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: progressr
 Version: 0.14.0
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -2394,24 +2378,6 @@ Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-16 08:01:29 UTC; unix
 Filesize: 502778
 SHA256: 66133c9c6ca0b1d4b057ec1b1c2b865dcccdf6848a4926768ddab292d80e420e
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: e1071
-Version: 1.7-14
-Depends: R (>= 4.4), R (< 4.4.99)
-Imports: graphics, grDevices, class, stats, methods, utils, proxy
-Suggests: cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable, Matrix, MASS, slam
-License: GPL-2 | GPL-3
-File: e1071_1.7-14_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/e1071/releases/download/1.7-14/e1071_1.7-14_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-16 08:01:23 UTC; unix
-Filesize: 678807
-SHA256: 65ac4f9e3d43a606b9148d8f1050e20414dc73dc9686c27e5b585889f71f695b
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4860,6 +4826,22 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
+Package: tinytex
+Version: 0.53
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: xfun (>= 0.29)
+Suggests: testit, rstudioapi
+License: MIT + file LICENSE
+File: tinytex_0.53_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/tinytex/releases/download/0.53/tinytex_0.53_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.1; ; 2024-09-15 18:36:52 UTC; unix
+Filesize: 141056
+SHA256: 7532b2acefdc849ec3761e184c6405b192f89625f564bba4797c6a90cded5e9f
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
 Package: rlang
 Version: 1.1.4
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -4872,8 +4854,8 @@ DownloadURL: https://github.com/cran/rlang/releases/download/1.1.4/rlang_1.1.4_b
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-04 18:33:16 UTC; unix
-Filesize: 2068877
-SHA256: bf8238c292547f3b192226f034a52278d9ea8bdf04ce9d3acd95649e7c5a40eb
+Filesize: 2068875
+SHA256: 5c2802b0ca732347a6143f8232d0d905353bcaa7e0beaf9a4ee13dae080bc781
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4891,24 +4873,42 @@ DownloadURL: https://github.com/cran/cli/releases/download/3.6.3/cli_3.6.3_b2_R4
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-22 18:32:00 UTC; unix
-Filesize: 1417984
-SHA256: 06141b68e9fc5f7b870efb332542550082b1005afc8db59129b65bfe0917e568
+Filesize: 1417982
+SHA256: d31cdcbec3225b198cd6d73aca2dfd78d7f810e570b17142ce72f195c54c31aa
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: tinytex
-Version: 0.53
+Package: patchwork
+Version: 1.3.0
 Depends: R (>= 4.4), R (< 4.4.99)
-Imports: xfun (>= 0.29)
-Suggests: testit, rstudioapi
+Imports: ggplot2 (>= 3.0.0), gtable, grid, stats, grDevices, utils, graphics, rlang (>= 1.0.0), cli, farver
+Suggests: knitr, rmarkdown, gridGraphics, gridExtra, ragg, testthat (>= 2.1.0), vdiffr, covr, png, gt (>= 0.11.0)
 License: MIT + file LICENSE
-File: tinytex_0.53_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/tinytex/releases/download/0.53/tinytex_0.53_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.1; ; 2024-09-15 18:36:52 UTC; unix
-Filesize: 141056
-SHA256: 7532b2acefdc849ec3761e184c6405b192f89625f564bba4797c6a90cded5e9f
+File: patchwork_1.3.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/patchwork/releases/download/1.3.0/patchwork_1.3.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.1; ; 2024-09-16 18:39:02 UTC; unix
+Filesize: 3347356
+SHA256: 5c8e25ddfc91306a1cf5cffb0ac87527afdcdca87d994856cdee0ef425fe32eb
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: e1071
+Version: 1.7-16
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: graphics, grDevices, class, stats, methods, utils, proxy
+Suggests: cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable, Matrix, MASS, slam
+License: GPL-2 | GPL-3
+File: e1071_1.7-16_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/e1071/releases/download/1.7-16/e1071_1.7-16_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-09-16 18:39:02 UTC; unix
+Filesize: 679615
+SHA256: 8706e65bc5ad5582d7159305ecaac60b3955954f19856f7882caa7357a93b036
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
