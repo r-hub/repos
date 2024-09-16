@@ -1617,22 +1617,6 @@ Arch: s390x
 SystemRequirements: A system with zoneinfo data (e.g.  /usr/share/zoneinfo) as well as a recent-enough C++11 compiler (such as g++-4.8 or later). On Windows the zoneinfo included with R is used.
 LinkingTo: cpp11 (>= 0.2.7)
 
-Package: tinytex
-Version: 0.52
-Depends: R (>= 4.1), R (< 4.1.99)
-Suggests: testit, rstudioapi
-License: MIT + file LICENSE
-File: tinytex_0.52_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/tinytex/releases/download/0.52/tinytex_0.52_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; ; 2024-07-29 07:56:34 UTC; unix
-Filesize: 140803
-SHA256: 390191af93255acee3a78468da46e7717c8435ad219dcfbeb957433754c67380
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: xfun (>= 0.29)
-
 Package: tzdb
 Version: 0.4.0
 Depends: R (>= 3.5.0), R (>= 4.1), R (< 4.1.99)
@@ -2108,3 +2092,19 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: utils
 OS: linux
 Arch: s390x
+
+Package: tinytex
+Version: 0.53
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: testit, rstudioapi
+License: MIT + file LICENSE
+File: tinytex_0.53_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/tinytex/releases/download/0.53/tinytex_0.53_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-09-16 14:30:26 UTC; unix
+Filesize: 139394
+SHA256: 47bd76ad23420deea38a3d0f5f16584d2f0867440e3dd238acd33db98a4ed7a7
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: xfun (>= 0.29)
