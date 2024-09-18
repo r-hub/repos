@@ -3533,22 +3533,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: evaluate
-Version: 0.24.0
-Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
-Imports: methods
-Suggests: covr, ggplot2, lattice, rlang, testthat (>= 3.0.0), withr
-License: MIT + file LICENSE
-File: evaluate_0.24.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/evaluate/releases/download/0.24.0/evaluate_0.24.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.5.0; ; 2024-06-10 17:20:26 UTC; unix
-Filesize: 91123
-SHA256: 5606eeba697ea86d19c3a39f91a476dfcc430bf64588f920abad240397a225ff
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: modeldata
 Version: 1.4.0
 Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
@@ -3844,25 +3828,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 2.0) - https://pandoc.org/
-
-Package: pkgdown
-Version: 2.1.0
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-Imports: bslib (>= 0.5.1), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.0), digest, downlit (>= 0.4.4), fontawesome, fs (>= 1.4.0), httr2 (>= 1.0.0), jsonlite, openssl, purrr (>= 1.0.0), ragg,
-        rlang (>= 1.1.0), rmarkdown (>= 2.27), tibble, whisker, withr (>= 2.4.3), xml2 (>= 1.3.1), yaml
-Suggests: covr, diffviewer, evaluate (>= 0.24.0), gert, gt, htmltools, htmlwidgets, knitr, lifecycle, magick, methods, pkgload (>= 1.0.2), quarto, rsconnect, rstudioapi, rticles, sass, testthat (>=
-        3.1.3), tools
-License: MIT + file LICENSE
-File: pkgdown_2.1.0_b4_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/pkgdown/releases/download/2.1.0/pkgdown_2.1.0_b4_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.5.0; ; 2024-07-07 17:21:39 UTC; unix
-Filesize: 917955
-SHA256: 30beb700f34f628becae34e8c8025f023a94955c0b57936d11c8f14fa3b716bb
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc
 
 Package: knitr
 Version: 1.48
@@ -4822,3 +4787,37 @@ RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: evaluate
+Version: 1.0.0
+Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+Suggests: covr, ggplot2 (>= 3.3.6), lattice, methods, rlang, testthat (>= 3.0.0), withr
+License: MIT + file LICENSE
+File: evaluate_1.0.0_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/evaluate/releases/download/1.0.0/evaluate_1.0.0_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.5.0; ; 2024-09-18 17:22:37 UTC; unix
+Filesize: 108213
+SHA256: ccb988624117d14fffe7f13d60a958a48a1f4146bec429fbacf846ab516ff9fe
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: pkgdown
+Version: 2.1.1
+Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
+Imports: bslib (>= 0.5.1), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.0), digest, downlit (>= 0.4.4), fontawesome, fs (>= 1.4.0), httr2 (>= 1.0.2), jsonlite, openssl, purrr (>= 1.0.0), ragg,
+        rlang (>= 1.1.0), rmarkdown (>= 2.27), tibble, whisker, withr (>= 2.4.3), xml2 (>= 1.3.1), yaml
+Suggests: covr, diffviewer, evaluate (>= 0.24.0), gert, gt, htmltools, htmlwidgets, knitr, lifecycle, magick, methods, pkgload (>= 1.0.2), quarto, rsconnect, rstudioapi, rticles, sass, testthat (>=
+        3.1.3), tools
+License: MIT + file LICENSE
+File: pkgdown_2.1.1_b5_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/pkgdown/releases/download/2.1.1/pkgdown_2.1.1_b5_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.5.0; ; 2024-09-18 17:22:45 UTC; unix
+Filesize: 922046
+SHA256: f1737e37f0555008b42aca69e04922ec6366b91d44f12285a096e7936319b9a9
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc
