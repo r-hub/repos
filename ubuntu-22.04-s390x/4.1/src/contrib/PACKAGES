@@ -831,23 +831,6 @@ GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: htmltools
 
-Package: jsonlite
-Version: 1.8.8
-Depends: methods, R (>= 4.1), R (< 4.1.99)
-Suggests: httr, vctrs, testthat, knitr, rmarkdown, R.rsp, sf
-License: MIT + file LICENSE
-File: jsonlite_1.8.8_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/jsonlite/releases/download/1.8.8/jsonlite_1.8.8_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 12:26:55 UTC; unix
-Filesize: 1090347
-SHA256: 20ce2ec2e31a8a7fa1c126039e4aa0245d760bebaf76b70d2a4012dd4d05b51a
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-OS: linux
-Arch: s390x
-
 Package: knitr
 Version: 1.48
 Depends: R (>= 3.3.0), R (>= 4.1), R (< 4.1.99)
@@ -1839,25 +1822,6 @@ GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: graphics, grDevices
 
-Package: openssl
-Version: 2.2.1
-Depends: R (>= 4.1), R (< 4.1.99)
-Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
-License: MIT + file LICENSE
-File: openssl_2.2.1_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/openssl/releases/download/2.2.1/openssl_2.2.1_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-08-16 14:28:22 UTC; unix
-Filesize: 1397498
-SHA256: 4bee458bb88d008511f0564146309f248b4b4433eab56bbaa7662040ea7a681a
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: askpass
-OS: linux
-Arch: s390x
-SystemRequirements: OpenSSL >= 1.0.2
-
 Package: rmarkdown
 Version: 2.28
 Depends: R (>= 3.0), R (>= 4.1), R (< 4.1.99)
@@ -1968,24 +1932,6 @@ Platform: s390x-ibm-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli, diffobj (>= 0.3.4), glue, methods, rematch2, rlang (>= 1.0.0), tibble
-
-Package: curl
-Version: 5.2.2
-Depends: R (>= 3.0.0), R (>= 4.1), R (< 4.1.99)
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
-License: MIT + file LICENSE
-File: curl_5.2.2_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/curl/releases/download/5.2.2/curl_5.2.2_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-08-26 15:00:27 UTC; unix
-Filesize: 833685
-SHA256: 924b70bfe4311bba5c572842bef3c1beacdbb9f1851b06f12a46521597f58010
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-OS: linux
-Arch: s390x
-SystemRequirements: libcurl: libcurl-devel (rpm) or libcurl4-openssl-dev (deb).
 
 Package: pak
 Version: 0.8.0
@@ -2107,3 +2053,57 @@ RVersion: 4.1
 Platform: s390x-ibm-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: jsonlite
+Version: 1.8.9
+Depends: methods, R (>= 4.1), R (< 4.1.99)
+Suggests: httr, vctrs, testthat, knitr, rmarkdown, R.rsp, sf
+License: MIT + file LICENSE
+File: jsonlite_1.8.9_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/jsonlite/releases/download/1.8.9/jsonlite_1.8.9_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-09-20 14:30:09 UTC; unix
+Filesize: 1158319
+SHA256: 8954384e18ff03d733293a7c655bb6572399b8a2d09e77516b3992923fd89582
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+OS: linux
+Arch: s390x
+
+Package: openssl
+Version: 2.2.2
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
+License: MIT + file LICENSE
+File: openssl_2.2.2_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/openssl/releases/download/2.2.2/openssl_2.2.2_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-09-20 14:30:18 UTC; unix
+Filesize: 1396686
+SHA256: dc7b1f9679d4d67bd02ab360cab6d94387822402fb370078ea935121257f8579
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: askpass
+OS: linux
+Arch: s390x
+SystemRequirements: OpenSSL >= 1.0.2
+
+Package: curl
+Version: 5.2.3
+Depends: R (>= 3.0.0), R (>= 4.1), R (< 4.1.99)
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+License: MIT + file LICENSE
+File: curl_5.2.3_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/curl/releases/download/5.2.3/curl_5.2.3_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-09-20 14:30:14 UTC; unix
+Filesize: 834586
+SHA256: f7fa9b8f0f5e554b1a28b2dbd03ac4804a60bb13d9c839d0a6aa07915aa634cf
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+OS: linux
+Arch: s390x
+SystemRequirements: libcurl: libcurl-devel (rpm) or libcurl4-openssl-dev (deb).
