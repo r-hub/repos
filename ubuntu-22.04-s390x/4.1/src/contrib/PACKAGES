@@ -127,23 +127,6 @@ OS: linux
 Arch: s390x
 Enhances: png
 
-Package: bit
-Version: 4.0.5
-Depends: R (>= 2.9.2), R (>= 4.1), R (< 4.1.99)
-Suggests: testthat (>= 0.11.0), roxygen2, knitr, rmarkdown, microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)
-License: GPL-2 | GPL-3
-File: bit_4.0.5_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/bit/releases/download/4.0.5/bit_4.0.5_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 13:15:21 UTC; unix
-Filesize: 1142934
-SHA256: 4c119bd0bb4364b1056dd4f966eb8f95e19984e0706ed5749c4eae4f463f6db7
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-OS: linux
-Arch: s390x
-
 Package: bit64
 Version: 4.0.5
 Depends: R (>= 3.0.1), bit (>= 4.0.0), utils, methods, stats, R (>= 4.1), R (< 4.1.99)
@@ -2107,3 +2090,20 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 OS: linux
 Arch: s390x
 SystemRequirements: libcurl: libcurl-devel (rpm) or libcurl4-openssl-dev (deb).
+
+Package: bit
+Version: 4.5.0
+Depends: R (>= 3.4.0), R (>= 4.1), R (< 4.1.99)
+Suggests: testthat (>= 0.11.0), roxygen2, knitr, markdown, rmarkdown, microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)
+License: GPL-2 | GPL-3
+File: bit_4.5.0_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/bit/releases/download/4.5.0/bit_4.5.0_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-09-21 14:26:58 UTC; unix
+Filesize: 1273699
+SHA256: 24a720a711b00bb447b28e11680a95232d5f09cfe8bb63764ad9794cb055b128
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+OS: linux
+Arch: s390x
