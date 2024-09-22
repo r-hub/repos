@@ -1718,22 +1718,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: A system with zoneinfo data (e.g.  /usr/share/zoneinfo) as well as a recent-enough C++11 compiler (such as g++-4.8 or later). On Windows the zoneinfo included with R is used.
 LinkingTo: cpp11 (>= 0.2.7)
 
-Package: timeDate
-Version: 4032.109
-Depends: R (>= 3.6.0), methods, R (>= 4.4), R (< 4.4.99)
-Imports: graphics, utils, stats
-Suggests: RUnit
-License: GPL (>= 2)
-File: timeDate_4032.109_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/timeDate/releases/download/4032.109/timeDate_4032.109_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2024-05-16 07:42:09 UTC; unix
-Filesize: 1397116
-SHA256: f391d3adc8690ac7d01305c5f24b382df64463725e7301a7274f0c1ad65de456
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: tune
 Version: 1.2.1
 Depends: R (>= 4.0), R (>= 4.4), R (< 4.4.99)
@@ -1849,22 +1833,6 @@ Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-16 07:56:13 UTC; unix
 Filesize: 1098483
 SHA256: 6c5d52432def36cfdaea8acd8c0944a8646b028eedc680ecfa913ca12b4af3c1
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: bit64
-Version: 4.0.5
-Depends: R (>= 3.0.1), bit (>= 4.0.0), utils, methods, stats, R (>= 4.4), R (< 4.4.99)
-License: GPL-2 | GPL-3
-File: bit64_4.0.5_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/bit64/releases/download/4.0.5/bit64_4.0.5_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-16 07:57:43 UTC; unix
-Filesize: 590246
-SHA256: bf45f6d37588d9a86a692d9a92634e6b6a29c51b0955daf5964f7ac8ef1cb8fe
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -2852,23 +2820,6 @@ DownloadURL: https://github.com/cran/R.utils/releases/download/2.12.3/R.utils_2.
 Built: R 4.4.0; ; 2024-05-16 08:48:44 UTC; unix
 Filesize: 1441536
 SHA256: a7c5a782521392d5e4f2242bb2b9c611567d92c3c8d3624dc6c76c3384396738
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: randomForest
-Version: 4.7-1.1
-Depends: R (>= 4.1.0), stats, R (>= 4.4), R (< 4.4.99)
-Suggests: RColorBrewer, MASS
-License: GPL (>= 2)
-File: randomForest_4.7-1.1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/randomForest/releases/download/4.7-1.1/randomForest_4.7-1.1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-16 07:43:45 UTC; unix
-Filesize: 264424
-SHA256: 3e43be0e76d3bf09bb3d38e369f0327a585a77f668a7d6282b71c2de7f30dc2f
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4887,8 +4838,8 @@ DownloadURL: https://github.com/cran/rlang/releases/download/1.1.4/rlang_1.1.4_b
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-04 18:33:16 UTC; unix
-Filesize: 2068876
-SHA256: 05ef8d161bcba2882af57307e0c792f8b28a97e741c752c0b382950cf8f35a42
+Filesize: 2068873
+SHA256: 022ac31c631f498a31d4a180653b49554f9a45065129d362d99c3358e7d6e4b4
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4906,8 +4857,57 @@ DownloadURL: https://github.com/cran/cli/releases/download/3.6.3/cli_3.6.3_b2_R4
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-22 18:32:00 UTC; unix
-Filesize: 1417981
-SHA256: 4db32dff4aa8c369f1e420b16ce07735ebfa40fd8664f82e1988f6b804c6fd09
+Filesize: 1417984
+SHA256: b5a33293d4c0a46a671f68ad936a626373a1bb7051d9856ca2411e3ba5f55f5e
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: timeDate
+Version: 4041.110
+Depends: R (>= 3.6.0), methods, R (>= 4.4), R (< 4.4.99)
+Imports: graphics, utils, stats
+Suggests: RUnit
+License: GPL (>= 2)
+File: timeDate_4041.110_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/timeDate/releases/download/4041.110/timeDate_4041.110_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.1; ; 2024-09-22 18:35:33 UTC; unix
+Filesize: 1396180
+SHA256: 366d991fc6fe36e35532d9cee3cbfed85aa2bfc7dffe7036515bd342fdf2e7f6
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: bit64
+Version: 4.5.2
+Depends: R (>= 3.0.1), bit (>= 4.0.0), utils, methods, stats, R (>= 4.4), R (< 4.4.99)
+License: GPL-2 | GPL-3
+File: bit64_4.5.2_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/bit64/releases/download/4.5.2/bit64_4.5.2_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-09-22 18:35:38 UTC; unix
+Filesize: 597921
+SHA256: fdc36fa09a1016164c707649eabe4448246971c265ee5a8b17e77ddf57a2515c
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: randomForest
+Version: 4.7-1.2
+Depends: R (>= 4.1.0), stats, R (>= 4.4), R (< 4.4.99)
+Suggests: RColorBrewer, MASS
+License: GPL (>= 2)
+File: randomForest_4.7-1.2_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/randomForest/releases/download/4.7-1.2/randomForest_4.7-1.2_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-09-22 18:35:33 UTC; unix
+Filesize: 265026
+SHA256: feeb5d1ba0c7946a27034824e5d1e9e6bb72600616f5bb9c404ca150d214c5fe
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
