@@ -3166,26 +3166,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: fontconfig, freetype2
 LinkingTo: cpp11 (>= 0.2.1)
 
-Package: ragg
-Version: 1.3.2
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
-Suggests: covr, graphics, grid, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: ragg_1.3.2_b3_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/ragg/releases/download/1.3.2/ragg_1.3.2_b3_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-05-15 17:32:33 UTC; unix
-Filesize: 2218712
-SHA256: dd97ab8c5e5bc320bc147772010343441e667736eb2dcf245b4782521c4e10d9
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: freetype2, libpng, libtiff, libjpeg
-LinkingTo: systemfonts, textshaping
-
 Package: cachem
 Version: 1.1.0
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -3747,25 +3727,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 2.0) - https://pandoc.org/
-
-Package: pkgdown
-Version: 2.1.0
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-Imports: bslib (>= 0.5.1), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.0), digest, downlit (>= 0.4.4), fontawesome, fs (>= 1.4.0), httr2 (>= 1.0.0), jsonlite, openssl, purrr (>= 1.0.0), ragg,
-        rlang (>= 1.1.0), rmarkdown (>= 2.27), tibble, whisker, withr (>= 2.4.3), xml2 (>= 1.3.1), yaml
-Suggests: covr, diffviewer, evaluate (>= 0.24.0), gert, gt, htmltools, htmlwidgets, knitr, lifecycle, magick, methods, pkgload (>= 1.0.2), quarto, rsconnect, rstudioapi, rticles, sass, testthat (>=
-        3.1.3), tools
-License: MIT + file LICENSE
-File: pkgdown_2.1.0_b4_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/pkgdown/releases/download/2.1.0/pkgdown_2.1.0_b4_R4.5_x86_64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-07-07 17:32:46 UTC; unix
-Filesize: 897813
-SHA256: 49e6f70d3fcf51d7ad991f61b66eae8e0ed9be88c88041c67cd02839cacad9f8
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc
 
 Package: knitr
 Version: 1.48
@@ -4780,3 +4741,42 @@ RVersion: 4.5
 Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: ragg
+Version: 1.3.3
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
+Suggests: covr, graphics, grid, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: ragg_1.3.3_b4_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/ragg/releases/download/1.3.3/ragg_1.3.3_b4_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2024-09-24 17:37:26 UTC; unix
+Filesize: 2219446
+SHA256: 8e232363bfcb72a99e3202888388e5596f016949bae7d1fda0e917325d664087
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: freetype2, libpng, libtiff, libjpeg
+LinkingTo: systemfonts, textshaping
+
+Package: pkgdown
+Version: 2.1.1
+Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
+Imports: bslib (>= 0.5.1), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.0), digest, downlit (>= 0.4.4), fontawesome, fs (>= 1.4.0), httr2 (>= 1.0.2), jsonlite, openssl, purrr (>= 1.0.0), ragg,
+        rlang (>= 1.1.0), rmarkdown (>= 2.27), tibble, whisker, withr (>= 2.4.3), xml2 (>= 1.3.1), yaml
+Suggests: covr, diffviewer, evaluate (>= 0.24.0), gert, gt, htmltools, htmlwidgets, knitr, lifecycle, magick, methods, pkgload (>= 1.0.2), quarto, rsconnect, rstudioapi, rticles, sass, testthat (>=
+        3.1.3), tools
+License: MIT + file LICENSE
+File: pkgdown_2.1.1_b5_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/pkgdown/releases/download/2.1.1/pkgdown_2.1.1_b5_R4.5_x86_64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-09-24 17:39:27 UTC; unix
+Filesize: 898591
+SHA256: 169bf1da37d00a107d1d40eaac8429156a515c03508b431e4a5985bf090f54fd
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc
