@@ -421,24 +421,6 @@ GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli (>= 3.4.0), data.table (>= 1.13.0), dplyr (>= 1.1.0), glue, lifecycle, rlang (>= 1.0.4), tibble, tidyselect (>= 1.2.0), vctrs (>= 0.4.1)
 
-Package: duckdb
-Version: 1.0.0-2
-Depends: DBI, R (>= 3.6.0), R (>= 4.1), R (< 4.1.99)
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-License: MIT + file LICENSE
-File: duckdb_1.0.0-2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.0.0-2/duckdb_1.0.0-2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 13:52:37 UTC; unix
-Filesize: 12579637
-SHA256: 1599f109b455d9de50c44e374e007d7557eed0795cdc19e9d4c63e990bb7fb50
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: methods, utils
-OS: linux
-Arch: s390x
-
 Package: fansi
 Version: 1.0.6
 Depends: R (>= 3.1.0), R (>= 4.1), R (< 4.1.99)
@@ -2105,5 +2087,23 @@ RVersion: 4.1
 Platform: s390x-ibm-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+OS: linux
+Arch: s390x
+
+Package: duckdb
+Version: 1.1.0
+Depends: DBI, R (>= 3.6.0), R (>= 4.1), R (< 4.1.99)
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+License: MIT + file LICENSE
+File: duckdb_1.1.0_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.1.0/duckdb_1.1.0_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-09-25 14:31:36 UTC; unix
+Filesize: 226936179
+SHA256: e868a25e6e2f97be940e2c3832a66caca3e833132601a5f82e5df743370df35a
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: methods, utils
 OS: linux
 Arch: s390x
