@@ -3877,24 +3877,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11 (>= 0.4.3), tzdb (>= 0.4.0)
 
-Package: duckdb
-Version: 1.0.0-2
-Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-Imports: methods, utils
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-License: MIT + file LICENSE
-File: duckdb_1.0.0-2_b6_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.0.0-2/duckdb_1.0.0-2_b6_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-07-19 17:36:51 UTC; unix
-Filesize: 11626775
-SHA256: affb3de0cd4fce4e2fbdb6255ec8b85c31b6ac6f9b839efd47beee8d50ce4867
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: htmlTable
 Version: 2.4.3
 Depends: R (>= 4.1), R (>= 4.5), R (< 4.5.99)
@@ -4780,3 +4762,21 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc
+
+Package: duckdb
+Version: 1.1.0
+Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+Imports: methods, utils
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+License: MIT + file LICENSE
+File: duckdb_1.1.0_b7_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.1.0/duckdb_1.1.0_b7_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2024-09-25 17:35:16 UTC; unix
+Filesize: 12913666
+SHA256: db9f58130b0a552417260422d9f30a5470fe49f24be13386fbac148b81465540
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
