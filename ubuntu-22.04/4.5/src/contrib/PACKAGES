@@ -2437,25 +2437,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: raster
-Version: 3.6-26
-Depends: sp (>= 1.4-5), R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-Imports: Rcpp, methods, terra (>= 1.7-29)
-Suggests: ncdf4, igraph, tcltk, parallel, rasterVis, MASS, sf, tinytest, gstat, fields, exactextractr
-License: GPL (>= 3)
-File: raster_3.6-26_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/raster/releases/download/3.6-26/raster_3.6-26_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 10:05:05 UTC; unix
-Filesize: 6610959
-SHA256: 5a91aa3e438bd1d0883cf92a9320d2a63875623a68f090f06109ba8c2088ff5e
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: rbibutils
 Version: 2.2.16
 Depends: R (>= 2.10), R (>= 4.5), R (< 4.5.99)
@@ -4822,3 +4803,22 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make
+
+Package: raster
+Version: 3.6-30
+Depends: sp (>= 1.4-5), R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+Imports: Rcpp, methods, terra (>= 1.7-29)
+Suggests: ncdf4, igraph, tcltk, parallel, rasterVis, MASS, sf, tinytest, gstat, fields, exactextractr
+License: GPL (>= 3)
+File: raster_3.6-30_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/raster/releases/download/3.6-30/raster_3.6-30_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-10-03 16:43:02 UTC; unix
+Filesize: 7310366
+SHA256: 3f0b4975f7d5969344d31d5d58a0c2628d174138302e2410f37cbab212fe53ad
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
