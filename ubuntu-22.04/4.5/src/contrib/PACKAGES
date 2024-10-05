@@ -2387,22 +2387,6 @@ Suggests: covr, lattice, testthat (>= 0.8.0)
 Imports: plyr (>= 1.8.1), Rcpp, stringr
 LinkingTo: Rcpp
 
-Package: spelling
-Version: 2.3.0
-Depends: R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: spelling_2.3.0_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/spelling/releases/download/2.3.0/spelling_2.3.0_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.0; ; 2024-03-27 10:05:11 UTC; unix
-Filesize: 55583
-SHA256: 22cc35bb6847b5a0c91d5d0173f38bd383d0266556fe427013d35aa4b1a4a613
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: pdftools
-Imports: commonmark, xml2, hunspell (>= 3.0), knitr
-
 Package: tinytest
 Version: 1.4.1
 Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
@@ -4821,3 +4805,19 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: spelling, testthat, knitr, rmarkdown
 Imports: Rcpp, digest
 LinkingTo: Rcpp (>= 0.12.12)
+
+Package: spelling
+Version: 2.3.1
+Depends: R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: spelling_2.3.1_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/spelling/releases/download/2.3.1/spelling_2.3.1_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.0; ; 2024-10-05 16:39:43 UTC; unix
+Filesize: 55010
+SHA256: f79c73fb098c2b3c1ffff32c88204a8be7d2668f812b095b29aa863d6f3322cb
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: pdftools
+Imports: commonmark, xml2, hunspell (>= 3.0), knitr
