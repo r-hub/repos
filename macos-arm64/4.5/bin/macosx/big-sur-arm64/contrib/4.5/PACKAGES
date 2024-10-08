@@ -3324,22 +3324,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: knitr, rmarkdown, covr, tinytest
 SystemRequirements: cmake (>= 3.2.0) which is used only on Linux or macOS systems when no system build of nlopt (>= 2.7.0) can be found.
 
-Package: doBy
-Version: 4.6.22
-Depends: R (>= 4.2.0), methods, R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: doBy_4.6.22_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/doBy/releases/download/4.6.22/doBy_4.6.22_b1_R4.5_aarch64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-06-28 17:31:59 UTC; unix
-Filesize: 4684374
-SHA256: 763b94ed165549d00bd2316918ab507293ac4b8c498a1e452988ae729736849e
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: geepack, knitr, lme4, markdown, multcomp, pbkrtest (>= 0.4-8.1), survival, testthat (>= 2.1.0)
-Imports: boot, broom, cowplot, Deriv, dplyr, ggplot2, MASS, Matrix, modelr, microbenchmark, rlang, tibble, tidyr,
-
 Package: pkgload
 Version: 1.4.0
 Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
@@ -4780,3 +4764,19 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: pdftools
 Imports: commonmark, xml2, hunspell (>= 3.0), knitr
+
+Package: doBy
+Version: 4.6.24
+Depends: R (>= 4.2.0), methods, R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: doBy_4.6.24_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/doBy/releases/download/4.6.24/doBy_4.6.24_b2_R4.5_aarch64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-10-08 17:35:12 UTC; unix
+Filesize: 4843965
+SHA256: 0855ca0a050269811bd53f65ae0b3016ddbf6d13a821d2ce71c0238029be9264
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: geepack, knitr, lme4, markdown, multcomp, pbkrtest (>= 0.5.2), survival, testthat (>= 2.1.0)
+Imports: boot, broom, cowplot, Deriv, dplyr, ggplot2, MASS, Matrix, modelr, microbenchmark, rlang, tibble, tidyr,
