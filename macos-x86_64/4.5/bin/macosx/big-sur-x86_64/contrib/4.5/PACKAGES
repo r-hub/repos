@@ -4024,24 +4024,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue, knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp, testthat (>= 3.2.0), tibble, utils, vctrs, withr
 
-Package: data.table
-Version: 1.16.0
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-License: MPL-2.0 | file LICENSE
-File: data.table_1.16.0_b3_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/data.table/releases/download/1.16.0/data.table_1.16.0_b3_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-08-27 17:33:59 UTC; unix
-Filesize: 2258408
-SHA256: b8d6d664d189ffa74cdfc914fe73baeb4ef91c7d9fdcb41ec1dbb97bc9066af2
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
-Imports: methods
-
 Package: mvtnorm
 Version: 1.3-1
 Depends: R(>= 3.5.0), R (>= 4.5), R (< 4.5.99)
@@ -4288,21 +4270,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat (>= 2.1.0), covr, mvtnorm, actuar (>= 2.0.0), evd, ggdist, ggplot2, gk
 Imports: vctrs (>= 0.3.0), rlang (>= 0.4.5), generics, stats, numDeriv, utils, lifecycle, pillar
-
-Package: evaluate
-Version: 1.0.0
-Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: evaluate_1.0.0_b3_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/evaluate/releases/download/1.0.0/evaluate_1.0.0_b3_R4.5_x86_64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-09-18 17:37:20 UTC; unix
-Filesize: 102154
-SHA256: c9d24511806510221d0665848d78e2125e17be62c27982431113d0cb317ef284
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, ggplot2 (>= 3.3.6), lattice, methods, rlang, testthat (>= 3.0.0), withr
 
 Package: jsonlite
 Version: 1.8.9
@@ -4780,3 +4747,36 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: geepack, knitr, lme4, markdown, multcomp, pbkrtest (>= 0.5.2), survival, testthat (>= 2.1.0)
 Imports: boot, broom, cowplot, Deriv, dplyr, ggplot2, MASS, Matrix, modelr, microbenchmark, rlang, tibble, tidyr,
+
+Package: data.table
+Version: 1.16.2
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+License: MPL-2.0 | file LICENSE
+File: data.table_1.16.2_b4_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/data.table/releases/download/1.16.2/data.table_1.16.2_b4_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2024-10-10 17:35:40 UTC; unix
+Filesize: 2446408
+SHA256: 0f9da531d49a3e83064bd761637f4a1b35fc1835371254f7b736360cb4ea4a93
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
+Imports: methods
+
+Package: evaluate
+Version: 1.0.1
+Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: evaluate_1.0.1_b4_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/evaluate/releases/download/1.0.1/evaluate_1.0.1_b4_R4.5_x86_64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-10-10 17:36:05 UTC; unix
+Filesize: 102298
+SHA256: 547fbd6af036f794b1e83f4cba85fed131fa249436ad7e2f4837279a92a5b9b1
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, ggplot2 (>= 3.3.6), lattice, methods, rlang, testthat (>= 3.0.0), withr
