@@ -4024,24 +4024,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue, knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp, testthat (>= 3.2.0), tibble, utils, vctrs, withr
 
-Package: data.table
-Version: 1.16.0
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-License: MPL-2.0 | file LICENSE
-File: data.table_1.16.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/data.table/releases/download/1.16.0/data.table_1.16.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-08-27 17:22:18 UTC; unix
-Filesize: 2922416
-SHA256: 2c3cc479b0dc4215ce996b77f921ec33e10213fc6d67d25a53e773c4052610a3
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
-Imports: methods
-
 Package: arrow
 Version: 17.0.0.1
 Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
@@ -4329,21 +4311,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat (>= 2.1.0), covr, mvtnorm, actuar (>= 2.0.0), evd, ggdist, ggplot2, gk
 Imports: vctrs (>= 0.3.0), rlang (>= 0.4.5), generics, stats, numDeriv, utils, lifecycle, pillar
-
-Package: evaluate
-Version: 1.0.0
-Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: evaluate_1.0.0_b3_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/evaluate/releases/download/1.0.0/evaluate_1.0.0_b3_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-Built: R 4.5.0; ; 2024-09-18 17:23:42 UTC; unix
-Filesize: 108983
-SHA256: 0c06731ba673cc95d7e333e43b4891b957240aafad3028dfe6126dc878a5446a
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, ggplot2 (>= 3.3.6), lattice, methods, rlang, testthat (>= 3.0.0), withr
 
 Package: pkgdown
 Version: 2.1.1
@@ -4821,3 +4788,36 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: geepack, knitr, lme4, markdown, multcomp, pbkrtest (>= 0.5.2), survival, testthat (>= 2.1.0)
 Imports: boot, broom, cowplot, Deriv, dplyr, ggplot2, MASS, Matrix, modelr, microbenchmark, rlang, tibble, tidyr,
+
+Package: data.table
+Version: 1.16.2
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+License: MPL-2.0 | file LICENSE
+File: data.table_1.16.2_b3_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/data.table/releases/download/1.16.2/data.table_1.16.2_b3_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-10-10 17:24:54 UTC; unix
+Filesize: 3109803
+SHA256: 010a64cb930b4b055ef4e1306bf75a39c31569d70229e2ec4201d8863a38a2a7
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
+Imports: methods
+
+Package: evaluate
+Version: 1.0.1
+Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: evaluate_1.0.1_b4_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/evaluate/releases/download/1.0.1/evaluate_1.0.1_b4_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.5.0; ; 2024-10-10 17:24:53 UTC; unix
+Filesize: 108957
+SHA256: b831cbf182d794175e2ffa9a4346964286c24b86df161da888a59cd2e97749dd
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, ggplot2 (>= 3.3.6), lattice, methods, rlang, testthat (>= 3.0.0), withr
