@@ -4079,28 +4079,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat (>= 3.0.0), vctrs (>= 0.3.0), sf, tibble, readr
 
-Package: sf
-Version: 1.0-17
-Depends: methods, R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-License: GPL-2 | MIT + file LICENSE
-File: sf_1.0-17_b2_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/sf/releases/download/1.0-17/sf_1.0-17_b2_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-09-07 17:33:48 UTC; unix
-Filesize: 18730604
-SHA256: ac04df62e0668ad1177ff3fb88dfa2657fd10996d451c472e10834d30c5cca06
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: blob, nanoarrow, covr, dplyr (>= 1.0.0), ggplot2, knitr, lwgeom (>= 0.2-14), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>=
-        1.1.0), RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.2-0), terra, testthat (>= 3.0.0), tibble (>=
-        1.4.1), tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk (>= 0.9.0)
-Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
-SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
-LinkingTo: Rcpp
-
 Package: ggrepel
 Version: 0.9.6
 Depends: R (>= 3.0.0), ggplot2 (>= 2.2.0), R (>= 4.5), R (< 4.5.99)
@@ -4780,3 +4758,25 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, ggplot2 (>= 3.3.6), lattice, methods, rlang, testthat (>= 3.0.0), withr
+
+Package: sf
+Version: 1.0-18
+Depends: methods, R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+License: GPL-2 | MIT + file LICENSE
+File: sf_1.0-18_b3_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/sf/releases/download/1.0-18/sf_1.0-18_b3_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-10-11 17:33:55 UTC; unix
+Filesize: 18743920
+SHA256: 45c82ca084181f117a2a098926f6ad5a22c4f599ef7288aa71d449396fe83a50
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: blob, nanoarrow, covr, dplyr (>= 1.0.0), ggplot2, knitr, lwgeom (>= 0.2-14), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>=
+        1.1.0), RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.2-0), terra, testthat (>= 3.0.0), tibble (>=
+        1.4.1), tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk (>= 0.9.0)
+Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
+SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
+LinkingTo: Rcpp
