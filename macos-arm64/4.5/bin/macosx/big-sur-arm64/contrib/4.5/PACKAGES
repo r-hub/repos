@@ -4062,23 +4062,6 @@ Imports: Rcpp
 SystemRequirements: udunits-2
 LinkingTo: Rcpp (>= 0.12.10)
 
-Package: wk
-Version: 0.9.3
-Depends: R (>= 2.10), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: wk_0.9.3_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/wk/releases/download/0.9.3/wk_0.9.3_b1_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-09-07 17:31:46 UTC; unix
-Filesize: 1720301
-SHA256: 3a92585608eb88ef0b14adc721023750548dd0ffa970cb8bf89066037c60baf9
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testthat (>= 3.0.0), vctrs (>= 0.3.0), sf, tibble, readr
-
 Package: ggrepel
 Version: 0.9.6
 Depends: R (>= 3.0.0), ggplot2 (>= 2.2.0), R (>= 4.5), R (< 4.5.99)
@@ -4780,3 +4763,20 @@ Suggests: blob, nanoarrow, covr, dplyr (>= 1.0.0), ggplot2, knitr, lwgeom (>= 0.
 Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
 SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
 LinkingTo: Rcpp
+
+Package: wk
+Version: 0.9.4
+Depends: R (>= 2.10), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: wk_0.9.4_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/wk/releases/download/0.9.4/wk_0.9.4_b2_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-10-12 17:31:58 UTC; unix
+Filesize: 1722288
+SHA256: 8528fa714b0e6b6c21e87ed65de92e99a0137db57aadb6a259596e883b0aadef
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat (>= 3.0.0), vctrs (>= 0.3.0), sf, tibble, readr
