@@ -3770,23 +3770,6 @@ Imports: graphics, stats
 SystemRequirements: On a Unix-alike, one of the C functions mach_absolute_time (macOS), clock_gettime or gethrtime. If none of these is found, the obsolescent POSIX function gettimeofday will be
         tried.
 
-Package: wk
-Version: 0.9.3
-Depends: R (>= 2.10), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: wk_0.9.3_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/wk/releases/download/0.9.3/wk_0.9.3_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-09-06 17:07:42 UTC; unix
-Filesize: 1736086
-SHA256: b88cfcea44a68406a20dd483e8ebd7674ce489e32cb659d1af0d6c7cfcc5b30e
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testthat (>= 3.0.0), vctrs (>= 0.3.0), sf, tibble, readr
-
 Package: ggrepel
 Version: 0.9.6
 Depends: R (>= 3.0.0), ggplot2 (>= 2.2.0), R (>= 4.5), R (< 4.5.99)
@@ -4474,3 +4457,20 @@ Suggests: blob, nanoarrow, covr, dplyr (>= 1.0.0), ggplot2, knitr, lwgeom (>= 0.
 Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
 SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
 LinkingTo: Rcpp
+
+Package: wk
+Version: 0.9.4
+Depends: R (>= 2.10), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: wk_0.9.4_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/wk/releases/download/0.9.4/wk_0.9.4_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-10-12 17:06:43 UTC; unix
+Filesize: 1737077
+SHA256: 63fbfd07027830aee0e289fbdd0c9c571d1186b35162a9be12a59bdbfbf2a441
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat (>= 3.0.0), vctrs (>= 0.3.0), sf, tibble, readr
