@@ -4434,25 +4434,6 @@ Imports: Rcpp (>= 0.12.12), magrittr, curl
 SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or libmagick++-dev (deb)
 LinkingTo: Rcpp
 
-Package: gert
-Version: 2.1.2
-Depends: R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: gert_2.1.2_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/gert/releases/download/2.1.2/gert_2.1.2_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-09-20 23:24:44 UTC; unix
-Filesize: 339947
-SHA256: df8e946e518cb99c6bdf212d9b1b7c5b2a90409211b6f8a9d09060ef05ea2836
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: spelling, knitr, rmarkdown, testthat
-Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
-SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
-
 Package: openssl
 Version: 2.2.2
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -4906,3 +4887,22 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat (>= 3.0.0), vctrs (>= 0.3.0), sf, tibble, readr
+
+Package: gert
+Version: 2.1.3
+Depends: R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: gert_2.1.3_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/gert/releases/download/2.1.3/gert_2.1.3_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-10-13 23:27:39 UTC; unix
+Filesize: 341043
+SHA256: 4cfc54a8d5099d17715e2a51d65ace32ef45a1261ecb79822a55dddb16693d93
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: spelling, knitr, rmarkdown, testthat
+Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
+SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
