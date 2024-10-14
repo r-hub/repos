@@ -1130,22 +1130,6 @@ Suggests: covr, knitr, rmarkdown, testthat (>= 2.1.0), vctrs (>= 0.5.0)
 Imports: generics, timechange (>= 0.1.1)
 SystemRequirements: C++11, A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
 
-Package: modelenv
-Version: 0.1.1
-Depends: R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: modelenv_0.1.1_b1_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/modelenv/releases/download/0.1.1/modelenv_0.1.1_b1_R4.5_x86_64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-03-29 15:40:35 UTC; unix
-Filesize: 76449
-SHA256: cd635230df9e871ab41366b97eda8d7d8cc246415a1cd7e9fb82993ab2ba718f
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, testthat (>= 3.0.0)
-Imports: glue, rlang, tibble, vctrs
-
 Package: numDeriv
 Version: 2016.8-1.1
 Depends: R (>= 2.11.1), R (>= 4.5), R (< 4.5.99)
@@ -3028,26 +3012,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat
 Imports: rlang, fastmap (>= 1.2.0)
 
-Package: terra
-Version: 1.7-78
-Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 3)
-File: terra_1.7-78_b2_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/terra/releases/download/1.7-78/terra_1.7-78_b2_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-05-22 17:33:20 UTC; unix
-Filesize: 20978433
-SHA256: 5950c1f36d07c1670b4459b8b4c44590098139773c2477535405751ed9b7c874
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
-Imports: methods, Rcpp (>= 1.0-10)
-SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
-LinkingTo: Rcpp
-
 Package: backports
 Version: 1.5.0
 Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
@@ -4303,25 +4267,6 @@ Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, s
 Imports: askpass
 SystemRequirements: OpenSSL >= 1.0.2
 
-Package: gert
-Version: 2.1.2
-Depends: R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: gert_2.1.2_b4_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/gert/releases/download/2.1.2/gert_2.1.2_b4_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-09-20 17:34:24 UTC; unix
-Filesize: 1896428
-SHA256: 8aad37ffdd6b3a678b3ffeb499d761c1664831e21442e3837c613bd2849ac0af
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: spelling, knitr, rmarkdown, testthat
-Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
-SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
-
 Package: curl
 Version: 5.2.3
 Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
@@ -4780,3 +4725,58 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat (>= 3.0.0), vctrs (>= 0.3.0), sf, tibble, readr
+
+Package: modelenv
+Version: 0.2.0
+Depends: R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: modelenv_0.2.0_b2_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/modelenv/releases/download/0.2.0/modelenv_0.2.0_b2_R4.5_x86_64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-10-14 17:36:44 UTC; unix
+Filesize: 101312
+SHA256: cb8452bd8f1d767bb3ff74c30ac19991bb4f8a04001920a7e5ac4bed5fc86e09
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, testthat (>= 3.0.0)
+Imports: cli, glue, rlang (>= 1.1.0), tibble, vctrs
+
+Package: terra
+Version: 1.7-83
+Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 3)
+File: terra_1.7-83_b3_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/terra/releases/download/1.7-83/terra_1.7-83_b3_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2024-10-14 17:37:11 UTC; unix
+Filesize: 21243605
+SHA256: ae5fc498ec87c9d532e3554f38e99b45d4365c7fb982ffbac367ce96ef19233a
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
+Imports: methods, Rcpp (>= 1.0-10)
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
+LinkingTo: Rcpp
+
+Package: gert
+Version: 2.1.4
+Depends: R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: gert_2.1.4_b5_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/gert/releases/download/2.1.4/gert_2.1.4_b5_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2024-10-14 17:43:11 UTC; unix
+Filesize: 2382244
+SHA256: a797a050374b1ebd5184ee2af371968aa4d015f4f3fdcbe69c03280ff2f94f55
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: spelling, knitr, rmarkdown, testthat
+Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
+SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
