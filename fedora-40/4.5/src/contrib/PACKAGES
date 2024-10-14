@@ -1399,22 +1399,6 @@ Suggests: covr, knitr, rmarkdown, testthat (>= 2.1.0), vctrs (>= 0.5.0)
 Imports: generics, timechange (>= 0.1.1)
 SystemRequirements: C++11, A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
 
-Package: modelenv
-Version: 0.1.1
-Depends: R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: modelenv_0.1.1_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/modelenv/releases/download/0.1.1/modelenv_0.1.1_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-Built: R 4.5.0; ; 2024-05-24 21:23:44 UTC; unix
-Filesize: 82181
-SHA256: e0e4f75aad70182f69bd9464e994944f4c0504b5633e0f652eeb8b953b9ec9b1
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, testthat (>= 3.0.0)
-Imports: glue, rlang, tibble, vctrs
-
 Package: munsell
 Version: 0.5.1
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -2265,26 +2249,6 @@ Suggests: NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0), dplyr (>= 
 Imports: Rcpp
 SystemRequirements: udunits-2
 LinkingTo: Rcpp (>= 0.12.10)
-
-Package: terra
-Version: 1.7-78
-Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 3)
-File: terra_1.7-78_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/terra/releases/download/1.7-78/terra_1.7-78_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-24 21:17:59 UTC; unix
-Filesize: 30855781
-SHA256: cc87edc84390b48c4fae2f9013d236cd66022efc57ba4cb4aa8bbe80bd037210
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
-Imports: methods, Rcpp (>= 1.0-10)
-SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
-LinkingTo: Rcpp
 
 Package: zoo
 Version: 1.8-12
@@ -4383,25 +4347,6 @@ Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, s
 Imports: askpass
 SystemRequirements: OpenSSL >= 1.0.2
 
-Package: gert
-Version: 2.1.2
-Depends: R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: gert_2.1.2_b4_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/gert/releases/download/2.1.2/gert_2.1.2_b4_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-09-20 17:23:54 UTC; unix
-Filesize: 354367
-SHA256: 7d1dde952874faf881893ecc77aac4fd4bdc4a1978f7663d10bda90d3f994b66
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: spelling, knitr, rmarkdown, testthat
-Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
-SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
-
 Package: curl
 Version: 5.2.3
 Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
@@ -4821,3 +4766,58 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat (>= 3.0.0), vctrs (>= 0.3.0), sf, tibble, readr
+
+Package: modelenv
+Version: 0.2.0
+Depends: R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: modelenv_0.2.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/modelenv/releases/download/0.2.0/modelenv_0.2.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.5.0; ; 2024-10-14 17:26:20 UTC; unix
+Filesize: 107136
+SHA256: 88301436ae624bda8e6a84684fa6dc1b9e0b350e0e947f3103517ea4a49018b8
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, testthat (>= 3.0.0)
+Imports: cli, glue, rlang (>= 1.1.0), tibble, vctrs
+
+Package: terra
+Version: 1.7-83
+Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 3)
+File: terra_1.7-83_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/terra/releases/download/1.7-83/terra_1.7-83_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-10-14 17:26:24 UTC; unix
+Filesize: 32391324
+SHA256: 0459fcd243f06348116632d12600bd0088ea8cc198e1eb4f1ca9733308083bf1
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
+Imports: methods, Rcpp (>= 1.0-10)
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
+LinkingTo: Rcpp
+
+Package: gert
+Version: 2.1.4
+Depends: R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: gert_2.1.4_b5_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/gert/releases/download/2.1.4/gert_2.1.4_b5_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-10-14 17:26:23 UTC; unix
+Filesize: 354324
+SHA256: 9a98d0557bf3606d1e87b15fafd873ec722cce39610f18927bc5a035ec3e2ffc
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: spelling, knitr, rmarkdown, testthat
+Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
+SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
