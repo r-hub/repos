@@ -1664,22 +1664,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, testthat (>= 3.0.0), ggplot2
 Imports: dplyr, MASS, purrr, rlang, tibble
 
-Package: modelenv
-Version: 0.1.1
-Depends: R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: modelenv_0.1.1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/modelenv/releases/download/0.1.1/modelenv_0.1.1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.4.1; ; 2024-07-20 15:09:52 UTC; unix
-Filesize: 76320
-SHA256: 2ccdc16f087aaa66b94e29ef9131dde316f09b74a04838460f0685772f49373f
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, testthat (>= 3.0.0)
-Imports: glue, rlang, tibble, vctrs
-
 Package: munsell
 Version: 0.5.1
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -2687,26 +2671,6 @@ Suggests: NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0), dplyr (>= 
 Imports: Rcpp
 SystemRequirements: udunits-2
 LinkingTo: Rcpp (>= 0.12.10)
-
-Package: terra
-Version: 1.7-78
-Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 3)
-File: terra_1.7-78_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/terra/releases/download/1.7-78/terra_1.7-78_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-20 14:59:15 UTC; unix
-Filesize: 28667286
-SHA256: cc70f25b4cb4f35e255b6965759bd81f6e08a7992ecc0119c8a2999723b257d5
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
-Imports: methods, Rcpp (>= 1.0-10)
-SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
-LinkingTo: Rcpp
 
 Package: zoo
 Version: 1.8-12
@@ -4888,17 +4852,53 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat (>= 3.0.0), vctrs (>= 0.3.0), sf, tibble, readr
 
-Package: gert
-Version: 2.1.3
+Package: modelenv
+Version: 0.2.0
 Depends: R (>= 4.4), R (< 4.4.99)
 License: MIT + file LICENSE
-File: gert_2.1.3_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/gert/releases/download/2.1.3/gert_2.1.3_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+File: modelenv_0.2.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/modelenv/releases/download/0.2.0/modelenv_0.2.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.1; ; 2024-10-14 23:24:57 UTC; unix
+Filesize: 101137
+SHA256: 735428aaf278e893ca7af9065919b5effb62263942831472926a5c820647a5e0
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, testthat (>= 3.0.0)
+Imports: cli, glue, rlang (>= 1.1.0), tibble, vctrs
+
+Package: terra
+Version: 1.7-83
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 3)
+File: terra_1.7-83_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/terra/releases/download/1.7-83/terra_1.7-83_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
 OS: linux
 Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-10-13 23:27:39 UTC; unix
-Filesize: 341043
-SHA256: 4cfc54a8d5099d17715e2a51d65ace32ef45a1261ecb79822a55dddb16693d93
+Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-10-14 23:25:02 UTC; unix
+Filesize: 29153636
+SHA256: 2ac8770313d5428bb40ee7bd578c3fa43b7dc1e2de36049becd61e3169245524
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
+Imports: methods, Rcpp (>= 1.0-10)
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
+LinkingTo: Rcpp
+
+Package: gert
+Version: 2.1.4
+Depends: R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: gert_2.1.4_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/gert/releases/download/2.1.4/gert_2.1.4_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-10-14 23:25:01 UTC; unix
+Filesize: 340251
+SHA256: b5df89cc745e56ce1b5b053acdf7693c62ca35cd0ce8db163702471833c43579
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
