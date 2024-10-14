@@ -2805,26 +2805,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat
 Imports: rlang, fastmap (>= 1.2.0)
 
-Package: terra
-Version: 1.7-78
-Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 3)
-File: terra_1.7-78_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/terra/releases/download/1.7-78/terra_1.7-78_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-22 17:05:01 UTC; unix
-Filesize: 4627129
-SHA256: 62d5a834b71ca87b029920826ae4ca0c970ef8aeac694469659f4344f1619ccc
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
-Imports: methods, Rcpp (>= 1.0-10)
-SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
-LinkingTo: Rcpp
-
 Package: backports
 Version: 1.5.0
 Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
@@ -4054,25 +4034,6 @@ Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, s
 Imports: askpass
 SystemRequirements: OpenSSL >= 1.0.2
 
-Package: gert
-Version: 2.1.2
-Depends: R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: gert_2.1.2_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/gert/releases/download/2.1.2/gert_2.1.2_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-09-20 17:08:03 UTC; unix
-Filesize: 3106174
-SHA256: 599050b62381e4be47db37ee333028cc0af95f9f4e319a2c650cec55bcb1d640
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: spelling, knitr, rmarkdown, testthat
-Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
-SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
-
 Package: curl
 Version: 5.2.3
 Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
@@ -4474,3 +4435,42 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat (>= 3.0.0), vctrs (>= 0.3.0), sf, tibble, readr
+
+Package: terra
+Version: 1.7-83
+Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 3)
+File: terra_1.7-83_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/terra/releases/download/1.7-83/terra_1.7-83_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-10-14 17:08:35 UTC; unix
+Filesize: 4914769
+SHA256: 5b1c795c8548585fb6db7b64be165ca698479434084e97e3bd37296e1b952956
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
+Imports: methods, Rcpp (>= 1.0-10)
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
+LinkingTo: Rcpp
+
+Package: gert
+Version: 2.1.4
+Depends: R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: gert_2.1.4_b5_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/gert/releases/download/2.1.4/gert_2.1.4_b5_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-10-14 17:08:34 UTC; unix
+Filesize: 3106388
+SHA256: bece84fbd4999b1e551dc9ff9c0212e0974b5597eb9e52be420d843c4870bf4f
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: spelling, knitr, rmarkdown, testthat
+Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
+SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
