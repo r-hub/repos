@@ -3615,25 +3615,6 @@ Enhances: knitr, shiny
 Suggests: maps
 Imports: htmlwidgets (>= 0.3.2), base64enc, crosstalk, methods, stats
 
-Package: xts
-Version: 0.14.0
-Depends: R (>= 3.6.0), zoo (>= 1.7-12), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2)
-File: xts_0.14.0_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/xts/releases/download/0.14.0/xts_0.14.0_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-20 15:25:13 UTC; unix
-Filesize: 925412
-SHA256: e4b838d708eddce0080c1b64ca25f1e94b56a827e04867ddd2e2672a623511a6
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: timeSeries, timeDate, tseries, chron, tinytest
-Imports: methods
-LinkingTo: zoo
-
 Package: plogr
 Version: 0.2.0
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -4906,3 +4887,22 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: spelling, knitr, rmarkdown, testthat
 Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
 SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
+
+Package: xts
+Version: 0.14.1
+Depends: R (>= 3.6.0), zoo (>= 1.7-12), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: xts_0.14.1_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/xts/releases/download/0.14.1/xts_0.14.1_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-10-15 23:26:20 UTC; unix
+Filesize: 1319314
+SHA256: 5d93b9382568b281c8e953020debe42f34fa55820a134d9cf60636efa1040a69
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: timeSeries, timeDate, tseries, chron, tinytest
+Imports: methods
+LinkingTo: zoo
