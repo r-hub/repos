@@ -1098,22 +1098,6 @@ Suggests: covr, knitr, rmarkdown, testthat (>= 2.1.0), vctrs (>= 0.5.0)
 Imports: generics, timechange (>= 0.1.1)
 SystemRequirements: C++11, A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
 
-Package: modelenv
-Version: 0.1.1
-Depends: R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: modelenv_0.1.1_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/modelenv/releases/download/0.1.1/modelenv_0.1.1_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.5.0; ; 2024-03-27 13:07:04 UTC; unix
-Filesize: 76403
-SHA256: 4a86307269548c40137e9ec3d1c2234d1ff8f5267cbf7bee0470afa08c94ccee
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, testthat (>= 3.0.0)
-Imports: glue, rlang, tibble, vctrs
-
 Package: numDeriv
 Version: 2016.8-1.1
 Depends: R (>= 2.11.1), R (>= 4.5), R (< 4.5.99)
@@ -4474,3 +4458,19 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: spelling, knitr, rmarkdown, testthat
 Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
 SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
+
+Package: modelenv
+Version: 0.2.0
+Depends: R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: modelenv_0.2.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/modelenv/releases/download/0.2.0/modelenv_0.2.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.5.0; ; 2024-10-15 17:08:04 UTC; unix
+Filesize: 100512
+SHA256: 2378f5e5521b0bdb15f231d0b4b0f738990d5d673b492c4dfc4790d4f0998eba
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, testthat (>= 3.0.0)
+Imports: cli, glue, rlang (>= 1.1.0), tibble, vctrs
