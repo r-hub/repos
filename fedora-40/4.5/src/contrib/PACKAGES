@@ -3186,25 +3186,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: knitr, rmarkdown (>= 2.18), yaml, RCurl
 Imports: utils, commonmark (>= 1.9.0), xfun (>= 0.38)
 
-Package: xts
-Version: 0.14.0
-Depends: R (>= 3.6.0), zoo (>= 1.7-12), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: xts_0.14.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/xts/releases/download/0.14.0/xts_0.14.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-06-06 17:23:27 UTC; unix
-Filesize: 969401
-SHA256: 3fcd7d55400d8fed3eafba0821708a8aec5683a921b1c105c528566f39a128c5
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: timeSeries, timeDate, tseries, chron, tinytest
-Imports: methods
-LinkingTo: zoo
-
 Package: downlit
 Version: 0.4.4
 Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
@@ -3395,24 +3376,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat, DoE.base, knitr, rmarkdown
 Imports: Rcpp
 LinkingTo: Rcpp
-
-Package: bookdown
-Version: 0.40
-Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-License: GPL-3
-File: bookdown_0.40_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/bookdown/releases/download/0.40/bookdown_0.40_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-Built: R 4.5.0; ; 2024-07-02 17:23:05 UTC; unix
-Filesize: 1105285
-SHA256: c625ed50228d89616f05dab96010da60580197f7022aaba4a7f8bedda6f9e040
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, rstudioapi, miniUI, rsconnect (>= 0.4.3), servr (>= 0.13), shiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat (>=
-        3.1.0), withr (>= 2.3.0)
-Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.39), tinytex (>= 0.12), yaml (>= 2.1.19)
-SystemRequirements: Pandoc (>= 1.17.2)
 
 Package: lme4
 Version: 1.1-35.5
@@ -4414,24 +4377,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: RColorBrewer, MASS
 
-Package: duckdb
-Version: 1.1.0
-Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: duckdb_1.1.0_b5_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.1.0/duckdb_1.1.0_b5_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-09-25 17:23:56 UTC; unix
-Filesize: 222206416
-SHA256: f2287f3f22e94d1f67b95f3a5a9e41373dec2cd399a543e4f1b227610d74ef95
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-Imports: methods, utils
-
 Package: httr2
 Version: 1.0.5
 Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
@@ -4821,3 +4766,58 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: spelling, knitr, rmarkdown, testthat
 Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
 SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
+
+Package: xts
+Version: 0.14.1
+Depends: R (>= 3.6.0), zoo (>= 1.7-12), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: xts_0.14.1_b3_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/xts/releases/download/0.14.1/xts_0.14.1_b3_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-10-16 17:26:38 UTC; unix
+Filesize: 1365962
+SHA256: 49f017cda1754234a9fd94102ef190b2d39ad59342bdda0f207b5ecda92440cf
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: timeSeries, timeDate, tseries, chron, tinytest
+Imports: methods
+LinkingTo: zoo
+
+Package: bookdown
+Version: 0.41
+Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+License: GPL-3
+File: bookdown_0.41_b3_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/bookdown/releases/download/0.41/bookdown_0.41_b3_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.5.0; ; 2024-10-16 17:26:42 UTC; unix
+Filesize: 1104666
+SHA256: 64de8a2a5806558388a0cca862b6c1b4c3cdc7af3d4eede1b77bb4ee08b7f421
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, rstudioapi, miniUI, rsconnect (>= 0.4.3), servr (>= 0.13), shiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat (>=
+        3.1.0), withr (>= 2.3.0)
+Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.48), tinytex (>= 0.12), yaml (>= 2.1.19)
+SystemRequirements: Pandoc (>= 1.17.2)
+
+Package: duckdb
+Version: 1.1.1
+Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: duckdb_1.1.1_b6_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.1.1/duckdb_1.1.1_b6_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-10-16 17:26:49 UTC; unix
+Filesize: 222471231
+SHA256: 7e88daf793bb99de45e7612ec6fe762b637c912df44d35235d8aab0ec3c7b84c
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+Imports: methods, utils
