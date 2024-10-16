@@ -3148,25 +3148,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: knitr, rmarkdown (>= 2.18), yaml, RCurl
 Imports: utils, commonmark (>= 1.9.0), xfun (>= 0.38)
 
-Package: xts
-Version: 0.14.0
-Depends: R (>= 3.6.0), zoo (>= 1.7-12), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: xts_0.14.0_b2_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/xts/releases/download/0.14.0/xts_0.14.0_b2_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-06-06 17:33:25 UTC; unix
-Filesize: 821845
-SHA256: 55913fc570f38f6d99e593b1102d788938552e8e41ae80cee3d3d68ddb092c0c
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: timeSeries, timeDate, tseries, chron, tinytest
-Imports: methods
-LinkingTo: zoo
-
 Package: downlit
 Version: 0.4.4
 Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
@@ -3357,24 +3338,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat, DoE.base, knitr, rmarkdown
 Imports: Rcpp
 LinkingTo: Rcpp
-
-Package: bookdown
-Version: 0.40
-Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-License: GPL-3
-File: bookdown_0.40_b3_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/bookdown/releases/download/0.40/bookdown_0.40_b3_R4.5_aarch64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-07-02 17:31:35 UTC; unix
-Filesize: 1087851
-SHA256: 35aed694f8fac4549332008940707e009cf442787f66584de28437dfda04a202
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, rstudioapi, miniUI, rsconnect (>= 0.4.3), servr (>= 0.13), shiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat (>=
-        3.1.0), withr (>= 2.3.0)
-Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.39), tinytex (>= 0.12), yaml (>= 2.1.19)
-SystemRequirements: Pandoc (>= 1.17.2)
 
 Package: lme4
 Version: 1.1-35.5
@@ -4373,24 +4336,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: RColorBrewer, MASS
 
-Package: duckdb
-Version: 1.1.0
-Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: duckdb_1.1.0_b7_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.1.0/duckdb_1.1.0_b7_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-09-25 17:34:00 UTC; unix
-Filesize: 12081825
-SHA256: ac9083a390ccc246325e5af30d0608d6310a2682e4737edcd2352fe063430630
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-Imports: methods, utils
-
 Package: httr2
 Version: 1.0.5
 Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
@@ -4780,3 +4725,58 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: spelling, knitr, rmarkdown, testthat
 Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
 SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
+
+Package: xts
+Version: 0.14.1
+Depends: R (>= 3.6.0), zoo (>= 1.7-12), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: xts_0.14.1_b3_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/xts/releases/download/0.14.1/xts_0.14.1_b3_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-10-16 17:37:23 UTC; unix
+Filesize: 1216293
+SHA256: 127b7e972f31f8e28c1654d4024ba5376fba1a74e96f96d43a7d23ff8c748b77
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: timeSeries, timeDate, tseries, chron, tinytest
+Imports: methods
+LinkingTo: zoo
+
+Package: bookdown
+Version: 0.41
+Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+License: GPL-3
+File: bookdown_0.41_b4_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/bookdown/releases/download/0.41/bookdown_0.41_b4_R4.5_aarch64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-10-16 17:37:28 UTC; unix
+Filesize: 1087725
+SHA256: d6c1677c247d4dbcd90c79410ba71e318d398e96db0278b08200bac553270d97
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, rstudioapi, miniUI, rsconnect (>= 0.4.3), servr (>= 0.13), shiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat (>=
+        3.1.0), withr (>= 2.3.0)
+Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.48), tinytex (>= 0.12), yaml (>= 2.1.19)
+SystemRequirements: Pandoc (>= 1.17.2)
+
+Package: duckdb
+Version: 1.1.1
+Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: duckdb_1.1.1_b8_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.1.1/duckdb_1.1.1_b8_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-10-16 17:37:33 UTC; unix
+Filesize: 12082567
+SHA256: ae19b2cee6d43f65fe7e601c61149efea8a015f6e69e5b9e96b0b891989ec3da
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+Imports: methods, utils
