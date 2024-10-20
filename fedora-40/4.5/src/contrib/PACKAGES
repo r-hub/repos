@@ -2137,26 +2137,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: hexbin (>= 1.27.0), scales, MASS, knitr, dichromat, colorspace, httr, mapproj, vdiffr, svglite (>= 1.2.0), testthat, covr, rmarkdown, maps, terra
 Imports: ggplot2 (>= 1.0.1), gridExtra
 
-Package: igraph
-Version: 2.0.3
-Depends: methods, R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: igraph_2.0.3_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/igraph/releases/download/2.0.3/igraph_2.0.3_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-24 21:21:30 UTC; unix
-Filesize: 11137045
-SHA256: cca185cd4d538a2ed9366f502a12cf12261fd2bac1e2b27af0c7023148942db9
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: ape (>= 5.7-0.1), callr, decor, digest, graph, igraphdata, knitr, rgl, rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
-Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang, stats, utils, vctrs
-SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
-LinkingTo: cpp11 (>= 0.4.7)
-
 Package: rgl
 Version: 1.3.1
 Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
@@ -4821,3 +4801,43 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat, knitr, rmarkdown, clipr, covr
+
+Package: Matrix
+Version: 1.7-1
+Depends: R (>= 4.4.0), methods, R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2) | file LICENCE
+File: Matrix_1.7-1_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/Matrix/releases/download/1.7-1/Matrix_1.7-1_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-10-20 17:24:27 UTC; unix
+Filesize: 7258090
+SHA256: 620f5b7529ab2a9d975867c2ac90fd79f7d18049a7e0c74161f324812d3b96ef
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: SparseM, graph
+Suggests: MASS, datasets, sfsmisc, tools
+Imports: grDevices, graphics, grid, lattice, stats, utils
+
+Package: igraph
+Version: 2.1.1
+Depends: methods, R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: igraph_2.1.1_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/igraph/releases/download/2.1.1/igraph_2.1.1_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-10-20 17:27:10 UTC; unix
+Filesize: 11220781
+SHA256: 3e328e5bca9874eb34372db9c33c33398d9d4bf862353441fca82f0271be8086
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: graph
+Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl, rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
+Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang, stats, utils, vctrs
+SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
+LinkingTo: cpp11 (>= 0.5.0)
