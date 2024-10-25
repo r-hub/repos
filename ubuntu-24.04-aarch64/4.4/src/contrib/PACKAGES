@@ -1411,22 +1411,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat
 Imports: lhs (>= 0.5), lattice (>= 0.18-8)
 
-Package: gtable
-Version: 0.3.5
-Depends: R (>= 3.5), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: gtable_0.3.5_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/gtable/releases/download/0.3.5/gtable_0.3.5_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.4.1; ; 2024-07-20 15:03:12 UTC; unix
-Filesize: 218356
-SHA256: b2bf687a468d1e5e0cf1579302d84a417525afa02adb14d9f9db05c032e748aa
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, ggplot2, knitr, profvis, rmarkdown, testthat (>= 3.0.0)
-Imports: cli, glue, grid, lifecycle, rlang (>= 1.1.0)
-
 Package: hardhat
 Version: 1.4.0
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -1791,25 +1775,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: stats, graphics, grDevices
-
-Package: slider
-Version: 0.3.1
-Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: slider_0.3.1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/slider/releases/download/0.3.1/slider_0.3.1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-20 15:12:54 UTC; unix
-Filesize: 397913
-SHA256: 55a8f3c512e2769cf370932575b13767689f66cc1474a916594e44dfa9f6fbb3
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, dplyr (>= 1.0.0), knitr, lubridate, rmarkdown, testthat (>= 3.0.0)
-Imports: cli (>= 3.6.1), rlang (>= 1.1.1), vctrs (>= 0.6.3), warp
-LinkingTo: vctrs (>= 0.6.3)
 
 Package: SQUAREM
 Version: 2021.1
@@ -4926,3 +4891,38 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat, knitr, rmarkdown, clipr, covr
+
+Package: gtable
+Version: 0.3.6
+Depends: R (>= 4.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: gtable_0.3.6_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/gtable/releases/download/0.3.6/gtable_0.3.6_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.1; ; 2024-10-25 23:25:37 UTC; unix
+Filesize: 222870
+SHA256: 001d9f1dbd7f590c42730521c6a963f14df7f23e41c618a5506b4a2ee0d90e21
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, ggplot2, knitr, profvis, rmarkdown, testthat (>= 3.0.0)
+Imports: cli, glue, grid, lifecycle, rlang (>= 1.1.0), stats
+
+Package: slider
+Version: 0.3.2
+Depends: R (>= 4.0.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: slider_0.3.2_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/slider/releases/download/0.3.2/slider_0.3.2_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-10-25 23:25:37 UTC; unix
+Filesize: 398943
+SHA256: b034774cb4f6acfaa9507faf0e4d0b01b82b808efb7b1083ac783a5570da8e15
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, dplyr (>= 1.0.0), knitr, lubridate, rmarkdown, testthat (>= 3.0.0)
+Imports: cli (>= 3.6.1), rlang (>= 1.1.1), vctrs (>= 0.6.3), warp
+LinkingTo: vctrs (>= 0.6.3)
