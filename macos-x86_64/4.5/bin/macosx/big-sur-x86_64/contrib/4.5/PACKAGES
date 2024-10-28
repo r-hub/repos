@@ -918,22 +918,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: carrier, covr, dplyr (>= 0.7.4), knitr, listenv (>= 0.6.0), magrittr, rmarkdown, testthat (>= 3.0.0), tidyselect, withr
 Imports: globals (>= 0.14.0), lifecycle (>= 1.0.1), purrr (>= 0.3.4), rlang (>= 1.0.2), vctrs (>= 0.4.1)
 
-Package: future.apply
-Version: 1.11.2
-Depends: R (>= 3.2.0), future (>= 1.28.0), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: future.apply_1.11.2_b1_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/future.apply/releases/download/1.11.2/future.apply_1.11.2_b1_R4.5_x86_64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-03-29 16:27:18 UTC; unix
-Filesize: 155395
-SHA256: 81180fbf9f16796ff63179b6a902161ee6a9f959a82d31f1ac7b64ba60962216
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: datasets, stats, tools, listenv (>= 0.8.0), R.rsp, markdown
-Imports: globals (>= 0.16.1), parallel, utils
-
 Package: generics
 Version: 0.1.3
 Depends: R (>= 3.2), R (>= 4.5), R (< 4.5.99)
@@ -1753,22 +1737,6 @@ Suggests: archive, bench (>= 1.1.0), covr, curl, dplyr, forcats, fs, ggplot2, kn
 Imports: bit64, cli (>= 3.2.0), crayon, glue, hms, lifecycle (>= 1.0.3), methods, rlang (>= 0.4.2), stats, tibble (>= 2.0.0), tidyselect, tzdb (>= 0.1.1), vctrs (>= 0.2.0), withr
 LinkingTo: cpp11 (>= 0.2.0), progress (>= 1.2.1), tzdb (>= 0.1.1)
 
-Package: pkgbuild
-Version: 1.4.4
-Depends: R (>= 3.5), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: pkgbuild_1.4.4_b1_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/pkgbuild/releases/download/1.4.4/pkgbuild_1.4.4_b1_R4.5_x86_64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-03-29 15:22:49 UTC; unix
-Filesize: 202702
-SHA256: 7afcced546394ecd55282aa68469861d55d4e71d7c72afbbbeab80196a7a79c9
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, cpp11, knitr, mockery, Rcpp, rmarkdown, testthat (>= 3.0.0), withr (>= 2.3.0)
-Imports: callr (>= 3.2.0), cli (>= 3.4.0), desc, processx, R6
-
 Package: Formula
 Version: 1.2-5
 Depends: R (>= 2.0.0), stats, R (>= 4.5), R (< 4.5.99)
@@ -1814,28 +1782,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: hexbin (>= 1.27.0), scales, MASS, knitr, dichromat, colorspace, httr, mapproj, vdiffr, svglite (>= 1.2.0), testthat, covr, rmarkdown, maps, terra
 Imports: ggplot2 (>= 1.0.1), gridExtra
-
-Package: rgl
-Version: 1.3.1
-Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-License: GPL
-File: rgl_1.3.1_b1_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/rgl/releases/download/1.3.1/rgl_1.3.1_b1_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-03-29 16:25:42 UTC; unix
-Filesize: 4401163
-SHA256: ecfe58043ef8ce8e1cb1d17de1508315b1f6fca82e0d6fa59f565e105ea8e012
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: waldo
-Suggests: MASS, markdown (>= 1.12), rmarkdown (>= 2.16), deldir (>= 1.0-4), orientlib, lattice, misc3d, magick, plotrix (>= 3.7-3), tripack, interp, alphashape3d, tcltk, js (>= 1.2), webshot2 (>=
-        0.1.0), downlit (>= 0.4.0), pkgdown (>= 2.0.0), extrafont, shiny, manipulateWidget (>= 0.9.0), testthat, crosstalk, V8, chromote, jpeg, png
-Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
-SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
-        (optional), libpng (>=1.2.9, optional), FreeType (optional)
 
 Package: classInt
 Version: 0.4-10
@@ -2997,25 +2943,6 @@ Suggests: callr, DBItest (>= 1.8.0), gert, gh, hms, knitr, magrittr, rmarkdown, 
 Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
 LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
 
-Package: Hmisc
-Version: 5.1-3
-Depends: R (>= 4.1.0), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: Hmisc_5.1-3_b2_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/Hmisc/releases/download/5.1-3/Hmisc_5.1-3_b2_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-05-28 17:31:01 UTC; unix
-Filesize: 3560130
-SHA256: e8a8b61a5a2fbb40f522285463b9238fedab907b7b4954c5d8707830b2923b22
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice,
-        latticeExtra, gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer, htm2txt
-Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
-
 Package: hardhat
 Version: 1.4.0
 Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
@@ -3674,22 +3601,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, ggplot2, kernlab, knitr, rmarkdown, rpart, testthat (>= 3.1.9), xml2
 Imports: cli, DiceDesign, dplyr (>= 0.8.5), glue, hardhat (>= 1.1.0), lifecycle, pillar, purrr, rlang (>= 1.1.0), sfd, tibble, utils, vctrs (>= 0.3.8), withr
-
-Package: withr
-Version: 3.0.1
-Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: withr_3.0.1_b2_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/withr/releases/download/3.0.1/withr_3.0.1_b2_R4.5_x86_64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-07-31 17:34:36 UTC; unix
-Filesize: 223760
-SHA256: b71b1625d47f6d8208416415a9c45725c9af1ed0f9642c92186fdc8343993f80
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: callr, DBI, knitr, methods, rlang, rmarkdown (>= 2.12), RSQLite, testthat (>= 3.0.0)
-Imports: graphics, grDevices
 
 Package: shiny
 Version: 1.9.1
@@ -4800,3 +4711,92 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, dplyr (>= 1.0.0), knitr, lubridate, rmarkdown, testthat (>= 3.0.0)
 Imports: cli (>= 3.6.1), rlang (>= 1.1.1), vctrs (>= 0.6.3), warp
 LinkingTo: vctrs (>= 0.6.3)
+
+Package: future.apply
+Version: 1.11.3
+Depends: R (>= 3.2.0), future (>= 1.28.0), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: future.apply_1.11.3_b2_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/future.apply/releases/download/1.11.3/future.apply_1.11.3_b2_R4.5_x86_64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-10-28 17:36:17 UTC; unix
+Filesize: 155463
+SHA256: c917b670fd061f31c35d00c0a442fb5108cf5f2faed73549b57fae390b216c10
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: datasets, stats, tools, listenv (>= 0.8.0), R.rsp, markdown
+Imports: globals (>= 0.16.1), parallel, utils
+
+Package: pkgbuild
+Version: 1.4.5
+Depends: R (>= 3.5), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: pkgbuild_1.4.5_b2_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/pkgbuild/releases/download/1.4.5/pkgbuild_1.4.5_b2_R4.5_x86_64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-10-28 17:35:54 UTC; unix
+Filesize: 203710
+SHA256: 3389b2f322e2f89b2aa88de0ac7377790b3f06902b4e016954eb454907703daf
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, cpp11, knitr, Rcpp, rmarkdown, testthat (>= 3.2.0), withr (>= 2.3.0)
+Imports: callr (>= 3.2.0), cli (>= 3.4.0), desc, processx, R6
+
+Package: rgl
+Version: 1.3.12
+Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+License: GPL
+File: rgl_1.3.12_b2_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/rgl/releases/download/1.3.12/rgl_1.3.12_b2_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2024-10-28 17:36:28 UTC; unix
+Filesize: 5064006
+SHA256: 89c2b169fa958ba56a4d456e18ca97f7814da197c9317f5668d3205350477a93
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: waldo
+Suggests: MASS, markdown (>= 1.12), rmarkdown (>= 2.16), deldir (>= 1.0-4), orientlib, lattice, misc3d, magick, plotrix (>= 3.7-3), tripack, interp, alphashape3d, tcltk, js (>= 1.2), webshot2 (>=
+        0.1.0), downlit (>= 0.4.0), pkgdown (>= 2.0.0), extrafont, shiny, manipulateWidget (>= 0.9.0), testthat, crosstalk, V8, chromote, jpeg, png
+Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
+SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
+        (optional), libpng (>=1.2.9, optional), FreeType (optional)
+
+Package: Hmisc
+Version: 5.2-0
+Depends: R (>= 4.2.0), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: Hmisc_5.2-0_b3_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/Hmisc/releases/download/5.2-0/Hmisc_5.2-0_b3_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2024-10-28 17:37:31 UTC; unix
+Filesize: 3566300
+SHA256: 3dd33051cbe966f35bf2799103651b9b53ac3516fd07f074dd149e1e0aeacc07
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice,
+        latticeExtra, gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer, htm2txt
+Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
+
+Package: withr
+Version: 3.0.2
+Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: withr_3.0.2_b3_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/withr/releases/download/3.0.2/withr_3.0.2_b3_R4.5_x86_64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-10-28 17:35:53 UTC; unix
+Filesize: 223647
+SHA256: 2d39080cc1d203bf5fc072e70ba8868c36be467ac5f644b0d440089d4a53d50b
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: callr, DBI, knitr, methods, rlang, rmarkdown (>= 2.12), RSQLite, testthat (>= 3.0.0)
+Imports: graphics, grDevices
