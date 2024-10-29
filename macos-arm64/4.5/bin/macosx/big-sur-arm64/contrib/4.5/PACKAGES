@@ -1131,22 +1131,6 @@ Suggests: C50, bench, covr, dials (>= 1.1.0), earth, ggrepel, keras, kernlab, kk
 Imports: cli, dplyr (>= 1.1.0), generics (>= 0.1.2), ggplot2, globals, glue, hardhat (>= 1.1.0), lifecycle, magrittr, pillar, prettyunits, purrr (>= 1.0.0), rlang (>= 0.3.1), stats, tibble (>=
         2.1.1), tidyr (>= 1.3.0), utils, vctrs (>= 0.6.0), withr
 
-Package: progressr
-Version: 0.14.0
-Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 3)
-File: progressr_0.14.0_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/progressr/releases/download/0.14.0/progressr_0.14.0_b1_R4.5_aarch64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-03-29 15:30:04 UTC; unix
-Filesize: 380336
-SHA256: a6d9bde07313a656c592acb377e40daa25c2dcd05ac54f057221a0c691ee3357
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: graphics, tcltk, beepr, cli, crayon, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools
-Imports: digest, utils
-
 Package: RColorBrewer
 Version: 1.1-3
 Depends: R (>= 2.0.0), R (>= 4.5), R (< 4.5.99)
@@ -3902,24 +3886,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat (>= 0.11.0)
 Imports: methods
 
-Package: ps
-Version: 1.8.0
-Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: ps_1.8.0_b3_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/ps/releases/download/1.8.0/ps_1.8.0_b3_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-09-13 17:32:44 UTC; unix
-Filesize: 390288
-SHA256: eb4cf3ec90ac179d771f718b163ee3f7c308eb38d1e4df0e8eda10b5d2720052
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes, withr
-Imports: utils
-
 Package: patchwork
 Version: 1.3.0
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4800,3 +4766,37 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: callr, DBI, knitr, methods, rlang, rmarkdown (>= 2.12), RSQLite, testthat (>= 3.0.0)
 Imports: graphics, grDevices
+
+Package: progressr
+Version: 0.15.0
+Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 3)
+File: progressr_0.15.0_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/progressr/releases/download/0.15.0/progressr_0.15.0_b2_R4.5_aarch64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-10-29 17:35:37 UTC; unix
+Filesize: 390488
+SHA256: d7f4c4508a497c0347337d8e3ff72fcded5e2b90788cc968cdc8f4ff8242059e
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: graphics, tcltk, beepr, cli, crayon, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools
+Imports: digest, utils
+
+Package: ps
+Version: 1.8.1
+Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: ps_1.8.1_b4_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/ps/releases/download/1.8.1/ps_1.8.1_b4_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-10-29 17:35:26 UTC; unix
+Filesize: 391987
+SHA256: 782bc910e46c1a4ff9f381662c4f29550d8a55d2039a98bbecf1f9000065b8d3
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes, withr
+Imports: utils
