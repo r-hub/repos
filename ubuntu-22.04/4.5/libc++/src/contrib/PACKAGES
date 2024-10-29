@@ -1115,22 +1115,6 @@ Suggests: C50, bench, covr, dials (>= 1.1.0), earth, ggrepel, keras, kernlab, kk
 Imports: cli, dplyr (>= 1.1.0), generics (>= 0.1.2), ggplot2, globals, glue, hardhat (>= 1.1.0), lifecycle, magrittr, pillar, prettyunits, purrr (>= 1.0.0), rlang (>= 0.3.1), stats, tibble (>=
         2.1.1), tidyr (>= 1.3.0), utils, vctrs (>= 0.6.0), withr
 
-Package: progressr
-Version: 0.14.0
-Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 3)
-File: progressr_0.14.0_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/progressr/releases/download/0.14.0/progressr_0.14.0_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.5.0; ; 2024-03-27 13:15:13 UTC; unix
-Filesize: 381304
-SHA256: b77bcd71da00067fdc8aea4ccdfd8d1e11ed0fe21c13ac486b8320702810480a
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: graphics, tcltk, beepr, cli, crayon, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools
-Imports: digest, utils
-
 Package: RColorBrewer
 Version: 1.1-3
 Depends: R (>= 2.0.0), R (>= 4.5), R (< 4.5.99)
@@ -1720,22 +1704,6 @@ Suggests: archive, bench (>= 1.1.0), covr, curl, dplyr, forcats, fs, ggplot2, kn
         xml2
 Imports: bit64, cli (>= 3.2.0), crayon, glue, hms, lifecycle (>= 1.0.3), methods, rlang (>= 0.4.2), stats, tibble (>= 2.0.0), tidyselect, tzdb (>= 0.1.1), vctrs (>= 0.2.0), withr
 LinkingTo: cpp11 (>= 0.2.0), progress (>= 1.2.1), tzdb (>= 0.1.1)
-
-Package: pkgbuild
-Version: 1.4.4
-Depends: R (>= 3.5), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: pkgbuild_1.4.4_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/pkgbuild/releases/download/1.4.4/pkgbuild_1.4.4_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.5.0; ; 2024-03-27 12:55:35 UTC; unix
-Filesize: 202678
-SHA256: 42fa3b0df8da3f869c6fc4d67083b09c75db9f0ff753fd86282a8554d4a28d8a
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, cpp11, knitr, mockery, Rcpp, rmarkdown, testthat (>= 3.0.0), withr (>= 2.3.0)
-Imports: callr (>= 3.2.0), cli (>= 3.4.0), desc, processx, R6
 
 Package: Formula
 Version: 1.2-5
@@ -3645,24 +3613,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat (>= 0.11.0)
 Imports: methods
 
-Package: ps
-Version: 1.8.0
-Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: ps_1.8.0_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/ps/releases/download/1.8.0/ps_1.8.0_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-09-13 17:07:29 UTC; unix
-Filesize: 398853
-SHA256: f8a9f07e974b04d7ebbc49891d06b02c7fec52ecd5b00d73891db1b668fba58a
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes, withr
-Imports: utils
-
 Package: patchwork
 Version: 1.3.0
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4494,3 +4444,53 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: callr, DBI, knitr, methods, rlang, rmarkdown (>= 2.12), RSQLite, testthat (>= 3.0.0)
 Imports: graphics, grDevices
+
+Package: progressr
+Version: 0.15.0
+Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 3)
+File: progressr_0.15.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/progressr/releases/download/0.15.0/progressr_0.15.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.5.0; ; 2024-10-29 17:08:16 UTC; unix
+Filesize: 390993
+SHA256: f0187df3353e0d94a051556fdb2801253b4e9be61cbcd7d765924f427512e125
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: graphics, tcltk, beepr, cli, crayon, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools
+Imports: digest, utils
+
+Package: pkgbuild
+Version: 1.4.5
+Depends: R (>= 3.5), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: pkgbuild_1.4.5_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/pkgbuild/releases/download/1.4.5/pkgbuild_1.4.5_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.5.0; ; 2024-10-29 17:08:22 UTC; unix
+Filesize: 203779
+SHA256: 2500fd473fc3d1224392c0bc625622fe1eb0d836c1209a756a326cc593386475
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, cpp11, knitr, Rcpp, rmarkdown, testthat (>= 3.2.0), withr (>= 2.3.0)
+Imports: callr (>= 3.2.0), cli (>= 3.4.0), desc, processx, R6
+
+Package: ps
+Version: 1.8.1
+Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: ps_1.8.1_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/ps/releases/download/1.8.1/ps_1.8.1_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-10-29 17:08:17 UTC; unix
+Filesize: 398337
+SHA256: b540590cd5e6628a1107488ed173fef9172437078066d216c87ab5e29d75a772
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes, withr
+Imports: utils
