@@ -1115,22 +1115,6 @@ Suggests: C50, bench, covr, dials (>= 1.1.0), earth, ggrepel, keras, kernlab, kk
 Imports: cli, dplyr (>= 1.1.0), generics (>= 0.1.2), ggplot2, globals, glue, hardhat (>= 1.1.0), lifecycle, magrittr, pillar, prettyunits, purrr (>= 1.0.0), rlang (>= 0.3.1), stats, tibble (>=
         2.1.1), tidyr (>= 1.3.0), utils, vctrs (>= 0.6.0), withr
 
-Package: progressr
-Version: 0.14.0
-Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 3)
-File: progressr_0.14.0_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/progressr/releases/download/0.14.0/progressr_0.14.0_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.5.0; ; 2024-03-27 17:39:40 UTC; unix
-Filesize: 398100
-SHA256: 3f8642be3eebba073a295b8947da334dffa0d63b73fb27df4147ba8e7e3345f4
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: graphics, tcltk, beepr, cli, crayon, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools
-Imports: digest, utils
-
 Package: RColorBrewer
 Version: 1.1-3
 Depends: R (>= 2.0.0), R (>= 4.5), R (< 4.5.99)
@@ -3923,24 +3907,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat (>= 0.11.0)
 Imports: methods
 
-Package: ps
-Version: 1.8.0
-Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: ps_1.8.0_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/ps/releases/download/1.8.0/ps_1.8.0_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-09-13 17:22:35 UTC; unix
-Filesize: 503425
-SHA256: 09d735ce986adb09e469af75f82161fa8ce499b00aa274b150e7dc1a747edc25
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes, withr
-Imports: utils
-
 Package: patchwork
 Version: 1.3.0
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4841,3 +4807,37 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: callr, DBI, knitr, methods, rlang, rmarkdown (>= 2.12), RSQLite, testthat (>= 3.0.0)
 Imports: graphics, grDevices
+
+Package: progressr
+Version: 0.15.0
+Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 3)
+File: progressr_0.15.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/progressr/releases/download/0.15.0/progressr_0.15.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.5.0; ; 2024-10-29 17:23:58 UTC; unix
+Filesize: 408688
+SHA256: 31c916351f176f7814327300e55c2e0893167388c8e6cfb5c0769987a5b69bc0
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: graphics, tcltk, beepr, cli, crayon, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools
+Imports: digest, utils
+
+Package: ps
+Version: 1.8.1
+Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: ps_1.8.1_b4_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/ps/releases/download/1.8.1/ps_1.8.1_b4_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-10-29 17:23:58 UTC; unix
+Filesize: 503676
+SHA256: 2d94a237b12eb1bf249f3ba0731ab7135d66be7ebf912b47d459c650bdbcaadc
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes, withr
+Imports: utils
