@@ -451,25 +451,6 @@ GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli (>= 3.4.0), glue, lifecycle, magrittr, rlang (>= 1.0.0), tibble
 
-Package: fs
-Version: 1.6.4
-Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
-Suggests: covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr
-License: MIT + file LICENSE
-File: fs_1.6.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/fs/releases/download/1.6.4/fs_1.6.4_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-28 12:24:26 UTC; unix
-Filesize: 312558
-SHA256: 07b2c489117c23cf2e3c5a5cf6570dfe0cdeed2ab3a8e8b28ca6dc2937581314
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: methods
-OS: linux
-Arch: s390x
-SystemRequirements: GNU make
-
 Package: gargle
 Version: 1.5.2
 Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
@@ -2009,24 +1990,6 @@ Imports: methods
 OS: linux
 Arch: s390x
 
-Package: duckdb
-Version: 1.1.1
-Depends: DBI, R (>= 3.6.0), R (>= 4.1), R (< 4.1.99)
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-License: MIT + file LICENSE
-File: duckdb_1.1.1_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.1.1/duckdb_1.1.1_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-10-17 14:31:21 UTC; unix
-Filesize: 227187914
-SHA256: d5d59d9784fb4fe84e8107a95d767bf8e9cfec95914a191785f54efb8a919f36
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: methods, utils
-OS: linux
-Arch: s390x
-
 Package: rstudioapi
 Version: 0.17.1
 Depends: R (>= 4.1), R (< 4.1.99)
@@ -2105,5 +2068,42 @@ Platform: s390x-ibm-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: utils
+OS: linux
+Arch: s390x
+
+Package: fs
+Version: 1.6.5
+Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr
+License: MIT + file LICENSE
+File: fs_1.6.5_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/fs/releases/download/1.6.5/fs_1.6.5_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-10-30 14:31:08 UTC; unix
+Filesize: 777482
+SHA256: 3e279d180ae6a50b731e68027f09d4b70064dd3f3a426b1e91dce8a2e12da3e4
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: methods
+OS: linux
+Arch: s390x
+SystemRequirements: GNU make
+
+Package: duckdb
+Version: 1.1.2
+Depends: DBI, R (>= 3.6.0), R (>= 4.1), R (< 4.1.99)
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+License: MIT + file LICENSE
+File: duckdb_1.1.2_b4_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.1.2/duckdb_1.1.2_b4_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-10-30 14:31:45 UTC; unix
+Filesize: 228773651
+SHA256: 7534fc3ba89a47813fa50c430d6c3c12e53b57d11ad529166a85612f8ff9b231
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: methods, utils
 OS: linux
 Arch: s390x
