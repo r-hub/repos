@@ -2675,25 +2675,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, testthat (>= 3.0.0)
 
-Package: fs
-Version: 1.6.4
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: fs_1.6.4_b2_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/fs/releases/download/1.6.4/fs_1.6.4_b2_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-04-25 17:32:31 UTC; unix
-Filesize: 309382
-SHA256: eb5dce355f27ca4d32d8ab1b8c756d390bc7e1d62f5014f9856277e3ac21645c
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr
-Imports: methods
-SystemRequirements: GNU make
-
 Package: xopen
 Version: 1.0.1
 Depends: R (>= 3.1), R (>= 4.5), R (< 4.5.99)
@@ -4536,24 +4517,6 @@ Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, rstudioap
 Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.48), tinytex (>= 0.12), yaml (>= 2.1.19)
 SystemRequirements: Pandoc (>= 1.17.2)
 
-Package: duckdb
-Version: 1.1.1
-Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: duckdb_1.1.1_b8_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.1.1/duckdb_1.1.1_b8_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-10-16 17:37:33 UTC; unix
-Filesize: 12082567
-SHA256: ae19b2cee6d43f65fe7e601c61149efea8a015f6e69e5b9e96b0b891989ec3da
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-Imports: methods, utils
-
 Package: Matrix
 Version: 1.7-1
 Depends: R (>= 4.4.0), methods, R (>= 4.5), R (< 4.5.99)
@@ -4800,3 +4763,40 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes, withr
 Imports: utils
+
+Package: fs
+Version: 1.6.5
+Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: fs_1.6.5_b3_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/fs/releases/download/1.6.5/fs_1.6.5_b3_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-10-30 17:34:12 UTC; unix
+Filesize: 308461
+SHA256: ab37826a7f5608195cc88b51df060021bb4b23340c5b3281dcdc489e0d8cdc12
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr
+Imports: methods
+SystemRequirements: GNU make
+
+Package: duckdb
+Version: 1.1.2
+Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: duckdb_1.1.2_b9_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.1.2/duckdb_1.1.2_b9_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-10-30 17:34:33 UTC; unix
+Filesize: 12129348
+SHA256: e5d7af1d3011b839e0f9e31e574b00a961bbf926049b03e1bc1db77cdcfb240e
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+Imports: methods, utils
