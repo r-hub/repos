@@ -221,25 +221,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, dplyr (>= 1.0.8), knitr (>= 1.31), testthat (>= 3.0.0), rsvg
 Imports: rlang (>= 1.0.6), htmltools (>= 0.5.1.1)
 
-Package: fs
-Version: 1.6.4
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: fs_1.6.4_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/fs/releases/download/1.6.4/fs_1.6.4_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-24 21:14:03 UTC; unix
-Filesize: 799339
-SHA256: ae6e365acd21974ef0010a8bc8d845efb1751ec84d1e117bc97afdcbacd496c4
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr
-Imports: methods
-SystemRequirements: GNU make
-
 Package: gh
 Version: 1.4.1
 Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
@@ -4577,24 +4558,6 @@ Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, rstudioap
 Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.48), tinytex (>= 0.12), yaml (>= 2.1.19)
 SystemRequirements: Pandoc (>= 1.17.2)
 
-Package: duckdb
-Version: 1.1.1
-Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: duckdb_1.1.1_b6_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.1.1/duckdb_1.1.1_b6_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-10-16 17:26:49 UTC; unix
-Filesize: 222471231
-SHA256: 7e88daf793bb99de45e7612ec6fe762b637c912df44d35235d8aab0ec3c7b84c
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-Imports: methods, utils
-
 Package: Matrix
 Version: 1.7-1
 Depends: R (>= 4.4.0), methods, R (>= 4.5), R (< 4.5.99)
@@ -4841,3 +4804,40 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes, withr
 Imports: utils
+
+Package: fs
+Version: 1.6.5
+Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: fs_1.6.5_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/fs/releases/download/1.6.5/fs_1.6.5_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-10-30 17:24:35 UTC; unix
+Filesize: 802502
+SHA256: d630ba3ea0bd82117741b2f82117e8b396fd7395eb5190e2927e6ab3289b68be
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr
+Imports: methods
+SystemRequirements: GNU make
+
+Package: duckdb
+Version: 1.1.2
+Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: duckdb_1.1.2_b7_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.1.2/duckdb_1.1.2_b7_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-10-30 17:24:41 UTC; unix
+Filesize: 224108679
+SHA256: 7c540e3cfed958e419fccf2e3a31320f7bb9ca48d91a57324c136b6a564ec248
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+Imports: methods, utils
