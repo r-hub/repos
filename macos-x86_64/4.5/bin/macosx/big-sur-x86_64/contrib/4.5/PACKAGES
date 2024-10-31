@@ -2294,26 +2294,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: parallel, utils
 
-Package: vdiffr
-Version: 1.0.7
-Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: vdiffr_1.0.7_b1_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/vdiffr/releases/download/1.0.7/vdiffr_1.0.7_b1_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-03-29 16:26:42 UTC; unix
-Filesize: 316053
-SHA256: 5b0c5cc2214c70b7b410a730a1016ca71ec744463ae0a909ea29f241b9f9c8c5
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, ggplot2 (>= 3.2.0), roxygen2, withr
-Imports: diffobj, glue, grDevices, htmltools, lifecycle, rlang, testthat (>= 3.0.3), xml2 (>= 1.0.0)
-SystemRequirements: C++11, libpng
-LinkingTo: cpp11
-
 Package: bayesplot
 Version: 1.11.1
 Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
@@ -4800,3 +4780,23 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
 Imports: methods, utils
+
+Package: vdiffr
+Version: 1.0.8
+Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: vdiffr_1.0.8_b2_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/vdiffr/releases/download/1.0.8/vdiffr_1.0.8_b2_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2024-10-31 17:37:17 UTC; unix
+Filesize: 315933
+SHA256: aafa0ec546e01342c1bbacf0ef6ac94a0e2b35659b36afa1f25f4455f9c492dd
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, decor, ggplot2 (>= 3.2.0), roxygen2, withr
+Imports: diffobj, glue, grDevices, htmltools, lifecycle, rlang, testthat (>= 3.0.3), xml2 (>= 1.0.0)
+SystemRequirements: libpng
+LinkingTo: cpp11
