@@ -2256,26 +2256,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: parallel, utils
 
-Package: vdiffr
-Version: 1.0.7
-Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: vdiffr_1.0.7_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/vdiffr/releases/download/1.0.7/vdiffr_1.0.7_b1_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-03-29 15:32:11 UTC; unix
-Filesize: 330286
-SHA256: 37245a6fd9248cb58a2e817a46010c727cf9f3c8c17ca21094191ee50a182171
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, ggplot2 (>= 3.2.0), roxygen2, withr
-Imports: diffobj, glue, grDevices, htmltools, lifecycle, rlang, testthat (>= 3.0.3), xml2 (>= 1.0.0)
-SystemRequirements: C++11, libpng
-LinkingTo: cpp11
-
 Package: bayesplot
 Version: 1.11.1
 Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
@@ -4800,3 +4780,23 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
 Imports: methods, utils
+
+Package: vdiffr
+Version: 1.0.8
+Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: vdiffr_1.0.8_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/vdiffr/releases/download/1.0.8/vdiffr_1.0.8_b2_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-10-31 17:36:01 UTC; unix
+Filesize: 329840
+SHA256: 34dda5e0fee3a3645be526f6a851cc06ce6d79b17577eb27b58fae2442264a78
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, decor, ggplot2 (>= 3.2.0), roxygen2, withr
+Imports: diffobj, glue, grDevices, htmltools, lifecycle, rlang, testthat (>= 3.0.3), xml2 (>= 1.0.0)
+SystemRequirements: libpng
+LinkingTo: cpp11
