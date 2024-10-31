@@ -2615,26 +2615,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: parallel, utils
 
-Package: vdiffr
-Version: 1.0.7
-Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: vdiffr_1.0.7_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/vdiffr/releases/download/1.0.7/vdiffr_1.0.7_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-24 21:39:36 UTC; unix
-Filesize: 668449
-SHA256: a813d133c51a940aef8c8c60a28a6855b278a2000fefb8a48739a20c5a1456db
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, ggplot2 (>= 3.2.0), roxygen2, withr
-Imports: diffobj, glue, grDevices, htmltools, lifecycle, rlang, testthat (>= 3.0.3), xml2 (>= 1.0.0)
-SystemRequirements: C++11, libpng
-LinkingTo: cpp11
-
 Package: bayesplot
 Version: 1.11.1
 Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
@@ -4841,3 +4821,23 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
 Imports: methods, utils
+
+Package: vdiffr
+Version: 1.0.8
+Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: vdiffr_1.0.8_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/vdiffr/releases/download/1.0.8/vdiffr_1.0.8_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-10-31 17:25:34 UTC; unix
+Filesize: 666898
+SHA256: ae944810308ec44b4e4c6f991d53e1f3685fba04375e60174187b9bc657b2798
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, decor, ggplot2 (>= 3.2.0), roxygen2, withr
+Imports: diffobj, glue, grDevices, htmltools, lifecycle, rlang, testthat (>= 3.0.3), xml2 (>= 1.0.0)
+SystemRequirements: libpng
+LinkingTo: cpp11
