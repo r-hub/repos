@@ -3087,26 +3087,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: parallel, utils
 
-Package: vdiffr
-Version: 1.0.7
-Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: vdiffr_1.0.7_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/vdiffr/releases/download/1.0.7/vdiffr_1.0.7_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-20 16:07:23 UTC; unix
-Filesize: 646925
-SHA256: 323afb334716ec857618d09a7139f705b2133188a5c1ca4266a8c494494f7656
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, ggplot2 (>= 3.2.0), roxygen2, withr
-Imports: diffobj, glue, grDevices, htmltools, lifecycle, rlang, testthat (>= 3.0.3), xml2 (>= 1.0.0)
-SystemRequirements: C++11, libpng
-LinkingTo: cpp11
-
 Package: XML
 Version: 3.99-0.17
 Depends: R (>= 4.0.0), methods, utils, R (>= 4.4), R (< 4.4.99)
@@ -4426,24 +4406,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: pdftools
 Imports: commonmark, xml2, hunspell (>= 3.0), knitr
 
-Package: xfun
-Version: 0.48
-Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: xfun_0.48_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/xfun/releases/download/0.48/xfun_0.48_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-10-04 23:25:00 UTC; unix
-Filesize: 558579
-SHA256: 736c8b2072d58c064e91c7b2a477bb2a75a861d679920375699d535eb35cc9de
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown, knitr (>= 1.47), remotes, pak, rhub, renv, curl, xml2, jsonlite, magick, yaml, qs, rmarkdown
-Imports: grDevices, stats, tools
-
 Package: hunspell
 Version: 3.0.5
 Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
@@ -4926,3 +4888,41 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
 Imports: methods, utils
+
+Package: vdiffr
+Version: 1.0.8
+Depends: R (>= 4.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: vdiffr_1.0.8_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/vdiffr/releases/download/1.0.8/vdiffr_1.0.8_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-10-31 23:27:20 UTC; unix
+Filesize: 644308
+SHA256: 80234dd2ae1af0833071241e484e7470862c548a4135c832e5b4adca6e8be3eb
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, decor, ggplot2 (>= 3.2.0), roxygen2, withr
+Imports: diffobj, glue, grDevices, htmltools, lifecycle, rlang, testthat (>= 3.0.3), xml2 (>= 1.0.0)
+SystemRequirements: libpng
+LinkingTo: cpp11
+
+Package: xfun
+Version: 0.49
+Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: xfun_0.49_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/xfun/releases/download/0.49/xfun_0.49_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-10-31 23:27:14 UTC; unix
+Filesize: 559047
+SHA256: 5c4dbff1fce82f989905db716d1b831f1e9cd33eef21b52334d1290e1c1a41af
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown, commonmark, knitr (>= 1.47), remotes, pak, rhub, renv, curl, xml2, jsonlite, magick, yaml, qs, rmarkdown
+Imports: grDevices, stats, tools
