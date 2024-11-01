@@ -3881,22 +3881,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable, Matrix, MASS, slam
 Imports: graphics, grDevices, class, stats, methods, utils, proxy
 
-Package: tinytex
-Version: 0.53
-Depends: R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: tinytex_0.53_b4_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/tinytex/releases/download/0.53/tinytex_0.53_b4_R4.5_aarch64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-09-16 17:37:15 UTC; unix
-Filesize: 141313
-SHA256: a5d8307c812e4725fffd4c70a3035d9a4df9ced3a0cf7d2a6ae19b0a8eb0ff50
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testit, rstudioapi
-Imports: xfun (>= 0.29)
-
 Package: distributional
 Version: 0.5.0
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4263,24 +4247,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat
 Imports: utils, tools
-
-Package: xfun
-Version: 0.48
-Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: xfun_0.48_b6_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/xfun/releases/download/0.48/xfun_0.48_b6_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-10-04 17:33:49 UTC; unix
-Filesize: 549974
-SHA256: 5b4e96c21a7850991abca86175ec0f16bf80273ce6bd0a32bcebb55bec549957
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown, knitr (>= 1.47), remotes, pak, rhub, renv, curl, xml2, jsonlite, magick, yaml, qs, rmarkdown
-Imports: grDevices, stats, tools
 
 Package: hunspell
 Version: 3.0.5
@@ -4800,3 +4766,37 @@ Suggests: covr, decor, ggplot2 (>= 3.2.0), roxygen2, withr
 Imports: diffobj, glue, grDevices, htmltools, lifecycle, rlang, testthat (>= 3.0.3), xml2 (>= 1.0.0)
 SystemRequirements: libpng
 LinkingTo: cpp11
+
+Package: tinytex
+Version: 0.54
+Depends: R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: tinytex_0.54_b5_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/tinytex/releases/download/0.54/tinytex_0.54_b5_R4.5_aarch64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-11-01 17:34:06 UTC; unix
+Filesize: 143851
+SHA256: dd6f1ec5d35fb3e6c5627ed3fbb518342b8e4b56ac3f769a6966ab7f084820b3
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testit, rstudioapi
+Imports: xfun (>= 0.48)
+
+Package: xfun
+Version: 0.49
+Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: xfun_0.49_b7_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/xfun/releases/download/0.49/xfun_0.49_b7_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-11-01 17:34:04 UTC; unix
+Filesize: 554529
+SHA256: 1f27f68b2d9263e423b1daacaa8f3e1cbe95db11870cf0433826c639a3c2b161
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown, commonmark, knitr (>= 1.47), remotes, pak, rhub, renv, curl, xml2, jsonlite, magick, yaml, qs, rmarkdown
+Imports: grDevices, stats, tools
