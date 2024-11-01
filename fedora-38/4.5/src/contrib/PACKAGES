@@ -3902,22 +3902,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable, Matrix, MASS, slam
 Imports: graphics, grDevices, class, stats, methods, utils, proxy
 
-Package: tinytex
-Version: 0.53
-Depends: R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: tinytex_0.53_b4_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/tinytex/releases/download/0.53/tinytex_0.53_b4_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.5.0; ; 2024-09-16 17:23:53 UTC; unix
-Filesize: 149953
-SHA256: 959ce28fec7a9908fdf181cdf78ea0e6283988234e5e5d124b4b24f87f56d02f
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testit, rstudioapi
-Imports: xfun (>= 0.29)
-
 Package: distributional
 Version: 0.5.0
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4320,24 +4304,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: pdftools
 Imports: commonmark, xml2, hunspell (>= 3.0), knitr
-
-Package: xfun
-Version: 0.48
-Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: xfun_0.48_b6_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/xfun/releases/download/0.48/xfun_0.48_b6_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-10-04 17:22:38 UTC; unix
-Filesize: 592878
-SHA256: 1b587d0fc34fb0ff660a9e3cd791bc304b897ae387e24d5170b3e7696751ceac
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown, knitr (>= 1.47), remotes, pak, rhub, renv, curl, xml2, jsonlite, magick, yaml, qs, rmarkdown
-Imports: grDevices, stats, tools
 
 Package: hunspell
 Version: 3.0.5
@@ -4841,3 +4807,37 @@ Suggests: covr, decor, ggplot2 (>= 3.2.0), roxygen2, withr
 Imports: diffobj, glue, grDevices, htmltools, lifecycle, rlang, testthat (>= 3.0.3), xml2 (>= 1.0.0)
 SystemRequirements: libpng
 LinkingTo: cpp11
+
+Package: tinytex
+Version: 0.54
+Depends: R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: tinytex_0.54_b5_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/tinytex/releases/download/0.54/tinytex_0.54_b5_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.5.0; ; 2024-11-01 17:23:19 UTC; unix
+Filesize: 153067
+SHA256: d98ecfb0ab1434a25a419f57e5b0f698f7a0305d21d30007041fdb9b77e84c56
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testit, rstudioapi
+Imports: xfun (>= 0.48)
+
+Package: xfun
+Version: 0.49
+Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: xfun_0.49_b7_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/xfun/releases/download/0.49/xfun_0.49_b7_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-11-01 17:23:14 UTC; unix
+Filesize: 593166
+SHA256: 520d37e16af14658c09fe86b691d237318a97c70dde018dceda5c955ffb09177
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown, commonmark, knitr (>= 1.47), remotes, pak, rhub, renv, curl, xml2, jsonlite, magick, yaml, qs, rmarkdown
+Imports: grDevices, stats, tools
