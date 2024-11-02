@@ -1711,22 +1711,6 @@ Arch: s390x
 SystemRequirements: freetype2, libpng, libtiff, libjpeg
 LinkingTo: systemfonts, textshaping
 
-Package: tinytex
-Version: 0.53
-Depends: R (>= 4.1), R (< 4.1.99)
-Suggests: testit, rstudioapi
-License: MIT + file LICENSE
-File: tinytex_0.53_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/tinytex/releases/download/0.53/tinytex_0.53_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; ; 2024-09-16 14:30:26 UTC; unix
-Filesize: 139394
-SHA256: 47bd76ad23420deea38a3d0f5f16584d2f0867440e3dd238acd33db98a4ed7a7
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: xfun (>= 0.29)
-
 Package: jsonlite
 Version: 1.8.9
 Depends: methods, R (>= 4.1), R (< 4.1.99)
@@ -2107,3 +2091,19 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: grDevices, stats, tools
 OS: linux
 Arch: s390x
+
+Package: tinytex
+Version: 0.54
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: testit, rstudioapi
+License: MIT + file LICENSE
+File: tinytex_0.54_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/tinytex/releases/download/0.54/tinytex_0.54_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-11-02 14:33:59 UTC; unix
+Filesize: 141875
+SHA256: b5e394c1465fec16b09a812e72e6f54d76e5edf72691249f54a38c6723e08af7
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: xfun (>= 0.48)
