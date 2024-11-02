@@ -708,24 +708,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, knitr, mockery, processx, ps, rmarkdown, svglite, testthat, webfakes
 Imports: callr (>= 3.1.1.9000), cli (>= 3.0.0), curl, desc (>= 1.2.0), digest, pkgbuild, prettyunits, R6, rprojroot, sessioninfo (>= 1.1.1), utils, withr, xopen
 
-Package: Rcpp
-Version: 1.0.13
-Depends: R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2)
-File: Rcpp_1.0.13_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/Rcpp/releases/download/1.0.13/Rcpp_1.0.13_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-20 14:51:36 UTC; unix
-Filesize: 3678121
-SHA256: cb8229c21ef8b92780205dc5911aad6457f032d784aebd83c179a57c443fd084
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
-Imports: methods, utils
-
 Package: rematch2
 Version: 2.1.2
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -4926,3 +4908,21 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testit, rstudioapi
 Imports: xfun (>= 0.48)
+
+Package: Rcpp
+Version: 1.0.13-1
+Depends: R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: Rcpp_1.0.13-1_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/Rcpp/releases/download/1.0.13-1/Rcpp_1.0.13-1_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2024-11-02 23:26:42 UTC; unix
+Filesize: 3678886
+SHA256: 741b3ce0eb0a7a2c3e6469be4b1d3569224ce3f0c48b4537251b76475b2878f9
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
+Imports: methods, utils
