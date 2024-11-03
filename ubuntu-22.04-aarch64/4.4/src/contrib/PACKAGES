@@ -3289,24 +3289,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, pandoc
 LinkingTo: RcppEigen (>= 0.3.4.0.0), RcppParallel (>= 5.1.4)
 
-Package: Rcpp
-Version: 1.0.13
-Depends: R (>= 4.4), R (< 4.4.99)
-Imports: methods, utils
-Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
-License: GPL (>= 2)
-File: Rcpp_1.0.13_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/Rcpp/releases/download/1.0.13/Rcpp_1.0.13_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-17 18:35:48 UTC; unix
-Filesize: 3772642
-SHA256: 9dc45806d012e2b9aa160ecdadf99fc4bd06a4ad0d8859e55c66b5ae3d49c021
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: s2
 Version: 1.1.7
 Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
@@ -4911,6 +4893,22 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
+Package: R.oo
+Version: 1.27.0
+Depends: R (>= 2.13.0), R.methodsS3 (>= 1.8.2), R (>= 4.4), R (< 4.4.99)
+Imports: methods, utils
+Suggests: tools
+License: LGPL (>= 2.1)
+File: R.oo_1.27.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/R.oo/releases/download/1.27.0/R.oo_1.27.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.2; ; 2024-11-02 18:36:32 UTC; unix
+Filesize: 994847
+SHA256: 934da933ed7e95650ab66f59dc74b24a4ec8b7adf6670e2f58045d144e3cfb6f
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
 Package: rlang
 Version: 1.1.4
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -4924,7 +4922,7 @@ OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-04 18:33:16 UTC; unix
 Filesize: 2068881
-SHA256: 796f1689725988062c71d562b5d76970ae4b3bf626ceddfd27030da33d3b03cc
+SHA256: d6b69149452bdbd0bb48731b1f38161d66d92eb0bb88a108fb37e554351483fd
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4942,24 +4940,26 @@ DownloadURL: https://github.com/cran/cli/releases/download/3.6.3/cli_3.6.3_b2_R4
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-22 18:32:00 UTC; unix
-Filesize: 1417979
-SHA256: cda006c64a02ba831c4f38db673da2e71e77de2f6c73516a7932754660b853bc
+Filesize: 1417981
+SHA256: 704a32c8f3a5699cccf43baff42303a313e17064f5d1577cdf15cc5fd01b8f2f
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: R.oo
-Version: 1.27.0
-Depends: R (>= 2.13.0), R.methodsS3 (>= 1.8.2), R (>= 4.4), R (< 4.4.99)
+Package: Rcpp
+Version: 1.0.13-1
+Depends: R (>= 4.4), R (< 4.4.99)
 Imports: methods, utils
-Suggests: tools
-License: LGPL (>= 2.1)
-File: R.oo_1.27.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/R.oo/releases/download/1.27.0/R.oo_1.27.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.2; ; 2024-11-02 18:36:32 UTC; unix
-Filesize: 994847
-SHA256: 934da933ed7e95650ab66f59dc74b24a4ec8b7adf6670e2f58045d144e3cfb6f
+Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
+License: GPL (>= 2)
+File: Rcpp_1.0.13-1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/Rcpp/releases/download/1.0.13-1/Rcpp_1.0.13-1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2024-11-03 18:37:18 UTC; unix
+Filesize: 3773255
+SHA256: ad7237cba4fe794c6503e94371a0dc669d4e4094df5b21f6ff70459c18606eb0
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
