@@ -2978,24 +2978,6 @@ Suggests: bslib, codetools, DBI (>= 0.4-1), digest, formatR, gifski, gridSVG, ht
 Imports: evaluate (>= 0.15), highr (>= 0.11), methods, tools, xfun (>= 0.44), yaml (>= 2.1.19)
 SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
 
-Package: Rcpp
-Version: 1.0.13
-Depends: R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: Rcpp_1.0.13_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/Rcpp/releases/download/1.0.13/Rcpp_1.0.13_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-07-17 17:05:49 UTC; unix
-Filesize: 2234881
-SHA256: 58b41f54af7f6ea239968c3d5f21d1724dd6c43f963d55a3d18124370aef68ca
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
-Imports: methods, utils
-
 Package: s2
 Version: 1.1.7
 Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
@@ -4493,4 +4475,22 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: tools
+Imports: methods, utils
+
+Package: Rcpp
+Version: 1.0.13-1
+Depends: R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: Rcpp_1.0.13-1_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/Rcpp/releases/download/1.0.13-1/Rcpp_1.0.13-1_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-11-03 17:07:20 UTC; unix
+Filesize: 2238616
+SHA256: 3b3985474953661de4e5c97dc6f3ddd8271709359a295d3cc9d277e7f4226ab7
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
 Imports: methods, utils
