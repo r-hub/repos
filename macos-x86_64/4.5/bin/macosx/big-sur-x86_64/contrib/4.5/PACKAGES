@@ -3254,24 +3254,6 @@ Imports: RcppParallel (>= 5.1.4)
 SystemRequirements: GNU make, pandoc
 LinkingTo: RcppEigen (>= 0.3.4.0.0), RcppParallel (>= 5.1.4)
 
-Package: Rcpp
-Version: 1.0.13
-Depends: R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: Rcpp_1.0.13_b2_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/Rcpp/releases/download/1.0.13/Rcpp_1.0.13_b2_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-07-17 17:31:44 UTC; unix
-Filesize: 2206631
-SHA256: 19da28ed5c5441ecaae55bfe292baf77605caebb8603f9342e44772398b83dc0
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
-Imports: methods, utils
-
 Package: s2
 Version: 1.1.7
 Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
@@ -4799,4 +4781,22 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: tools
+Imports: methods, utils
+
+Package: Rcpp
+Version: 1.0.13-1
+Depends: R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: Rcpp_1.0.13-1_b3_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/Rcpp/releases/download/1.0.13-1/Rcpp_1.0.13-1_b3_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2024-11-03 17:32:48 UTC; unix
+Filesize: 2209874
+SHA256: fa4a05c50941d1aca18be10d40041dd678294533308e5270a94ceb7d6c53e9b0
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
 Imports: methods, utils
