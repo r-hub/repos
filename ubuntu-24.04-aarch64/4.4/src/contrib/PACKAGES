@@ -3616,24 +3616,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: MASS, SASmixed
 Imports: graphics, stats, utils, lattice
 
-Package: rmarkdown
-Version: 2.28
-Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
-License: GPL-3
-File: rmarkdown_2.28_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/rmarkdown/releases/download/2.28/rmarkdown_2.28_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.4.1; ; 2024-08-17 23:21:48 UTC; unix
-Filesize: 2640181
-SHA256: 7a2d05edeaf219a0b6b839e6a38125c13412f36be392f6b573ad987e74006f49
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>= 3.0.3), tibble, vctrs, cleanrmd, withr (>= 2.4.2), xml2
-Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.43), methods, tinytex (>= 0.31), tools, utils, xfun (>= 0.36), yaml (>=
-        2.1.19)
-SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
-
 Package: minqa
 Version: 1.2.8
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -3710,22 +3692,6 @@ Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0
 SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
 
-Package: waldo
-Version: 0.5.3
-Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: waldo_0.5.3_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/waldo/releases/download/0.5.3/waldo_0.5.3_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.4.1; ; 2024-08-24 23:22:52 UTC; unix
-Filesize: 103901
-SHA256: 30f983957d0563251afc0d365988ea865505e08c272db58a03e1481d4b5fbdb7
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, R6, testthat (>= 3.0.0), withr, xml2
-Imports: cli, diffobj (>= 0.3.4), glue, methods, rematch2, rlang (>= 1.0.0), tibble
-
 Package: RcppEigen
 Version: 0.3.4.0.2
 Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
@@ -3759,24 +3725,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue, knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp, testthat (>= 3.2.0), tibble, utils, vctrs, withr
-
-Package: mvtnorm
-Version: 1.3-1
-Depends: R(>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-License: GPL-2
-File: mvtnorm_1.3-1_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.3-1/mvtnorm_1.3-1_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-09-03 23:24:56 UTC; unix
-Filesize: 975911
-SHA256: 0f911e229ea92109bc1c7b05b26061067d0ad50cc4c076e4ec89a1401e5b9255
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: qrng, numDeriv
-Imports: stats
 
 Package: microbenchmark
 Version: 1.5.0
@@ -4150,22 +4098,6 @@ Suggests: AER, AUC, bbmle, betareg (>= 3.2-1), biglm, binGroup, boot, btergm (>=
         ordinal, plm, poLCA, psych, quantreg, rmarkdown, robust, robustbase, rsample, sandwich, spdep (>= 1.1), spatialreg, speedglm, spelling, survey, survival (>= 3.6-4), systemfit, testthat (>=
         2.1.0), tseries, vars, zoo
 Imports: backports, dplyr (>= 1.0.0), generics (>= 0.0.2), glue, lifecycle, purrr, rlang, stringr, tibble (>= 3.0.0), tidyr (>= 1.0.0)
-
-Package: httr2
-Version: 1.0.5
-Depends: R (>= 4.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: httr2_1.0.5_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/httr2/releases/download/1.0.5/httr2_1.0.5_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.4.1; ; 2024-09-26 23:26:01 UTC; unix
-Filesize: 618321
-SHA256: f4fdcfd9aea3043fa12d5c552cd0e78bb49c11f704b1b9b529e79ffe6f6d6030
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
-Imports: cli (>= 3.0.0), curl (>= 5.2.2), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
 
 Package: boot
 Version: 1.3-31
@@ -4926,3 +4858,71 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
 Imports: methods, utils
+
+Package: rmarkdown
+Version: 2.29
+Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
+License: GPL-3
+File: rmarkdown_2.29_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/rmarkdown/releases/download/2.29/rmarkdown_2.29_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.2; ; 2024-11-04 23:25:58 UTC; unix
+Filesize: 2640885
+SHA256: 43b05bd5c3a296a7a4f16d672f1508922e4ced3b0035344c535b255c8bc1b33b
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>= 3.0.3), tibble, vctrs, cleanrmd, withr (>= 2.4.2), xml2
+Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.43), methods, tinytex (>= 0.31), tools, utils, xfun (>= 0.36), yaml (>=
+        2.1.19)
+SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
+
+Package: waldo
+Version: 0.6.0
+Depends: R (>= 4.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: waldo_0.6.0_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/waldo/releases/download/0.6.0/waldo_0.6.0_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.2; ; 2024-11-04 23:25:58 UTC; unix
+Filesize: 133642
+SHA256: 1f25bbdff5d6dd2c6c9ec84265947fb2d9b07e560d794cfc2af2feb0f9058e7f
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bit64, R6, S7, testthat (>= 3.0.0), withr, xml2
+Imports: cli, diffobj (>= 0.3.4), glue, methods, rlang (>= 1.1.0)
+
+Package: mvtnorm
+Version: 1.3-2
+Depends: R(>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+License: GPL-2
+File: mvtnorm_1.3-2_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.3-2/mvtnorm_1.3-2_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2024-11-04 23:25:50 UTC; unix
+Filesize: 1014367
+SHA256: 1a8a8f7fcea641e2bf0128d66e6c793b54afb49d56367ffd95d37a2d8264edde
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: qrng, numDeriv
+Imports: stats
+
+Package: httr2
+Version: 1.0.6
+Depends: R (>= 4.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: httr2_1.0.6_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/httr2/releases/download/1.0.6/httr2_1.0.6_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.2; ; 2024-11-04 23:25:25 UTC; unix
+Filesize: 637649
+SHA256: 960bf6a1ed118cddccf03e61c1cc120bcfbf81b8136584883de9707f9dc39310
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later, paws.common, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
+Imports: cli (>= 3.0.0), curl (>= 5.2.2), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
