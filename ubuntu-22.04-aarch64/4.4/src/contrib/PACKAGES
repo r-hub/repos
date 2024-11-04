@@ -3599,24 +3599,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: rmarkdown
-Version: 2.28
-Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
-Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.43), methods, tinytex (>= 0.31), tools, utils, xfun (>= 0.36), yaml (>=
-        2.1.19)
-Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>= 3.0.3), tibble, vctrs, cleanrmd, withr (>= 2.4.2), xml2
-License: GPL-3
-File: rmarkdown_2.28_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/rmarkdown/releases/download/2.28/rmarkdown_2.28_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.1; ; 2024-08-17 18:33:40 UTC; unix
-Filesize: 2640566
-SHA256: 50a5dbf32f3f7961b24f5d3f926b27bda00c5f1fb0e7cc11957c425ea5f17342
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
-
 Package: minqa
 Version: 1.2.8
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -3692,22 +3674,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
-
-Package: waldo
-Version: 0.5.3
-Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
-Imports: cli, diffobj (>= 0.3.4), glue, methods, rematch2, rlang (>= 1.0.0), tibble
-Suggests: covr, R6, testthat (>= 3.0.0), withr, xml2
-License: MIT + file LICENSE
-File: waldo_0.5.3_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/waldo/releases/download/0.5.3/waldo_0.5.3_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.1; ; 2024-08-24 18:33:34 UTC; unix
-Filesize: 104002
-SHA256: 05899d103cb7a5fd039a2fed023552e0dd64720213d99a380ee2b477c7a969d7
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: RcppEigen
 Version: 0.3.4.0.2
@@ -4752,22 +4718,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: httr2
-Version: 1.0.5
-Depends: R (>= 4.0), R (>= 4.4), R (< 4.4.99)
-Imports: cli (>= 3.0.0), curl (>= 5.2.2), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
-Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
-License: MIT + file LICENSE
-File: httr2_1.0.5_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/httr2/releases/download/1.0.5/httr2_1.0.5_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.1; ; 2024-10-29 18:53:20 UTC; unix
-Filesize: 618501
-SHA256: e999ee6227abbb531a6439c721d1a02a16ebc53ffb1af733446d07ff623b6109
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: evaluate
 Version: 1.0.1
 Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
@@ -4909,6 +4859,24 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
+Package: Rcpp
+Version: 1.0.13-1
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: methods, utils
+Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
+License: GPL (>= 2)
+File: Rcpp_1.0.13-1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/Rcpp/releases/download/1.0.13-1/Rcpp_1.0.13-1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2024-11-03 18:37:18 UTC; unix
+Filesize: 3773255
+SHA256: ad7237cba4fe794c6503e94371a0dc669d4e4094df5b21f6ff70459c18606eb0
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
 Package: rlang
 Version: 1.1.4
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -4921,8 +4889,8 @@ DownloadURL: https://github.com/cran/rlang/releases/download/1.1.4/rlang_1.1.4_b
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-04 18:33:16 UTC; unix
-Filesize: 2068881
-SHA256: d6b69149452bdbd0bb48731b1f38161d66d92eb0bb88a108fb37e554351483fd
+Filesize: 2068872
+SHA256: 1c66e45560d2a7edf2148962881c7d5e67b36ea20d5776a6b6a789a52d7497a4
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4940,26 +4908,58 @@ DownloadURL: https://github.com/cran/cli/releases/download/3.6.3/cli_3.6.3_b2_R4
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-22 18:32:00 UTC; unix
-Filesize: 1417981
-SHA256: 704a32c8f3a5699cccf43baff42303a313e17064f5d1577cdf15cc5fd01b8f2f
+Filesize: 1417974
+SHA256: 61f0e1004ce7ff26d8cee5c03d984fec9db06b0fb2231d2470b756083bc7e4c6
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: Rcpp
-Version: 1.0.13-1
-Depends: R (>= 4.4), R (< 4.4.99)
-Imports: methods, utils
-Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
-License: GPL (>= 2)
-File: Rcpp_1.0.13-1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/Rcpp/releases/download/1.0.13-1/Rcpp_1.0.13-1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2024-11-03 18:37:18 UTC; unix
-Filesize: 3773255
-SHA256: ad7237cba4fe794c6503e94371a0dc669d4e4094df5b21f6ff70459c18606eb0
+Package: rmarkdown
+Version: 2.29
+Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
+Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.43), methods, tinytex (>= 0.31), tools, utils, xfun (>= 0.36), yaml (>=
+        2.1.19)
+Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>= 3.0.3), tibble, vctrs, cleanrmd, withr (>= 2.4.2), xml2
+License: GPL-3
+File: rmarkdown_2.29_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/rmarkdown/releases/download/2.29/rmarkdown_2.29_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.2; ; 2024-11-04 18:38:42 UTC; unix
+Filesize: 2639500
+SHA256: f71b28bcc07b86799e7d67611696472074b8821347b909a4cd1cc032e0bc1643
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
+
+Package: waldo
+Version: 0.6.0
+Depends: R (>= 4.0), R (>= 4.4), R (< 4.4.99)
+Imports: cli, diffobj (>= 0.3.4), glue, methods, rlang (>= 1.1.0)
+Suggests: bit64, R6, S7, testthat (>= 3.0.0), withr, xml2
+License: MIT + file LICENSE
+File: waldo_0.6.0_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/waldo/releases/download/0.6.0/waldo_0.6.0_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.2; ; 2024-11-04 18:38:42 UTC; unix
+Filesize: 133666
+SHA256: e5ec499fabacc9d4dccb8cabb65a516e48cf42a4feddd5aa5b017682a13bffbf
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: httr2
+Version: 1.0.6
+Depends: R (>= 4.0), R (>= 4.4), R (< 4.4.99)
+Imports: cli (>= 3.0.0), curl (>= 5.2.2), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
+Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later, paws.common, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
+License: MIT + file LICENSE
+File: httr2_1.0.6_b6_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/httr2/releases/download/1.0.6/httr2_1.0.6_b6_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.2; ; 2024-11-04 18:38:11 UTC; unix
+Filesize: 637573
+SHA256: d0b489c05589416f7da861bc092917453484844152059cf6dd906a630ff338b7
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
