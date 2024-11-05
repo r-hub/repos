@@ -3622,22 +3622,6 @@ Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0
 SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
 
-Package: waldo
-Version: 0.5.3
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: waldo_0.5.3_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/waldo/releases/download/0.5.3/waldo_0.5.3_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.0; ; 2024-08-24 16:37:38 UTC; unix
-Filesize: 104008
-SHA256: f205fc31db58285752fd686d74b5e52c64ddaf96e21aa91527b9eefa07c735e3
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, R6, testthat (>= 3.0.0), withr, xml2
-Imports: cli, diffobj (>= 0.3.4), glue, methods, rematch2, rlang (>= 1.0.0), tibble
-
 Package: RcppEigen
 Version: 0.3.4.0.2
 Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
@@ -3671,24 +3655,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue, knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp, testthat (>= 3.2.0), tibble, utils, vctrs, withr
-
-Package: mvtnorm
-Version: 1.3-1
-Depends: R(>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-License: GPL-2
-File: mvtnorm_1.3-1_b5_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.3-1/mvtnorm_1.3-1_b5_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-09-03 16:41:29 UTC; unix
-Filesize: 974532
-SHA256: bbc7b17ad6b01ef4dc95f5d84cc9e8394e19aa1dcc7ced7dd2993266d29dfa12
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: qrng, numDeriv
-Imports: stats
 
 Package: microbenchmark
 Version: 1.5.0
@@ -3976,24 +3942,6 @@ Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, s
 Imports: askpass
 SystemRequirements: OpenSSL >= 1.0.2
 
-Package: curl
-Version: 5.2.3
-Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: curl_5.2.3_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/curl/releases/download/5.2.3/curl_5.2.3_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-09-20 16:41:32 UTC; unix
-Filesize: 849376
-SHA256: 375bf01c4d9034e4235ac51aff14b040fd0dd13a045923ea97b87880c151d219
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
-SystemRequirements: libcurl: libcurl-devel (rpm) or libcurl4-openssl-dev (deb).
-
 Package: timeDate
 Version: 4041.110
 Depends: R (>= 3.6.0), methods, R (>= 4.5), R (< 4.5.99)
@@ -4042,22 +3990,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: RColorBrewer, MASS
-
-Package: httr2
-Version: 1.0.5
-Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: httr2_1.0.5_b6_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/httr2/releases/download/1.0.5/httr2_1.0.5_b6_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.0; ; 2024-09-26 16:42:19 UTC; unix
-Filesize: 616523
-SHA256: cb4535ef634b9ce06c5057dd12596fc24c1c8cd73b1190b7e8fa8332c0259055
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
-Imports: cli (>= 3.0.0), curl (>= 5.2.2), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
 
 Package: car
 Version: 3.1-3
@@ -4841,3 +4773,71 @@ Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0),
 Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.43), methods, tinytex (>= 0.31), tools, utils, xfun (>= 0.36), yaml (>=
         2.1.19)
 SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
+
+Package: waldo
+Version: 0.6.0
+Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: waldo_0.6.0_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/waldo/releases/download/0.6.0/waldo_0.6.0_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.0; ; 2024-11-05 16:41:25 UTC; unix
+Filesize: 133642
+SHA256: 88543f8ece995e9d968afc94874a66ce8cbea380887b7e53519f7ec6b2d9f3c5
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bit64, R6, S7, testthat (>= 3.0.0), withr, xml2
+Imports: cli, diffobj (>= 0.3.4), glue, methods, rlang (>= 1.1.0)
+
+Package: mvtnorm
+Version: 1.3-2
+Depends: R(>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+License: GPL-2
+File: mvtnorm_1.3-2_b6_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.3-2/mvtnorm_1.3-2_b6_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-11-05 16:41:25 UTC; unix
+Filesize: 1012793
+SHA256: 02bd5102c599b94aace3dc6e0d3cfc545e0a8321bafea1d480154e35e535c8ff
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: qrng, numDeriv
+Imports: stats
+
+Package: curl
+Version: 6.0.0
+Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: curl_6.0.0_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/curl/releases/download/6.0.0/curl_6.0.0_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-11-05 16:41:25 UTC; unix
+Filesize: 871958
+SHA256: efdd7fa4b5a3d757a9ad981b02a7b011d7dcb2872aed78d4a3185d4b76134762
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
+
+Package: httr2
+Version: 1.0.6
+Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: httr2_1.0.6_b7_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/httr2/releases/download/1.0.6/httr2_1.0.6_b7_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.0; ; 2024-11-05 16:41:34 UTC; unix
+Filesize: 636257
+SHA256: b6a9c6721ee5c5b7c26b19e126a9c2ae7ec6677ebeb07d8d44559f4891606c03
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later, paws.common, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
+Imports: cli (>= 3.0.0), curl (>= 5.2.2), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
