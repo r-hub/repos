@@ -1605,22 +1605,6 @@ Arch: s390x
 SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
 
-Package: waldo
-Version: 0.5.3
-Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
-Suggests: covr, R6, testthat (>= 3.0.0), withr, xml2
-License: MIT + file LICENSE
-File: waldo_0.5.3_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/waldo/releases/download/0.5.3/waldo_0.5.3_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; ; 2024-08-24 14:27:51 UTC; unix
-Filesize: 103985
-SHA256: 6184a5d5a21384b729be27360592bb65ede030aa91ee10406558b0d6964aeacb
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: cli, diffobj (>= 0.3.4), glue, methods, rematch2, rlang (>= 1.0.0), tibble
-
 Package: pak
 Version: 0.8.0
 Depends: R (>= 3.5), R (>= 4.1), R (< 4.1.99)
@@ -1710,24 +1694,6 @@ Imports: askpass
 OS: linux
 Arch: s390x
 SystemRequirements: OpenSSL >= 1.0.2
-
-Package: curl
-Version: 5.2.3
-Depends: R (>= 3.0.0), R (>= 4.1), R (< 4.1.99)
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
-License: MIT + file LICENSE
-File: curl_5.2.3_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/curl/releases/download/5.2.3/curl_5.2.3_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-09-20 14:30:14 UTC; unix
-Filesize: 834586
-SHA256: f7fa9b8f0f5e554b1a28b2dbd03ac4804a60bb13d9c839d0a6aa07915aa634cf
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-OS: linux
-Arch: s390x
-SystemRequirements: libcurl: libcurl-devel (rpm) or libcurl4-openssl-dev (deb).
 
 Package: bit
 Version: 4.5.0
@@ -2107,3 +2073,37 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.43), methods, tinytex (>= 0.31), tools, utils, xfun (>= 0.36), yaml (>=
         2.1.19)
 SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
+
+Package: waldo
+Version: 0.6.0
+Depends: R (>= 4.0), R (>= 4.1), R (< 4.1.99)
+Suggests: bit64, R6, S7, testthat (>= 3.0.0), withr, xml2
+License: MIT + file LICENSE
+File: waldo_0.6.0_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/waldo/releases/download/0.6.0/waldo_0.6.0_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-11-06 14:33:31 UTC; unix
+Filesize: 133532
+SHA256: 29b103a3124307d9e2dcb36d99f732878b2b95ee577955fd962f0be82acddba5
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli, diffobj (>= 0.3.4), glue, methods, rlang (>= 1.1.0)
+
+Package: curl
+Version: 6.0.0
+Depends: R (>= 3.0.0), R (>= 4.1), R (< 4.1.99)
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+License: MIT + file LICENSE
+File: curl_6.0.0_b4_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/curl/releases/download/6.0.0/curl_6.0.0_b4_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-11-06 14:33:32 UTC; unix
+Filesize: 857596
+SHA256: 7b1298b69b90a4c80344d7d3234f0e279ed7420f7fac7aeffb6df6a1a2c89195
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+OS: linux
+Arch: s390x
+SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
