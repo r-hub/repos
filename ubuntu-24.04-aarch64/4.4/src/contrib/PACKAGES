@@ -3433,23 +3433,6 @@ Suggests: datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd, tcltk, shiny
         wesanderson
 Imports: graphics, grDevices, stats
 
-Package: parallelly
-Version: 1.38.0
-Depends: R (>= 4.4), R (< 4.4.99)
-License: LGPL (>= 2.1)
-File: parallelly_1.38.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/parallelly/releases/download/1.38.0/parallelly_1.38.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-27 23:25:08 UTC; unix
-Filesize: 383822
-SHA256: 04a7abc2ee8fac8748d8bfa9e7c9508e92d47ecffdfc516229dbae4bd4e2fd17
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: parallel, tools, utils
-
 Package: bslib
 Version: 0.8.0
 Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
@@ -4837,22 +4820,6 @@ Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltoo
         2.1.19)
 SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
 
-Package: waldo
-Version: 0.6.0
-Depends: R (>= 4.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: waldo_0.6.0_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/waldo/releases/download/0.6.0/waldo_0.6.0_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.4.2; ; 2024-11-04 23:25:58 UTC; unix
-Filesize: 133642
-SHA256: 1f25bbdff5d6dd2c6c9ec84265947fb2d9b07e560d794cfc2af2feb0f9058e7f
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bit64, R6, S7, testthat (>= 3.0.0), withr, xml2
-Imports: cli, diffobj (>= 0.3.4), glue, methods, rlang (>= 1.1.0)
-
 Package: mvtnorm
 Version: 1.3-2
 Depends: R(>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -4926,3 +4893,36 @@ Suggests: blob, nanoarrow, covr, dplyr (>= 1.0.0), ggplot2, knitr, lwgeom (>= 0.
 Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
 SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
 LinkingTo: Rcpp
+
+Package: parallelly
+Version: 1.39.0
+Depends: R (>= 4.4), R (< 4.4.99)
+License: LGPL (>= 2.1)
+File: parallelly_1.39.0_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/parallelly/releases/download/1.39.0/parallelly_1.39.0_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2024-11-07 23:23:55 UTC; unix
+Filesize: 385945
+SHA256: 4920c1cef20bf4cecde863206961d60d44d28c39beb157b5835fe9b3289911e7
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: parallel, tools, utils
+
+Package: waldo
+Version: 0.6.1
+Depends: R (>= 4.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: waldo_0.6.1_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/waldo/releases/download/0.6.1/waldo_0.6.1_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.2; ; 2024-11-07 23:23:56 UTC; unix
+Filesize: 133600
+SHA256: 3f6a0395647ce9cb047109de41772e331c1c301fd56f5a7390e4871d63b42932
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bit64, R6, S7, testthat (>= 3.0.0), withr, xml2
+Imports: cli, diffobj (>= 0.3.4), glue, methods, rlang (>= 1.1.0)
