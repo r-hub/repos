@@ -3251,24 +3251,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 2.0) - https://pandoc.org/
 
-Package: knitr
-Version: 1.48
-Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
-Imports: evaluate (>= 0.15), highr (>= 0.11), methods, tools, xfun (>= 0.44), yaml (>= 2.1.19)
-Suggests: bslib, codetools, DBI (>= 0.4-1), digest, formatR, gifski, gridSVG, htmlwidgets (>= 0.7), jpeg, JuliaCall (>= 0.11.1), magick, markdown (>= 1.3), png, ragg, reticulate (>= 1.4), rgl (>=
-        0.95.1201), rlang, rmarkdown, sass, showtext, styler (>= 1.2.0), targets (>= 0.6.0), testit, tibble, tikzDevice (>= 0.10), tinytex (>= 0.46), webshot, rstudioapi, svglite
-License: GPL
-File: knitr_1.48_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/knitr/releases/download/1.48/knitr_1.48_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.1; ; 2024-07-07 18:34:21 UTC; unix
-Filesize: 1158278
-SHA256: 663d768c9aae0f38258b776f9c710524d47c623a1923a6ae947ff8312933c8eb
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
-
 Package: StanHeaders
 Version: 2.32.10
 Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
@@ -3411,23 +3393,6 @@ Arch: arm64
 Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-26 18:33:41 UTC; unix
 Filesize: 278486
 SHA256: 915ed340f209a8c7126bca32a044aa6f97cbd8bdaea3e6a0892027a55c8a37ad
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: parallelly
-Version: 1.38.0
-Depends: R (>= 4.4), R (< 4.4.99)
-Imports: parallel, tools, utils
-License: LGPL (>= 2.1)
-File: parallelly_1.38.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/parallelly/releases/download/1.38.0/parallelly_1.38.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-27 18:34:00 UTC; unix
-Filesize: 383119
-SHA256: 8d65484d21216060ce2dcd5bb028aa66760921735447426143344c9bb3ae0966
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4837,22 +4802,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
 
-Package: waldo
-Version: 0.6.0
-Depends: R (>= 4.0), R (>= 4.4), R (< 4.4.99)
-Imports: cli, diffobj (>= 0.3.4), glue, methods, rlang (>= 1.1.0)
-Suggests: bit64, R6, S7, testthat (>= 3.0.0), withr, xml2
-License: MIT + file LICENSE
-File: waldo_0.6.0_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/waldo/releases/download/0.6.0/waldo_0.6.0_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.2; ; 2024-11-04 18:38:42 UTC; unix
-Filesize: 133666
-SHA256: e5ec499fabacc9d4dccb8cabb65a516e48cf42a4feddd5aa5b017682a13bffbf
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: httr2
 Version: 1.0.6
 Depends: R (>= 4.0), R (>= 4.4), R (< 4.4.99)
@@ -4939,8 +4888,8 @@ DownloadURL: https://github.com/cran/rlang/releases/download/1.1.4/rlang_1.1.4_b
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-04 18:33:16 UTC; unix
-Filesize: 2068881
-SHA256: 8bb79cbe81d708987e101739086cbc173fa3c2ae36c3ce1b5a0f88d0d5469181
+Filesize: 2068883
+SHA256: a9ec964e2e17c013f1db69d67f7e2c3fa25e63502648e92344a3fa7ef4aed9a1
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4958,8 +4907,59 @@ DownloadURL: https://github.com/cran/cli/releases/download/3.6.3/cli_3.6.3_b2_R4
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-22 18:32:00 UTC; unix
-Filesize: 1417975
-SHA256: bde09a8ed80abb521bda68df306ba9de90afe3f06a958047657b9eb20d350eae
+Filesize: 1417981
+SHA256: 42fe5993ff4330f9a729450c656a58ef8566f75c54465e828339c3160ff3ac9f
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: knitr
+Version: 1.49
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+Imports: evaluate (>= 0.15), highr (>= 0.11), methods, tools, xfun (>= 0.48), yaml (>= 2.1.19)
+Suggests: bslib, codetools, DBI (>= 0.4-1), digest, formatR, gifski, gridSVG, htmlwidgets (>= 0.7), jpeg, JuliaCall (>= 0.11.1), magick, litedown, markdown (>= 1.3), png, ragg, reticulate (>= 1.4),
+        rgl (>= 0.95.1201), rlang, rmarkdown, sass, showtext, styler (>= 1.2.0), targets (>= 0.6.0), testit, tibble, tikzDevice (>= 0.10), tinytex (>= 0.46), webshot, rstudioapi, svglite
+License: GPL
+File: knitr_1.49_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/knitr/releases/download/1.49/knitr_1.49_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.2; ; 2024-11-08 22:46:15 UTC; unix
+Filesize: 1124383
+SHA256: 2746f3f6442cd3c6a8a06e79898d8adb24eca364fcb3ff9ee39b4dd6be6d2eab
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
+
+Package: parallelly
+Version: 1.39.0
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: parallel, tools, utils
+License: LGPL (>= 2.1)
+File: parallelly_1.39.0_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/parallelly/releases/download/1.39.0/parallelly_1.39.0_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2024-11-08 22:46:13 UTC; unix
+Filesize: 385383
+SHA256: 7751554334796451c02a206848504ac2cd21910c943de0721dc84f44550b5c6c
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: waldo
+Version: 0.6.1
+Depends: R (>= 4.0), R (>= 4.4), R (< 4.4.99)
+Imports: cli, diffobj (>= 0.3.4), glue, methods, rlang (>= 1.1.0)
+Suggests: bit64, R6, S7, testthat (>= 3.0.0), withr, xml2
+License: MIT + file LICENSE
+File: waldo_0.6.1_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/waldo/releases/download/0.6.1/waldo_0.6.1_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.2; ; 2024-11-08 22:46:17 UTC; unix
+Filesize: 133785
+SHA256: e969c220552ad081507a4992f262ce6d5dc8c510e583c6932c249bdb2a8fc439
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
