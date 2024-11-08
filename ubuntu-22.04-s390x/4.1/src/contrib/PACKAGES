@@ -655,24 +655,6 @@ GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: htmltools
 
-Package: knitr
-Version: 1.48
-Depends: R (>= 3.3.0), R (>= 4.1), R (< 4.1.99)
-Suggests: bslib, codetools, DBI (>= 0.4-1), digest, formatR, gifski, gridSVG, htmlwidgets (>= 0.7), jpeg, JuliaCall (>= 0.11.1), magick, markdown (>= 1.3), png, ragg, reticulate (>= 1.4), rgl (>=
-        0.95.1201), rlang, rmarkdown, sass, showtext, styler (>= 1.2.0), targets (>= 0.6.0), testit, tibble, tikzDevice (>= 0.10), tinytex (>= 0.46), webshot, rstudioapi, svglite
-License: GPL
-File: knitr_1.48_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/knitr/releases/download/1.48/knitr_1.48_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; ; 2024-07-28 13:24:47 UTC; unix
-Filesize: 1160756
-SHA256: a600140398220f5c92889646646c6264b2a8bbc0b75210b400ced24b202b9423
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: evaluate (>= 0.15), highr (>= 0.11), methods, tools, xfun (>= 0.44), yaml (>= 2.1.19)
-SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
-
 Package: labeling
 Version: 0.4.3
 Depends: R (>= 4.1), R (< 4.1.99)
@@ -2074,22 +2056,6 @@ Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltoo
         2.1.19)
 SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
 
-Package: waldo
-Version: 0.6.0
-Depends: R (>= 4.0), R (>= 4.1), R (< 4.1.99)
-Suggests: bit64, R6, S7, testthat (>= 3.0.0), withr, xml2
-License: MIT + file LICENSE
-File: waldo_0.6.0_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/waldo/releases/download/0.6.0/waldo_0.6.0_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; ; 2024-11-06 14:33:31 UTC; unix
-Filesize: 133532
-SHA256: 29b103a3124307d9e2dcb36d99f732878b2b95ee577955fd962f0be82acddba5
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: cli, diffobj (>= 0.3.4), glue, methods, rlang (>= 1.1.0)
-
 Package: curl
 Version: 6.0.0
 Depends: R (>= 3.0.0), R (>= 4.1), R (< 4.1.99)
@@ -2107,3 +2073,37 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 OS: linux
 Arch: s390x
 SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
+
+Package: knitr
+Version: 1.49
+Depends: R (>= 3.6.0), R (>= 4.1), R (< 4.1.99)
+Suggests: bslib, codetools, DBI (>= 0.4-1), digest, formatR, gifski, gridSVG, htmlwidgets (>= 0.7), jpeg, JuliaCall (>= 0.11.1), magick, litedown, markdown (>= 1.3), png, ragg, reticulate (>= 1.4),
+        rgl (>= 0.95.1201), rlang, rmarkdown, sass, showtext, styler (>= 1.2.0), targets (>= 0.6.0), testit, tibble, tikzDevice (>= 0.10), tinytex (>= 0.46), webshot, rstudioapi, svglite
+License: GPL
+File: knitr_1.49_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/knitr/releases/download/1.49/knitr_1.49_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-11-08 14:32:10 UTC; unix
+Filesize: 1103461
+SHA256: d4d274fc94398c3631d20fe4c1865449307daabd73cb2b76471548c24517b14a
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: evaluate (>= 0.15), highr (>= 0.11), methods, tools, xfun (>= 0.48), yaml (>= 2.1.19)
+SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
+
+Package: waldo
+Version: 0.6.1
+Depends: R (>= 4.0), R (>= 4.1), R (< 4.1.99)
+Suggests: bit64, R6, S7, testthat (>= 3.0.0), withr, xml2
+License: MIT + file LICENSE
+File: waldo_0.6.1_b4_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/waldo/releases/download/0.6.1/waldo_0.6.1_b4_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2024-11-08 14:32:12 UTC; unix
+Filesize: 133768
+SHA256: 9dc19ff6e04c47f754b57e8386aedaa17d640f0c3209a2dcc2462b9fe5b4ed24
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli, diffobj (>= 0.3.4), glue, methods, rlang (>= 1.1.0)
