@@ -3178,24 +3178,6 @@ Suggests: covr, fortunes, miniUI, rprojroot, sessioninfo, shiny, spelling, style
 Imports: callr (>= 3.6.0), cli (>= 3.2.0), clipr (>= 0.4.0), fs, glue, knitr (>= 1.23), lifecycle, rlang (>= 1.0.0), rmarkdown, rstudioapi, utils, withr (>= 2.3.0)
 SystemRequirements: pandoc (>= 2.0) - https://pandoc.org/
 
-Package: knitr
-Version: 1.48
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-License: GPL
-File: knitr_1.48_b4_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/knitr/releases/download/1.48/knitr_1.48_b4_R4.5_aarch64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-07-07 17:31:05 UTC; unix
-Filesize: 1158791
-SHA256: 65633ded5be7aa7db5a11312fe2e74899d5562cbf107d4c173947a1a0719c8c7
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bslib, codetools, DBI (>= 0.4-1), digest, formatR, gifski, gridSVG, htmlwidgets (>= 0.7), jpeg, JuliaCall (>= 0.11.1), magick, markdown (>= 1.3), png, ragg, reticulate (>= 1.4), rgl (>=
-        0.95.1201), rlang, rmarkdown, sass, showtext, styler (>= 1.2.0), targets (>= 0.6.0), testit, tibble, tikzDevice (>= 0.10), tinytex (>= 0.46), webshot, rstudioapi, svglite
-Imports: evaluate (>= 0.15), highr (>= 0.11), methods, tools, xfun (>= 0.44), yaml (>= 2.1.19)
-SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
-
 Package: StanHeaders
 Version: 2.32.10
 Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
@@ -3322,23 +3304,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd, tcltk, shiny, shinyjs, ggplot2, dplyr, scales, grid, png, jpeg, knitr, rmarkdown, RColorBrewer, rcartocolor, scico, viridis,
         wesanderson
 Imports: graphics, grDevices, stats
-
-Package: parallelly
-Version: 1.38.0
-Depends: R (>= 4.5), R (< 4.5.99)
-License: LGPL (>= 2.1)
-File: parallelly_1.38.0_b2_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/parallelly/releases/download/1.38.0/parallelly_1.38.0_b2_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-07-27 17:29:42 UTC; unix
-Filesize: 377216
-SHA256: 2e1b4a21b6322856c14ca35d6e8891d69edddff36f1690aefb2a8d18f2569000
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: parallel, tools, utils
 
 Package: usethis
 Version: 3.0.0
@@ -4711,22 +4676,6 @@ Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltoo
         2.1.19)
 SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
 
-Package: waldo
-Version: 0.6.0
-Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: waldo_0.6.0_b3_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/waldo/releases/download/0.6.0/waldo_0.6.0_b3_R4.5_aarch64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-11-04 17:33:53 UTC; unix
-Filesize: 133284
-SHA256: d8b1496b4faf7baa494c43fabbfb39ef1407dc49e529569323cc7f6f7f92a8f9
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bit64, R6, S7, testthat (>= 3.0.0), withr, xml2
-Imports: cli, diffobj (>= 0.3.4), glue, methods, rlang (>= 1.1.0)
-
 Package: httr2
 Version: 1.0.6
 Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
@@ -4800,3 +4749,54 @@ Suggests: blob, nanoarrow, covr, dplyr (>= 1.0.0), ggplot2, knitr, lwgeom (>= 0.
 Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
 SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
 LinkingTo: Rcpp
+
+Package: knitr
+Version: 1.49
+Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+License: GPL
+File: knitr_1.49_b5_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/knitr/releases/download/1.49/knitr_1.49_b5_R4.5_aarch64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-11-08 17:33:27 UTC; unix
+Filesize: 1122217
+SHA256: 1dfaf39ea53eeecd3dcb1d377c064ff4f73ea68846e4ca127d1803739664f1d2
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bslib, codetools, DBI (>= 0.4-1), digest, formatR, gifski, gridSVG, htmlwidgets (>= 0.7), jpeg, JuliaCall (>= 0.11.1), magick, litedown, markdown (>= 1.3), png, ragg, reticulate (>= 1.4),
+        rgl (>= 0.95.1201), rlang, rmarkdown, sass, showtext, styler (>= 1.2.0), targets (>= 0.6.0), testit, tibble, tikzDevice (>= 0.10), tinytex (>= 0.46), webshot, rstudioapi, svglite
+Imports: evaluate (>= 0.15), highr (>= 0.11), methods, tools, xfun (>= 0.48), yaml (>= 2.1.19)
+SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
+
+Package: parallelly
+Version: 1.39.0
+Depends: R (>= 4.5), R (< 4.5.99)
+License: LGPL (>= 2.1)
+File: parallelly_1.39.0_b3_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/parallelly/releases/download/1.39.0/parallelly_1.39.0_b3_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-11-08 17:33:25 UTC; unix
+Filesize: 379371
+SHA256: 4c102b516372591df21a411358dd9e7b6ddc0bb9b4b1930244729699091a4aac
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: parallel, tools, utils
+
+Package: waldo
+Version: 0.6.1
+Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: waldo_0.6.1_b4_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/waldo/releases/download/0.6.1/waldo_0.6.1_b4_R4.5_aarch64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-11-08 17:33:30 UTC; unix
+Filesize: 133481
+SHA256: dd785638050a4b355d6b14111bfbf2ed806fbe8b37b68c7d3e8e9559521a07b1
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bit64, R6, S7, testthat (>= 3.0.0), withr, xml2
+Imports: cli, diffobj (>= 0.3.4), glue, methods, rlang (>= 1.1.0)
