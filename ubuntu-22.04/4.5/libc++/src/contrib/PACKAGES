@@ -2960,24 +2960,6 @@ Suggests: covr, fortunes, miniUI, rprojroot, sessioninfo, shiny, spelling, style
 Imports: callr (>= 3.6.0), cli (>= 3.2.0), clipr (>= 0.4.0), fs, glue, knitr (>= 1.23), lifecycle, rlang (>= 1.0.0), rmarkdown, rstudioapi, utils, withr (>= 2.3.0)
 SystemRequirements: pandoc (>= 2.0) - https://pandoc.org/
 
-Package: knitr
-Version: 1.48
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-License: GPL
-File: knitr_1.48_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/knitr/releases/download/1.48/knitr_1.48_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.5.0; ; 2024-07-07 17:04:18 UTC; unix
-Filesize: 1157478
-SHA256: 372045d788b4f3fe1651966c4974e054da015ca09fe825600c7b619d978c9240
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bslib, codetools, DBI (>= 0.4-1), digest, formatR, gifski, gridSVG, htmlwidgets (>= 0.7), jpeg, JuliaCall (>= 0.11.1), magick, markdown (>= 1.3), png, ragg, reticulate (>= 1.4), rgl (>=
-        0.95.1201), rlang, rmarkdown, sass, showtext, styler (>= 1.2.0), targets (>= 0.6.0), testit, tibble, tikzDevice (>= 0.10), tinytex (>= 0.46), webshot, rstudioapi, svglite
-Imports: evaluate (>= 0.15), highr (>= 0.11), methods, tools, xfun (>= 0.44), yaml (>= 2.1.19)
-SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
-
 Package: s2
 Version: 1.1.7
 Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
@@ -3104,23 +3086,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd, tcltk, shiny, shinyjs, ggplot2, dplyr, scales, grid, png, jpeg, knitr, rmarkdown, RColorBrewer, rcartocolor, scico, viridis,
         wesanderson
 Imports: graphics, grDevices, stats
-
-Package: parallelly
-Version: 1.38.0
-Depends: R (>= 4.5), R (< 4.5.99)
-License: LGPL (>= 2.1)
-File: parallelly_1.38.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/parallelly/releases/download/1.38.0/parallelly_1.38.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-07-27 17:04:00 UTC; unix
-Filesize: 378645
-SHA256: 27cc71add929c7d1999b7181f8e707532c3e367a1e97bf5312680859b9f7f04d
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: parallel, tools, utils
 
 Package: usethis
 Version: 3.0.0
@@ -4405,22 +4370,6 @@ Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltoo
         2.1.19)
 SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
 
-Package: waldo
-Version: 0.6.0
-Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: waldo_0.6.0_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/waldo/releases/download/0.6.0/waldo_0.6.0_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.5.0; ; 2024-11-05 17:08:29 UTC; unix
-Filesize: 133514
-SHA256: 24139af1f2be848ff80694e5dd485b82e7fd8936ffc3c83428c44091b6305402
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bit64, R6, S7, testthat (>= 3.0.0), withr, xml2
-Imports: cli, diffobj (>= 0.3.4), glue, methods, rlang (>= 1.1.0)
-
 Package: mvtnorm
 Version: 1.3-2
 Depends: R(>= 3.5.0), R (>= 4.5), R (< 4.5.99)
@@ -4494,3 +4443,54 @@ Suggests: blob, nanoarrow, covr, dplyr (>= 1.0.0), ggplot2, knitr, lwgeom (>= 0.
 Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
 SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
 LinkingTo: Rcpp
+
+Package: knitr
+Version: 1.49
+Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+License: GPL
+File: knitr_1.49_b5_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/knitr/releases/download/1.49/knitr_1.49_b5_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.5.0; ; 2024-11-08 17:07:28 UTC; unix
+Filesize: 1120500
+SHA256: 2653271abdc3207f064c4408952ac44a56ad33fec43b3bb2535d5daac5dec24b
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bslib, codetools, DBI (>= 0.4-1), digest, formatR, gifski, gridSVG, htmlwidgets (>= 0.7), jpeg, JuliaCall (>= 0.11.1), magick, litedown, markdown (>= 1.3), png, ragg, reticulate (>= 1.4),
+        rgl (>= 0.95.1201), rlang, rmarkdown, sass, showtext, styler (>= 1.2.0), targets (>= 0.6.0), testit, tibble, tikzDevice (>= 0.10), tinytex (>= 0.46), webshot, rstudioapi, svglite
+Imports: evaluate (>= 0.15), highr (>= 0.11), methods, tools, xfun (>= 0.48), yaml (>= 2.1.19)
+SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
+
+Package: parallelly
+Version: 1.39.0
+Depends: R (>= 4.5), R (< 4.5.99)
+License: LGPL (>= 2.1)
+File: parallelly_1.39.0_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/parallelly/releases/download/1.39.0/parallelly_1.39.0_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-11-08 17:07:27 UTC; unix
+Filesize: 380706
+SHA256: cc7054e8ce647fed84fd00ba9a0327409db31c965f1cccfc49fb286e486a716f
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: parallel, tools, utils
+
+Package: waldo
+Version: 0.6.1
+Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: waldo_0.6.1_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/waldo/releases/download/0.6.1/waldo_0.6.1_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.5.0; ; 2024-11-08 17:07:28 UTC; unix
+Filesize: 133642
+SHA256: 56c957e6fadb0768eb8f12e6c34d7e03bbca4f4b61fa1bddd38e0acad814b2d0
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bit64, R6, S7, testthat (>= 3.0.0), withr, xml2
+Imports: cli, diffobj (>= 0.3.4), glue, methods, rlang (>= 1.1.0)
