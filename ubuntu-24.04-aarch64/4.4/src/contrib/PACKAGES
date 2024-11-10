@@ -3120,22 +3120,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, dplyr, patchwork, ggplot2movies, forcats, knitr, rmarkdown, testthat, vdiffr
 Imports: ggplot2 (>= 3.4.0), grid (>= 3.0.0), scales (>= 0.4.1), withr (>= 2.1.1)
 
-Package: inline
-Version: 0.3.19
-Depends: R (>= 4.4), R (< 4.4.99)
-License: LGPL
-File: inline_0.3.19_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/inline/releases/download/0.3.19/inline_0.3.19_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.4.1; ; 2024-07-20 14:56:37 UTC; unix
-Filesize: 130146
-SHA256: 4b881490b44c16a389380c3cd0fb38c9e1568c9c3f5390f5503425e25123559d
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: Rcpp (>= 0.11.0), tinytest
-Imports: methods
-
 Package: loo
 Version: 2.8.0
 Depends: R (>= 3.1.2), R (>= 4.4), R (< 4.4.99)
@@ -4926,3 +4910,19 @@ Suggests: bslib, codetools, DBI (>= 0.4-1), digest, formatR, gifski, gridSVG, ht
         rgl (>= 0.95.1201), rlang, rmarkdown, sass, showtext, styler (>= 1.2.0), targets (>= 0.6.0), testit, tibble, tikzDevice (>= 0.10), tinytex (>= 0.46), webshot, rstudioapi, svglite
 Imports: evaluate (>= 0.15), highr (>= 0.11), methods, tools, xfun (>= 0.48), yaml (>= 2.1.19)
 SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
+
+Package: inline
+Version: 0.3.20
+Depends: R (>= 4.4), R (< 4.4.99)
+License: LGPL
+File: inline_0.3.20_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/inline/releases/download/0.3.20/inline_0.3.20_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.2; ; 2024-11-10 23:23:56 UTC; unix
+Filesize: 131130
+SHA256: 011678a5de2b846611af3bb3b027ff52356afb45cd92175a79c66cc3e16b273a
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: Rcpp, tinytest
+Imports: methods
