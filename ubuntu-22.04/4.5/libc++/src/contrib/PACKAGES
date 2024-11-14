@@ -4388,24 +4388,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: qrng, numDeriv
 Imports: stats
 
-Package: curl
-Version: 6.0.0
-Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: curl_6.0.0_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/curl/releases/download/6.0.0/curl_6.0.0_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-11-05 17:08:29 UTC; unix
-Filesize: 780963
-SHA256: 4ccd74383ce11ea6c550fc4dafb1bef00b92f65542042c09fb5f9bd45370ce6b
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
-SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
-
 Package: httr2
 Version: 1.0.6
 Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
@@ -4494,3 +4476,21 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: bit64, R6, S7, testthat (>= 3.0.0), withr, xml2
 Imports: cli, diffobj (>= 0.3.4), glue, methods, rlang (>= 1.1.0)
+
+Package: curl
+Version: 6.0.1
+Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: curl_6.0.1_b5_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/curl/releases/download/6.0.1/curl_6.0.1_b5_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-11-14 17:08:08 UTC; unix
+Filesize: 781156
+SHA256: d36c1d8cfbc33e9faeeaad3aceaf6dd2ee28dc5258af175bec9b51bc7cd336b1
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
