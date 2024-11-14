@@ -4820,24 +4820,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later, paws.common, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
 Imports: cli (>= 3.0.0), curl (>= 5.2.2), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
 
-Package: curl
-Version: 6.0.0
-Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: curl_6.0.0_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/curl/releases/download/6.0.0/curl_6.0.0_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2024-11-05 23:24:48 UTC; unix
-Filesize: 867767
-SHA256: 91953b837fa76ef36964ae1dba84caac3552c2673a6bba935a408be19868975f
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
-SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
-
 Package: sf
 Version: 1.0-19
 Depends: methods, R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
@@ -4926,3 +4908,21 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: Rcpp, tinytest
 Imports: methods
+
+Package: curl
+Version: 6.0.1
+Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: curl_6.0.1_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/curl/releases/download/6.0.1/curl_6.0.1_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2024-11-14 23:47:54 UTC; unix
+Filesize: 864677
+SHA256: 46929f4e82eece8d2f3f53daa83067ff65a1a48231c3e956305a4e02aa132869
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
