@@ -4719,24 +4719,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: qrng, numDeriv
 Imports: stats
 
-Package: curl
-Version: 6.0.0
-Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: curl_6.0.0_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/curl/releases/download/6.0.0/curl_6.0.0_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-11-05 16:41:25 UTC; unix
-Filesize: 871958
-SHA256: efdd7fa4b5a3d757a9ad981b02a7b011d7dcb2872aed78d4a3185d4b76134762
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
-SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
-
 Package: httr2
 Version: 1.0.6
 Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
@@ -4841,3 +4823,21 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: Rcpp, tinytest
 Imports: methods
+
+Package: curl
+Version: 6.0.1
+Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: curl_6.0.1_b5_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/curl/releases/download/6.0.1/curl_6.0.1_b5_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-11-14 16:42:59 UTC; unix
+Filesize: 872557
+SHA256: e40db62e3a3355af0e72f1ddc6e8c8ef62507962aba9fbb3869c929183e1b800
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
