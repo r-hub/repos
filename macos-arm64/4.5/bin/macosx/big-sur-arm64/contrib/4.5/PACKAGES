@@ -4694,24 +4694,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: qrng, numDeriv
 Imports: stats
 
-Package: curl
-Version: 6.0.0
-Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: curl_6.0.0_b4_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/curl/releases/download/6.0.0/curl_6.0.0_b4_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-11-05 17:34:36 UTC; unix
-Filesize: 778703
-SHA256: ce1fd71ad597ec3e50e44f4a45d565063e95c0ec321e98d79f04ce1a5f8e32f4
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
-SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
-
 Package: sf
 Version: 1.0-19
 Depends: methods, R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
@@ -4800,3 +4782,21 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: Rcpp, tinytest
 Imports: methods
+
+Package: curl
+Version: 6.0.1
+Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: curl_6.0.1_b5_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/curl/releases/download/6.0.1/curl_6.0.1_b5_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-11-14 17:35:49 UTC; unix
+Filesize: 776343
+SHA256: 2106d73a9da9c4f305705ffe46ec749a025f48a8393aec405df306254f32eb49
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
