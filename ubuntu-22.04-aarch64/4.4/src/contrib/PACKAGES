@@ -225,22 +225,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: fontawesome
-Version: 0.5.2
-Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
-Imports: rlang (>= 1.0.6), htmltools (>= 0.5.1.1)
-Suggests: covr, dplyr (>= 1.0.8), knitr (>= 1.31), testthat (>= 3.0.0), rsvg
-License: MIT + file LICENSE
-File: fontawesome_0.5.2_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/fontawesome/releases/download/0.5.2/fontawesome_0.5.2_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2024-05-16 08:44:31 UTC; unix
-Filesize: 1355638
-SHA256: 73a08825650501d69f5a66b1cc247c0b4dd86296e286951a79b360bbbbb44e3c
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: gh
 Version: 1.4.1
 Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
@@ -4250,28 +4234,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
 LinkingTo: cpp11 (>= 0.5.0)
 
-Package: rgl
-Version: 1.3.12
-Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
-Suggests: MASS, markdown (>= 1.12), rmarkdown (>= 2.16), deldir (>= 1.0-4), orientlib, lattice, misc3d, magick, plotrix (>= 3.7-3), tripack, interp, alphashape3d, tcltk, js (>= 1.2), webshot2 (>=
-        0.1.0), downlit (>= 0.4.0), pkgdown (>= 2.0.0), extrafont, shiny, manipulateWidget (>= 0.9.0), testthat, crosstalk, V8, chromote, jpeg, png
-Enhances: waldo
-License: GPL
-File: rgl_1.3.12_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/rgl/releases/download/1.3.12/rgl_1.3.12_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-10-29 18:55:50 UTC; unix
-Filesize: 7801980
-SHA256: 57d361aa0d95111c8040c90b0bdb15890d0b172e779272faa0e35cdf40084e9a
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
-        (optional), libpng (>=1.2.9, optional), FreeType (optional)
-
 Package: car
 Version: 3.1-3
 Depends: R (>= 3.5.0), carData (>= 3.0-0), R (>= 4.4), R (< 4.4.99)
@@ -4911,6 +4873,22 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
 
+Package: Rdpack
+Version: 2.6.2
+Depends: R (>= 2.15.0), methods, R (>= 4.4), R (< 4.4.99)
+Imports: tools, utils, rbibutils (>= 1.3)
+Suggests: grDevices, testthat, rstudioapi, rprojroot, gbRd
+License: GPL (>= 2)
+File: Rdpack_2.6.2_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/Rdpack/releases/download/2.6.2/Rdpack_2.6.2_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.2; ; 2024-11-15 18:40:48 UTC; unix
+Filesize: 759269
+SHA256: 1e09cfdd537e2ae9e519d9a4c852524a9274c717a9243cf037c9f97366b8205f
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
 Package: rlang
 Version: 1.1.4
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -4924,7 +4902,7 @@ OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-04 18:33:16 UTC; unix
 Filesize: 2068882
-SHA256: 6da51259533c289d60a6681b639c44c8423dcbc7563d5c6c73c854b5730b036c
+SHA256: b54d91e11ac9ea8faae803f3f5f19bb1d3eeaf78d497f45c7d160c4d79d2fb89
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4942,25 +4920,47 @@ DownloadURL: https://github.com/cran/cli/releases/download/3.6.3/cli_3.6.3_b2_R4
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-22 18:32:00 UTC; unix
-Filesize: 1417977
-SHA256: 154a5c02a062681d01ac641c16d4a0a9864a597ae2356090a008179746f06e66
+Filesize: 1417979
+SHA256: 0c61eb4dfb05f965ae729232d341a7bea0c589e85b11a98da0aa71837f1c5268
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: Rdpack
-Version: 2.6.2
-Depends: R (>= 2.15.0), methods, R (>= 4.4), R (< 4.4.99)
-Imports: tools, utils, rbibutils (>= 1.3)
-Suggests: grDevices, testthat, rstudioapi, rprojroot, gbRd
-License: GPL (>= 2)
-File: Rdpack_2.6.2_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/Rdpack/releases/download/2.6.2/Rdpack_2.6.2_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.2; ; 2024-11-15 18:40:48 UTC; unix
-Filesize: 759269
-SHA256: 1e09cfdd537e2ae9e519d9a4c852524a9274c717a9243cf037c9f97366b8205f
+Package: fontawesome
+Version: 0.5.3
+Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
+Imports: rlang (>= 1.0.6), htmltools (>= 0.5.1.1)
+Suggests: covr, dplyr (>= 1.0.8), gt (>= 0.9.0), knitr (>= 1.31), testthat (>= 3.0.0), rsvg
+License: MIT + file LICENSE
+File: fontawesome_0.5.3_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/fontawesome/releases/download/0.5.3/fontawesome_0.5.3_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.2; ; 2024-11-16 18:37:28 UTC; unix
+Filesize: 1396902
+SHA256: 4f735149eb531da5c1fe98354b43c2c8bdabe0798108261d9afcf18345a05e3d
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rgl
+Version: 1.3.14
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
+Suggests: MASS, markdown (>= 1.12), rmarkdown (>= 2.16), deldir (>= 1.0-4), orientlib, lattice, misc3d, magick, plotrix (>= 3.7-3), tripack, interp, alphashape3d, tcltk, js (>= 1.2), webshot2 (>=
+        0.1.0), downlit (>= 0.4.0), pkgdown (>= 2.0.0), extrafont, shiny, manipulateWidget (>= 0.9.0), testthat, crosstalk, V8, chromote, jpeg, png
+Enhances: waldo
+License: GPL
+File: rgl_1.3.14_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/rgl/releases/download/1.3.14/rgl_1.3.14_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2024-11-16 18:37:34 UTC; unix
+Filesize: 7700220
+SHA256: 1851a871e65b24a38b99bbe3bb0a222cfff888745fa9ce62c9dd427011be62c5
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
+        (optional), libpng (>=1.2.9, optional), FreeType (optional)
