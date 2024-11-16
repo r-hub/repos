@@ -256,22 +256,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat (>= 2.1.1)
 
-Package: fontawesome
-Version: 0.5.2
-Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: fontawesome_0.5.2_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/fontawesome/releases/download/0.5.2/fontawesome_0.5.2_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.4.1; ; 2024-07-20 16:06:58 UTC; unix
-Filesize: 1355618
-SHA256: 9e3be868b88cbc64ce1d6b479849504e54e4a5af27fbd6e7bd6b2e4ff4f2e401
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, dplyr (>= 1.0.8), knitr (>= 1.31), testthat (>= 3.0.0), rsvg
-Imports: rlang (>= 1.0.6), htmltools (>= 0.5.1.1)
-
 Package: gh
 Version: 1.4.1
 Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
@@ -4555,28 +4539,6 @@ Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plot
         latticeExtra, gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer, htm2txt
 Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
 
-Package: rgl
-Version: 1.3.12
-Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-License: GPL
-File: rgl_1.3.12_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/rgl/releases/download/1.3.12/rgl_1.3.12_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-10-28 23:25:24 UTC; unix
-Filesize: 7632372
-SHA256: 44607d6f0985653dab2574fff0e82561d38defef51d5dc85de8ad8c82bdb1671
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: waldo
-Suggests: MASS, markdown (>= 1.12), rmarkdown (>= 2.16), deldir (>= 1.0-4), orientlib, lattice, misc3d, magick, plotrix (>= 3.7-3), tripack, interp, alphashape3d, tcltk, js (>= 1.2), webshot2 (>=
-        0.1.0), downlit (>= 0.4.0), pkgdown (>= 2.0.0), extrafont, shiny, manipulateWidget (>= 0.9.0), testthat, crosstalk, V8, chromote, jpeg, png
-Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
-SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
-        (optional), libpng (>=1.2.9, optional), FreeType (optional)
-
 Package: withr
 Version: 3.0.2
 Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
@@ -4926,3 +4888,41 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: grDevices, testthat, rstudioapi, rprojroot, gbRd
 Imports: tools, utils, rbibutils (>= 1.3)
+
+Package: fontawesome
+Version: 0.5.3
+Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: fontawesome_0.5.3_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/fontawesome/releases/download/0.5.3/fontawesome_0.5.3_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.2; ; 2024-11-16 23:26:43 UTC; unix
+Filesize: 1396639
+SHA256: 6c34ec340702296f4b82e59b440593af3a5826c0646f3b767c77351da3192752
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, dplyr (>= 1.0.8), gt (>= 0.9.0), knitr (>= 1.31), testthat (>= 3.0.0), rsvg
+Imports: rlang (>= 1.0.6), htmltools (>= 0.5.1.1)
+
+Package: rgl
+Version: 1.3.14
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+License: GPL
+File: rgl_1.3.14_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/rgl/releases/download/1.3.14/rgl_1.3.14_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2024-11-16 23:26:50 UTC; unix
+Filesize: 7637416
+SHA256: a4458df5051c3742bc4682845af13c361952536d0d419c14351275af0feb3846
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: waldo
+Suggests: MASS, markdown (>= 1.12), rmarkdown (>= 2.16), deldir (>= 1.0-4), orientlib, lattice, misc3d, magick, plotrix (>= 3.7-3), tripack, interp, alphashape3d, tcltk, js (>= 1.2), webshot2 (>=
+        0.1.0), downlit (>= 0.4.0), pkgdown (>= 2.0.0), extrafont, shiny, manipulateWidget (>= 0.9.0), testthat, crosstalk, V8, chromote, jpeg, png
+Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
+SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
+        (optional), libpng (>=1.2.9, optional), FreeType (optional)
