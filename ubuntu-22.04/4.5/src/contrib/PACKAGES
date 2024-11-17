@@ -153,22 +153,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: unitizer, knitr, rmarkdown
 Imports: grDevices, utils
 
-Package: fontawesome
-Version: 0.5.2
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: fontawesome_0.5.2_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/fontawesome/releases/download/0.5.2/fontawesome_0.5.2_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.0; ; 2024-03-27 09:56:57 UTC; unix
-Filesize: 1355873
-SHA256: 7ca164664a2d631ccc706eb6672bbd5a308c40393b7793cd231e0f87ecd06996
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, dplyr (>= 1.0.8), knitr (>= 1.31), testthat (>= 3.0.0), rsvg
-Imports: rlang (>= 1.0.6), htmltools (>= 0.5.1.1)
-
 Package: gitcreds
 Version: 0.1.2
 Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
@@ -4419,28 +4403,6 @@ Suggests: covr, dplyr (>= 1.0.0), knitr, lubridate, rmarkdown, testthat (>= 3.0.
 Imports: cli (>= 3.6.1), rlang (>= 1.1.1), vctrs (>= 0.6.3), warp
 LinkingTo: vctrs (>= 0.6.3)
 
-Package: rgl
-Version: 1.3.12
-Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-License: GPL
-File: rgl_1.3.12_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/rgl/releases/download/1.3.12/rgl_1.3.12_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-10-28 16:44:33 UTC; unix
-Filesize: 7882125
-SHA256: 1204b16f929faa265cc6db77da18020657fba18bd06a6c9352749776350289f8
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: waldo
-Suggests: MASS, markdown (>= 1.12), rmarkdown (>= 2.16), deldir (>= 1.0-4), orientlib, lattice, misc3d, magick, plotrix (>= 3.7-3), tripack, interp, alphashape3d, tcltk, js (>= 1.2), webshot2 (>=
-        0.1.0), downlit (>= 0.4.0), pkgdown (>= 2.0.0), extrafont, shiny, manipulateWidget (>= 0.9.0), testthat, crosstalk, V8, chromote, jpeg, png
-Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
-SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
-        (optional), libpng (>=1.2.9, optional), FreeType (optional)
-
 Package: future.apply
 Version: 1.11.3
 Depends: R (>= 3.2.0), future (>= 1.28.0), R (>= 4.5), R (< 4.5.99)
@@ -4841,3 +4803,41 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: grDevices, testthat, rstudioapi, rprojroot, gbRd
 Imports: tools, utils, rbibutils (>= 1.3)
+
+Package: fontawesome
+Version: 0.5.3
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: fontawesome_0.5.3_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/fontawesome/releases/download/0.5.3/fontawesome_0.5.3_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.0; ; 2024-11-17 16:40:17 UTC; unix
+Filesize: 1396859
+SHA256: b8c0cfea198e1c2542872057673d786fd9cff23d589f819de0087e2310c2026f
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, dplyr (>= 1.0.8), gt (>= 0.9.0), knitr (>= 1.31), testthat (>= 3.0.0), rsvg
+Imports: rlang (>= 1.0.6), htmltools (>= 0.5.1.1)
+
+Package: rgl
+Version: 1.3.14
+Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+License: GPL
+File: rgl_1.3.14_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/rgl/releases/download/1.3.14/rgl_1.3.14_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-11-17 16:40:22 UTC; unix
+Filesize: 7889598
+SHA256: 290a67fa6b72e01a8deb085dd5b8f324144d281c92605e78357f101184f2d2a3
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: waldo
+Suggests: MASS, markdown (>= 1.12), rmarkdown (>= 2.16), deldir (>= 1.0-4), orientlib, lattice, misc3d, magick, plotrix (>= 3.7-3), tripack, interp, alphashape3d, tcltk, js (>= 1.2), webshot2 (>=
+        0.1.0), downlit (>= 0.4.0), pkgdown (>= 2.0.0), extrafont, shiny, manipulateWidget (>= 0.9.0), testthat, crosstalk, V8, chromote, jpeg, png
+Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
+SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
+        (optional), libpng (>=1.2.9, optional), FreeType (optional)
