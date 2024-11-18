@@ -2821,25 +2821,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: knitr, markdown, testit
 Imports: xfun (>= 0.18)
 
-Package: RSQLite
-Version: 2.3.7
-Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
-License: LGPL (>= 2.1)
-File: RSQLite_2.3.7_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/RSQLite/releases/download/2.3.7/RSQLite_2.3.7_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-27 16:37:58 UTC; unix
-Filesize: 5251825
-SHA256: 21d0bdbab0df6e867b5d8eda9a9488d89cad052ede737eaeea685a59d003e84a
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: callr, DBItest (>= 1.8.0), gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
-Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
-LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
-
 Package: hardhat
 Version: 1.4.0
 Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
@@ -3648,25 +3629,6 @@ Suggests: covr, graphics, grid, testthat (>= 3.0.0)
 Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
 SystemRequirements: freetype2, libpng, libtiff, libjpeg
 LinkingTo: systemfonts, textshaping
-
-Package: RcppArmadillo
-Version: 14.0.2-1
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: RcppArmadillo_14.0.2-1_b7_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/14.0.2-1/RcppArmadillo_14.0.2-1_b7_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-09-12 16:42:08 UTC; unix
-Filesize: 1895685
-SHA256: 5032c40fd413ed76a3495a91f7d34368f65d6e1d1a9a193c3494784022b1464f
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-Imports: Rcpp (>= 1.0.8), stats, utils, methods
-LinkingTo: Rcpp
 
 Package: abind
 Version: 1.4-8
@@ -4841,3 +4803,41 @@ Suggests: MASS, markdown (>= 1.12), rmarkdown (>= 2.16), deldir (>= 1.0-4), orie
 Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
 SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
         (optional), libpng (>=1.2.9, optional), FreeType (optional)
+
+Package: RSQLite
+Version: 2.3.8
+Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
+License: LGPL (>= 2.1)
+File: RSQLite_2.3.8_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/RSQLite/releases/download/2.3.8/RSQLite_2.3.8_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-11-18 16:44:58 UTC; unix
+Filesize: 5341289
+SHA256: 8ffce6ec23bb18c227cce6245dabc64d8f488d67615cb6e179b6c489bc8530d3
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: callr, cli, DBItest (>= 1.8.0), decor, gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
+Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
+LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
+
+Package: RcppArmadillo
+Version: 14.2.0-1
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: RcppArmadillo_14.2.0-1_b8_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/14.2.0-1/RcppArmadillo_14.2.0-1_b8_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-11-18 16:44:59 UTC; unix
+Filesize: 1891776
+SHA256: 6c7bc7a52da882fe4b974e68760d7368cc309354ca137b2e50afd7151b25c5dc
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+Imports: Rcpp (>= 1.0.12), stats, utils, methods
+LinkingTo: Rcpp
