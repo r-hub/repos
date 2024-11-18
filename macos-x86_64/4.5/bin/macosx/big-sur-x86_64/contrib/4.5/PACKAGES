@@ -2821,25 +2821,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: knitr, markdown, testit
 Imports: xfun (>= 0.18)
 
-Package: RSQLite
-Version: 2.3.7
-Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
-License: LGPL (>= 2.1)
-File: RSQLite_2.3.7_b3_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/RSQLite/releases/download/2.3.7/RSQLite_2.3.7_b3_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-05-27 17:31:30 UTC; unix
-Filesize: 1437279
-SHA256: dfd1597df34ac3396fcf07f2ed734522e4d887ca7b0dc47dd822e53e58e34f91
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: callr, DBItest (>= 1.8.0), gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
-Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
-LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
-
 Package: hardhat
 Version: 1.4.0
 Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
@@ -3607,25 +3588,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: utils, base64enc, ggplot2, knitr, markdown, microbenchmark, R.devices, R.rsp
-
-Package: RcppArmadillo
-Version: 14.0.2-1
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: RcppArmadillo_14.0.2-1_b7_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/14.0.2-1/RcppArmadillo_14.0.2-1_b7_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-09-12 17:35:16 UTC; unix
-Filesize: 1072153
-SHA256: d123ebb9efb44370d947d27623525f4826c3505e781f1be83544dcfb1993b075
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-Imports: Rcpp (>= 1.0.8), stats, utils, methods
-LinkingTo: Rcpp
 
 Package: abind
 Version: 1.4-8
@@ -4800,3 +4762,41 @@ Suggests: MASS, markdown (>= 1.12), rmarkdown (>= 2.16), deldir (>= 1.0-4), orie
 Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
 SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
         (optional), libpng (>=1.2.9, optional), FreeType (optional)
+
+Package: RSQLite
+Version: 2.3.8
+Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
+License: LGPL (>= 2.1)
+File: RSQLite_2.3.8_b4_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/RSQLite/releases/download/2.3.8/RSQLite_2.3.8_b4_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2024-11-18 17:37:06 UTC; unix
+Filesize: 1436558
+SHA256: 3a1074e6852dbe7c2fb4a796bfcc0ef81b5689f6b0ea5884b71efe47d8ba1e59
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: callr, cli, DBItest (>= 1.8.0), decor, gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
+Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
+LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
+
+Package: RcppArmadillo
+Version: 14.2.0-1
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: RcppArmadillo_14.2.0-1_b8_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/14.2.0-1/RcppArmadillo_14.2.0-1_b8_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2024-11-18 17:39:02 UTC; unix
+Filesize: 1076100
+SHA256: 04abed8dd4db6deb30a81fb88073075afe8c8ccf452637ace378763ab88cdb09
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+Imports: Rcpp (>= 1.0.12), stats, utils, methods
+LinkingTo: Rcpp
