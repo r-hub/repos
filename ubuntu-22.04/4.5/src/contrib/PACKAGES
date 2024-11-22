@@ -4297,24 +4297,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: quantreg
-Version: 5.99
-Depends: R (>= 3.5), stats, SparseM, R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: quantreg_5.99_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/quantreg/releases/download/5.99/quantreg_5.99_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-10-22 16:43:22 UTC; unix
-Filesize: 1681856
-SHA256: 0a023b69ff899cf87e7d2c1e4eec2641044102d09e01853de603ff489adfdd9a
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer
-Imports: methods, graphics, Matrix, MatrixModels, survival, MASS
-
 Package: rstudioapi
 Version: 0.17.1
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4416,22 +4398,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: callr, DBI, knitr, methods, rlang, rmarkdown (>= 2.12), RSQLite, testthat (>= 3.0.0)
 Imports: graphics, grDevices
 
-Package: progressr
-Version: 0.15.0
-Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 3)
-File: progressr_0.15.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/progressr/releases/download/0.15.0/progressr_0.15.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.0; ; 2024-10-29 16:43:20 UTC; unix
-Filesize: 394772
-SHA256: 1e704714720abb076148e863b24ca9e5b6c498373c7bb4be7995d183e57d2758
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: graphics, tcltk, beepr, cli, crayon, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools
-Imports: digest, utils
-
 Package: pkgbuild
 Version: 1.4.5
 Depends: R (>= 3.5), R (>= 4.5), R (< 4.5.99)
@@ -4484,24 +4450,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr
 Imports: methods
 SystemRequirements: GNU make
-
-Package: duckdb
-Version: 1.1.2
-Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: duckdb_1.1.2_b9_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.1.2/duckdb_1.1.2_b9_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-10-30 16:44:29 UTC; unix
-Filesize: 219972623
-SHA256: fc6338bf165745bee46fe73b9a59cbed0454e483a6e8a616bacc79cf8836ba78
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-Imports: methods, utils
 
 Package: vdiffr
 Version: 1.0.8
@@ -4841,3 +4789,55 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
 Imports: Rcpp (>= 1.0.12), stats, utils, methods
 LinkingTo: Rcpp
+
+Package: quantreg
+Version: 5.99.1
+Depends: R (>= 3.5), stats, SparseM, R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: quantreg_5.99.1_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/quantreg/releases/download/5.99.1/quantreg_5.99.1_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-11-22 16:43:49 UTC; unix
+Filesize: 1579833
+SHA256: 2cbeb7259bfe0a2a3fa50574e3c668a77cc398ff4f918acddf1a0cbaa784d5e8
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer
+Imports: methods, graphics, Matrix, MatrixModels, survival, MASS
+
+Package: progressr
+Version: 0.15.1
+Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 3)
+File: progressr_0.15.1_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/progressr/releases/download/0.15.1/progressr_0.15.1_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.0; ; 2024-11-22 16:43:49 UTC; unix
+Filesize: 395306
+SHA256: 8e4a71d1959d0e9da3bb0ac4a7eb11098643a4c86974c16e6be5c50f463a2f04
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: graphics, tcltk, beepr, cli, crayon, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, ntfy, RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools
+Imports: digest, utils
+
+Package: duckdb
+Version: 1.1.3
+Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: duckdb_1.1.3_b10_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.1.3/duckdb_1.1.3_b10_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-11-22 16:43:51 UTC; unix
+Filesize: 220116680
+SHA256: 750bf21202037a324b94475731dde59c898b4d423e7d68b01239dcdfd62cae06
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+Imports: methods, utils
