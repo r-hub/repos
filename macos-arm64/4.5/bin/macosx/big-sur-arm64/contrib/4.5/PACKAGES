@@ -4256,24 +4256,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: quantreg
-Version: 5.99
-Depends: R (>= 3.5), stats, SparseM, R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: quantreg_5.99_b3_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/quantreg/releases/download/5.99/quantreg_5.99_b3_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-10-22 17:34:43 UTC; unix
-Filesize: 1561474
-SHA256: 11648cba5bd2187c733417eb5aff04d087be0273d152667eb4de9aa371355fb8
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer
-Imports: methods, graphics, Matrix, MatrixModels, survival, MASS
-
 Package: rstudioapi
 Version: 0.17.1
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4391,22 +4373,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: callr, DBI, knitr, methods, rlang, rmarkdown (>= 2.12), RSQLite, testthat (>= 3.0.0)
 Imports: graphics, grDevices
 
-Package: progressr
-Version: 0.15.0
-Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 3)
-File: progressr_0.15.0_b2_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/progressr/releases/download/0.15.0/progressr_0.15.0_b2_R4.5_aarch64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-10-29 17:35:37 UTC; unix
-Filesize: 390488
-SHA256: d7f4c4508a497c0347337d8e3ff72fcded5e2b90788cc968cdc8f4ff8242059e
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: graphics, tcltk, beepr, cli, crayon, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools
-Imports: digest, utils
-
 Package: ps
 Version: 1.8.1
 Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
@@ -4443,24 +4409,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr
 Imports: methods
 SystemRequirements: GNU make
-
-Package: duckdb
-Version: 1.1.2
-Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: duckdb_1.1.2_b9_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.1.2/duckdb_1.1.2_b9_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-10-30 17:34:33 UTC; unix
-Filesize: 12129348
-SHA256: e5d7af1d3011b839e0f9e31e574b00a961bbf926049b03e1bc1db77cdcfb240e
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-Imports: methods, utils
 
 Package: vdiffr
 Version: 1.0.8
@@ -4800,3 +4748,55 @@ Suggests: MASS, markdown (>= 1.12), rmarkdown (>= 2.16), deldir (>= 1.0-4), orie
 Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
 SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
         (optional), libpng (>=1.2.9, optional), FreeType (optional)
+
+Package: quantreg
+Version: 5.99.1
+Depends: R (>= 3.5), stats, SparseM, R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: quantreg_5.99.1_b4_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/quantreg/releases/download/5.99.1/quantreg_5.99.1_b4_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-11-25 17:38:10 UTC; unix
+Filesize: 1460364
+SHA256: f2b3639d974c1824ccb98534f469adf4df5668acb54caa1bffe6e57eb687def5
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer
+Imports: methods, graphics, Matrix, MatrixModels, survival, MASS
+
+Package: progressr
+Version: 0.15.1
+Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 3)
+File: progressr_0.15.1_b3_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/progressr/releases/download/0.15.1/progressr_0.15.1_b3_R4.5_aarch64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-11-25 17:38:22 UTC; unix
+Filesize: 391333
+SHA256: 071d34f03a42d102146e66f7d35ab098bac4cedf400257cfe08affb947293232
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: graphics, tcltk, beepr, cli, crayon, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, ntfy, RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools
+Imports: digest, utils
+
+Package: duckdb
+Version: 1.1.3
+Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: duckdb_1.1.3_b10_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.1.3/duckdb_1.1.3_b10_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-11-25 17:38:26 UTC; unix
+Filesize: 12138854
+SHA256: c5b40939400373a74c84e2e0e961c8490193260721bcf99052cc0f5c673dd14a
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+Imports: methods, utils
