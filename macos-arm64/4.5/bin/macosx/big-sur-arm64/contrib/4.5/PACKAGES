@@ -269,25 +269,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat
 Imports: htmltools
 
-Package: later
-Version: 1.3.2
-Depends: R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: later_1.3.2_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/later/releases/download/1.3.2/later_1.3.2_b1_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-03-29 15:12:18 UTC; unix
-Filesize: 122467
-SHA256: d196c3a196c48579c453b5453036130aa2a770ba4891232f852a1ca154aea129
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: knitr, rmarkdown, testthat (>= 2.1.0)
-Imports: Rcpp (>= 0.12.9), rlang
-LinkingTo: Rcpp
-
 Package: lifecycle
 Version: 1.0.4
 Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
@@ -2497,25 +2478,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: knitr (>= 1.8), rmarkdown, shiny (>= 1.6), bslib, future, testit, tibble
 Imports: htmltools (>= 0.3.6), htmlwidgets (>= 1.3), httpuv, jsonlite (>= 0.9.16), magrittr, crosstalk, jquerylib, promises
 
-Package: promises
-Version: 1.3.0
-Depends: R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: promises_1.3.0_b2_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/promises/releases/download/1.3.0/promises_1.3.0_b2_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-04-05 17:30:16 UTC; unix
-Filesize: 1665676
-SHA256: 0b8de5983a4e5a5b51aceec597b55fa15d8122abb61bc2acba727c97797d76c1
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: future (>= 1.21.0), knitr, purrr, rmarkdown, spelling, testthat, vembedr
-Imports: fastmap (>= 1.1.0), later, magrittr (>= 1.5), R6, Rcpp, rlang, stats
-LinkingTo: later, Rcpp
-
 Package: ape
 Version: 5.8
 Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
@@ -3253,23 +3215,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd, tcltk, shiny, shinyjs, ggplot2, dplyr, scales, grid, png, jpeg, knitr, rmarkdown, RColorBrewer, rcartocolor, scico, viridis,
         wesanderson
 Imports: graphics, grDevices, stats
-
-Package: usethis
-Version: 3.0.0
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: usethis_3.0.0_b2_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/usethis/releases/download/3.0.0/usethis_3.0.0_b2_R4.5_aarch64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-07-29 17:30:32 UTC; unix
-Filesize: 906847
-SHA256: a24d9427b7d0adcfe00e07c9c13cb1f97c7996ba5ffb159edad5343975735871
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, knitr, magick, pkgload (>= 1.3.2.1), rmarkdown, roxygen2 (>= 7.1.2), spelling (>= 1.2), styler (>= 1.2.0), testthat (>= 3.1.8)
-Imports: cli (>= 3.0.1), clipr (>= 0.3.0), crayon, curl (>= 2.7), desc (>= 1.4.2), fs (>= 1.3.0), gert (>= 1.4.1), gh (>= 1.2.1), glue (>= 1.3.0), jsonlite, lifecycle (>= 1.0.0), purrr, rappdirs,
-        rlang (>= 1.1.0), rprojroot (>= 1.2), rstudioapi, stats, utils, whisker, withr (>= 2.3.0), yaml
 
 Package: future
 Version: 1.34.0
@@ -4800,3 +4745,58 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
 Imports: methods, utils
+
+Package: later
+Version: 1.4.0
+Depends: R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: later_1.4.0_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/later/releases/download/1.4.0/later_1.4.0_b2_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-11-26 17:36:23 UTC; unix
+Filesize: 144666
+SHA256: 66709da0012acba40b6e7d495110cfc8a1c7a43d0236ea6dde690973f7ceb8aa
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr, nanonext, R6, rmarkdown, testthat (>= 2.1.0)
+Imports: Rcpp (>= 0.12.9), rlang
+LinkingTo: Rcpp
+
+Package: promises
+Version: 1.3.1
+Depends: R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: promises_1.3.1_b3_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/promises/releases/download/1.3.1/promises_1.3.1_b3_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-11-26 17:36:33 UTC; unix
+Filesize: 1673038
+SHA256: 32715141a711c25d51887a1a7a5db90ac00a3bcc7dc61264e53d019593910204
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: future (>= 1.21.0), knitr, purrr, rmarkdown, spelling, testthat, vembedr
+Imports: fastmap (>= 1.1.0), later, magrittr (>= 1.5), R6, Rcpp, rlang, stats
+LinkingTo: later, Rcpp
+
+Package: usethis
+Version: 3.1.0
+Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: usethis_3.1.0_b3_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/usethis/releases/download/3.1.0/usethis_3.1.0_b3_R4.5_aarch64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-11-26 17:36:39 UTC; unix
+Filesize: 917140
+SHA256: 5df0434c70b579f651cf7ad5504f962bb3b912405a498a499ebccd36f2c79beb
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, knitr, magick, pkgload (>= 1.3.2.1), rmarkdown, roxygen2 (>= 7.1.2), spelling (>= 1.2), styler (>= 1.2.0), testthat (>= 3.1.8)
+Imports: cli (>= 3.0.1), clipr (>= 0.3.0), crayon, curl (>= 2.7), desc (>= 1.4.2), fs (>= 1.3.0), gert (>= 1.4.1), gh (>= 1.2.1), glue (>= 1.3.0), jsonlite, lifecycle (>= 1.0.0), purrr, rappdirs,
+        rlang (>= 1.1.0), rprojroot (>= 1.2), rstudioapi, stats, tools, utils, whisker, withr (>= 2.3.0), yaml
