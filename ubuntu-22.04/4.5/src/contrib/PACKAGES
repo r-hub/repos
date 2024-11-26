@@ -253,25 +253,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat
 Imports: htmltools
 
-Package: later
-Version: 1.3.2
-Depends: R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: later_1.3.2_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/later/releases/download/1.3.2/later_1.3.2_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 09:43:10 UTC; unix
-Filesize: 1028252
-SHA256: a96127ac342b3e521cf726d828b7867428949879557940cb81d4ad8e5802937f
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: knitr, rmarkdown, testthat (>= 2.1.0)
-Imports: Rcpp (>= 0.12.9), rlang
-LinkingTo: Rcpp
-
 Package: lifecycle
 Version: 1.0.4
 Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
@@ -2535,25 +2516,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: knitr (>= 1.8), rmarkdown, shiny (>= 1.6), bslib, future, testit, tibble
 Imports: htmltools (>= 0.3.6), htmlwidgets (>= 1.3), httpuv, jsonlite (>= 0.9.16), magrittr, crosstalk, jquerylib, promises
 
-Package: promises
-Version: 1.3.0
-Depends: R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: promises_1.3.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/promises/releases/download/1.3.0/promises_1.3.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-04-05 16:36:30 UTC; unix
-Filesize: 1942055
-SHA256: b7cf6d56300c3f37bbdbe1a25f82123283e4bcb0a00dd7fa72ab9a6c2f0869a3
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: future (>= 1.21.0), knitr, purrr, rmarkdown, spelling, testthat, vembedr
-Imports: fastmap (>= 1.1.0), later, magrittr (>= 1.5), R6, Rcpp, rlang, stats
-LinkingTo: later, Rcpp
-
 Package: ape
 Version: 5.8
 Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
@@ -3311,23 +3273,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd, tcltk, shiny, shinyjs, ggplot2, dplyr, scales, grid, png, jpeg, knitr, rmarkdown, RColorBrewer, rcartocolor, scico, viridis,
         wesanderson
 Imports: graphics, grDevices, stats
-
-Package: usethis
-Version: 3.0.0
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: usethis_3.0.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/usethis/releases/download/3.0.0/usethis_3.0.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.0; ; 2024-07-29 16:42:13 UTC; unix
-Filesize: 908163
-SHA256: f090c656e643e5d873d32ac60ac3fa139757f7ac464ad6ae06eaf50f478f53aa
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, knitr, magick, pkgload (>= 1.3.2.1), rmarkdown, roxygen2 (>= 7.1.2), spelling (>= 1.2), styler (>= 1.2.0), testthat (>= 3.1.8)
-Imports: cli (>= 3.0.1), clipr (>= 0.3.0), crayon, curl (>= 2.7), desc (>= 1.4.2), fs (>= 1.3.0), gert (>= 1.4.1), gh (>= 1.2.1), glue (>= 1.3.0), jsonlite, lifecycle (>= 1.0.0), purrr, rappdirs,
-        rlang (>= 1.1.0), rprojroot (>= 1.2), rstudioapi, stats, utils, whisker, withr (>= 2.3.0), yaml
 
 Package: uuid
 Version: 1.2-1
@@ -4841,3 +4786,58 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
 Imports: methods, utils
+
+Package: later
+Version: 1.4.0
+Depends: R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: later_1.4.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/later/releases/download/1.4.0/later_1.4.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-11-26 16:45:15 UTC; unix
+Filesize: 1338466
+SHA256: 997cf47e8d6cb5df440957b22654ce4763f0a7c24c4963d24eabf0333ff27b87
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr, nanonext, R6, rmarkdown, testthat (>= 2.1.0)
+Imports: Rcpp (>= 0.12.9), rlang
+LinkingTo: Rcpp
+
+Package: promises
+Version: 1.3.1
+Depends: R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: promises_1.3.1_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/promises/releases/download/1.3.1/promises_1.3.1_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-11-26 16:45:33 UTC; unix
+Filesize: 2001521
+SHA256: 8a8ad8730f51b501ae1b10b53e45ee32f05177fdfd49ab2284410f9faa2f7d1a
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: future (>= 1.21.0), knitr, purrr, rmarkdown, spelling, testthat, vembedr
+Imports: fastmap (>= 1.1.0), later, magrittr (>= 1.5), R6, Rcpp, rlang, stats
+LinkingTo: later, Rcpp
+
+Package: usethis
+Version: 3.1.0
+Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: usethis_3.1.0_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/usethis/releases/download/3.1.0/usethis_3.1.0_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.0; ; 2024-11-26 16:45:18 UTC; unix
+Filesize: 915234
+SHA256: 986a6e2c721907567fe412244984455dfc02cc551494cdbeedf809038bc1ae4e
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, knitr, magick, pkgload (>= 1.3.2.1), rmarkdown, roxygen2 (>= 7.1.2), spelling (>= 1.2), styler (>= 1.2.0), testthat (>= 3.1.8)
+Imports: cli (>= 3.0.1), clipr (>= 0.3.0), crayon, curl (>= 2.7), desc (>= 1.4.2), fs (>= 1.3.0), gert (>= 1.4.1), gh (>= 1.2.1), glue (>= 1.3.0), jsonlite, lifecycle (>= 1.0.0), purrr, rappdirs,
+        rlang (>= 1.1.0), rprojroot (>= 1.2), rstudioapi, stats, tools, utils, whisker, withr (>= 2.3.0), yaml
