@@ -4189,22 +4189,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: qrng, numDeriv
 Imports: stats
 
-Package: httr2
-Version: 1.0.6
-Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: httr2_1.0.6_b7_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/httr2/releases/download/1.0.6/httr2_1.0.6_b7_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.5.0; ; 2024-11-05 17:08:34 UTC; unix
-Filesize: 634894
-SHA256: 7e93ec3a2b9a9e47c320a3c309a2c1d2c8612530c44dda7bfbf152c6f4895930
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later, paws.common, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
-Imports: cli (>= 3.0.0), curl (>= 5.2.2), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
-
 Package: sf
 Version: 1.0-19
 Depends: methods, R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
@@ -4494,3 +4478,19 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, knitr, magick, pkgload (>= 1.3.2.1), rmarkdown, roxygen2 (>= 7.1.2), spelling (>= 1.2), styler (>= 1.2.0), testthat (>= 3.1.8)
 Imports: cli (>= 3.0.1), clipr (>= 0.3.0), crayon, curl (>= 2.7), desc (>= 1.4.2), fs (>= 1.3.0), gert (>= 1.4.1), gh (>= 1.2.1), glue (>= 1.3.0), jsonlite, lifecycle (>= 1.0.0), purrr, rappdirs,
         rlang (>= 1.1.0), rprojroot (>= 1.2), rstudioapi, stats, tools, utils, whisker, withr (>= 2.3.0), yaml
+
+Package: httr2
+Version: 1.0.7
+Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: httr2_1.0.7_b8_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/httr2/releases/download/1.0.7/httr2_1.0.7_b8_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.5.0; ; 2024-11-27 17:08:16 UTC; unix
+Filesize: 642136
+SHA256: 5aaadab4746f720b2fdee3fe8d1da3a7fa7e44dfb70014a4aba3d0e5ad90bd77
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later (>= 1.4.0), paws.common, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
+Imports: cli (>= 3.0.0), curl (>= 6.0.1), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
