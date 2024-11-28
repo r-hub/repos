@@ -4771,44 +4771,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: graphics, tcltk, beepr, cli, crayon, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, ntfy, RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools
 Imports: digest, utils
 
-Package: later
-Version: 1.4.0
-Depends: R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: later_1.4.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/later/releases/download/1.4.0/later_1.4.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-11-26 17:24:54 UTC; unix
-Filesize: 1325482
-SHA256: 6991a348e47c360b5e2fdabc741653d25c5bddb36a3411fffba24ada4e4aa8ce
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: knitr, nanonext, R6, rmarkdown, testthat (>= 2.1.0)
-Imports: Rcpp (>= 0.12.9), rlang
-LinkingTo: Rcpp
-
-Package: promises
-Version: 1.3.1
-Depends: R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: promises_1.3.1_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/promises/releases/download/1.3.1/promises_1.3.1_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-11-26 17:25:12 UTC; unix
-Filesize: 2006572
-SHA256: e1a75aaf2d2344a986603fdc835dc25f58487f069fa1abe2630fec8806925f13
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: future (>= 1.21.0), knitr, purrr, rmarkdown, spelling, testthat, vembedr
-Imports: fastmap (>= 1.1.0), later, magrittr (>= 1.5), R6, Rcpp, rlang, stats
-LinkingTo: later, Rcpp
-
 Package: usethis
 Version: 3.1.0
 Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
@@ -4841,3 +4803,41 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later (>= 1.4.0), paws.common, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
 Imports: cli (>= 3.0.0), curl (>= 6.0.1), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
+
+Package: later
+Version: 1.4.1
+Depends: R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: later_1.4.1_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/later/releases/download/1.4.1/later_1.4.1_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-11-28 17:23:41 UTC; unix
+Filesize: 1325392
+SHA256: 6a636fd622e8093e00c59e161dc476ea2a84d2cafd2451e262e12becb31bde32
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr, nanonext, R6, rmarkdown, testthat (>= 2.1.0)
+Imports: Rcpp (>= 0.12.9), rlang
+LinkingTo: Rcpp
+
+Package: promises
+Version: 1.3.2
+Depends: R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: promises_1.3.2_b4_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/promises/releases/download/1.3.2/promises_1.3.2_b4_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-11-28 17:23:56 UTC; unix
+Filesize: 2006882
+SHA256: 818b14d64d5daa6a22c37c56ac23f024c6c4318ac1e9458cbb2f9a001816bab0
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: future (>= 1.21.0), knitr, purrr, rmarkdown, spelling, testthat, vembedr
+Imports: fastmap (>= 1.1.0), later, magrittr (>= 1.5), R6, Rcpp, rlang, stats
+LinkingTo: later, Rcpp
