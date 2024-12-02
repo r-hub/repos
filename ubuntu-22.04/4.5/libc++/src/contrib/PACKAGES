@@ -3977,25 +3977,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: datasets, stats, tools, listenv (>= 0.8.0), R.rsp, markdown
 Imports: globals (>= 0.16.1), parallel, utils
 
-Package: Hmisc
-Version: 5.2-0
-Depends: R (>= 4.2.0), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: Hmisc_5.2-0_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/Hmisc/releases/download/5.2-0/Hmisc_5.2-0_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-10-28 17:08:51 UTC; unix
-Filesize: 3606848
-SHA256: 8af38134d44980d671aaccdb5ae8a618503c7885a2729301048bb086430a395d
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice,
-        latticeExtra, gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer, htm2txt
-Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
-
 Package: withr
 Version: 3.0.2
 Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
@@ -4494,3 +4475,22 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: future (>= 1.21.0), knitr, purrr, rmarkdown, spelling, testthat, vembedr
 Imports: fastmap (>= 1.1.0), later, magrittr (>= 1.5), R6, Rcpp, rlang, stats
 LinkingTo: later, Rcpp
+
+Package: Hmisc
+Version: 5.2-1
+Depends: R (>= 4.2.0), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: Hmisc_5.2-1_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/Hmisc/releases/download/5.2-1/Hmisc_5.2-1_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-12-02 17:08:50 UTC; unix
+Filesize: 3612066
+SHA256: 8473735544316812c4558449f0289054a244fd6933568b408ec40ce6bb957bf0
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice,
+        latticeExtra, gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer, htm2txt
+Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
