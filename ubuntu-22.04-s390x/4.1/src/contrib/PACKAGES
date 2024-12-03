@@ -1661,23 +1661,6 @@ OS: linux
 Arch: s390x
 SystemRequirements: OpenSSL >= 1.0.2
 
-Package: bit
-Version: 4.5.0
-Depends: R (>= 3.4.0), R (>= 4.1), R (< 4.1.99)
-Suggests: testthat (>= 0.11.0), roxygen2, knitr, markdown, rmarkdown, microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)
-License: GPL-2 | GPL-3
-File: bit_4.5.0_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/bit/releases/download/4.5.0/bit_4.5.0_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-09-21 14:26:58 UTC; unix
-Filesize: 1273699
-SHA256: 24a720a711b00bb447b28e11680a95232d5f09cfe8bb63764ad9794cb055b128
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-OS: linux
-Arch: s390x
-
 Package: bit64
 Version: 4.5.2
 Depends: R (>= 3.0.1), bit (>= 4.0.0), utils, methods, stats, R (>= 4.1), R (< 4.1.99)
@@ -2105,5 +2088,22 @@ Platform: s390x-ibm-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: methods, utils
+OS: linux
+Arch: s390x
+
+Package: bit
+Version: 4.5.0.1
+Depends: R (>= 3.4.0), R (>= 4.1), R (< 4.1.99)
+Suggests: testthat (>= 0.11.0), roxygen2, knitr, markdown, rmarkdown, microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)
+License: GPL-2 | GPL-3
+File: bit_4.5.0.1_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/bit/releases/download/4.5.0.1/bit_4.5.0.1_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-12-03 14:32:42 UTC; unix
+Filesize: 1277779
+SHA256: a151eecf3cac6cdf4b15f206cad5cc299e490cc3b112170a5fd0ceb19f7d5dfc
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 OS: linux
 Arch: s390x
