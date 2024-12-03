@@ -3689,23 +3689,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: htmltools, knitr, rmarkdown, shiny, testthat (>= 3.0.0)
 Imports: htmlwidgets (>= 0.3.2), rlang (>= 1.1.0), vctrs
 
-Package: bit
-Version: 4.5.0
-Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
-License: GPL-2 | GPL-3
-File: bit_4.5.0_b2_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/bit/releases/download/4.5.0/bit_4.5.0_b2_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-09-20 17:33:07 UTC; unix
-Filesize: 1175459
-SHA256: 506e934ed4706e9fc96f7e1e2a4daa58b66a6fcf6cb3570ac9fe122b2b309122
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testthat (>= 0.11.0), roxygen2, knitr, markdown, rmarkdown, microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)
-
 Package: openssl
 Version: 2.2.2
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4500,23 +4483,6 @@ Suggests: bslib, codetools, DBI (>= 0.4-1), digest, formatR, gifski, gridSVG, ht
 Imports: evaluate (>= 0.15), highr (>= 0.11), methods, tools, xfun (>= 0.48), yaml (>= 2.1.19)
 SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
 
-Package: parallelly
-Version: 1.39.0
-Depends: R (>= 4.5), R (< 4.5.99)
-License: LGPL (>= 2.1)
-File: parallelly_1.39.0_b3_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/parallelly/releases/download/1.39.0/parallelly_1.39.0_b3_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-11-08 17:33:25 UTC; unix
-Filesize: 379371
-SHA256: 4c102b516372591df21a411358dd9e7b6ddc0bb9b4b1930244729699091a4aac
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: parallel, tools, utils
-
 Package: waldo
 Version: 0.6.1
 Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
@@ -4800,3 +4766,38 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice,
         latticeExtra, gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer, htm2txt
 Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
+
+Package: bit
+Version: 4.5.0.1
+Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
+License: GPL-2 | GPL-3
+File: bit_4.5.0.1_b3_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/bit/releases/download/4.5.0.1/bit_4.5.0.1_b3_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-12-03 17:40:14 UTC; unix
+Filesize: 1176723
+SHA256: 9728046a381fc0669e2f1337db153178896fe4bc01b50b1a2404043013587eaa
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat (>= 0.11.0), roxygen2, knitr, markdown, rmarkdown, microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)
+
+Package: parallelly
+Version: 1.40.0
+Depends: R (>= 4.5), R (< 4.5.99)
+License: LGPL (>= 2.1)
+File: parallelly_1.40.0_b4_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/parallelly/releases/download/1.40.0/parallelly_1.40.0_b4_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-12-03 17:40:19 UTC; unix
+Filesize: 495742
+SHA256: 3256338a541cb38fe182bb521b64408e70e34107dd23e6c9f6449c6903063302
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: commonmark, base64enc
+Imports: parallel, tools, utils
