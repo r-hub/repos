@@ -3484,21 +3484,6 @@ Suggests: Matrix, inline, tinytest, pkgKitten, microbenchmark
 Imports: Rcpp (>= 0.11.0), stats, utils
 LinkingTo: Rcpp
 
-Package: cpp11
-Version: 0.5.0
-Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: cpp11_0.5.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/cpp11/releases/download/0.5.0/cpp11_0.5.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.0; ; 2024-08-27 16:39:11 UTC; unix
-Filesize: 272957
-SHA256: 7cc70bb7b0cab6ea46a97f32f838f2f323c5781a577e010a42db3f9fa5236922
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue, knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp, testthat (>= 3.2.0), tibble, utils, vctrs, withr
-
 Package: microbenchmark
 Version: 1.5.0
 Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
@@ -4628,25 +4613,6 @@ Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, k
 SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
         (optional), libpng (>=1.2.9, optional), FreeType (optional)
 
-Package: RSQLite
-Version: 2.3.8
-Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
-License: LGPL (>= 2.1)
-File: RSQLite_2.3.8_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/RSQLite/releases/download/2.3.8/RSQLite_2.3.8_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-11-18 16:44:58 UTC; unix
-Filesize: 5341289
-SHA256: 8ffce6ec23bb18c227cce6245dabc64d8f488d67615cb6e179b6c489bc8530d3
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: callr, cli, DBItest (>= 1.8.0), decor, gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
-Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
-LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
-
 Package: RcppArmadillo
 Version: 14.2.0-1
 Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
@@ -4825,17 +4791,51 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat (>= 0.11.0), roxygen2, knitr, markdown, rmarkdown, microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)
 
-Package: parallelly
-Version: 1.40.0
-Depends: R (>= 4.5), R (< 4.5.99)
+Package: cpp11
+Version: 0.5.1
+Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: cpp11_0.5.1_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/cpp11/releases/download/0.5.1/cpp11_0.5.1_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.0; ; 2024-12-04 16:46:08 UTC; unix
+Filesize: 289914
+SHA256: df1cdab6c556befe90fde8f2a94d70ad0c2a19bb06e95ef6b3c4bd31874d23b3
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue, knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp, testthat (>= 3.2.0), tibble, utils, vctrs, withr
+
+Package: RSQLite
+Version: 2.3.9
+Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
 License: LGPL (>= 2.1)
-File: parallelly_1.40.0_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/parallelly/releases/download/1.40.0/parallelly_1.40.0_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+File: RSQLite_2.3.9_b5_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/RSQLite/releases/download/2.3.9/RSQLite_2.3.9_b5_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 OS: linux
 Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-12-03 16:45:36 UTC; unix
-Filesize: 504440
-SHA256: e57c0f1a3387748e5516893e03e440743766c9e1a2399a32c43ba32b84997c29
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-12-04 16:46:14 UTC; unix
+Filesize: 5340685
+SHA256: 7137186afddb1b7f7d2c72b8c42bd9878d2add5cad9952320fd62a1cd3485c49
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: callr, cli, DBItest (>= 1.8.0), decor, gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
+Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
+LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
+
+Package: parallelly
+Version: 1.40.1
+Depends: R (>= 4.5), R (< 4.5.99)
+License: LGPL (>= 2.1)
+File: parallelly_1.40.1_b5_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/parallelly/releases/download/1.40.1/parallelly_1.40.1_b5_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-12-04 16:46:09 UTC; unix
+Filesize: 504331
+SHA256: edf289661bfecdda5bf9e6b8f4875fbb69310282171611515111f3898bf7c29a
 RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
