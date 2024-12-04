@@ -3484,21 +3484,6 @@ Suggests: Matrix, inline, tinytest, pkgKitten, microbenchmark
 Imports: Rcpp (>= 0.11.0), stats, utils
 LinkingTo: Rcpp
 
-Package: cpp11
-Version: 0.5.0
-Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: cpp11_0.5.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/cpp11/releases/download/0.5.0/cpp11_0.5.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.5.0; ; 2024-08-27 17:20:56 UTC; unix
-Filesize: 273393
-SHA256: 6ba47b3fffd1b8b1acbd3d9ce7153f67db6124986d86ed399ecbac7ab5e1c8d5
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue, knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp, testthat (>= 3.2.0), tibble, utils, vctrs, withr
-
 Package: microbenchmark
 Version: 1.5.0
 Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
@@ -4646,25 +4631,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, dplyr (>= 1.0.8), gt (>= 0.9.0), knitr (>= 1.31), testthat (>= 3.0.0), rsvg
 Imports: rlang (>= 1.0.6), htmltools (>= 0.5.1.1)
 
-Package: RSQLite
-Version: 2.3.8
-Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
-License: LGPL (>= 2.1)
-File: RSQLite_2.3.8_b4_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/RSQLite/releases/download/2.3.8/RSQLite_2.3.8_b4_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-11-18 17:24:27 UTC; unix
-Filesize: 5272120
-SHA256: 3bf6d14c0862956149b53d5e3d8079173c069c4a2e660d7113a7dd6d4090a78d
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: callr, cli, DBItest (>= 1.8.0), decor, gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
-Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
-LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
-
 Package: RcppArmadillo
 Version: 14.2.0-1
 Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
@@ -4825,17 +4791,51 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat (>= 0.11.0), roxygen2, knitr, markdown, rmarkdown, microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)
 
-Package: parallelly
-Version: 1.40.0
-Depends: R (>= 4.5), R (< 4.5.99)
+Package: cpp11
+Version: 0.5.1
+Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: cpp11_0.5.1_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/cpp11/releases/download/0.5.1/cpp11_0.5.1_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.5.0; ; 2024-12-04 17:25:14 UTC; unix
+Filesize: 288947
+SHA256: 216077021026e2c89d28a4626cbe2634db928b6fd708c08283fc4459a30be6e2
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue, knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp, testthat (>= 3.2.0), tibble, utils, vctrs, withr
+
+Package: RSQLite
+Version: 2.3.9
+Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
 License: LGPL (>= 2.1)
-File: parallelly_1.40.0_b4_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/parallelly/releases/download/1.40.0/parallelly_1.40.0_b4_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+File: RSQLite_2.3.9_b5_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/RSQLite/releases/download/2.3.9/RSQLite_2.3.9_b5_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
 OS: linux
 Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-12-03 17:26:59 UTC; unix
-Filesize: 535771
-SHA256: 3905e640fd016c12a94ad4aa2078bb85fb6d5818230a179db8f3e9a3c5d1b6f0
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-12-04 17:25:19 UTC; unix
+Filesize: 5272223
+SHA256: cbe0362f58e7218e02d648cad8bed05edd7f54c92629c24054c54ea4d9b92a5b
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: callr, cli, DBItest (>= 1.8.0), decor, gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
+Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
+LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
+
+Package: parallelly
+Version: 1.40.1
+Depends: R (>= 4.5), R (< 4.5.99)
+License: LGPL (>= 2.1)
+File: parallelly_1.40.1_b5_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/parallelly/releases/download/1.40.1/parallelly_1.40.1_b5_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-12-04 17:25:14 UTC; unix
+Filesize: 535601
+SHA256: 9e0d1530704f3606d20fd8c07904bf6b503b414f8fe8dfd0b45fc53ffb8e0513
 RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
