@@ -3405,21 +3405,6 @@ Suggests: Matrix, inline, tinytest, pkgKitten, microbenchmark
 Imports: Rcpp (>= 0.11.0), stats, utils
 LinkingTo: Rcpp
 
-Package: cpp11
-Version: 0.5.0
-Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: cpp11_0.5.0_b2_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/cpp11/releases/download/0.5.0/cpp11_0.5.0_b2_R4.5_aarch64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-08-27 17:31:35 UTC; unix
-Filesize: 270654
-SHA256: e051d4f5775cccc3549379e06a8365a3217bf3535de1ea8ad463ec8870f7f056
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue, knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp, testthat (>= 3.2.0), tibble, utils, vctrs, withr
-
 Package: microbenchmark
 Version: 1.5.0
 Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
@@ -4565,25 +4550,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, dplyr (>= 1.0.8), gt (>= 0.9.0), knitr (>= 1.31), testthat (>= 3.0.0), rsvg
 Imports: rlang (>= 1.0.6), htmltools (>= 0.5.1.1)
 
-Package: RSQLite
-Version: 2.3.8
-Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
-License: LGPL (>= 2.1)
-File: RSQLite_2.3.8_b4_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/RSQLite/releases/download/2.3.8/RSQLite_2.3.8_b4_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-11-18 17:35:35 UTC; unix
-Filesize: 1369175
-SHA256: 2b9b9a6d506f1ad4d147f4c1168fe714b42cd61f587bb1a1b588d7a8c238c0b5
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: callr, cli, DBItest (>= 1.8.0), decor, gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
-Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
-LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
-
 Package: RcppArmadillo
 Version: 14.2.0-1
 Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
@@ -4784,17 +4750,51 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat (>= 0.11.0), roxygen2, knitr, markdown, rmarkdown, microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)
 
-Package: parallelly
-Version: 1.40.0
-Depends: R (>= 4.5), R (< 4.5.99)
+Package: cpp11
+Version: 0.5.1
+Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: cpp11_0.5.1_b3_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/cpp11/releases/download/0.5.1/cpp11_0.5.1_b3_R4.5_aarch64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-12-04 17:36:50 UTC; unix
+Filesize: 286230
+SHA256: 60cffc3d814aaf2ed80e0204d852120c7bce97f9ca5210ec4de9f713955bf494
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue, knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp, testthat (>= 3.2.0), tibble, utils, vctrs, withr
+
+Package: RSQLite
+Version: 2.3.9
+Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
 License: LGPL (>= 2.1)
-File: parallelly_1.40.0_b4_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/parallelly/releases/download/1.40.0/parallelly_1.40.0_b4_R4.5_aarch64-apple-darwin20.tgz
+File: RSQLite_2.3.9_b5_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/RSQLite/releases/download/2.3.9/RSQLite_2.3.9_b5_R4.5_aarch64-apple-darwin20.tgz
 OS: darwin
 Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-12-03 17:40:19 UTC; unix
-Filesize: 495742
-SHA256: 3256338a541cb38fe182bb521b64408e70e34107dd23e6c9f6449c6903063302
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-12-04 17:36:56 UTC; unix
+Filesize: 1369372
+SHA256: 973c18b424696c915c64bae9d81bebf6fbb888aad096f680cdeab30a77e8995a
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: callr, cli, DBItest (>= 1.8.0), decor, gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
+Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
+LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
+
+Package: parallelly
+Version: 1.40.1
+Depends: R (>= 4.5), R (< 4.5.99)
+License: LGPL (>= 2.1)
+File: parallelly_1.40.1_b5_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/parallelly/releases/download/1.40.1/parallelly_1.40.1_b5_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2024-12-04 17:36:51 UTC; unix
+Filesize: 495772
+SHA256: 8ff137d2236e097b1d9348274cb6c2fafe8d7e762fc14703e82460039599320d
 RVersion: 4.5
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
