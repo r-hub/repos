@@ -3463,27 +3463,6 @@ Suggests: Matrix, inline, tinytest, pkgKitten, microbenchmark
 Imports: Rcpp (>= 0.11.0), stats, utils
 LinkingTo: Rcpp
 
-Package: arrow
-Version: 17.0.0.1
-Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
-License: Apache License (>= 2.0)
-File: arrow_17.0.0.1_b3_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/arrow/releases/download/17.0.0.1/arrow_17.0.0.1_b3_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-08-28 17:33:58 UTC; unix
-Filesize: 145441931
-SHA256: 51ba50c2f8f035517ce9d72e58de9e0ee21ec47b7d536d3e81ed54409eaa7d09
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
-        tibble, tzdb, withr
-Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
-SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
-LinkingTo: cpp11 (>= 0.4.2)
-
 Package: microbenchmark
 Version: 1.5.0
 Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
@@ -4842,3 +4821,24 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: commonmark, base64enc
 Imports: parallel, tools, utils
+
+Package: arrow
+Version: 18.1.0
+Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
+License: Apache License (>= 2.0)
+File: arrow_18.1.0_b4_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/arrow/releases/download/18.1.0/arrow_18.1.0_b4_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-12-05 17:43:00 UTC; unix
+Filesize: 193092454
+SHA256: 1af150d8e72b1f02ec194bb4f6a001910c7bf07151e68d896f59ca68b989d819
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
+        tibble, tzdb, withr
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
+LinkingTo: cpp11 (>= 0.4.2)
