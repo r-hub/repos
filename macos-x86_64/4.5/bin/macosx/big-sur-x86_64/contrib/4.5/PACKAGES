@@ -2747,26 +2747,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: textshaping
-Version: 0.4.0
-Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: textshaping_0.4.0_b2_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/textshaping/releases/download/0.4.0/textshaping_0.4.0_b2_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-05-24 17:33:11 UTC; unix
-Filesize: 1069816
-SHA256: b29fade2f21ebab5707311ce9e8c0cefbc869d3ea28eed25ffa6ebb275424ffc
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, knitr, rmarkdown
-Imports: lifecycle, systemfonts (>= 1.1.0)
-SystemRequirements: freetype2, harfbuzz, fribidi
-LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
-
 Package: highr
 Version: 0.11
 Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
@@ -3971,24 +3951,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: geepack, knitr, lme4, markdown, multcomp, pbkrtest (>= 0.5.2), survival, testthat (>= 2.1.0)
 Imports: boot, broom, cowplot, Deriv, dplyr, ggplot2, MASS, Matrix, modelr, microbenchmark, rlang, tibble, tidyr,
 
-Package: data.table
-Version: 1.16.2
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-License: MPL-2.0 | file LICENSE
-File: data.table_1.16.2_b4_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/data.table/releases/download/1.16.2/data.table_1.16.2_b4_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-10-10 17:35:40 UTC; unix
-Filesize: 2446408
-SHA256: 0f9da531d49a3e83064bd761637f4a1b35fc1835371254f7b736360cb4ea4a93
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
-Imports: methods
-
 Package: evaluate
 Version: 1.0.1
 Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
@@ -4572,25 +4534,6 @@ Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, k
 SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
         (optional), libpng (>=1.2.9, optional), FreeType (optional)
 
-Package: RcppArmadillo
-Version: 14.2.0-1
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: RcppArmadillo_14.2.0-1_b8_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/14.2.0-1/RcppArmadillo_14.2.0-1_b8_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-11-18 17:39:02 UTC; unix
-Filesize: 1076100
-SHA256: 04abed8dd4db6deb30a81fb88073075afe8c8ccf452637ace378763ab88cdb09
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-Imports: Rcpp (>= 1.0.12), stats, utils, methods
-LinkingTo: Rcpp
-
 Package: quantreg
 Version: 5.99.1
 Depends: R (>= 3.5), stats, SparseM, R (>= 4.5), R (< 4.5.99)
@@ -4801,3 +4744,60 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: commonmark, base64enc
 Imports: parallel, tools, utils
+
+Package: textshaping
+Version: 0.4.1
+Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: textshaping_0.4.1_b3_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/textshaping/releases/download/0.4.1/textshaping_0.4.1_b3_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2024-12-06 17:37:20 UTC; unix
+Filesize: 1071977
+SHA256: 2b65b06d3c911b0a6bc0dddc5b4e8811becdbe84d98d2d1c46a7ee77b0f951cc
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, knitr, rmarkdown
+Imports: lifecycle, systemfonts (>= 1.1.0)
+SystemRequirements: freetype2, harfbuzz, fribidi
+LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
+
+Package: data.table
+Version: 1.16.4
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+License: MPL-2.0 | file LICENSE
+File: data.table_1.16.4_b5_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/data.table/releases/download/1.16.4/data.table_1.16.4_b5_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2024-12-06 17:36:48 UTC; unix
+Filesize: 2447788
+SHA256: 17d1ad31a5e60ef7dfd3c86ce0533e66de8b1831973d4dc459fcaa8010d301fd
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
+Imports: methods
+
+Package: RcppArmadillo
+Version: 14.2.2-1
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: RcppArmadillo_14.2.2-1_b9_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/14.2.2-1/RcppArmadillo_14.2.2-1_b9_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2024-12-06 17:37:48 UTC; unix
+Filesize: 1076259
+SHA256: 75791e9ad9a10ae0e4e575b5b657ce0a5feb88310c39bd322850e52c65725f5d
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+Imports: Rcpp (>= 1.0.12), stats, utils, methods
+LinkingTo: Rcpp
