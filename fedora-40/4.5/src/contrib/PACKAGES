@@ -758,26 +758,6 @@ Suggests: covr, curl (>= 0.9.5), diffviewer (>= 0.1.0), knitr, rmarkdown, rstudi
 Imports: brio (>= 1.1.3), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.2), digest (>= 0.6.33), evaluate (>= 0.21), jsonlite (>= 1.8.7), lifecycle (>= 1.0.3), magrittr (>= 2.0.3), methods, pkgload
         (>= 1.3.2.1), praise (>= 1.0.0), processx (>= 3.8.2), ps (>= 1.7.5), R6 (>= 2.5.1), rlang (>= 1.1.1), utils, waldo (>= 0.5.1), withr (>= 2.5.0)
 
-Package: textshaping
-Version: 0.4.0
-Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: textshaping_0.4.0_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/textshaping/releases/download/0.4.0/textshaping_0.4.0_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-24 21:21:48 UTC; unix
-Filesize: 1019046
-SHA256: 10e026b3da1aecc269ce3a9a41f54618c4599e0ba1f9ccc56ffad28e2aa3f397
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, knitr, rmarkdown
-Imports: lifecycle, systemfonts (>= 1.1.0)
-SystemRequirements: freetype2, harfbuzz, fribidi
-LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
-
 Package: tibble
 Version: 3.2.1
 Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
@@ -3991,24 +3971,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: geepack, knitr, lme4, markdown, multcomp, pbkrtest (>= 0.5.2), survival, testthat (>= 2.1.0)
 Imports: boot, broom, cowplot, Deriv, dplyr, ggplot2, MASS, Matrix, modelr, microbenchmark, rlang, tibble, tidyr,
 
-Package: data.table
-Version: 1.16.2
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-License: MPL-2.0 | file LICENSE
-File: data.table_1.16.2_b3_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/data.table/releases/download/1.16.2/data.table_1.16.2_b3_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-10-10 17:24:54 UTC; unix
-Filesize: 3109803
-SHA256: 010a64cb930b4b055ef4e1306bf75a39c31569d70229e2ec4201d8863a38a2a7
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
-Imports: methods
-
 Package: evaluate
 Version: 1.0.1
 Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
@@ -4592,25 +4554,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, dplyr (>= 1.0.8), gt (>= 0.9.0), knitr (>= 1.31), testthat (>= 3.0.0), rsvg
 Imports: rlang (>= 1.0.6), htmltools (>= 0.5.1.1)
 
-Package: RcppArmadillo
-Version: 14.2.0-1
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: RcppArmadillo_14.2.0-1_b5_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/14.2.0-1/RcppArmadillo_14.2.0-1_b5_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-11-18 17:25:13 UTC; unix
-Filesize: 1902438
-SHA256: ab688af3a0c78abd24d819c8ad4d557bd3745553c7a4e05b4de42560a58bc910
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-Imports: Rcpp (>= 1.0.12), stats, utils, methods
-LinkingTo: Rcpp
-
 Package: quantreg
 Version: 5.99.1
 Depends: R (>= 3.5), stats, SparseM, R (>= 4.5), R (< 4.5.99)
@@ -4842,3 +4785,60 @@ Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8),
 Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
 SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
+
+Package: textshaping
+Version: 0.4.1
+Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: textshaping_0.4.1_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/textshaping/releases/download/0.4.1/textshaping_0.4.1_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-12-06 17:25:41 UTC; unix
+Filesize: 1031440
+SHA256: 9cb486ef3b6880204f53b0b14432c4a076a5ee3686ef0fd1b4534a840fab1764
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, knitr, rmarkdown
+Imports: lifecycle, systemfonts (>= 1.1.0)
+SystemRequirements: freetype2, harfbuzz, fribidi
+LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
+
+Package: data.table
+Version: 1.16.4
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+License: MPL-2.0 | file LICENSE
+File: data.table_1.16.4_b4_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/data.table/releases/download/1.16.4/data.table_1.16.4_b4_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-12-06 17:25:41 UTC; unix
+Filesize: 3112254
+SHA256: db80d84df5a4d87e9982917c442f52e8de531c0ecc06c6d8225814f61ca43398
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
+Imports: methods
+
+Package: RcppArmadillo
+Version: 14.2.2-1
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: RcppArmadillo_14.2.2-1_b6_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/14.2.2-1/RcppArmadillo_14.2.2-1_b6_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-12-06 17:25:44 UTC; unix
+Filesize: 1902692
+SHA256: 43927db685d442f8961a777aa6c6cfc19e6c95037790e38369c0469a6df016cc
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+Imports: Rcpp (>= 1.0.12), stats, utils, methods
+LinkingTo: Rcpp
