@@ -2540,26 +2540,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: textshaping
-Version: 0.4.0
-Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: textshaping_0.4.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/textshaping/releases/download/0.4.0/textshaping_0.4.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-24 17:07:13 UTC; unix
-Filesize: 135037
-SHA256: 4e4bc8e1dff63be34511894d0cb9299d54b94b3fda7fb4b77e89beb885ba64f2
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, knitr, rmarkdown
-Imports: lifecycle, systemfonts (>= 1.1.0)
-SystemRequirements: freetype2, harfbuzz, fribidi
-LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
-
 Package: highr
 Version: 0.11
 Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
@@ -3694,24 +3674,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, ggplot2 (>= 3.3.6), lattice, methods, rlang, testthat (>= 3.0.0), withr
 
-Package: data.table
-Version: 1.16.2
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-License: MPL-2.0 | file LICENSE
-File: data.table_1.16.2_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/data.table/releases/download/1.16.2/data.table_1.16.2_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-10-11 17:07:49 UTC; unix
-Filesize: 2482782
-SHA256: 2a1d437f57b3dcd355966f00fd62627a6b5e75c4549bec83c7dddf70e8879a9b
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
-Imports: methods
-
 Package: wk
 Version: 0.9.4
 Depends: R (>= 2.10), R (>= 4.5), R (< 4.5.99)
@@ -4245,25 +4207,6 @@ Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, k
 SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
         (optional), libpng (>=1.2.9, optional), FreeType (optional)
 
-Package: RcppArmadillo
-Version: 14.2.0-1
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: RcppArmadillo_14.2.0-1_b8_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/14.2.0-1/RcppArmadillo_14.2.0-1_b8_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-11-18 17:08:22 UTC; unix
-Filesize: 1091143
-SHA256: 019e539c07e0e348939cd09acba86a99d103ee8954aced320e0eb9b69f30e3f1
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-Imports: Rcpp (>= 1.0.12), stats, utils, methods
-LinkingTo: Rcpp
-
 Package: quantreg
 Version: 5.99.1
 Depends: R (>= 3.5), stats, SparseM, R (>= 4.5), R (< 4.5.99)
@@ -4495,3 +4438,60 @@ Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8),
 Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
 SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
+
+Package: textshaping
+Version: 0.4.1
+Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: textshaping_0.4.1_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/textshaping/releases/download/0.4.1/textshaping_0.4.1_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-12-06 17:08:35 UTC; unix
+Filesize: 141574
+SHA256: f3c636b7add9e31bc8778dc6e7e2ed68a41d6cc2658f80c80bfd30130af36bd6
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, knitr, rmarkdown
+Imports: lifecycle, systemfonts (>= 1.1.0)
+SystemRequirements: freetype2, harfbuzz, fribidi
+LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
+
+Package: data.table
+Version: 1.16.4
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+License: MPL-2.0 | file LICENSE
+File: data.table_1.16.4_b5_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/data.table/releases/download/1.16.4/data.table_1.16.4_b5_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-12-06 17:08:36 UTC; unix
+Filesize: 2485027
+SHA256: c5a3309d66ab608123d414061d31c59ff702c14667fa72003cfae8e57d3c2967
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
+Imports: methods
+
+Package: RcppArmadillo
+Version: 14.2.2-1
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: RcppArmadillo_14.2.2-1_b9_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/14.2.2-1/RcppArmadillo_14.2.2-1_b9_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-12-06 17:08:39 UTC; unix
+Filesize: 1091383
+SHA256: 2c4a02716168860356fdf2bdb35ecd5a27a180b07cbba14d5425299e6f972a23
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+Imports: Rcpp (>= 1.0.12), stats, utils, methods
+LinkingTo: Rcpp
