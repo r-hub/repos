@@ -1197,26 +1197,6 @@ Imports: brio (>= 1.1.3), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.2), dig
 OS: linux
 Arch: s390x
 
-Package: textshaping
-Version: 0.4.0
-Depends: R (>= 3.2.0), R (>= 4.1), R (< 4.1.99)
-Suggests: covr, knitr, rmarkdown
-License: MIT + file LICENSE
-File: textshaping_0.4.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/textshaping/releases/download/0.4.0/textshaping_0.4.0_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 08:30:45 UTC; unix
-Filesize: 122473
-SHA256: dbc1cdefe7ed7278497fef8fb40ea44300a8bb97fe0bc4365fda19e19e77bec2
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: lifecycle, systemfonts (>= 1.1.0)
-OS: linux
-Arch: s390x
-SystemRequirements: freetype2, harfbuzz, fribidi
-LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
-
 Package: tibble
 Version: 3.2.1
 Depends: R (>= 3.4.0), R (>= 4.1), R (< 4.1.99)
@@ -1781,24 +1761,6 @@ Platform: s390x-ibm-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: data.table
-Version: 1.16.2
-Depends: R (>= 3.3.0), R (>= 4.1), R (< 4.1.99)
-Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
-License: MPL-2.0 | file LICENSE
-File: data.table_1.16.2_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/data.table/releases/download/1.16.2/data.table_1.16.2_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-10-11 14:30:56 UTC; unix
-Filesize: 2979319
-SHA256: 6d5371eb9a3468583cabdde11f2ce17657e240a791246d6058c31dae8dbd5e6f
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: methods
-OS: linux
-Arch: s390x
-
 Package: rstudioapi
 Version: 0.17.1
 Depends: R (>= 4.1), R (< 4.1.99)
@@ -2107,3 +2069,41 @@ RVersion: 4.1
 Platform: s390x-ibm-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: textshaping
+Version: 0.4.1
+Depends: R (>= 3.2.0), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, knitr, rmarkdown
+License: MIT + file LICENSE
+File: textshaping_0.4.1_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/textshaping/releases/download/0.4.1/textshaping_0.4.1_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-12-07 14:32:19 UTC; unix
+Filesize: 1015464
+SHA256: c81bbeef68366b6da10180fd00ba64ca643dda301a3e8f1db49aa79d29e70a23
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: lifecycle, systemfonts (>= 1.1.0)
+OS: linux
+Arch: s390x
+SystemRequirements: freetype2, harfbuzz, fribidi
+LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
+
+Package: data.table
+Version: 1.16.4
+Depends: R (>= 3.3.0), R (>= 4.1), R (< 4.1.99)
+Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
+License: MPL-2.0 | file LICENSE
+File: data.table_1.16.4_b4_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/data.table/releases/download/1.16.4/data.table_1.16.4_b4_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-12-07 14:32:24 UTC; unix
+Filesize: 2981537
+SHA256: 4cde56b9d503a3e1d40a06a88e5463d3b5406dab5c3afdec0e1c6630d1d2a275
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: methods
+OS: linux
+Arch: s390x
