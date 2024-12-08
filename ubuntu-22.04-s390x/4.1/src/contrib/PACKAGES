@@ -670,26 +670,6 @@ GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli (>= 3.4.0), glue, rlang (>= 1.1.0)
 
-Package: lubridate
-Version: 1.9.3
-Depends: methods, R (>= 3.2), R (>= 4.1), R (< 4.1.99)
-Suggests: covr, knitr, rmarkdown, testthat (>= 2.1.0), vctrs (>= 0.5.0)
-License: GPL (>= 2)
-File: lubridate_1.9.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/lubridate/releases/download/1.9.3/lubridate_1.9.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 08:40:05 UTC; unix
-Filesize: 975797
-SHA256: 4711d4783268db3e41b7112dbce99709410fe3ce9afde2022e39275bbbb6a9f5
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: generics, timechange (>= 0.1.1)
-OS: linux
-Arch: s390x
-Enhances: chron, data.table, timeDate, tis, zoo
-SystemRequirements: C++11, A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
-
 Package: magrittr
 Version: 2.0.3
 Depends: R (>= 3.4.0), R (>= 4.1), R (< 4.1.99)
@@ -1999,24 +1979,6 @@ GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: rlang (>= 1.0.6), htmltools (>= 0.5.1.1)
 
-Package: duckdb
-Version: 1.1.3
-Depends: DBI, R (>= 3.6.0), R (>= 4.1), R (< 4.1.99)
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-License: MIT + file LICENSE
-File: duckdb_1.1.3_b5_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.1.3/duckdb_1.1.3_b5_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-11-22 14:32:55 UTC; unix
-Filesize: 228910517
-SHA256: 2a74354b11d3a92174c98e2ae51ea656a1724609cac8b750bab4620e75f097cd
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: methods, utils
-OS: linux
-Arch: s390x
-
 Package: bit
 Version: 4.5.0.1
 Depends: R (>= 3.4.0), R (>= 4.1), R (< 4.1.99)
@@ -2107,3 +2069,42 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: methods
 OS: linux
 Arch: s390x
+
+Package: lubridate
+Version: 1.9.4
+Depends: methods, R (>= 3.2), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, knitr, rmarkdown, testthat (>= 2.1.0), vctrs (>= 0.6.5)
+License: GPL (>= 2)
+File: lubridate_1.9.4_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/lubridate/releases/download/1.9.4/lubridate_1.9.4_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-12-08 14:32:12 UTC; unix
+Filesize: 986286
+SHA256: 7275ce5cff3b2be778c256b7ab60d24ac46c4f18602501ca88f9ee936287b127
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: generics, timechange (>= 0.3.0)
+OS: linux
+Arch: s390x
+Enhances: chron, data.table, timeDate, tis, zoo
+SystemRequirements: C++11, A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
+
+Package: duckdb
+Version: 1.1.3-1
+Depends: DBI, R (>= 3.6.0), R (>= 4.1), R (< 4.1.99)
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+License: MIT + file LICENSE
+File: duckdb_1.1.3-1_b6_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.1.3-1/duckdb_1.1.3-1_b6_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-12-08 14:32:16 UTC; unix
+Filesize: 229537236
+SHA256: fdd6c743ce1990559f8aa9a36fd7ea6cda31558cab7cdcaf11a71667aa3c4afd
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: methods, utils
+OS: linux
+Arch: s390x
+SystemRequirements: xz (for building from source)
