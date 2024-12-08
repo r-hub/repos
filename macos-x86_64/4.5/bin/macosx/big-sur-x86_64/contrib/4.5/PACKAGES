@@ -1044,26 +1044,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: R.utils, R.rsp, markdown
 
-Package: lubridate
-Version: 1.9.3
-Depends: methods, R (>= 3.2), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: lubridate_1.9.3_b1_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/lubridate/releases/download/1.9.3/lubridate_1.9.3_b1_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-03-29 15:42:54 UTC; unix
-Filesize: 991010
-SHA256: 488787ceff8a17e7f2de245630cdfdae67c87f36031807e1a1e19796c5284b17
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: chron, data.table, timeDate, tis, zoo
-Suggests: covr, knitr, rmarkdown, testthat (>= 2.1.0), vctrs (>= 0.5.0)
-Imports: generics, timechange (>= 0.1.1)
-SystemRequirements: C++11, A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
-
 Package: numDeriv
 Version: 2016.8-1.1
 Depends: R (>= 2.11.1), R (>= 4.5), R (< 4.5.99)
@@ -4094,27 +4074,6 @@ Enhances: SparseM, graph
 Suggests: MASS, datasets, sfsmisc, tools
 Imports: grDevices, graphics, grid, lattice, stats, utils
 
-Package: igraph
-Version: 2.1.1
-Depends: methods, R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: igraph_2.1.1_b2_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/igraph/releases/download/2.1.1/igraph_2.1.1_b2_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-10-20 17:37:19 UTC; unix
-Filesize: 5863378
-SHA256: 077a8a6dc6c8c59489574ce12f66ffb3bc5c8f0a913688ea160a6cc123f9e9ab
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: graph
-Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl, rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
-Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang, stats, utils, vctrs
-SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
-LinkingTo: cpp11 (>= 0.5.0)
-
 Package: tripack
 Version: 1.3-9.2
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4568,24 +4527,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: graphics, tcltk, beepr, cli, crayon, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, ntfy, RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools
 Imports: digest, utils
 
-Package: duckdb
-Version: 1.1.3
-Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: duckdb_1.1.3_b10_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.1.3/duckdb_1.1.3_b10_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-11-22 17:35:50 UTC; unix
-Filesize: 12970515
-SHA256: 62135752173382bf79f301d350644b6fabf9b61fbfd4610684119abd2720a4f7
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-Imports: methods, utils
-
 Package: usethis
 Version: 3.1.0
 Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
@@ -4801,3 +4742,63 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
 Imports: Rcpp (>= 1.0.12), stats, utils, methods
 LinkingTo: Rcpp
+
+Package: lubridate
+Version: 1.9.4
+Depends: methods, R (>= 3.2), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: lubridate_1.9.4_b2_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/lubridate/releases/download/1.9.4/lubridate_1.9.4_b2_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2024-12-08 17:33:45 UTC; unix
+Filesize: 991544
+SHA256: 80c2289776606b79df7be1adbbbcc8d3cb0d933820a443bf8f825a6b4029c7d6
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: chron, data.table, timeDate, tis, zoo
+Suggests: covr, knitr, rmarkdown, testthat (>= 2.1.0), vctrs (>= 0.6.5)
+Imports: generics, timechange (>= 0.3.0)
+SystemRequirements: C++11, A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
+
+Package: igraph
+Version: 2.1.2
+Depends: methods, R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: igraph_2.1.2_b3_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/igraph/releases/download/2.1.2/igraph_2.1.2_b3_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2024-12-08 17:33:58 UTC; unix
+Filesize: 5847066
+SHA256: 91f7e3e462eeeb0c1cdc19ab994c4a62425d8fdb4d5fb37f94a22093eaead152
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: graph
+Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl (>= 1.3.14), rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
+Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang, stats, utils, vctrs
+SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
+LinkingTo: cpp11 (>= 0.5.0)
+
+Package: duckdb
+Version: 1.1.3-1
+Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: duckdb_1.1.3-1_b11_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.1.3-1/duckdb_1.1.3-1_b11_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2024-12-08 17:36:08 UTC; unix
+Filesize: 12977483
+SHA256: b0f2d1827ac436e6f18b1f2c00b12656b3a93e7c2af0d1cb9766bee35a0c1435
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+Imports: methods, utils
+SystemRequirements: xz (for building from source)
