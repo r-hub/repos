@@ -1028,26 +1028,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: R.utils, R.rsp, markdown
 
-Package: lubridate
-Version: 1.9.3
-Depends: methods, R (>= 3.2), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: lubridate_1.9.3_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/lubridate/releases/download/1.9.3/lubridate_1.9.3_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 09:48:36 UTC; unix
-Filesize: 1013073
-SHA256: bf0dd9b925d1e3420892ffaacfb0637d8b5df7bf53581ba8641a846a23cf586a
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: chron, data.table, timeDate, tis, zoo
-Suggests: covr, knitr, rmarkdown, testthat (>= 2.1.0), vctrs (>= 0.5.0)
-Imports: generics, timechange (>= 0.1.1)
-SystemRequirements: C++11, A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
-
 Package: numDeriv
 Version: 2016.8-1.1
 Depends: R (>= 2.11.1), R (>= 4.5), R (< 4.5.99)
@@ -4114,27 +4094,6 @@ Enhances: SparseM, graph
 Suggests: MASS, datasets, sfsmisc, tools
 Imports: grDevices, graphics, grid, lattice, stats, utils
 
-Package: igraph
-Version: 2.1.1
-Depends: methods, R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: igraph_2.1.1_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/igraph/releases/download/2.1.1/igraph_2.1.1_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-10-20 16:42:27 UTC; unix
-Filesize: 11001934
-SHA256: d8c2d1e5d5c07d27e9f99e54fd2d5113bd36f04a982db269f9dbb93c7100afb9
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: graph
-Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl, rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
-Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang, stats, utils, vctrs
-SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
-LinkingTo: cpp11 (>= 0.5.0)
-
 Package: tripack
 Version: 1.3-9.2
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4588,24 +4547,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: graphics, tcltk, beepr, cli, crayon, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, ntfy, RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools
 Imports: digest, utils
 
-Package: duckdb
-Version: 1.1.3
-Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: duckdb_1.1.3_b10_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.1.3/duckdb_1.1.3_b10_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-11-22 16:43:51 UTC; unix
-Filesize: 220116680
-SHA256: 750bf21202037a324b94475731dde59c898b4d423e7d68b01239dcdfd62cae06
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-Imports: methods, utils
-
 Package: usethis
 Version: 3.1.0
 Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
@@ -4842,3 +4783,63 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
 Imports: Rcpp (>= 1.0.12), stats, utils, methods
 LinkingTo: Rcpp
+
+Package: lubridate
+Version: 1.9.4
+Depends: methods, R (>= 3.2), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: lubridate_1.9.4_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/lubridate/releases/download/1.9.4/lubridate_1.9.4_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-12-08 16:40:57 UTC; unix
+Filesize: 1013384
+SHA256: 88beacbfc66a4f74f184055c922e6680a9b0ebccb86769fc2029ea8fe0c804ce
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: chron, data.table, timeDate, tis, zoo
+Suggests: covr, knitr, rmarkdown, testthat (>= 2.1.0), vctrs (>= 0.6.5)
+Imports: generics, timechange (>= 0.3.0)
+SystemRequirements: C++11, A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
+
+Package: igraph
+Version: 2.1.2
+Depends: methods, R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: igraph_2.1.2_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/igraph/releases/download/2.1.2/igraph_2.1.2_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-12-08 16:41:03 UTC; unix
+Filesize: 11002926
+SHA256: fec3322e3e34deea3631b2d66358c01965e1cbfd9e5fd9319319d0aab8089c68
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: graph
+Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl (>= 1.3.14), rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
+Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang, stats, utils, vctrs
+SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
+LinkingTo: cpp11 (>= 0.5.0)
+
+Package: duckdb
+Version: 1.1.3-1
+Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: duckdb_1.1.3-1_b11_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.1.3-1/duckdb_1.1.3-1_b11_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-12-08 16:41:02 UTC; unix
+Filesize: 220697488
+SHA256: 3ec27465e6dec04719712754156ef733f5f6757d9267b6869e85bcff5ee44b10
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+Imports: methods, utils
+SystemRequirements: xz (for building from source)
