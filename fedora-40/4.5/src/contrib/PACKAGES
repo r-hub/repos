@@ -1239,26 +1239,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: R.utils, R.rsp, markdown
 
-Package: lubridate
-Version: 1.9.3
-Depends: methods, R (>= 3.2), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: lubridate_1.9.3_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/lubridate/releases/download/1.9.3/lubridate_1.9.3_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-24 21:25:56 UTC; unix
-Filesize: 1055805
-SHA256: 03a5dadfd45764f30c11fa4229275c932d3c41bec63cad8a0d1e420bd6fc2159
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: chron, data.table, timeDate, tis, zoo
-Suggests: covr, knitr, rmarkdown, testthat (>= 2.1.0), vctrs (>= 0.5.0)
-Imports: generics, timechange (>= 0.1.1)
-SystemRequirements: C++11, A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
-
 Package: munsell
 Version: 0.5.1
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4567,24 +4547,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: graphics, tcltk, beepr, cli, crayon, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, ntfy, RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools
 Imports: digest, utils
 
-Package: duckdb
-Version: 1.1.3
-Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: duckdb_1.1.3_b8_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.1.3/duckdb_1.1.3_b8_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-11-22 17:24:42 UTC; unix
-Filesize: 224244825
-SHA256: b9a4fcd608382ce454f3acf819d9fac00a94a6ad63965c56447839a6a9bc7986
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-Imports: methods, utils
-
 Package: usethis
 Version: 3.1.0
 Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
@@ -4842,3 +4804,42 @@ Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl (>= 1.3
 Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang, stats, utils, vctrs
 SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
 LinkingTo: cpp11 (>= 0.5.0)
+
+Package: lubridate
+Version: 1.9.4
+Depends: methods, R (>= 3.2), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: lubridate_1.9.4_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/lubridate/releases/download/1.9.4/lubridate_1.9.4_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-12-08 17:23:15 UTC; unix
+Filesize: 1057688
+SHA256: 225d492fc335b3d3fa6a2bdcef0cfa2ecb7b11345ac5e94c3699ed82be915e72
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: chron, data.table, timeDate, tis, zoo
+Suggests: covr, knitr, rmarkdown, testthat (>= 2.1.0), vctrs (>= 0.6.5)
+Imports: generics, timechange (>= 0.3.0)
+SystemRequirements: C++11, A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
+
+Package: duckdb
+Version: 1.1.3-1
+Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: duckdb_1.1.3-1_b9_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.1.3-1/duckdb_1.1.3-1_b9_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-12-08 17:23:16 UTC; unix
+Filesize: 224850894
+SHA256: bef98b348a5191c76f7f50cfa6ab4b81c08417630983cf9173a6e2f73bad8694
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+Imports: methods, utils
+SystemRequirements: xz (for building from source)
