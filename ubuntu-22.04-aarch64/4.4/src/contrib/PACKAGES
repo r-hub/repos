@@ -2000,25 +2000,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: ape
-Version: 5.8
-Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
-Imports: nlme, lattice, graphics, methods, stats, utils, parallel, Rcpp (>= 0.12.0), digest
-Suggests: gee, expm, igraph, phangorn
-License: GPL-2 | GPL-3
-File: ape_5.8_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/ape/releases/download/5.8/ape_5.8_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-16 08:43:59 UTC; unix
-Filesize: 3801777
-SHA256: e1c7bc652b84f7ff02e2cac23a2c946c80810bd87ae42e78562336aea3c14606
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: assertthat
 Version: 0.2.1
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -3652,25 +3633,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or libmagick++-dev (deb)
 LinkingTo: Rcpp
 
-Package: openssl
-Version: 2.2.2
-Depends: R (>= 4.4), R (< 4.4.99)
-Imports: askpass
-Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
-License: MIT + file LICENSE
-File: openssl_2.2.2_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/openssl/releases/download/2.2.2/openssl_2.2.2_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-09-20 18:38:10 UTC; unix
-Filesize: 1399209
-SHA256: 07872e7a87f569d840bde947a05b4c1df1eae4fd5a10e9916faf92b99d932d28
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: OpenSSL >= 1.0.2
-
 Package: timeDate
 Version: 4041.110
 Depends: R (>= 3.6.0), methods, R (>= 4.4), R (< 4.4.99)
@@ -4961,8 +4923,8 @@ DownloadURL: https://github.com/cran/rlang/releases/download/1.1.4/rlang_1.1.4_b
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-04 18:33:16 UTC; unix
-Filesize: 2068880
-SHA256: a69beda1d1a5a07ae75acfa5930bd91fa4332d6ec6be572d891e3d61eb6bc6ae
+Filesize: 2068881
+SHA256: ea6018821d9bf664d5ec8ad9820e65ceb64f7ab4785fb6ff56b8c4fa7daa4298
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4980,9 +4942,47 @@ DownloadURL: https://github.com/cran/cli/releases/download/3.6.3/cli_3.6.3_b2_R4
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-22 18:32:00 UTC; unix
-Filesize: 1417980
-SHA256: 7b38736d0d76c49f989e3f46f126a2e9df145f1a3385970bdcc20505d5104a99
+Filesize: 1417976
+SHA256: 250a017fcdaad716de611cff9289d745520ab79c124979e9615b14aec56ad84f
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: ape
+Version: 5.8-1
+Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
+Imports: nlme, lattice, graphics, methods, stats, utils, parallel, Rcpp (>= 0.12.0), digest
+Suggests: gee, expm, igraph, phangorn, xml2
+License: GPL-2 | GPL-3
+File: ape_5.8-1_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/ape/releases/download/5.8-1/ape_5.8-1_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2024-12-16 18:43:10 UTC; unix
+Filesize: 3694660
+SHA256: 45f82e71bf1b3789563edf7d1f97fed3346614ce6f000d059f0cff816274c915
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: openssl
+Version: 2.3.0
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: askpass
+Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
+License: MIT + file LICENSE
+File: openssl_2.3.0_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/openssl/releases/download/2.3.0/openssl_2.3.0_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2024-12-16 18:43:11 UTC; unix
+Filesize: 1397228
+SHA256: 7156fd1e041ee9071c4df551499c3de411d7bd8ff57c038c81c434849054b804
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: OpenSSL >= 1.0.2
