@@ -472,23 +472,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: shiny (>= 0.13), htmltools (>= 0.3), utils
 
-Package: pillar
-Version: 1.9.0
-Depends: R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: pillar_1.9.0_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/pillar/releases/download/1.9.0/pillar_1.9.0_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.4.1; ; 2024-07-20 15:07:14 UTC; unix
-Filesize: 652511
-SHA256: 68955d07f2ad068859a8cd5e18f4688f015334eb995ee97afb205eaabc594b7c
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bit64, DBI, debugme, DiagrammeR, dplyr, formattable, ggplot2, knitr, lubridate, nanotime, nycflights13, palmerpenguins, rmarkdown, scales, stringi, survival, testthat (>= 3.1.1), tibble,
-        units (>= 0.7.2), vdiffr, withr
-Imports: cli (>= 2.3.0), fansi, glue, lifecycle, rlang (>= 1.0.2), utf8 (>= 1.1.0), utils, vctrs (>= 0.5.0)
-
 Package: pkgconfig
 Version: 2.0.3
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -4731,24 +4714,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later (>= 1.4.0), paws.common, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
 Imports: cli (>= 3.0.0), curl (>= 6.0.1), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
 
-Package: parallelly
-Version: 1.40.1
-Depends: R (>= 4.4), R (< 4.4.99)
-License: LGPL (>= 2.1)
-File: parallelly_1.40.1_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/parallelly/releases/download/1.40.1/parallelly_1.40.1_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2024-12-09 19:49:31 UTC; unix
-Filesize: 504341
-SHA256: 251f993a1b630b5082216d36408148e3e07a3431e9b8c83c95a035c20714ed46
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: commonmark, base64enc
-Imports: parallel, tools, utils
-
 Package: RSQLite
 Version: 2.3.9
 Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
@@ -4948,3 +4913,38 @@ RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: pillar
+Version: 1.10.0
+Depends: R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: pillar_1.10.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/pillar/releases/download/1.10.0/pillar_1.10.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.2; ; 2024-12-18 23:25:21 UTC; unix
+Filesize: 429086
+SHA256: a45fe1d2770950d1ed9506d122110d4a3661e4cd2e6ecedaef7b62d2b5afb9fd
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bit64, DBI, debugme, DiagrammeR, dplyr, formattable, ggplot2, knitr, lubridate, nanotime, nycflights13, palmerpenguins, rmarkdown, scales, stringi, survival, testthat (>= 3.1.1), tibble,
+        units (>= 0.7.2), vdiffr, withr
+Imports: cli (>= 2.3.0), glue, lifecycle, rlang (>= 1.0.2), utf8 (>= 1.1.0), utils, vctrs (>= 0.5.0)
+
+Package: parallelly
+Version: 1.41.0
+Depends: R (>= 4.4), R (< 4.4.99)
+License: LGPL (>= 2.1)
+File: parallelly_1.41.0_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/parallelly/releases/download/1.41.0/parallelly_1.41.0_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2024-12-18 23:25:19 UTC; unix
+Filesize: 511774
+SHA256: 0a1fb59dafa34e577c3c1a9485d85e9fb8be99a0822a1d0c672f3885f9582bb9
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: commonmark, base64enc
+Imports: parallel, tools, utils
