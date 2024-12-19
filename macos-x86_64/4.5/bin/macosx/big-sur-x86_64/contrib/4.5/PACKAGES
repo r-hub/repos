@@ -350,23 +350,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: shiny (>= 0.13), htmltools (>= 0.3), utils
 
-Package: pillar
-Version: 1.9.0
-Depends: R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: pillar_1.9.0_b1_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/pillar/releases/download/1.9.0/pillar_1.9.0_b1_R4.5_x86_64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-03-29 15:37:49 UTC; unix
-Filesize: 646356
-SHA256: 91033d244213e0267abd9673d4473d546d1c5941e8639f4995b49a797c845714
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bit64, DBI, debugme, DiagrammeR, dplyr, formattable, ggplot2, knitr, lubridate, nanotime, nycflights13, palmerpenguins, rmarkdown, scales, stringi, survival, testthat (>= 3.1.1), tibble,
-        units (>= 0.7.2), vdiffr, withr
-Imports: cli (>= 2.3.0), fansi, glue, lifecycle, rlang (>= 1.0.2), utf8 (>= 1.1.0), utils, vctrs (>= 0.5.0)
-
 Package: pkgconfig
 Version: 2.0.3
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -1784,20 +1767,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat, covr
 Imports: tools
-
-Package: BH
-Version: 1.84.0-0
-Depends: R (>= 4.5), R (< 4.5.99)
-License: BSL-1.0
-File: BH_1.84.0-0_b1_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/BH/releases/download/1.84.0-0/BH_1.84.0-0_b1_R4.5_x86_64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-03-29 15:18:04 UTC; unix
-Filesize: 13040065
-SHA256: 98e0e4849d3b1db37d2ca44d3235844eb83b6fb1b04b2dcb11138c443cc8a4d8
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: carData
 Version: 3.0-5
@@ -4538,24 +4507,6 @@ Suggests: callr, cli, DBItest (>= 1.8.0), decor, gert, gh, hms, knitr, magrittr,
 Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
 LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
 
-Package: parallelly
-Version: 1.40.1
-Depends: R (>= 4.5), R (< 4.5.99)
-License: LGPL (>= 2.1)
-File: parallelly_1.40.1_b5_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/parallelly/releases/download/1.40.1/parallelly_1.40.1_b5_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-12-04 17:37:22 UTC; unix
-Filesize: 495161
-SHA256: 7052c3f0862fd2715b51b9ee6628474930108b948ad00b833cdfb4c25b7c4a38
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: commonmark, base64enc
-Imports: parallel, tools, utils
-
 Package: textshaping
 Version: 0.4.1
 Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
@@ -4803,3 +4754,52 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: tinytest (>= 0.9.3),
+
+Package: pillar
+Version: 1.10.0
+Depends: R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: pillar_1.10.0_b2_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/pillar/releases/download/1.10.0/pillar_1.10.0_b2_R4.5_x86_64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-12-19 17:38:48 UTC; unix
+Filesize: 425833
+SHA256: 20f425845149594780b9dd353bb7c36547300a31d704c9434b37e31654b4595e
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bit64, DBI, debugme, DiagrammeR, dplyr, formattable, ggplot2, knitr, lubridate, nanotime, nycflights13, palmerpenguins, rmarkdown, scales, stringi, survival, testthat (>= 3.1.1), tibble,
+        units (>= 0.7.2), vdiffr, withr
+Imports: cli (>= 2.3.0), glue, lifecycle, rlang (>= 1.0.2), utf8 (>= 1.1.0), utils, vctrs (>= 0.5.0)
+
+Package: BH
+Version: 1.87.0-1
+Depends: R (>= 4.5), R (< 4.5.99)
+License: BSL-1.0
+File: BH_1.87.0-1_b2_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/BH/releases/download/1.87.0-1/BH_1.87.0-1_b2_R4.5_x86_64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2024-12-19 17:38:15 UTC; unix
+Filesize: 13354493
+SHA256: b106c7859c1c93ef9c34c530dd3786834e9b5ddce353aa33bd67ed5c9c5ce368
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: parallelly
+Version: 1.41.0
+Depends: R (>= 4.5), R (< 4.5.99)
+License: LGPL (>= 2.1)
+File: parallelly_1.41.0_b6_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/parallelly/releases/download/1.41.0/parallelly_1.41.0_b6_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2024-12-19 17:38:41 UTC; unix
+Filesize: 501921
+SHA256: a3d76856a9b2044eb5a35f05f018b9a84085d499894b66a59d25c9a2656fb4cd
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: commonmark, base64enc
+Imports: parallel, tools, utils
