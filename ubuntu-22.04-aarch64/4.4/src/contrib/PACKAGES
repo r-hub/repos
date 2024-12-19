@@ -4733,24 +4733,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: parallelly
-Version: 1.40.1
-Depends: R (>= 4.4), R (< 4.4.99)
-Imports: parallel, tools, utils
-Suggests: commonmark, base64enc
-License: LGPL (>= 2.1)
-File: parallelly_1.40.1_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/parallelly/releases/download/1.40.1/parallelly_1.40.1_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2024-12-09 18:42:51 UTC; unix
-Filesize: 503754
-SHA256: ba9d47b5f09fa9062858522c630035f7fb733e2cd70f114f6fccbdc37d4e3101
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: testthat
 Version: 3.2.2
 Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
@@ -4901,44 +4883,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: rlang
-Version: 1.1.4
-Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Imports: utils
-Suggests: cli (>= 3.1.0), covr, crayon, fs, glue, knitr, magrittr, methods, pillar, rmarkdown, stats, testthat (>= 3.0.0), tibble, usethis, vctrs (>= 0.2.3), withr
-Enhances: winch
-License: MIT + file LICENSE
-File: rlang_1.1.4_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/rlang/releases/download/1.1.4/rlang_1.1.4_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-04 18:33:16 UTC; unix
-Filesize: 2068880
-SHA256: fd0aeb53f4cf4db49952518c7467d7718c8ca1be50ba03cb6193123882db4841
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: cli
-Version: 3.6.3
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-Imports: utils
-Suggests: callr, covr, crayon, digest, glue (>= 1.6.0), grDevices, htmltools, htmlwidgets, knitr, methods, mockery, processx, ps (>= 1.3.4.9000), rlang (>= 1.0.2.9003), rmarkdown, rprojroot,
-        rstudioapi, testthat, tibble, whoami, withr
-License: MIT + file LICENSE
-File: cli_3.6.3_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/cli/releases/download/3.6.3/cli_3.6.3_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-22 18:32:00 UTC; unix
-Filesize: 1417980
-SHA256: 08ce1641aac67c9d17c99f76aa64fe8aa8c38472a1356ab07ce7ad021e7558f1
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: pillar
 Version: 1.10.0
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -4982,6 +4926,62 @@ Arch: arm64
 Built: R 4.4.2; aarch64-unknown-linux-gnu; 2024-12-18 18:42:01 UTC; unix
 Filesize: 8867818
 SHA256: 727916da23480a77a4cd4174a836983ce54f128358f9dad3cbe3ecd8bbb5d4ed
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rlang
+Version: 1.1.4
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Imports: utils
+Suggests: cli (>= 3.1.0), covr, crayon, fs, glue, knitr, magrittr, methods, pillar, rmarkdown, stats, testthat (>= 3.0.0), tibble, usethis, vctrs (>= 0.2.3), withr
+Enhances: winch
+License: MIT + file LICENSE
+File: rlang_1.1.4_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/rlang/releases/download/1.1.4/rlang_1.1.4_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-04 18:33:16 UTC; unix
+Filesize: 2068882
+SHA256: 5563e3b1307d7348eeca57b509606e16ac2416a9f0dd780fa257847829904555
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: cli
+Version: 3.6.3
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+Imports: utils
+Suggests: callr, covr, crayon, digest, glue (>= 1.6.0), grDevices, htmltools, htmlwidgets, knitr, methods, mockery, processx, ps (>= 1.3.4.9000), rlang (>= 1.0.2.9003), rmarkdown, rprojroot,
+        rstudioapi, testthat, tibble, whoami, withr
+License: MIT + file LICENSE
+File: cli_3.6.3_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/cli/releases/download/3.6.3/cli_3.6.3_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-22 18:32:00 UTC; unix
+Filesize: 1417976
+SHA256: 451cc390c61e9336cf6d190233925da04449126581136a14639af7c5ffc99c7c
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: parallelly
+Version: 1.41.0
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: parallel, tools, utils
+Suggests: commonmark, base64enc
+License: LGPL (>= 2.1)
+File: parallelly_1.41.0_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/parallelly/releases/download/1.41.0/parallelly_1.41.0_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2024-12-19 18:39:38 UTC; unix
+Filesize: 511279
+SHA256: 3c6e033c1699c60699bf59073f85babfdf07ca150570c9bd564cb0dd4885bc46
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
