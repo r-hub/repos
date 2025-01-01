@@ -1363,24 +1363,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: R.utils, R.rsp, markdown
 
-Package: MASS
-Version: 7.3-61
-Depends: R (>= 4.4.0), grDevices, graphics, stats, utils, R (>= 4.4), R (< 4.4.99)
-License: GPL-2 | GPL-3
-File: MASS_7.3-61_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/MASS/releases/download/7.3-61/MASS_7.3-61_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-20 14:53:54 UTC; unix
-Filesize: 1156594
-SHA256: f8e9fc88e59f0d446045cebeaa9b6c95c109706dc866a6325c9360d9ac9544e0
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: lattice, nlme, nnet, survival
-Imports: methods
-
 Package: modeldata
 Version: 1.4.0
 Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
@@ -2818,24 +2800,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: parallel, utils
-
-Package: XML
-Version: 3.99-0.17
-Depends: R (>= 4.0.0), methods, utils, R (>= 4.4), R (< 4.4.99)
-License: BSD_3_clause + file LICENSE
-File: XML_3.99-0.17_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/XML/releases/download/3.99-0.17/XML_3.99-0.17_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-20 14:56:37 UTC; unix
-Filesize: 1980130
-SHA256: 13149bd2a770827bc2e4e0905f4af03eacc3e482ac9c23ac26947933727972ae
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bitops, RCurl
-SystemRequirements: libxml2 (>= 2.6.3)
 
 Package: bayesplot
 Version: 1.11.1
@@ -4948,3 +4912,39 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: commonmark, base64enc
 Imports: parallel, tools, utils
+
+Package: MASS
+Version: 7.3-63
+Depends: R (>= 4.4.0), grDevices, graphics, stats, utils, R (>= 4.4), R (< 4.4.99)
+License: GPL-2 | GPL-3
+File: MASS_7.3-63_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/MASS/releases/download/7.3-63/MASS_7.3-63_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-01 23:23:56 UTC; unix
+Filesize: 1155329
+SHA256: 4d29a2a9367f62073abdea02fd79130f459faea5d51cf49b7bf3e9a1bc85b1d6
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: lattice, nlme, nnet, survival
+Imports: methods
+
+Package: XML
+Version: 3.99-0.18
+Depends: R (>= 4.0.0), methods, utils, R (>= 4.4), R (< 4.4.99)
+License: BSD_3_clause + file LICENSE
+File: XML_3.99-0.18_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/XML/releases/download/3.99-0.18/XML_3.99-0.18_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-01 23:23:59 UTC; unix
+Filesize: 1979047
+SHA256: b50a955450201f6038483953fa598e3635b467ecbebd1dac7f152dfeae89741b
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bitops, RCurl
+SystemRequirements: libxml2 (>= 2.6.3)
