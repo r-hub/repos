@@ -4312,24 +4312,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: Rcpp, tinytest
 Imports: methods
 
-Package: curl
-Version: 6.0.1
-Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: curl_6.0.1_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/curl/releases/download/6.0.1/curl_6.0.1_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2024-11-14 23:47:54 UTC; unix
-Filesize: 864677
-SHA256: 46929f4e82eece8d2f3f53daa83067ff65a1a48231c3e956305a4e02aa132869
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
-SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
-
 Package: Rdpack
 Version: 2.6.2
 Depends: R (>= 2.15.0), methods, R (>= 4.4), R (< 4.4.99)
@@ -4361,28 +4343,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, dplyr (>= 1.0.8), gt (>= 0.9.0), knitr (>= 1.31), testthat (>= 3.0.0), rsvg
 Imports: rlang (>= 1.0.6), htmltools (>= 0.5.1.1)
-
-Package: rgl
-Version: 1.3.14
-Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-License: GPL
-File: rgl_1.3.14_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/rgl/releases/download/1.3.14/rgl_1.3.14_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2024-11-16 23:26:50 UTC; unix
-Filesize: 7637416
-SHA256: a4458df5051c3742bc4682845af13c361952536d0d419c14351275af0feb3846
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: waldo
-Suggests: MASS, markdown (>= 1.12), rmarkdown (>= 2.16), deldir (>= 1.0-4), orientlib, lattice, misc3d, magick, plotrix (>= 3.7-3), tripack, interp, alphashape3d, tcltk, js (>= 1.2), webshot2 (>=
-        0.1.0), downlit (>= 0.4.0), pkgdown (>= 2.0.0), extrafont, shiny, manipulateWidget (>= 0.9.0), testthat, crosstalk, V8, chromote, jpeg, png
-Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
-SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
-        (optional), libpng (>=1.2.9, optional), FreeType (optional)
 
 Package: later
 Version: 1.4.1
@@ -4948,3 +4908,43 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: lattice, nlme, nnet, survival
 Imports: methods
+
+Package: curl
+Version: 6.1.0
+Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: curl_6.1.0_b6_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/curl/releases/download/6.1.0/curl_6.1.0_b6_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-06 23:24:35 UTC; unix
+Filesize: 865737
+SHA256: c6db3d8201e926faf283201c280e2e9c203a49ab44e93a15417faaaf18b1b72a
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
+
+Package: rgl
+Version: 1.3.16
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+License: GPL
+File: rgl_1.3.16_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/rgl/releases/download/1.3.16/rgl_1.3.16_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-06 23:25:14 UTC; unix
+Filesize: 7841682
+SHA256: e22755d7701bc76c2455dff9a5060e70b2522d9397fc4f6168f0c8b0686fa285
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: waldo
+Suggests: MASS, markdown (>= 1.12), rmarkdown (>= 2.16), deldir (>= 1.0-4), orientlib, lattice, misc3d, magick, plotrix (>= 3.7-3), tripack, interp, alphashape3d, tcltk, js (>= 1.2), webshot2 (>=
+        0.1.0), downlit (>= 0.4.0), pkgdown (>= 2.0.0), extrafont, shiny, manipulateWidget (>= 0.9.0), testthat, crosstalk, V8, chromote, jpeg, png
+Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
+SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
+        (optional), libpng (>=1.2.9, optional), FreeType (optional)
