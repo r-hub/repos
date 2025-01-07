@@ -1890,24 +1890,6 @@ GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli, diffobj (>= 0.3.4), glue, methods, rlang (>= 1.1.0)
 
-Package: curl
-Version: 6.0.1
-Depends: R (>= 3.0.0), R (>= 4.1), R (< 4.1.99)
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
-License: MIT + file LICENSE
-File: curl_6.0.1_b5_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/curl/releases/download/6.0.1/curl_6.0.1_b5_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-11-14 14:33:01 UTC; unix
-Filesize: 857785
-SHA256: 4ab1420932c2fdeeacda8d14e47fdf146e3e171c03e47c5d2d75a01aa163ef93
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-OS: linux
-Arch: s390x
-SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
-
 Package: fontawesome
 Version: 0.5.3
 Depends: R (>= 3.3.0), R (>= 4.1), R (< 4.1.99)
@@ -2073,23 +2055,6 @@ Imports: brio (>= 1.1.3), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.2), dig
 OS: linux
 Arch: s390x
 
-Package: pillar
-Version: 1.10.0
-Depends: R (>= 4.1), R (< 4.1.99)
-Suggests: bit64, DBI, debugme, DiagrammeR, dplyr, formattable, ggplot2, knitr, lubridate, nanotime, nycflights13, palmerpenguins, rmarkdown, scales, stringi, survival, testthat (>= 3.1.1), tibble,
-        units (>= 0.7.2), vdiffr, withr
-License: MIT + file LICENSE
-File: pillar_1.10.0_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/pillar/releases/download/1.10.0/pillar_1.10.0_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; ; 2024-12-18 14:35:06 UTC; unix
-Filesize: 420731
-SHA256: e998c9d7c28195abcb131a73a39ed22d61bff85b85473d2dc42fd40a6c5204a7
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: cli (>= 2.3.0), glue, lifecycle, rlang (>= 1.0.2), utf8 (>= 1.1.0), utils, vctrs (>= 0.5.0)
-
 Package: openssl
 Version: 2.3.0
 Depends: R (>= 4.1), R (< 4.1.99)
@@ -2108,3 +2073,38 @@ Imports: askpass
 OS: linux
 Arch: s390x
 SystemRequirements: OpenSSL >= 1.0.2
+
+Package: curl
+Version: 6.1.0
+Depends: R (>= 3.0.0), R (>= 4.1), R (< 4.1.99)
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+License: MIT + file LICENSE
+File: curl_6.1.0_b6_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/curl/releases/download/6.1.0/curl_6.1.0_b6_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2025-01-07 15:48:04 UTC; unix
+Filesize: 861307
+SHA256: 2874503972d6a6805800f50884321aeb9418e252010e3e634195664b4b47e312
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+OS: linux
+Arch: s390x
+SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
+
+Package: pillar
+Version: 1.10.1
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: bit64, DBI, debugme, DiagrammeR, dplyr, formattable, ggplot2, knitr, lubridate, nanotime, nycflights13, palmerpenguins, rmarkdown, scales, stringi, survival, testthat (>= 3.1.1), tibble,
+        units (>= 0.7.2), vdiffr, withr
+License: MIT + file LICENSE
+File: pillar_1.10.1_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/pillar/releases/download/1.10.1/pillar_1.10.1_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2025-01-07 15:48:04 UTC; unix
+Filesize: 647897
+SHA256: 8cbf7760c13243ad13fa0be9da71adf53806596bc33bf8f4dccd515594cbe5be
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli (>= 2.3.0), glue, lifecycle, rlang (>= 1.0.2), utf8 (>= 1.1.0), utils, vctrs (>= 0.5.0)
