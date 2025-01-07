@@ -3858,24 +3858,6 @@ Suggests: timeSeries, timeDate, tseries, chron, tinytest
 Imports: methods
 LinkingTo: zoo
 
-Package: bookdown
-Version: 0.41
-Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-License: GPL-3
-File: bookdown_0.41_b4_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/bookdown/releases/download/0.41/bookdown_0.41_b4_R4.5_x86_64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-10-16 17:37:57 UTC; unix
-Filesize: 1087591
-SHA256: 164e3726626e5743e3bd8149ae162d218ad63283889ad86a2ac3182dea1a5750
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, rstudioapi, miniUI, rsconnect (>= 0.4.3), servr (>= 0.13), shiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat (>=
-        3.1.0), withr (>= 2.3.0)
-Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.48), tinytex (>= 0.12), yaml (>= 2.1.19)
-SystemRequirements: Pandoc (>= 1.17.2)
-
 Package: Matrix
 Version: 1.7-1
 Depends: R (>= 4.4.0), methods, R (>= 4.5), R (< 4.5.99)
@@ -4081,24 +4063,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testit, rstudioapi
 Imports: xfun (>= 0.48)
-
-Package: xfun
-Version: 0.49
-Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: xfun_0.49_b7_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/xfun/releases/download/0.49/xfun_0.49_b7_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-11-01 17:34:43 UTC; unix
-Filesize: 554820
-SHA256: f1085a73c1baac060e9013d89282c5d5bec3d29f28c36c3cb7d6f7b24382e1a3
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown, commonmark, knitr (>= 1.47), remotes, pak, rhub, renv, curl, xml2, jsonlite, magick, yaml, qs, rmarkdown
-Imports: grDevices, stats, tools
 
 Package: R.oo
 Version: 1.27.0
@@ -4697,23 +4661,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: tinytest (>= 0.9.3),
 
-Package: pillar
-Version: 1.10.0
-Depends: R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: pillar_1.10.0_b2_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/pillar/releases/download/1.10.0/pillar_1.10.0_b2_R4.5_x86_64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-12-19 17:38:48 UTC; unix
-Filesize: 425833
-SHA256: 20f425845149594780b9dd353bb7c36547300a31d704c9434b37e31654b4595e
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bit64, DBI, debugme, DiagrammeR, dplyr, formattable, ggplot2, knitr, lubridate, nanotime, nycflights13, palmerpenguins, rmarkdown, scales, stringi, survival, testthat (>= 3.1.1), tibble,
-        units (>= 0.7.2), vdiffr, withr
-Imports: cli (>= 2.3.0), glue, lifecycle, rlang (>= 1.0.2), utf8 (>= 1.1.0), utils, vctrs (>= 0.5.0)
-
 Package: BH
 Version: 1.87.0-1
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4803,3 +4750,57 @@ Suggests: MASS, markdown (>= 1.12), rmarkdown (>= 2.16), deldir (>= 1.0-4), orie
 Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
 SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
         (optional), libpng (>=1.2.9, optional), FreeType (optional)
+
+Package: bookdown
+Version: 0.42
+Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+License: GPL-3
+File: bookdown_0.42_b5_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/bookdown/releases/download/0.42/bookdown_0.42_b5_R4.5_x86_64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2025-01-07 17:36:07 UTC; unix
+Filesize: 1087027
+SHA256: 5b29084383450534cea3fd2f554d6ba08fd4258413ac9f12fa1f75204ddd2a15
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, rstudioapi, miniUI, rsconnect (>= 0.4.3), servr (>= 0.13), shiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat (>=
+        3.1.0), withr (>= 2.3.0)
+Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.48), tinytex (>= 0.12), yaml (>= 2.1.19)
+SystemRequirements: Pandoc (>= 1.17.2)
+
+Package: xfun
+Version: 0.50
+Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: xfun_0.50_b8_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/xfun/releases/download/0.50/xfun_0.50_b8_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2025-01-07 17:35:54 UTC; unix
+Filesize: 572693
+SHA256: 46def3c9e19357279ba0408cfac9da4888adc09c8506584e6e5638e33e427532
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.4), commonmark, knitr (>= 1.47), remotes, pak, rhub, renv, curl, xml2, jsonlite, magick, yaml, qs,
+        rmarkdown
+Imports: grDevices, stats, tools
+
+Package: pillar
+Version: 1.10.1
+Depends: R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: pillar_1.10.1_b3_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/pillar/releases/download/1.10.1/pillar_1.10.1_b3_R4.5_x86_64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2025-01-07 17:36:13 UTC; unix
+Filesize: 651989
+SHA256: ace5fdbfbeaa6951246fa2d6836fa361f3c5ef8a8bdfd13a0f0d5c7c59517edd
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bit64, DBI, debugme, DiagrammeR, dplyr, formattable, ggplot2, knitr, lubridate, nanotime, nycflights13, palmerpenguins, rmarkdown, scales, stringi, survival, testthat (>= 3.1.1), tibble,
+        units (>= 0.7.2), vdiffr, withr
+Imports: cli (>= 2.3.0), glue, lifecycle, rlang (>= 1.0.2), utf8 (>= 1.1.0), utils, vctrs (>= 0.5.0)
