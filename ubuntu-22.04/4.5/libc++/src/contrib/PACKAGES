@@ -380,24 +380,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: codetools, covr, testthat
 
-Package: processx
-Version: 3.8.4
-Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: processx_3.8.4_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/processx/releases/download/3.8.4/processx_3.8.4_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 12:55:21 UTC; unix
-Filesize: 330684
-SHA256: 55a55294ec196213455d995dc73c2cb56dea073a817419f495ea914606aa1b16
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: callr (>= 3.7.3), cli (>= 3.3.0), codetools, covr, curl, debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0), webfakes, withr
-Imports: ps (>= 1.2.0), R6, utils
-
 Package: purrr
 Version: 1.0.2
 Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
@@ -4242,25 +4224,6 @@ Suggests: gee, expm, igraph, phangorn, xml2
 Imports: nlme, lattice, graphics, methods, stats, utils, parallel, Rcpp (>= 0.12.0), digest
 LinkingTo: Rcpp
 
-Package: openssl
-Version: 2.3.0
-Depends: R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: openssl_2.3.0_b6_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/openssl/releases/download/2.3.0/openssl_2.3.0_b6_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-12-16 17:08:43 UTC; unix
-Filesize: 1316363
-SHA256: b0889a68c49b5ac025672527be094d6ebbffdcec8eda17ecc2b9e155905e2a4a
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
-Imports: askpass
-SystemRequirements: OpenSSL >= 1.0.2
-
 Package: gower
 Version: 1.0.2
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4498,3 +4461,40 @@ Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl (>= 1.3
 Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang, stats, utils, vctrs
 SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
 LinkingTo: cpp11 (>= 0.5.0)
+
+Package: processx
+Version: 3.8.5
+Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: processx_3.8.5_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/processx/releases/download/3.8.5/processx_3.8.5_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-01-09 17:08:19 UTC; unix
+Filesize: 330559
+SHA256: 21785ef32c8ad410dc384ae9bdd73d3e1ccef36266d1901066f7c69b08d354d3
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: callr (>= 3.7.3), cli (>= 3.3.0), codetools, covr, curl, debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0), webfakes, withr
+Imports: ps (>= 1.2.0), R6, utils
+
+Package: openssl
+Version: 2.3.1
+Depends: R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: openssl_2.3.1_b7_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/openssl/releases/download/2.3.1/openssl_2.3.1_b7_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-01-09 17:08:20 UTC; unix
+Filesize: 1315236
+SHA256: fbb82eacd1c0f3f7f100c7f692bdf4e471eca51e06847ee94b1bcab9572fb0ed
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
+Imports: askpass
+SystemRequirements: OpenSSL >= 1.0.2
