@@ -396,24 +396,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: codetools, covr, testthat
 
-Package: processx
-Version: 3.8.4
-Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: processx_3.8.4_b1_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/processx/releases/download/3.8.4/processx_3.8.4_b1_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-03-29 15:22:37 UTC; unix
-Filesize: 317383
-SHA256: d5872e52c652acf298a7049b66eb85959a14a861f4cb8bd5634e11fd25abc08e
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: callr (>= 3.7.3), cli (>= 3.3.0), codetools, covr, curl, debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0), webfakes, withr
-Imports: ps (>= 1.2.0), R6, utils
-
 Package: purrr
 Version: 1.0.2
 Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
@@ -4137,22 +4119,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: bit64, R6, S7, testthat (>= 3.0.0), withr, xml2
 Imports: cli, diffobj (>= 0.3.4), glue, methods, rlang (>= 1.1.0)
 
-Package: inline
-Version: 0.3.20
-Depends: R (>= 4.5), R (< 4.5.99)
-License: LGPL
-File: inline_0.3.20_b2_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/inline/releases/download/0.3.20/inline_0.3.20_b2_R4.5_x86_64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-11-11 17:34:08 UTC; unix
-Filesize: 130304
-SHA256: 3910536b18931d9e20dc8c3885dbc8233597bb81221857d9efec0cc7a403e599
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: Rcpp, tinytest
-Imports: methods
-
 Package: Rdpack
 Version: 2.6.2
 Depends: R (>= 2.15.0), methods, R (>= 4.5), R (< 4.5.99)
@@ -4551,25 +4517,6 @@ Suggests: gee, expm, igraph, phangorn, xml2
 Imports: nlme, lattice, graphics, methods, stats, utils, parallel, Rcpp (>= 0.12.0), digest
 LinkingTo: Rcpp
 
-Package: openssl
-Version: 2.3.0
-Depends: R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: openssl_2.3.0_b6_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/openssl/releases/download/2.3.0/openssl_2.3.0_b6_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-12-16 17:34:23 UTC; unix
-Filesize: 2748737
-SHA256: 60806a00a548672c0de048e5aa579458e60979bda877c61e90549c79fec54c4d
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
-Imports: askpass
-SystemRequirements: OpenSSL >= 1.0.2
-
 Package: gower
 Version: 1.0.2
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4822,3 +4769,56 @@ Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl (>= 1.3
 Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang, stats, utils, vctrs
 SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
 LinkingTo: cpp11 (>= 0.5.0)
+
+Package: processx
+Version: 3.8.5
+Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: processx_3.8.5_b2_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/processx/releases/download/3.8.5/processx_3.8.5_b2_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2025-01-09 17:35:31 UTC; unix
+Filesize: 317223
+SHA256: b2ac148fd66b3bb0d5d4334e3030da7517e1ddb99cdba770df3c0eade553e77a
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: callr (>= 3.7.3), cli (>= 3.3.0), codetools, covr, curl, debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0), webfakes, withr
+Imports: ps (>= 1.2.0), R6, utils
+
+Package: inline
+Version: 0.3.21
+Depends: R (>= 4.5), R (< 4.5.99)
+License: LGPL
+File: inline_0.3.21_b3_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/inline/releases/download/0.3.21/inline_0.3.21_b3_R4.5_x86_64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2025-01-09 17:37:18 UTC; unix
+Filesize: 130380
+SHA256: dd37b2e72c1a5e836c915d313604e0d4769fab969dc902da9d2bf3760dd36814
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: Rcpp, tinytest
+Imports: methods
+
+Package: openssl
+Version: 2.3.1
+Depends: R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: openssl_2.3.1_b7_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/openssl/releases/download/2.3.1/openssl_2.3.1_b7_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2025-01-09 17:35:48 UTC; unix
+Filesize: 2748019
+SHA256: a61a6841f2dcb66c8e2ad0dca3e6ed17f3134730bd0f0b0f4394a9e85fcab169
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
+Imports: askpass
+SystemRequirements: OpenSSL >= 1.0.2
