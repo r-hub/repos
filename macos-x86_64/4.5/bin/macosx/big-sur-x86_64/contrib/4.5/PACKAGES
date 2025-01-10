@@ -4045,24 +4045,6 @@ Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltoo
         2.1.19)
 SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
 
-Package: mvtnorm
-Version: 1.3-2
-Depends: R(>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-License: GPL-2
-File: mvtnorm_1.3-2_b6_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.3-2/mvtnorm_1.3-2_b6_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-11-05 17:36:35 UTC; unix
-Filesize: 955052
-SHA256: 606e95b0a578296fd70a8bd495359aa563de4f45dbcb9a073f8397e6955d3106
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: qrng, numDeriv
-Imports: stats
-
 Package: sf
 Version: 1.0-19
 Depends: methods, R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
@@ -4822,3 +4804,21 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
 Imports: askpass
 SystemRequirements: OpenSSL >= 1.0.2
+
+Package: mvtnorm
+Version: 1.3-3
+Depends: R(>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+License: GPL-2
+File: mvtnorm_1.3-3_b7_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.3-3/mvtnorm_1.3-3_b7_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2025-01-10 17:35:03 UTC; unix
+Filesize: 955335
+SHA256: 3bade9d785b25789262c273cff634dee57941dd875d288f32c2966196955cb80
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: qrng, numDeriv
+Imports: stats
