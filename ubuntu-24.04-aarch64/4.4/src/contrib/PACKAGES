@@ -3771,21 +3771,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: geepack, knitr, lme4, markdown, multcomp, pbkrtest (>= 0.5.2), survival, testthat (>= 2.1.0)
 Imports: boot, broom, cowplot, Deriv, dplyr, ggplot2, MASS, Matrix, modelr, microbenchmark, rlang, tibble, tidyr,
 
-Package: evaluate
-Version: 1.0.1
-Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: evaluate_1.0.1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/evaluate/releases/download/1.0.1/evaluate_1.0.1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.4.1; ; 2024-10-10 23:24:52 UTC; unix
-Filesize: 101857
-SHA256: be403d212203d768bb8faee47fb27144dbe713bd1e167ad3433709323b779a76
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, ggplot2 (>= 3.3.6), lattice, methods, rlang, testthat (>= 3.0.0), withr
-
 Package: wk
 Version: 0.9.4
 Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
@@ -4114,24 +4099,6 @@ Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0),
 Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.43), methods, tinytex (>= 0.31), tools, utils, xfun (>= 0.36), yaml (>=
         2.1.19)
 SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
-
-Package: mvtnorm
-Version: 1.3-2
-Depends: R(>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-License: GPL-2
-File: mvtnorm_1.3-2_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.3-2/mvtnorm_1.3-2_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2024-11-04 23:25:50 UTC; unix
-Filesize: 1014367
-SHA256: 1a8a8f7fcea641e2bf0128d66e6c793b54afb49d56367ffd95d37a2d8264edde
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: qrng, numDeriv
-Imports: stats
 
 Package: sf
 Version: 1.0-19
@@ -4983,3 +4950,36 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
 Imports: askpass
 SystemRequirements: OpenSSL >= 1.0.2
+
+Package: evaluate
+Version: 1.0.3
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: evaluate_1.0.3_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/evaluate/releases/download/1.0.3/evaluate_1.0.3_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.2; ; 2025-01-10 23:24:05 UTC; unix
+Filesize: 102008
+SHA256: 44de31827587d0bd16a42140178bf3e414cec65f5ba8c1d21fa837c186dcfd03
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: callr, covr, ggplot2 (>= 3.3.6), lattice, methods, pkgload, rlang, knitr, testthat (>= 3.0.0), withr
+
+Package: mvtnorm
+Version: 1.3-3
+Depends: R(>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+License: GPL-2
+File: mvtnorm_1.3-3_b6_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.3-3/mvtnorm_1.3-3_b6_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-10 23:24:06 UTC; unix
+Filesize: 1014270
+SHA256: 38ff43b651904a4fe3eea4e4c8be6a231d79007250bedd53f48920e7558141f4
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: qrng, numDeriv
+Imports: stats
