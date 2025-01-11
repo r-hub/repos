@@ -2545,25 +2545,6 @@ Imports: systemfonts (>= 1.0.0)
 SystemRequirements: libpng
 LinkingTo: cpp11, systemfonts
 
-Package: lme4
-Version: 1.1-35.5
-Depends: R (>= 3.6.0), Matrix, methods, stats, R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2)
-File: lme4_1.1-35.5_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/lme4/releases/download/1.1-35.5/lme4_1.1-35.5_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-20 16:11:17 UTC; unix
-Filesize: 8923310
-SHA256: b71ffd92f0cc0ae473d523f1e4c43c5631469e9c411f7cdfdc748a730aec4133
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
-Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
-LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix (>= 1.2-3)
-
 Package: markdown
 Version: 1.13
 Depends: R (>= 2.11.1), R (>= 4.4), R (< 4.4.99)
@@ -4370,25 +4351,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer
 Imports: methods, graphics, Matrix, MatrixModels, survival, MASS
 
-Package: Hmisc
-Version: 5.2-1
-Depends: R (>= 4.2.0), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2)
-File: Hmisc_5.2-1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/Hmisc/releases/download/5.2-1/Hmisc_5.2-1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2024-12-09 19:55:53 UTC; unix
-Filesize: 3624547
-SHA256: 2848ae9d8d3c3bde329398f8f7b9afd76cbe905ec0dd422463c9b1be8791c698
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice,
-        latticeExtra, gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer, htm2txt
-Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
-
 Package: progressr
 Version: 0.15.1
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -4983,3 +4945,91 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: qrng, numDeriv
 Imports: stats
+
+Package: reformulas
+Version: 0.4.0
+Depends: R (>= 4.4), R (< 4.4.99)
+License: GPL-3
+File: reformulas_0.4.0_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/reformulas/releases/download/0.4.0/reformulas_0.4.0_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.2; ; 2025-01-11 23:23:42 UTC; unix
+Filesize: 91484
+SHA256: 314b82a5eb9a8f463408bc4ee26f6a830ce857fe6d0abe90685a3428999300d7
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: lme4, tinytest
+Imports: stats, methods, Matrix, Rdpack
+
+Package: nnet
+Version: 7.3-20
+Depends: R (>= 3.0.0), stats, utils, R (>= 4.4), R (< 4.4.99)
+License: GPL-2 | GPL-3
+File: nnet_7.3-20_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/nnet/releases/download/7.3-20/nnet_7.3-20_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-11 23:23:38 UTC; unix
+Filesize: 126339
+SHA256: 4ab43f5d94241ac5c31799455da6e6d32dab89638089afaf4f2ddbba1bd33305
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: MASS
+
+Package: rpart
+Version: 4.1.24
+Depends: R (>= 2.15.0), graphics, stats, grDevices, R (>= 4.4), R (< 4.4.99)
+License: GPL-2 | GPL-3
+File: rpart_4.1.24_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/rpart/releases/download/4.1.24/rpart_4.1.24_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-11 23:23:38 UTC; unix
+Filesize: 758315
+SHA256: 32d77b74fe7d5b873fe5affddec5b82dea8081162b7cd1a52e5a2d79d7aec673
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: survival
+
+Package: lme4
+Version: 1.1-36
+Depends: R (>= 3.6.0), Matrix, methods, stats, R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: lme4_1.1-36_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/lme4/releases/download/1.1-36/lme4_1.1-36_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-11 23:23:48 UTC; unix
+Filesize: 8908275
+SHA256: 3eebfd44f24ea481928430bd54ad10ea5e8f7f92218a204b681fb7a65aa62561
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
+Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4), reformulas (>= 0.3.0)
+LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix (>= 1.2-3)
+
+Package: Hmisc
+Version: 5.2-2
+Depends: R (>= 4.2.0), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: Hmisc_5.2-2_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/Hmisc/releases/download/5.2-2/Hmisc_5.2-2_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-11 23:23:59 UTC; unix
+Filesize: 3639038
+SHA256: 0a075b69a377d9c3b5fde70e39fb20b3d18bf0280e718f9d3371e346640cd1ff
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice,
+        latticeExtra, gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer, htm2txt
+Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
