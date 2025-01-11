@@ -1388,24 +1388,6 @@ GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli (>= 3.1.0), tools, utils
 
-Package: webfakes
-Version: 1.3.1
-Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
-Suggests: brotli, callr, covr, curl, digest, glue, httpuv, httr, jsonlite, processx, testthat (>= 3.0.0), withr, xml2, zip (>= 2.3.0)
-License: MIT + file LICENSE
-File: webfakes_1.3.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/webfakes/releases/download/1.3.1/webfakes_1.3.1_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-31 08:58:30 UTC; unix
-Filesize: 616493
-SHA256: 79294f8be907756567c715b8b704973a8a6e1262acb1764c1dd8581d4519c141
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: stats, tools, utils
-OS: linux
-Arch: s390x
-
 Package: bslib
 Version: 0.8.0
 Depends: R (>= 2.10), R (>= 4.1), R (< 4.1.99)
@@ -1652,21 +1634,6 @@ Platform: s390x-ibm-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: commonmark, xml2, hunspell (>= 3.0), knitr
-
-Package: evaluate
-Version: 1.0.1
-Depends: R (>= 3.6.0), R (>= 4.1), R (< 4.1.99)
-Suggests: covr, ggplot2 (>= 3.3.6), lattice, methods, rlang, testthat (>= 3.0.0), withr
-License: MIT + file LICENSE
-File: evaluate_1.0.1_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/evaluate/releases/download/1.0.1/evaluate_1.0.1_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; ; 2024-10-10 14:30:03 UTC; unix
-Filesize: 99241
-SHA256: 923f567884b05b60de86b6eba875aa0db76e2dbf05d84b1e851e8757baa25260
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: rstudioapi
 Version: 0.17.1
@@ -2109,3 +2076,36 @@ Imports: askpass
 OS: linux
 Arch: s390x
 SystemRequirements: OpenSSL >= 1.0.2
+
+Package: webfakes
+Version: 1.3.2
+Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
+Suggests: brotli, callr, covr, curl, digest, glue, httpuv, httr, jsonlite, processx, testthat (>= 3.0.0), withr, xml2, zip (>= 2.3.0)
+License: MIT + file LICENSE
+File: webfakes_1.3.2_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/webfakes/releases/download/1.3.2/webfakes_1.3.2_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2025-01-11 14:30:43 UTC; unix
+Filesize: 621058
+SHA256: 18e95f1ca27834b6faf6fde5f7924d9b10e8e48990a666ffe6ae32b32eba41ce
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: stats, tools, utils
+OS: linux
+Arch: s390x
+
+Package: evaluate
+Version: 1.0.3
+Depends: R (>= 3.6.0), R (>= 4.1), R (< 4.1.99)
+Suggests: callr, covr, ggplot2 (>= 3.3.6), lattice, methods, pkgload, rlang, knitr, testthat (>= 3.0.0), withr
+License: MIT + file LICENSE
+File: evaluate_1.0.3_b4_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/evaluate/releases/download/1.0.3/evaluate_1.0.3_b4_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2025-01-11 14:30:43 UTC; unix
+Filesize: 99982
+SHA256: 019523296302c48792924ec2f5eb8fea028e0213acb0965ab942ec30fa1e08d0
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
