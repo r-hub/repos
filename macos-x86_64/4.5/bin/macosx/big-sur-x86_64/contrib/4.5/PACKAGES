@@ -2841,25 +2841,6 @@ Suggests: testthat, DoE.base, knitr, rmarkdown
 Imports: Rcpp
 LinkingTo: Rcpp
 
-Package: lme4
-Version: 1.1-35.5
-Depends: R (>= 3.6.0), Matrix, methods, stats, R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: lme4_1.1-35.5_b4_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/lme4/releases/download/1.1-35.5/lme4_1.1-35.5_b4_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-07-03 17:31:20 UTC; unix
-Filesize: 4275861
-SHA256: a6c713dd456e67f6b5ac8d396ff5e622d80525caa6aead196693d56d18434435
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
-Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
-LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix (>= 1.2-3)
-
 Package: recipes
 Version: 1.1.0
 Depends: dplyr (>= 1.1.0), R (>= 3.6), R (>= 4.5), R (< 4.5.99)
@@ -3701,21 +3682,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: geepack, knitr, lme4, markdown, multcomp, pbkrtest (>= 0.5.2), survival, testthat (>= 2.1.0)
 Imports: boot, broom, cowplot, Deriv, dplyr, ggplot2, MASS, Matrix, modelr, microbenchmark, rlang, tibble, tidyr,
 
-Package: evaluate
-Version: 1.0.1
-Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: evaluate_1.0.1_b4_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/evaluate/releases/download/1.0.1/evaluate_1.0.1_b4_R4.5_x86_64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-10-10 17:36:05 UTC; unix
-Filesize: 102298
-SHA256: 547fbd6af036f794b1e83f4cba85fed131fa249436ad7e2f4837279a92a5b9b1
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, ggplot2 (>= 3.3.6), lattice, methods, rlang, testthat (>= 3.0.0), withr
-
 Package: wk
 Version: 0.9.4
 Depends: R (>= 2.10), R (>= 4.5), R (< 4.5.99)
@@ -4237,25 +4203,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: future (>= 1.21.0), knitr, purrr, rmarkdown, spelling, testthat, vembedr
 Imports: fastmap (>= 1.1.0), later, magrittr (>= 1.5), R6, Rcpp, rlang, stats
 LinkingTo: later, Rcpp
-
-Package: Hmisc
-Version: 5.2-1
-Depends: R (>= 4.2.0), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: Hmisc_5.2-1_b4_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/Hmisc/releases/download/5.2-1/Hmisc_5.2-1_b4_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-12-02 17:37:06 UTC; unix
-Filesize: 3569945
-SHA256: 5a723fa16495d684b6348c4d35d6eb187b5e4256fa65527d64e8584589633ee5
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice,
-        latticeExtra, gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer, htm2txt
-Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
 
 Package: bit
 Version: 4.5.0.1
@@ -4822,3 +4769,89 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: qrng, numDeriv
 Imports: stats
+
+Package: reformulas
+Version: 0.4.0
+Depends: R (>= 4.5), R (< 4.5.99)
+License: GPL-3
+File: reformulas_0.4.0_b1_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/reformulas/releases/download/0.4.0/reformulas_0.4.0_b1_R4.5_x86_64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2025-01-11 17:32:33 UTC; unix
+Filesize: 91997
+SHA256: 14d78b5f13acba225466be6a2ab498b864b2c41efd2ea817ae1adbb43551d181
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: lme4, tinytest
+Imports: stats, methods, Matrix, Rdpack
+
+Package: rpart
+Version: 4.1.24
+Depends: R (>= 2.15.0), graphics, stats, grDevices, R (>= 4.5), R (< 4.5.99)
+License: GPL-2 | GPL-3
+File: rpart_4.1.24_b1_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/rpart/releases/download/4.1.24/rpart_4.1.24_b1_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2025-01-11 17:32:26 UTC; unix
+Filesize: 700248
+SHA256: bca5de3b9277586d12f5333d8a3cbe146bb31afc909ae825cc9325d75cccbee5
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: survival
+
+Package: lme4
+Version: 1.1-36
+Depends: R (>= 3.6.0), Matrix, methods, stats, R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: lme4_1.1-36_b5_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/lme4/releases/download/1.1-36/lme4_1.1-36_b5_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2025-01-11 17:32:37 UTC; unix
+Filesize: 4259597
+SHA256: e131d8b4e1a6b54f9500aed7e85deee057b8e821baac6436b512cf62a9c775f8
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
+Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4), reformulas (>= 0.3.0)
+LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix (>= 1.2-3)
+
+Package: evaluate
+Version: 1.0.3
+Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: evaluate_1.0.3_b5_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/evaluate/releases/download/1.0.3/evaluate_1.0.3_b5_R4.5_x86_64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2025-01-11 17:32:24 UTC; unix
+Filesize: 102405
+SHA256: 56d9a526935f51da9251bb628c4cb9c6f3ee3fdafbc2fc21b9b9d58414b63b47
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: callr, covr, ggplot2 (>= 3.3.6), lattice, methods, pkgload, rlang, knitr, testthat (>= 3.0.0), withr
+
+Package: Hmisc
+Version: 5.2-2
+Depends: R (>= 4.2.0), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: Hmisc_5.2-2_b5_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/Hmisc/releases/download/5.2-2/Hmisc_5.2-2_b5_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2025-01-11 17:33:24 UTC; unix
+Filesize: 3582405
+SHA256: 8ba87603ca7bb541140dac7280f5b2b00f3166f2fd7acb750aa183341a23511d
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice,
+        latticeExtra, gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer, htm2txt
+Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
