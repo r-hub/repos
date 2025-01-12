@@ -960,23 +960,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: stats, graphics
 
-Package: lava
-Version: 1.8.0
-Depends: R (>= 3.0), R (>= 4.5), R (< 4.5.99)
-License: GPL-3
-File: lava_1.8.0_b1_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/lava/releases/download/1.8.0/lava_1.8.0_b1_R4.5_x86_64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-03-29 16:27:27 UTC; unix
-Filesize: 2521497
-SHA256: 2147e1d7d069d9815918c1be59fd6ba0bd165ce23565c1d5051f7d2dd2fe1189
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: KernSmooth, Rgraphviz, data.table, ellipse, fields, geepack, graph, knitr, rmarkdown, igraph (>= 0.6), lavaSearch2, lme4 (>= 1.1.35.1), MASS, Matrix (>= 1.6.3), mets (>= 1.1), nlme, optimx,
-        polycor, quantreg, rgl, targeted (>= 0.4), testthat (>= 0.11), visNetwork
-Imports: cli, future.apply, graphics, grDevices, methods, numDeriv, progressr, stats, survival, SQUAREM, utils
-
 Package: listenv
 Version: 0.9.1
 Depends: R (>= 3.1.2), R (>= 4.5), R (< 4.5.99)
@@ -3975,24 +3958,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: tools
 Imports: methods, utils
 
-Package: Rcpp
-Version: 1.0.13-1
-Depends: R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: Rcpp_1.0.13-1_b3_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/Rcpp/releases/download/1.0.13-1/Rcpp_1.0.13-1_b3_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-11-03 17:32:48 UTC; unix
-Filesize: 2209874
-SHA256: fa4a05c50941d1aca18be10d40041dd678294533308e5270a94ceb7d6c53e9b0
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
-Imports: methods, utils
-
 Package: rmarkdown
 Version: 2.29
 Depends: R (>= 3.0), R (>= 4.5), R (< 4.5.99)
@@ -4855,3 +4820,38 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice,
         latticeExtra, gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer, htm2txt
 Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
+
+Package: lava
+Version: 1.8.1
+Depends: R (>= 3.0), R (>= 4.5), R (< 4.5.99)
+License: GPL-3
+File: lava_1.8.1_b2_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/lava/releases/download/1.8.1/lava_1.8.1_b2_R4.5_x86_64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2025-01-12 17:32:17 UTC; unix
+Filesize: 2526081
+SHA256: 8db32714b8a7a5e498c1f4bc83e0854755bf6bd29eb42e382812c6e707e580ce
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: KernSmooth, Rgraphviz, data.table, ellipse, fields, geepack, graph, knitr, rmarkdown, igraph (>= 0.6), lavaSearch2, lme4 (>= 1.1.35.1), MASS, Matrix (>= 1.6.3), mets (>= 1.1), nlme, optimx,
+        polycor, quantreg, rgl, targeted (>= 0.4), testthat (>= 0.11), visNetwork
+Imports: cli, future.apply, graphics, grDevices, methods, numDeriv, progressr, stats, survival, SQUAREM, utils
+
+Package: Rcpp
+Version: 1.0.14
+Depends: R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: Rcpp_1.0.14_b4_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/Rcpp/releases/download/1.0.14/Rcpp_1.0.14_b4_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2025-01-12 17:31:52 UTC; unix
+Filesize: 2214478
+SHA256: e47b136a9db47d5599297bf516d9f345bcc57ecd8e0cb01b48d131c1d6f47349
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
+Imports: methods, utils
