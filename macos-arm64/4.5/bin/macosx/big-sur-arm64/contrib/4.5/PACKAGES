@@ -960,23 +960,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: stats, graphics
 
-Package: lava
-Version: 1.8.0
-Depends: R (>= 3.0), R (>= 4.5), R (< 4.5.99)
-License: GPL-3
-File: lava_1.8.0_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/lava/releases/download/1.8.0/lava_1.8.0_b1_R4.5_aarch64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-03-29 15:33:03 UTC; unix
-Filesize: 2518852
-SHA256: 63cd5f601547c3c6b8fe229cf3b90dd2cd5f73257dc674cc231671c6c2035cb5
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: KernSmooth, Rgraphviz, data.table, ellipse, fields, geepack, graph, knitr, rmarkdown, igraph (>= 0.6), lavaSearch2, lme4 (>= 1.1.35.1), MASS, Matrix (>= 1.6.3), mets (>= 1.1), nlme, optimx,
-        polycor, quantreg, rgl, targeted (>= 0.4), testthat (>= 0.11), visNetwork
-Imports: cli, future.apply, graphics, grDevices, methods, numDeriv, progressr, stats, survival, SQUAREM, utils
-
 Package: listenv
 Version: 0.9.1
 Depends: R (>= 3.1.2), R (>= 4.5), R (< 4.5.99)
@@ -3975,24 +3958,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: tools
 Imports: methods, utils
 
-Package: Rcpp
-Version: 1.0.13-1
-Depends: R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: Rcpp_1.0.13-1_b3_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/Rcpp/releases/download/1.0.13-1/Rcpp_1.0.13-1_b3_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-11-03 17:32:04 UTC; unix
-Filesize: 2205042
-SHA256: a8015905e26b5712ee891eebd8687a5ffa3798aa1b0c4fc3521ae16cbaf67ad0
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
-Imports: methods, utils
-
 Package: rmarkdown
 Version: 2.29
 Depends: R (>= 3.0), R (>= 4.5), R (< 4.5.99)
@@ -4855,3 +4820,38 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice,
         latticeExtra, gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer, htm2txt
 Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
+
+Package: lava
+Version: 1.8.1
+Depends: R (>= 3.0), R (>= 4.5), R (< 4.5.99)
+License: GPL-3
+File: lava_1.8.1_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/lava/releases/download/1.8.1/lava_1.8.1_b2_R4.5_aarch64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2025-01-12 17:31:12 UTC; unix
+Filesize: 2522861
+SHA256: 62729aea87ac1df615475b40fe3c0717a36fb197c06896392f883714a7aef64f
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: KernSmooth, Rgraphviz, data.table, ellipse, fields, geepack, graph, knitr, rmarkdown, igraph (>= 0.6), lavaSearch2, lme4 (>= 1.1.35.1), MASS, Matrix (>= 1.6.3), mets (>= 1.1), nlme, optimx,
+        polycor, quantreg, rgl, targeted (>= 0.4), testthat (>= 0.11), visNetwork
+Imports: cli, future.apply, graphics, grDevices, methods, numDeriv, progressr, stats, survival, SQUAREM, utils
+
+Package: Rcpp
+Version: 1.0.14
+Depends: R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: Rcpp_1.0.14_b4_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/Rcpp/releases/download/1.0.14/Rcpp_1.0.14_b4_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2025-01-12 17:31:02 UTC; unix
+Filesize: 2210482
+SHA256: 67139705b643f7b21e434af989127e5ca8b22924c95176fc682151b2735d9c6d
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
+Imports: methods, utils
