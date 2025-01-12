@@ -944,23 +944,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: stats, graphics
 
-Package: lava
-Version: 1.8.0
-Depends: R (>= 3.0), R (>= 4.5), R (< 4.5.99)
-License: GPL-3
-File: lava_1.8.0_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/lava/releases/download/1.8.0/lava_1.8.0_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.5.0; ; 2024-03-27 17:47:45 UTC; unix
-Filesize: 2559904
-SHA256: f480ebb5b40391cbd43085e04c53fb5cfa7c7fb107a0035824c8a053d7f738f8
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: KernSmooth, Rgraphviz, data.table, ellipse, fields, geepack, graph, knitr, rmarkdown, igraph (>= 0.6), lavaSearch2, lme4 (>= 1.1.35.1), MASS, Matrix (>= 1.6.3), mets (>= 1.1), nlme, optimx,
-        polycor, quantreg, rgl, targeted (>= 0.4), testthat (>= 0.11), visNetwork
-Imports: cli, future.apply, graphics, grDevices, methods, numDeriv, progressr, stats, survival, SQUAREM, utils
-
 Package: listenv
 Version: 0.9.1
 Depends: R (>= 3.1.2), R (>= 4.5), R (< 4.5.99)
@@ -3995,24 +3978,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: tools
 Imports: methods, utils
 
-Package: Rcpp
-Version: 1.0.13-1
-Depends: R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: Rcpp_1.0.13-1_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/Rcpp/releases/download/1.0.13-1/Rcpp_1.0.13-1_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-11-03 17:21:41 UTC; unix
-Filesize: 3775676
-SHA256: 99fd41dfaec490baf6a4634a04af4e97d346918a819d02be28d699ed1d9cdfcb
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
-Imports: methods, utils
-
 Package: rmarkdown
 Version: 2.29
 Depends: R (>= 3.0), R (>= 4.5), R (< 4.5.99)
@@ -4861,3 +4826,38 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice,
         latticeExtra, gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer, htm2txt
 Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
+
+Package: lava
+Version: 1.8.1
+Depends: R (>= 3.0), R (>= 4.5), R (< 4.5.99)
+License: GPL-3
+File: lava_1.8.1_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/lava/releases/download/1.8.1/lava_1.8.1_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.5.0; ; 2025-01-12 17:20:14 UTC; unix
+Filesize: 2568471
+SHA256: b32f13ca06059acd2491a02e208766bd5470a07e457009606f3a8d967f70781d
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: KernSmooth, Rgraphviz, data.table, ellipse, fields, geepack, graph, knitr, rmarkdown, igraph (>= 0.6), lavaSearch2, lme4 (>= 1.1.35.1), MASS, Matrix (>= 1.6.3), mets (>= 1.1), nlme, optimx,
+        polycor, quantreg, rgl, targeted (>= 0.4), testthat (>= 0.11), visNetwork
+Imports: cli, future.apply, graphics, grDevices, methods, numDeriv, progressr, stats, survival, SQUAREM, utils
+
+Package: Rcpp
+Version: 1.0.14
+Depends: R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: Rcpp_1.0.14_b4_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/Rcpp/releases/download/1.0.14/Rcpp_1.0.14_b4_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-01-12 17:20:14 UTC; unix
+Filesize: 3784121
+SHA256: d0d311e287dd18ebec9056ba8304a1d47f0c5d4d0c7c4f172f4a2c661c425036
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
+Imports: methods, utils
