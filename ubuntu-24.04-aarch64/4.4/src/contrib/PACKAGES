@@ -3459,22 +3459,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: RUnit
 Imports: graphics, utils, stats
 
-Package: bit64
-Version: 4.5.2
-Depends: R (>= 3.0.1), bit (>= 4.0.0), utils, methods, stats, R (>= 4.4), R (< 4.4.99)
-License: GPL-2 | GPL-3
-File: bit64_4.5.2_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/bit64/releases/download/4.5.2/bit64_4.5.2_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-09-22 23:25:44 UTC; unix
-Filesize: 599497
-SHA256: c528e818298e5fccb47f13e0e2819f67b3c53faec706b74e315bcb4dde1e5270
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: randomForest
 Version: 4.7-1.2
 Depends: R (>= 4.1.0), stats, R (>= 4.4), R (< 4.4.99)
@@ -3560,25 +3544,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: crayon, DBI (>= 1.2.0), dplyr, knitr, magrittr, rlang, rmarkdown, RSQLite, testthat (>= 3.2.0), vctrs (>= 0.3.0), waldo (>= 0.5.3), withr
 Imports: methods
-
-Package: raster
-Version: 3.6-30
-Depends: sp (>= 1.4-5), R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 3)
-File: raster_3.6-30_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/raster/releases/download/3.6-30/raster_3.6-30_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-10-02 23:25:43 UTC; unix
-Filesize: 7108601
-SHA256: 4494cb828cfb61da0242da20cc95007b40d092131556b0b198f2e9392fcfd43e
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: ncdf4, igraph, tcltk, parallel, rasterVis, MASS, sf, tinytest, gstat, fields, exactextractr
-Imports: Rcpp, methods, terra (>= 1.7-29)
-LinkingTo: Rcpp
 
 Package: askpass
 Version: 1.2.1
@@ -3889,22 +3854,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: datasets, stats, tools, listenv (>= 0.8.0), R.rsp, markdown
 Imports: globals (>= 0.16.1), parallel, utils
-
-Package: pkgbuild
-Version: 1.4.5
-Depends: R (>= 3.5), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: pkgbuild_1.4.5_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/pkgbuild/releases/download/1.4.5/pkgbuild_1.4.5_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.4.1; ; 2024-10-28 23:24:36 UTC; unix
-Filesize: 203354
-SHA256: b68d198b0a3b41505b19d5b5aaee0fb0b3bd1e0e04776a504ee490268c1706bc
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, cpp11, knitr, Rcpp, rmarkdown, testthat (>= 3.2.0), withr (>= 2.3.0)
-Imports: callr (>= 3.2.0), cli (>= 3.4.0), desc, processx, R6
 
 Package: withr
 Version: 3.0.2
@@ -5033,3 +4982,56 @@ Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2
 Imports: methods, Rcpp (>= 1.0-10)
 SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
 LinkingTo: Rcpp
+
+Package: bit64
+Version: 4.6.0-1
+Depends: R (>= 3.4.0), bit (>= 4.0.0), R (>= 4.4), R (< 4.4.99)
+License: GPL-2 | GPL-3
+File: bit64_4.6.0-1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/bit64/releases/download/4.6.0-1/bit64_4.6.0-1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-16 23:25:03 UTC; unix
+Filesize: 599448
+SHA256: 16ef18574b7a5556d61d1d89945a7beb5bd2f2c9c2f75351c33f4fcc5f35ceb7
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat (>= 3.0.3), withr
+Imports: graphics, methods, stats, utils
+
+Package: raster
+Version: 3.6-31
+Depends: sp (>= 1.4-5), R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 3)
+File: raster_3.6-31_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/raster/releases/download/3.6-31/raster_3.6-31_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-16 23:25:06 UTC; unix
+Filesize: 7128688
+SHA256: caaf443f192aaa240817be65823f876816a1f58ff52510826555762c6bcefe94
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: ncdf4, igraph, tcltk, parallel, rasterVis, MASS, sf, tinytest, gstat, fields, exactextractr
+Imports: Rcpp, methods, terra (>= 1.8-5)
+LinkingTo: Rcpp
+
+Package: pkgbuild
+Version: 1.4.6
+Depends: R (>= 3.5), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: pkgbuild_1.4.6_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/pkgbuild/releases/download/1.4.6/pkgbuild_1.4.6_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.2; ; 2025-01-16 23:25:13 UTC; unix
+Filesize: 203814
+SHA256: 0838e028c04beec5f40389a5173edc22d0017d3a36c756f81acefc295d21daf4
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, cpp11, knitr, Rcpp, rmarkdown, testthat (>= 3.2.0), withr (>= 2.3.0)
+Imports: callr (>= 3.2.0), cli (>= 3.4.0), desc, processx, R6
