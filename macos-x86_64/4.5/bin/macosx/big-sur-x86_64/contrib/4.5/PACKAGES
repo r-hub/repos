@@ -3382,22 +3382,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: RUnit
 Imports: graphics, utils, stats
 
-Package: bit64
-Version: 4.5.2
-Depends: R (>= 3.0.1), bit (>= 4.0.0), utils, methods, stats, R (>= 4.5), R (< 4.5.99)
-License: GPL-2 | GPL-3
-File: bit64_4.5.2_b2_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/bit64/releases/download/4.5.2/bit64_4.5.2_b2_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-09-22 17:35:21 UTC; unix
-Filesize: 505011
-SHA256: 6c968560a4dd773a13911a2db7918dc0443362d251124804e36fa2cb9b3d3833
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: randomForest
 Version: 4.7-1.2
 Depends: R (>= 4.1.0), stats, R (>= 4.5), R (< 4.5.99)
@@ -4855,3 +4839,21 @@ Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2
 Imports: methods, Rcpp (>= 1.0-10)
 SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
 LinkingTo: Rcpp
+
+Package: bit64
+Version: 4.6.0-1
+Depends: R (>= 3.4.0), bit (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
+License: GPL-2 | GPL-3
+File: bit64_4.6.0-1_b3_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/bit64/releases/download/4.6.0-1/bit64_4.6.0-1_b3_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2025-01-16 17:33:41 UTC; unix
+Filesize: 505050
+SHA256: fa00d6c949b03ee82e06d22f3109988c78c4220704856bfa228a3a5162d4a9a4
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat (>= 3.0.3), withr
+Imports: graphics, methods, stats, utils
