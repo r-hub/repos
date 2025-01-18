@@ -4244,22 +4244,6 @@ Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, db
 Imports: methods, utils
 SystemRequirements: xz (for building from source)
 
-Package: httr2
-Version: 1.0.7
-Depends: R (>= 4.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: httr2_1.0.7_b6_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/httr2/releases/download/1.0.7/httr2_1.0.7_b6_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.4.2; ; 2024-12-09 19:50:22 UTC; unix
-Filesize: 644520
-SHA256: 796e4e26efc8a8beb9323715c942bf5e0325f8718625dde358f97275bb5dbb09
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later (>= 1.4.0), paws.common, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
-Imports: cli (>= 3.0.0), curl (>= 6.0.1), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
-
 Package: RSQLite
 Version: 2.3.9
 Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
@@ -5035,3 +5019,19 @@ Suggests: MASS, markdown (>= 1.12), rmarkdown (>= 2.16), deldir (>= 1.0-4), orie
 Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
 SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
         (optional), libpng (>=1.2.9, optional), FreeType (optional)
+
+Package: httr2
+Version: 1.1.0
+Depends: R (>= 4.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: httr2_1.1.0_b7_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/httr2/releases/download/1.1.0/httr2_1.1.0_b7_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.2; ; 2025-01-18 23:23:30 UTC; unix
+Filesize: 680147
+SHA256: 77e7c75d66a825ee737dbb282e04905e75704cb076938d1cff42f6d42e807ee0
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later (>= 1.4.0), paws.common, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
+Imports: cli (>= 3.0.0), curl (>= 6.1.0), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
