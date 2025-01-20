@@ -1761,26 +1761,6 @@ Platform: s390x-ibm-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: textshaping
-Version: 0.4.1
-Depends: R (>= 3.2.0), R (>= 4.1), R (< 4.1.99)
-Suggests: covr, knitr, rmarkdown
-License: MIT + file LICENSE
-File: textshaping_0.4.1_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/textshaping/releases/download/0.4.1/textshaping_0.4.1_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-12-07 14:32:19 UTC; unix
-Filesize: 1015464
-SHA256: c81bbeef68366b6da10180fd00ba64ca643dda301a3e8f1db49aa79d29e70a23
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: lifecycle, systemfonts (>= 1.1.0)
-OS: linux
-Arch: s390x
-SystemRequirements: freetype2, harfbuzz, fribidi
-LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
-
 Package: data.table
 Version: 1.16.4
 Depends: R (>= 3.3.0), R (>= 4.1), R (< 4.1.99)
@@ -2020,26 +2000,6 @@ Imports: brio (>= 1.1.3), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.2), dig
 OS: linux
 Arch: s390x
 
-Package: systemfonts
-Version: 1.2.0
-Depends: R (>= 3.2.0), R (>= 4.1), R (< 4.1.99)
-Suggests: covr, farver, graphics, knitr, rmarkdown, testthat (>= 2.1.0), tools
-License: MIT + file LICENSE
-File: systemfonts_1.2.0_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/systemfonts/releases/download/1.2.0/systemfonts_1.2.0_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; s390x-ibm-linux-gnu; 2025-01-17 14:32:25 UTC; unix
-Filesize: 2483530
-SHA256: 08027ea3c346d4897320e03f886b9726943aa83db0b0c53e2c9f13c4c6adc113
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: grid, jsonlite, lifecycle, utils
-OS: linux
-Arch: s390x
-SystemRequirements: fontconfig, freetype2
-LinkingTo: cpp11 (>= 0.2.1)
-
 Package: pak
 Version: 0.8.0.1
 Depends: R (>= 3.5), R (>= 4.1), R (< 4.1.99)
@@ -2111,3 +2071,43 @@ Imports: utils
 OS: linux
 Arch: s390x
 Enhances: winch
+
+Package: textshaping
+Version: 1.0.0
+Depends: R (>= 3.2.0), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, grDevices, grid, knitr, rmarkdown, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: textshaping_1.0.0_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/textshaping/releases/download/1.0.0/textshaping_1.0.0_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2025-01-20 14:37:18 UTC; unix
+Filesize: 1367062
+SHA256: 92be84f2727e4ea412c903d8749a1510c124237f55e73da263eb308e7f532ddf
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: lifecycle, stats, stringi, systemfonts (>= 1.1.0), utils
+OS: linux
+Arch: s390x
+SystemRequirements: freetype2, harfbuzz, fribidi
+LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
+
+Package: systemfonts
+Version: 1.2.1
+Depends: R (>= 3.2.0), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, farver, graphics, knitr, rmarkdown, testthat (>= 2.1.0)
+License: MIT + file LICENSE
+File: systemfonts_1.2.1_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/systemfonts/releases/download/1.2.1/systemfonts_1.2.1_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2025-01-20 14:33:42 UTC; unix
+Filesize: 2484062
+SHA256: 059bd3b881073b97bbd7d439c448f8c0ffec191d4ce4683fd82e8081866c3ee8
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: grid, jsonlite, lifecycle, tools, utils
+OS: linux
+Arch: s390x
+SystemRequirements: fontconfig, freetype2
+LinkingTo: cpp11 (>= 0.2.1)
