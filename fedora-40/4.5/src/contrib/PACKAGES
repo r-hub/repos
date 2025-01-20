@@ -4134,26 +4134,6 @@ Suggests: callr, cli, DBItest (>= 1.8.0), decor, gert, gh, hms, knitr, magrittr,
 Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
 LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
 
-Package: textshaping
-Version: 0.4.1
-Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: textshaping_0.4.1_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/textshaping/releases/download/0.4.1/textshaping_0.4.1_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-12-06 17:25:41 UTC; unix
-Filesize: 1031440
-SHA256: 9cb486ef3b6880204f53b0b14432c4a076a5ee3686ef0fd1b4534a840fab1764
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, knitr, rmarkdown
-Imports: lifecycle, systemfonts (>= 1.1.0)
-SystemRequirements: freetype2, harfbuzz, fribidi
-LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
-
 Package: data.table
 Version: 1.16.4
 Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
@@ -4752,26 +4732,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat (>= 3.0.3), withr
 Imports: graphics, methods, stats, utils
 
-Package: systemfonts
-Version: 1.2.0
-Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: systemfonts_1.2.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/systemfonts/releases/download/1.2.0/systemfonts_1.2.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-01-17 17:25:01 UTC; unix
-Filesize: 2478676
-SHA256: 686bde2aa47ccea00bd8f5bbb2c98d670bc43491f68f3d154a62a2f59601a796
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, farver, graphics, knitr, rmarkdown, testthat (>= 2.1.0), tools
-Imports: grid, jsonlite, lifecycle, utils
-SystemRequirements: fontconfig, freetype2
-LinkingTo: cpp11 (>= 0.2.1)
-
 Package: rlang
 Version: 1.1.5
 Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
@@ -4863,3 +4823,43 @@ Suggests: MASS, markdown (>= 1.12), rmarkdown (>= 2.16), deldir (>= 1.0-4), orie
 Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
 SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
         (optional), libpng (>=1.2.9, optional), FreeType (optional)
+
+Package: textshaping
+Version: 1.0.0
+Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: textshaping_1.0.0_b3_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/textshaping/releases/download/1.0.0/textshaping_1.0.0_b3_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-01-20 17:23:08 UTC; unix
+Filesize: 1401662
+SHA256: cb24480a88db25e6a5d0652064e2146ce08fa9cc33385e375200d310d73ccbf6
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, grDevices, grid, knitr, rmarkdown, testthat (>= 3.0.0)
+Imports: lifecycle, stats, stringi, systemfonts (>= 1.1.0), utils
+SystemRequirements: freetype2, harfbuzz, fribidi
+LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
+
+Package: systemfonts
+Version: 1.2.1
+Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: systemfonts_1.2.1_b3_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/systemfonts/releases/download/1.2.1/systemfonts_1.2.1_b3_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-01-20 17:22:42 UTC; unix
+Filesize: 2480284
+SHA256: 8e5e3b1246690ebc118e7c3d606ccbe302fdf093fd6f945dc2134d1c5496b878
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, farver, graphics, knitr, rmarkdown, testthat (>= 2.1.0)
+Imports: grid, jsonlite, lifecycle, tools, utils
+SystemRequirements: fontconfig, freetype2
+LinkingTo: cpp11 (>= 0.2.1)
