@@ -4134,26 +4134,6 @@ Suggests: callr, cli, DBItest (>= 1.8.0), decor, gert, gh, hms, knitr, magrittr,
 Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
 LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
 
-Package: textshaping
-Version: 0.4.1
-Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: textshaping_0.4.1_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/textshaping/releases/download/0.4.1/textshaping_0.4.1_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-12-06 16:43:36 UTC; unix
-Filesize: 1011389
-SHA256: a8ccde96100025d79425be69ba006a83c83f02398d1fb1ef0959ac3d8ee60753
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, knitr, rmarkdown
-Imports: lifecycle, systemfonts (>= 1.1.0)
-SystemRequirements: freetype2, harfbuzz, fribidi
-LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
-
 Package: data.table
 Version: 1.16.4
 Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
@@ -4752,26 +4732,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat (>= 3.0.3), withr
 Imports: graphics, methods, stats, utils
 
-Package: systemfonts
-Version: 1.2.0
-Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: systemfonts_1.2.0_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/systemfonts/releases/download/1.2.0/systemfonts_1.2.0_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-01-17 16:40:40 UTC; unix
-Filesize: 2437368
-SHA256: b3299a19245a866e2b36b62c13b53995713a681645e028e1a386f98d9a5c37ad
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, farver, graphics, knitr, rmarkdown, testthat (>= 2.1.0), tools
-Imports: grid, jsonlite, lifecycle, utils
-SystemRequirements: fontconfig, freetype2
-LinkingTo: cpp11 (>= 0.2.1)
-
 Package: rlang
 Version: 1.1.5
 Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
@@ -4863,3 +4823,43 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later (>= 1.4.0), paws.common, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
 Imports: cli (>= 3.0.0), curl (>= 6.1.0), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
+
+Package: textshaping
+Version: 1.0.0
+Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: textshaping_1.0.0_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/textshaping/releases/download/1.0.0/textshaping_1.0.0_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-01-20 16:40:28 UTC; unix
+Filesize: 1379105
+SHA256: fd374818763d1d7e3da4073d008116ae50077c4a123e91e4a178d4a63478d745
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, grDevices, grid, knitr, rmarkdown, testthat (>= 3.0.0)
+Imports: lifecycle, stats, stringi, systemfonts (>= 1.1.0), utils
+SystemRequirements: freetype2, harfbuzz, fribidi
+LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
+
+Package: systemfonts
+Version: 1.2.1
+Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: systemfonts_1.2.1_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/systemfonts/releases/download/1.2.1/systemfonts_1.2.1_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-01-20 16:40:01 UTC; unix
+Filesize: 2438465
+SHA256: a41725bd61b1de62eacbb901bce905ed494674fb7b712f6e5202624a97613d99
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, farver, graphics, knitr, rmarkdown, testthat (>= 2.1.0)
+Imports: grid, jsonlite, lifecycle, tools, utils
+SystemRequirements: fontconfig, freetype2
+LinkingTo: cpp11 (>= 0.2.1)
