@@ -4104,26 +4104,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++11, A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
 
-Package: textshaping
-Version: 0.4.1
-Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
-Imports: lifecycle, systemfonts (>= 1.1.0)
-Suggests: covr, knitr, rmarkdown
-License: MIT + file LICENSE
-File: textshaping_0.4.1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/textshaping/releases/download/0.4.1/textshaping_0.4.1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2024-12-09 18:43:47 UTC; unix
-Filesize: 986483
-SHA256: 58a5e9bb556d47f80f206907a84c11ba4f43af8e6a7d513a03b828f83b703ffa
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: freetype2, harfbuzz, fribidi
-LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
-
 Package: RSQLite
 Version: 2.3.9
 Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
@@ -4943,26 +4923,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: systemfonts
-Version: 1.2.0
-Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
-Imports: grid, jsonlite, lifecycle, utils
-Suggests: covr, farver, graphics, knitr, rmarkdown, testthat (>= 2.1.0), tools
-License: MIT + file LICENSE
-File: systemfonts_1.2.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/systemfonts/releases/download/1.2.0/systemfonts_1.2.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-17 18:37:55 UTC; unix
-Filesize: 2378440
-SHA256: dfa7de7be8eb81abceaf311b7b8e31c5ad5da6a7e908c97c4c6c7d0884a020b9
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: fontconfig, freetype2
-LinkingTo: cpp11 (>= 0.2.1)
-
 Package: pkgbuild
 Version: 1.4.6
 Depends: R (>= 3.5), R (>= 4.4), R (< 4.4.99)
@@ -5048,8 +5008,8 @@ DownloadURL: https://github.com/cran/rlang/releases/download/1.1.5/rlang_1.1.5_b
 OS: linux
 Arch: arm64
 Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-17 18:36:52 UTC; unix
-Filesize: 2064845
-SHA256: 4c22a087c820d28e4dbc7f41148952c22566a74fb655aa90487c64ffdc1c5f5c
+Filesize: 2064846
+SHA256: a664419c56441d8f9d0ea9e375cc9dfb5b30bbe038205f33b779bc46c81e2e5f
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -5067,9 +5027,49 @@ DownloadURL: https://github.com/cran/cli/releases/download/3.6.3/cli_3.6.3_b2_R4
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-22 18:32:00 UTC; unix
-Filesize: 1417981
-SHA256: 65d8ebc09a9e403751f66c3d900971cf742b45c8c0163c43b16a31b6191118ea
+Filesize: 1417979
+SHA256: afb00d69662346789c92274f6c6e5fe2a67fd90d429656892448e564e74a3a23
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: textshaping
+Version: 1.0.0
+Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
+Imports: lifecycle, stats, stringi, systemfonts (>= 1.1.0), utils
+Suggests: covr, grDevices, grid, knitr, rmarkdown, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: textshaping_1.0.0_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/textshaping/releases/download/1.0.0/textshaping_1.0.0_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-20 18:37:16 UTC; unix
+Filesize: 1355440
+SHA256: 88c3595ee803fd9af2923d2100d17b09b53c9396f3492245c95796c953f80f2c
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: freetype2, harfbuzz, fribidi
+LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
+
+Package: systemfonts
+Version: 1.2.1
+Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
+Imports: grid, jsonlite, lifecycle, tools, utils
+Suggests: covr, farver, graphics, knitr, rmarkdown, testthat (>= 2.1.0)
+License: MIT + file LICENSE
+File: systemfonts_1.2.1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/systemfonts/releases/download/1.2.1/systemfonts_1.2.1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-20 18:36:43 UTC; unix
+Filesize: 2379277
+SHA256: 299853d20e1ed95f9f07cf3c3dc163686371bf09481d3529256a92ee61e1cecb
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: fontconfig, freetype2
+LinkingTo: cpp11 (>= 0.2.1)
