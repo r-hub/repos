@@ -939,25 +939,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: clock
-Version: 0.7.1
-Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: clock_0.7.1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/clock/releases/download/0.7.1/clock_0.7.1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-20 15:11:01 UTC; unix
-Filesize: 7079370
-SHA256: cf513f2d358c9e80bda41b7929c6c1f12ff65491cb8815464245fdb099efef44
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, knitr, magrittr, pillar, rmarkdown, slider (>= 0.3.0), testthat (>= 3.0.0), withr
-Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), rlang (>= 1.1.0), tzdb (>= 0.4.0), vctrs (>= 0.6.1)
-LinkingTo: cpp11 (>= 0.4.3), tzdb (>= 0.4.0)
-
 Package: conflicted
 Version: 1.2.0
 Depends: R (>= 3.2), R (>= 4.4), R (< 4.4.99)
@@ -5035,3 +5016,22 @@ Suggests: covr, farver, graphics, knitr, rmarkdown, testthat (>= 2.1.0)
 Imports: grid, jsonlite, lifecycle, tools, utils
 SystemRequirements: fontconfig, freetype2
 LinkingTo: cpp11 (>= 0.2.1)
+
+Package: clock
+Version: 0.7.2
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: clock_0.7.2_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/clock/releases/download/0.7.2/clock_0.7.2_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-22 23:23:52 UTC; unix
+Filesize: 7236659
+SHA256: 4b060fd65527c9265bbbe43a09879c2bd69b9288a670536990e062562ba68b2a
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, knitr, magrittr, pillar, rmarkdown, slider (>= 0.3.0), testthat (>= 3.0.0), withr
+Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), rlang (>= 1.1.0), tzdb (>= 0.4.0), vctrs (>= 0.6.1)
+LinkingTo: cpp11 (>= 0.5.1), tzdb (>= 0.4.0)
