@@ -1434,24 +1434,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: yardstick
-Version: 1.3.1
-Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-Imports: cli, dplyr (>= 1.1.0), generics (>= 0.1.2), hardhat (>= 1.3.0), lifecycle (>= 1.0.3), rlang (>= 1.1.0), tibble, tidyselect (>= 1.2.0), utils, vctrs (>= 0.5.0), withr
-Suggests: covr, crayon, ggplot2, knitr, probably (>= 1.0.0), rmarkdown, survival (>= 3.5-0), testthat (>= 3.0.0), tidyr
-License: MIT + file LICENSE
-File: yardstick_1.3.1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/yardstick/releases/download/1.3.1/yardstick_1.3.1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-16 07:56:13 UTC; unix
-Filesize: 1098483
-SHA256: 6c5d52432def36cfdaea8acd8c0944a8646b028eedc680ecfa913ca12b4af3c1
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: blob
 Version: 1.2.4
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -3437,25 +3419,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: Matrix
-Version: 1.7-1
-Depends: R (>= 4.4.0), methods, R (>= 4.4), R (< 4.4.99)
-Imports: grDevices, graphics, grid, lattice, stats, utils
-Suggests: MASS, datasets, sfsmisc, tools
-Enhances: SparseM, graph
-License: GPL (>= 2) | file LICENCE
-File: Matrix_1.7-1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/Matrix/releases/download/1.7-1/Matrix_1.7-1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-10-29 18:42:11 UTC; unix
-Filesize: 6847781
-SHA256: b5cbdc5ecf176de9745e4fd660e223fac1153037cd476eab685927573fbbf80c
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: boot
 Version: 1.3-31
 Depends: R (>= 3.0.0), graphics, stats, R (>= 4.4), R (< 4.4.99)
@@ -4600,27 +4563,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
 
-Package: igraph
-Version: 2.1.3
-Depends: methods, R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang, stats, utils, vctrs
-Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl (>= 1.3.14), rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
-Enhances: graph
-License: GPL (>= 2)
-File: igraph_2.1.3_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/igraph/releases/download/2.1.3/igraph_2.1.3_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-08 18:40:49 UTC; unix
-Filesize: 10717748
-SHA256: a6722bd4108893e8df55fc5da13a9a86cdeab30e83c614936d56ca90265078e1
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
-LinkingTo: cpp11 (>= 0.5.0)
-
 Package: processx
 Version: 3.8.5
 Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
@@ -5017,44 +4959,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: fontconfig, freetype2
 LinkingTo: cpp11 (>= 0.2.1)
 
-Package: rlang
-Version: 1.1.5
-Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Imports: utils
-Suggests: cli (>= 3.1.0), covr, crayon, fs, glue, knitr, magrittr, methods, pillar, rmarkdown, stats, testthat (>= 3.0.0), tibble, usethis, vctrs (>= 0.2.3), withr
-Enhances: winch
-License: MIT + file LICENSE
-File: rlang_1.1.5_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/rlang/releases/download/1.1.5/rlang_1.1.5_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-17 18:36:52 UTC; unix
-Filesize: 2064844
-SHA256: eff9725e31500980b61d2a15a7a3a2955f340dcfe0babce72bad3ad4bbc8486e
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: cli
-Version: 3.6.3
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-Imports: utils
-Suggests: callr, covr, crayon, digest, glue (>= 1.6.0), grDevices, htmltools, htmlwidgets, knitr, methods, mockery, processx, ps (>= 1.3.4.9000), rlang (>= 1.0.2.9003), rmarkdown, rprojroot,
-        rstudioapi, testthat, tibble, whoami, withr
-License: MIT + file LICENSE
-File: cli_3.6.3_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/cli/releases/download/3.6.3/cli_3.6.3_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-22 18:32:00 UTC; unix
-Filesize: 1417982
-SHA256: 5c5d6ffc82c6566b06dff0b4de966fd79badbb345a5b7a2b2b81604f4190557b
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: clock
 Version: 0.7.2
 Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
@@ -5073,3 +4977,99 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11 (>= 0.5.1), tzdb (>= 0.4.0)
+
+Package: rlang
+Version: 1.1.5
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Imports: utils
+Suggests: cli (>= 3.1.0), covr, crayon, fs, glue, knitr, magrittr, methods, pillar, rmarkdown, stats, testthat (>= 3.0.0), tibble, usethis, vctrs (>= 0.2.3), withr
+Enhances: winch
+License: MIT + file LICENSE
+File: rlang_1.1.5_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/rlang/releases/download/1.1.5/rlang_1.1.5_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-17 18:36:52 UTC; unix
+Filesize: 2064846
+SHA256: 6022a8ed4ba4cb5043322c60d6c1c6297687eed912fac0a0909f16f07eb62397
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: cli
+Version: 3.6.3
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+Imports: utils
+Suggests: callr, covr, crayon, digest, glue (>= 1.6.0), grDevices, htmltools, htmlwidgets, knitr, methods, mockery, processx, ps (>= 1.3.4.9000), rlang (>= 1.0.2.9003), rmarkdown, rprojroot,
+        rstudioapi, testthat, tibble, whoami, withr
+License: MIT + file LICENSE
+File: cli_3.6.3_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/cli/releases/download/3.6.3/cli_3.6.3_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-22 18:32:00 UTC; unix
+Filesize: 1417978
+SHA256: e225deb6ef4c9b7e848946eb458145534bdb7d4672a7fab5fd3c73e4d557e517
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: yardstick
+Version: 1.3.2
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+Imports: cli, dplyr (>= 1.1.0), generics (>= 0.1.2), hardhat (>= 1.3.0), lifecycle (>= 1.0.3), rlang (>= 1.1.4), tibble, tidyselect (>= 1.2.0), utils, vctrs (>= 0.5.0), withr
+Suggests: covr, crayon, ggplot2, knitr, probably (>= 1.0.0), rmarkdown, survival (>= 3.5-0), testthat (>= 3.0.0), tidyr
+License: MIT + file LICENSE
+File: yardstick_1.3.2_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/yardstick/releases/download/1.3.2/yardstick_1.3.2_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-23 18:38:44 UTC; unix
+Filesize: 1100398
+SHA256: 94331fe3c1b69077e7cb78ca227553df401a9ee79d3a4b93fa4ed1e6bfa70034
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: Matrix
+Version: 1.7-2
+Depends: R (>= 4.4), methods, R (>= 4.4), R (< 4.4.99)
+Imports: grDevices, graphics, grid, lattice, stats, utils
+Suggests: MASS, datasets, sfsmisc, tools
+Enhances: SparseM, graph
+License: GPL (>= 2) | file LICENCE
+File: Matrix_1.7-2_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/Matrix/releases/download/1.7-2/Matrix_1.7-2_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-23 18:38:41 UTC; unix
+Filesize: 6866908
+SHA256: 7df60ecb59e2e83203bed6d82d5e8b8549a275ef7fa4b2a189812460feb7ca94
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: igraph
+Version: 2.1.4
+Depends: methods, R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang, stats, utils, vctrs
+Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl (>= 1.3.14), rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
+Enhances: graph
+License: GPL (>= 2)
+File: igraph_2.1.4_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/igraph/releases/download/2.1.4/igraph_2.1.4_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-23 18:41:38 UTC; unix
+Filesize: 10715428
+SHA256: ac26d4ee86ac4385770782b272d2883e39b36678454fe7a904fb953f2638ae4a
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
+LinkingTo: cpp11 (>= 0.5.0)
