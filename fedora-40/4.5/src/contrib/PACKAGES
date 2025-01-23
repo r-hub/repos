@@ -1430,24 +1430,6 @@ Suggests: covr, dials (>= 0.1.0), finetune, kknn, knitr, modeldata, recipes (>= 
 Imports: cli, dplyr (>= 1.0.0), generics (>= 0.1.2), ggplot2, glue, hardhat (>= 1.2.0), lifecycle (>= 1.0.0), parsnip (>= 1.2.0), pillar (>= 1.7.0), prettyunits, purrr, rlang (>= 1.1.0), rsample (>=
         0.0.9), stats, tibble (>= 3.1.0), tidyr, tune (>= 1.2.0), vctrs, withr, workflows (>= 1.1.4)
 
-Package: yardstick
-Version: 1.3.1
-Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: yardstick_1.3.1_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/yardstick/releases/download/1.3.1/yardstick_1.3.1_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-24 21:26:34 UTC; unix
-Filesize: 1142412
-SHA256: 725b5f4082d51f227fd312c42215b20e79e2ad43c30bd6977e4253a99ca1f4c6
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, crayon, ggplot2, knitr, probably (>= 1.0.0), rmarkdown, survival (>= 3.5-0), testthat (>= 3.0.0), tidyr
-Imports: cli, dplyr (>= 1.1.0), generics (>= 0.1.2), hardhat (>= 1.3.0), lifecycle (>= 1.0.3), rlang (>= 1.1.0), tibble, tidyselect (>= 1.2.0), utils, vctrs (>= 0.5.0), withr
-
 Package: blob
 Version: 1.2.4
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -3663,25 +3645,6 @@ Suggests: timeSeries, timeDate, tseries, chron, tinytest
 Imports: methods
 LinkingTo: zoo
 
-Package: Matrix
-Version: 1.7-1
-Depends: R (>= 4.4.0), methods, R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2) | file LICENCE
-File: Matrix_1.7-1_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/Matrix/releases/download/1.7-1/Matrix_1.7-1_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-10-20 17:24:27 UTC; unix
-Filesize: 7258090
-SHA256: 620f5b7529ab2a9d975867c2ac90fd79f7d18049a7e0c74161f324812d3b96ef
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: SparseM, graph
-Suggests: MASS, datasets, sfsmisc, tools
-Imports: grDevices, graphics, grid, lattice, stats, utils
-
 Package: tripack
 Version: 1.3-9.2
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4460,27 +4423,6 @@ Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0
 SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
 
-Package: igraph
-Version: 2.1.3
-Depends: methods, R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: igraph_2.1.3_b4_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/igraph/releases/download/2.1.3/igraph_2.1.3_b4_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-01-08 17:24:22 UTC; unix
-Filesize: 11230084
-SHA256: d0b0610af4aa408304dad6dfaef77ca1677403180ebe49d3d5bec6ca0ad534a7
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: graph
-Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl (>= 1.3.14), rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
-Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang, stats, utils, vctrs
-SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
-LinkingTo: cpp11 (>= 0.5.0)
-
 Package: processx
 Version: 3.8.5
 Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
@@ -4863,3 +4805,61 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, knitr, magrittr, pillar, rmarkdown, slider (>= 0.3.0), testthat (>= 3.0.0), withr
 Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), rlang (>= 1.1.0), tzdb (>= 0.4.0), vctrs (>= 0.6.1)
 LinkingTo: cpp11 (>= 0.5.1), tzdb (>= 0.4.0)
+
+Package: yardstick
+Version: 1.3.2
+Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: yardstick_1.3.2_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/yardstick/releases/download/1.3.2/yardstick_1.3.2_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-01-23 17:24:04 UTC; unix
+Filesize: 1142533
+SHA256: a7bfe7cb52a5697b46e6525fb8a14686da744eb9601977f63b6d8f4263b0c9a5
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, crayon, ggplot2, knitr, probably (>= 1.0.0), rmarkdown, survival (>= 3.5-0), testthat (>= 3.0.0), tidyr
+Imports: cli, dplyr (>= 1.1.0), generics (>= 0.1.2), hardhat (>= 1.3.0), lifecycle (>= 1.0.3), rlang (>= 1.1.4), tibble, tidyselect (>= 1.2.0), utils, vctrs (>= 0.5.0), withr
+
+Package: Matrix
+Version: 1.7-2
+Depends: R (>= 4.4), methods, R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2) | file LICENCE
+File: Matrix_1.7-2_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/Matrix/releases/download/1.7-2/Matrix_1.7-2_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-01-23 17:24:02 UTC; unix
+Filesize: 7263001
+SHA256: b04914df516203e89ca61d3142c6b86eac7cd90ae5e357ac2ae8f1088d62b954
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: SparseM, graph
+Suggests: MASS, datasets, sfsmisc, tools
+Imports: grDevices, graphics, grid, lattice, stats, utils
+
+Package: igraph
+Version: 2.1.4
+Depends: methods, R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: igraph_2.1.4_b5_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/igraph/releases/download/2.1.4/igraph_2.1.4_b5_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-01-23 17:26:50 UTC; unix
+Filesize: 11234543
+SHA256: 8b6056cd4247f1d1b0c1a9931b0b4c6ab8803e5d2226315625ea878427bb8005
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: graph
+Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl (>= 1.3.14), rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
+Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang, stats, utils, vctrs
+SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
+LinkingTo: cpp11 (>= 0.5.0)
