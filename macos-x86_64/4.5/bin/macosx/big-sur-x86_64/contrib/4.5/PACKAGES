@@ -3098,24 +3098,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: tinytest, simplermarkdown
 Imports: utils
 
-Package: RcppParallel
-Version: 5.1.9
-Depends: R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 3)
-File: RcppParallel_5.1.9_b3_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/RcppParallel/releases/download/5.1.9/RcppParallel_5.1.9_b3_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-08-20 17:32:15 UTC; unix
-Filesize: 574702
-SHA256: f6808c4488fe275c0e07405d17e62414d57aa020f1391987fe7aa1a99d5a3437
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: Rcpp, RUnit, knitr, rmarkdown
-SystemRequirements: GNU make, Intel TBB, Windows: cmd.exe and cscript.exe, Solaris: g++ is required
-
 Package: RcppEigen
 Version: 0.3.4.0.2
 Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
@@ -3624,25 +3606,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: timeSeries, timeDate, tseries, chron, tinytest
 Imports: methods
 LinkingTo: zoo
-
-Package: Matrix
-Version: 1.7-1
-Depends: R (>= 4.4.0), methods, R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2) | file LICENCE
-File: Matrix_1.7-1_b1_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/Matrix/releases/download/1.7-1/Matrix_1.7-1_b1_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2024-10-20 17:34:31 UTC; unix
-Filesize: 5085469
-SHA256: df4c4bd1aac7099e8cf3fe0e1754ac65faf716d7b1a897fb759e8ee631a885f7
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: SparseM, graph
-Suggests: MASS, datasets, sfsmisc, tools
-Imports: grDevices, graphics, grid, lattice, stats, utils
 
 Package: tripack
 Version: 1.3-9.2
@@ -4276,24 +4239,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: bitops, RCurl
 SystemRequirements: libxml2 (>= 2.6.3)
 
-Package: curl
-Version: 6.1.0
-Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: curl_6.1.0_b6_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/curl/releases/download/6.1.0/curl_6.1.0_b6_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2025-01-06 17:34:10 UTC; unix
-Filesize: 777054
-SHA256: 90103b9ccbd69c0d4f0326ba6309a5832da3251a2db5f31341fc9a01929232db
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
-SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
-
 Package: bookdown
 Version: 0.42
 Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
@@ -4418,27 +4363,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: knitr, rmarkdown, tinytest
 SystemRequirements: GNU make
-
-Package: igraph
-Version: 2.1.3
-Depends: methods, R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: igraph_2.1.3_b4_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/igraph/releases/download/2.1.3/igraph_2.1.3_b4_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2025-01-08 17:37:19 UTC; unix
-Filesize: 5861639
-SHA256: d69fe07844d67c4023d4d5ee00226bf2d4baa847bf70b587a7613047103e969e
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: graph
-Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl (>= 1.3.14), rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
-Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang, stats, utils, vctrs
-SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
-LinkingTo: cpp11 (>= 0.5.0)
 
 Package: processx
 Version: 3.8.5
@@ -4651,26 +4575,6 @@ Suggests: covr, curl (>= 0.9.5), diffviewer (>= 0.1.0), knitr, rmarkdown, rstudi
 Imports: brio (>= 1.1.3), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.2), digest (>= 0.6.33), evaluate (>= 1.0.1), jsonlite (>= 1.8.7), lifecycle (>= 1.0.3), magrittr (>= 2.0.3), methods, pkgload
         (>= 1.3.2.1), praise (>= 1.0.0), processx (>= 3.8.2), ps (>= 1.7.5), R6 (>= 2.5.1), rlang (>= 1.1.1), utils, waldo (>= 0.6.0), withr (>= 3.0.2)
 
-Package: terra
-Version: 1.8-10
-Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 3)
-File: terra_1.8-10_b5_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/terra/releases/download/1.8-10/terra_1.8-10_b5_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2025-01-14 17:33:29 UTC; unix
-Filesize: 21391392
-SHA256: 5495d60d3e36b33443b12ea3c3d44e0d53a095e1a6c5de9a5d51def1f28d009d
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
-Imports: methods, Rcpp (>= 1.0-10)
-SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
-LinkingTo: Rcpp
-
 Package: bit64
 Version: 4.6.0-1
 Depends: R (>= 3.4.0), bit (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
@@ -4878,3 +4782,99 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, crayon, ggplot2, knitr, probably (>= 1.0.0), rmarkdown, survival (>= 3.5-0), testthat (>= 3.0.0), tidyr
 Imports: cli, dplyr (>= 1.1.0), generics (>= 0.1.2), hardhat (>= 1.3.0), lifecycle (>= 1.0.3), rlang (>= 1.1.4), tibble, tidyselect (>= 1.2.0), utils, vctrs (>= 0.5.0), withr
+
+Package: RcppParallel
+Version: 5.1.10
+Depends: R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 3)
+File: RcppParallel_5.1.10_b4_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/RcppParallel/releases/download/5.1.10/RcppParallel_5.1.10_b4_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2025-01-24 02:29:49 UTC; unix
+Filesize: 593099
+SHA256: bc6eaabe65629ed26ced21fc92546762e55bd181cf87318e79e878e63e5df79a
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: Rcpp, RUnit, knitr, rmarkdown
+SystemRequirements: GNU make, Intel TBB, Windows: cmd.exe and cscript.exe, Solaris: g++ is required
+
+Package: Matrix
+Version: 1.7-2
+Depends: R (>= 4.4), methods, R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2) | file LICENCE
+File: Matrix_1.7-2_b2_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/Matrix/releases/download/1.7-2/Matrix_1.7-2_b2_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2025-01-23 18:34:00 UTC; unix
+Filesize: 6960896
+SHA256: 5bf229a1c51069182c89beb1763ec36a99d6702721fc526ce8c28549d6677d84
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: SparseM, graph
+Suggests: MASS, datasets, sfsmisc, tools
+Imports: grDevices, graphics, grid, lattice, stats, utils
+
+Package: curl
+Version: 6.2.0
+Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: curl_6.2.0_b7_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/curl/releases/download/6.2.0/curl_6.2.0_b7_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2025-01-23 20:30:08 UTC; unix
+Filesize: 3361434
+SHA256: ed52279110d19f4512ccde818a66e4736d350db18525525bd51fe6ffe9c8b63f
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
+
+Package: igraph
+Version: 2.1.4
+Depends: methods, R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: igraph_2.1.4_b5_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/igraph/releases/download/2.1.4/igraph_2.1.4_b5_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2025-01-23 12:29:39 UTC; unix
+Filesize: 10343370
+SHA256: 88e4fdd4023836e86c8bf1d6d49f779b7fe02b0908e0a933a63ca9cfa0df2543
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: graph
+Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl (>= 1.3.14), rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
+Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang, stats, utils, vctrs
+SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
+LinkingTo: cpp11 (>= 0.5.0)
+
+Package: terra
+Version: 1.8-15
+Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 3)
+File: terra_1.8-15_b6_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/terra/releases/download/1.8-15/terra_1.8-15_b6_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2025-01-24 17:34:00 UTC; unix
+Filesize: 21412607
+SHA256: ec0d9b08e7730e700c9c0b2656ae656c147e3c4f227da74171aace3ec2376bd5
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
+Imports: methods, Rcpp (>= 1.0-10)
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
+LinkingTo: Rcpp
