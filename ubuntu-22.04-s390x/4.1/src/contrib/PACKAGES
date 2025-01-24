@@ -1818,24 +1818,6 @@ OS: linux
 Arch: s390x
 SystemRequirements: xz (for building from source)
 
-Package: curl
-Version: 6.1.0
-Depends: R (>= 3.0.0), R (>= 4.1), R (< 4.1.99)
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
-License: MIT + file LICENSE
-File: curl_6.1.0_b6_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/curl/releases/download/6.1.0/curl_6.1.0_b6_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; s390x-ibm-linux-gnu; 2025-01-07 15:48:04 UTC; unix
-Filesize: 861307
-SHA256: 2874503972d6a6805800f50884321aeb9418e252010e3e634195664b4b47e312
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-OS: linux
-Arch: s390x
-SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
-
 Package: pillar
 Version: 1.10.1
 Depends: R (>= 4.1), R (< 4.1.99)
@@ -2111,3 +2093,21 @@ OS: linux
 Arch: s390x
 SystemRequirements: fontconfig, freetype2
 LinkingTo: cpp11 (>= 0.2.1)
+
+Package: curl
+Version: 6.2.0
+Depends: R (>= 3.0.0), R (>= 4.1), R (< 4.1.99)
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+License: MIT + file LICENSE
+File: curl_6.2.0_b7_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/curl/releases/download/6.2.0/curl_6.2.0_b7_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2025-01-24 14:32:54 UTC; unix
+Filesize: 860063
+SHA256: b1d042d4dc695c68779c2af3ce512b66e9e50a30c9c8bdde568a9c0fa64f12a2
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+OS: linux
+Arch: s390x
+SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
