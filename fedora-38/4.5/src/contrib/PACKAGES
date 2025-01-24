@@ -3098,24 +3098,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: tinytest, simplermarkdown
 Imports: utils
 
-Package: RcppParallel
-Version: 5.1.9
-Depends: R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 3)
-File: RcppParallel_5.1.9_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/RcppParallel/releases/download/5.1.9/RcppParallel_5.1.9_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-08-20 17:21:43 UTC; unix
-Filesize: 1867936
-SHA256: 7df9bb8b9bd9c572d6e7fad1a88d0397c1bab5d9a79db9a9480089f569da0292
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: Rcpp, RUnit, knitr, rmarkdown
-SystemRequirements: GNU make, Intel TBB, Windows: cmd.exe and cscript.exe, Solaris: g++ is required
-
 Package: RcppEigen
 Version: 0.3.4.0.2
 Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
@@ -4277,24 +4259,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: bitops, RCurl
 SystemRequirements: libxml2 (>= 2.6.3)
 
-Package: curl
-Version: 6.1.0
-Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: curl_6.1.0_b6_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/curl/releases/download/6.1.0/curl_6.1.0_b6_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-01-06 17:22:46 UTC; unix
-Filesize: 878296
-SHA256: 3acdc646872156837d8e71a576075b006814b202980cf50887a097225cc3c705
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
-SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
-
 Package: bookdown
 Version: 0.42
 Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
@@ -4617,26 +4581,6 @@ Suggests: covr, curl (>= 0.9.5), diffviewer (>= 0.1.0), knitr, rmarkdown, rstudi
 Imports: brio (>= 1.1.3), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.2), digest (>= 0.6.33), evaluate (>= 1.0.1), jsonlite (>= 1.8.7), lifecycle (>= 1.0.3), magrittr (>= 2.0.3), methods, pkgload
         (>= 1.3.2.1), praise (>= 1.0.0), processx (>= 3.8.2), ps (>= 1.7.5), R6 (>= 2.5.1), rlang (>= 1.1.1), utils, waldo (>= 0.6.0), withr (>= 3.0.2)
 
-Package: terra
-Version: 1.8-10
-Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 3)
-File: terra_1.8-10_b5_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/terra/releases/download/1.8-10/terra_1.8-10_b5_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-01-14 17:22:09 UTC; unix
-Filesize: 32046783
-SHA256: 0ad0b01709a286197d3e8dd36dd9238a27c33daf7f4d0213fa1efc185f7b5151
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
-Imports: methods, Rcpp (>= 1.0-10)
-SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
-LinkingTo: Rcpp
-
 Package: bit64
 Version: 4.6.0-1
 Depends: R (>= 3.4.0), bit (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
@@ -4863,3 +4807,59 @@ Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl (>= 1.3
 Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang, stats, utils, vctrs
 SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
 LinkingTo: cpp11 (>= 0.5.0)
+
+Package: RcppParallel
+Version: 5.1.10
+Depends: R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 3)
+File: RcppParallel_5.1.10_b4_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/RcppParallel/releases/download/5.1.10/RcppParallel_5.1.10_b4_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-01-24 17:22:58 UTC; unix
+Filesize: 1963233
+SHA256: 568db821a6a98cbd4acbaebb5be9c63cad0a64915c66e7d1ea63b13432b91358
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: Rcpp, RUnit, knitr, rmarkdown
+SystemRequirements: GNU make, Intel TBB, Windows: cmd.exe and cscript.exe, Solaris: g++ is required
+
+Package: curl
+Version: 6.2.0
+Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: curl_6.2.0_b7_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/curl/releases/download/6.2.0/curl_6.2.0_b7_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-01-24 17:22:58 UTC; unix
+Filesize: 880002
+SHA256: a7fc69b2119767f6c08c8d6762fcdb346459d61be519567e8c3902d9c50d6514
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
+
+Package: terra
+Version: 1.8-15
+Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 3)
+File: terra_1.8-15_b6_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/terra/releases/download/1.8-15/terra_1.8-15_b6_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-01-24 17:23:02 UTC; unix
+Filesize: 32114498
+SHA256: 99e19beec459c0c52565175577f5f0d773dd8de495efba888ebb53c85b4ec30f
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
+Imports: methods, Rcpp (>= 1.0-10)
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
+LinkingTo: Rcpp
