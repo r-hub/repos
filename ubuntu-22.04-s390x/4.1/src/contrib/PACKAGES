@@ -1799,25 +1799,6 @@ Arch: s390x
 Enhances: chron, data.table, timeDate, tis, zoo
 SystemRequirements: C++11, A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
 
-Package: duckdb
-Version: 1.1.3-1
-Depends: DBI, R (>= 3.6.0), R (>= 4.1), R (< 4.1.99)
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-License: MIT + file LICENSE
-File: duckdb_1.1.3-1_b6_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.1.3-1/duckdb_1.1.3-1_b6_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-12-08 14:32:16 UTC; unix
-Filesize: 229537236
-SHA256: fdd6c743ce1990559f8aa9a36fd7ea6cda31558cab7cdcaf11a71667aa3c4afd
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: methods, utils
-OS: linux
-Arch: s390x
-SystemRequirements: xz (for building from source)
-
 Package: pillar
 Version: 1.10.1
 Depends: R (>= 4.1), R (< 4.1.99)
@@ -2111,3 +2092,22 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 OS: linux
 Arch: s390x
 SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
+
+Package: duckdb
+Version: 1.1.3-2
+Depends: DBI, R (>= 3.6.0), R (>= 4.1), R (< 4.1.99)
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+License: MIT + file LICENSE
+File: duckdb_1.1.3-2_b7_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.1.3-2/duckdb_1.1.3-2_b7_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2025-01-25 14:30:16 UTC; unix
+Filesize: 229719061
+SHA256: a300d6b3aef850c7b5982e35dab3e8fff4569428d82419b134abf9cec72f966f
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: methods, utils
+OS: linux
+Arch: s390x
+SystemRequirements: xz (for building from source)
