@@ -3061,24 +3061,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, ggplot2, kernlab, knitr, rmarkdown, rpart, testthat (>= 3.1.9), xml2
 Imports: cli, DiceDesign, dplyr (>= 0.8.5), glue, hardhat (>= 1.1.0), lifecycle, pillar, purrr, rlang (>= 1.1.0), sfd, tibble, utils, vctrs (>= 0.3.8), withr
 
-Package: nlme
-Version: 3.1-166
-Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2)
-File: nlme_3.1-166_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/nlme/releases/download/3.1-166/nlme_3.1-166_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-08-14 23:42:01 UTC; unix
-Filesize: 2458631
-SHA256: a00bb3ae4dca43abc4fc3be5e0d90f085e6ecc75a9f96b5ccb1ef781fed6ec6b
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: MASS, SASmixed
-Imports: graphics, stats, utils, lattice
-
 Package: minqa
 Version: 1.2.8
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -5035,3 +5017,21 @@ Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2
 Imports: methods, Rcpp (>= 1.0-10)
 SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
 LinkingTo: Rcpp
+
+Package: nlme
+Version: 3.1-167
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: nlme_3.1-167_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/nlme/releases/download/3.1-167/nlme_3.1-167_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-27 23:23:36 UTC; unix
+Filesize: 2457530
+SHA256: 9d648ddceb15fa6ba86cea59cd931c8e0fbe405433ff9629c660a317a81120cb
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: MASS, SASmixed
+Imports: graphics, stats, utils, lattice
