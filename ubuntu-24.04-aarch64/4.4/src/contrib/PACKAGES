@@ -4079,24 +4079,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
 Imports: methods
 
-Package: quantreg
-Version: 5.99.1
-Depends: R (>= 3.5), stats, SparseM, R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2)
-File: quantreg_5.99.1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/quantreg/releases/download/5.99.1/quantreg_5.99.1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2024-12-09 19:55:10 UTC; unix
-Filesize: 1576291
-SHA256: d85f6f9c24215a38b1f25e28948624c9824f5fcea3a31f1dc0d29894382debb9
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer
-Imports: methods, graphics, Matrix, MatrixModels, survival, MASS
-
 Package: progressr
 Version: 0.15.1
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -5035,3 +5017,21 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: MASS, SASmixed
 Imports: graphics, stats, utils, lattice
+
+Package: quantreg
+Version: 6.00
+Depends: R (>= 3.5), stats, SparseM, R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: quantreg_6.00_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/quantreg/releases/download/6.00/quantreg_6.00_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-29 23:23:34 UTC; unix
+Filesize: 1575977
+SHA256: 4aa2e9d7e5280810dcea1a25607b12a6deb9161cefa425a904f0c64831c1bf23
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer
+Imports: methods, graphics, Matrix, MatrixModels, survival, MASS
