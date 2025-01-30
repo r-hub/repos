@@ -3264,22 +3264,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: pdftools
 Imports: commonmark, xml2, hunspell (>= 3.0), knitr
 
-Package: doBy
-Version: 4.6.24
-Depends: R (>= 4.2.0), methods, R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: doBy_4.6.24_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/doBy/releases/download/4.6.24/doBy_4.6.24_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.5.0; ; 2024-10-08 17:07:39 UTC; unix
-Filesize: 4847657
-SHA256: 51ae043f6decce5aaecdce92623c0cdd7b3fad3ea039e7ff4c31f036b8320689
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: geepack, knitr, lme4, markdown, multcomp, pbkrtest (>= 0.5.2), survival, testthat (>= 2.1.0)
-Imports: boot, broom, cowplot, Deriv, dplyr, ggplot2, MASS, Matrix, modelr, microbenchmark, rlang, tibble, tidyr,
-
 Package: wk
 Version: 0.9.4
 Depends: R (>= 2.10), R (>= 4.5), R (< 4.5.99)
@@ -3891,24 +3875,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: parallelly
-Version: 1.41.0
-Depends: R (>= 4.5), R (< 4.5.99)
-License: LGPL (>= 2.1)
-File: parallelly_1.41.0_b6_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/parallelly/releases/download/1.41.0/parallelly_1.41.0_b6_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-12-19 17:07:35 UTC; unix
-Filesize: 504063
-SHA256: 57a2674f9f7d15e0d44296f6272b379068f60f167f09834cfc58d1de5ae3f257
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: commonmark, base64enc
-Imports: parallel, tools, utils
-
 Package: XML
 Version: 3.99-0.18
 Depends: R (>= 4.0.0), methods, utils, R (>= 4.5), R (< 4.5.99)
@@ -4516,3 +4482,37 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer
 Imports: methods, graphics, Matrix, MatrixModels, survival, MASS
+
+Package: doBy
+Version: 4.6.25
+Depends: R (>= 4.2.0), methods, R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: doBy_4.6.25_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/doBy/releases/download/4.6.25/doBy_4.6.25_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.5.0; ; 2025-01-30 17:08:03 UTC; unix
+Filesize: 4846770
+SHA256: 4fb788dac4e63c8011b4271f10a0f328f92b97d3f77ae850b46e31f177e2af62
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: geepack, knitr, lme4, markdown, multcomp, pbkrtest (>= 0.5.2), survival, testthat (>= 2.1.0)
+Imports: boot, broom, cowplot, Deriv, dplyr, ggplot2, MASS, Matrix, modelr, microbenchmark, rlang, tibble, tidyr,
+
+Package: parallelly
+Version: 1.42.0
+Depends: R (>= 4.5), R (< 4.5.99)
+License: LGPL (>= 2.1)
+File: parallelly_1.42.0_b7_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/parallelly/releases/download/1.42.0/parallelly_1.42.0_b7_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-01-30 17:08:01 UTC; unix
+Filesize: 536837
+SHA256: a3c0699713bfb1d803597da37e88bc1506c8aa562aedde95a8cef2994ced537b
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: commonmark, base64enc
+Imports: parallel, tools, utils
