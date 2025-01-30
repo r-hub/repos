@@ -3672,22 +3672,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: zoo
 
-Package: doBy
-Version: 4.6.24
-Depends: R (>= 4.2.0), methods, R (>= 4.4), R (< 4.4.99)
-Imports: boot, broom, cowplot, Deriv, dplyr, ggplot2, MASS, Matrix, modelr, microbenchmark, rlang, tibble, tidyr,
-Suggests: geepack, knitr, lme4, markdown, multcomp, pbkrtest (>= 0.5.2), survival, testthat (>= 2.1.0)
-License: GPL (>= 2)
-File: doBy_4.6.24_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/doBy/releases/download/4.6.24/doBy_4.6.24_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.1; ; 2024-10-29 18:53:26 UTC; unix
-Filesize: 4854000
-SHA256: ab1457a59d2529dbecb88d732666a7d263a2917d902b8af1115ffe97006b715a
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: withr
 Version: 3.0.2
 Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
@@ -4251,24 +4235,6 @@ Arch: arm64
 Built: R 4.4.2; aarch64-unknown-linux-gnu; 2024-12-18 18:42:01 UTC; unix
 Filesize: 8867818
 SHA256: 727916da23480a77a4cd4174a836983ce54f128358f9dad3cbe3ecd8bbb5d4ed
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: parallelly
-Version: 1.41.0
-Depends: R (>= 4.4), R (< 4.4.99)
-Imports: parallel, tools, utils
-Suggests: commonmark, base64enc
-License: LGPL (>= 2.1)
-File: parallelly_1.41.0_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/parallelly/releases/download/1.41.0/parallelly_1.41.0_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2024-12-19 18:39:38 UTC; unix
-Filesize: 511279
-SHA256: 3c6e033c1699c60699bf59073f85babfdf07ca150570c9bd564cb0dd4885bc46
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -5018,6 +4984,24 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
+Package: quantreg
+Version: 6.00
+Depends: R (>= 3.5), stats, SparseM, R (>= 4.4), R (< 4.4.99)
+Imports: methods, graphics, Matrix, MatrixModels, survival, MASS
+Suggests: interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer
+License: GPL (>= 2)
+File: quantreg_6.00_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/quantreg/releases/download/6.00/quantreg_6.00_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-29 18:38:12 UTC; unix
+Filesize: 1573522
+SHA256: 760fe72ab796b6242b7d4f4e2e81fd47386a1408b86e5b16b89fe62361ec7e44
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
 Package: rlang
 Version: 1.1.5
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -5030,8 +5014,8 @@ DownloadURL: https://github.com/cran/rlang/releases/download/1.1.5/rlang_1.1.5_b
 OS: linux
 Arch: arm64
 Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-17 18:36:52 UTC; unix
-Filesize: 2064845
-SHA256: 5bf421f13316ce15699ea8c56a66b06b44ea4e4b43e273acf8c020c9a7c267e9
+Filesize: 2064846
+SHA256: 88fbe5a59d42208e4d4c6536f07fe7c2b3fddd6a3ec0e2cd9faea8494a45fbaf
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -5049,26 +5033,42 @@ DownloadURL: https://github.com/cran/cli/releases/download/3.6.3/cli_3.6.3_b2_R4
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-22 18:32:00 UTC; unix
-Filesize: 1417979
-SHA256: e5cdfe74bf51156e782fa66a0ddb279fd5b28347e1a9030e31169b9f2e52cfe1
+Filesize: 1417974
+SHA256: 3757ef97fc82302b91d92a5873034e759d31bbe82152e6cb70fce4919eb4807e
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: quantreg
-Version: 6.00
-Depends: R (>= 3.5), stats, SparseM, R (>= 4.4), R (< 4.4.99)
-Imports: methods, graphics, Matrix, MatrixModels, survival, MASS
-Suggests: interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer
+Package: doBy
+Version: 4.6.25
+Depends: R (>= 4.2.0), methods, R (>= 4.4), R (< 4.4.99)
+Imports: boot, broom, cowplot, Deriv, dplyr, ggplot2, MASS, Matrix, modelr, microbenchmark, rlang, tibble, tidyr,
+Suggests: geepack, knitr, lme4, markdown, multcomp, pbkrtest (>= 0.5.2), survival, testthat (>= 2.1.0)
 License: GPL (>= 2)
-File: quantreg_6.00_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/quantreg/releases/download/6.00/quantreg_6.00_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+File: doBy_4.6.25_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/doBy/releases/download/4.6.25/doBy_4.6.25_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.2; ; 2025-01-30 18:37:51 UTC; unix
+Filesize: 4850015
+SHA256: 8b04e5ecbb05d8a10fa4a98700c516338a253e9dfb8d03a599db1e07abe17628
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: parallelly
+Version: 1.42.0
+Depends: R (>= 4.4), R (< 4.4.99)
+Imports: parallel, tools, utils
+Suggests: commonmark, base64enc
+License: LGPL (>= 2.1)
+File: parallelly_1.42.0_b6_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/parallelly/releases/download/1.42.0/parallelly_1.42.0_b6_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
 OS: linux
 Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-29 18:38:12 UTC; unix
-Filesize: 1573522
-SHA256: 760fe72ab796b6242b7d4f4e2e81fd47386a1408b86e5b16b89fe62361ec7e44
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-30 18:37:46 UTC; unix
+Filesize: 544024
+SHA256: f1ec172572342ce261144ee53a290e7d520a87b33aae4d6490ecc48b5718e459
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
