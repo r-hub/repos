@@ -3540,22 +3540,6 @@ Suggests: spelling, testthat, knitr, rmarkdown
 Imports: Rcpp, digest
 LinkingTo: Rcpp (>= 0.12.12)
 
-Package: doBy
-Version: 4.6.24
-Depends: R (>= 4.2.0), methods, R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: doBy_4.6.24_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/doBy/releases/download/4.6.24/doBy_4.6.24_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-Built: R 4.5.0; ; 2024-10-08 17:24:29 UTC; unix
-Filesize: 4874431
-SHA256: e044aa4254bb58ded6f5fce544ce6494316236522db813e02633b2873da50af7
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: geepack, knitr, lme4, markdown, multcomp, pbkrtest (>= 0.5.2), survival, testthat (>= 2.1.0)
-Imports: boot, broom, cowplot, Deriv, dplyr, ggplot2, MASS, Matrix, modelr, microbenchmark, rlang, tibble, tidyr,
-
 Package: wk
 Version: 0.9.4
 Depends: R (>= 2.10), R (>= 4.5), R (< 4.5.99)
@@ -4185,24 +4169,6 @@ RVersion: 4.5
 Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: parallelly
-Version: 1.41.0
-Depends: R (>= 4.5), R (< 4.5.99)
-License: LGPL (>= 2.1)
-File: parallelly_1.41.0_b6_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/parallelly/releases/download/1.41.0/parallelly_1.41.0_b6_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-12-19 17:22:47 UTC; unix
-Filesize: 541014
-SHA256: 2dcd11d36656948e5c79e3f20e3e6cbb976731f429ec17b2021f4eafd4061007
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: commonmark, base64enc
-Imports: parallel, tools, utils
 
 Package: XML
 Version: 3.99-0.18
@@ -4863,3 +4829,37 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer
 Imports: methods, graphics, Matrix, MatrixModels, survival, MASS
+
+Package: doBy
+Version: 4.6.25
+Depends: R (>= 4.2.0), methods, R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: doBy_4.6.25_b3_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/doBy/releases/download/4.6.25/doBy_4.6.25_b3_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.5.0; ; 2025-01-30 17:23:08 UTC; unix
+Filesize: 4873087
+SHA256: 32e991bb8966137c43de320d46b0e1548be889c3fd5293c3492bdf90bb9fdd1d
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: geepack, knitr, lme4, markdown, multcomp, pbkrtest (>= 0.5.2), survival, testthat (>= 2.1.0)
+Imports: boot, broom, cowplot, Deriv, dplyr, ggplot2, MASS, Matrix, modelr, microbenchmark, rlang, tibble, tidyr,
+
+Package: parallelly
+Version: 1.42.0
+Depends: R (>= 4.5), R (< 4.5.99)
+License: LGPL (>= 2.1)
+File: parallelly_1.42.0_b7_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/parallelly/releases/download/1.42.0/parallelly_1.42.0_b7_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-01-30 17:23:01 UTC; unix
+Filesize: 573519
+SHA256: 02cfca6aeda19ea8a05aade514f188a6517d80f68352c66f2243b90f9da66626
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: commonmark, base64enc
+Imports: parallel, tools, utils
