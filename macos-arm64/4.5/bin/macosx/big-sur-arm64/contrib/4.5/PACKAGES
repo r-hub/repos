@@ -3520,22 +3520,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: pdftools
 Imports: commonmark, xml2, hunspell (>= 3.0), knitr
 
-Package: doBy
-Version: 4.6.24
-Depends: R (>= 4.2.0), methods, R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: doBy_4.6.24_b2_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/doBy/releases/download/4.6.24/doBy_4.6.24_b2_R4.5_aarch64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-10-08 17:35:12 UTC; unix
-Filesize: 4843965
-SHA256: 0855ca0a050269811bd53f65ae0b3016ddbf6d13a821d2ce71c0238029be9264
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: geepack, knitr, lme4, markdown, multcomp, pbkrtest (>= 0.5.2), survival, testthat (>= 2.1.0)
-Imports: boot, broom, cowplot, Deriv, dplyr, ggplot2, MASS, Matrix, modelr, microbenchmark, rlang, tibble, tidyr,
-
 Package: wk
 Version: 0.9.4
 Depends: R (>= 2.10), R (>= 4.5), R (< 4.5.99)
@@ -3900,24 +3884,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, dplyr (>= 1.0.8), gt (>= 0.9.0), knitr (>= 1.31), testthat (>= 3.0.0), rsvg
 Imports: rlang (>= 1.0.6), htmltools (>= 0.5.1.1)
 
-Package: quantreg
-Version: 5.99.1
-Depends: R (>= 3.5), stats, SparseM, R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: quantreg_5.99.1_b4_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/quantreg/releases/download/5.99.1/quantreg_5.99.1_b4_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-11-25 17:38:10 UTC; unix
-Filesize: 1460364
-SHA256: f2b3639d974c1824ccb98534f469adf4df5668acb54caa1bffe6e57eb687def5
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer
-Imports: methods, graphics, Matrix, MatrixModels, survival, MASS
-
 Package: progressr
 Version: 0.15.1
 Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
@@ -4183,24 +4149,6 @@ RVersion: 4.5
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: parallelly
-Version: 1.41.0
-Depends: R (>= 4.5), R (< 4.5.99)
-License: LGPL (>= 2.1)
-File: parallelly_1.41.0_b6_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/parallelly/releases/download/1.41.0/parallelly_1.41.0_b6_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-12-19 17:33:17 UTC; unix
-Filesize: 502161
-SHA256: 298fd9498dacbdf584821e447a98f1f092ff42ca99b871c9bba34154a122ce37
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: commonmark, base64enc
-Imports: parallel, tools, utils
 
 Package: XML
 Version: 3.99-0.18
@@ -4878,3 +4826,73 @@ Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl (>= 1.3
 Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang, stats, utils, vctrs
 SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
 LinkingTo: cpp11 (>= 0.5.0)
+
+Package: nlme
+Version: 3.1-167
+Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: nlme_3.1-167_b1_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/nlme/releases/download/3.1-167/nlme_3.1-167_b1_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2025-01-27 17:22:56 UTC; unix
+Filesize: 2462579
+SHA256: 6f00cbab39e564f4ddef72aa7158fe530dc9aa877b8173abf72a12ff37b56ce2
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: MASS, SASmixed
+Imports: graphics, stats, utils, lattice
+
+Package: doBy
+Version: 4.6.25
+Depends: R (>= 4.2.0), methods, R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: doBy_4.6.25_b3_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/doBy/releases/download/4.6.25/doBy_4.6.25_b3_R4.5_aarch64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2025-01-30 17:33:30 UTC; unix
+Filesize: 4849620
+SHA256: d6e01947dcb45ba152a5cb3f973e20c106f3b98dfacfc6397875111674098223
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: geepack, knitr, lme4, markdown, multcomp, pbkrtest (>= 0.5.2), survival, testthat (>= 2.1.0)
+Imports: boot, broom, cowplot, Deriv, dplyr, ggplot2, MASS, Matrix, modelr, microbenchmark, rlang, tibble, tidyr,
+
+Package: quantreg
+Version: 6.00
+Depends: R (>= 3.5), stats, SparseM, R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: quantreg_6.00_b5_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/quantreg/releases/download/6.00/quantreg_6.00_b5_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2025-01-29 17:37:30 UTC; unix
+Filesize: 1572797
+SHA256: 4f4ee3f97743ebb43c4c94a072de4c5e451508222e6615f586172ba03f4c32fd
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer
+Imports: methods, graphics, Matrix, MatrixModels, survival, MASS
+
+Package: parallelly
+Version: 1.42.0
+Depends: R (>= 4.5), R (< 4.5.99)
+License: LGPL (>= 2.1)
+File: parallelly_1.42.0_b7_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/parallelly/releases/download/1.42.0/parallelly_1.42.0_b7_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2025-01-30 17:33:26 UTC; unix
+Filesize: 538940
+SHA256: 24379f8bd621972fb76eddebc4e7d2821a9cfad6c2a21f6c2d3e58b1753fd2b6
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: commonmark, base64enc
+Imports: parallel, tools, utils
