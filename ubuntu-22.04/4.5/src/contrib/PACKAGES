@@ -2427,24 +2427,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: ps, testthat (>= 3.0.0)
 Imports: processx
 
-Package: sp
-Version: 2.1-4
-Depends: R (>= 3.5.0), methods, R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: sp_2.1-4_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/sp/releases/download/2.1-4/sp_2.1-4_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-04-30 16:37:22 UTC; unix
-Filesize: 2133067
-SHA256: b6b649958931b5a0a7bdf9126c9d2277a92e4b8bec9ac366fed67f52d9bc74eb
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: RColorBrewer, gstat, deldir, knitr, rmarkdown, sf, terra, raster
-Imports: utils, stats, graphics, grDevices, lattice, grid
-
 Package: stringi
 Version: 1.8.4
 Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
@@ -4881,3 +4863,21 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: commonmark, base64enc
 Imports: parallel, tools, utils
+
+Package: sp
+Version: 2.2-0
+Depends: R (>= 3.5.0), methods, R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: sp_2.2-0_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/sp/releases/download/2.2-0/sp_2.2-0_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-02-01 16:36:23 UTC; unix
+Filesize: 5342080
+SHA256: 9d2c8251c8149051d8c8ba3a1b02ab08fceee459159f0048945e4697f471389f
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: RColorBrewer, gstat, deldir, knitr, maps, mapview, rmarkdown, sf, terra, raster
+Imports: utils, stats, graphics, grDevices, lattice, grid
