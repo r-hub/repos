@@ -840,23 +840,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: zip
-Version: 2.3.1
-Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: covr, processx, R6, testthat, withr
-License: MIT + file LICENSE
-File: zip_2.3.1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/zip/releases/download/2.3.1/zip_2.3.1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-05-16 07:35:55 UTC; unix
-Filesize: 631039
-SHA256: e7e68efe002f841aea0f5fc23df96195913a504033549962c7686596b4153b7a
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: conflicted
 Version: 1.2.0
 Depends: R (>= 3.2), R (>= 4.4), R (< 4.4.99)
@@ -5036,6 +5019,24 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
+Package: sp
+Version: 2.2-0
+Depends: R (>= 3.5.0), methods, R (>= 4.4), R (< 4.4.99)
+Imports: utils, stats, graphics, grDevices, lattice, grid
+Suggests: RColorBrewer, gstat, deldir, knitr, maps, mapview, rmarkdown, sf, terra, raster
+License: GPL (>= 2)
+File: sp_2.2-0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/sp/releases/download/2.2-0/sp_2.2-0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-02-01 18:33:58 UTC; unix
+Filesize: 5338030
+SHA256: 3372bb6fd8629ecd2be40ecde0502723a14baee25e6365a1447c26cb72e30f30
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
 Package: rlang
 Version: 1.1.5
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -5048,8 +5049,8 @@ DownloadURL: https://github.com/cran/rlang/releases/download/1.1.5/rlang_1.1.5_b
 OS: linux
 Arch: arm64
 Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-17 18:36:52 UTC; unix
-Filesize: 2064845
-SHA256: e391d9d02271c1fada3a1695671a6f893c1df38097e90371fdaba495cb728813
+Filesize: 2064844
+SHA256: 02e4fb6d5e661933707f110c2f027e11e6f45129164be2d9bdc90f1791d7d9d7
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -5067,26 +5068,25 @@ DownloadURL: https://github.com/cran/cli/releases/download/3.6.3/cli_3.6.3_b2_R4
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-22 18:32:00 UTC; unix
-Filesize: 1417976
-SHA256: 8cb9dd14707f0704c4d79ceefb471835c29ae2b440e7640d86d50d8231d4a796
+Filesize: 1417981
+SHA256: bf672c2924e7f87559b36481bb665837c2fd28d791ad0bd22b3a6d097d88f926
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: sp
-Version: 2.2-0
-Depends: R (>= 3.5.0), methods, R (>= 4.4), R (< 4.4.99)
-Imports: utils, stats, graphics, grDevices, lattice, grid
-Suggests: RColorBrewer, gstat, deldir, knitr, maps, mapview, rmarkdown, sf, terra, raster
-License: GPL (>= 2)
-File: sp_2.2-0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/sp/releases/download/2.2-0/sp_2.2-0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Package: zip
+Version: 2.3.2
+Depends: R (>= 4.4), R (< 4.4.99)
+Suggests: covr, pillar, processx, R6, testthat, withr
+License: MIT + file LICENSE
+File: zip_2.3.2_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/zip/releases/download/2.3.2/zip_2.3.2_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
 OS: linux
 Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-02-01 18:33:58 UTC; unix
-Filesize: 5338030
-SHA256: 3372bb6fd8629ecd2be40ecde0502723a14baee25e6365a1447c26cb72e30f30
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-02-02 18:35:29 UTC; unix
+Filesize: 651918
+SHA256: f2f800df246b4a12828c959da2bc30f0443474e2d4a26318d2c03f15e39944ab
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
