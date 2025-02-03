@@ -4386,25 +4386,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: Rcpp, tinytest
 Imports: methods
 
-Package: openssl
-Version: 2.3.1
-Depends: R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: openssl_2.3.1_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/openssl/releases/download/2.3.1/openssl_2.3.1_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-09 23:24:34 UTC; unix
-Filesize: 1396924
-SHA256: 18997ec839cf5fdbd70699732ef0011aac91017e936a4d348b0fe07839ceb2a5
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
-Imports: askpass
-SystemRequirements: OpenSSL >= 1.0.2
-
 Package: evaluate
 Version: 1.0.3
 Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
@@ -5053,3 +5034,22 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, pillar, processx, R6, testthat, withr
+
+Package: openssl
+Version: 2.3.2
+Depends: R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: openssl_2.3.2_b6_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/openssl/releases/download/2.3.2/openssl_2.3.2_b6_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-02-03 23:23:37 UTC; unix
+Filesize: 1397320
+SHA256: 952c18f809b347de4b1a3c69d47aecfeeff7169f7a69714add7f44603b1be4b5
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
+Imports: askpass
+SystemRequirements: OpenSSL >= 1.0.2
