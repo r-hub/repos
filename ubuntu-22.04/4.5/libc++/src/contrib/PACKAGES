@@ -3954,25 +3954,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: callr (>= 3.7.3), cli (>= 3.3.0), codetools, covr, curl, debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0), webfakes, withr
 Imports: ps (>= 1.2.0), R6, utils
 
-Package: openssl
-Version: 2.3.1
-Depends: R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: openssl_2.3.1_b7_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/openssl/releases/download/2.3.1/openssl_2.3.1_b7_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-01-09 17:08:20 UTC; unix
-Filesize: 1315236
-SHA256: fbb82eacd1c0f3f7f100c7f692bdf4e471eca51e06847ee94b1bcab9572fb0ed
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
-Imports: askpass
-SystemRequirements: OpenSSL >= 1.0.2
-
 Package: reformulas
 Version: 0.4.0
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4534,3 +4515,22 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, pillar, processx, R6, testthat, withr
+
+Package: openssl
+Version: 2.3.2
+Depends: R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: openssl_2.3.2_b8_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/openssl/releases/download/2.3.2/openssl_2.3.2_b8_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-02-03 17:08:05 UTC; unix
+Filesize: 1315534
+SHA256: 9ec7510c1d131ed2bd0df459e1d2412d39596687a0bf4f9d937855755bd3f1b3
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
+Imports: askpass
+SystemRequirements: OpenSSL >= 1.0.2
