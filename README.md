@@ -59,7 +59,8 @@ options(repos = c(
 ### Containers using this repo
 
 * [x] `c23` (extra `C23`)
-* [x] `clang-asan` (extra `clang-ASAN` and `clang-UBSAN`)
+* [x] `clang-asan` (extra `clang-ASAN`)
+* [x] `clang-ubsan` (extra `clang-UBSAN`)
 * [x] `clang16`
 * [x] `clang17`
 * [x] `clang18`
@@ -197,7 +198,7 @@ Name         | CRAN       | ✓ | Repo                      | Description
 `openblas`   | OpenBLAS   |   | fedora-38-R4.5            | Tests with alternative BLAS/LAPACK implementations
 `c23`        | `C23`      | ✓ | ubuntu-22.04-R4.5-libc++  | Checks of compiling C code in C23 mode
 `clang-asan` | clang-ASAN | ✓ | ubuntu-22.04-R4.5-libc++  | Tests of memory access errors using AddressSanitizer
-`clang-asan` | clang-UBSAN| ✓ | ubuntu-22.04-R4.5-libc++  | Tests of memory access errors using Undefined Behavior Sanitizer
+`clang-ubsan`| clang-UBSAN| ✓ | ubuntu-22.04-R4.5-libc++  | Tests of memory access errors using Undefined Behavior Sanitizer
 `clang16`    | clang16    | ✓ | ubuntu-22.04-R4.5-libc++  | Checks with Clang 16.0.0
 `clang17`    | clang17    | ✓ | ubuntu-22.04-R4.5-libc++  | Checks with LLVM pre-17.0.0
 `clang18`    | clang18    | ✓ | ubuntu-22.04-R4.5-libc++  | Checks with LLVM pre-18.0.0
