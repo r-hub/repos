@@ -534,25 +534,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: codetools, covr, testthat
 
-Package: purrr
-Version: 1.0.2
-Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: purrr_1.0.2_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/purrr/releases/download/1.0.2/purrr_1.0.2_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-20 15:07:19 UTC; unix
-Filesize: 536903
-SHA256: 501e6ba9bfba45be2041926a470b9108d4f36093e7447605c698b5781e178ff5
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, dplyr (>= 0.7.8), httr, knitr, lubridate, rmarkdown, testthat (>= 3.0.0), tibble, tidyselect
-Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), magrittr (>= 1.5.0), rlang (>= 1.1.1), vctrs (>= 0.6.3)
-LinkingTo: cli
-
 Package: R6
 Version: 2.5.1
 Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
@@ -702,22 +683,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat, knitr, rmarkdown, withr, shiny, curl
 Imports: fs (>= 1.2.4), rlang (>= 0.4.10), htmltools (>= 0.5.1), R6, rappdirs
 SystemRequirements: GNU make
-
-Package: sessioninfo
-Version: 1.2.2
-Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
-License: GPL-2
-File: sessioninfo_1.2.2_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/sessioninfo/releases/download/1.2.2/sessioninfo_1.2.2_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.4.1; ; 2024-07-20 14:57:25 UTC; unix
-Filesize: 181568
-SHA256: f0a38a5b4210228de7adb37178cd07522cdb14153cc3026d1580a032b8c08880
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: callr, covr, mockery, reticulate, rmarkdown, testthat, withr
-Imports: cli (>= 3.1.0), tools, utils
 
 Package: sourcetools
 Version: 0.1.7-1
@@ -5053,3 +5018,38 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
 Imports: askpass
 SystemRequirements: OpenSSL >= 1.0.2
+
+Package: purrr
+Version: 1.0.4
+Depends: R (>= 4.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: purrr_1.0.4_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/purrr/releases/download/1.0.4/purrr_1.0.4_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-02-05 23:24:09 UTC; unix
+Filesize: 574280
+SHA256: ef6abe27467b1b53d39e64c713d526c3daf79ce9a06d78797468a0662224a9d0
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, dplyr (>= 0.7.8), httr, knitr, lubridate, rmarkdown, testthat (>= 3.0.0), tibble, tidyselect
+Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), magrittr (>= 1.5.0), rlang (>= 1.1.1), vctrs (>= 0.6.3)
+LinkingTo: cli
+
+Package: sessioninfo
+Version: 1.2.3
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+License: GPL-2
+File: sessioninfo_1.2.3_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/sessioninfo/releases/download/1.2.3/sessioninfo_1.2.3_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.2; ; 2025-02-05 23:24:08 UTC; unix
+Filesize: 196151
+SHA256: cdfa0d9e0afd1190fbda25d14d708bbb6be67d7d2ec18f5ae9dc9c87aeb35148
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: callr, covr, gh, reticulate, rmarkdown, testthat (>= 3.2.0), withr
+Imports: cli (>= 3.1.0), tools, utils
