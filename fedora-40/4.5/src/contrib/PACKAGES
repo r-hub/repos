@@ -617,22 +617,6 @@ Suggests: testthat, knitr, rmarkdown, withr, shiny, curl
 Imports: fs (>= 1.2.4), rlang (>= 0.4.10), htmltools (>= 0.5.1), R6, rappdirs
 SystemRequirements: GNU make
 
-Package: sessioninfo
-Version: 1.2.2
-Depends: R (>= 2.10), R (>= 4.5), R (< 4.5.99)
-License: GPL-2
-File: sessioninfo_1.2.2_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/sessioninfo/releases/download/1.2.2/sessioninfo_1.2.2_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-Built: R 4.5.0; ; 2024-05-24 21:17:21 UTC; unix
-Filesize: 187869
-SHA256: 7f231c5e6db4264d995828670bf640e53d7a2d8690c5dc854b01e14e77faa846
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: callr, covr, mockery, reticulate, rmarkdown, testthat, withr
-Imports: cli (>= 3.1.0), tools, utils
-
 Package: sourcetools
 Version: 0.1.7-1
 Depends: R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
@@ -4881,3 +4865,19 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
 Imports: askpass
 SystemRequirements: OpenSSL >= 1.0.2
+
+Package: sessioninfo
+Version: 1.2.3
+Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
+License: GPL-2
+File: sessioninfo_1.2.3_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/sessioninfo/releases/download/1.2.3/sessioninfo_1.2.3_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.5.0; ; 2025-02-05 17:23:07 UTC; unix
+Filesize: 203508
+SHA256: e18740a406f12407f28aacf793200d2d73064eda7a73ef406ac7e5afd5306c15
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: callr, covr, gh, reticulate, rmarkdown, testthat (>= 3.2.0), withr
+Imports: cli (>= 3.1.0), tools, utils
