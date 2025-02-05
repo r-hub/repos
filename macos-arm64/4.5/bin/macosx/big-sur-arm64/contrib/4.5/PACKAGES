@@ -546,22 +546,6 @@ Suggests: testthat, knitr, rmarkdown, withr, shiny, curl
 Imports: fs (>= 1.2.4), rlang (>= 0.4.10), htmltools (>= 0.5.1), R6, rappdirs
 SystemRequirements: GNU make
 
-Package: sessioninfo
-Version: 1.2.2
-Depends: R (>= 2.10), R (>= 4.5), R (< 4.5.99)
-License: GPL-2
-File: sessioninfo_1.2.2_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/sessioninfo/releases/download/1.2.2/sessioninfo_1.2.2_b1_R4.5_aarch64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-03-29 15:10:30 UTC; unix
-Filesize: 185113
-SHA256: 3bfcc87dff869a2cc5e3039ac6b07fbbaa88ab2effa7d2dcebe61e2b47a22048
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: callr, covr, mockery, reticulate, rmarkdown, testthat, withr
-Imports: cli (>= 3.1.0), tools, utils
-
 Package: sourcetools
 Version: 0.1.7-1
 Depends: R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
@@ -4914,3 +4898,19 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
 Imports: askpass
 SystemRequirements: OpenSSL >= 1.0.2
+
+Package: sessioninfo
+Version: 1.2.3
+Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
+License: GPL-2
+File: sessioninfo_1.2.3_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/sessioninfo/releases/download/1.2.3/sessioninfo_1.2.3_b2_R4.5_aarch64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2025-02-05 17:33:16 UTC; unix
+Filesize: 196318
+SHA256: d04f7d39be405ce83f72d28d475afda65d436f86fb87f6f0f6f7e710dba8c29d
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: callr, covr, gh, reticulate, rmarkdown, testthat (>= 3.2.0), withr
+Imports: cli (>= 3.1.0), tools, utils
