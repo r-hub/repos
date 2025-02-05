@@ -1333,22 +1333,6 @@ GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: processx
 
-Package: sessioninfo
-Version: 1.2.2
-Depends: R (>= 2.10), R (>= 4.1), R (< 4.1.99)
-Suggests: callr, covr, mockery, reticulate, rmarkdown, testthat, withr
-License: GPL-2
-File: sessioninfo_1.2.2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/sessioninfo/releases/download/1.2.2/sessioninfo_1.2.2_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; ; 2024-07-31 08:58:32 UTC; unix
-Filesize: 184014
-SHA256: 77d53621f3f94a91c1a9e2d2757177a5345bdda5ad7e720c7df633c1005c69e7
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: cli (>= 3.1.0), tools, utils
-
 Package: uuid
 Version: 1.2-1
 Depends: R (>= 2.9.0), R (>= 4.1), R (< 4.1.99)
@@ -2111,3 +2095,19 @@ Imports: askpass
 OS: linux
 Arch: s390x
 SystemRequirements: OpenSSL >= 1.0.2
+
+Package: sessioninfo
+Version: 1.2.3
+Depends: R (>= 3.4), R (>= 4.1), R (< 4.1.99)
+Suggests: callr, covr, gh, reticulate, rmarkdown, testthat (>= 3.2.0), withr
+License: GPL-2
+File: sessioninfo_1.2.3_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/sessioninfo/releases/download/1.2.3/sessioninfo_1.2.3_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2025-02-05 14:32:16 UTC; unix
+Filesize: 198289
+SHA256: d1c5d113cd50623fc1a3902036d4327c93e75f891e4b469e6272e6ee80bafb76
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli (>= 3.1.0), tools, utils
