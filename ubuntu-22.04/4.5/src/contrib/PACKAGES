@@ -380,25 +380,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: codetools, covr, testthat
 
-Package: purrr
-Version: 1.0.2
-Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: purrr_1.0.2_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/purrr/releases/download/1.0.2/purrr_1.0.2_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 09:44:20 UTC; unix
-Filesize: 544348
-SHA256: ed3b40ea79bceb9fdc101c30ae41e055ea3d2e0cb7f85be72558445c6a1b0088
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, dplyr (>= 0.7.8), httr, knitr, lubridate, rmarkdown, testthat (>= 3.0.0), tibble, tidyselect
-Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), magrittr (>= 1.5.0), rlang (>= 1.1.1), vctrs (>= 0.6.3)
-LinkingTo: cli
-
 Package: R6
 Version: 2.5.1
 Depends: R (>= 3.0), R (>= 4.5), R (< 4.5.99)
@@ -3961,25 +3942,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
 Imports: methods
 
-Package: RcppArmadillo
-Version: 14.2.2-1
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: RcppArmadillo_14.2.2-1_b9_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/14.2.2-1/RcppArmadillo_14.2.2-1_b9_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-12-06 16:43:39 UTC; unix
-Filesize: 1891980
-SHA256: 619695b8bec9aebc334b585fd25c652ec7dcfdfadddfb7ffc5b9e6784a9f2730
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-Imports: Rcpp (>= 1.0.12), stats, utils, methods
-LinkingTo: Rcpp
-
 Package: lubridate
 Version: 1.9.4
 Depends: methods, R (>= 3.2), R (>= 4.5), R (< 4.5.99)
@@ -4881,3 +4843,41 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: callr, covr, gh, reticulate, rmarkdown, testthat (>= 3.2.0), withr
 Imports: cli (>= 3.1.0), tools, utils
+
+Package: purrr
+Version: 1.0.4
+Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: purrr_1.0.4_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/purrr/releases/download/1.0.4/purrr_1.0.4_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-02-06 16:40:34 UTC; unix
+Filesize: 576944
+SHA256: 4618eacecf7ff083a87fe0c4c1f77a86ca5af6e3c0bebc03455cf70041cb42f0
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, dplyr (>= 0.7.8), httr, knitr, lubridate, rmarkdown, testthat (>= 3.0.0), tibble, tidyselect
+Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), magrittr (>= 1.5.0), rlang (>= 1.1.1), vctrs (>= 0.6.3)
+LinkingTo: cli
+
+Package: RcppArmadillo
+Version: 14.2.3-1
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: RcppArmadillo_14.2.3-1_b10_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/14.2.3-1/RcppArmadillo_14.2.3-1_b10_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-02-06 16:40:36 UTC; unix
+Filesize: 1892517
+SHA256: 8b84a06ad72e1121a60d5f499bf5b74c5d63725208858db8d8ff5e7ca4bc4a94
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+Imports: Rcpp (>= 1.0.12), stats, utils, methods
+LinkingTo: Rcpp
