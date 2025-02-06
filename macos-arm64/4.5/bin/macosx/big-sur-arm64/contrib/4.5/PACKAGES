@@ -396,25 +396,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: codetools, covr, testthat
 
-Package: purrr
-Version: 1.0.2
-Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: purrr_1.0.2_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/purrr/releases/download/1.0.2/purrr_1.0.2_b1_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-03-29 15:14:34 UTC; unix
-Filesize: 494843
-SHA256: d77c0c3ccc12e628b5bb7d04c9b4c9231c922226474731f88a495c19bbb4dfb8
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, dplyr (>= 0.7.8), httr, knitr, lubridate, rmarkdown, testthat (>= 3.0.0), tibble, tidyselect
-Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), magrittr (>= 1.5.0), rlang (>= 1.1.1), vctrs (>= 0.6.3)
-LinkingTo: cli
-
 Package: R6
 Version: 2.5.1
 Depends: R (>= 3.0), R (>= 4.5), R (< 4.5.99)
@@ -4914,3 +4895,22 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: callr, covr, gh, reticulate, rmarkdown, testthat (>= 3.2.0), withr
 Imports: cli (>= 3.1.0), tools, utils
+
+Package: purrr
+Version: 1.0.4
+Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: purrr_1.0.4_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/purrr/releases/download/1.0.4/purrr_1.0.4_b2_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2025-02-05 19:07:22 UTC; unix
+Filesize: 569316
+SHA256: 3ec9a4b4a98096e19b8a4a6032a15c039bb79b05bd4820a3157ef102eab98f83
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, dplyr (>= 0.7.8), httr, knitr, lubridate, rmarkdown, testthat (>= 3.0.0), tibble, tidyselect
+Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), magrittr (>= 1.5.0), rlang (>= 1.1.1), vctrs (>= 0.6.3)
+LinkingTo: cli
