@@ -4633,26 +4633,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
 SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
 
-Package: terra
-Version: 1.8-15
-Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 3)
-File: terra_1.8-15_b5_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/terra/releases/download/1.8-15/terra_1.8-15_b5_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-01-24 17:23:43 UTC; unix
-Filesize: 34179134
-SHA256: e9a6587830b84e8fbc4df43bfbd4dadf291b26f9c9a5506f13c08308414f622f
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
-Imports: methods, Rcpp (>= 1.0-10)
-SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
-LinkingTo: Rcpp
-
 Package: duckdb
 Version: 1.1.3-2
 Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
@@ -4880,4 +4860,24 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
 Imports: Rcpp (>= 1.0.12), stats, utils, methods
+LinkingTo: Rcpp
+
+Package: terra
+Version: 1.8-21
+Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 3)
+File: terra_1.8-21_b6_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/terra/releases/download/1.8-21/terra_1.8-21_b6_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-02-10 17:22:57 UTC; unix
+Filesize: 34602494
+SHA256: 83187f177c124151aa3d580fe69b493a0764e0b116b4d548602482bf60ffa1c1
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
+Imports: methods, Rcpp (>= 1.0-10)
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
 LinkingTo: Rcpp
