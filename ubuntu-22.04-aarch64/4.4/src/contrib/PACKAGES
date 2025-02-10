@@ -4787,26 +4787,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
 
-Package: terra
-Version: 1.8-15
-Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Imports: methods, Rcpp (>= 1.0-10)
-Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
-License: GPL (>= 3)
-File: terra_1.8-15_b6_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/terra/releases/download/1.8-15/terra_1.8-15_b6_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-24 18:38:36 UTC; unix
-Filesize: 33029047
-SHA256: edd09a0c74d075e2a5895c457db264b8f65ae1c68f6ff652513bfcb4f2362b9b
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
-LinkingTo: Rcpp
-
 Package: duckdb
 Version: 1.1.3-2
 Depends: DBI, R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
@@ -5066,8 +5046,8 @@ DownloadURL: https://github.com/cran/rlang/releases/download/1.1.5/rlang_1.1.5_b
 OS: linux
 Arch: arm64
 Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-17 18:36:52 UTC; unix
-Filesize: 2064845
-SHA256: 3a28ef8e1f20331576a132e784abe90e49aa00daa9b09803f692c8711e1b282b
+Filesize: 2064849
+SHA256: 8fc58a1055af63c644eec1c3d3eb6c39b94db5533ceb3e8edc1a61400f3be78e
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -5086,8 +5066,28 @@ OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-22 18:32:00 UTC; unix
 Filesize: 1417979
-SHA256: cc075fc8613e92fad17ac69240abd5e278f7abc274603ed57a21c2c3e962cbf0
+SHA256: 1c1cb82fc46f534a652434b4b644eced7656bb83a0ac2922535a10ec389bb292
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: terra
+Version: 1.8-21
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Imports: methods, Rcpp (>= 1.0-10)
+Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
+License: GPL (>= 3)
+File: terra_1.8-21_b7_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/terra/releases/download/1.8-21/terra_1.8-21_b7_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-02-10 18:38:46 UTC; unix
+Filesize: 33558259
+SHA256: 6e5aee503b25c7a31d040af78bce38e34a2bd9fd4b126bfc01a2c99800822982
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
+LinkingTo: Rcpp
