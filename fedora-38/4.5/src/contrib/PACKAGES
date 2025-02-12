@@ -380,21 +380,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: codetools, covr, testthat
 
-Package: R6
-Version: 2.5.1
-Depends: R (>= 3.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: R6_2.5.1_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/R6/releases/download/2.5.1/R6_2.5.1_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.5.0; ; 2024-03-27 17:18:50 UTC; unix
-Filesize: 92491
-SHA256: 742fa02457a9bd2094b807abe816ebc5b0b07ca19ef366ba8f4c5f89d5001381
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testthat, pryr
-
 Package: rappdirs
 Version: 0.3.3
 Depends: R (>= 3.2), R (>= 4.5), R (< 4.5.99)
@@ -2681,24 +2666,6 @@ Suggests: testthat, DoE.base, knitr, rmarkdown
 Imports: Rcpp
 LinkingTo: Rcpp
 
-Package: recipes
-Version: 1.1.0
-Depends: dplyr (>= 1.1.0), R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: recipes_1.1.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/recipes/releases/download/1.1.0/recipes_1.1.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.5.0; ; 2024-07-04 17:21:09 UTC; unix
-Filesize: 1732705
-SHA256: 584716218e26c9022afbf9bd20eb76367acfa754f528d16baae7f354e24cd67d
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, ddalpha, dials (>= 1.2.0), ggplot2, igraph, kernlab, knitr, modeldata (>= 0.1.1), parsnip (>= 1.2.0), RANN, RcppRoll, rmarkdown, rpart, rsample, RSpectra, splines2, testthat (>=
-        3.0.0), workflows, xml2
-Imports: cli, clock (>= 0.6.1), generics (>= 0.1.2), glue, gower, hardhat (>= 1.4.0), ipred (>= 0.9-12), lifecycle (>= 1.0.3), lubridate (>= 1.8.0), magrittr, Matrix, purrr (>= 1.0.0), rlang (>=
-        1.1.0), stats, tibble, tidyr (>= 1.0.0), tidyselect (>= 1.2.0), timeDate, utils, vctrs (>= 0.5.0), withr
-
 Package: loo
 Version: 2.8.0
 Depends: R (>= 3.1.2), R (>= 4.5), R (< 4.5.99)
@@ -4881,3 +4848,36 @@ Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2
 Imports: methods, Rcpp (>= 1.0-10)
 SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
 LinkingTo: Rcpp
+
+Package: R6
+Version: 2.6.0
+Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: R6_2.6.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/R6/releases/download/2.6.0/R6_2.6.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.5.0; ; 2025-02-12 17:23:43 UTC; unix
+Filesize: 95802
+SHA256: eea6adec9c83c5a17ddbb85586a0475b6dc9cbc0a72d095643fb6d666538fe59
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: lobstr, testthat (>= 3.0.0)
+
+Package: recipes
+Version: 1.1.1
+Depends: dplyr (>= 1.1.0), R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: recipes_1.1.1_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/recipes/releases/download/1.1.1/recipes_1.1.1_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.5.0; ; 2025-02-12 17:23:50 UTC; unix
+Filesize: 1765081
+SHA256: 0682e7d759e10efc14680e57b517eb3bc2b89934956325943cfd4dd5e8dcf2be
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, ddalpha, dials (>= 1.2.0), ggplot2, igraph, kernlab, knitr, methods, modeldata (>= 0.1.1), parsnip (>= 1.2.0), RANN, RcppRoll, rmarkdown, rpart, rsample, RSpectra, splines2, testthat
+        (>= 3.0.0), workflows, xml2
+Imports: cli, clock (>= 0.6.1), generics (>= 0.1.2), glue, gower, hardhat (>= 1.4.1), ipred (>= 0.9-12), lifecycle (>= 1.0.3), lubridate (>= 1.8.0), magrittr, Matrix, purrr (>= 1.0.0), rlang (>=
+        1.1.0), sparsevctrs (>= 0.2.0), stats, tibble, tidyr (>= 1.0.0), tidyselect (>= 1.2.0), timeDate, utils, vctrs (>= 0.5.0), withr
