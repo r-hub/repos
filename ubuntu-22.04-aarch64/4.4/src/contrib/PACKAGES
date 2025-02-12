@@ -487,21 +487,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: R6
-Version: 2.5.1
-Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
-Suggests: testthat, pryr
-License: MIT + file LICENSE
-File: R6_2.5.1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/R6/releases/download/2.5.1/R6_2.5.1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.0; ; 2024-05-16 07:35:34 UTC; unix
-Filesize: 83583
-SHA256: cf428596d1d6b4676961a48e62dda07686d0e520410b29d8cb7e4d1c014bce13
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: rappdirs
 Version: 0.3.3
 Depends: R (>= 3.2), R (>= 4.4), R (< 4.4.99)
@@ -2699,24 +2684,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
-
-Package: recipes
-Version: 1.1.0
-Depends: dplyr (>= 1.1.0), R (>= 3.6), R (>= 4.4), R (< 4.4.99)
-Imports: cli, clock (>= 0.6.1), generics (>= 0.1.2), glue, gower, hardhat (>= 1.4.0), ipred (>= 0.9-12), lifecycle (>= 1.0.3), lubridate (>= 1.8.0), magrittr, Matrix, purrr (>= 1.0.0), rlang (>=
-        1.1.0), stats, tibble, tidyr (>= 1.0.0), tidyselect (>= 1.2.0), timeDate, utils, vctrs (>= 0.5.0), withr
-Suggests: covr, ddalpha, dials (>= 1.2.0), ggplot2, igraph, kernlab, knitr, modeldata (>= 0.1.1), parsnip (>= 1.2.0), RANN, RcppRoll, rmarkdown, rpart, rsample, RSpectra, splines2, testthat (>=
-        3.0.0), workflows, xml2
-License: MIT + file LICENSE
-File: recipes_1.1.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/recipes/releases/download/1.1.0/recipes_1.1.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.4.1; ; 2024-07-04 18:34:43 UTC; unix
-Filesize: 1646329
-SHA256: bc1f6bed876bb4f9c7777718f21de67226f0338e15454e0efd0fa49b4e2f13b1
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: loo
 Version: 2.8.0
@@ -5066,8 +5033,8 @@ DownloadURL: https://github.com/cran/rlang/releases/download/1.1.5/rlang_1.1.5_b
 OS: linux
 Arch: arm64
 Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-17 18:36:52 UTC; unix
-Filesize: 2064847
-SHA256: fc8661cea3c71b1e2aeb71842a5f97f16ba74d5a354baee8cc8d80835ec4d425
+Filesize: 2064849
+SHA256: 79fdc3154213aa96d130e43d684f0ea6e8548edf6562b1c5a2c98ea5e6577218
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -5085,8 +5052,41 @@ DownloadURL: https://github.com/cran/cli/releases/download/3.6.3/cli_3.6.3_b2_R4
 OS: linux
 Arch: arm64
 Built: R 4.4.0; aarch64-unknown-linux-gnu; 2024-06-22 18:32:00 UTC; unix
-Filesize: 1417979
-SHA256: e3635d02acf50f59eb3004de39c9cb2983a1cd554b583295bdc245996c45bb3d
+Filesize: 1417982
+SHA256: 82acfb886120d3dca1184d27da512107a3a89b87afbdb21acf6f926f85df5eaa
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: R6
+Version: 2.6.0
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+Suggests: lobstr, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: R6_2.6.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/R6/releases/download/2.6.0/R6_2.6.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.2; ; 2025-02-12 18:39:39 UTC; unix
+Filesize: 87066
+SHA256: bee868c4c2e90e10840cbe534ae18976fdb29e247668d686642bab3a1e15c605
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: recipes
+Version: 1.1.1
+Depends: dplyr (>= 1.1.0), R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+Imports: cli, clock (>= 0.6.1), generics (>= 0.1.2), glue, gower, hardhat (>= 1.4.1), ipred (>= 0.9-12), lifecycle (>= 1.0.3), lubridate (>= 1.8.0), magrittr, Matrix, purrr (>= 1.0.0), rlang (>=
+        1.1.0), sparsevctrs (>= 0.2.0), stats, tibble, tidyr (>= 1.0.0), tidyselect (>= 1.2.0), timeDate, utils, vctrs (>= 0.5.0), withr
+Suggests: covr, ddalpha, dials (>= 1.2.0), ggplot2, igraph, kernlab, knitr, methods, modeldata (>= 0.1.1), parsnip (>= 1.2.0), RANN, RcppRoll, rmarkdown, rpart, rsample, RSpectra, splines2, testthat
+        (>= 3.0.0), workflows, xml2
+License: MIT + file LICENSE
+File: recipes_1.1.1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/recipes/releases/download/1.1.1/recipes_1.1.1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.4.2; ; 2025-02-12 18:40:09 UTC; unix
+Filesize: 1675726
+SHA256: bb83472de2de98df6d48e295b7c8980c6d6b04cb417fda0486ba890f1a9dc902
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
