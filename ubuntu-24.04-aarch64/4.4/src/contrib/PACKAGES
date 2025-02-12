@@ -534,21 +534,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: codetools, covr, testthat
 
-Package: R6
-Version: 2.5.1
-Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: R6_2.5.1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/R6/releases/download/2.5.1/R6_2.5.1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.4.1; ; 2024-07-20 14:51:31 UTC; unix
-Filesize: 83577
-SHA256: b84ffe15150745f437be3fe2cb314a78c2f71fa46d7f64dd2b9b4627c128dde7
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testthat, pryr
-
 Package: rappdirs
 Version: 0.3.3
 Depends: R (>= 3.2), R (>= 4.4), R (< 4.4.99)
@@ -1297,24 +1282,6 @@ RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: recipes
-Version: 1.1.0
-Depends: dplyr (>= 1.1.0), R (>= 3.6), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: recipes_1.1.0_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/recipes/releases/download/1.1.0/recipes_1.1.0_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.4.1; ; 2024-07-20 16:08:17 UTC; unix
-Filesize: 1646398
-SHA256: 556769a8a6b0710733b61616fd5c8103ef543c97c1a4762830367a62c16c5f5d
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, ddalpha, dials (>= 1.2.0), ggplot2, igraph, kernlab, knitr, modeldata (>= 0.1.1), parsnip (>= 1.2.0), RANN, RcppRoll, rmarkdown, rpart, rsample, RSpectra, splines2, testthat (>=
-        3.0.0), workflows, xml2
-Imports: cli, clock (>= 0.6.1), generics (>= 0.1.2), glue, gower, hardhat (>= 1.4.0), ipred (>= 0.9-12), lifecycle (>= 1.0.3), lubridate (>= 1.8.0), magrittr, Matrix, purrr (>= 1.0.0), rlang (>=
-        1.1.0), stats, tibble, tidyr (>= 1.0.0), tidyselect (>= 1.2.0), timeDate, utils, vctrs (>= 0.5.0), withr
 
 Package: rsample
 Version: 1.2.1
@@ -5053,3 +5020,36 @@ Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2
 Imports: methods, Rcpp (>= 1.0-10)
 SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
 LinkingTo: Rcpp
+
+Package: R6
+Version: 2.6.0
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: R6_2.6.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/R6/releases/download/2.6.0/R6_2.6.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.2; ; 2025-02-12 23:22:50 UTC; unix
+Filesize: 86996
+SHA256: 99f00d23a36a6b65297081902e83c406185c9f7eaf710090a52b1d33b432d2f1
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: lobstr, testthat (>= 3.0.0)
+
+Package: recipes
+Version: 1.1.1
+Depends: dplyr (>= 1.1.0), R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: recipes_1.1.1_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/recipes/releases/download/1.1.1/recipes_1.1.1_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.2; ; 2025-02-12 23:23:14 UTC; unix
+Filesize: 1674782
+SHA256: 83ce6c91eeeffeef9c28885287c089fe651b939a245d8d24c2c9cf94bed15a05
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, ddalpha, dials (>= 1.2.0), ggplot2, igraph, kernlab, knitr, methods, modeldata (>= 0.1.1), parsnip (>= 1.2.0), RANN, RcppRoll, rmarkdown, rpart, rsample, RSpectra, splines2, testthat
+        (>= 3.0.0), workflows, xml2
+Imports: cli, clock (>= 0.6.1), generics (>= 0.1.2), glue, gower, hardhat (>= 1.4.1), ipred (>= 0.9-12), lifecycle (>= 1.0.3), lubridate (>= 1.8.0), magrittr, Matrix, purrr (>= 1.0.0), rlang (>=
+        1.1.0), sparsevctrs (>= 0.2.0), stats, tibble, tidyr (>= 1.0.0), tidyselect (>= 1.2.0), timeDate, utils, vctrs (>= 0.5.0), withr
