@@ -396,21 +396,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: codetools, covr, testthat
 
-Package: R6
-Version: 2.5.1
-Depends: R (>= 3.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: R6_2.5.1_b1_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/R6/releases/download/2.5.1/R6_2.5.1_b1_R4.5_x86_64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-03-29 15:10:45 UTC; unix
-Filesize: 86584
-SHA256: b1d64ac819c29d8597d15bad360bfbb1e58b9980f87814c8fd9c5f816b2d0f57
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testthat, pryr
-
 Package: rappdirs
 Version: 0.3.3
 Depends: R (>= 3.2), R (>= 4.5), R (< 4.5.99)
@@ -2681,24 +2666,6 @@ Suggests: testthat, DoE.base, knitr, rmarkdown
 Imports: Rcpp
 LinkingTo: Rcpp
 
-Package: recipes
-Version: 1.1.0
-Depends: dplyr (>= 1.1.0), R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: recipes_1.1.0_b2_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/recipes/releases/download/1.1.0/recipes_1.1.0_b2_R4.5_x86_64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-07-04 17:33:22 UTC; unix
-Filesize: 1630582
-SHA256: 390c18266512271720663c51bdfa59c998979900d6ad400494f6ea5ac87f9a49
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, ddalpha, dials (>= 1.2.0), ggplot2, igraph, kernlab, knitr, modeldata (>= 0.1.1), parsnip (>= 1.2.0), RANN, RcppRoll, rmarkdown, rpart, rsample, RSpectra, splines2, testthat (>=
-        3.0.0), workflows, xml2
-Imports: cli, clock (>= 0.6.1), generics (>= 0.1.2), glue, gower, hardhat (>= 1.4.0), ipred (>= 0.9-12), lifecycle (>= 1.0.3), lubridate (>= 1.8.0), magrittr, Matrix, purrr (>= 1.0.0), rlang (>=
-        1.1.0), stats, tibble, tidyr (>= 1.0.0), tidyselect (>= 1.2.0), timeDate, utils, vctrs (>= 0.5.0), withr
-
 Package: loo
 Version: 2.8.0
 Depends: R (>= 3.1.2), R (>= 4.5), R (< 4.5.99)
@@ -4914,3 +4881,36 @@ Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2
 Imports: methods, Rcpp (>= 1.0-10)
 SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
 LinkingTo: Rcpp
+
+Package: R6
+Version: 2.6.0
+Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: R6_2.6.0_b2_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/R6/releases/download/2.6.0/R6_2.6.0_b2_R4.5_x86_64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2025-02-12 17:35:17 UTC; unix
+Filesize: 90403
+SHA256: d0c49fe1f4ac362738c139e2783f2077997c37e74fd8106928b8490a89e313ae
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: lobstr, testthat (>= 3.0.0)
+
+Package: recipes
+Version: 1.1.1
+Depends: dplyr (>= 1.1.0), R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: recipes_1.1.1_b3_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/recipes/releases/download/1.1.1/recipes_1.1.1_b3_R4.5_x86_64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2025-02-12 17:35:23 UTC; unix
+Filesize: 1680777
+SHA256: 45cdc9fbf10f0c47aa5a91afc1df46073e945eef77a78ada4b863ac7d37c92a6
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, ddalpha, dials (>= 1.2.0), ggplot2, igraph, kernlab, knitr, methods, modeldata (>= 0.1.1), parsnip (>= 1.2.0), RANN, RcppRoll, rmarkdown, rpart, rsample, RSpectra, splines2, testthat
+        (>= 3.0.0), workflows, xml2
+Imports: cli, clock (>= 0.6.1), generics (>= 0.1.2), glue, gower, hardhat (>= 1.4.1), ipred (>= 0.9-12), lifecycle (>= 1.0.3), lubridate (>= 1.8.0), magrittr, Matrix, purrr (>= 1.0.0), rlang (>=
+        1.1.0), sparsevctrs (>= 0.2.0), stats, tibble, tidyr (>= 1.0.0), tidyselect (>= 1.2.0), timeDate, utils, vctrs (>= 0.5.0), withr
