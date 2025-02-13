@@ -81,25 +81,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: asciicast (>= 2.3.1), cli (>= 1.1.0), mockery, ps, rprojroot, spelling, testthat (>= 3.2.0), withr (>= 2.3.0)
 Imports: processx (>= 3.6.1), R6, utils
 
-Package: cli
-Version: 3.6.3
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: cli_3.6.3_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/cli/releases/download/3.6.3/cli_3.6.3_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-20 14:50:48 UTC; unix
-Filesize: 1416596
-SHA256: 7fc2f8e5b33959862fc024306fa8a2efcd90ff6f7228cd402a4798b1c96a613c
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: callr, covr, crayon, digest, glue (>= 1.6.0), grDevices, htmltools, htmlwidgets, knitr, methods, mockery, processx, ps (>= 1.3.4.9000), rlang (>= 1.0.2.9003), rmarkdown, rprojroot,
-        rstudioapi, testthat, tibble, whoami, withr
-Imports: utils
-
 Package: clipr
 Version: 0.8.0
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -2910,22 +2891,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: ggplot2, spelling, testthat (>= 3.0.0)
 Imports: cli, rlang
 
-Package: dials
-Version: 1.3.0
-Depends: R (>= 3.4), scales (>= 1.3.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: dials_1.3.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/dials/releases/download/1.3.0/dials_1.3.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.4.1; ; 2024-07-30 23:20:24 UTC; unix
-Filesize: 427657
-SHA256: add5f63915a64c04aea3f786e2b06d43565d2d6c3a273be4fd460ff319fc5129
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, ggplot2, kernlab, knitr, rmarkdown, rpart, testthat (>= 3.1.9), xml2
-Imports: cli, DiceDesign, dplyr (>= 0.8.5), glue, hardhat (>= 1.1.0), lifecycle, pillar, purrr, rlang (>= 1.1.0), sfd, tibble, utils, vctrs (>= 0.3.8), withr
-
 Package: minqa
 Version: 1.2.8
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -5053,3 +5018,38 @@ Suggests: covr, ddalpha, dials (>= 1.2.0), ggplot2, igraph, kernlab, knitr, meth
         (>= 3.0.0), workflows, xml2
 Imports: cli, clock (>= 0.6.1), generics (>= 0.1.2), glue, gower, hardhat (>= 1.4.1), ipred (>= 0.9-12), lifecycle (>= 1.0.3), lubridate (>= 1.8.0), magrittr, Matrix, purrr (>= 1.0.0), rlang (>=
         1.1.0), sparsevctrs (>= 0.2.0), stats, tibble, tidyr (>= 1.0.0), tidyselect (>= 1.2.0), timeDate, utils, vctrs (>= 0.5.0), withr
+
+Package: cli
+Version: 3.6.4
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: cli_3.6.4_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/cli/releases/download/3.6.4/cli_3.6.4_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-02-13 23:24:57 UTC; unix
+Filesize: 1537759
+SHA256: d738572bad31bca858866a1e6d8ffea8a95c9289956a1e9287e0731d780d3e23
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: callr, covr, crayon, digest, glue (>= 1.6.0), grDevices, htmltools, htmlwidgets, knitr, methods, processx, ps (>= 1.3.4.9000), rlang (>= 1.0.2.9003), rmarkdown, rprojroot, rstudioapi,
+        testthat (>= 3.2.0), tibble, whoami, withr
+Imports: utils
+
+Package: dials
+Version: 1.4.0
+Depends: R (>= 3.4), scales (>= 1.3.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: dials_1.4.0_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/dials/releases/download/1.4.0/dials_1.4.0_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.2; ; 2025-02-13 23:25:11 UTC; unix
+Filesize: 436400
+SHA256: 70665e179cab862adf50a2696fd23f1a5cd869f3243bb419b053c7cd3b58bf4d
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, ggplot2, kernlab, knitr, rmarkdown, rpart, testthat (>= 3.1.9), xml2
+Imports: cli, DiceDesign, dplyr (>= 0.8.5), glue, hardhat (>= 1.1.0), lifecycle, pillar, purrr, rlang (>= 1.1.0), sfd, tibble, utils, vctrs (>= 0.3.8), withr
