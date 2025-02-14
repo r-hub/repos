@@ -1214,24 +1214,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: parsnip
-Version: 1.2.1
-Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: parsnip_1.2.1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/parsnip/releases/download/1.2.1/parsnip_1.2.1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.4.1; ; 2024-07-20 15:12:12 UTC; unix
-Filesize: 1422430
-SHA256: f6eaa4c1b911f2417c311a5cf2401819b2c96207dcb5fe332252ccd3dfa3a293
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: C50, bench, covr, dials (>= 1.1.0), earth, ggrepel, keras, kernlab, kknn, knitr, LiblineaR, MASS, Matrix, mgcv, modeldata, nlme, prodlim, ranger (>= 0.12.0), remotes, rmarkdown, rpart,
-        sparklyr (>= 1.0.0), survival, tensorflow, testthat (>= 3.0.0), xgboost (>= 1.5.0.1)
-Imports: cli, dplyr (>= 1.1.0), generics (>= 0.1.2), ggplot2, globals, glue, hardhat (>= 1.1.0), lifecycle, magrittr, pillar, prettyunits, purrr (>= 1.0.0), rlang (>= 0.3.1), stats, tibble (>=
-        2.1.1), tidyr (>= 1.3.0), utils, vctrs (>= 0.6.0), withr
-
 Package: prodlim
 Version: 2024.06.25
 Depends: R (>= 2.9.0), R (>= 4.4), R (< 4.4.99)
@@ -5053,3 +5035,21 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, ggplot2, kernlab, knitr, rmarkdown, rpart, testthat (>= 3.1.9), xml2
 Imports: cli, DiceDesign, dplyr (>= 0.8.5), glue, hardhat (>= 1.1.0), lifecycle, pillar, purrr, rlang (>= 1.1.0), sfd, tibble, utils, vctrs (>= 0.3.8), withr
+
+Package: parsnip
+Version: 1.3.0
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: parsnip_1.3.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/parsnip/releases/download/1.3.0/parsnip_1.3.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.2; ; 2025-02-14 23:24:07 UTC; unix
+Filesize: 1475249
+SHA256: c76e876c20e062cd662f60f0e371ffaba66ec5c1f452bd9922af2645be8b7185
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bench, C50, covr, dials (>= 1.1.0), earth, ggrepel, keras, kernlab, kknn, knitr, LiblineaR, MASS, Matrix, methods, mgcv, modeldata, nlme, prodlim, ranger (>= 0.12.0), remotes, rmarkdown,
+        rpart, sparklyr (>= 1.0.0), survival, tensorflow, testthat (>= 3.0.0), xgboost (>= 1.5.0.1)
+Imports: cli, dplyr (>= 1.1.0), generics (>= 0.1.2), ggplot2, globals, glue, hardhat (>= 1.4.1), lifecycle, magrittr, pillar, prettyunits, purrr (>= 1.0.0), rlang (>= 1.1.0), sparsevctrs (>= 0.2.0),
+        stats, tibble (>= 2.1.1), tidyr (>= 1.3.0), utils, vctrs (>= 0.6.0), withr
