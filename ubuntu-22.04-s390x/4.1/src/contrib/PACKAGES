@@ -2078,21 +2078,6 @@ OS: linux
 Arch: s390x
 LinkingTo: cli
 
-Package: R6
-Version: 2.6.0
-Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
-Suggests: lobstr, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: R6_2.6.0_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/R6/releases/download/2.6.0/R6_2.6.0_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; ; 2025-02-13 14:33:10 UTC; unix
-Filesize: 88770
-SHA256: 4b08be55539d2c5f6cb0f98a546528d5e7ee49007cb731f283781bbd5c5e72e1
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: cli
 Version: 3.6.4
 Depends: R (>= 3.4), R (>= 4.1), R (< 4.1.99)
@@ -2111,3 +2096,18 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: utils
 OS: linux
 Arch: s390x
+
+Package: R6
+Version: 2.6.1
+Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
+Suggests: lobstr, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: R6_2.6.1_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/R6/releases/download/2.6.1/R6_2.6.1_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2025-02-15 14:30:03 UTC; unix
+Filesize: 88940
+SHA256: c39a73825254d2ca9b4c2d60905c481791579bae9439f71cb76205e0e4f340bf
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
