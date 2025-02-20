@@ -3231,22 +3231,6 @@ Imports: diffobj, glue, grDevices, htmltools, lifecycle, rlang, testthat (>= 3.0
 SystemRequirements: libpng
 LinkingTo: cpp11
 
-Package: tinytex
-Version: 0.54
-Depends: R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: tinytex_0.54_b5_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/tinytex/releases/download/0.54/tinytex_0.54_b5_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.5.0; ; 2024-11-01 17:08:04 UTC; unix
-Filesize: 143539
-SHA256: d0d9a6e7af2f879a3edda69e26e685cec9c05f35aa997f4e954fad71ac93d267
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testit, rstudioapi
-Imports: xfun (>= 0.48)
-
 Package: R.oo
 Version: 1.27.0
 Depends: R (>= 2.13.0), R.methodsS3 (>= 1.8.2), R (>= 4.5), R (< 4.5.99)
@@ -4534,3 +4518,19 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
 SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
+
+Package: tinytex
+Version: 0.55
+Depends: R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: tinytex_0.55_b6_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/tinytex/releases/download/0.55/tinytex_0.55_b6_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.5.0; ; 2025-02-20 17:08:19 UTC; unix
+Filesize: 143695
+SHA256: cb7bfae382e26c0bfe23d0de3de388d9b543d6aaa41f4a649a337baefcc508ab
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testit, rstudioapi
+Imports: xfun (>= 0.48)
