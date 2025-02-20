@@ -1334,23 +1334,6 @@ Arch: s390x
 SystemRequirements: freetype2, libpng, libtiff, libjpeg
 LinkingTo: systemfonts, textshaping
 
-Package: jsonlite
-Version: 1.8.9
-Depends: methods, R (>= 4.1), R (< 4.1.99)
-Suggests: httr, vctrs, testthat, knitr, rmarkdown, R.rsp, sf
-License: MIT + file LICENSE
-File: jsonlite_1.8.9_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/jsonlite/releases/download/1.8.9/jsonlite_1.8.9_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-09-20 14:30:09 UTC; unix
-Filesize: 1158319
-SHA256: 8954384e18ff03d733293a7c655bb6572399b8a2d09e77516b3992923fd89582
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-OS: linux
-Arch: s390x
-
 Package: broom
 Version: 1.0.7
 Depends: R (>= 3.5), R (>= 4.1), R (< 4.1.99)
@@ -1542,22 +1525,6 @@ OS: linux
 Arch: s390x
 SystemRequirements: GNU make
 
-Package: tinytex
-Version: 0.54
-Depends: R (>= 4.1), R (< 4.1.99)
-Suggests: testit, rstudioapi
-License: MIT + file LICENSE
-File: tinytex_0.54_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/tinytex/releases/download/0.54/tinytex_0.54_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; ; 2024-11-02 14:33:59 UTC; unix
-Filesize: 141875
-SHA256: b5e394c1465fec16b09a812e72e6f54d76e5edf72691249f54a38c6723e08af7
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: xfun (>= 0.48)
-
 Package: rmarkdown
 Version: 2.29
 Depends: R (>= 3.0), R (>= 4.1), R (< 4.1.99)
@@ -1712,25 +1679,6 @@ Platform: s390x-ibm-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli (>= 2.3.0), glue, lifecycle, rlang (>= 1.0.2), utf8 (>= 1.1.0), utils, vctrs (>= 0.5.0)
-
-Package: xfun
-Version: 0.50
-Depends: R (>= 3.2.0), R (>= 4.1), R (< 4.1.99)
-Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.4), commonmark, knitr (>= 1.47), remotes, pak, rhub, renv, curl, xml2, jsonlite, magick, yaml, qs,
-        rmarkdown
-License: MIT + file LICENSE
-File: xfun_0.50_b5_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/xfun/releases/download/0.50/xfun_0.50_b5_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; s390x-ibm-linux-gnu; 2025-01-08 14:34:12 UTC; unix
-Filesize: 552203
-SHA256: 6f138861b1ee30254c2d7ba9a673a12aa354488ce8638a64c1618f54e8cf2298
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: grDevices, stats, tools
-OS: linux
-Arch: s390x
 
 Package: arrow
 Version: 18.1.0.1
@@ -2111,3 +2059,55 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 OS: linux
 Arch: s390x
 SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
+
+Package: jsonlite
+Version: 1.9.0
+Depends: methods, R (>= 4.1), R (< 4.1.99)
+Suggests: httr, vctrs, testthat, knitr, rmarkdown, R.rsp, sf
+License: MIT + file LICENSE
+File: jsonlite_1.9.0_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/jsonlite/releases/download/1.9.0/jsonlite_1.9.0_b3_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2025-02-20 14:33:46 UTC; unix
+Filesize: 1158183
+SHA256: 7f00d6c4676a85d732a745c790e648f5cd750037aa9d95eef2df80d44602afab
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+OS: linux
+Arch: s390x
+
+Package: tinytex
+Version: 0.55
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: testit, rstudioapi
+License: MIT + file LICENSE
+File: tinytex_0.55_b4_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/tinytex/releases/download/0.55/tinytex_0.55_b4_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2025-02-20 14:34:21 UTC; unix
+Filesize: 142070
+SHA256: c4039f7900ff8d4c1ec7f62b2f9c726e6a3b73e7d4f7daf351cc1b30e2eb8755
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: xfun (>= 0.48)
+
+Package: xfun
+Version: 0.51
+Depends: R (>= 3.2.0), R (>= 4.1), R (< 4.1.99)
+Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.4), commonmark, knitr (>= 1.47), remotes, pak, rhub, renv, curl, xml2, jsonlite, magick, yaml, qs,
+        rmarkdown
+License: MIT + file LICENSE
+File: xfun_0.51_b6_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/xfun/releases/download/0.51/xfun_0.51_b6_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2025-02-20 14:33:46 UTC; unix
+Filesize: 557439
+SHA256: c1a375ed73d89d07781dac96105c5e81f04a8e77d7a571909ecefccce4d02da4
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: grDevices, stats, tools
+OS: linux
+Arch: s390x
