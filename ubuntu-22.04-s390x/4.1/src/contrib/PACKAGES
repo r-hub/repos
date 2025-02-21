@@ -1901,25 +1901,6 @@ Arch: s390x
 SystemRequirements: fontconfig, freetype2
 LinkingTo: cpp11 (>= 0.2.1)
 
-Package: duckdb
-Version: 1.1.3-2
-Depends: DBI, R (>= 3.6.0), R (>= 4.1), R (< 4.1.99)
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-License: MIT + file LICENSE
-File: duckdb_1.1.3-2_b7_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.1.3-2/duckdb_1.1.3-2_b7_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; s390x-ibm-linux-gnu; 2025-01-25 14:30:16 UTC; unix
-Filesize: 229719061
-SHA256: a300d6b3aef850c7b5982e35dab3e8fff4569428d82419b134abf9cec72f966f
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: methods, utils
-OS: linux
-Arch: s390x
-SystemRequirements: xz (for building from source)
-
 Package: bslib
 Version: 0.9.0
 Depends: R (>= 2.10), R (>= 4.1), R (< 4.1.99)
@@ -2111,3 +2092,22 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: grDevices, stats, tools
 OS: linux
 Arch: s390x
+
+Package: duckdb
+Version: 1.2.0
+Depends: DBI, R (>= 3.6.0), R (>= 4.1), R (< 4.1.99)
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+License: MIT + file LICENSE
+File: duckdb_1.2.0_b8_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.2.0/duckdb_1.2.0_b8_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2025-02-21 14:32:24 UTC; unix
+Filesize: 253208130
+SHA256: f8a5590cc8ef5844d820711c6b0da4d2bd1aecfde98b0a54bdc8f4462d886f1c
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: methods, utils
+OS: linux
+Arch: s390x
+SystemRequirements: xz (for building from source)
