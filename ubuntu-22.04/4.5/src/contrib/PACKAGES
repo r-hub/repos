@@ -4442,25 +4442,6 @@ Enhances: SparseM, graph
 Suggests: MASS, datasets, sfsmisc, tools
 Imports: grDevices, graphics, grid, lattice, stats, utils
 
-Package: duckdb
-Version: 1.1.3-2
-Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: duckdb_1.1.3-2_b12_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.1.3-2/duckdb_1.1.3-2_b12_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-01-25 16:39:01 UTC; unix
-Filesize: 220856183
-SHA256: b7c58c2bf11926dbc7f76697c8093fccaa6e6624f0d7632757dae2797d558c46
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-Imports: methods, utils
-SystemRequirements: xz (for building from source)
-
 Package: doBy
 Version: 4.6.25
 Depends: R (>= 4.2.0), methods, R (>= 4.5), R (< 4.5.99)
@@ -4881,3 +4862,22 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testit, rstudioapi
 Imports: xfun (>= 0.48)
+
+Package: duckdb
+Version: 1.2.0
+Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: duckdb_1.2.0_b13_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.2.0/duckdb_1.2.0_b13_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-02-21 16:40:21 UTC; unix
+Filesize: 243473004
+SHA256: 87ae159375af956f0c959c2e420fbb5c976aa96b7d0e96d88245a3fbce8a6bae
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+Imports: methods, utils
+SystemRequirements: xz (for building from source)
