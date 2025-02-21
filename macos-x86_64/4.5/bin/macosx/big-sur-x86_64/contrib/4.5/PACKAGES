@@ -3999,24 +3999,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: knitr, rmarkdown, tinytest
 SystemRequirements: GNU make
 
-Package: processx
-Version: 3.8.5
-Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: processx_3.8.5_b2_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/processx/releases/download/3.8.5/processx_3.8.5_b2_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2025-01-09 17:35:31 UTC; unix
-Filesize: 317223
-SHA256: b2ac148fd66b3bb0d5d4334e3030da7517e1ddb99cdba770df3c0eade553e77a
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: callr (>= 3.7.3), cli (>= 3.3.0), codetools, covr, curl, debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0), webfakes, withr
-Imports: ps (>= 1.2.0), R6, utils
-
 Package: inline
 Version: 0.3.21
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4457,25 +4439,6 @@ Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.
 SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
 LinkingTo: cpp11 (>= 0.5.0)
 
-Package: duckdb
-Version: 1.1.3-2
-Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: duckdb_1.1.3-2_b12_R4.5_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.1.3-2/duckdb_1.1.3-2_b12_R4.5_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.5.0; x86_64-apple-darwin20; 2025-01-24 23:24:17 UTC; unix
-Filesize: 13454285
-SHA256: 05eeab25cb928b1cbe5063cc5dc29610f33ffa1f37f60433f72a5390322c52fa
-RVersion: 4.5
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-Imports: methods, utils
-SystemRequirements: xz (for building from source)
-
 Package: nlme
 Version: 3.1-167
 Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
@@ -4914,3 +4877,40 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
 SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
+
+Package: processx
+Version: 3.8.6
+Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: processx_3.8.6_b3_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/processx/releases/download/3.8.6/processx_3.8.6_b3_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2025-02-21 17:33:03 UTC; unix
+Filesize: 333780
+SHA256: b7d5c929a5f9d78c83ece205a0d11b45f1fff6ffe3943dfb14e0a7a034d9ae04
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: callr (>= 3.7.3), cli (>= 3.3.0), codetools, covr, curl, debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0), webfakes, withr
+Imports: ps (>= 1.2.0), R6, utils
+
+Package: duckdb
+Version: 1.2.0
+Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: duckdb_1.2.0_b13_R4.5_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.2.0/duckdb_1.2.0_b13_R4.5_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.5.0; x86_64-apple-darwin20; 2025-02-21 01:35:03 UTC; unix
+Filesize: 14242367
+SHA256: 014b47829c7055c5d19f0a4692d3f1d4870476309b3be3d83480d5d07fd85125
+RVersion: 4.5
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+Imports: methods, utils
+SystemRequirements: xz (for building from source)
