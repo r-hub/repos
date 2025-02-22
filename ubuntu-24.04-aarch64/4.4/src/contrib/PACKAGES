@@ -1921,24 +1921,6 @@ Imports: Rcpp
 SystemRequirements: udunits-2
 LinkingTo: Rcpp (>= 0.12.10)
 
-Package: zoo
-Version: 1.8-12
-Depends: R (>= 3.1.0), stats, R (>= 4.4), R (< 4.4.99)
-License: GPL-2 | GPL-3
-File: zoo_1.8-12_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/zoo/releases/download/1.8-12/zoo_1.8-12_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-20 14:54:52 UTC; unix
-Filesize: 1037281
-SHA256: 4644ee6fc96505e03b871967c2f27a2d418559c403ab25b5f01861b6e0462ac0
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: AER, coda, chron, ggplot2 (>= 3.0.0), mondate, scales, stinepack, strucchange, timeDate, timeSeries, tis, tseries, xts
-Imports: utils, graphics, grDevices, lattice (>= 0.20-27)
-
 Package: assertthat
 Version: 0.2.1
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -3734,24 +3716,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat (>= 0.11.0), roxygen2, knitr, markdown, rmarkdown, microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)
 
-Package: data.table
-Version: 1.16.4
-Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
-License: MPL-2.0 | file LICENSE
-File: data.table_1.16.4_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/data.table/releases/download/1.16.4/data.table_1.16.4_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2024-12-09 19:49:19 UTC; unix
-Filesize: 2991505
-SHA256: 88652a0f9d9e6a3b91d8f3f651fde15af4f34513a926b949b4eb9c55d2b20fc3
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
-Imports: methods
-
 Package: progressr
 Version: 0.15.1
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -4049,24 +4013,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: spData (>= 0.2.6.2), units, knitr, rmarkdown, tinytest
 Imports: grDevices, stats, graphics, e1071, class, KernSmooth
-
-Package: QuickJSR
-Version: 1.5.1
-Depends: R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: QuickJSR_1.5.1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/QuickJSR/releases/download/1.5.1/QuickJSR_1.5.1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-08 23:23:53 UTC; unix
-Filesize: 4201755
-SHA256: 88ea2713174e65c9cf5494287dfe68c6c564394abee19f3cfd62ddecdcf9cd6e
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: knitr, rmarkdown, tinytest
-SystemRequirements: GNU make
 
 Package: arrow
 Version: 18.1.0.1
@@ -5053,3 +4999,57 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
 Imports: methods, utils
 SystemRequirements: xz (for building from source)
+
+Package: zoo
+Version: 1.8-13
+Depends: R (>= 3.1.0), stats, R (>= 4.4), R (< 4.4.99)
+License: GPL-2 | GPL-3
+File: zoo_1.8-13_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/zoo/releases/download/1.8-13/zoo_1.8-13_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-02-22 23:23:10 UTC; unix
+Filesize: 1041791
+SHA256: c85e702516d86aff9bdcf976eb71d8a850a117c1697eead261912d6cff899765
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: AER, coda, chron, ggplot2 (>= 3.0.0), mondate, scales, stinepack, strucchange, timeDate, timeSeries, tinyplot, tis, tseries, xts
+Imports: utils, graphics, grDevices, lattice (>= 0.20-27)
+
+Package: data.table
+Version: 1.17.0
+Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
+License: MPL-2.0 | file LICENSE
+File: data.table_1.17.0_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/data.table/releases/download/1.17.0/data.table_1.17.0_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-02-22 23:23:12 UTC; unix
+Filesize: 3232845
+SHA256: 013e2fd11a78ca2be789b51f56744b546f9848116d3975ee71931a7fc644774a
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
+Imports: methods
+
+Package: QuickJSR
+Version: 1.5.2
+Depends: R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: QuickJSR_1.5.2_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/QuickJSR/releases/download/1.5.2/QuickJSR_1.5.2_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-02-22 23:23:11 UTC; unix
+Filesize: 4222325
+SHA256: 53679da7966482de1e6379fa007e7774924420a7343ce168294b3716d8b4b3b7
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr, rmarkdown, tinytest
+SystemRequirements: GNU make
