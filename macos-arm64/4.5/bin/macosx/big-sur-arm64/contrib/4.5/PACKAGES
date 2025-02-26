@@ -4632,26 +4632,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, ggplot2, kernlab, knitr, rmarkdown, rpart, testthat (>= 3.1.9), xml2
 Imports: cli, DiceDesign, dplyr (>= 0.8.5), glue, hardhat (>= 1.1.0), lifecycle, pillar, purrr, rlang (>= 1.1.0), sfd, tibble, utils, vctrs (>= 0.3.8), withr
 
-Package: terra
-Version: 1.8-21
-Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 3)
-File: terra_1.8-21_b7_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/terra/releases/download/1.8-21/terra_1.8-21_b7_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2025-02-14 00:29:38 UTC; unix
-Filesize: 42720751
-SHA256: 4cdad7652bbdd0d57fb18851f43120ad888043ce5c6370e784a7ba506f9b5670
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
-Imports: methods, Rcpp (>= 1.0-10)
-SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
-LinkingTo: Rcpp
-
 Package: R6
 Version: 2.6.1
 Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
@@ -4914,3 +4894,23 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: datasets, digest (>= 0.6.10)
 Imports: methods, utils, tools, R.methodsS3
+
+Package: terra
+Version: 1.8-29
+Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 3)
+File: terra_1.8-29_b8_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/terra/releases/download/1.8-29/terra_1.8-29_b8_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2025-02-26 17:36:13 UTC; unix
+Filesize: 19564608
+SHA256: d64d7b947ec10da41301e63e1226b96f8a46d2d2470ee89e3252ec1dfa890bf7
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
+Imports: methods, Rcpp (>= 1.0-10)
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
+LinkingTo: Rcpp
