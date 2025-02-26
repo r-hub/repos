@@ -101,7 +101,7 @@ options(repos = c(
 
 ### Containers using this repo
 
-* [x] `gcc14` (extra `gcc141)
+* [x] `gcc14` (extra `gcc14`)
 
 ## Ubuntu 22.04 + R-release on aarch64 (`ubuntu-22.04-aarch64-R4.4`)
 
@@ -210,6 +210,7 @@ Name         | CRAN       | ✓ | Repo                      | Description
 `gcc12`      | gcc12      |   |                           | Installation issues with fedora-gcc but not fedora-clang
 `gcc13`      | gcc13      | ✓ | fedora-38-R4.5            | Checks with GCC trunk aka 13.0
 `gcc14`      | gcc14      | ✓ | fedora-40-R4.5            | Checks with GCC trunk aka 14.0
+`gcc15`      | gcc15      |   |                           | Installation checks with a snapshot of GCC pre-15
 `nold`       | noLD`      | ✓ | ubuntu-22.04-R4.5         | Tests without long double
 `noomp`      | noOMP      |   | ubuntu-22.04-R4.5         | Tests without OpenMP support
 `nosuggests` | noSuggests | ✓ | fedora-38-R4.5            | Tests without suggested packages
