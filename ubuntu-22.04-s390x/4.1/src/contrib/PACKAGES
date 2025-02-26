@@ -1662,27 +1662,6 @@ GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli (>= 2.3.0), glue, lifecycle, rlang (>= 1.0.2), utf8 (>= 1.1.0), utils, vctrs (>= 0.5.0)
 
-Package: arrow
-Version: 18.1.0.1
-Depends: R (>= 4.0), R (>= 4.1), R (< 4.1.99)
-Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
-        tibble, tzdb, withr
-License: Apache License (>= 2.0)
-File: arrow_18.1.0.1_b5_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/arrow/releases/download/18.1.0.1/arrow_18.1.0.1_b5_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; s390x-ibm-linux-gnu; 2025-01-08 16:09:16 UTC; unix
-Filesize: 32388391
-SHA256: ea0462456a3b3315b582185858f7f04195ea88980d1f18901de14ae672c11ae5
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
-OS: linux
-Arch: s390x
-SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
-LinkingTo: cpp11 (>= 0.4.2)
-
 Package: webfakes
 Version: 1.3.2
 Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
@@ -2111,3 +2090,24 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: ps (>= 1.2.0), R6, utils
 OS: linux
 Arch: s390x
+
+Package: arrow
+Version: 19.0.1
+Depends: R (>= 4.0), R (>= 4.1), R (< 4.1.99)
+Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
+        tibble, tzdb, withr
+License: Apache License (>= 2.0)
+File: arrow_19.0.1_b6_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/arrow/releases/download/19.0.1/arrow_19.0.1_b6_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2025-02-26 16:11:52 UTC; unix
+Filesize: 32637668
+SHA256: e76d5d4e867c5a901be567fda1013371529430b75b4614a5980df193c389a3c1
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+OS: linux
+Arch: s390x
+SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
+LinkingTo: cpp11 (>= 0.4.2)
