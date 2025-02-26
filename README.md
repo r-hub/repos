@@ -38,7 +38,6 @@ options(repos = c(
 * [x] `nold` (extra `noLD`)
 * [ ] `lto` (extra `LTO`)
 * [x] `donttest` (extra `donttest`)
-* [ ] `gcc-asan` (extra `gcc-ASAN` and `gcc-UBSAN`)
 * [ ] `noomp` (extra `noOMP`)
 * [ ] `rcnst` (extra `rcnst`)
 * [ ] `rlibro` (extra `rlibro`)
@@ -102,6 +101,7 @@ options(repos = c(
 ### Containers using this repo
 
 * [x] `gcc14` (extra `gcc14`)
+* [x] `gcc-asan` (extra `gcc-ASAN` and `gcc-UBSAN`)
 
 ## Ubuntu 22.04 + R-release on aarch64 (`ubuntu-22.04-aarch64-R4.4`)
 
@@ -204,8 +204,8 @@ Name         | CRAN       | ✓ | Repo                      | Description
 `clang18`    | clang18    | ✓ | ubuntu-22.04-R4.5-libc++  | Checks with LLVM pre-18.0.0
 `clang19`    | clang19    | ✓ | ubuntu-22.04-R4.5-libc++  | Checks with LLVM pre-19.0.0
 `donttest`   | donttest   | ✓ | ubuntu-22.04-R4.5         | Tests including `\donttest` examples
-`gcc-asan`   | gcc-ASAN   |   | ubuntu-22.04-R4.5         | Tests of memory access errors using AddressSanitizer
-`gcc-asan`   | gcc-UBSAN  |   | ubuntu-22.04-R4.5         | Tests of memory access errors using Undefined Behavior Sanitizer
+`gcc-asan`   | gcc-ASAN   | ✓ | fedora-40-R4.5            | Tests of memory access errors using AddressSanitizer
+`gcc-asan`   | gcc-UBSAN  | ✓ | fedora-40-R4.5            | Tests of memory access errors using Undefined Behavior Sanitizer
 `gcc11`      | gcc11      |   |                           | Checks with GCC trunk aka 11.0
 `gcc12`      | gcc12      |   |                           | Installation issues with fedora-gcc but not fedora-clang
 `gcc13`      | gcc13      | ✓ | fedora-38-R4.5            | Checks with GCC trunk aka 13.0
