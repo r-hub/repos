@@ -2559,22 +2559,6 @@ Suggests: bayesplot (>= 1.7.0), brms (>= 2.10.0), ggplot2, graphics, knitr, rmar
 Imports: checkmate, matrixStats (>= 0.52), parallel, posterior (>= 1.5.0), stats
 SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
 
-Package: posterior
-Version: 1.6.0
-Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
-License: BSD_3_clause + file LICENSE
-File: posterior_1.6.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/posterior/releases/download/1.6.0/posterior_1.6.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.0; ; 2024-07-04 16:37:16 UTC; unix
-Filesize: 1035188
-SHA256: b3b9066d8bd7f93acc7c9af429fecd985d5c14e62a1f8dae8e10e53af5ae613e
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testthat (>= 2.1.0), caret (>= 6.0-84), gbm (>= 2.1.8), randomForest (>= 4.6.14), e1071 (>= 1.7-3), dplyr, tidyr, knitr, ggplot2, ggdist, rmarkdown
-Imports: methods, abind, checkmate, rlang (>= 1.0.6), stats, tibble (>= 3.1.0), vctrs (>= 0.5.0), tensorA, pillar, distributional, parallel, matrixStats
-
 Package: reprex
 Version: 2.1.1
 Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
@@ -4682,22 +4666,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
 SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
 
-Package: tinytex
-Version: 0.55
-Depends: R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: tinytex_0.55_b6_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/tinytex/releases/download/0.55/tinytex_0.55_b6_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.0; ; 2025-02-20 16:43:00 UTC; unix
-Filesize: 143819
-SHA256: 41a08d3e02a17610284b1f181aea610eb29196c71f1430cfc62e6520ee1b8239
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testit, rstudioapi
-Imports: xfun (>= 0.48)
-
 Package: duckdb
 Version: 1.2.0
 Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
@@ -4789,24 +4757,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
 Imports: methods
 
-Package: QuickJSR
-Version: 1.5.2
-Depends: R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: QuickJSR_1.5.2_b8_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/QuickJSR/releases/download/1.5.2/QuickJSR_1.5.2_b8_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-02-22 16:38:17 UTC; unix
-Filesize: 4350757
-SHA256: 1dae17c8aeb24784642277a4b2448a8131441504ad5b436c58ae07ed138fa677
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: knitr, rmarkdown, tinytest
-SystemRequirements: GNU make
-
 Package: processx
 Version: 3.8.6
 Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
@@ -4881,3 +4831,53 @@ Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2
 Imports: methods, Rcpp (>= 1.0-10)
 SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
 LinkingTo: Rcpp
+
+Package: posterior
+Version: 1.6.1
+Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
+License: BSD_3_clause + file LICENSE
+File: posterior_1.6.1_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/posterior/releases/download/1.6.1/posterior_1.6.1_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.0; ; 2025-02-27 16:43:01 UTC; unix
+Filesize: 1036204
+SHA256: 7052d2a6192ba3091860be1104fce616a42fc116584ccf543c33977138a581aa
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat (>= 2.1.0), caret (>= 6.0-84), gbm (>= 2.1.8), randomForest (>= 4.6.14), e1071 (>= 1.7-3), dplyr, tidyr, knitr, ggplot2, ggdist, rmarkdown
+Imports: methods, abind, checkmate, rlang (>= 1.0.6), stats, tibble (>= 3.1.0), vctrs (>= 0.5.0), tensorA, pillar, distributional, parallel, matrixStats
+
+Package: tinytex
+Version: 0.56
+Depends: R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: tinytex_0.56_b7_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/tinytex/releases/download/0.56/tinytex_0.56_b7_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.0; ; 2025-02-27 16:43:01 UTC; unix
+Filesize: 143838
+SHA256: f2a8afe88a2bd71df3202d83c03539cbc13d1129c7ddcc151d544c0106b62133
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testit, rstudioapi
+Imports: xfun (>= 0.48)
+
+Package: QuickJSR
+Version: 1.6.0
+Depends: R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: QuickJSR_1.6.0_b9_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/QuickJSR/releases/download/1.6.0/QuickJSR_1.6.0_b9_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-02-27 16:42:59 UTC; unix
+Filesize: 4331114
+SHA256: deabc548257ec9f83ed9a3dcead8e9845731a3ca69c167f749ac68b8cf745d5d
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr, rmarkdown, tinytest
+SystemRequirements: GNU make
