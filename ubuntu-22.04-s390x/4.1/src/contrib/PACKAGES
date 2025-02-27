@@ -2001,22 +2001,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 OS: linux
 Arch: s390x
 
-Package: tinytex
-Version: 0.55
-Depends: R (>= 4.1), R (< 4.1.99)
-Suggests: testit, rstudioapi
-License: MIT + file LICENSE
-File: tinytex_0.55_b4_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/tinytex/releases/download/0.55/tinytex_0.55_b4_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; ; 2025-02-20 14:34:21 UTC; unix
-Filesize: 142070
-SHA256: c4039f7900ff8d4c1ec7f62b2f9c726e6a3b73e7d4f7daf351cc1b30e2eb8755
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: xfun (>= 0.48)
-
 Package: xfun
 Version: 0.51
 Depends: R (>= 3.2.0), R (>= 4.1), R (< 4.1.99)
@@ -2111,3 +2095,19 @@ OS: linux
 Arch: s390x
 SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
+
+Package: tinytex
+Version: 0.56
+Depends: R (>= 4.1), R (< 4.1.99)
+Suggests: testit, rstudioapi
+License: MIT + file LICENSE
+File: tinytex_0.56_b5_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/tinytex/releases/download/0.56/tinytex_0.56_b5_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; ; 2025-02-27 14:34:05 UTC; unix
+Filesize: 141901
+SHA256: d9d35bdc232caeeef4037088e840d27eb16b0124d5a846d374a1fed43ef3c511
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: xfun (>= 0.48)
