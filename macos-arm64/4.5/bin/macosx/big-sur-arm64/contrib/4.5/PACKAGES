@@ -1354,25 +1354,6 @@ Suggests: covr, curl, datasets, knitr, rmarkdown, spelling, stringi, testthat (>
 Imports: cli (>= 3.2.0), clipr, crayon, hms (>= 0.4.1), lifecycle (>= 0.2.0), methods, R6, rlang, tibble, utils, vroom (>= 1.6.0)
 LinkingTo: cpp11, tzdb (>= 0.1.1)
 
-Package: readxl
-Version: 1.4.3
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: readxl_1.4.3_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/readxl/releases/download/1.4.3/readxl_1.4.3_b1_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-03-29 15:27:35 UTC; unix
-Filesize: 862879
-SHA256: 95abc46b0790ad17a8e5bc97e3aa80945bf17ee1f087e3f5bc53271914c8d4fe
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, knitr, rmarkdown, testthat (>= 3.1.6), withr
-Imports: cellranger, tibble (>= 2.0.1), utils
-LinkingTo: cpp11 (>= 0.4.0), progress
-
 Package: rematch
 Version: 2.0.0
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -2538,22 +2519,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: bayesplot (>= 1.7.0), brms (>= 2.10.0), ggplot2, graphics, knitr, rmarkdown, rstan, rstanarm (>= 2.19.0), rstantools, spdep, testthat (>= 2.1.0)
 Imports: checkmate, matrixStats (>= 0.52), parallel, posterior (>= 1.5.0), stats
 SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
-
-Package: posterior
-Version: 1.6.0
-Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
-License: BSD_3_clause + file LICENSE
-File: posterior_1.6.0_b2_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/posterior/releases/download/1.6.0/posterior_1.6.0_b2_R4.5_aarch64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2024-07-04 17:31:08 UTC; unix
-Filesize: 1020117
-SHA256: 9899766ae8e97765084d47da89c3edce3e7c6a8e5e9f21dacaef413dda1bf939
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testthat (>= 2.1.0), caret (>= 6.0-84), gbm (>= 2.1.8), randomForest (>= 4.6.14), e1071 (>= 1.7-3), dplyr, tidyr, knitr, ggplot2, ggdist, rmarkdown
-Imports: methods, abind, checkmate, rlang (>= 1.0.6), stats, tibble (>= 3.1.0), vctrs (>= 0.5.0), tensorA, pillar, distributional, parallel, matrixStats
 
 Package: reprex
 Version: 2.1.1
@@ -4177,27 +4142,6 @@ Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, k
 SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
         (optional), libpng (>=1.2.9, optional), FreeType (optional)
 
-Package: arrow
-Version: 18.1.0.1
-Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
-License: Apache License (>= 2.0)
-File: arrow_18.1.0.1_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/arrow/releases/download/18.1.0.1/arrow_18.1.0.1_b1_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2025-01-17 05:50:30 UTC; unix
-Filesize: 126967362
-SHA256: 1bb6070119164d6282376f1a243c16cec3b6c258fcc8f2c32cad47c7fdac331c
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
-        tibble, tzdb, withr
-Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
-SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
-LinkingTo: cpp11 (>= 0.4.2)
-
 Package: textshaping
 Version: 1.0.0
 Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
@@ -4699,22 +4643,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes, withr
 Imports: utils
 
-Package: tinytex
-Version: 0.55
-Depends: R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: tinytex_0.55_b6_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/tinytex/releases/download/0.55/tinytex_0.55_b6_R4.5_aarch64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2025-02-19 17:34:31 UTC; unix
-Filesize: 144261
-SHA256: a4ecbbfe2e4fb506b62f01484cd2a63a6fc6c57e093bf4feb7f10ef1ffb8a50e
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testit, rstudioapi
-Imports: xfun (>= 0.48)
-
 Package: xfun
 Version: 0.51
 Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
@@ -4861,24 +4789,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
 Imports: methods
 
-Package: QuickJSR
-Version: 1.5.2
-Depends: R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: QuickJSR_1.5.2_b8_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/QuickJSR/releases/download/1.5.2/QuickJSR_1.5.2_b8_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2025-02-22 17:33:42 UTC; unix
-Filesize: 2592637
-SHA256: b9152d73c315a9177d129a0f2f5c9c11a4142887f061e8307ea8730eeaa61afc
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: knitr, rmarkdown, tinytest
-SystemRequirements: GNU make
-
 Package: R.utils
 Version: 2.13.0
 Depends: R (>= 2.14.0), R.oo, R (>= 4.5), R (< 4.5.99)
@@ -4914,3 +4824,93 @@ Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2
 Imports: methods, Rcpp (>= 1.0-10)
 SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
 LinkingTo: Rcpp
+
+Package: readxl
+Version: 1.4.4
+Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: readxl_1.4.4_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/readxl/releases/download/1.4.4/readxl_1.4.4_b2_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2025-02-27 17:35:41 UTC; unix
+Filesize: 403020
+SHA256: 45e2e67e557e36c7974af0fb9fb6a795c74f09f75e9eb3bb497daaafe0120226
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, knitr, rmarkdown, testthat (>= 3.1.6), withr
+Imports: cellranger, tibble (>= 2.0.1), utils
+LinkingTo: cpp11 (>= 0.4.0), progress
+
+Package: posterior
+Version: 1.6.1
+Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
+License: BSD_3_clause + file LICENSE
+File: posterior_1.6.1_b3_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/posterior/releases/download/1.6.1/posterior_1.6.1_b3_R4.5_aarch64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2025-02-27 17:35:55 UTC; unix
+Filesize: 1036334
+SHA256: 68c852d17c6718fbd1f3b691f16ac308fb0e4ca93081324ca2cc9779d2645558
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat (>= 2.1.0), caret (>= 6.0-84), gbm (>= 2.1.8), randomForest (>= 4.6.14), e1071 (>= 1.7-3), dplyr, tidyr, knitr, ggplot2, ggdist, rmarkdown
+Imports: methods, abind, checkmate, rlang (>= 1.0.6), stats, tibble (>= 3.1.0), vctrs (>= 0.5.0), tensorA, pillar, distributional, parallel, matrixStats
+
+Package: arrow
+Version: 19.0.1
+Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
+License: Apache License (>= 2.0)
+File: arrow_19.0.1_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/arrow/releases/download/19.0.1/arrow_19.0.1_b2_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2025-02-26 09:24:00 UTC; unix
+Filesize: 127649850
+SHA256: bc372cfe577369ac3bd2af6817b576d02b684cc3022a20ad5c19dc4d10faa8f4
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
+        tibble, tzdb, withr
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
+LinkingTo: cpp11 (>= 0.4.2)
+
+Package: tinytex
+Version: 0.56
+Depends: R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: tinytex_0.56_b7_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/tinytex/releases/download/0.56/tinytex_0.56_b7_R4.5_aarch64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2025-02-26 23:16:36 UTC; unix
+Filesize: 144558
+SHA256: 87ed22cbc303c627045739fc7081238e3c73a84cb33c57a43a3d38ca7b12bc52
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testit, rstudioapi
+Imports: xfun (>= 0.48)
+
+Package: QuickJSR
+Version: 1.6.0
+Depends: R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: QuickJSR_1.6.0_b9_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/QuickJSR/releases/download/1.6.0/QuickJSR_1.6.0_b9_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2025-02-26 18:14:46 UTC; unix
+Filesize: 4598661
+SHA256: d77741acd3e37db8a6eebab57ed91dff90973fbce7549a9601a53816d414efa9
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr, rmarkdown, tinytest
+SystemRequirements: GNU make
