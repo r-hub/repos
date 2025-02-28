@@ -786,25 +786,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: markdown
 
-Package: xml2
-Version: 1.3.6
-Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: xml2_1.3.6_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/xml2/releases/download/1.3.6/xml2_1.3.6_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-20 15:01:29 UTC; unix
-Filesize: 649145
-SHA256: 16568b8b4e956bf7d8ec321004eb899d090b87b206bd95488f24ce9391bea764
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, curl, httr, knitr, magrittr, mockery, rmarkdown, testthat (>= 3.0.0)
-Imports: cli, methods, rlang (>= 1.1.0)
-SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
-
 Package: xopen
 Version: 1.0.1
 Depends: R (>= 3.1), R (>= 4.4), R (< 4.4.99)
@@ -3841,24 +3822,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: bitops, RCurl
 SystemRequirements: libxml2 (>= 2.6.3)
 
-Package: MASS
-Version: 7.3-64
-Depends: R (>= 4.4.0), grDevices, graphics, stats, utils, R (>= 4.4), R (< 4.4.99)
-License: GPL-2 | GPL-3
-File: MASS_7.3-64_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/MASS/releases/download/7.3-64/MASS_7.3-64_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-04 23:23:41 UTC; unix
-Filesize: 1156365
-SHA256: e077937799e56ee2258bc1b2b22ae9972fd667ef1a7f02ee56a27c36d3a8d678
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: lattice, nlme, nnet, survival
-Imports: methods
-
 Package: matrixStats
 Version: 1.5.0
 Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
@@ -5053,3 +5016,40 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat (>= 2.1.0), caret (>= 6.0-84), gbm (>= 2.1.8), randomForest (>= 4.6.14), e1071 (>= 1.7-3), dplyr, tidyr, knitr, ggplot2, ggdist, rmarkdown
 Imports: methods, abind, checkmate, rlang (>= 1.0.6), stats, tibble (>= 3.1.0), vctrs (>= 0.5.0), tensorA, pillar, distributional, parallel, matrixStats
+
+Package: xml2
+Version: 1.3.7
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: xml2_1.3.7_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/xml2/releases/download/1.3.7/xml2_1.3.7_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-02-28 23:24:43 UTC; unix
+Filesize: 636125
+SHA256: 10e1f85659e3043cab72968a52e1b03854b04f53ac961f69cdd9cd1e50301b61
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, curl, httr, knitr, magrittr, mockery, rmarkdown, testthat (>= 3.2.0), xslt
+Imports: cli, methods, rlang (>= 1.1.0)
+SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
+
+Package: MASS
+Version: 7.3-65
+Depends: R (>= 4.4.0), grDevices, graphics, stats, utils, R (>= 4.4), R (< 4.4.99)
+License: GPL-2 | GPL-3
+File: MASS_7.3-65_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/MASS/releases/download/7.3-65/MASS_7.3-65_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-02-28 23:24:43 UTC; unix
+Filesize: 1156757
+SHA256: d1dca7bbe615580be2232244fb11fbeef2c30885e32257cc7a89760c6c0f432f
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: lattice, nlme, nnet, survival
+Imports: methods
