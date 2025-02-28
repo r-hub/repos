@@ -1338,25 +1338,6 @@ Suggests: covr, curl, datasets, knitr, rmarkdown, spelling, stringi, testthat (>
 Imports: cli (>= 3.2.0), clipr, crayon, hms (>= 0.4.1), lifecycle (>= 0.2.0), methods, R6, rlang, tibble, utils, vroom (>= 1.6.0)
 LinkingTo: cpp11, tzdb (>= 0.1.1)
 
-Package: readxl
-Version: 1.4.3
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: readxl_1.4.3_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/readxl/releases/download/1.4.3/readxl_1.4.3_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 09:50:36 UTC; unix
-Filesize: 2115621
-SHA256: 69636a9c8adbcb6e2d16d161b17c6e33e098094bd3530ab486c9aa8e91651262
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, knitr, rmarkdown, testthat (>= 3.1.6), withr
-Imports: cellranger, tibble (>= 2.0.1), utils
-LinkingTo: cpp11 (>= 0.4.0), progress
-
 Package: rematch
 Version: 2.0.0
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4881,3 +4862,22 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: knitr, rmarkdown, tinytest
 SystemRequirements: GNU make
+
+Package: readxl
+Version: 1.4.4
+Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: readxl_1.4.4_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/readxl/releases/download/1.4.4/readxl_1.4.4_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-02-28 16:42:19 UTC; unix
+Filesize: 1674065
+SHA256: 80e871fdc92f1a241ad898599629252143c5df472cb2aa391788c4ad4a14f192
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, knitr, rmarkdown, testthat (>= 3.1.6), withr
+Imports: cellranger, tibble (>= 2.0.1), utils
+LinkingTo: cpp11 (>= 0.4.0), progress
