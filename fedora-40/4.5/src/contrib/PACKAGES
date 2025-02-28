@@ -719,25 +719,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: markdown
 
-Package: xml2
-Version: 1.3.6
-Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: xml2_1.3.6_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/xml2/releases/download/1.3.6/xml2_1.3.6_b1_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-05-24 21:20:21 UTC; unix
-Filesize: 685152
-SHA256: a43d99d312c98477d0d4f307b061cf77808eccee79b34e57261abacb29bc740a
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, curl, httr, knitr, magrittr, mockery, rmarkdown, testthat (>= 3.0.0)
-Imports: cli, methods, rlang (>= 1.1.0)
-SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
-
 Package: xopen
 Version: 1.0.1
 Depends: R (>= 3.1), R (>= 4.5), R (< 4.5.99)
@@ -4881,3 +4862,22 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: knitr, rmarkdown, tinytest
 SystemRequirements: GNU make
+
+Package: xml2
+Version: 1.3.7
+Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: xml2_1.3.7_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/xml2/releases/download/1.3.7/xml2_1.3.7_b2_R4.5_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-02-28 17:23:03 UTC; unix
+Filesize: 673831
+SHA256: c165ae25014ba9e866cf8b38a9306b2fda3accbb192d5c09a199dbbc081ef0b8
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, curl, httr, knitr, magrittr, mockery, rmarkdown, testthat (>= 3.2.0), xslt
+Imports: cli, methods, rlang (>= 1.1.0)
+SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
