@@ -848,25 +848,6 @@ OS: linux
 Arch: s390x
 LinkingTo: cpp11, tzdb (>= 0.1.1)
 
-Package: readxl
-Version: 1.4.3
-Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
-Suggests: covr, knitr, rmarkdown, testthat (>= 3.1.6), withr
-License: MIT + file LICENSE
-File: readxl_1.4.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/readxl/releases/download/1.4.3/readxl_1.4.3_b1_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; s390x-ibm-linux-gnu; 2024-07-29 08:17:39 UTC; unix
-Filesize: 865993
-SHA256: 6eff485b30bf140c81c05b9c08316bb4d6be75480d8731b83b882803ee9dd315
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: cellranger, tibble (>= 2.0.1), utils
-OS: linux
-Arch: s390x
-LinkingTo: cpp11 (>= 0.4.0), progress
-
 Package: rematch
 Version: 2.0.0
 Depends: R (>= 4.1), R (< 4.1.99)
@@ -2111,3 +2092,22 @@ Platform: s390x-ibm-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 14
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: xfun (>= 0.48)
+
+Package: readxl
+Version: 1.4.4
+Depends: R (>= 3.6), R (>= 4.1), R (< 4.1.99)
+Suggests: covr, knitr, rmarkdown, testthat (>= 3.1.6), withr
+License: MIT + file LICENSE
+File: readxl_1.4.4_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/readxl/releases/download/1.4.4/readxl_1.4.4_b2_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2025-02-28 14:33:50 UTC; unix
+Filesize: 1603397
+SHA256: 3efe8aa11aa8fc9829a4fa97c2a219082aa94b6f848d175c4f120b3cdee2388d
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cellranger, tibble (>= 2.0.1), utils
+OS: linux
+Arch: s390x
+LinkingTo: cpp11 (>= 0.4.0), progress
