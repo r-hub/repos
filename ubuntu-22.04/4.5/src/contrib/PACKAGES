@@ -614,25 +614,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: markdown
 
-Package: xml2
-Version: 1.3.6
-Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: xml2_1.3.6_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/xml2/releases/download/1.3.6/xml2_1.3.6_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 09:43:41 UTC; unix
-Filesize: 677782
-SHA256: 0820aedb497fb5cefddfdf979184ff94e01a13ecf9076ea40ce51f7dfa46865f
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, curl, httr, knitr, magrittr, mockery, rmarkdown, testthat (>= 3.0.0)
-Imports: cli, methods, rlang (>= 1.1.0)
-SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
-
 Package: xtable
 Version: 1.8-4
 Depends: R (>= 2.10.0), R (>= 4.5), R (< 4.5.99)
@@ -4881,3 +4862,22 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, knitr, rmarkdown, testthat (>= 3.1.6), withr
 Imports: cellranger, tibble (>= 2.0.1), utils
 LinkingTo: cpp11 (>= 0.4.0), progress
+
+Package: xml2
+Version: 1.3.7
+Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: xml2_1.3.7_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/xml2/releases/download/1.3.7/xml2_1.3.7_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-03-01 16:38:46 UTC; unix
+Filesize: 660905
+SHA256: fa3fd17254dc3d9016421ff0459712f343963e56fa0dcd30a6adc02011fb16bd
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, curl, httr, knitr, magrittr, mockery, rmarkdown, testthat (>= 3.2.0), xslt
+Imports: cli, methods, rlang (>= 1.1.0)
+SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
