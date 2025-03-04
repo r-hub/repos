@@ -3612,21 +3612,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat (>= 0.11.0), roxygen2, knitr, markdown, rmarkdown, microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)
 
-Package: cpp11
-Version: 0.5.1
-Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: cpp11_0.5.1_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/cpp11/releases/download/0.5.1/cpp11_0.5.1_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.0; ; 2024-12-04 16:46:08 UTC; unix
-Filesize: 289914
-SHA256: df1cdab6c556befe90fde8f2a94d70ad0c2a19bb06e95ef6b3c4bd31874d23b3
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue, knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp, testthat (>= 3.2.0), tibble, utils, vctrs, withr
-
 Package: RSQLite
 Version: 2.3.9
 Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
@@ -4556,23 +4541,6 @@ Suggests: butcher (>= 0.2.0), covr, dials (>= 1.0.0), glmnet, knitr, magrittr, M
 Imports: cli (>= 3.3.0), generics (>= 0.1.2), glue (>= 1.6.2), hardhat (>= 1.4.1), lifecycle (>= 1.0.3), modelenv (>= 0.1.0), parsnip (>= 1.3.0), recipes (>= 1.1.1), rlang (>= 1.1.0), tidyselect (>=
         1.2.0), sparsevctrs (>= 0.2.0), vctrs (>= 0.4.1), withr
 
-Package: jsonlite
-Version: 1.9.0
-Depends: methods, R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: jsonlite_1.9.0_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/jsonlite/releases/download/1.9.0/jsonlite_1.9.0_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-02-19 16:41:53 UTC; unix
-Filesize: 1167334
-SHA256: 4ad0d3f24ff99431f99e62a4ce54ec5b70faf6e20ef8de1354e09433e1e28430
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: httr, vctrs, testthat, knitr, rmarkdown, R.rsp, sf
-
 Package: ps
 Version: 1.9.0
 Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
@@ -4881,3 +4849,35 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, curl, httr, knitr, magrittr, mockery, rmarkdown, testthat (>= 3.2.0), xslt
 Imports: cli, methods, rlang (>= 1.1.0)
 SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
+
+Package: cpp11
+Version: 0.5.2
+Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: cpp11_0.5.2_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/cpp11/releases/download/0.5.2/cpp11_0.5.2_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.0; ; 2025-03-04 16:43:20 UTC; unix
+Filesize: 290045
+SHA256: 1a78b39b6ad5e840cd19764284a1656c2f35fb77fc82020bf2fdffd0f8b39a6a
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue, knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp, testthat (>= 3.2.0), tibble, utils, vctrs, withr
+
+Package: jsonlite
+Version: 1.9.1
+Depends: methods, R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: jsonlite_1.9.1_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/jsonlite/releases/download/1.9.1/jsonlite_1.9.1_b4_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-03-04 16:43:21 UTC; unix
+Filesize: 1167249
+SHA256: b8391b5612e989b2a753c118abd6c97dae427287ab920d2052a281b9235dac73
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: httr, vctrs, testthat, knitr, rmarkdown, R.rsp, sf
