@@ -4899,25 +4899,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make
 
-Package: readxl
-Version: 1.4.4
-Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
-Imports: cellranger, tibble (>= 2.0.1), utils
-Suggests: covr, knitr, rmarkdown, testthat (>= 3.1.6), withr
-License: MIT + file LICENSE
-File: readxl_1.4.4_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/readxl/releases/download/1.4.4/readxl_1.4.4_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-02-27 18:41:27 UTC; unix
-Filesize: 1650669
-SHA256: 6efd3def9d6b8bea202f4158dfffff104d97d32e3680d4e29c17f7a3af9c91b1
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cpp11 (>= 0.4.0), progress
-
 Package: posterior
 Version: 1.6.1
 Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
@@ -5019,6 +5000,23 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
+Package: bit
+Version: 4.6.0
+Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
+Suggests: testthat (>= 3.0.0), roxygen2, knitr, markdown, rmarkdown, microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)
+License: GPL-2 | GPL-3
+File: bit_4.6.0_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/bit/releases/download/4.6.0/bit_4.6.0_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.3; aarch64-unknown-linux-gnu; 2025-03-06 18:41:13 UTC; unix
+Filesize: 736659
+SHA256: 31bfceb3177cc316dbb8a4020518ea710cc6c25599e0bc2ed5b3a5f2f01ecb8b
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
 Package: rlang
 Version: 1.1.5
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -5031,8 +5029,8 @@ DownloadURL: https://github.com/cran/rlang/releases/download/1.1.5/rlang_1.1.5_b
 OS: linux
 Arch: arm64
 Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-17 18:36:52 UTC; unix
-Filesize: 2064840
-SHA256: cd53ef3cf28e94233654e067e8ed7c622a7755df3d702bc91ce24e418893e439
+Filesize: 2064842
+SHA256: 3efc5e86d6f85192a949948f382f65fc4914d2d2a7dc8d095f9244122523c3e9
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -5050,26 +5048,28 @@ DownloadURL: https://github.com/cran/cli/releases/download/3.6.4/cli_3.6.4_b2_R4
 OS: linux
 Arch: arm64
 Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-02-21 20:00:28 UTC; unix
-Filesize: 1528457
-SHA256: 8f44beedb65b79672a200d8870b6ed728c2af25dfad57de148a443006d0de181
+Filesize: 1528456
+SHA256: bfb8203d4821e107ad92e869704b521c6f4d60e6c7a6e5576289855ab0bc74ad
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: bit
-Version: 4.6.0
-Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
-Suggests: testthat (>= 3.0.0), roxygen2, knitr, markdown, rmarkdown, microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)
-License: GPL-2 | GPL-3
-File: bit_4.6.0_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/bit/releases/download/4.6.0/bit_4.6.0_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Package: readxl
+Version: 1.4.5
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+Imports: cellranger, tibble (>= 2.0.1), utils
+Suggests: covr, knitr, rmarkdown, testthat (>= 3.1.6), withr
+License: MIT + file LICENSE
+File: readxl_1.4.5_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/readxl/releases/download/1.4.5/readxl_1.4.5_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
 OS: linux
 Arch: arm64
-Built: R 4.4.3; aarch64-unknown-linux-gnu; 2025-03-06 18:41:13 UTC; unix
-Filesize: 736659
-SHA256: 31bfceb3177cc316dbb8a4020518ea710cc6c25599e0bc2ed5b3a5f2f01ecb8b
+Built: R 4.4.3; aarch64-unknown-linux-gnu; 2025-03-07 18:41:11 UTC; unix
+Filesize: 1650832
+SHA256: 37eda15b26b2e18d2773f642b099ae4c9073e4f34c54a77f3c0abd7515fb14c5
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11 (>= 0.4.0), progress
