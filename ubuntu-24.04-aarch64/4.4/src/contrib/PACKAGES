@@ -1863,26 +1863,6 @@ Imports: Rcpp, wk (>= 0.6.0)
 SystemRequirements: OpenSSL >= 1.0.1
 LinkingTo: Rcpp, wk
 
-Package: units
-Version: 0.8-5
-Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
-License: GPL-2
-File: units_0.8-5_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/units/releases/download/0.8-5/units_0.8-5_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-20 14:59:04 UTC; unix
-Filesize: 814007
-SHA256: e84fd6caa788ea23d59c3a5bb794a117c0d66eaf51f873603cd67cf4fae5f75a
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0), dplyr (>= 1.0.0), vctrs (>= 0.3.1), ggplot2 (> 3.2.1), testthat (>= 3.0.0), vdiffr, knitr, rmarkdown
-Imports: Rcpp
-SystemRequirements: udunits-2
-LinkingTo: Rcpp (>= 0.12.10)
-
 Package: assertthat
 Version: 0.2.1
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -4196,22 +4176,6 @@ Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, k
 SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
         (optional), libpng (>=1.2.9, optional), FreeType (optional)
 
-Package: httr2
-Version: 1.1.0
-Depends: R (>= 4.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: httr2_1.1.0_b7_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/httr2/releases/download/1.1.0/httr2_1.1.0_b7_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.4.2; ; 2025-01-18 23:23:30 UTC; unix
-Filesize: 680147
-SHA256: 77e7c75d66a825ee737dbb282e04905e75704cb076938d1cff42f6d42e807ee0
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later (>= 1.4.0), paws.common, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
-Imports: cli (>= 3.0.0), curl (>= 6.1.0), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
-
 Package: textshaping
 Version: 1.0.0
 Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
@@ -5053,3 +5017,39 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, knitr, rmarkdown, testthat (>= 3.1.6), withr
 Imports: cellranger, tibble (>= 2.0.1), utils
 LinkingTo: cpp11 (>= 0.4.0), progress
+
+Package: units
+Version: 0.8-6
+Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
+License: GPL-2
+File: units_0.8-6_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/units/releases/download/0.8-6/units_0.8-6_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.3; aarch64-unknown-linux-gnu; 2025-03-08 23:21:51 UTC; unix
+Filesize: 916798
+SHA256: dd0f5a5f14d5abd83fd7445afc32cd80f0bbff5d5235dada14bc268b5790657b
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0), dplyr (>= 1.0.0), vctrs (>= 0.3.1), ggplot2 (> 3.2.1), testthat (>= 3.0.0), vdiffr, knitr, rvest, rmarkdown
+Imports: Rcpp
+SystemRequirements: udunits-2
+LinkingTo: Rcpp (>= 0.12.10)
+
+Package: httr2
+Version: 1.1.1
+Depends: R (>= 4.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: httr2_1.1.1_b8_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/httr2/releases/download/1.1.1/httr2_1.1.1_b8_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.3; ; 2025-03-08 23:21:26 UTC; unix
+Filesize: 725895
+SHA256: 79cb27c16737d59ed55512d961add0d342c2dcd77b6b7d53c59fa0ff3360b596
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later (>= 1.4.0), paws.common, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
+Imports: cli (>= 3.0.0), curl (>= 6.2.1), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
