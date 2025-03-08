@@ -1469,26 +1469,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: cba
 Imports: stats, utils
 
-Package: units
-Version: 0.8-5
-Depends: R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
-License: GPL-2
-File: units_0.8-5_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/units/releases/download/0.8-5/units_0.8-5_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 09:41:11 UTC; unix
-Filesize: 812034
-SHA256: 825d4ce71137d7deecbba8f65dccb4f901054306962451ca288043cb7df3011f
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0), dplyr (>= 1.0.0), vctrs (>= 0.3.1), ggplot2 (> 3.2.1), testthat (>= 3.0.0), vdiffr, knitr, rmarkdown
-Imports: Rcpp
-SystemRequirements: udunits-2
-LinkingTo: Rcpp (>= 0.12.10)
-
 Package: assertthat
 Version: 0.2.1
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4060,22 +4040,6 @@ Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, k
 SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
         (optional), libpng (>=1.2.9, optional), FreeType (optional)
 
-Package: httr2
-Version: 1.1.0
-Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: httr2_1.1.0_b9_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/httr2/releases/download/1.1.0/httr2_1.1.0_b9_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.0; ; 2025-01-19 16:37:21 UTC; unix
-Filesize: 677977
-SHA256: 098ce68d0ad558616d0e3085c447acb11be66287420e4efa637ac16382921d9b
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later (>= 1.4.0), paws.common, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
-Imports: cli (>= 3.0.0), curl (>= 6.1.0), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
-
 Package: textshaping
 Version: 1.0.0
 Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
@@ -4795,25 +4759,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: knitr, rmarkdown, tinytest
 SystemRequirements: GNU make
 
-Package: readxl
-Version: 1.4.4
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: readxl_1.4.4_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/readxl/releases/download/1.4.4/readxl_1.4.4_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-02-28 16:42:19 UTC; unix
-Filesize: 1674065
-SHA256: 80e871fdc92f1a241ad898599629252143c5df472cb2aa391788c4ad4a14f192
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, knitr, rmarkdown, testthat (>= 3.1.6), withr
-Imports: cellranger, tibble (>= 2.0.1), utils
-LinkingTo: cpp11 (>= 0.4.0), progress
-
 Package: xml2
 Version: 1.3.7
 Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
@@ -4881,3 +4826,58 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat (>= 3.0.0), roxygen2, knitr, markdown, rmarkdown, microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)
+
+Package: units
+Version: 0.8-6
+Depends: R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
+License: GPL-2
+File: units_0.8-6_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/units/releases/download/0.8-6/units_0.8-6_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-03-08 16:32:27 UTC; unix
+Filesize: 948628
+SHA256: c047952bd5ec55ee907980d396e5aa7aae516aeb7eb49442da5cd03bb4e19965
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0), dplyr (>= 1.0.0), vctrs (>= 0.3.1), ggplot2 (> 3.2.1), testthat (>= 3.0.0), vdiffr, knitr, rvest, rmarkdown
+Imports: Rcpp
+SystemRequirements: udunits-2
+LinkingTo: Rcpp (>= 0.12.10)
+
+Package: httr2
+Version: 1.1.1
+Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: httr2_1.1.1_b10_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/httr2/releases/download/1.1.1/httr2_1.1.1_b10_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.0; ; 2025-03-08 16:32:28 UTC; unix
+Filesize: 725355
+SHA256: f48f8480a51a4c3f6cf0810341392f603f76aaaf756eb7ba3642652a104c08c6
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later (>= 1.4.0), paws.common, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
+Imports: cli (>= 3.0.0), curl (>= 6.2.1), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
+
+Package: readxl
+Version: 1.4.5
+Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: readxl_1.4.5_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/readxl/releases/download/1.4.5/readxl_1.4.5_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-03-08 16:32:29 UTC; unix
+Filesize: 1674452
+SHA256: f507d0339d001ce6b7332f77fa51b518160a2cc86ba26cbd5e1435a6f3a843ed
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, knitr, rmarkdown, testthat (>= 3.1.6), withr
+Imports: cellranger, tibble (>= 2.0.1), utils
+LinkingTo: cpp11 (>= 0.4.0), progress
