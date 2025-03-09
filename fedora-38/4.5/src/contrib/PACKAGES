@@ -1469,26 +1469,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: cba
 Imports: stats, utils
 
-Package: units
-Version: 0.8-5
-Depends: R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
-License: GPL-2
-File: units_0.8-5_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/units/releases/download/0.8-5/units_0.8-5_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 17:25:19 UTC; unix
-Filesize: 814961
-SHA256: 8369b4675b64e5304df77dd97be9bf9fc58b6ec17a806bbfb12e5f249bb806a9
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0), dplyr (>= 1.0.0), vctrs (>= 0.3.1), ggplot2 (> 3.2.1), testthat (>= 3.0.0), vdiffr, knitr, rmarkdown
-Imports: Rcpp
-SystemRequirements: udunits-2
-LinkingTo: Rcpp (>= 0.12.10)
-
 Package: assertthat
 Version: 0.2.1
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -3595,38 +3575,6 @@ Suggests: future (>= 1.21.0), knitr, purrr, rmarkdown, spelling, testthat, vembe
 Imports: fastmap (>= 1.1.0), later, magrittr (>= 1.5), R6, Rcpp, rlang, stats
 LinkingTo: later, Rcpp
 
-Package: bit
-Version: 4.5.0.1
-Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
-License: GPL-2 | GPL-3
-File: bit_4.5.0.1_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/bit/releases/download/4.5.0.1/bit_4.5.0.1_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-12-03 17:26:59 UTC; unix
-Filesize: 1313745
-SHA256: ea185704ab83c22ed7feb933900365fb64e4d962a063c2762835a926625fb92a
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testthat (>= 0.11.0), roxygen2, knitr, markdown, rmarkdown, microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)
-
-Package: cpp11
-Version: 0.5.1
-Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: cpp11_0.5.1_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/cpp11/releases/download/0.5.1/cpp11_0.5.1_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.5.0; ; 2024-12-04 17:25:14 UTC; unix
-Filesize: 288947
-SHA256: 216077021026e2c89d28a4626cbe2634db928b6fd708c08283fc4459a30be6e2
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue, knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp, testthat (>= 3.2.0), tibble, utils, vctrs, withr
-
 Package: RSQLite
 Version: 2.3.9
 Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
@@ -4069,22 +4017,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, cpp11, knitr, Rcpp, rmarkdown, testthat (>= 3.2.0), withr (>= 2.3.0)
 Imports: callr (>= 3.2.0), cli (>= 3.4.0), desc, processx, R6
-
-Package: httr2
-Version: 1.1.0
-Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: httr2_1.1.0_b9_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/httr2/releases/download/1.1.0/httr2_1.1.0_b9_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.5.0; ; 2025-01-18 17:19:24 UTC; unix
-Filesize: 722003
-SHA256: 1e285b2216341534fb2a23e474f046821499e6470fa891c11963fa30ab09b417
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later (>= 1.4.0), paws.common, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
-Imports: cli (>= 3.0.0), curl (>= 6.1.0), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
 
 Package: rgl
 Version: 1.3.17
@@ -4556,23 +4488,6 @@ Suggests: butcher (>= 0.2.0), covr, dials (>= 1.0.0), glmnet, knitr, magrittr, M
 Imports: cli (>= 3.3.0), generics (>= 0.1.2), glue (>= 1.6.2), hardhat (>= 1.4.1), lifecycle (>= 1.0.3), modelenv (>= 0.1.0), parsnip (>= 1.3.0), recipes (>= 1.1.1), rlang (>= 1.1.0), tidyselect (>=
         1.2.0), sparsevctrs (>= 0.2.0), vctrs (>= 0.4.1), withr
 
-Package: jsonlite
-Version: 1.9.0
-Depends: methods, R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: jsonlite_1.9.0_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/jsonlite/releases/download/1.9.0/jsonlite_1.9.0_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-02-19 17:23:41 UTC; unix
-Filesize: 1169969
-SHA256: 9100c4a838d00b5e63354aa45e0627e2ba0c61c29bc360d355a29d2a20830730
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: httr, vctrs, testthat, knitr, rmarkdown, R.rsp, sf
-
 Package: ps
 Version: 1.9.0
 Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
@@ -4794,25 +4709,6 @@ Imports: methods, Rcpp (>= 1.0-10)
 SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
 LinkingTo: Rcpp
 
-Package: readxl
-Version: 1.4.4
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: readxl_1.4.4_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/readxl/releases/download/1.4.4/readxl_1.4.4_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-02-27 17:23:57 UTC; unix
-Filesize: 1657971
-SHA256: fb73750b4347e9323ff51c795a32950bb8daac545800fcf6e61ee464c9c8e981
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, knitr, rmarkdown, testthat (>= 3.1.6), withr
-Imports: cellranger, tibble (>= 2.0.1), utils
-LinkingTo: cpp11 (>= 0.4.0), progress
-
 Package: posterior
 Version: 1.6.1
 Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
@@ -4881,3 +4777,107 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, curl, httr, knitr, magrittr, mockery, rmarkdown, testthat (>= 3.2.0), xslt
 Imports: cli, methods, rlang (>= 1.1.0)
 SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
+
+Package: units
+Version: 0.8-6
+Depends: R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
+License: GPL-2
+File: units_0.8-6_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/units/releases/download/0.8-6/units_0.8-6_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-03-09 17:20:19 UTC; unix
+Filesize: 956736
+SHA256: 856c6ceedb4335e2e0d882d3a48c58b538e898c52d32233ee339f8a47a5b1ee7
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0), dplyr (>= 1.0.0), vctrs (>= 0.3.1), ggplot2 (> 3.2.1), testthat (>= 3.0.0), vdiffr, knitr, rvest, rmarkdown
+Imports: Rcpp
+SystemRequirements: udunits-2
+LinkingTo: Rcpp (>= 0.12.10)
+
+Package: bit
+Version: 4.6.0
+Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
+License: GPL-2 | GPL-3
+File: bit_4.6.0_b4_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/bit/releases/download/4.6.0/bit_4.6.0_b4_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-03-09 17:20:15 UTC; unix
+Filesize: 767436
+SHA256: 00615fcfa70b06df11758f021ef88bd78ad820ab8db89d77700a7dedab2c967f
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat (>= 3.0.0), roxygen2, knitr, markdown, rmarkdown, microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)
+
+Package: cpp11
+Version: 0.5.2
+Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: cpp11_0.5.2_b4_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/cpp11/releases/download/0.5.2/cpp11_0.5.2_b4_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.5.0; ; 2025-03-09 17:20:16 UTC; unix
+Filesize: 288920
+SHA256: 208712ecb1aeb63888801ef327394f77c6c8fcacf386a38de39bc986a8d45a4e
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue, knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp, testthat (>= 3.2.0), tibble, utils, vctrs, withr
+
+Package: httr2
+Version: 1.1.1
+Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: httr2_1.1.1_b10_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/httr2/releases/download/1.1.1/httr2_1.1.1_b10_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.5.0; ; 2025-03-09 17:20:22 UTC; unix
+Filesize: 780179
+SHA256: 1d5aeacc884507ce066da3a0bad5a771a607e128fc4a4876fdbb54d4c3b29a52
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later (>= 1.4.0), paws.common, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
+Imports: cli (>= 3.0.0), curl (>= 6.2.1), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
+
+Package: jsonlite
+Version: 1.9.1
+Depends: methods, R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: jsonlite_1.9.1_b4_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/jsonlite/releases/download/1.9.1/jsonlite_1.9.1_b4_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-03-09 17:20:16 UTC; unix
+Filesize: 1170410
+SHA256: 590d2bcd2440e27e01b8174875e48913a49e051d940a3abb0a7d12fbbb1f8c42
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: httr, vctrs, testthat, knitr, rmarkdown, R.rsp, sf
+
+Package: readxl
+Version: 1.4.5
+Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: readxl_1.4.5_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/readxl/releases/download/1.4.5/readxl_1.4.5_b3_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-03-09 17:20:27 UTC; unix
+Filesize: 1657893
+SHA256: 8434bfd990ed343196022358ee4c780c2b7ad7b1147581a532aef6644c0f60a8
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, knitr, rmarkdown, testthat (>= 3.1.6), withr
+Imports: cellranger, tibble (>= 2.0.1), utils
+LinkingTo: cpp11 (>= 0.4.0), progress
