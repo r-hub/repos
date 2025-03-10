@@ -2419,26 +2419,6 @@ Suggests: bayesplot (>= 1.7.0), brms (>= 2.10.0), ggplot2, graphics, knitr, rmar
 Imports: checkmate, matrixStats (>= 0.52), parallel, posterior (>= 1.5.0), stats
 SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
 
-Package: rstan
-Version: 2.32.6
-Depends: R (>= 3.4.0), StanHeaders (>= 2.32.0), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 3)
-File: rstan_2.32.6_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/rstan/releases/download/2.32.6/rstan_2.32.6_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-20 16:14:10 UTC; unix
-Filesize: 17595077
-SHA256: 6246cd3e9ec76f4c06ce7176c42d4fedf50560c1a0ed30a0a9346a205c400329
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testthat (>= 3.0.4), parallel, KernSmooth, shinystan, bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr, coda, V8
-Imports: methods, stats4, inline (>= 0.3.19), gridExtra (>= 2.3), Rcpp (>= 1.0.7), RcppParallel (>= 5.1.4), loo (>= 2.4.1), pkgbuild (>= 1.2.0), QuickJSR, ggplot2 (>= 3.3.5)
-SystemRequirements: GNU make, pandoc
-LinkingTo: Rcpp (>= 1.0.7), RcppEigen (>= 0.3.4.0.0), BH (>= 1.75.0-0), StanHeaders (>= 2.32.0), RcppParallel (>= 5.1.4)
-
 Package: rstanarm
 Version: 2.32.1
 Depends: R (>= 3.4.0), Rcpp (>= 0.12.0), methods, R (>= 4.4), R (< 4.4.99)
@@ -4329,24 +4309,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: MASS, SASmixed
 Imports: graphics, stats, utils, lattice
 
-Package: quantreg
-Version: 6.00
-Depends: R (>= 3.5), stats, SparseM, R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2)
-File: quantreg_6.00_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/quantreg/releases/download/6.00/quantreg_6.00_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-29 23:23:34 UTC; unix
-Filesize: 1575977
-SHA256: 4aa2e9d7e5280810dcea1a25607b12a6deb9161cefa425a904f0c64831c1bf23
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer
-Imports: methods, graphics, Matrix, MatrixModels, survival, MASS
-
 Package: doBy
 Version: 4.6.25
 Depends: R (>= 4.2.0), methods, R (>= 4.4), R (< 4.4.99)
@@ -4380,24 +4342,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: commonmark, base64enc
 Imports: parallel, tools, utils
-
-Package: sparsevctrs
-Version: 0.2.0
-Depends: R (>= 4.0.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: sparsevctrs_0.2.0_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/sparsevctrs/releases/download/0.2.0/sparsevctrs_0.2.0_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-31 23:23:28 UTC; unix
-Filesize: 200230
-SHA256: cd2733ff6f2af107967c0ce80c983811ce5f24dd5e6007b2492c0dc52b93c296
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: knitr, Matrix, methods, rmarkdown, testthat (>= 3.0.0), tibble, withr
-Imports: cli (>= 3.4.0), rlang (>= 1.1.0), vctrs
 
 Package: hardhat
 Version: 1.4.1
@@ -5053,3 +4997,59 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later (>= 1.4.0), paws.common, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
 Imports: cli (>= 3.0.0), curl (>= 6.2.1), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
+
+Package: rstan
+Version: 2.32.7
+Depends: R (>= 3.4.0), StanHeaders (>= 2.32.0), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 3)
+File: rstan_2.32.7_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/rstan/releases/download/2.32.7/rstan_2.32.7_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.3; aarch64-unknown-linux-gnu; 2025-03-10 23:25:38 UTC; unix
+Filesize: 17345309
+SHA256: f3e02bf195ff8c5174d1a4140cf0678faf82fb86a50acc89cff5a13b6984a5e8
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat (>= 3.0.4), parallel, KernSmooth, shinystan, bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr, coda, V8
+Imports: methods, stats4, inline (>= 0.3.19), gridExtra (>= 2.3), Rcpp (>= 1.0.7), RcppParallel (>= 5.1.4), loo (>= 2.4.1), pkgbuild (>= 1.2.0), QuickJSR, ggplot2 (>= 3.3.5)
+SystemRequirements: GNU make, pandoc
+LinkingTo: Rcpp (>= 1.0.7), RcppEigen (>= 0.3.4.0.0), BH (>= 1.75.0-0), StanHeaders (>= 2.32.0), RcppParallel (>= 5.1.4)
+
+Package: quantreg
+Version: 6.1
+Depends: R (>= 3.5), stats, SparseM, R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: quantreg_6.1_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/quantreg/releases/download/6.1/quantreg_6.1_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.3; aarch64-unknown-linux-gnu; 2025-03-10 23:25:38 UTC; unix
+Filesize: 1577828
+SHA256: da6d623a0d193b303a22ee31fb0c0a73c820d76d6192342544bea63c2d31221b
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer
+Imports: methods, graphics, Matrix, MatrixModels, survival, MASS
+
+Package: sparsevctrs
+Version: 0.3.0
+Depends: R (>= 4.0.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: sparsevctrs_0.3.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/sparsevctrs/releases/download/0.3.0/sparsevctrs_0.3.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.3; aarch64-unknown-linux-gnu; 2025-03-10 23:25:37 UTC; unix
+Filesize: 245909
+SHA256: cb96e181b9aee5291dbcb21f74cedc5e525eb992a3605bcc5dee5391fdea2683
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr, Matrix, methods, rmarkdown, testthat (>= 3.0.0), tibble, withr
+Imports: cli (>= 3.4.0), rlang (>= 1.1.0), vctrs
