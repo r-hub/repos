@@ -1924,26 +1924,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, dplyr, patchwork, ggplot2movies, forcats, knitr, rmarkdown, testthat, vdiffr
 Imports: ggplot2 (>= 3.4.0), grid (>= 3.0.0), scales (>= 0.4.1), withr (>= 2.1.1)
 
-Package: rstan
-Version: 2.32.6
-Depends: R (>= 3.4.0), StanHeaders (>= 2.32.0), R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 3)
-File: rstan_2.32.6_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/rstan/releases/download/2.32.6/rstan_2.32.6_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2024-03-27 17:57:56 UTC; unix
-Filesize: 17747307
-SHA256: 3f7a92fb58036d8a342a5e1e8f3fd921a1e4cb69c7507bdac35962e6cfd0f8fe
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: testthat (>= 3.0.4), parallel, KernSmooth, shinystan, bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr, coda, V8
-Imports: methods, stats4, inline (>= 0.3.19), gridExtra (>= 2.3), Rcpp (>= 1.0.7), RcppParallel (>= 5.1.4), loo (>= 2.4.1), pkgbuild (>= 1.2.0), QuickJSR, ggplot2 (>= 3.3.5)
-SystemRequirements: GNU make, pandoc
-LinkingTo: Rcpp (>= 1.0.7), RcppEigen (>= 0.3.4.0.0), BH (>= 1.75.0-0), StanHeaders (>= 2.32.0), RcppParallel (>= 5.1.4)
-
 Package: rstanarm
 Version: 2.32.1
 Depends: R (>= 3.4.0), Rcpp (>= 0.12.0), methods, R (>= 4.5), R (< 4.5.99)
@@ -4175,24 +4155,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: Rcpp, RUnit, knitr, rmarkdown
 SystemRequirements: GNU make, Intel TBB, Windows: cmd.exe and cscript.exe, Solaris: g++ is required
 
-Package: quantreg
-Version: 6.00
-Depends: R (>= 3.5), stats, SparseM, R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: quantreg_6.00_b5_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/quantreg/releases/download/6.00/quantreg_6.00_b5_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-01-29 17:22:23 UTC; unix
-Filesize: 1651769
-SHA256: 95b50beafe817285aabdda044d38922f04d6b50d97318e5abd5d280593bd74ec
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer
-Imports: methods, graphics, Matrix, MatrixModels, survival, MASS
-
 Package: doBy
 Version: 4.6.25
 Depends: R (>= 4.2.0), methods, R (>= 4.5), R (< 4.5.99)
@@ -4226,24 +4188,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: commonmark, base64enc
 Imports: parallel, tools, utils
-
-Package: sparsevctrs
-Version: 0.2.0
-Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: sparsevctrs_0.2.0_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/sparsevctrs/releases/download/0.2.0/sparsevctrs_0.2.0_b1_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-01-31 17:21:19 UTC; unix
-Filesize: 207756
-SHA256: ed25133895c9fb78c72aea643263c174214b7523bd61e8ea00d5add0da092241
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: knitr, Matrix, methods, rmarkdown, testthat (>= 3.0.0), tibble, withr
-Imports: cli (>= 3.4.0), rlang (>= 1.1.0), vctrs
 
 Package: hardhat
 Version: 1.4.1
@@ -4881,3 +4825,59 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, knitr, rmarkdown, testthat (>= 3.1.6), withr
 Imports: cellranger, tibble (>= 2.0.1), utils
 LinkingTo: cpp11 (>= 0.4.0), progress
+
+Package: rstan
+Version: 2.32.7
+Depends: R (>= 3.4.0), StanHeaders (>= 2.32.0), R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 3)
+File: rstan_2.32.7_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/rstan/releases/download/2.32.7/rstan_2.32.7_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-03-10 17:24:47 UTC; unix
+Filesize: 17666855
+SHA256: c8369833ea23eeabb1d24906dc01ce18ddfca3a850068fb31209950f7d95dec4
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat (>= 3.0.4), parallel, KernSmooth, shinystan, bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr, coda, V8
+Imports: methods, stats4, inline (>= 0.3.19), gridExtra (>= 2.3), Rcpp (>= 1.0.7), RcppParallel (>= 5.1.4), loo (>= 2.4.1), pkgbuild (>= 1.2.0), QuickJSR, ggplot2 (>= 3.3.5)
+SystemRequirements: GNU make, pandoc
+LinkingTo: Rcpp (>= 1.0.7), RcppEigen (>= 0.3.4.0.0), BH (>= 1.75.0-0), StanHeaders (>= 2.32.0), RcppParallel (>= 5.1.4)
+
+Package: quantreg
+Version: 6.1
+Depends: R (>= 3.5), stats, SparseM, R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: quantreg_6.1_b6_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/quantreg/releases/download/6.1/quantreg_6.1_b6_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-03-10 17:24:48 UTC; unix
+Filesize: 1651886
+SHA256: 051f6bee28fb812b2b792dd91a47b77dc2d2049d0d71a789527d353494b8c274
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer
+Imports: methods, graphics, Matrix, MatrixModels, survival, MASS
+
+Package: sparsevctrs
+Version: 0.3.0
+Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: sparsevctrs_0.3.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/sparsevctrs/releases/download/0.3.0/sparsevctrs_0.3.0_b2_R4.5_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-03-10 17:24:45 UTC; unix
+Filesize: 255982
+SHA256: fbe0a4ef758d94146e9f5b9fad74ba380f5ec4dcba996b3dd8d74983080a9065
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr, Matrix, methods, rmarkdown, testthat (>= 3.0.0), tibble, withr
+Imports: cli (>= 3.4.0), rlang (>= 1.1.0), vctrs
