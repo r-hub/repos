@@ -3862,24 +3862,6 @@ Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.
 SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
 LinkingTo: cpp11 (>= 0.5.0)
 
-Package: quantreg
-Version: 6.00
-Depends: R (>= 3.5), stats, SparseM, R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2)
-File: quantreg_6.00_b5_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/quantreg/releases/download/6.00/quantreg_6.00_b5_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-01-29 17:07:55 UTC; unix
-Filesize: 1462817
-SHA256: d99b037ce3656082b822e9c352ebe17e6f4d621878de6607605a83e27a0007f4
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer
-Imports: methods, graphics, Matrix, MatrixModels, survival, MASS
-
 Package: doBy
 Version: 4.6.25
 Depends: R (>= 4.2.0), methods, R (>= 4.5), R (< 4.5.99)
@@ -4534,3 +4516,21 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, knitr, rmarkdown, testthat (>= 3.1.6), withr
 Imports: cellranger, tibble (>= 2.0.1), utils
 LinkingTo: cpp11 (>= 0.4.0), progress
+
+Package: quantreg
+Version: 6.1
+Depends: R (>= 3.5), stats, SparseM, R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2)
+File: quantreg_6.1_b6_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/quantreg/releases/download/6.1/quantreg_6.1_b6_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-03-10 17:08:27 UTC; unix
+Filesize: 1461985
+SHA256: ad7071e0145f899f4d6ba66e3eaa7d4f6366f8f02e4dbe9e3a8bfe3825482d14
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer
+Imports: methods, graphics, Matrix, MatrixModels, survival, MASS
