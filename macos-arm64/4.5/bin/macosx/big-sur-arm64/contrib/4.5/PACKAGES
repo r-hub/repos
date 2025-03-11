@@ -4130,25 +4130,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: Rcpp, RUnit, knitr, rmarkdown
 SystemRequirements: GNU make, Intel TBB, Windows: cmd.exe and cscript.exe, Solaris: g++ is required
 
-Package: Matrix
-Version: 1.7-2
-Depends: R (>= 4.4), methods, R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2) | file LICENCE
-File: Matrix_1.7-2_b2_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/Matrix/releases/download/1.7-2/Matrix_1.7-2_b2_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2025-01-26 00:00:34 UTC; unix
-Filesize: 6178383
-SHA256: f0275ca82604f1f00b2c42dccbcee0c3019ccf8622027a72b33b7a5ada27e67c
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: SparseM, graph
-Suggests: MASS, datasets, sfsmisc, tools
-Imports: grDevices, graphics, grid, lattice, stats, utils
-
 Package: igraph
 Version: 2.1.4
 Depends: methods, R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
@@ -4221,24 +4202,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: commonmark, base64enc
 Imports: parallel, tools, utils
-
-Package: sparsevctrs
-Version: 0.2.0
-Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: sparsevctrs_0.2.0_b1_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/sparsevctrs/releases/download/0.2.0/sparsevctrs_0.2.0_b1_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2025-01-26 00:03:16 UTC; unix
-Filesize: 192265
-SHA256: c9842d2af7d7e23f20b0e219d74e4340e33068659e6c655a746cd75040fba03f
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: knitr, Matrix, methods, rmarkdown, testthat (>= 3.0.0), tibble, withr
-Imports: cli (>= 3.4.0), rlang (>= 1.1.0), vctrs
 
 Package: hardhat
 Version: 1.4.1
@@ -4914,3 +4877,40 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer
 Imports: methods, graphics, Matrix, MatrixModels, survival, MASS
+
+Package: Matrix
+Version: 1.7-3
+Depends: R (>= 4.4), methods, R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2) | file LICENCE
+File: Matrix_1.7-3_b3_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/Matrix/releases/download/1.7-3/Matrix_1.7-3_b3_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2025-03-11 09:01:13 UTC; unix
+Filesize: 6227848
+SHA256: b764140c7a66dac88b04001be1dfd3b7b21084cbbbaf256f28ded818c9c63e79
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: SparseM, graph
+Suggests: MASS, datasets, sfsmisc, tools
+Imports: grDevices, graphics, grid, lattice, stats, utils
+
+Package: sparsevctrs
+Version: 0.3.0
+Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: sparsevctrs_0.3.0_b2_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/sparsevctrs/releases/download/0.3.0/sparsevctrs_0.3.0_b2_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2025-03-10 17:33:21 UTC; unix
+Filesize: 234640
+SHA256: 1ee1825bdac5b8baebf45fd49112905c76a34abbce627d1874d94fa816e05802
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr, Matrix, methods, rmarkdown, testthat (>= 3.0.0), tibble, withr
+Imports: cli (>= 3.4.0), rlang (>= 1.1.0), vctrs
