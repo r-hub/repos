@@ -3822,25 +3822,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, crayon, ggplot2, knitr, probably (>= 1.0.0), rmarkdown, survival (>= 3.5-0), testthat (>= 3.0.0), tidyr
 Imports: cli, dplyr (>= 1.1.0), generics (>= 0.1.2), hardhat (>= 1.3.0), lifecycle (>= 1.0.3), rlang (>= 1.1.4), tibble, tidyselect (>= 1.2.0), utils, vctrs (>= 0.5.0), withr
 
-Package: Matrix
-Version: 1.7-2
-Depends: R (>= 4.4), methods, R (>= 4.5), R (< 4.5.99)
-License: GPL (>= 2) | file LICENCE
-File: Matrix_1.7-2_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/Matrix/releases/download/1.7-2/Matrix_1.7-2_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-01-23 17:08:11 UTC; unix
-Filesize: 5239621
-SHA256: a23c74423a036e4c99b6a3b60895233a33607541bbec80e5b2c6d84c5fa1d311
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: SparseM, graph
-Suggests: MASS, datasets, sfsmisc, tools
-Imports: grDevices, graphics, grid, lattice, stats, utils
-
 Package: igraph
 Version: 2.1.4
 Depends: methods, R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
@@ -3895,24 +3876,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: commonmark, base64enc
 Imports: parallel, tools, utils
-
-Package: sparsevctrs
-Version: 0.2.0
-Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: sparsevctrs_0.2.0_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/sparsevctrs/releases/download/0.2.0/sparsevctrs_0.2.0_b1_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-01-31 17:07:47 UTC; unix
-Filesize: 168355
-SHA256: f37048e79b704d6e0df7f2c2d098a596855afb391eb101ea928a6ac78cf33c79
-RVersion: 4.5
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: knitr, Matrix, methods, rmarkdown, testthat (>= 3.0.0), tibble, withr
-Imports: cli (>= 3.4.0), rlang (>= 1.1.0), vctrs
 
 Package: hardhat
 Version: 1.4.1
@@ -4534,3 +4497,40 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer
 Imports: methods, graphics, Matrix, MatrixModels, survival, MASS
+
+Package: Matrix
+Version: 1.7-3
+Depends: R (>= 4.4), methods, R (>= 4.5), R (< 4.5.99)
+License: GPL (>= 2) | file LICENCE
+File: Matrix_1.7-3_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/Matrix/releases/download/1.7-3/Matrix_1.7-3_b3_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-03-11 17:08:37 UTC; unix
+Filesize: 5241521
+SHA256: 5964e530cc649815bf87860be1b0c8b1d67d2a869e8910a34eb008ac43f0d362
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: SparseM, graph
+Suggests: MASS, datasets, sfsmisc, tools
+Imports: grDevices, graphics, grid, lattice, stats, utils
+
+Package: sparsevctrs
+Version: 0.3.0
+Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: sparsevctrs_0.3.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/sparsevctrs/releases/download/0.3.0/sparsevctrs_0.3.0_b2_R4.5_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.5.0; x86_64-pc-linux-gnu; 2025-03-11 17:08:36 UTC; unix
+Filesize: 200532
+SHA256: 56c74377c797528a906993b4bbb52ee944454f923d50e96840753b118c984763
+RVersion: 4.5
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr, Matrix, methods, rmarkdown, testthat (>= 3.0.0), tibble, withr
+Imports: cli (>= 3.4.0), rlang (>= 1.1.0), vctrs
