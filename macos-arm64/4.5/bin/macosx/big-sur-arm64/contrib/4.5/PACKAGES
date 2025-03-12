@@ -2376,24 +2376,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: Rcpp (>= 0.11.5), stats, data.table, grDevices, graphics, diagram, survival, KernSmooth, lava
 LinkingTo: Rcpp
 
-Package: nloptr
-Version: 2.1.1
-Depends: R (>= 4.5), R (< 4.5.99)
-License: LGPL (>= 3)
-File: nloptr_2.1.1_b3_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/nloptr/releases/download/2.1.1/nloptr_2.1.1_b3_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2024-06-25 17:31:41 UTC; unix
-Filesize: 517687
-SHA256: 7a6d091bec95558585ff2351fe37bf56e02196604de744aaa769d8346e1ec66b
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: knitr, rmarkdown, covr, tinytest
-SystemRequirements: cmake (>= 3.2.0) which is used only on Linux or macOS systems when no system build of nlopt (>= 2.7.0) can be found.
-
 Package: pkgload
 Version: 1.4.0
 Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
@@ -4343,24 +4325,6 @@ Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
 Imports: Rcpp (>= 1.0.12), stats, utils, methods
 LinkingTo: Rcpp
 
-Package: parsnip
-Version: 1.3.0
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: parsnip_1.3.0_b2_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/parsnip/releases/download/1.3.0/parsnip_1.3.0_b2_R4.5_aarch64-apple-darwin20.tgz
-Built: R 4.5.0; ; 2025-02-14 17:32:58 UTC; unix
-Filesize: 1487455
-SHA256: c813d94809a03de163baede467f000f0b979172dd70ddb4aeac0cca8325d32cb
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bench, C50, covr, dials (>= 1.1.0), earth, ggrepel, keras, kernlab, kknn, knitr, LiblineaR, MASS, Matrix, methods, mgcv, modeldata, nlme, prodlim, ranger (>= 0.12.0), remotes, rmarkdown,
-        rpart, sparklyr (>= 1.0.0), survival, tensorflow, testthat (>= 3.0.0), xgboost (>= 1.5.0.1)
-Imports: cli, dplyr (>= 1.1.0), generics (>= 0.1.2), ggplot2, globals, glue, hardhat (>= 1.4.1), lifecycle, magrittr, pillar, prettyunits, purrr (>= 1.0.0), rlang (>= 1.1.0), sparsevctrs (>= 0.2.0),
-        stats, tibble (>= 2.1.1), tidyr (>= 1.3.0), utils, vctrs (>= 0.6.0), withr
-
 Package: cli
 Version: 3.6.4
 Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
@@ -4785,26 +4749,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat (>= 3.0.0), roxygen2, knitr, markdown, rmarkdown, microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)
 
-Package: units
-Version: 0.8-6
-Depends: R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
-License: GPL-2
-File: units_0.8-6_b2_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/units/releases/download/0.8-6/units_0.8-6_b2_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2025-03-08 02:00:53 UTC; unix
-Filesize: 972729
-SHA256: 3a54e876a7718b4977dc97028bd8fccacbe28c0783776f5ec9487969b87588b7
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0), dplyr (>= 1.0.0), vctrs (>= 0.3.1), ggplot2 (> 3.2.1), testthat (>= 3.0.0), vdiffr, knitr, rvest, rmarkdown
-Imports: Rcpp
-SystemRequirements: udunits-2
-LinkingTo: Rcpp (>= 0.12.10)
-
 Package: httr2
 Version: 1.1.1
 Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
@@ -4914,3 +4858,59 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: knitr, Matrix, methods, rmarkdown, testthat (>= 3.0.0), tibble, withr
 Imports: cli (>= 3.4.0), rlang (>= 1.1.0), vctrs
+
+Package: nloptr
+Version: 2.2.0
+Depends: R (>= 4.5), R (< 4.5.99)
+License: LGPL (>= 3)
+File: nloptr_2.2.0_b4_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/nloptr/releases/download/2.2.0/nloptr_2.2.0_b4_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2025-03-12 09:05:31 UTC; unix
+Filesize: 543586
+SHA256: 0b486d0a624392b6d3afeae9bb3f1acbf7028eda004dfe8f41d0a783ea0a1159
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr, rmarkdown, covr, tinytest
+SystemRequirements: cmake (>= 3.2.0) which is used only on Linux or macOS systems when no system build of nlopt (>= 2.7.0) can be found.
+
+Package: parsnip
+Version: 1.3.1
+Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: parsnip_1.3.1_b3_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/parsnip/releases/download/1.3.1/parsnip_1.3.1_b3_R4.5_aarch64-apple-darwin20.tgz
+Built: R 4.5.0; ; 2025-03-12 00:33:50 UTC; unix
+Filesize: 1489463
+SHA256: d5dbf363609d65ec43e29896a080178547026553e0dd550d273c6ac081ff4442
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bench, C50, covr, dials (>= 1.1.0), earth, ggrepel, keras, kernlab, kknn, knitr, LiblineaR, MASS, Matrix, methods, mgcv, modeldata, nlme, prodlim, ranger (>= 0.12.0), remotes, rmarkdown,
+        rpart, sparklyr (>= 1.0.0), survival, tensorflow, testthat (>= 3.0.0), xgboost (>= 1.5.0.1)
+Imports: cli, dplyr (>= 1.1.0), generics (>= 0.1.2), ggplot2, globals, glue, hardhat (>= 1.4.1), lifecycle, magrittr, pillar, prettyunits, purrr (>= 1.0.0), rlang (>= 1.1.0), sparsevctrs (>= 0.2.0),
+        stats, tibble (>= 2.1.1), tidyr (>= 1.3.0), utils, vctrs (>= 0.6.0), withr
+
+Package: units
+Version: 0.8-7
+Depends: R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
+License: GPL-2
+File: units_0.8-7_b3_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/units/releases/download/0.8-7/units_0.8-7_b3_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2025-03-12 00:32:08 UTC; unix
+Filesize: 972811
+SHA256: ed777a7327e233f6981e7014f31dcff35219727988377e6391bc47e7b2f47a75
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0), dplyr (>= 1.0.0), vctrs (>= 0.3.1), ggplot2 (> 3.2.1), testthat (>= 3.0.0), vdiffr, knitr, rvest, rmarkdown
+Imports: Rcpp
+SystemRequirements: udunits-2
+LinkingTo: Rcpp (>= 0.12.10)
