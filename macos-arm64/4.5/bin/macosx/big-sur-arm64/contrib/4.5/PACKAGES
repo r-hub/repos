@@ -4483,25 +4483,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: callr (>= 3.7.3), cli (>= 3.3.0), codetools, covr, curl, debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0), webfakes, withr
 Imports: ps (>= 1.2.0), R6, utils
 
-Package: duckdb
-Version: 1.2.0
-Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: duckdb_1.2.0_b13_R4.5_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.2.0/duckdb_1.2.0_b13_R4.5_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.5.0; aarch64-apple-darwin20; 2025-02-21 17:32:17 UTC; unix
-Filesize: 12840167
-SHA256: 49b1d23440f8a7d7c5d2ab38d0c984ff9b8511b81b5d1a8576a6ecacd3406503
-RVersion: 4.5
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-Imports: methods, utils
-SystemRequirements: xz (for building from source)
-
 Package: tidymodels
 Version: 1.3.0
 Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
@@ -4914,3 +4895,22 @@ Suggests: NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0), dplyr (>= 
 Imports: Rcpp
 SystemRequirements: udunits-2
 LinkingTo: Rcpp (>= 0.12.10)
+
+Package: duckdb
+Version: 1.2.1
+Depends: DBI, R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: duckdb_1.2.1_b14_R4.5_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.2.1/duckdb_1.2.1_b14_R4.5_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.5.0; aarch64-apple-darwin20; 2025-03-14 17:32:22 UTC; unix
+Filesize: 12861331
+SHA256: 72c72a1f4c0aead6ca9be2cea4b63e25e0f3d082f52831e34749f63720762ad2
+RVersion: 4.5
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+Imports: methods, utils
+SystemRequirements: xz (for building from source)
