@@ -1933,25 +1933,6 @@ Imports: grDevices, stats, tools
 OS: linux
 Arch: s390x
 
-Package: duckdb
-Version: 1.2.0
-Depends: DBI, R (>= 3.6.0), R (>= 4.1), R (< 4.1.99)
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-License: MIT + file LICENSE
-File: duckdb_1.2.0_b8_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.2.0/duckdb_1.2.0_b8_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.1.2; s390x-ibm-linux-gnu; 2025-02-21 14:32:24 UTC; unix
-Filesize: 253208130
-SHA256: f8a5590cc8ef5844d820711c6b0da4d2bd1aecfde98b0a54bdc8f4462d886f1c
-RVersion: 4.1
-Platform: s390x-ibm-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 14
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: methods, utils
-OS: linux
-Arch: s390x
-SystemRequirements: xz (for building from source)
-
 Package: data.table
 Version: 1.17.0
 Depends: R (>= 3.3.0), R (>= 4.1), R (< 4.1.99)
@@ -2111,3 +2092,22 @@ Imports: cellranger, tibble (>= 2.0.1), utils
 OS: linux
 Arch: s390x
 LinkingTo: cpp11 (>= 0.4.0), progress
+
+Package: duckdb
+Version: 1.2.1
+Depends: DBI, R (>= 3.6.0), R (>= 4.1), R (< 4.1.99)
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+License: MIT + file LICENSE
+File: duckdb_1.2.1_b9_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.2.1/duckdb_1.2.1_b9_R4.1_s390x-ibm-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.1.2; s390x-ibm-linux-gnu; 2025-03-14 14:33:33 UTC; unix
+Filesize: 253908078
+SHA256: b27046ebf6ccabb7159fad43566422eb3b5e9fb79d31a9e402d8448266b740a3
+RVersion: 4.1
+Platform: s390x-ibm-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 14
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: methods, utils
+OS: linux
+Arch: s390x
+SystemRequirements: xz (for building from source)
