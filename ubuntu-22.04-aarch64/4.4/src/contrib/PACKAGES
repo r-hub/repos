@@ -4570,25 +4570,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
 
-Package: duckdb
-Version: 1.2.0
-Depends: DBI, R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-Imports: methods, utils
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-License: MIT + file LICENSE
-File: duckdb_1.2.0_b9_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.2.0/duckdb_1.2.0_b9_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-02-21 20:02:23 UTC; unix
-Filesize: 242261696
-SHA256: 3d7693e7e30a19936809ca6accb8390244d13eb485317c555529307f01200fd8
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: xz (for building from source)
-
 Package: R6
 Version: 2.6.1
 Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
@@ -5066,8 +5047,8 @@ DownloadURL: https://github.com/cran/rlang/releases/download/1.1.5/rlang_1.1.5_b
 OS: linux
 Arch: arm64
 Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-17 18:36:52 UTC; unix
-Filesize: 2064841
-SHA256: b7730e4f731fea3fed1ba5ed823315fe4ae694b79e6f76f121276651afe1b136
+Filesize: 2064842
+SHA256: cccf37ab29f168cda07a4ed046280d4404afb11479343b0b15cac589e8c17254
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -5085,9 +5066,28 @@ DownloadURL: https://github.com/cran/cli/releases/download/3.6.4/cli_3.6.4_b2_R4
 OS: linux
 Arch: arm64
 Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-02-21 20:00:28 UTC; unix
-Filesize: 1528457
-SHA256: bf5d0c5b95b66e09e2517285651bf045f078fce75af06b0e46508e5d52400269
+Filesize: 1528455
+SHA256: b2041213561dffe380480e6cde821e185f5e73b86c2739e96d8c2fd34971a9f0
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: duckdb
+Version: 1.2.1
+Depends: DBI, R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+Imports: methods, utils
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+License: MIT + file LICENSE
+File: duckdb_1.2.1_b10_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.2.1/duckdb_1.2.1_b10_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.3; aarch64-unknown-linux-gnu; 2025-03-14 18:40:38 UTC; unix
+Filesize: 242877507
+SHA256: 6a16a0fea99aa6859c989f5a8e42324298b977ed7124676b93aeba0eefdcde28
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: xz (for building from source)
