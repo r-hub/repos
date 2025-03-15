@@ -1,4 +1,4 @@
-name: Ubuntu 22.04 s390x, R 4.1
+name: Ubuntu 22.04 s390x, R 4.3
 on:
   workflow_dispatch:
   schedule:
@@ -20,13 +20,13 @@ jobs:
         readRenviron("/etc/os-release")
         if (Sys.getenv("ID") != "ubuntu") stop("Not Ubuntu")
         if (Sys.getenv("VERSION_ID") != "22.04") stop("Not Ubuntu 22.04")
-        if (getRversion() < "4.1.0" || getRversion() >= "4.2.0") {
-          stop("Not R 4.1.x")
+        if (getRversion() < "4.3.0" || getRversion() >= "4.4.0") {
+          stop("Not R 4.3.x")
         }
         if (Sys.info()[["machine"]] != "s390x") stop("Not s390x")
       shell: Rscript {0}
     - uses: r-hub/repos/actions/update-repo@main
       with:
-        directory: ubuntu-22.04-s390x/4.1
+        directory: ubuntu-22.04-s390x/4.3
         token: ${{ secrets.CRANATGH_GITHUB_TOKEN }}
         pak-version: none
