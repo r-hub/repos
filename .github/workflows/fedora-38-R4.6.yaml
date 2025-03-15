@@ -1,5 +1,5 @@
 
-name: Fedora 40, R 4.5
+name: Fedora 38, R 4.6
 on:
   workflow_dispatch:
   schedule:
@@ -8,20 +8,20 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
-    container: ghcr.io/r-hub/containers/gcc14:latest
+    container: ghcr.io/r-hub/containers/gcc13:latest
     steps:
     - name: Check Distro and R version
       run: |
         #
         readRenviron("/etc/os-release")
         if (Sys.getenv("ID") != "fedora") stop("Not Fedora")
-        if (Sys.getenv("VERSION_ID") != "40") stop("Not Fedora 40")
-        if (getRversion() < "4.5.0" || getRversion() >= "4.6.0") {
-          stop("Not R 4.5.x")
+        if (Sys.getenv("VERSION_ID") != "38") stop("Not Fedora 38")
+        if (getRversion() < "4.6.0" || getRversion() >= "4.7.0") {
+          stop("Not R 4.6.x")
         }
       shell: Rscript {0}
     - uses: actions/checkout@v3
     - uses: r-hub/repos/actions/update-repo@main
       with:
-        directory: fedora-40/4.5
+        directory: fedora-38/4.6
         token: ${{ secrets.CRANATGH_GITHUB_TOKEN }}
