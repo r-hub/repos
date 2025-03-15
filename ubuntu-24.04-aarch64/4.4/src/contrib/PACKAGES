@@ -4621,25 +4621,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: callr (>= 3.7.3), cli (>= 3.3.0), codetools, covr, curl, debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0), webfakes, withr
 Imports: ps (>= 1.2.0), R6, utils
 
-Package: duckdb
-Version: 1.2.0
-Depends: DBI, R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: duckdb_1.2.0_b7_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.2.0/duckdb_1.2.0_b7_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-02-21 23:26:17 UTC; unix
-Filesize: 236574566
-SHA256: a9dcc0a18048d4964d8f74e422f33306ae873cc3a458833ba6e059de81961980
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-Imports: methods, utils
-SystemRequirements: xz (for building from source)
-
 Package: zoo
 Version: 1.8-13
 Depends: R (>= 3.1.0), stats, R (>= 4.4), R (< 4.4.99)
@@ -4782,25 +4763,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat (>= 2.1.0), caret (>= 6.0-84), gbm (>= 2.1.8), randomForest (>= 4.6.14), e1071 (>= 1.7-3), dplyr, tidyr, knitr, ggplot2, ggdist, rmarkdown
 Imports: methods, abind, checkmate, rlang (>= 1.0.6), stats, tibble (>= 3.1.0), vctrs (>= 0.5.0), tensorA, pillar, distributional, parallel, matrixStats
-
-Package: xml2
-Version: 1.3.7
-Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: xml2_1.3.7_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/xml2/releases/download/1.3.7/xml2_1.3.7_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-02-28 23:24:43 UTC; unix
-Filesize: 636125
-SHA256: 10e1f85659e3043cab72968a52e1b03854b04f53ac961f69cdd9cd1e50301b61
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, curl, httr, knitr, magrittr, mockery, rmarkdown, testthat (>= 3.2.0), xslt
-Imports: cli, methods, rlang (>= 1.1.0)
-SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
 
 Package: MASS
 Version: 7.3-65
@@ -5053,3 +5015,41 @@ Suggests: NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0), dplyr (>= 
 Imports: Rcpp
 SystemRequirements: udunits-2
 LinkingTo: Rcpp (>= 0.12.10)
+
+Package: duckdb
+Version: 1.2.1
+Depends: DBI, R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: duckdb_1.2.1_b8_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.2.1/duckdb_1.2.1_b8_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.3; aarch64-unknown-linux-gnu; 2025-03-14 23:27:54 UTC; unix
+Filesize: 237179477
+SHA256: 9a1ce8e4b611d0d16ba43a002fc835ccedee9c1a6cbfea2e349630cd97555450
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+Imports: methods, utils
+SystemRequirements: xz (for building from source)
+
+Package: xml2
+Version: 1.3.8
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: xml2_1.3.8_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/xml2/releases/download/1.3.8/xml2_1.3.8_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.3; aarch64-unknown-linux-gnu; 2025-03-14 23:27:54 UTC; unix
+Filesize: 636095
+SHA256: fa02535bb6ead14d8f664ed1dc583c59a245fad8889aef92526e650d8f056ef9
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, curl, httr, knitr, magrittr, mockery, rmarkdown, testthat (>= 3.2.0), xslt
+Imports: cli, methods, rlang (>= 1.1.0)
+SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
