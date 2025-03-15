@@ -1344,24 +1344,6 @@ Suggests: testthat (>= 0.7.1.99), knitr
 SystemRequirements: A system with zoneinfo data (e.g.  /usr/share/zoneinfo) as well as a recent-enough C++11 compiler (such as g++-4.8 or later). On Windows the zoneinfo included with R is used.
 LinkingTo: cpp11 (>= 0.2.7)
 
-Package: tzdb
-Version: 0.4.0
-Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: tzdb_0.4.0_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/tzdb/releases/download/0.4.0/tzdb_0.4.0_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-20 14:57:37 UTC; unix
-Filesize: 1447277
-SHA256: 38098076082e48f66b8ae34ea892a837a98ec0cee953e7acfb464c8a7cd2f6c0
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: covr, testthat (>= 3.0.0)
-LinkingTo: cpp11 (>= 0.4.2)
-
 Package: viridisLite
 Version: 0.4.2
 Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
@@ -5053,3 +5035,21 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, curl, httr, knitr, magrittr, mockery, rmarkdown, testthat (>= 3.2.0), xslt
 Imports: cli, methods, rlang (>= 1.1.0)
 SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
+
+Package: tzdb
+Version: 0.5.0
+Depends: R (>= 4.0.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: tzdb_0.5.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/tzdb/releases/download/0.5.0/tzdb_0.5.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.3; aarch64-unknown-linux-gnu; 2025-03-15 23:24:07 UTC; unix
+Filesize: 1482213
+SHA256: 531f29f62816a3f723c92ff6a750b9e1ce54d7e85161a97d4dd82d2f7cff9b3f
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, testthat (>= 3.0.0)
+LinkingTo: cpp11 (>= 0.5.2)
