@@ -10,8 +10,8 @@ with `install.packages()`, only with pak.
 * [Fedora 40 + R-devel](#fedora-40--r-devel-fedora-40-r46)
 * [Ubuntu 22.04 + R-release on aarch64](#ubuntu-2204--r-release-on-aarch64-ubuntu-2204-aarch64-r44)
 * [Ubuntu 24.04 + R-release on aarch64](#ubuntu-2404--r-release-on-aarch64-ubuntu-2404-aarch64-r44)
-* [macOS 11 Big Sur or later, x86_64 + R-devel](#macos-11-big-sur-or-later-x86_64--r-devel-macos-x86_64-r45)
-* [macOS 11 Big Sur or later, arm64 + R-devel](#macos-11-big-sur-or-later-arm64--r-devel-macos-arm64-r45)
+* [macOS 11 Big Sur or later, x86_64 + R-devel](#macos-11-big-sur-or-later-x86_64--r-devel-macos-x86_64-r46)
+* [macOS 11 Big Sur or later, arm64 + R-devel](#macos-11-big-sur-or-later-arm64--r-devel-macos-arm64-r46)
 * [Ubuntu 22.04 + R 4.1 on s390x](#ubuntu-2204--r-41-on-s390x-ubuntu-2204-s390x-r41)
 
 ## Can use PPPM:
@@ -125,29 +125,29 @@ options(repos = c(
 ))
 ```
 
-## macOS 11 Big Sur or later, x86_64 + R-devel (`macos-x86_64-R4.5`)
+## macOS 11 Big Sur or later, x86_64 + R-devel (`macos-x86_64-R4.6`)
 
 ```
 options(repos = c(
-  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/macos-x86_64/4.5",
+  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/macos-x86_64/4.6",
   CRAN = "https://cloud.r-project.org"
 ))
 ```
 
-## macOS 11 Big Sur or later, arm64 + R-devel (`macos-arm64-R4.5`)
+## macOS 11 Big Sur or later, arm64 + R-devel (`macos-arm64-R4.6`)
 
 ```
 options(repos = c(
-  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/macos-arm64/4.5",
+  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/macos-arm64/4.6",
   CRAN = "https://cloud.r-project.org"
 ))
 ```
 
-## Ubuntu 22.04 + R 4.1 on s390x (`ubuntu-22.04-s390x-R4.1`)
+## Ubuntu 22.04 + R 4.3 on s390x (`ubuntu-22.04-s390x-R4.3`)
 
 ```
 options(repos = c(
-  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04-s390x/4.1",
+  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04-s390x/4.3",
   CRAN = "https://cloud.r-project.org"
 ))
 ```
@@ -190,13 +190,13 @@ Name             | CRAN                              | ✓ | Repo
 Name         | CRAN       | ✓ | Repo                      | Description
 -------------|------------|---|---------------------------|---------------------------------------------------
 `atlas`      | ATLAS      | ✓ | fedora-38-R4.6            | Tests with alternative BLAS/LAPACK implementations
-`blas`       | BLAS`      |   |                           | Use of BLAS/LAPACK from C/C++ code
+`blas`       | BLAS       |   |                           | Use of BLAS/LAPACK from C/C++ code
 `intel`      | Intel      | ✓ | fedora-38-R4.6            | Checks with Intel oneAPI 2023.x compilers
 `lto`        | LTO        |   | ubuntu-22.04-R4.6         | Tests for link-time optimization type mismatches
 `m1mac`      | M1mac      |   | CRAN?                     | Checks on a M1 (arm64) Mac
 `mkl`        | MKL        | ✓ | fedora-38-R4.6            | Tests with alternative BLAS/LAPACK implementations
 `openblas`   | OpenBLAS   |   | fedora-38-R4.6            | Tests with alternative BLAS/LAPACK implementations
-`c23`        | `C23`      | ✓ | ubuntu-22.04-R4.6-libc++  | Checks of compiling C code in C23 mode
+`c23`        | C23        | ✓ | ubuntu-22.04-R4.6-libc++  | Checks of compiling C code in C23 mode
 `clang-asan` | clang-ASAN | ✓ | ubuntu-22.04-R4.6-libc++  | Tests of memory access errors using AddressSanitizer
 `clang-ubsan`| clang-UBSAN| ✓ | ubuntu-22.04-R4.6-libc++  | Tests of memory access errors using Undefined Behavior Sanitizer
 `clang16`    | clang16    | ✓ | ubuntu-22.04-R4.6-libc++  | Checks with Clang 16.0.0
@@ -211,7 +211,7 @@ Name         | CRAN       | ✓ | Repo                      | Description
 `gcc13`      | gcc13      | ✓ | fedora-38-R4.6            | Checks with GCC trunk aka 13.0
 `gcc14`      | gcc14      | ✓ | fedora-40-R4.6            | Checks with GCC trunk aka 14.0
 `gcc15`      | gcc15      |   |                           | Installation checks with a snapshot of GCC pre-15
-`nold`       | noLD`      | ✓ | ubuntu-22.04-R4.6         | Tests without long double
+`nold`       | noLD       | ✓ | ubuntu-22.04-R4.6         | Tests without long double
 `noomp`      | noOMP      |   | ubuntu-22.04-R4.6         | Tests without OpenMP support
 `nosuggests` | noSuggests | ✓ | fedora-38-R4.6            | Tests without suggested packages
 `valgrind`   | valgrind   | ✓ | fedora-38-R4.6            | Tests of memory access errors using valgrind
