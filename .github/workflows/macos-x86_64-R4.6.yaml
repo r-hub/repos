@@ -1,4 +1,4 @@
-name: macOS x86_64, R 4.5
+name: macOS x86_64, R 4.6
 on:
   workflow_dispatch:
   schedule:
@@ -18,8 +18,8 @@ jobs:
       run: |
         #
         if (Sys.info()[["sysname"]] != "Darwin") stop("Not macOS")
-        if (getRversion() < "4.5.0" || getRversion() >= "4.6.0") {
-          stop("Not R 4.5.x")
+        if (getRversion() < "4.6.0" || getRversion() >= "4.7.0") {
+          stop("Not R 4.6.x")
         }
         if (Sys.info()[["machine"]] != "x86_64") stop("Not x86_64")
       shell: Rscript {0}
@@ -29,5 +29,5 @@ jobs:
     - uses: actions/checkout@v4
     - uses: r-hub/repos/actions/update-repo@main
       with:
-        directory: macos-x86_64/4.5
+        directory: macos-x86_64/4.6
         token: ${{ secrets.CRANATGH_GITHUB_TOKEN }}
