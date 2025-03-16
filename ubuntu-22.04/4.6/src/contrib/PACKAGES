@@ -612,24 +612,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: knitr
-Version: 1.49
-Depends: R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
-Imports: evaluate (>= 0.15), highr (>= 0.11), methods, tools, xfun (>= 0.48), yaml (>= 2.1.19)
-Suggests: bslib, codetools, DBI (>= 0.4-1), digest, formatR, gifski, gridSVG, htmlwidgets (>= 0.7), jpeg, JuliaCall (>= 0.11.1), magick, litedown, markdown (>= 1.3), png, ragg, reticulate (>= 1.4),
-        rgl (>= 0.95.1201), rlang, rmarkdown, sass, showtext, styler (>= 1.2.0), targets (>= 0.6.0), testit, tibble, tikzDevice (>= 0.10), tinytex (>= 0.46), webshot, rstudioapi, svglite
-License: GPL
-File: knitr_1.49_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/knitr/releases/download/1.49/knitr_1.49_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:40:24 UTC; unix
-Filesize: 1127649
-SHA256: 3d4e8729903a594d8aa181a9a1b19d808c15c58364099e2e9bdc67c7a7d46345
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
-
 Package: later
 Version: 1.4.1
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -1752,22 +1734,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: doFuture
-Version: 1.0.1
-Depends: foreach (>= 1.5.0), future (>= 1.32.0), R (>= 4.6), R (< 4.6.99)
-Imports: future.apply, globals, iterators, parallel, utils
-Suggests: doRNG (>= 1.8.2), markdown, R.rsp
-License: LGPL (>= 2.1)
-File: doFuture_1.0.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/doFuture/releases/download/1.0.1/doFuture_1.0.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:52:30 UTC; unix
-Filesize: 130220
-SHA256: 14c97415c0cd6e077df256224c36f341b9188f7cce0b86e0a4a6a1cb540ad182
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: dplyr
 Version: 1.1.4
 Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
@@ -2539,24 +2505,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: tzdb
-Version: 0.4.0
-Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
-Suggests: covr, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: tzdb_0.4.0_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/tzdb/releases/download/0.4.0/tzdb_0.4.0_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:34:42 UTC; unix
-Filesize: 1491784
-SHA256: 77e05f14ccea16bf9b2f420f277eea324cf218428553fa64efbe4bfc9aeb8557
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cpp11 (>= 0.4.2)
-
 Package: viridisLite
 Version: 0.4.2
 Depends: R (>= 2.10), R (>= 4.6), R (< 4.6.99)
@@ -3154,25 +3102,6 @@ DownloadURL: https://github.com/cran/gridExtra/releases/download/2.3/gridExtra_2
 Built: R 4.6.0; ; 2025-03-15 08:41:35 UTC; unix
 Filesize: 1107143
 SHA256: 49308e013b5087c7da779c926afb86399fd7139c6fd7f1a0bd5fb9793755d341
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: Hmisc
-Version: 5.2-2
-Depends: R (>= 4.2.0), R (>= 4.6), R (< 4.6.99)
-Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
-Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice,
-        latticeExtra, gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer, htm2txt
-License: GPL (>= 2)
-File: Hmisc_5.2-2_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/Hmisc/releases/download/5.2-2/Hmisc_5.2-2_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:55:23 UTC; unix
-Filesize: 3639071
-SHA256: 8bc1c3ba31340635a00338b4a6310f7ab0b48af8004d827bb378ce19f618acf0
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4285,22 +4214,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: Rdpack
-Version: 2.6.2
-Depends: R (>= 2.15.0), methods, R (>= 4.6), R (< 4.6.99)
-Imports: tools, utils, rbibutils (>= 1.3)
-Suggests: grDevices, testthat, rstudioapi, rprojroot, gbRd
-License: GPL (>= 2)
-File: Rdpack_2.6.2_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/Rdpack/releases/download/2.6.2/Rdpack_2.6.2_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:47:32 UTC; unix
-Filesize: 759404
-SHA256: 1b6d80ed449ab2820774f7fa1ff285bdfa88399aa1c9aceed6fd6082754376e1
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: reshape2
 Version: 1.4.4
 Depends: R (>= 3.1), R (>= 4.6), R (< 4.6.99)
@@ -4858,6 +4771,93 @@ Arch: amd64
 Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:34:32 UTC; unix
 Filesize: 247627
 SHA256: 94ea91879c20beaba6f28d108a7ca4e9ef500b0585728f5e6d87fab43c026345
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: knitr
+Version: 1.50
+Depends: R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
+Imports: evaluate (>= 0.15), highr (>= 0.11), methods, tools, xfun (>= 0.51), yaml (>= 2.1.19)
+Suggests: bslib, codetools, DBI (>= 0.4-1), digest, formatR, gifski, gridSVG, htmlwidgets (>= 0.7), jpeg, JuliaCall (>= 0.11.1), magick, litedown, markdown (>= 1.3), png, ragg, reticulate (>= 1.4),
+        rgl (>= 0.95.1201), rlang, rmarkdown, sass, showtext, styler (>= 1.2.0), targets (>= 0.6.0), testit, tibble, tikzDevice (>= 0.10), tinytex (>= 0.56), webshot, rstudioapi, svglite
+License: GPL
+File: knitr_1.50_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/knitr/releases/download/1.50/knitr_1.50_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.6.0; ; 2025-03-16 16:37:28 UTC; unix
+Filesize: 1105539
+SHA256: 39865883b97c6a5350a21b241d0b97e2eb10b62925e13b1aad7f6f95a09c57e5
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
+
+Package: doFuture
+Version: 1.0.2
+Depends: foreach (>= 1.5.0), future (>= 1.32.0), R (>= 4.6), R (< 4.6.99)
+Imports: future.apply, globals, iterators, parallel, utils
+Suggests: doRNG (>= 1.8.2), markdown, R.rsp
+License: LGPL (>= 2.1)
+File: doFuture_1.0.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/doFuture/releases/download/1.0.2/doFuture_1.0.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.6.0; ; 2025-03-16 16:37:29 UTC; unix
+Filesize: 136730
+SHA256: 1bc11290690c3a9d171ef055a834376f944c56335e2f7b5fea41bca7dc6990b6
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: tzdb
+Version: 0.5.0
+Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
+Suggests: covr, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: tzdb_0.5.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/tzdb/releases/download/0.5.0/tzdb_0.5.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-16 16:37:30 UTC; unix
+Filesize: 1528820
+SHA256: b5c8e6502014558ed7dd1c07f82b6bfeeac4cc4427a7a97de837d8db08e0781c
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11 (>= 0.5.2)
+
+Package: Hmisc
+Version: 5.2-3
+Depends: R (>= 4.2.0), R (>= 4.6), R (< 4.6.99)
+Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
+Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice,
+        latticeExtra, gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer, htm2txt
+License: GPL (>= 2)
+File: Hmisc_5.2-3_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/Hmisc/releases/download/5.2-3/Hmisc_5.2-3_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-16 16:37:36 UTC; unix
+Filesize: 3654513
+SHA256: 86b02a2374d6a62d484095037763b490064281a6dcf4bb095142319b83ebf935
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: Rdpack
+Version: 2.6.3
+Depends: R (>= 2.15.0), methods, R (>= 4.6), R (< 4.6.99)
+Imports: tools, utils, rbibutils (>= 1.3)
+Suggests: grDevices, testthat, rstudioapi, rprojroot, gbRd
+License: GPL (>= 2)
+File: Rdpack_2.6.3_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/Rdpack/releases/download/2.6.3/Rdpack_2.6.3_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.6.0; ; 2025-03-16 16:37:36 UTC; unix
+Filesize: 637534
+SHA256: ea7df86603739c5b2ffb5b245d1e445e43b76a0fd38cc5724ef7a9f4e29391df
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
