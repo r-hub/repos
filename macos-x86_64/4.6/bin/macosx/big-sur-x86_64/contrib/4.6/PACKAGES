@@ -152,23 +152,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: xclip (https://github.com/astrand/xclip) or xsel (http://www.vergenet.net/~conrad/software/xsel/) for accessing the X11 clipboard, or wl-clipboard
         (https://github.com/bugaevc/wl-clipboard) for systems using Wayland.
 
-Package: commonmark
-Version: 1.9.2
-Depends: R (>= 4.6), R (< 4.6.99)
-Suggests: curl, testthat, xml2
-License: BSD_2_clause + file LICENSE
-File: commonmark_1.9.2_b1_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/commonmark/releases/download/1.9.2/commonmark_1.9.2_b1_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2025-03-16 17:58:09 UTC; unix
-Filesize: 128992
-SHA256: bb1672f568ed0e42bd0690dd2451a6c1431eee3bd01e28539f875fb618f89ba7
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: cpp11
 Version: 0.5.2
 Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
@@ -3623,24 +3606,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make
 LinkingTo: Rcpp
 
-Package: nloptr
-Version: 2.2.0
-Depends: R (>= 4.6), R (< 4.6.99)
-Suggests: knitr, rmarkdown, covr, tinytest
-License: LGPL (>= 3)
-File: nloptr_2.2.0_b1_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/nloptr/releases/download/2.2.0/nloptr_2.2.0_b1_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2025-03-16 18:05:07 UTC; unix
-Filesize: 583115
-SHA256: 8a29d52372e4b4cbcb78b26f83ee2161f9d0505879267fcf201603e29f6a8106
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: cmake (>= 3.2.0) which is used only on Linux or macOS systems when no system build of nlopt (>= 2.7.0) can be found.
-
 Package: pbkrtest
 Version: 0.5.3
 Depends: R (>= 4.2.0), lme4 (>= 1.1.31), R (>= 4.6), R (< 4.6.99)
@@ -4842,3 +4807,38 @@ RVersion: 4.6
 Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: commonmark
+Version: 1.9.5
+Depends: R (>= 4.6), R (< 4.6.99)
+Suggests: curl, testthat, xml2
+License: BSD_2_clause + file LICENSE
+File: commonmark_1.9.5_b2_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/commonmark/releases/download/1.9.5/commonmark_1.9.5_b2_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-03-17 17:37:12 UTC; unix
+Filesize: 129502
+SHA256: c0b30c9340ef301cb37987d596c470708ce9c997f64dcc56c47aeb30f8853cda
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: nloptr
+Version: 2.2.1
+Depends: R (>= 4.6), R (< 4.6.99)
+Suggests: knitr, rmarkdown, covr, tinytest
+License: LGPL (>= 3)
+File: nloptr_2.2.1_b2_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/nloptr/releases/download/2.2.1/nloptr_2.2.1_b2_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-03-17 17:37:30 UTC; unix
+Filesize: 584009
+SHA256: d82f4bde150de30120c07678cbfa254e3556547fc0ada03e3396d9c549647267
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: cmake (>= 3.2.0) which is used only on Linux or macOS systems when no system build of nlopt (>= 2.7.0) can be found.
