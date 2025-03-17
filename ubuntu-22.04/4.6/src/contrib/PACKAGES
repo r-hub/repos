@@ -152,23 +152,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: xclip (https://github.com/astrand/xclip) or xsel (http://www.vergenet.net/~conrad/software/xsel/) for accessing the X11 clipboard, or wl-clipboard
         (https://github.com/bugaevc/wl-clipboard) for systems using Wayland.
 
-Package: commonmark
-Version: 1.9.2
-Depends: R (>= 4.6), R (< 4.6.99)
-Suggests: curl, testthat, xml2
-License: BSD_2_clause + file LICENSE
-File: commonmark_1.9.2_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/commonmark/releases/download/1.9.2/commonmark_1.9.2_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:31:03 UTC; unix
-Filesize: 519009
-SHA256: 356359ffb9a96ddd0eddc29dd0ad0dbf2dff3244d2051ae59d0d8b696087e26c
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: cpp11
 Version: 0.5.2
 Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
@@ -3572,24 +3555,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make
 LinkingTo: Rcpp
 
-Package: nloptr
-Version: 2.2.0
-Depends: R (>= 4.6), R (< 4.6.99)
-Suggests: knitr, rmarkdown, covr, tinytest
-License: LGPL (>= 3)
-File: nloptr_2.2.0_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/nloptr/releases/download/2.2.0/nloptr_2.2.0_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:34:00 UTC; unix
-Filesize: 1541799
-SHA256: 20e2dcc0f5c2e8902bb378ebb0fe85b72ec8a3c6b135fe23f096db171041fc4f
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: cmake (>= 3.2.0) which is used only on Linux or macOS systems when no system build of nlopt (>= 2.7.0) can be found.
-
 Package: pbkrtest
 Version: 0.5.3
 Depends: R (>= 4.2.0), lme4 (>= 1.1.31), R (>= 4.6), R (< 4.6.99)
@@ -4862,3 +4827,38 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: commonmark
+Version: 1.9.4
+Depends: R (>= 4.6), R (< 4.6.99)
+Suggests: curl, testthat, xml2
+License: BSD_2_clause + file LICENSE
+File: commonmark_1.9.4_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/commonmark/releases/download/1.9.4/commonmark_1.9.4_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-17 16:42:34 UTC; unix
+Filesize: 519769
+SHA256: fdd0e4bbc75cdd062b13923166074642d9781e87f6a4867ea3477274cfc5b652
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: nloptr
+Version: 2.2.1
+Depends: R (>= 4.6), R (< 4.6.99)
+Suggests: knitr, rmarkdown, covr, tinytest
+License: LGPL (>= 3)
+File: nloptr_2.2.1_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/nloptr/releases/download/2.2.1/nloptr_2.2.1_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-17 16:42:53 UTC; unix
+Filesize: 1551761
+SHA256: d7fe1251a5d4cecd5921c7cb38a9e10b11acecb83bb52d62b449888fd737f198
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: cmake (>= 3.2.0) which is used only on Linux or macOS systems when no system build of nlopt (>= 2.7.0) can be found.
