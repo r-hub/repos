@@ -3064,25 +3064,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: pdftools
 Imports: commonmark, xml2, hunspell (>= 3.0), knitr
 
-Package: hunspell
-Version: 3.0.5
-Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
-License: GPL-2 | LGPL-2.1 | MPL-1.1
-File: hunspell_3.0.5_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/hunspell/releases/download/3.0.5/hunspell_3.0.5_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-10-04 23:25:07 UTC; unix
-Filesize: 3450994
-SHA256: 6df0eb75af3ef3085c346952dfa6a12f628033067b2369f02cc44636e522d005
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: spelling, testthat, knitr, rmarkdown
-Imports: Rcpp, digest
-LinkingTo: Rcpp (>= 0.12.12)
-
 Package: wk
 Version: 0.9.4
 Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
@@ -5053,3 +5034,22 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: knitr, Matrix, methods, rmarkdown, testthat (>= 3.0.0), tibble, withr
 Imports: cli (>= 3.4.0), rlang (>= 1.1.0), vctrs
+
+Package: hunspell
+Version: 3.0.6
+Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
+License: GPL-2 | LGPL-2.1 | MPL-1.1
+File: hunspell_3.0.6_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/hunspell/releases/download/3.0.6/hunspell_3.0.6_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.3; aarch64-unknown-linux-gnu; 2025-03-22 23:25:11 UTC; unix
+Filesize: 3450927
+SHA256: a5c60dd3b972e3aa6cebb506db6e0b065829c4c89c9135463eef0cf54536714d
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: spelling, testthat, knitr, rmarkdown
+Imports: Rcpp, digest
+LinkingTo: Rcpp (>= 0.12.12)
