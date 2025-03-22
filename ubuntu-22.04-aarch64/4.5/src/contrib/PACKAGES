@@ -1580,25 +1580,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: clock
-Version: 0.7.2
-Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), rlang (>= 1.1.0), tzdb (>= 0.4.0), vctrs (>= 0.6.1)
-Suggests: covr, knitr, magrittr, pillar, rmarkdown, slider (>= 0.3.0), testthat (>= 3.0.0), withr
-License: MIT + file LICENSE
-File: clock_0.7.2_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/clock/releases/download/0.7.2/clock_0.7.2_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-16 01:20:31 UTC; unix
-Filesize: 7581501
-SHA256: a5b8ee365da5e1e1dae78098b322dfc07f0da55966fc7d4dc8b5ad4b8aa9359b
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cpp11 (>= 0.5.1), tzdb (>= 0.4.0)
-
 Package: colorspace
 Version: 2.1-1
 Depends: R (>= 3.0.0), methods, R (>= 4.5), R (< 4.5.99)
@@ -4862,3 +4843,22 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: clock
+Version: 0.7.3
+Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
+Imports: cli (>= 3.6.4), lifecycle (>= 1.0.4), rlang (>= 1.1.5), tzdb (>= 0.5.0), vctrs (>= 0.6.5)
+Suggests: covr, knitr, magrittr, pillar, rmarkdown, slider (>= 0.3.2), testthat (>= 3.0.0), withr
+License: MIT + file LICENSE
+File: clock_0.7.3_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/clock/releases/download/0.7.3/clock_0.7.3_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-22 18:38:52 UTC; unix
+Filesize: 7572286
+SHA256: 582a1a62fa1630281e1b51e0eedc2b5df02f799e1c5390a687ed8e66be54d9be
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11 (>= 0.5.2), tzdb (>= 0.5.0)
