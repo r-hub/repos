@@ -2099,22 +2099,6 @@ Imports: systemfonts (>= 1.0.0)
 SystemRequirements: libpng
 LinkingTo: cpp11, systemfonts
 
-Package: markdown
-Version: 1.13
-Depends: R (>= 2.11.1), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: markdown_1.13_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/markdown/releases/download/1.13/markdown_1.13_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.4.1; ; 2024-07-20 15:10:10 UTC; unix
-Filesize: 147049
-SHA256: 9edc9524a9f7f518223249a5a782d41051281905fd6cab528ada527f36391ce9
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: knitr, rmarkdown (>= 2.18), yaml, RCurl
-Imports: utils, commonmark (>= 1.9.0), xfun (>= 0.38)
-
 Package: plotly
 Version: 4.10.4
 Depends: R (>= 3.2.0), ggplot2 (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
@@ -2855,26 +2839,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: htmltools, knitr, rmarkdown, shiny, testthat (>= 3.0.0)
 Imports: htmlwidgets (>= 0.3.2), rlang (>= 1.1.0), vctrs
-
-Package: magick
-Version: 2.8.5
-Depends: R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: magick_2.8.5_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/magick/releases/download/2.8.5/magick_2.8.5_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-09-20 23:24:45 UTC; unix
-Filesize: 8541341
-SHA256: 3e5793d02f97acda175a12f185021d0d63963a6f89446fb3a96587303ba89ad8
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: av (>= 0.3), spelling, jsonlite, methods, knitr, rmarkdown, rsvg, webp, pdftools, ggplot2, gapminder, IRdisplay, tesseract (>= 2.0), gifski
-Imports: Rcpp (>= 0.12.12), magrittr, curl
-SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or libmagick++-dev (deb)
-LinkingTo: Rcpp
 
 Package: timeDate
 Version: 4041.110
@@ -5053,3 +5017,55 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: spelling, testthat, knitr, rmarkdown
 Imports: Rcpp, digest
 LinkingTo: Rcpp (>= 0.12.12)
+
+Package: litedown
+Version: 0.6
+Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: litedown_0.6_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/litedown/releases/download/0.6/litedown_0.6_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.3; ; 2025-03-23 23:25:05 UTC; unix
+Filesize: 374124
+SHA256: 846f108c9016c1cee42f0fa6c74349121076c63b10effb454f3704c7d450fef5
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: rbibutils, rstudioapi, tinytex
+Imports: utils, commonmark (>= 1.9.1), xfun (>= 0.51)
+
+Package: markdown
+Version: 2.0
+Depends: R (>= 2.11.1), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: markdown_2.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/markdown/releases/download/2.0/markdown_2.0_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.3; ; 2025-03-23 23:25:08 UTC; unix
+Filesize: 64705
+SHA256: e34f6fa967d9af0dac04213220ed7e97db97acb08642d0d3de000c29128b8e81
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr, rmarkdown (>= 2.18), yaml, RCurl
+Imports: utils, xfun, litedown (>= 0.6)
+
+Package: magick
+Version: 2.8.6
+Depends: R (>= 4.1.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: magick_2.8.6_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/magick/releases/download/2.8.6/magick_2.8.6_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.3; aarch64-unknown-linux-gnu; 2025-03-23 23:25:06 UTC; unix
+Filesize: 8547855
+SHA256: c2e5908b50f1bc37f9c1af4e21cb31d9637ebd14fb4966a9fcc050650998b510
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: av (>= 0.3), spelling, jsonlite, methods, knitr, rmarkdown, rsvg, webp, pdftools, ggplot2, gapminder, IRdisplay, tesseract (>= 2.0), gifski
+Imports: Rcpp (>= 0.12.12), magrittr, curl
+SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or libmagick++-dev (deb)
+LinkingTo: Rcpp
