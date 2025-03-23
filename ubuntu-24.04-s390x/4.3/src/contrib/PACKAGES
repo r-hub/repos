@@ -1834,25 +1834,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: stats, tools, utils
 
-Package: hunspell
-Version: 3.0.5
-Depends: R (>= 3.0.2), R (>= 4.3), R (< 4.3.99)
-Suggests: spelling, testthat, knitr, rmarkdown
-License: GPL-2 | LGPL-2.1 | MPL-1.1
-File: hunspell_3.0.5_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/hunspell/releases/download/3.0.5/hunspell_3.0.5_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-03-15 11:50:24 UTC; unix
-Filesize: 3606218
-SHA256: e94beabb06ff70401ed88c071dab86667e4270986e27daeb1a3b8b46dac00c83
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: Rcpp, digest
-LinkingTo: Rcpp (>= 0.12.12)
-
 Package: Rcpp
 Version: 1.0.14
 Depends: R (>= 4.3), R (< 4.3.99)
@@ -2057,3 +2038,22 @@ RVersion: 4.3
 Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: hunspell
+Version: 3.0.6
+Depends: R (>= 3.0.2), R (>= 4.3), R (< 4.3.99)
+Suggests: spelling, testthat, knitr, rmarkdown
+License: GPL-2 | LGPL-2.1 | MPL-1.1
+File: hunspell_3.0.6_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/hunspell/releases/download/3.0.6/hunspell_3.0.6_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-03-23 14:41:59 UTC; unix
+Filesize: 3606184
+SHA256: 88f123da06f4ed7441b9162afde44f989dea153b8b804cb320bc7287c8c9d9a0
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: Rcpp, digest
+LinkingTo: Rcpp (>= 0.12.12)
