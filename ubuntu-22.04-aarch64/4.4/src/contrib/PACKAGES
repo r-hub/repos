@@ -3235,25 +3235,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: hunspell
-Version: 3.0.5
-Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
-Imports: Rcpp, digest
-Suggests: spelling, testthat, knitr, rmarkdown
-License: GPL-2 | LGPL-2.1 | MPL-1.1
-File: hunspell_3.0.5_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/hunspell/releases/download/3.0.5/hunspell_3.0.5_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-10-29 18:45:16 UTC; unix
-Filesize: 3462205
-SHA256: 2836ee075c04d0dc4e1e005aae097f0dc73995d8f1769c27eff076d6cbf2d42d
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp (>= 0.12.12)
-
 Package: wk
 Version: 0.9.4
 Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
@@ -5035,44 +5016,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: rlang
-Version: 1.1.5
-Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Imports: utils
-Suggests: cli (>= 3.1.0), covr, crayon, fs, glue, knitr, magrittr, methods, pillar, rmarkdown, stats, testthat (>= 3.0.0), tibble, usethis, vctrs (>= 0.2.3), withr
-Enhances: winch
-License: MIT + file LICENSE
-File: rlang_1.1.5_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/rlang/releases/download/1.1.5/rlang_1.1.5_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-17 18:36:52 UTC; unix
-Filesize: 2064842
-SHA256: bcd384e2c50556498507331e972297dec117b7ea056eaa398fa337361a02eb8c
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: cli
-Version: 3.6.4
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-Imports: utils
-Suggests: callr, covr, crayon, digest, glue (>= 1.6.0), grDevices, htmltools, htmlwidgets, knitr, methods, processx, ps (>= 1.3.4.9000), rlang (>= 1.0.2.9003), rmarkdown, rprojroot, rstudioapi,
-        testthat (>= 3.2.0), tibble, whoami, withr
-License: MIT + file LICENSE
-File: cli_3.6.4_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/cli/releases/download/3.6.4/cli_3.6.4_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-02-21 20:00:28 UTC; unix
-Filesize: 1528455
-SHA256: 09cae01de4f69d5d7fe941ed25e69b5934f18a08aa30056a6842878f7e3b7a09
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: clock
 Version: 0.7.3
 Depends: R (>= 4.0.0), R (>= 4.4), R (< 4.4.99)
@@ -5091,3 +5034,60 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11 (>= 0.5.2), tzdb (>= 0.5.0)
+
+Package: rlang
+Version: 1.1.5
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Imports: utils
+Suggests: cli (>= 3.1.0), covr, crayon, fs, glue, knitr, magrittr, methods, pillar, rmarkdown, stats, testthat (>= 3.0.0), tibble, usethis, vctrs (>= 0.2.3), withr
+Enhances: winch
+License: MIT + file LICENSE
+File: rlang_1.1.5_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/rlang/releases/download/1.1.5/rlang_1.1.5_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-17 18:36:52 UTC; unix
+Filesize: 2064840
+SHA256: fd2365509e9e7a62a606d4c3da2bd9d2800275fa355ade7bbbb8fa9445d5e087
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: cli
+Version: 3.6.4
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+Imports: utils
+Suggests: callr, covr, crayon, digest, glue (>= 1.6.0), grDevices, htmltools, htmlwidgets, knitr, methods, processx, ps (>= 1.3.4.9000), rlang (>= 1.0.2.9003), rmarkdown, rprojroot, rstudioapi,
+        testthat (>= 3.2.0), tibble, whoami, withr
+License: MIT + file LICENSE
+File: cli_3.6.4_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/cli/releases/download/3.6.4/cli_3.6.4_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-02-21 20:00:28 UTC; unix
+Filesize: 1528458
+SHA256: 6687d010128218b2a299cf839e2f3a6cafd9d1b8939fac47c1c642ccc8fa3afe
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: hunspell
+Version: 3.0.6
+Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
+Imports: Rcpp, digest
+Suggests: spelling, testthat, knitr, rmarkdown
+License: GPL-2 | LGPL-2.1 | MPL-1.1
+File: hunspell_3.0.6_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/hunspell/releases/download/3.0.6/hunspell_3.0.6_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.3; aarch64-unknown-linux-gnu; 2025-03-23 18:38:44 UTC; unix
+Filesize: 3462159
+SHA256: 7a0c26a57fe4f4481f6ae1dd81bb119c83d459459a9845e8055b35d3d9cded7e
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp (>= 0.12.12)
