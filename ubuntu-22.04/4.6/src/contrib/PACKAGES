@@ -200,24 +200,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: git (optional)
 
-Package: curl
-Version: 6.2.1
-Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
-License: MIT + file LICENSE
-File: curl_6.2.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/curl/releases/download/6.2.1/curl_6.2.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:28:26 UTC; unix
-Filesize: 875139
-SHA256: 37c1671d4471349566d9e9cb752796a3c1c512971a0e3026f4b2e33472195b4c
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
-
 Package: desc
 Version: 1.4.3
 Depends: R (>= 3.4), R (>= 4.6), R (< 4.6.99)
@@ -2112,24 +2094,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: parallelly
-Version: 1.42.0
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: parallel, tools, utils
-Suggests: commonmark, base64enc
-License: LGPL (>= 2.1)
-File: parallelly_1.42.0_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/parallelly/releases/download/1.42.0/parallelly_1.42.0_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:32:32 UTC; unix
-Filesize: 544357
-SHA256: 4dc14590ea99d63e1a07efea0d9689df0ce618c87e6febab08d77f72a04e3e35
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: parsnip
 Version: 1.3.1
 Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
@@ -2954,22 +2918,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11 (>= 0.2.0), progress (>= 1.2.1), tzdb (>= 0.1.1)
 
-Package: pkgbuild
-Version: 1.4.6
-Depends: R (>= 3.5), R (>= 4.6), R (< 4.6.99)
-Imports: callr (>= 3.2.0), cli (>= 3.4.0), desc, processx, R6
-Suggests: covr, cpp11, knitr, Rcpp, rmarkdown, testthat (>= 3.2.0), withr (>= 2.3.0)
-License: MIT + file LICENSE
-File: pkgbuild_1.4.6_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/pkgbuild/releases/download/1.4.6/pkgbuild_1.4.6_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:29:17 UTC; unix
-Filesize: 204704
-SHA256: 5183bbc817dd610728debe3af4d4dce3f20ef2316c3f71e1fd5f0bf67061cb55
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: checkmate
 Version: 2.3.2
 Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
@@ -3070,26 +3018,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: graph
 SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
 LinkingTo: cpp11 (>= 0.5.0)
-
-Package: magick
-Version: 2.8.5
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp (>= 0.12.12), magrittr, curl
-Suggests: av (>= 0.3), spelling, jsonlite, methods, knitr, rmarkdown, rsvg, webp, pdftools, ggplot2, gapminder, IRdisplay, tesseract (>= 2.0), gifski
-License: MIT + file LICENSE
-File: magick_2.8.5_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/magick/releases/download/2.8.5/magick_2.8.5_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:35:13 UTC; unix
-Filesize: 8797275
-SHA256: 7bf6798d76a4b180b69999b3a2da8564c0eddc1683af8d12cad87cbb886d4253
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or libmagick++-dev (deb)
-LinkingTo: Rcpp
 
 Package: mvtnorm
 Version: 1.3-3
@@ -3850,22 +3778,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix (>= 1.2-3)
-
-Package: markdown
-Version: 1.13
-Depends: R (>= 2.11.1), R (>= 4.6), R (< 4.6.99)
-Imports: utils, commonmark (>= 1.9.0), xfun (>= 0.38)
-Suggests: knitr, rmarkdown (>= 2.18), yaml, RCurl
-License: MIT + file LICENSE
-File: markdown_1.13_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/markdown/releases/download/1.13/markdown_1.13_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:40:16 UTC; unix
-Filesize: 147044
-SHA256: efd1fb13ecc800332499697506f416943ec4f952fdb0e35186dbf96adfc699d8
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: matrixStats
 Version: 1.5.0
@@ -4862,3 +4774,107 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp (>= 0.12.12)
+
+Package: litedown
+Version: 0.6
+Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
+Imports: utils, commonmark (>= 1.9.1), xfun (>= 0.51)
+Suggests: rbibutils, rstudioapi, tinytex
+License: MIT + file LICENSE
+File: litedown_0.6_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/litedown/releases/download/0.6/litedown_0.6_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.6.0; ; 2025-03-24 16:43:12 UTC; unix
+Filesize: 374010
+SHA256: 92747c138abec2b3dbc6b541d95520a5af008180e321ad1893ad749052e306fb
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: curl
+Version: 6.2.2
+Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+License: MIT + file LICENSE
+File: curl_6.2.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/curl/releases/download/6.2.2/curl_6.2.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-24 16:43:10 UTC; unix
+Filesize: 875191
+SHA256: 404512c59a986f2240ef315adde938fd4aecb37b1d0c840dd281847c8f198f2a
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
+
+Package: parallelly
+Version: 1.43.0
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: parallel, tools, utils
+Suggests: commonmark, base64enc
+License: LGPL (>= 2.1)
+File: parallelly_1.43.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/parallelly/releases/download/1.43.0/parallelly_1.43.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-24 16:43:09 UTC; unix
+Filesize: 567710
+SHA256: db5ee507b9dc4ed5547db174d28c58cc7b34b913d4aa652d2d77d3cfa91d4c1e
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: pkgbuild
+Version: 1.4.7
+Depends: R (>= 3.5), R (>= 4.6), R (< 4.6.99)
+Imports: callr (>= 3.2.0), cli (>= 3.4.0), desc, processx, R6
+Suggests: covr, cpp11, knitr, Rcpp, rmarkdown, testthat (>= 3.2.0), withr (>= 2.3.0)
+License: MIT + file LICENSE
+File: pkgbuild_1.4.7_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/pkgbuild/releases/download/1.4.7/pkgbuild_1.4.7_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.6.0; ; 2025-03-24 16:43:10 UTC; unix
+Filesize: 208171
+SHA256: fb302032e588254e12ec409083e51f5a4b415564e5f2ac91bfcf43863c530b0e
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: magick
+Version: 2.8.6
+Depends: R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp (>= 0.12.12), magrittr, curl
+Suggests: av (>= 0.3), spelling, jsonlite, methods, knitr, rmarkdown, rsvg, webp, pdftools, ggplot2, gapminder, IRdisplay, tesseract (>= 2.0), gifski
+License: MIT + file LICENSE
+File: magick_2.8.6_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/magick/releases/download/2.8.6/magick_2.8.6_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-24 16:43:18 UTC; unix
+Filesize: 8801695
+SHA256: 3c9934ba32ff1d8c2f11e4c67c009f005acbc75e1b0e88b51941ac69e7199b11
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or libmagick++-dev (deb)
+LinkingTo: Rcpp
+
+Package: markdown
+Version: 2.0
+Depends: R (>= 2.11.1), R (>= 4.6), R (< 4.6.99)
+Imports: utils, xfun, litedown (>= 0.6)
+Suggests: knitr, rmarkdown (>= 2.18), yaml, RCurl
+License: MIT + file LICENSE
+File: markdown_2.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/markdown/releases/download/2.0/markdown_2.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.6.0; ; 2025-03-24 16:43:17 UTC; unix
+Filesize: 64630
+SHA256: 91e0ef4c6464dd7b5ec81e27dde488bf3acc40613aa5f54a440d933e1f4f4668
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
