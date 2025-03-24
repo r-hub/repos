@@ -392,24 +392,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: grDevices, methods, utils
 
-Package: curl
-Version: 6.2.1
-Depends: R (>= 3.0.0), R (>= 4.3), R (< 4.3.99)
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
-License: MIT + file LICENSE
-File: curl_6.2.1_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/curl/releases/download/6.2.1/curl_6.2.1_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-03-15 10:41:20 UTC; unix
-Filesize: 865442
-SHA256: d4b220c79b84fee836f74aa4ccb111d771080227a2622e7d370ee0f77ccb9245
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
-
 Package: data.table
 Version: 1.17.0
 Depends: R (>= 3.3.0), R (>= 4.3), R (< 4.3.99)
@@ -2057,3 +2039,21 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: Rcpp, digest
 LinkingTo: Rcpp (>= 0.12.12)
+
+Package: curl
+Version: 6.2.2
+Depends: R (>= 3.0.0), R (>= 4.3), R (< 4.3.99)
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+License: MIT + file LICENSE
+File: curl_6.2.2_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/curl/releases/download/6.2.2/curl_6.2.2_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-03-24 14:46:50 UTC; unix
+Filesize: 865292
+SHA256: 834540dae65f9bf8b003219bff525e3e6cf09a22d3bc2dc6d96b3ef4996ef36b
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
