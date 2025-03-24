@@ -200,24 +200,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: git (optional)
 
-Package: curl
-Version: 6.2.1
-Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
-License: MIT + file LICENSE
-File: curl_6.2.1_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/curl/releases/download/6.2.1/curl_6.2.1_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-16 08:56:08 UTC; unix
-Filesize: 869903
-SHA256: ed0a33f0f1a0af7c70524460e155b2374059e12c41e409eca1a1f58b9a257432
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
-
 Package: desc
 Version: 1.4.3
 Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
@@ -2128,24 +2110,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: parallelly
-Version: 1.42.0
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: parallel, tools, utils
-Suggests: commonmark, base64enc
-License: LGPL (>= 2.1)
-File: parallelly_1.42.0_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/parallelly/releases/download/1.42.0/parallelly_1.42.0_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-16 09:01:05 UTC; unix
-Filesize: 544346
-SHA256: d00a4163a1761b185c9c8d3188cc93e0d11abfaac2a84fc3d2c40f120cf1cb3d
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: parsnip
 Version: 1.3.1
 Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
@@ -2988,22 +2952,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11 (>= 0.2.0), progress (>= 1.2.1), tzdb (>= 0.1.1)
 
-Package: pkgbuild
-Version: 1.4.6
-Depends: R (>= 3.5), R (>= 4.5), R (< 4.5.99)
-Imports: callr (>= 3.2.0), cli (>= 3.4.0), desc, processx, R6
-Suggests: covr, cpp11, knitr, Rcpp, rmarkdown, testthat (>= 3.2.0), withr (>= 2.3.0)
-License: MIT + file LICENSE
-File: pkgbuild_1.4.6_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/pkgbuild/releases/download/1.4.6/pkgbuild_1.4.6_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.5.0; ; 2025-03-16 08:56:47 UTC; unix
-Filesize: 204366
-SHA256: 0482968efad21f688a034e450715edbc271a82d1ae7bdbd5fb5280d868b75828
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: checkmate
 Version: 2.3.2
 Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
@@ -3218,28 +3166,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: OpenSSL >= 1.0.1
 LinkingTo: Rcpp, wk
-
-Package: sf
-Version: 1.0-19
-Depends: methods, R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
-Suggests: blob, nanoarrow, covr, dplyr (>= 1.0.0), ggplot2, knitr, lwgeom (>= 0.2-14), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>=
-        1.1.0), RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.2-0), terra, testthat (>= 3.0.0), tibble (>=
-        1.4.1), tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk (>= 0.9.0)
-License: GPL-2 | MIT + file LICENSE
-File: sf_1.0-19_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/sf/releases/download/1.0-19/sf_1.0-19_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-16 09:21:36 UTC; unix
-Filesize: 9224435
-SHA256: 398fa61402670b473ecbbe6ef094c7bdbe33958e0975563032f7f2b9b0bf8861
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
-LinkingTo: Rcpp
 
 Package: units
 Version: 0.8-7
@@ -4878,3 +4804,77 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: curl
+Version: 6.2.2
+Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+License: MIT + file LICENSE
+File: curl_6.2.2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/curl/releases/download/6.2.2/curl_6.2.2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-24 23:21:39 UTC; unix
+Filesize: 869951
+SHA256: 0064b4a4fa12c94d72b7ad37d3d463087dc097f34928894d7f95e7f7327e004f
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
+
+Package: parallelly
+Version: 1.43.0
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: parallel, tools, utils
+Suggests: commonmark, base64enc
+License: LGPL (>= 2.1)
+File: parallelly_1.43.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/parallelly/releases/download/1.43.0/parallelly_1.43.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-24 23:23:56 UTC; unix
+Filesize: 567588
+SHA256: f2e0082cbcc6af95702ea4abeeaca4d608824c38bb27f8530e5336434488df4d
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: pkgbuild
+Version: 1.4.7
+Depends: R (>= 3.5), R (>= 4.5), R (< 4.5.99)
+Imports: callr (>= 3.2.0), cli (>= 3.4.0), desc, processx, R6
+Suggests: covr, cpp11, knitr, Rcpp, rmarkdown, testthat (>= 3.2.0), withr (>= 2.3.0)
+License: MIT + file LICENSE
+File: pkgbuild_1.4.7_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/pkgbuild/releases/download/1.4.7/pkgbuild_1.4.7_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.5.0; ; 2025-03-24 23:22:17 UTC; unix
+Filesize: 207995
+SHA256: 3ed6c209df7b5046fca54b28ad3e94304681545e518f1416b906a01161d58d1e
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: sf
+Version: 1.0-20
+Depends: methods, R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
+Suggests: blob, nanoarrow, covr, dplyr (>= 1.0.0), ggplot2, knitr, lwgeom (>= 0.2-14), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>=
+        1.1.0), RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.6-0), terra, testthat (>= 3.0.0), tibble (>=
+        1.4.1), tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk (>= 0.9.0)
+License: GPL-2 | MIT + file LICENSE
+File: sf_1.0-20_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/sf/releases/download/1.0-20/sf_1.0-20_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-24 23:24:01 UTC; unix
+Filesize: 9512780
+SHA256: 0613ddda668cc791ddfbefd95d3669b498aa495c3bae95aa80b8eb652d75b85f
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
+LinkingTo: Rcpp
