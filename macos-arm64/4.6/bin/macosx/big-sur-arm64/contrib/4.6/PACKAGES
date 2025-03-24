@@ -200,24 +200,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: git (optional)
 
-Package: curl
-Version: 6.2.1
-Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
-License: MIT + file LICENSE
-File: curl_6.2.1_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/curl/releases/download/6.2.1/curl_6.2.1_b1_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-03-16 17:53:12 UTC; unix
-Filesize: 3431625
-SHA256: 2534a8517b13035a411d62869c3ef2a73040347fdfef40742f0293d765d175b8
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
-
 Package: desc
 Version: 1.4.3
 Depends: R (>= 3.4), R (>= 4.6), R (< 4.6.99)
@@ -2074,24 +2056,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: parallelly
-Version: 1.42.0
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: parallel, tools, utils
-Suggests: commonmark, base64enc
-License: LGPL (>= 2.1)
-File: parallelly_1.42.0_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/parallelly/releases/download/1.42.0/parallelly_1.42.0_b1_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-03-16 17:57:22 UTC; unix
-Filesize: 538883
-SHA256: fab30f76b7bc7f8940e0ab62654e71f8a02254a3b4da101311b20b3a53418caf
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: parsnip
 Version: 1.3.1
 Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
@@ -2933,22 +2897,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11 (>= 0.2.0), progress (>= 1.2.1), tzdb (>= 0.1.1)
-
-Package: pkgbuild
-Version: 1.4.6
-Depends: R (>= 3.5), R (>= 4.6), R (< 4.6.99)
-Imports: callr (>= 3.2.0), cli (>= 3.4.0), desc, processx, R6
-Suggests: covr, cpp11, knitr, Rcpp, rmarkdown, testthat (>= 3.2.0), withr (>= 2.3.0)
-License: MIT + file LICENSE
-File: pkgbuild_1.4.6_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/pkgbuild/releases/download/1.4.6/pkgbuild_1.4.6_b1_R4.6_aarch64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-03-16 17:54:19 UTC; unix
-Filesize: 205349
-SHA256: 419fd11ebf59a29cd91a79fdae67fd3824d83d53f74e194a2a95709b1630604b
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: checkmate
 Version: 2.3.2
@@ -3814,22 +3762,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix (>= 1.2-3)
 
-Package: markdown
-Version: 1.13
-Depends: R (>= 2.11.1), R (>= 4.6), R (< 4.6.99)
-Imports: utils, commonmark (>= 1.9.0), xfun (>= 0.38)
-Suggests: knitr, rmarkdown (>= 2.18), yaml, RCurl
-License: MIT + file LICENSE
-File: markdown_1.13_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/markdown/releases/download/1.13/markdown_1.13_b1_R4.6_aarch64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-03-16 18:07:00 UTC; unix
-Filesize: 147711
-SHA256: 551c1df587a16a6df11bd3b2bac831387a473ca4300b490a35165e47cd4259c7
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: matrixStats
 Version: 1.5.0
 Depends: R (>= 3.4.0), R (>= 4.6), R (< 4.6.99)
@@ -4668,3 +4600,87 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp (>= 0.12.12)
+
+Package: litedown
+Version: 0.6
+Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
+Imports: utils, commonmark (>= 1.9.1), xfun (>= 0.51)
+Suggests: rbibutils, rstudioapi, tinytex
+License: MIT + file LICENSE
+File: litedown_0.6_b1_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/litedown/releases/download/0.6/litedown_0.6_b1_R4.6_aarch64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-03-24 17:39:21 UTC; unix
+Filesize: 374509
+SHA256: 26f143424678d0253eaa3b595124eca851a715dae2a230c820a33fb9fbef5a22
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: curl
+Version: 6.2.2
+Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+License: MIT + file LICENSE
+File: curl_6.2.2_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/curl/releases/download/6.2.2/curl_6.2.2_b2_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-03-24 17:38:45 UTC; unix
+Filesize: 3431973
+SHA256: 0b7860be83b0b5e26f6a6d2d4cad22841c77869a3c2cfa41734239efe8279416
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
+
+Package: parallelly
+Version: 1.43.0
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: parallel, tools, utils
+Suggests: commonmark, base64enc
+License: LGPL (>= 2.1)
+File: parallelly_1.43.0_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/parallelly/releases/download/1.43.0/parallelly_1.43.0_b2_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-03-24 17:39:19 UTC; unix
+Filesize: 563808
+SHA256: ac63a49d5252416f2792a11453e5c37b3060679f2600762f465440fad46bb0d1
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: pkgbuild
+Version: 1.4.7
+Depends: R (>= 3.5), R (>= 4.6), R (< 4.6.99)
+Imports: callr (>= 3.2.0), cli (>= 3.4.0), desc, processx, R6
+Suggests: covr, cpp11, knitr, Rcpp, rmarkdown, testthat (>= 3.2.0), withr (>= 2.3.0)
+License: MIT + file LICENSE
+File: pkgbuild_1.4.7_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/pkgbuild/releases/download/1.4.7/pkgbuild_1.4.7_b2_R4.6_aarch64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-03-24 17:38:48 UTC; unix
+Filesize: 208858
+SHA256: c02a4a13c4e423706145458ea9ad472f4de1f06bbe3f93eb4482a9cc2cccb3d1
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: markdown
+Version: 2.0
+Depends: R (>= 2.11.1), R (>= 4.6), R (< 4.6.99)
+Imports: utils, xfun, litedown (>= 0.6)
+Suggests: knitr, rmarkdown (>= 2.18), yaml, RCurl
+License: MIT + file LICENSE
+File: markdown_2.0_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/markdown/releases/download/2.0/markdown_2.0_b2_R4.6_aarch64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-03-24 17:39:23 UTC; unix
+Filesize: 65252
+SHA256: 5d817dbdfa00f831f05e9666a0b06fe91f7b59fc14207335b0f87f9c5de9655d
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
