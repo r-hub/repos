@@ -372,25 +372,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make
 
-Package: gert
-Version: 2.1.4
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
-Suggests: spelling, knitr, rmarkdown, testthat
-License: MIT + file LICENSE
-File: gert_2.1.4_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/gert/releases/download/2.1.4/gert_2.1.4_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-16 01:19:16 UTC; unix
-Filesize: 339551
-SHA256: ebb55191456de6793776558683d199d97d9b8215399a04362d83315faa8344fa
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
-
 Package: gh
 Version: 1.4.1
 Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
@@ -3151,28 +3132,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: OpenSSL >= 1.0.1
 LinkingTo: Rcpp, wk
 
-Package: sf
-Version: 1.0-19
-Depends: methods, R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
-Suggests: blob, nanoarrow, covr, dplyr (>= 1.0.0), ggplot2, knitr, lwgeom (>= 0.2-14), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>=
-        1.1.0), RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.2-0), terra, testthat (>= 3.0.0), tibble (>=
-        1.4.1), tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk (>= 0.9.0)
-License: GPL-2 | MIT + file LICENSE
-File: sf_1.0-19_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/sf/releases/download/1.0-19/sf_1.0-19_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-16 01:33:05 UTC; unix
-Filesize: 9279148
-SHA256: 99392b2eb85189f2376443ccde6aa4105a9ce489ccdca35e04ebadc3157a66ac
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
-LinkingTo: Rcpp
-
 Package: units
 Version: 0.8-7
 Depends: R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
@@ -4878,3 +4837,44 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: gert
+Version: 2.1.5
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
+Suggests: spelling, knitr, rmarkdown, testthat
+License: MIT + file LICENSE
+File: gert_2.1.5_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/gert/releases/download/2.1.5/gert_2.1.5_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-25 18:45:38 UTC; unix
+Filesize: 339408
+SHA256: 34c206d0a42becbba1497688fb701358341cef0a42eb991c4e6a2c482e479a87
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
+
+Package: sf
+Version: 1.0-20
+Depends: methods, R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
+Suggests: blob, nanoarrow, covr, dplyr (>= 1.0.0), ggplot2, knitr, lwgeom (>= 0.2-14), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>=
+        1.1.0), RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.6-0), terra, testthat (>= 3.0.0), tibble (>=
+        1.4.1), tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk (>= 0.9.0)
+License: GPL-2 | MIT + file LICENSE
+File: sf_1.0-20_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/sf/releases/download/1.0-20/sf_1.0-20_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-25 18:45:42 UTC; unix
+Filesize: 9568054
+SHA256: 0478b23bb95c39a7ab6f465273d85d79e64b3d98060813de0ef4cc888b511317
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
+LinkingTo: Rcpp
