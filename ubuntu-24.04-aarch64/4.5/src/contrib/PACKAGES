@@ -494,22 +494,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, zlib
 LinkingTo: later, Rcpp
 
-Package: httr2
-Version: 1.1.1
-Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
-Imports: cli (>= 3.0.0), curl (>= 6.2.1), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
-Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later (>= 1.4.0), paws.common, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
-License: MIT + file LICENSE
-File: httr2_1.1.1_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/httr2/releases/download/1.1.1/httr2_1.1.1_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.5.0; ; 2025-03-16 08:57:02 UTC; unix
-Filesize: 725062
-SHA256: 9ffa2983f6d0d391cf68a53b6d562e7f20ffad438882810e6829e2c71d2600e7
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: ini
 Version: 0.3.1
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -3350,21 +3334,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: MatrixModels
-Version: 0.5-3
-Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-Imports: stats, methods, Matrix (>= 1.6-0)
-License: GPL (>= 2)
-File: MatrixModels_0.5-3_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/MatrixModels/releases/download/0.5-3/MatrixModels_0.5-3_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.5.0; ; 2025-03-16 09:01:46 UTC; unix
-Filesize: 407140
-SHA256: f744a1bb7fe2c07d515ba396a9a681e3b68a6ad73bb5e61be916df018acbfa93
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: microbenchmark
 Version: 1.5.0
 Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
@@ -3752,25 +3721,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libpng
 LinkingTo: cpp11, systemfonts
-
-Package: lme4
-Version: 1.1-36
-Depends: R (>= 3.6.0), Matrix, methods, stats, R (>= 4.5), R (< 4.5.99)
-Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4), reformulas (>= 0.3.0)
-Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
-License: GPL (>= 2)
-File: lme4_1.1-36_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/lme4/releases/download/1.1-36/lme4_1.1-36_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-16 09:23:59 UTC; unix
-Filesize: 8917888
-SHA256: c54aa01a41a9ff5d3ad34834391ea8a7a130e90f09d1572b0d5fe11d97184773
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix (>= 1.2-3)
 
 Package: matrixStats
 Version: 1.5.0
@@ -4878,3 +4828,53 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: httr2
+Version: 1.1.2
+Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
+Imports: cli (>= 3.0.0), curl (>= 6.2.1), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
+Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later (>= 1.4.0), nanonext, paws.common, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
+License: MIT + file LICENSE
+File: httr2_1.1.2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/httr2/releases/download/1.1.2/httr2_1.1.2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.5.0; ; 2025-03-26 23:21:17 UTC; unix
+Filesize: 726933
+SHA256: bf3d310b75982e9b576cbec112f2347c0ae7f4a15c8d7285e425705af6d35c4e
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: MatrixModels
+Version: 0.5-4
+Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+Imports: stats, methods, Matrix (>= 1.6-0), Matrix(< 1.8-0)
+License: GPL (>= 2)
+File: MatrixModels_0.5-4_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/MatrixModels/releases/download/0.5-4/MatrixModels_0.5-4_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.5.0; ; 2025-03-26 23:22:10 UTC; unix
+Filesize: 408505
+SHA256: 4d34e47f402a09174a21b577d3a725fded97c8cf6676463bb3bbcf411529e655
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: lme4
+Version: 1.1-37
+Depends: R (>= 3.6.0), Matrix, methods, stats, R (>= 4.5), R (< 4.5.99)
+Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4), reformulas (>= 0.3.0)
+Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
+License: GPL (>= 2)
+File: lme4_1.1-37_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/lme4/releases/download/1.1-37/lme4_1.1-37_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-26 23:22:13 UTC; unix
+Filesize: 8935137
+SHA256: eea218f3afb111d4111ce94b45fc2dfa1c243949d318d2fa28f7f2d9b632c97c
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix (>= 1.2-3)
