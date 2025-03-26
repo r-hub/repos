@@ -1843,21 +1843,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: car (>= 3.0-0)
 
-Package: MatrixModels
-Version: 0.5-3
-Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2)
-File: MatrixModels_0.5-3_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/MatrixModels/releases/download/0.5-3/MatrixModels_0.5-3_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.4.1; ; 2024-07-20 14:55:14 UTC; unix
-Filesize: 405254
-SHA256: 9223c6e3455ba54e515cc2f6bce2709bd8896bf5c0c4b128d26344f09828cbf1
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: stats, methods, Matrix (>= 1.6-0)
-
 Package: pbkrtest
 Version: 0.5.3
 Depends: R (>= 4.2.0), lme4 (>= 1.1.31), R (>= 4.4), R (< 4.4.99)
@@ -3718,25 +3703,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: survival
 
-Package: lme4
-Version: 1.1-36
-Depends: R (>= 3.6.0), Matrix, methods, stats, R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2)
-File: lme4_1.1-36_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/lme4/releases/download/1.1-36/lme4_1.1-36_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-11 23:23:48 UTC; unix
-Filesize: 8908275
-SHA256: 3eebfd44f24ea481928430bd54ad10ea5e8f7f92218a204b681fb7a65aa62561
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
-Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4), reformulas (>= 0.3.0)
-LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix (>= 1.2-3)
-
 Package: lava
 Version: 1.8.1
 Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
@@ -4508,22 +4474,6 @@ Suggests: covr, knitr, rmarkdown, testthat (>= 3.1.6), withr
 Imports: cellranger, tibble (>= 2.0.1), utils
 LinkingTo: cpp11 (>= 0.4.0), progress
 
-Package: httr2
-Version: 1.1.1
-Depends: R (>= 4.0), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: httr2_1.1.1_b8_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/httr2/releases/download/1.1.1/httr2_1.1.1_b8_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.4.3; ; 2025-03-08 23:21:26 UTC; unix
-Filesize: 725895
-SHA256: 79cb27c16737d59ed55512d961add0d342c2dcd77b6b7d53c59fa0ff3360b596
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later (>= 1.4.0), paws.common, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
-Imports: cli (>= 3.0.0), curl (>= 6.2.1), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
-
 Package: rstan
 Version: 2.32.7
 Depends: R (>= 3.4.0), StanHeaders (>= 2.32.0), R (>= 4.4), R (< 4.4.99)
@@ -5069,3 +5019,53 @@ Suggests: covr, ddalpha, dials (>= 1.2.0), ggplot2, igraph, kernlab, knitr, meth
         (>= 3.0.0), workflows, xml2
 Imports: cli, clock (>= 0.6.1), generics (>= 0.1.2), glue, gower, hardhat (>= 1.4.1), ipred (>= 0.9-12), lifecycle (>= 1.0.3), lubridate (>= 1.8.0), magrittr, Matrix, purrr (>= 1.0.0), rlang (>=
         1.1.0), sparsevctrs (>= 0.3.0), stats, tibble, tidyr (>= 1.0.0), tidyselect (>= 1.2.0), timeDate, utils, vctrs (>= 0.5.0), withr
+
+Package: MatrixModels
+Version: 0.5-4
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: MatrixModels_0.5-4_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/MatrixModels/releases/download/0.5-4/MatrixModels_0.5-4_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.3; ; 2025-03-26 23:26:37 UTC; unix
+Filesize: 406573
+SHA256: f0fec73c05c80ad12629216c3fed0701bb359e4cdbc7267407ae9e35ef3f4899
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: stats, methods, Matrix (>= 1.6-0), Matrix(< 1.8-0)
+
+Package: lme4
+Version: 1.1-37
+Depends: R (>= 3.6.0), Matrix, methods, stats, R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: lme4_1.1-37_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/lme4/releases/download/1.1-37/lme4_1.1-37_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.3; aarch64-unknown-linux-gnu; 2025-03-26 23:26:39 UTC; unix
+Filesize: 8934872
+SHA256: 30533aad69799a258545afa0972407587849b320c89647b3fbd6595a9434a43d
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
+Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4), reformulas (>= 0.3.0)
+LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix (>= 1.2-3)
+
+Package: httr2
+Version: 1.1.2
+Depends: R (>= 4.0), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: httr2_1.1.2_b9_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/httr2/releases/download/1.1.2/httr2_1.1.2_b9_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.3; ; 2025-03-26 23:26:10 UTC; unix
+Filesize: 727744
+SHA256: 7c73c0b96fd434b69bd13cbd49f8d033276aa4bb5da136962411316a63bf517f
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later (>= 1.4.0), nanonext, paws.common, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
+Imports: cli (>= 3.0.0), curl (>= 6.2.1), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
