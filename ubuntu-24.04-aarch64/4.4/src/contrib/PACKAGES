@@ -650,24 +650,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat
 
-Package: stringi
-Version: 1.8.4
-Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-License: file LICENSE
-File: stringi_1.8.4_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/stringi/releases/download/1.8.4/stringi_1.8.4_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.1; aarch64-unknown-linux-gnu; 2024-07-20 14:52:12 UTC; unix
-Filesize: 3217198
-SHA256: b305dbef2d7d3af50796feb20782318e80c9959b9348fee2fc4ee76885997b2f
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: tools, utils, stats
-SystemRequirements: ICU4C (>= 61, optional)
-
 Package: stringr
 Version: 1.5.1
 Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
@@ -4406,23 +4388,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: lattice, nlme, nnet, survival
 Imports: methods
 
-Package: jsonlite
-Version: 1.9.1
-Depends: methods, R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: jsonlite_1.9.1_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/jsonlite/releases/download/1.9.1/jsonlite_1.9.1_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.3; aarch64-unknown-linux-gnu; 2025-03-03 23:25:00 UTC; unix
-Filesize: 1164593
-SHA256: 5ae54d6ef46f0e947b2d85b5308f55c267ef470df6e749be7a78946b26f1aad9
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: httr, vctrs, testthat, knitr, rmarkdown, R.rsp, sf
-
 Package: cpp11
 Version: 0.5.2
 Depends: R (>= 4.0.0), R (>= 4.4), R (< 4.4.99)
@@ -5069,3 +5034,38 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later (>= 1.4.0), nanonext, paws.common, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
 Imports: cli (>= 3.0.0), curl (>= 6.2.1), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
+
+Package: stringi
+Version: 1.8.7
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+License: file LICENSE
+File: stringi_1.8.7_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/stringi/releases/download/1.8.7/stringi_1.8.7_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.3; aarch64-unknown-linux-gnu; 2025-03-27 23:27:48 UTC; unix
+Filesize: 3221851
+SHA256: 21ec80cf128504b17185acafe9342389907cc81ce89608f0ee1de3047072fdab
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: tools, utils, stats
+SystemRequirements: ICU4C (>= 61, optional)
+
+Package: jsonlite
+Version: 2.0.0
+Depends: methods, R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: jsonlite_2.0.0_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/jsonlite/releases/download/2.0.0/jsonlite_2.0.0_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.3; aarch64-unknown-linux-gnu; 2025-03-27 23:27:19 UTC; unix
+Filesize: 1166594
+SHA256: 8305e1f6affb73d155020e27966e9176707d10be2294022136c4fba8448494b2
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: httr, vctrs, testthat, knitr, rmarkdown, R.rsp, sf
