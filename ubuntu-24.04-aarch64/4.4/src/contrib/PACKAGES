@@ -3853,24 +3853,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: Rcpp, RUnit, knitr, rmarkdown
 SystemRequirements: GNU make, Intel TBB, Windows: cmd.exe and cscript.exe, Solaris: g++ is required
 
-Package: nlme
-Version: 3.1-167
-Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2)
-File: nlme_3.1-167_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/nlme/releases/download/3.1-167/nlme_3.1-167_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-27 23:23:36 UTC; unix
-Filesize: 2457530
-SHA256: 9d648ddceb15fa6ba86cea59cd931c8e0fbe405433ff9629c660a317a81120cb
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: MASS, SASmixed
-Imports: graphics, stats, utils, lattice
-
 Package: doBy
 Version: 4.6.25
 Depends: R (>= 4.2.0), methods, R (>= 4.4), R (< 4.4.99)
@@ -4274,24 +4256,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testit, rstudioapi
 Imports: xfun (>= 0.48)
-
-Package: QuickJSR
-Version: 1.6.0
-Depends: R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: QuickJSR_1.6.0_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/QuickJSR/releases/download/1.6.0/QuickJSR_1.6.0_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-02-26 23:27:48 UTC; unix
-Filesize: 4218970
-SHA256: 1d0fe5861eec815bf8d023e08b8a8014c710e55f9e578eb5e114b8e2a18d454b
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: knitr, rmarkdown, tinytest
-SystemRequirements: GNU make
 
 Package: posterior
 Version: 1.6.1
@@ -4870,23 +4834,6 @@ Suggests: spelling, knitr, rmarkdown, testthat
 Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
 SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
 
-Package: foreign
-Version: 0.8-89
-Depends: R (>= 4.0.0), R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2)
-File: foreign_0.8-89_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/foreign/releases/download/0.8-89/foreign_0.8-89_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.3; aarch64-unknown-linux-gnu; 2025-03-25 23:26:57 UTC; unix
-Filesize: 394779
-SHA256: 01ecb28247650b0afce33eca34da3818416139c30f95849f1fb640e5351cb667
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: methods, utils, stats
-
 Package: recipes
 Version: 1.2.1
 Depends: dplyr (>= 1.1.0), R (>= 3.6), R (>= 4.4), R (< 4.4.99)
@@ -5069,3 +5016,56 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
 Imports: Rcpp (>= 1.0.12), stats, utils, methods
 LinkingTo: Rcpp
+
+Package: nlme
+Version: 3.1-168
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: nlme_3.1-168_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/nlme/releases/download/3.1-168/nlme_3.1-168_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.3; aarch64-unknown-linux-gnu; 2025-03-31 23:26:24 UTC; unix
+Filesize: 2456521
+SHA256: c4d5276f94fb4be6887679f0486129b7dce4e8fdc80aa33d577251e4669ed44d
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: MASS, SASmixed
+Imports: graphics, stats, utils, lattice
+
+Package: QuickJSR
+Version: 1.7.0
+Depends: R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: QuickJSR_1.7.0_b6_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/QuickJSR/releases/download/1.7.0/QuickJSR_1.7.0_b6_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.3; aarch64-unknown-linux-gnu; 2025-03-31 23:26:24 UTC; unix
+Filesize: 2151765
+SHA256: d3b12206ddd449942e4a96596d4c8f0c27a92e00645d1b2150cb19c645b125d9
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr, rmarkdown, tinytest
+SystemRequirements: GNU make
+
+Package: foreign
+Version: 0.8-90
+Depends: R (>= 4.0.0), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: foreign_0.8-90_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/foreign/releases/download/0.8-90/foreign_0.8-90_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.3; aarch64-unknown-linux-gnu; 2025-03-31 23:26:24 UTC; unix
+Filesize: 394921
+SHA256: ce95fffd15a140f1a10c932c89fc5af0c63f80b295ebdee097013ffa5228814c
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: methods, utils, stats
