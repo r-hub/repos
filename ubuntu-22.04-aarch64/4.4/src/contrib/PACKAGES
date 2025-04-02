@@ -4203,26 +4203,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
 
-Package: terra
-Version: 1.8-29
-Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Imports: methods, Rcpp (>= 1.0-10)
-Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
-License: GPL (>= 3)
-File: terra_1.8-29_b8_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/terra/releases/download/1.8-29/terra_1.8-29_b8_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-02-26 18:42:05 UTC; unix
-Filesize: 33585172
-SHA256: 5924eda624a24d040765cac0f5601deb78e628a8f25be7d2c8d735862b9f5c3b
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), sqlite3
-LinkingTo: Rcpp
-
 Package: posterior
 Version: 1.6.1
 Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
@@ -5083,7 +5063,7 @@ OS: linux
 Arch: arm64
 Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-01-17 18:36:52 UTC; unix
 Filesize: 2064840
-SHA256: 393f03e41e42b258779f3ae7e5d30cfc7e99559cf9648c18a7956e24de623236
+SHA256: fc0ca6ff6ef41421822faef2c55eb91a1a894d5b5f79fd0b54675ccb22e42561
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -5101,9 +5081,29 @@ DownloadURL: https://github.com/cran/cli/releases/download/3.6.4/cli_3.6.4_b2_R4
 OS: linux
 Arch: arm64
 Built: R 4.4.2; aarch64-unknown-linux-gnu; 2025-02-21 20:00:28 UTC; unix
-Filesize: 1528458
-SHA256: 602243f4845da1fcbb7c24ba18ca8c5707251f83332bb4f9164ed0490ca33d43
+Filesize: 1528456
+SHA256: dd30b8099c79c2a5c6b6ab5102857ad3694b8495cfbb9b2f3d1cf02b442de37a
 RVersion: 4.4
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: terra
+Version: 1.8-42
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Imports: methods, Rcpp (>= 1.0-10)
+Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
+License: GPL (>= 3)
+File: terra_1.8-42_b9_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/terra/releases/download/1.8-42/terra_1.8-42_b9_R4.4_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.3; aarch64-unknown-linux-gnu; 2025-04-02 18:44:21 UTC; unix
+Filesize: 33709520
+SHA256: 1e9629e31729deac0beac53c08234adfb04ae67a580b939975b4f2d017f9a869
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
+LinkingTo: Rcpp
