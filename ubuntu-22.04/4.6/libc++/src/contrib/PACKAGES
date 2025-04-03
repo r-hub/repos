@@ -1297,25 +1297,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: xfun
-Version: 0.51
-Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
-Imports: grDevices, stats, tools
-Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.4), commonmark, knitr (>= 1.47), remotes, pak, rhub, renv, curl, xml2, jsonlite, magick, yaml, qs,
-        rmarkdown
-License: MIT + file LICENSE
-File: xfun_0.51_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/xfun/releases/download/0.51/xfun_0.51_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 19:26:14 UTC; unix
-Filesize: 584608
-SHA256: b9c5f5ae4c246b13ab2d810fd50f346f177215596c156c4cfd00fe9760132ba8
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: xml2
 Version: 1.3.8
 Depends: R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
@@ -2081,22 +2062,6 @@ DownloadURL: https://github.com/cran/RColorBrewer/releases/download/1.1-3/RColor
 Built: R 4.6.0; ; 2025-03-15 19:27:02 UTC; unix
 Filesize: 52267
 SHA256: 807372cf95d72db33c125e9c47d99819b13b9ca0552c8350d55e7e3da1535147
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: rsample
-Version: 1.2.1
-Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
-Imports: cli, dplyr (>= 1.1.1), furrr, generics, glue, lifecycle, methods, pillar, purrr (>= 1.0.0), rlang (>= 0.4.10), slider (>= 0.1.5), tibble, tidyr, tidyselect, vctrs (>= 0.5.0)
-Suggests: broom, covr, ggplot2, knitr, modeldata, recipes (>= 0.1.4), rmarkdown, stats, testthat (>= 3.0.0), utils, whisker, withr, xml2
-License: MIT + file LICENSE
-File: rsample_1.2.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/rsample/releases/download/1.2.1/rsample_1.2.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.6.0; ; 2025-03-15 19:53:07 UTC; unix
-Filesize: 527562
-SHA256: 9f7a99d183c04f34b260a1a2a82d1f9d6b3844e85baa2440d7ca229fe90998d6
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
@@ -4550,3 +4515,37 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
 LinkingTo: Rcpp
+
+Package: xfun
+Version: 0.52
+Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
+Imports: grDevices, stats, tools
+Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.4), commonmark, knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, qs
+License: MIT + file LICENSE
+File: xfun_0.52_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/xfun/releases/download/0.52/xfun_0.52_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-04-03 16:59:10 UTC; unix
+Filesize: 594142
+SHA256: e4a05eb6e85450208f0a6922af95012c4ec1a44e5709cf480c7fecd185edd058
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rsample
+Version: 1.3.0
+Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
+Imports: cli, dplyr (>= 1.1.1), furrr, generics, glue, lifecycle, methods, pillar, purrr (>= 1.0.0), rlang (>= 1.1.0), slider (>= 0.1.5), tibble, tidyr, tidyselect, vctrs (>= 0.5.0)
+Suggests: broom, covr, ggplot2, knitr, modeldata, recipes (>= 0.1.4), rmarkdown, stats, testthat (>= 3.0.0), utils, whisker, withr, xml2
+License: MIT + file LICENSE
+File: rsample_1.3.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/rsample/releases/download/1.3.0/rsample_1.3.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.6.0; ; 2025-04-03 16:59:12 UTC; unix
+Filesize: 567534
+SHA256: 76a9e3d43c4c16bd4f50e896bb1ae974adfcff2eb17a29294aadc741bf22e699
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
