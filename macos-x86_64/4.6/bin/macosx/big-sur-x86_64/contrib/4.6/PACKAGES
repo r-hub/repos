@@ -1315,25 +1315,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: xfun
-Version: 0.51
-Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
-Imports: grDevices, stats, tools
-Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.4), commonmark, knitr (>= 1.47), remotes, pak, rhub, renv, curl, xml2, jsonlite, magick, yaml, qs,
-        rmarkdown
-License: MIT + file LICENSE
-File: xfun_0.51_b1_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/xfun/releases/download/0.51/xfun_0.51_b1_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2025-03-16 18:01:45 UTC; unix
-Filesize: 588792
-SHA256: 360821a1d02593287a2bfb702215bc7c394d1fdf3858abcb6e77bce26b7716e5
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: xml2
 Version: 1.3.8
 Depends: R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
@@ -2115,22 +2096,6 @@ DownloadURL: https://github.com/cran/RColorBrewer/releases/download/1.1-3/RColor
 Built: R 4.6.0; ; 2025-03-16 18:03:00 UTC; unix
 Filesize: 52254
 SHA256: 414c97107a4a3d8fb5eb090790332e3fceb70ca153460cc747d1b00b3bf22e07
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: rsample
-Version: 1.2.1
-Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
-Imports: cli, dplyr (>= 1.1.1), furrr, generics, glue, lifecycle, methods, pillar, purrr (>= 1.0.0), rlang (>= 0.4.10), slider (>= 0.1.5), tibble, tidyr, tidyselect, vctrs (>= 0.5.0)
-Suggests: broom, covr, ggplot2, knitr, modeldata, recipes (>= 0.1.4), rmarkdown, stats, testthat (>= 3.0.0), utils, whisker, withr, xml2
-License: MIT + file LICENSE
-File: rsample_1.2.1_b1_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/rsample/releases/download/1.2.1/rsample_1.2.1_b1_R4.6_x86_64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-03-16 19:19:07 UTC; unix
-Filesize: 527136
-SHA256: 2187b9256020dda5f3d74b781c77532fde17b93ec465fe4f1c994aa984ad2530
 RVersion: 4.6
 Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
@@ -4858,3 +4823,37 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
 LinkingTo: Rcpp
+
+Package: xfun
+Version: 0.52
+Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
+Imports: grDevices, stats, tools
+Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.4), commonmark, knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, qs
+License: MIT + file LICENSE
+File: xfun_0.52_b2_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/xfun/releases/download/0.52/xfun_0.52_b2_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-04-03 17:37:00 UTC; unix
+Filesize: 598789
+SHA256: e34d675cd137dc9822fcced555e0b06295dc78546918bffd8356eb52a273a37c
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rsample
+Version: 1.3.0
+Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
+Imports: cli, dplyr (>= 1.1.1), furrr, generics, glue, lifecycle, methods, pillar, purrr (>= 1.0.0), rlang (>= 1.1.0), slider (>= 0.1.5), tibble, tidyr, tidyselect, vctrs (>= 0.5.0)
+Suggests: broom, covr, ggplot2, knitr, modeldata, recipes (>= 0.1.4), rmarkdown, stats, testthat (>= 3.0.0), utils, whisker, withr, xml2
+License: MIT + file LICENSE
+File: rsample_1.3.0_b2_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/rsample/releases/download/1.3.0/rsample_1.3.0_b2_R4.6_x86_64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-04-03 17:37:07 UTC; unix
+Filesize: 566619
+SHA256: 9ff4c481e583a227e8005a78e5f5a7c20ea3b02239deb2e3da183b336c7762a2
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
