@@ -1261,25 +1261,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: xfun
-Version: 0.51
-Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
-Imports: grDevices, stats, tools
-Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.4), commonmark, knitr (>= 1.47), remotes, pak, rhub, renv, curl, xml2, jsonlite, magick, yaml, qs,
-        rmarkdown
-License: MIT + file LICENSE
-File: xfun_0.51_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/xfun/releases/download/0.51/xfun_0.51_b1_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-03-16 17:56:47 UTC; unix
-Filesize: 585173
-SHA256: c4165e07d8a151eef500704236ec45bf32a1f490db06e4686cd4a2f41bbd9475
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: xml2
 Version: 1.3.8
 Depends: R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
@@ -2043,22 +2024,6 @@ DownloadURL: https://github.com/cran/RColorBrewer/releases/download/1.1-3/RColor
 Built: R 4.6.0; ; 2025-03-16 17:57:24 UTC; unix
 Filesize: 52255
 SHA256: e8e680ee82756623368ab51bed50683aa426022cdee7acafe7bd0195391e46e0
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: rsample
-Version: 1.2.1
-Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
-Imports: cli, dplyr (>= 1.1.1), furrr, generics, glue, lifecycle, methods, pillar, purrr (>= 1.0.0), rlang (>= 0.4.10), slider (>= 0.1.5), tibble, tidyr, tidyselect, vctrs (>= 0.5.0)
-Suggests: broom, covr, ggplot2, knitr, modeldata, recipes (>= 0.1.4), rmarkdown, stats, testthat (>= 3.0.0), utils, whisker, withr, xml2
-License: MIT + file LICENSE
-File: rsample_1.2.1_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/rsample/releases/download/1.2.1/rsample_1.2.1_b1_R4.6_aarch64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-03-16 18:30:45 UTC; unix
-Filesize: 526438
-SHA256: 7bacb56945bdc1bed3e660d680363eb79bae9a73a5adccb313380d0ba6b99a67
 RVersion: 4.6
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
@@ -4739,3 +4704,37 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
 LinkingTo: Rcpp
+
+Package: xfun
+Version: 0.52
+Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
+Imports: grDevices, stats, tools
+Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.4), commonmark, knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, qs
+License: MIT + file LICENSE
+File: xfun_0.52_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/xfun/releases/download/0.52/xfun_0.52_b2_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-04-03 17:36:53 UTC; unix
+Filesize: 598815
+SHA256: 38442c2874d55344e5e9e56b31cb74c4d1373d90f1e1686560396236d8eb2ac3
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rsample
+Version: 1.3.0
+Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
+Imports: cli, dplyr (>= 1.1.1), furrr, generics, glue, lifecycle, methods, pillar, purrr (>= 1.0.0), rlang (>= 1.1.0), slider (>= 0.1.5), tibble, tidyr, tidyselect, vctrs (>= 0.5.0)
+Suggests: broom, covr, ggplot2, knitr, modeldata, recipes (>= 0.1.4), rmarkdown, stats, testthat (>= 3.0.0), utils, whisker, withr, xml2
+License: MIT + file LICENSE
+File: rsample_1.3.0_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/rsample/releases/download/1.3.0/rsample_1.3.0_b2_R4.6_aarch64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-04-03 17:36:57 UTC; unix
+Filesize: 567472
+SHA256: b0ab8fcafec99cfc66086a67f33de04200acebbca6847d0799bc3ee5ca17b22f
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
