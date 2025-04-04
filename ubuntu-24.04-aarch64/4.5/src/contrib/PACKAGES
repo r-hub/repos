@@ -1088,26 +1088,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: systemfonts
-Version: 1.2.1
-Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
-Imports: grid, jsonlite, lifecycle, tools, utils
-Suggests: covr, farver, graphics, knitr, rmarkdown, testthat (>= 2.1.0)
-License: MIT + file LICENSE
-File: systemfonts_1.2.1_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/systemfonts/releases/download/1.2.1/systemfonts_1.2.1_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-16 09:04:32 UTC; unix
-Filesize: 2340803
-SHA256: 67a14d8de7097d4c2e6210ea7c2119f5280d851017cf846c6074f931ba28f5ac
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: fontconfig, freetype2
-LinkingTo: cpp11 (>= 0.2.1)
-
 Package: testthat
 Version: 3.2.3
 Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
@@ -4877,3 +4857,23 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
 LinkingTo: Rcpp
+
+Package: systemfonts
+Version: 1.2.2
+Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
+Imports: grid, jsonlite, lifecycle, tools, utils
+Suggests: covr, farver, graphics, knitr, rmarkdown, testthat (>= 2.1.0)
+License: MIT + file LICENSE
+File: systemfonts_1.2.2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/systemfonts/releases/download/1.2.2/systemfonts_1.2.2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-04-04 23:20:48 UTC; unix
+Filesize: 2341731
+SHA256: 9011e3dce3068d99276f7c83fd4c59b71e482984ed0abe7245911444f774ba4c
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: fontconfig, freetype2
+LinkingTo: cpp11 (>= 0.2.1)
