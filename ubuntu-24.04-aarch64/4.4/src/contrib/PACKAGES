@@ -3481,23 +3481,6 @@ Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, rstudioap
 Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.48), tinytex (>= 0.12), yaml (>= 2.1.19)
 SystemRequirements: Pandoc (>= 1.17.2)
 
-Package: pillar
-Version: 1.10.1
-Depends: R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: pillar_1.10.1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/pillar/releases/download/1.10.1/pillar_1.10.1_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.4.2; ; 2025-01-07 23:24:35 UTC; unix
-Filesize: 658993
-SHA256: fe4ecae4b5be4e79a0d8d6663a111da6f61c13fff9f06d8caa003f3bba05ba45
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: bit64, DBI, debugme, DiagrammeR, dplyr, formattable, ggplot2, knitr, lubridate, nanotime, nycflights13, palmerpenguins, rmarkdown, scales, stringi, survival, testthat (>= 3.1.1), tibble,
-        units (>= 0.7.2), vdiffr, withr
-Imports: cli (>= 2.3.0), glue, lifecycle, rlang (>= 1.0.2), utf8 (>= 1.1.0), utils, vctrs (>= 0.5.0)
-
 Package: class
 Version: 7.3-23
 Depends: R (>= 3.0.0), stats, utils, R (>= 4.4), R (< 4.4.99)
@@ -5068,3 +5051,20 @@ Suggests: covr, farver, graphics, knitr, rmarkdown, testthat (>= 2.1.0)
 Imports: grid, jsonlite, lifecycle, tools, utils
 SystemRequirements: fontconfig, freetype2
 LinkingTo: cpp11 (>= 0.2.1)
+
+Package: pillar
+Version: 1.10.2
+Depends: R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: pillar_1.10.2_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/pillar/releases/download/1.10.2/pillar_1.10.2_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.3; ; 2025-04-05 23:26:20 UTC; unix
+Filesize: 659405
+SHA256: a456efd499d66b877d45f5e74ea51034fc9933f38aa07fda28fb4eac0a5e7903
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bit64, DBI, debugme, DiagrammeR, dplyr, formattable, ggplot2, knitr, lubridate, nanotime, nycflights13, palmerpenguins, rmarkdown, scales, stringi, survival, testthat (>= 3.1.1), tibble,
+        units (>= 0.7.2), vdiffr, withr
+Imports: cli (>= 2.3.0), glue, lifecycle, rlang (>= 1.0.2), utf8 (>= 1.1.0), utils, vctrs (>= 0.5.0)
