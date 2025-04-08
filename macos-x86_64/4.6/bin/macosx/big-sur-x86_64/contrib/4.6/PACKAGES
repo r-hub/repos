@@ -543,25 +543,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
 
-Package: later
-Version: 1.4.1
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp (>= 0.12.9), rlang
-Suggests: knitr, nanonext, R6, rmarkdown, testthat (>= 2.1.0)
-License: MIT + file LICENSE
-File: later_1.4.1_b1_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/later/releases/download/1.4.1/later_1.4.1_b1_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2025-03-16 18:18:02 UTC; unix
-Filesize: 151120
-SHA256: 3059717455950592de731ed3c1317cbe3b66589f7533b3547da8368548390878
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: lifecycle
 Version: 1.0.4
 Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
@@ -3914,27 +3895,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libxml2 (>= 2.6.3)
 
-Package: arrow
-Version: 19.0.1
-Depends: R (>= 4.0), R (>= 4.6), R (< 4.6.99)
-Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
-Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
-        tibble, tzdb, withr
-License: Apache License (>= 2.0)
-File: arrow_19.0.1_b1_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/arrow/releases/download/19.0.1/arrow_19.0.1_b1_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2025-03-16 19:08:39 UTC; unix
-Filesize: 19980231
-SHA256: 888d08b9b543cf0659e591d22568acf5b2af6c7e923a2bd12f21282861bdbe99
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
-LinkingTo: cpp11 (>= 0.4.2)
-
 Package: duckdb
 Version: 1.2.1
 Depends: DBI, R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
@@ -4441,22 +4401,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp (>= 0.12.12)
 
-Package: litedown
-Version: 0.6
-Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
-Imports: utils, commonmark (>= 1.9.1), xfun (>= 0.51)
-Suggests: rbibutils, rstudioapi, tinytex
-License: MIT + file LICENSE
-File: litedown_0.6_b1_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/litedown/releases/download/0.6/litedown_0.6_b1_R4.6_x86_64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-03-24 17:39:34 UTC; unix
-Filesize: 374585
-SHA256: dff276cc8ce247af9003a2fdd374576da1f09c12fa965491e07ac1882164e3f6
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: curl
 Version: 6.2.2
 Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
@@ -4853,6 +4797,62 @@ DownloadURL: https://github.com/cran/pillar/releases/download/1.10.2/pillar_1.10
 Built: R 4.6.0; ; 2025-04-05 17:34:51 UTC; unix
 Filesize: 656481
 SHA256: f457687d9a317cc1238db8f9a11104d98a7c81ff92432323fa678347b3826d28
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: later
+Version: 1.4.2
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp (>= 0.12.9), rlang
+Suggests: knitr, nanonext, R6, rmarkdown, testthat (>= 2.1.0)
+License: MIT + file LICENSE
+File: later_1.4.2_b2_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/later/releases/download/1.4.2/later_1.4.2_b2_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-04-08 17:42:13 UTC; unix
+Filesize: 151209
+SHA256: 44499171de4edb2f0605ed64af51f0535561df5a31937bcb3d085f8673788302
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: arrow
+Version: 19.0.1.1
+Depends: R (>= 4.0), R (>= 4.6), R (< 4.6.99)
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
+        tibble, tzdb, withr
+License: Apache License (>= 2.0)
+File: arrow_19.0.1.1_b2_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/arrow/releases/download/19.0.1.1/arrow_19.0.1.1_b2_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-04-08 17:42:46 UTC; unix
+Filesize: 19988236
+SHA256: 446df33d1074e7e5824b63464b7a89a5a03109870c2cf9eb340e83974f99e6a5
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
+LinkingTo: cpp11 (>= 0.4.2)
+
+Package: litedown
+Version: 0.7
+Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
+Imports: utils, commonmark (>= 1.9.5), xfun (>= 0.52)
+Suggests: rbibutils, rstudioapi, tinytex
+License: MIT + file LICENSE
+File: litedown_0.7_b2_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/litedown/releases/download/0.7/litedown_0.7_b2_R4.6_x86_64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-04-08 17:46:47 UTC; unix
+Filesize: 372906
+SHA256: 72492e0712a1594136c202647bea0111c26d30badc3f6198f34a2d522c264d70
 RVersion: 4.6
 Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
