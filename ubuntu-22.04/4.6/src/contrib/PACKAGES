@@ -525,25 +525,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: later
-Version: 1.4.1
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp (>= 0.12.9), rlang
-Suggests: knitr, nanonext, R6, rmarkdown, testthat (>= 2.1.0)
-License: MIT + file LICENSE
-File: later_1.4.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/later/releases/download/1.4.1/later_1.4.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:36:46 UTC; unix
-Filesize: 1338989
-SHA256: ae141c9379d0d818f816709624e7ac570d1f768b0e8266929703fe064045c16a
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: lifecycle
 Version: 1.0.4
 Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
@@ -3827,27 +3808,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libxml2 (>= 2.6.3)
 
-Package: arrow
-Version: 19.0.1
-Depends: R (>= 4.0), R (>= 4.6), R (< 4.6.99)
-Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
-Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
-        tibble, tzdb, withr
-License: Apache License (>= 2.0)
-File: arrow_19.0.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/arrow/releases/download/19.0.1/arrow_19.0.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:45:35 UTC; unix
-Filesize: 42971118
-SHA256: 5a6c068ebc4fe2e8b880d9b0540e7ff83e5f663807ad60571285e0023af4b4f7
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
-LinkingTo: cpp11 (>= 0.4.2)
-
 Package: duckdb
 Version: 1.2.1
 Depends: DBI, R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
@@ -4441,22 +4401,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp (>= 0.12.12)
 
-Package: litedown
-Version: 0.6
-Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
-Imports: utils, commonmark (>= 1.9.1), xfun (>= 0.51)
-Suggests: rbibutils, rstudioapi, tinytex
-License: MIT + file LICENSE
-File: litedown_0.6_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/litedown/releases/download/0.6/litedown_0.6_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.6.0; ; 2025-03-24 16:43:12 UTC; unix
-Filesize: 374010
-SHA256: 92747c138abec2b3dbc6b541d95520a5af008180e321ad1893ad749052e306fb
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: curl
 Version: 6.2.2
 Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
@@ -4873,6 +4817,62 @@ DownloadURL: https://github.com/cran/pillar/releases/download/1.10.2/pillar_1.10
 Built: R 4.6.0; ; 2025-04-05 16:38:07 UTC; unix
 Filesize: 660846
 SHA256: 758300e894affec03dc695f2e00ff11807094ec4b0b1256fa5c1335fa42cc8ba
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: later
+Version: 1.4.2
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp (>= 0.12.9), rlang
+Suggests: knitr, nanonext, R6, rmarkdown, testthat (>= 2.1.0)
+License: MIT + file LICENSE
+File: later_1.4.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/later/releases/download/1.4.2/later_1.4.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-04-08 16:42:40 UTC; unix
+Filesize: 1339030
+SHA256: 6433500eb6d71d604398cc9b2f263d4cc74a4f3a55abfe01196197e87e5696a0
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: arrow
+Version: 19.0.1.1
+Depends: R (>= 4.0), R (>= 4.6), R (< 4.6.99)
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
+        tibble, tzdb, withr
+License: Apache License (>= 2.0)
+File: arrow_19.0.1.1_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/arrow/releases/download/19.0.1.1/arrow_19.0.1.1_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-04-08 16:42:50 UTC; unix
+Filesize: 42976229
+SHA256: f671ff2e8c45037d5c28a449bf4614b1b8473c565cfcea4399279c3a4cde3399
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
+LinkingTo: cpp11 (>= 0.4.2)
+
+Package: litedown
+Version: 0.7
+Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
+Imports: utils, commonmark (>= 1.9.5), xfun (>= 0.52)
+Suggests: rbibutils, rstudioapi, tinytex
+License: MIT + file LICENSE
+File: litedown_0.7_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/litedown/releases/download/0.7/litedown_0.7_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.6.0; ; 2025-04-08 16:42:42 UTC; unix
+Filesize: 371759
+SHA256: b4f6cae65abc07a52842f85e16353065c2168fd450f27f71a87b282d9617eb66
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
