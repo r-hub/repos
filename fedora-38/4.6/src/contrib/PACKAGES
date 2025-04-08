@@ -525,25 +525,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: later
-Version: 1.4.1
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp (>= 0.12.9), rlang
-Suggests: knitr, nanonext, R6, rmarkdown, testthat (>= 2.1.0)
-License: MIT + file LICENSE
-File: later_1.4.1_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/later/releases/download/1.4.1/later_1.4.1_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:36:31 UTC; unix
-Filesize: 1324970
-SHA256: cb3c340bed7d71e9f8989039768a7e7656a9c3c3a4a4cc7df5108c8dcac1b201
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: lifecycle
 Version: 1.0.4
 Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
@@ -3827,27 +3808,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libxml2 (>= 2.6.3)
 
-Package: arrow
-Version: 19.0.1
-Depends: R (>= 4.0), R (>= 4.6), R (< 4.6.99)
-Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
-Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
-        tibble, tzdb, withr
-License: Apache License (>= 2.0)
-File: arrow_19.0.1_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/arrow/releases/download/19.0.1/arrow_19.0.1_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 09:12:19 UTC; unix
-Filesize: 189068402
-SHA256: ac559d12331b891bd4dc87173ade8320ad9efb9d185a5ebd350f010c93f12cc3
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
-LinkingTo: cpp11 (>= 0.4.2)
-
 Package: duckdb
 Version: 1.2.1
 Depends: DBI, R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
@@ -4441,22 +4401,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp (>= 0.12.12)
 
-Package: litedown
-Version: 0.6
-Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
-Imports: utils, commonmark (>= 1.9.1), xfun (>= 0.51)
-Suggests: rbibutils, rstudioapi, tinytex
-License: MIT + file LICENSE
-File: litedown_0.6_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/litedown/releases/download/0.6/litedown_0.6_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.6.0; ; 2025-03-24 17:17:43 UTC; unix
-Filesize: 387278
-SHA256: 89bde820bf8772847599a3f9e4d02ed98c3f0033cd5cb7e158de66a7e8c701f9
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: curl
 Version: 6.2.2
 Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
@@ -4873,6 +4817,62 @@ DownloadURL: https://github.com/cran/pillar/releases/download/1.10.2/pillar_1.10
 Built: R 4.6.0; ; 2025-04-05 17:14:18 UTC; unix
 Filesize: 671700
 SHA256: 2b9c8b1cdcc5f65394a7cd4a624b53384058ba3e74d902c5e17d3f0bde4e185d
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: later
+Version: 1.4.2
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp (>= 0.12.9), rlang
+Suggests: knitr, nanonext, R6, rmarkdown, testthat (>= 2.1.0)
+License: MIT + file LICENSE
+File: later_1.4.2_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/later/releases/download/1.4.2/later_1.4.2_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-04-08 17:17:08 UTC; unix
+Filesize: 1324778
+SHA256: 4798e9615e538347b08ca490495a91735f9e9cdefad1cb9ebfb618862716d943
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: arrow
+Version: 19.0.1.1
+Depends: R (>= 4.0), R (>= 4.6), R (< 4.6.99)
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
+        tibble, tzdb, withr
+License: Apache License (>= 2.0)
+File: arrow_19.0.1.1_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/arrow/releases/download/19.0.1.1/arrow_19.0.1.1_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-04-08 17:31:41 UTC; unix
+Filesize: 189054835
+SHA256: 6de05fadd4b422de643494b6ad06a4267d6a1e89778cdd7148ef397640d461fc
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
+LinkingTo: cpp11 (>= 0.4.2)
+
+Package: litedown
+Version: 0.7
+Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
+Imports: utils, commonmark (>= 1.9.5), xfun (>= 0.52)
+Suggests: rbibutils, rstudioapi, tinytex
+License: MIT + file LICENSE
+File: litedown_0.7_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/litedown/releases/download/0.7/litedown_0.7_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.6.0; ; 2025-04-08 17:17:10 UTC; unix
+Filesize: 384921
+SHA256: 67f92ebf795dfb697682848f203a68b1e48d5b0a8b7d1d3c036fffc9c0a90284
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
