@@ -525,25 +525,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: later
-Version: 1.4.1
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp (>= 0.12.9), rlang
-Suggests: knitr, nanonext, R6, rmarkdown, testthat (>= 2.1.0)
-License: MIT + file LICENSE
-File: later_1.4.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/later/releases/download/1.4.1/later_1.4.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 19:31:07 UTC; unix
-Filesize: 167914
-SHA256: 8047a2caa59b644d256a4d2f0151dc39f60ac9def22d03c0a50d193d16e48558
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: lifecycle
 Version: 1.0.4
 Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
@@ -3846,27 +3827,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libxml2 (>= 2.6.3)
 
-Package: arrow
-Version: 19.0.1
-Depends: R (>= 4.0), R (>= 4.6), R (< 4.6.99)
-Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
-Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
-        tibble, tzdb, withr
-License: Apache License (>= 2.0)
-File: arrow_19.0.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/arrow/releases/download/19.0.1/arrow_19.0.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 20:07:04 UTC; unix
-Filesize: 16106589
-SHA256: 6f9fbfd33e3374800ff40b55aa52f744aa5b3797b9b3cb4bf65d771d4f1e2404
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
-LinkingTo: cpp11 (>= 0.4.2)
-
 Package: duckdb
 Version: 1.2.1
 Depends: DBI, R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
@@ -4130,22 +4090,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp (>= 0.12.12)
-
-Package: litedown
-Version: 0.6
-Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
-Imports: utils, commonmark (>= 1.9.1), xfun (>= 0.51)
-Suggests: rbibutils, rstudioapi, tinytex
-License: MIT + file LICENSE
-File: litedown_0.6_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/litedown/releases/download/0.6/litedown_0.6_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.6.0; ; 2025-03-24 16:59:11 UTC; unix
-Filesize: 373620
-SHA256: 13b71c7867f25877228a595294afeb4d056905de7b13512ef993ecba5c3ac3e3
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: curl
 Version: 6.2.2
@@ -4545,6 +4489,62 @@ DownloadURL: https://github.com/cran/pillar/releases/download/1.10.2/pillar_1.10
 Built: R 4.6.0; ; 2025-04-05 16:59:28 UTC; unix
 Filesize: 654741
 SHA256: e84de8737589220f8f41f4cad3f27d1cc171d051597ce689bbaccf9a2cbee7f8
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: later
+Version: 1.4.2
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp (>= 0.12.9), rlang
+Suggests: knitr, nanonext, R6, rmarkdown, testthat (>= 2.1.0)
+License: MIT + file LICENSE
+File: later_1.4.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/later/releases/download/1.4.2/later_1.4.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-04-08 16:59:12 UTC; unix
+Filesize: 168146
+SHA256: ad5b9c888d17546db28c80e44a3d2f69b8ee19054b62e36e008104012be4593a
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: arrow
+Version: 19.0.1.1
+Depends: R (>= 4.0), R (>= 4.6), R (< 4.6.99)
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
+        tibble, tzdb, withr
+License: Apache License (>= 2.0)
+File: arrow_19.0.1.1_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/arrow/releases/download/19.0.1.1/arrow_19.0.1.1_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-04-08 17:13:06 UTC; unix
+Filesize: 16207240
+SHA256: 6d882f74d95c5674104abe62f14345319455e83666b0c9f7ddbb2479143a3bcf
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
+LinkingTo: cpp11 (>= 0.4.2)
+
+Package: litedown
+Version: 0.7
+Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
+Imports: utils, commonmark (>= 1.9.5), xfun (>= 0.52)
+Suggests: rbibutils, rstudioapi, tinytex
+License: MIT + file LICENSE
+File: litedown_0.7_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/litedown/releases/download/0.7/litedown_0.7_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.6.0; ; 2025-04-08 16:59:15 UTC; unix
+Filesize: 371331
+SHA256: 99436d0e1810ca19577cac1319e42ef094e6d0d631a13934db3fe6d564daa8fa
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
