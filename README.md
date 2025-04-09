@@ -14,6 +14,42 @@ with `install.packages()`, only with pak.
 * [macOS 11 Big Sur or later, arm64 + R-devel](#macos-11-big-sur-or-later-arm64--r-devel-macos-arm64-r46)
 * [Ubuntu 22.04 + R 4.1 on s390x](#ubuntu-2204--r-41-on-s390x-ubuntu-2204-s390x-r41)
 
+<details><summary>Retired repositories</summary>
+These are not updated any more, no new packages are added to them,
+but existing builds are still functional.
+
+- Fedora 36 + R 4.4 (last update: 2024-03-19)
+  `https://raw.githubusercontent.com/r-hub/repos/main/fedora-36/4.4`
+- Fedora 38 + R 4.4 (last update: 2024-03-27)
+  `https://raw.githubusercontent.com/r-hub/repos/main/fedora-38/4.4`
+- Fedora 38 + R 4.5 (last update: 2025-03-15)
+  `https://raw.githubusercontent.com/r-hub/repos/main/fedora-38/4.5`
+- Fedora 40 + R 4.5 (last update: 2025-03-15)
+  `https://raw.githubusercontent.com/r-hub/repos/main/fedora-40/4.5`
+- Ubuntu 22.04 + R 4.3 on aarch64 (last update: 2024-03-20)
+  `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04-aarch64/4.3`
+- Ubuntu 22.04 + R 4.1 on s390x (last update: 2025-03-15)
+  `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04-s390x/4.1`
+- Ubuntu 22.04 + R 4.4 on x86_64 (last update: 2024-03-27)
+  `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04/4.4`
+- Ubuntu 22.04 + R 4.5 on x86_64 (last update: 2025-03-15)
+  `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04/4.5`
+- Ubuntu 24.04 + R 4.5 on x86_64 (last update: 2025-03-15)
+  `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-24.04/4.5`
+- Ubuntu 22.04 + R 4.4 + libc++ on x86_64 (last update: 2024-03-27)
+  `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04/libc++/4.4`
+- Ubuntu 22.04 + R 4.5 + libc++ on x86_64 (last update: 2025-03-15)
+  `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04/libc++/4.5`
+- macOS 11 Big Sur or later, arm64 + R 4.4 (last update: 2024-03-27)
+  `https://raw.githubusercontent.com/r-hub/repos/main/macos-arm64/4.4`
+- macOS 11 Big Sur or later, arm64 + R 4.5 (last update: 2025-03-15)
+  `https://raw.githubusercontent.com/r-hub/repos/main/macos-arm64/4.5`
+- macOS 11 Big Sur or later, x86_64 + R 4.4 (last update: 2024-03-27)
+  `https://raw.githubusercontent.com/r-hub/repos/main/macos-x86_64/4.4`
+- macOS 11 Big Sur or later, x86_64 + R 4.5 (last update: 2025-03-15)
+  `https://raw.githubusercontent.com/r-hub/repos/main/macos-x86_64/4.5`
+</details>
+
 ## Can use PPPM:
 
 * [x] `ubuntu-next` (CRAN's `r-patched-linux-x86_64`)
