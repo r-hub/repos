@@ -932,24 +932,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, pkgload, testthat (>= 3.0.0), tibble, withr
 Imports: methods
 
-Package: ggplot2
-Version: 3.5.1
-Depends: R (>= 3.5), R (>= 4.4), R (< 4.4.99)
-License: MIT + file LICENSE
-File: ggplot2_3.5.1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/ggplot2/releases/download/3.5.1/ggplot2_3.5.1_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.4.1; ; 2024-07-20 15:11:55 UTC; unix
-Filesize: 5004839
-SHA256: dcb09e8ef53c856831b7445dcda74922a32c8fe443b3425d68c08c000eee6121
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: sp
-Suggests: covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, mapproj, maps, multcomp, munsell, nlme, profvis, quantreg, ragg (>= 1.2.6), RColorBrewer, rmarkdown, rpart, sf (>= 0.7-3), svglite (>=
-        2.1.2), testthat (>= 3.1.2), vdiffr (>= 1.0.6), xml2
-Imports: cli, glue, grDevices, grid, gtable (>= 0.1.1), isoband, lifecycle (> 1.0.1), MASS, mgcv, rlang (>= 1.1.0), scales (>= 1.3.0), stats, tibble, vctrs (>= 0.6.0), withr (>= 2.5.0)
-
 Package: globals
 Version: 0.16.3
 Depends: R (>= 3.1.2), R (>= 4.4), R (< 4.4.99)
@@ -3781,22 +3763,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: Rcpp, RUnit, knitr, rmarkdown
 SystemRequirements: GNU make, Intel TBB, Windows: cmd.exe and cscript.exe, Solaris: g++ is required
 
-Package: doBy
-Version: 4.6.25
-Depends: R (>= 4.2.0), methods, R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2)
-File: doBy_4.6.25_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/doBy/releases/download/4.6.25/doBy_4.6.25_b3_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.4.2; ; 2025-01-30 23:25:09 UTC; unix
-Filesize: 4849317
-SHA256: f36933194b37b2b0e9e1999c4f641d1802a315bb97e11c7d16a4c18e0ab9416f
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: geepack, knitr, lme4, markdown, multcomp, pbkrtest (>= 0.5.2), survival, testthat (>= 2.1.0)
-Imports: boot, broom, cowplot, Deriv, dplyr, ggplot2, MASS, Matrix, modelr, microbenchmark, rlang, tibble, tidyr,
-
 Package: hardhat
 Version: 1.4.1
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
@@ -4413,22 +4379,6 @@ Suggests: bslib, codetools, DBI (>= 0.4-1), digest, formatR, gifski, gridSVG, ht
         rgl (>= 0.95.1201), rlang, rmarkdown, sass, showtext, styler (>= 1.2.0), targets (>= 0.6.0), testit, tibble, tikzDevice (>= 0.10), tinytex (>= 0.56), webshot, rstudioapi, svglite
 Imports: evaluate (>= 0.15), highr (>= 0.11), methods, tools, xfun (>= 0.51), yaml (>= 2.1.19)
 SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
-
-Package: Rdpack
-Version: 2.6.3
-Depends: R (>= 2.15.0), methods, R (>= 4.4), R (< 4.4.99)
-License: GPL (>= 2)
-File: Rdpack_2.6.3_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/Rdpack/releases/download/2.6.3/Rdpack_2.6.3_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.4.3; ; 2025-03-16 23:27:04 UTC; unix
-Filesize: 637827
-SHA256: ba7f3322d66766dc06e326e6a181bb74c78a2d621c59de6a9d210344324de9fb
-RVersion: 4.4
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Suggests: grDevices, testthat, rstudioapi, rprojroot, gbRd
-Imports: tools, utils, rbibutils (>= 1.3)
 
 Package: Hmisc
 Version: 5.2-3
@@ -5068,3 +5018,90 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: rbibutils, rstudioapi, tinytex
 Imports: utils, commonmark (>= 1.9.5), xfun (>= 0.52)
+
+Package: lattice
+Version: 0.22-7
+Depends: R (>= 4.0.0), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: lattice_0.22-7_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/lattice/releases/download/0.22-7/lattice_0.22-7_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.3; aarch64-unknown-linux-gnu; 2025-04-09 23:25:40 UTC; unix
+Filesize: 1392462
+SHA256: 92309ebcf0230e2ab89bdf4f6a28801c243bb2dcebb0ae2539717e5cc9dbbab5
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: chron, zoo
+Suggests: KernSmooth, MASS, latticeExtra, colorspace
+Imports: grid, grDevices, graphics, stats, utils
+
+Package: mgcv
+Version: 1.9-3
+Depends: R (>= 3.6.0), nlme (>= 3.1-64), R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: mgcv_1.9-3_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/mgcv/releases/download/1.9-3/mgcv_1.9-3_b1_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.4.3; aarch64-unknown-linux-gnu; 2025-04-09 23:25:47 UTC; unix
+Filesize: 3869744
+SHA256: 0a4e351b23e24ab1c3a3357552d92a1cdd2b9bdb03a835f68804d28c90899dfe
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: parallel, survival, MASS
+Imports: methods, stats, graphics, Matrix, splines, utils
+
+Package: ggplot2
+Version: 3.5.2
+Depends: R (>= 3.5), R (>= 4.4), R (< 4.4.99)
+License: MIT + file LICENSE
+File: ggplot2_3.5.2_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/ggplot2/releases/download/3.5.2/ggplot2_3.5.2_b2_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.3; ; 2025-04-09 23:26:25 UTC; unix
+Filesize: 5000382
+SHA256: 22828de59895662b1c62a99a54177ceced8d895b253ce7dd132c7dc0ec8ee7b0
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: sp
+Suggests: covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, mapproj, maps, multcomp, munsell, nlme, profvis, quantreg, ragg (>= 1.2.6), RColorBrewer, rmarkdown, rpart, sf (>= 0.7-3), svglite (>=
+        2.1.2), testthat (>= 3.1.2), vdiffr (>= 1.0.6), xml2
+Imports: cli, glue, grDevices, grid, gtable (>= 0.1.1), isoband, lifecycle (> 1.0.1), MASS, mgcv, rlang (>= 1.1.0), scales (>= 1.3.0), stats, tibble, vctrs (>= 0.6.0), withr (>= 2.5.0)
+
+Package: doBy
+Version: 4.6.26
+Depends: R (>= 4.2.0), methods, R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: doBy_4.6.26_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/doBy/releases/download/4.6.26/doBy_4.6.26_b4_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.3; ; 2025-04-09 23:26:35 UTC; unix
+Filesize: 4883409
+SHA256: bccdfeb1dc4aac4df2bdea02cea940e34801fa6834bad199b447118f8067df53
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: geepack, knitr, lme4, markdown, multcomp, pbkrtest (>= 0.5.2), survival, testthat (>= 2.1.0)
+Imports: boot, broom, cowplot, Deriv, dplyr, ggplot2, MASS, Matrix, modelr, microbenchmark, rlang, tibble, tidyr,
+
+Package: Rdpack
+Version: 2.6.4
+Depends: R (>= 2.15.0), methods, R (>= 4.4), R (< 4.4.99)
+License: GPL (>= 2)
+File: Rdpack_2.6.4_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/Rdpack/releases/download/2.6.4/Rdpack_2.6.4_b5_R4.4_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.4.3; ; 2025-04-09 23:25:42 UTC; unix
+Filesize: 637597
+SHA256: 04d450355ce58bd375ec8f4c479e1cf9e4d6f6b902ea9b5d3dcba11de48c03d5
+RVersion: 4.4
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: grDevices, testthat, rstudioapi, rprojroot, gbRd
+Imports: tools, utils, rbibutils (>= 1.3)
