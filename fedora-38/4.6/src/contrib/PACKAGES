@@ -1615,24 +1615,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: ggplot2
-Version: 3.5.1
-Depends: R (>= 3.5), R (>= 4.6), R (< 4.6.99)
-Imports: cli, glue, grDevices, grid, gtable (>= 0.1.1), isoband, lifecycle (> 1.0.1), MASS, mgcv, rlang (>= 1.1.0), scales (>= 1.3.0), stats, tibble, vctrs (>= 0.6.0), withr (>= 2.5.0)
-Suggests: covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, mapproj, maps, multcomp, munsell, nlme, profvis, quantreg, ragg (>= 1.2.6), RColorBrewer, rmarkdown, rpart, sf (>= 0.7-3), svglite (>=
-        2.1.2), testthat (>= 3.1.2), vdiffr (>= 1.0.6), xml2
-License: MIT + file LICENSE
-File: ggplot2_3.5.1_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/ggplot2/releases/download/3.5.1/ggplot2_3.5.1_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:42:29 UTC; unix
-Filesize: 5174403
-SHA256: e58a06602208c69c6ce8e5327c520361e9ff837b09405e14ca12dce358256c1d
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: sp
-
 Package: globals
 Version: 0.16.3
 Depends: R (>= 3.1.2), R (>= 4.6), R (< 4.6.99)
@@ -3096,22 +3078,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: doBy
-Version: 4.6.25
-Depends: R (>= 4.2.0), methods, R (>= 4.6), R (< 4.6.99)
-Imports: boot, broom, cowplot, Deriv, dplyr, ggplot2, MASS, Matrix, modelr, microbenchmark, rlang, tibble, tidyr,
-Suggests: geepack, knitr, lme4, markdown, multcomp, pbkrtest (>= 0.5.2), survival, testthat (>= 2.1.0)
-License: GPL (>= 2)
-File: doBy_4.6.25_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/doBy/releases/download/4.6.25/doBy_4.6.25_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:47:39 UTC; unix
-Filesize: 4872068
-SHA256: 28cea67c8cfe327d34511e0320d84e6659b7d95332a1d28a4ec4edf583d359eb
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: microbenchmark
 Version: 1.5.0
 Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
@@ -4277,22 +4243,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: Rdpack
-Version: 2.6.3
-Depends: R (>= 2.15.0), methods, R (>= 4.6), R (< 4.6.99)
-Imports: tools, utils, rbibutils (>= 1.3)
-Suggests: grDevices, testthat, rstudioapi, rprojroot, gbRd
-License: GPL (>= 2)
-File: Rdpack_2.6.3_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/Rdpack/releases/download/2.6.3/Rdpack_2.6.3_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.6.0; ; 2025-03-16 17:15:06 UTC; unix
-Filesize: 692628
-SHA256: 502be7fe457d7cfb0c8983ac465a9525c0c7bd809ee5929e71e00170331ea39b
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: commonmark
 Version: 1.9.5
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4873,6 +4823,56 @@ DownloadURL: https://github.com/cran/litedown/releases/download/0.7/litedown_0.7
 Built: R 4.6.0; ; 2025-04-08 17:17:10 UTC; unix
 Filesize: 384921
 SHA256: 67f92ebf795dfb697682848f203a68b1e48d5b0a8b7d1d3c036fffc9c0a90284
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: ggplot2
+Version: 3.5.2
+Depends: R (>= 3.5), R (>= 4.6), R (< 4.6.99)
+Imports: cli, glue, grDevices, grid, gtable (>= 0.1.1), isoband, lifecycle (> 1.0.1), MASS, mgcv, rlang (>= 1.1.0), scales (>= 1.3.0), stats, tibble, vctrs (>= 0.6.0), withr (>= 2.5.0)
+Suggests: covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, mapproj, maps, multcomp, munsell, nlme, profvis, quantreg, ragg (>= 1.2.6), RColorBrewer, rmarkdown, rpart, sf (>= 0.7-3), svglite (>=
+        2.1.2), testthat (>= 3.1.2), vdiffr (>= 1.0.6), xml2
+License: MIT + file LICENSE
+File: ggplot2_3.5.2_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/ggplot2/releases/download/3.5.2/ggplot2_3.5.2_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.6.0; ; 2025-04-09 17:16:50 UTC; unix
+Filesize: 5167356
+SHA256: 404a924791e42ed4d32243c040fe1f34bc1d3b0ed68dba69680dde461108c9c3
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: sp
+
+Package: doBy
+Version: 4.6.26
+Depends: R (>= 4.2.0), methods, R (>= 4.6), R (< 4.6.99)
+Imports: boot, broom, cowplot, Deriv, dplyr, ggplot2, MASS, Matrix, modelr, microbenchmark, rlang, tibble, tidyr,
+Suggests: geepack, knitr, lme4, markdown, multcomp, pbkrtest (>= 0.5.2), survival, testthat (>= 2.1.0)
+License: GPL (>= 2)
+File: doBy_4.6.26_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/doBy/releases/download/4.6.26/doBy_4.6.26_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.6.0; ; 2025-04-09 17:17:08 UTC; unix
+Filesize: 4903989
+SHA256: c08732a76df4646a871f34142b972b41119ee65f8538055ed0b64c0325e1ecfc
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: Rdpack
+Version: 2.6.4
+Depends: R (>= 2.15.0), methods, R (>= 4.6), R (< 4.6.99)
+Imports: tools, utils, rbibutils (>= 1.3)
+Suggests: grDevices, testthat, rstudioapi, rprojroot, gbRd
+License: GPL (>= 2)
+File: Rdpack_2.6.4_b3_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/Rdpack/releases/download/2.6.4/Rdpack_2.6.4_b3_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.6.0; ; 2025-04-09 17:16:53 UTC; unix
+Filesize: 692841
+SHA256: 0c2d05e6dd3d795e2517a3a10c70a701c4482f34c1c9c62f7373bed3ee2d47fd
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
