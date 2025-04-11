@@ -845,25 +845,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Subversion for install_svn, git for install_git
 
-Package: rlang
-Version: 1.1.5
-Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
-Imports: utils
-Suggests: cli (>= 3.1.0), covr, crayon, fs, glue, knitr, magrittr, methods, pillar, rmarkdown, stats, testthat (>= 3.0.0), tibble, usethis, vctrs (>= 0.2.3), withr
-License: MIT + file LICENSE
-File: rlang_1.1.5_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/rlang/releases/download/1.1.5/rlang_1.1.5_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:28:35 UTC; unix
-Filesize: 2065668
-SHA256: 8be44ab5f6077366859112989c202d0af355544e0e65a0063f295be957ded71d
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: winch
-
 Package: rmarkdown
 Version: 2.29
 Depends: R (>= 3.0), R (>= 4.6), R (< 4.6.99)
@@ -4877,3 +4858,22 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
+
+Package: rlang
+Version: 1.1.6
+Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
+Imports: utils
+Suggests: cli (>= 3.1.0), covr, crayon, desc, fs, glue, knitr, magrittr, methods, pillar, pkgload, rmarkdown, stats, testthat (>= 3.2.0), tibble, usethis, vctrs (>= 0.2.3), withr
+License: MIT + file LICENSE
+File: rlang_1.1.6_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/rlang/releases/download/1.1.6/rlang_1.1.6_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-04-11 16:41:56 UTC; unix
+Filesize: 2061256
+SHA256: 6e02c8f08808ef288e94692cac4cdeaf28348da3c7b2aab43d84cb3e4cea293c
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: winch
