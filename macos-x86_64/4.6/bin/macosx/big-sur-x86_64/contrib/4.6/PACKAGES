@@ -863,25 +863,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Subversion for install_svn, git for install_git
 
-Package: rlang
-Version: 1.1.5
-Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
-Imports: utils
-Suggests: cli (>= 3.1.0), covr, crayon, fs, glue, knitr, magrittr, methods, pillar, rmarkdown, stats, testthat (>= 3.0.0), tibble, usethis, vctrs (>= 0.2.3), withr
-License: MIT + file LICENSE
-File: rlang_1.1.5_b1_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/rlang/releases/download/1.1.5/rlang_1.1.5_b1_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2025-03-16 17:54:50 UTC; unix
-Filesize: 1616066
-SHA256: 6959b0ef54e8c7f1fbf8ba95c01f2d85d3e89169e9e6ba5dcf70d9a13e30557b
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: winch
-
 Package: rmarkdown
 Version: 2.29
 Depends: R (>= 3.0), R (>= 4.6), R (< 4.6.99)
@@ -4857,3 +4838,22 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
+
+Package: rlang
+Version: 1.1.6
+Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
+Imports: utils
+Suggests: cli (>= 3.1.0), covr, crayon, desc, fs, glue, knitr, magrittr, methods, pillar, pkgload, rmarkdown, stats, testthat (>= 3.2.0), tibble, usethis, vctrs (>= 0.2.3), withr
+License: MIT + file LICENSE
+File: rlang_1.1.6_b2_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/rlang/releases/download/1.1.6/rlang_1.1.6_b2_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-04-11 17:34:39 UTC; unix
+Filesize: 1616354
+SHA256: a6134b569be9378557a16b5f20bfb4e2cb02229d6131f20897f1b9a337743f17
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: winch
