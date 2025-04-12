@@ -334,25 +334,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: fs
-Version: 1.6.5
-Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
-Imports: methods
-Suggests: covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr
-License: MIT + file LICENSE
-File: fs_1.6.5_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/fs/releases/download/1.6.5/fs_1.6.5_b1_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-03-16 17:55:18 UTC; unix
-Filesize: 309798
-SHA256: 5eefd3925813c39dd6af73ce039a832d52117a75786e16f635562813da3e68e6
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make
-
 Package: gh
 Version: 1.4.1
 Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
@@ -689,24 +670,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: later, Rcpp
 
-Package: ps
-Version: 1.9.0
-Depends: R (>= 3.4), R (>= 4.6), R (< 4.6.99)
-Imports: utils
-Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes, withr
-License: MIT + file LICENSE
-File: ps_1.9.0_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/ps/releases/download/1.9.0/ps_1.9.0_b1_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-03-16 17:53:40 UTC; unix
-Filesize: 409844
-SHA256: fbecef7da8de7fc79e07e6ea53982f948fa6ba10a815e8c66a52a22cfe47a944
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: purrr
 Version: 1.0.4
 Depends: R (>= 4.0), R (>= 4.6), R (< 4.6.99)
@@ -891,25 +854,6 @@ RVersion: 4.6
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: sass
-Version: 0.4.9
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: fs (>= 1.2.4), rlang (>= 0.4.10), htmltools (>= 0.5.1), R6, rappdirs
-Suggests: testthat, knitr, rmarkdown, withr, shiny, curl
-License: MIT + file LICENSE
-File: sass_0.4.9_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/sass/releases/download/0.4.9/sass_0.4.9_b1_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-03-16 18:28:21 UTC; unix
-Filesize: 2323640
-SHA256: ef768e35735b8d5d94fee703dbf6864b2330808c0014e7f9b21b6d63705299bf
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make
 
 Package: sessioninfo
 Version: 1.2.3
@@ -1549,22 +1493,6 @@ Arch: arm64
 Built: R 4.6.0; aarch64-apple-darwin20; 2025-03-16 17:57:15 UTC; unix
 Filesize: 206353
 SHA256: ba0538744cca3f21643f5caa97119d85cb379e76fc13239bdd55f509fa78494f
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: GPfit
-Version: 1.0-8
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: lhs (>= 0.5), lattice (>= 0.18-8)
-Suggests: testthat
-License: GPL-2
-File: GPfit_1.0-8_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/GPfit/releases/download/1.0-8/GPfit_1.0-8_b1_R4.6_aarch64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-03-16 18:07:25 UTC; unix
-Filesize: 77854
-SHA256: df6853a9b37d44fc113e76dcaf7c807af3625d8fafa1eae1cab4fee682b9825e
 RVersion: 4.6
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
@@ -4738,3 +4666,75 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: winch
+
+Package: fs
+Version: 1.6.6
+Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
+Imports: methods
+Suggests: covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr
+License: MIT + file LICENSE
+File: fs_1.6.6_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/fs/releases/download/1.6.6/fs_1.6.6_b2_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-04-12 17:37:38 UTC; unix
+Filesize: 309819
+SHA256: 8ca667a209caa348eccffa93f51a31b8014c3d89981571f2bda124c33228bc71
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make
+
+Package: ps
+Version: 1.9.1
+Depends: R (>= 3.4), R (>= 4.6), R (< 4.6.99)
+Imports: utils
+Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes, withr
+License: MIT + file LICENSE
+File: ps_1.9.1_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/ps/releases/download/1.9.1/ps_1.9.1_b2_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-04-12 17:37:12 UTC; unix
+Filesize: 410349
+SHA256: 600bf047b215455ba2e43e0b7a297424f04a67e2d1a3b6dce50d49bbf82a5032
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: sass
+Version: 0.4.10
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: fs (>= 1.2.4), rlang (>= 0.4.10), htmltools (>= 0.5.1), R6, rappdirs
+Suggests: testthat, knitr, rmarkdown, withr, shiny, curl
+License: MIT + file LICENSE
+File: sass_0.4.10_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/sass/releases/download/0.4.10/sass_0.4.10_b2_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-04-12 17:37:56 UTC; unix
+Filesize: 2324294
+SHA256: 34883b26b350a6ded401035d53f12e0da30c3ec0e3afdbd3d0795d4f4e2cefd3
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make
+
+Package: GPfit
+Version: 1.0-9
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: lhs (>= 0.5), lattice (>= 0.18-8)
+Suggests: testthat
+License: GPL-2
+File: GPfit_1.0-9_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/GPfit/releases/download/1.0-9/GPfit_1.0-9_b2_R4.6_aarch64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-04-12 17:38:43 UTC; unix
+Filesize: 78127
+SHA256: d582d1219b18f14139aab02391865cb94695daa496ad4255e0914b85bfdbe7e2
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
