@@ -28,18 +28,20 @@ but existing builds are still functional.
   `https://raw.githubusercontent.com/r-hub/repos/main/fedora-40/4.5`
 - Ubuntu 22.04 + R 4.3 on aarch64 (last update: 2024-03-20)\
   `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04-aarch64/4.3`
+- Ubuntu 22.04 + R 4.4 on aarch64 (last update: 2024-04-14)\
+  `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04-aarch64/4.4`
 - Ubuntu 22.04 + R 4.1 on s390x (last update: 2025-03-15)\
   `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04-s390x/4.1`
 - Ubuntu 22.04 + R 4.4 on x86_64 (last update: 2024-03-27)\
   `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04/4.4`
 - Ubuntu 22.04 + R 4.5 on x86_64 (last update: 2025-03-15)\
   `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04/4.5`
-- Ubuntu 24.04 + R 4.5 on x86_64 (last update: 2025-03-15)\
-  `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-24.04/4.5`
 - Ubuntu 22.04 + R 4.4 + libc++ on x86_64 (last update: 2024-03-27)\
   `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04/libc++/4.4`
 - Ubuntu 22.04 + R 4.5 + libc++ on x86_64 (last update: 2025-03-15)\
   `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04/libc++/4.5`
+- Ubuntu 24.04 + R 4.4 on aarch64 (last update: 2024-04-14)\
+  `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-24.04-aarch64/4.4`
 - macOS 11 Big Sur or later, arm64 + R 4.4 (last update: 2024-03-27)\
   `https://raw.githubusercontent.com/r-hub/repos/main/macos-arm64/4.4`
 - macOS 11 Big Sur or later, arm64 + R 4.5 (last update: 2025-03-15)\
