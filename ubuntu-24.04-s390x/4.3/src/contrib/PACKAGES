@@ -1306,22 +1306,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: A system with zoneinfo data (e.g.  /usr/share/zoneinfo) as well as a recent-enough C++11 compiler (such as g++-4.8 or later). On Windows the zoneinfo included with R is used.
 LinkingTo: cpp11 (>= 0.2.7)
 
-Package: tinytex
-Version: 0.56
-Depends: R (>= 4.3), R (< 4.3.99)
-Suggests: testit, rstudioapi
-License: MIT + file LICENSE
-File: tinytex_0.56_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/tinytex/releases/download/0.56/tinytex_0.56_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.3.3; ; 2025-03-15 11:46:13 UTC; unix
-Filesize: 142405
-SHA256: e64a6d253f393a30e5e254dca109b166da779d627d5aa7e995d5a166861b0fbf
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: xfun (>= 0.48)
-
 Package: utf8
 Version: 1.2.4
 Depends: R (>= 2.10), R (>= 4.3), R (< 4.3.99)
@@ -2074,3 +2058,19 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: fs (>= 1.2.4), rlang (>= 0.4.10), htmltools (>= 0.5.1), R6, rappdirs
 SystemRequirements: GNU make
+
+Package: tinytex
+Version: 0.57
+Depends: R (>= 4.3), R (< 4.3.99)
+Suggests: testit, rstudioapi
+License: MIT + file LICENSE
+File: tinytex_0.57_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/tinytex/releases/download/0.57/tinytex_0.57_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.3.3; ; 2025-04-16 14:46:27 UTC; unix
+Filesize: 142419
+SHA256: 1b2e1612d9ba767102a26022be46086c00db1f122293f9cf81eefe90a83fd7a8
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: xfun (>= 0.48)
