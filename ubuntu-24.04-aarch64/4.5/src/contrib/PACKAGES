@@ -1143,25 +1143,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: pkgdown
-Version: 2.1.1
-Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
-Imports: bslib (>= 0.5.1), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.0), digest, downlit (>= 0.4.4), fontawesome, fs (>= 1.4.0), httr2 (>= 1.0.2), jsonlite, openssl, purrr (>= 1.0.0), ragg,
-        rlang (>= 1.1.0), rmarkdown (>= 2.27), tibble, whisker, withr (>= 2.4.3), xml2 (>= 1.3.1), yaml
-Suggests: covr, diffviewer, evaluate (>= 0.24.0), gert, gt, htmltools, htmlwidgets, knitr, lifecycle, magick, methods, pkgload (>= 1.0.2), quarto, rsconnect, rstudioapi, rticles, sass, testthat (>=
-        3.1.3), tools
-License: MIT + file LICENSE
-File: pkgdown_2.1.1_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/pkgdown/releases/download/2.1.1/pkgdown_2.1.1_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.5.0; ; 2025-03-16 09:19:48 UTC; unix
-Filesize: 906143
-SHA256: cf9f08c64c34ecd4453862bd148e533ad106b8ce9e121101eb4548a91a0530e9
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc
-
 Package: shiny
 Version: 1.10.0
 Depends: R (>= 3.0.2), methods, R (>= 4.5), R (< 4.5.99)
@@ -1696,24 +1677,6 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: prodlim
-Version: 2024.06.25
-Depends: R (>= 2.9.0), R (>= 4.5), R (< 4.5.99)
-Imports: Rcpp (>= 0.11.5), stats, data.table, grDevices, graphics, diagram, survival, KernSmooth, lava
-License: GPL (>= 2)
-File: prodlim_2024.06.25_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/prodlim/releases/download/2024.06.25/prodlim_2024.06.25_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-16 09:18:31 UTC; unix
-Filesize: 445383
-SHA256: 2f62e3fb9b62a00cb8ab43d85daa1a8cd3dbf6627aa85e2a2eb6081010de4b51
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
 
 Package: progressr
 Version: 0.15.1
@@ -2852,22 +2815,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make
 LinkingTo: Rcpp
-
-Package: pbkrtest
-Version: 0.5.3
-Depends: R (>= 4.2.0), lme4 (>= 1.1.31), R (>= 4.5), R (< 4.5.99)
-Imports: broom, dplyr, MASS, methods, numDeriv, Matrix (>= 1.2.3), doBy
-Suggests: markdown, knitr
-License: GPL (>= 2)
-File: pbkrtest_0.5.3_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/pbkrtest/releases/download/0.5.3/pbkrtest_0.5.3_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.5.0; ; 2025-03-16 09:25:13 UTC; unix
-Filesize: 178495
-SHA256: 720c8ee022420510edab68b937632c5d9aa13298f9e60c6d233c401ee2c16237
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: quantreg
 Version: 6.1
@@ -4914,3 +4861,57 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
+
+Package: pkgdown
+Version: 2.1.2
+Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
+Imports: bslib (>= 0.5.1), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.0), downlit (>= 0.4.4), fontawesome, fs (>= 1.4.0), httr2 (>= 1.0.2), jsonlite, openssl, purrr (>= 1.0.0), ragg (>= 1.4.0),
+        rlang (>= 1.1.4), rmarkdown (>= 2.27), tibble, whisker, withr (>= 2.4.3), xml2 (>= 1.3.1), yaml
+Suggests: covr, diffviewer, evaluate (>= 0.24.0), gert, gt, htmltools, htmlwidgets, knitr (>= 1.50), lifecycle, magick, methods, pkgload (>= 1.0.2), quarto, rsconnect, rstudioapi, rticles, sass,
+        testthat (>= 3.1.3), tools
+License: MIT + file LICENSE
+File: pkgdown_2.1.2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/pkgdown/releases/download/2.1.2/pkgdown_2.1.2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.5.0; ; 2025-04-28 23:20:52 UTC; unix
+Filesize: 912114
+SHA256: 4e4268d69aba4a3d208f567727e3d0c2d3553ef555cc8b1aab005af1041d1167
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc
+
+Package: prodlim
+Version: 2025.04.28
+Depends: R (>= 4.1.0), R (>= 4.5), R (< 4.5.99)
+Imports: Rcpp (>= 0.11.5), stats, rlang, data.table, grDevices, ggplot2, graphics, diagram, survival, KernSmooth, lava
+Suggests: tibble, pammtools, ggthemes
+License: GPL (>= 2)
+File: prodlim_2025.04.28_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/prodlim/releases/download/2025.04.28/prodlim_2025.04.28_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-04-28 23:20:53 UTC; unix
+Filesize: 468050
+SHA256: 59e568e058180c149d6d4262d3dc1c4ccea74b3395905630f05b987ced34b454
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: pbkrtest
+Version: 0.5.4
+Depends: R (>= 4.2.0), lme4 (>= 1.1.31), R (>= 4.5), R (< 4.5.99)
+Imports: broom, dplyr, MASS, methods, numDeriv, Matrix (>= 1.2.3), doBy (>= 4.6.22)
+Suggests: markdown, knitr
+License: GPL (>= 2)
+File: pbkrtest_0.5.4_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/pbkrtest/releases/download/0.5.4/pbkrtest_0.5.4_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.5.0; ; 2025-04-28 23:20:55 UTC; unix
+Filesize: 223835
+SHA256: 89f1daea391df8e4887b61fd917cfe39c20773fba5df29f3d1da37b2b1548dbb
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
