@@ -1142,25 +1142,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: pkgdown
-Version: 2.1.1
-Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
-Imports: bslib (>= 0.5.1), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.0), digest, downlit (>= 0.4.4), fontawesome, fs (>= 1.4.0), httr2 (>= 1.0.2), jsonlite, openssl, purrr (>= 1.0.0), ragg,
-        rlang (>= 1.1.0), rmarkdown (>= 2.27), tibble, whisker, withr (>= 2.4.3), xml2 (>= 1.3.1), yaml
-Suggests: covr, diffviewer, evaluate (>= 0.24.0), gert, gt, htmltools, htmlwidgets, knitr, lifecycle, magick, methods, pkgload (>= 1.0.2), quarto, rsconnect, rstudioapi, rticles, sass, testthat (>=
-        3.1.3), tools
-License: MIT + file LICENSE
-File: pkgdown_2.1.1_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/pkgdown/releases/download/2.1.1/pkgdown_2.1.1_b1_R4.6_aarch64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-03-16 18:29:18 UTC; unix
-Filesize: 901924
-SHA256: c114458f2777cd9aa347aa957462022756a3f688f123ed61fbb447b8bd2353e2
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc
-
 Package: backports
 Version: 1.5.0
 Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
@@ -2852,22 +2833,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make
 LinkingTo: Rcpp
-
-Package: pbkrtest
-Version: 0.5.3
-Depends: R (>= 4.2.0), lme4 (>= 1.1.31), R (>= 4.6), R (< 4.6.99)
-Imports: broom, dplyr, MASS, methods, numDeriv, Matrix (>= 1.2.3), doBy
-Suggests: markdown, knitr
-License: GPL (>= 2)
-File: pbkrtest_0.5.3_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/pbkrtest/releases/download/0.5.3/pbkrtest_0.5.3_b1_R4.6_aarch64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-03-16 18:32:41 UTC; unix
-Filesize: 179505
-SHA256: 193a82ce01edf2fc607a5acbe51997764a3bc2c56530257bfd0e77e3f3b053ef
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: quantreg
 Version: 6.1
@@ -4738,3 +4703,38 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
+
+Package: pkgdown
+Version: 2.1.2
+Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
+Imports: bslib (>= 0.5.1), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.0), downlit (>= 0.4.4), fontawesome, fs (>= 1.4.0), httr2 (>= 1.0.2), jsonlite, openssl, purrr (>= 1.0.0), ragg (>= 1.4.0),
+        rlang (>= 1.1.4), rmarkdown (>= 2.27), tibble, whisker, withr (>= 2.4.3), xml2 (>= 1.3.1), yaml
+Suggests: covr, diffviewer, evaluate (>= 0.24.0), gert, gt, htmltools, htmlwidgets, knitr (>= 1.50), lifecycle, magick, methods, pkgload (>= 1.0.2), quarto, rsconnect, rstudioapi, rticles, sass,
+        testthat (>= 3.1.3), tools
+License: MIT + file LICENSE
+File: pkgdown_2.1.2_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/pkgdown/releases/download/2.1.2/pkgdown_2.1.2_b2_R4.6_aarch64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-04-28 17:38:24 UTC; unix
+Filesize: 908609
+SHA256: a2eaece537f1e2a32c4c2ac6b5aece8981e1d3cb330ab91bf27052e1da4d43f8
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc
+
+Package: pbkrtest
+Version: 0.5.4
+Depends: R (>= 4.2.0), lme4 (>= 1.1.31), R (>= 4.6), R (< 4.6.99)
+Imports: broom, dplyr, MASS, methods, numDeriv, Matrix (>= 1.2.3), doBy (>= 4.6.22)
+Suggests: markdown, knitr
+License: GPL (>= 2)
+File: pbkrtest_0.5.4_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/pbkrtest/releases/download/0.5.4/pbkrtest_0.5.4_b2_R4.6_aarch64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-04-28 17:38:29 UTC; unix
+Filesize: 224266
+SHA256: 8f3ee82edd4fc86823d21962b141eea7c66c10e6e40a238b8bde0e3e4cdf8d37
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
