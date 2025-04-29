@@ -1662,24 +1662,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: prodlim
-Version: 2024.06.25
-Depends: R (>= 2.9.0), R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp (>= 0.11.5), stats, data.table, grDevices, graphics, diagram, survival, KernSmooth, lava
-License: GPL (>= 2)
-File: prodlim_2024.06.25_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/prodlim/releases/download/2024.06.25/prodlim_2024.06.25_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:53:03 UTC; unix
-Filesize: 447075
-SHA256: 27364dc12bf49e3edf04ae37a684a7cbc10c004bcaedd3dc14db26b2f815dc64
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: progressr
 Version: 0.15.1
 Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
@@ -3441,25 +3423,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libxml2 (>= 2.6.3)
 
-Package: duckdb
-Version: 1.2.1
-Depends: DBI, R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
-Imports: methods, utils
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-License: MIT + file LICENSE
-File: duckdb_1.2.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.2.1/duckdb_1.2.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:43:53 UTC; unix
-Filesize: 244121769
-SHA256: 321701a5718cb83d9121c3a94ba5c58edf6fad86bb254ca06e56f8c6ab7efbe0
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: xz (for building from source)
-
 Package: colourpicker
 Version: 1.3.0
 Depends: R (>= 3.1.0), R (>= 4.6), R (< 4.6.99)
@@ -4877,3 +4840,41 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: prodlim
+Version: 2025.04.28
+Depends: R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp (>= 0.11.5), stats, rlang, data.table, grDevices, ggplot2, graphics, diagram, survival, KernSmooth, lava
+Suggests: tibble, pammtools, ggthemes
+License: GPL (>= 2)
+File: prodlim_2025.04.28_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/prodlim/releases/download/2025.04.28/prodlim_2025.04.28_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-04-29 16:42:07 UTC; unix
+Filesize: 470235
+SHA256: ae42ca924cbd38ae76be84d1bf118778c6ca7b84987a96e1aef60f1ce9f6325b
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: duckdb
+Version: 1.2.2
+Depends: DBI, R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
+Imports: methods, utils
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+License: MIT + file LICENSE
+File: duckdb_1.2.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.2.2/duckdb_1.2.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-04-29 16:42:08 UTC; unix
+Filesize: 244741609
+SHA256: b8a61e80aedfc2aceb6f185f98a78efeff349661c65f9802d54568254789885a
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: xz (for building from source)
