@@ -4275,26 +4275,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: systemfonts
-Version: 1.2.2
-Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
-Imports: grid, jsonlite, lifecycle, tools, utils
-Suggests: covr, farver, graphics, knitr, rmarkdown, testthat (>= 2.1.0)
-License: MIT + file LICENSE
-File: systemfonts_1.2.2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/systemfonts/releases/download/1.2.2/systemfonts_1.2.2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-04-04 18:42:55 UTC; unix
-Filesize: 2377894
-SHA256: 190cd7db3b94f517ad013681144e2dde9c417187b652cb51a8f8afcb0f74f7e1
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: fontconfig, freetype2
-LinkingTo: cpp11 (>= 0.2.1)
-
 Package: pillar
 Version: 1.10.2
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4915,3 +4895,23 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: xz (for building from source)
+
+Package: systemfonts
+Version: 1.2.3
+Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
+Imports: base64enc, grid, jsonlite, lifecycle, tools, utils
+Suggests: covr, farver, graphics, knitr, rmarkdown, testthat (>= 2.1.0)
+License: MIT + file LICENSE
+File: systemfonts_1.2.3_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/systemfonts/releases/download/1.2.3/systemfonts_1.2.3_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-04-30 18:44:44 UTC; unix
+Filesize: 2398913
+SHA256: c2840eb1e9d8ad230fa5da3fea00a6be2db9deb9a7d3c5ac86503d4129e12f5b
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: fontconfig, freetype2
+LinkingTo: cpp11 (>= 0.2.1)
