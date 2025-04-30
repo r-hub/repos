@@ -2852,22 +2852,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: reformulas
-Version: 0.4.0
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: stats, methods, Matrix, Rdpack
-Suggests: lme4, tinytest
-License: GPL-3
-File: reformulas_0.4.0_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/reformulas/releases/download/0.4.0/reformulas_0.4.0_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.5.0; ; 2025-03-16 09:23:54 UTC; unix
-Filesize: 91354
-SHA256: 55ae89fd44bf3602433841e96694ff31c8f594133e9dc491298d41533d84c05b
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: SparseM
 Version: 1.84-2
 Depends: R (>= 2.15), methods, R (>= 4.5), R (< 4.5.99)
@@ -4275,26 +4259,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
 LinkingTo: Rcpp
 
-Package: systemfonts
-Version: 1.2.2
-Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
-Imports: grid, jsonlite, lifecycle, tools, utils
-Suggests: covr, farver, graphics, knitr, rmarkdown, testthat (>= 2.1.0)
-License: MIT + file LICENSE
-File: systemfonts_1.2.2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/systemfonts/releases/download/1.2.2/systemfonts_1.2.2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-04-04 23:20:48 UTC; unix
-Filesize: 2341731
-SHA256: 9011e3dce3068d99276f7c83fd4c59b71e482984ed0abe7245911444f774ba4c
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: fontconfig, freetype2
-LinkingTo: cpp11 (>= 0.2.1)
-
 Package: pillar
 Version: 1.10.2
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4915,3 +4879,39 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: xz (for building from source)
+
+Package: reformulas
+Version: 0.4.1
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: stats, methods, Matrix, Rdpack
+Suggests: lme4, tinytest, glmmTMB
+License: GPL-3
+File: reformulas_0.4.1_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/reformulas/releases/download/0.4.1/reformulas_0.4.1_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.5.0; ; 2025-04-30 23:21:52 UTC; unix
+Filesize: 135411
+SHA256: e66b39e89e2fab161ca653a2b7cc3eaf0fa3ead5470705d2c81c81c7096eaae2
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: systemfonts
+Version: 1.2.3
+Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
+Imports: base64enc, grid, jsonlite, lifecycle, tools, utils
+Suggests: covr, farver, graphics, knitr, rmarkdown, testthat (>= 2.1.0)
+License: MIT + file LICENSE
+File: systemfonts_1.2.3_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/systemfonts/releases/download/1.2.3/systemfonts_1.2.3_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-04-30 23:21:54 UTC; unix
+Filesize: 2368014
+SHA256: 5df072e81ac3e710c78b7be4491e792cad43ec3b645fd4c9a413ea27ac15c413
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: fontconfig, freetype2
+LinkingTo: cpp11 (>= 0.2.1)
