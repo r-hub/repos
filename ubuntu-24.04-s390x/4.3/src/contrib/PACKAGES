@@ -1158,26 +1158,6 @@ Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: textshaping
-Version: 1.0.0
-Depends: R (>= 3.2.0), R (>= 4.3), R (< 4.3.99)
-Suggests: covr, grDevices, grid, knitr, rmarkdown, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: textshaping_1.0.0_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/textshaping/releases/download/1.0.0/textshaping_1.0.0_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-03-15 11:19:25 UTC; unix
-Filesize: 1413317
-SHA256: 9040c5cd31d5cfc6ef97bbd1537562e614e8d9c4416706f4e89160a918f72ee0
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: lifecycle, stats, stringi, systemfonts (>= 1.1.0), utils
-SystemRequirements: freetype2, harfbuzz, fribidi
-LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
-
 Package: tibble
 Version: 3.2.1
 Depends: R (>= 3.4.0), R (>= 4.3), R (< 4.3.99)
@@ -1270,23 +1250,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: A system with zoneinfo data (e.g.  /usr/share/zoneinfo) as well as a recent-enough C++11 compiler (such as g++-4.8 or later). On Windows the zoneinfo included with R is used.
 LinkingTo: cpp11 (>= 0.2.7)
-
-Package: utf8
-Version: 1.2.4
-Depends: R (>= 2.10), R (>= 4.3), R (< 4.3.99)
-Suggests: cli, covr, knitr, rlang, rmarkdown, testthat (>= 3.0.0), withr
-License: Apache License (== 2.0) | file LICENSE
-File: utf8_1.2.4_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/utf8/releases/download/1.2.4/utf8_1.2.4_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-03-15 10:52:53 UTC; unix
-Filesize: 241981
-SHA256: 6fbc8e926a3d2108439afc733ae779bfdc027a826bc5db95aeef977e53a8d275
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: uuid
 Version: 1.2-1
@@ -1838,26 +1801,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: grDevices, stats, tools
 
-Package: systemfonts
-Version: 1.2.2
-Depends: R (>= 3.2.0), R (>= 4.3), R (< 4.3.99)
-Suggests: covr, farver, graphics, knitr, rmarkdown, testthat (>= 2.1.0)
-License: MIT + file LICENSE
-File: systemfonts_1.2.2_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/systemfonts/releases/download/1.2.2/systemfonts_1.2.2_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-04-04 14:46:19 UTC; unix
-Filesize: 2448863
-SHA256: 87837ed453cd09c6d3fc8f4645e24747ebbd82c5d24804e6d31397720891c121
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: grid, jsonlite, lifecycle, tools, utils
-SystemRequirements: fontconfig, freetype2
-LinkingTo: cpp11 (>= 0.2.1)
-
 Package: pillar
 Version: 1.10.2
 Depends: R (>= 4.3), R (< 4.3.99)
@@ -2074,3 +2017,60 @@ Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli, farver (>= 2.0.3), glue, labeling, lifecycle, R6, RColorBrewer, rlang (>= 1.1.0), viridisLite
+
+Package: textshaping
+Version: 1.0.1
+Depends: R (>= 3.2.0), R (>= 4.3), R (< 4.3.99)
+Suggests: covr, grDevices, grid, knitr, rmarkdown, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: textshaping_1.0.1_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/textshaping/releases/download/1.0.1/textshaping_1.0.1_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-05-01 14:50:23 UTC; unix
+Filesize: 1413865
+SHA256: 41a913659d9facf82e89bc8391d60a65e8eaf8b2d71a96416e861aa12ff05585
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: lifecycle, stats, stringi, systemfonts (>= 1.1.0), utils
+SystemRequirements: freetype2, harfbuzz, fribidi
+LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
+
+Package: utf8
+Version: 1.2.5
+Depends: R (>= 2.10), R (>= 4.3), R (< 4.3.99)
+Suggests: cli, covr, knitr, rlang, rmarkdown, testthat (>= 3.0.0), withr
+License: Apache License (== 2.0) | file LICENSE
+File: utf8_1.2.5_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/utf8/releases/download/1.2.5/utf8_1.2.5_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-05-01 14:46:04 UTC; unix
+Filesize: 244562
+SHA256: ad3a4fd4c4f594abeaff28c8bf17c8c12557d50c14e9d32eb795cdff53fbaff7
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: systemfonts
+Version: 1.2.3
+Depends: R (>= 3.2.0), R (>= 4.3), R (< 4.3.99)
+Suggests: covr, farver, graphics, knitr, rmarkdown, testthat (>= 2.1.0)
+License: MIT + file LICENSE
+File: systemfonts_1.2.3_b3_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/systemfonts/releases/download/1.2.3/systemfonts_1.2.3_b3_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-05-01 14:46:16 UTC; unix
+Filesize: 2476976
+SHA256: f216ee0dc0517f615517bb007910297a01b4acc6b846a66950ea48d254a126c5
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: base64enc, grid, jsonlite, lifecycle, tools, utils
+SystemRequirements: fontconfig, freetype2
+LinkingTo: cpp11 (>= 0.2.1)
