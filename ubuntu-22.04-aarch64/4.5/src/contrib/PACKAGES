@@ -904,26 +904,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: textshaping
-Version: 1.0.0
-Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
-Imports: lifecycle, stats, stringi, systemfonts (>= 1.1.0), utils
-Suggests: covr, grDevices, grid, knitr, rmarkdown, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: textshaping_1.0.0_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/textshaping/releases/download/1.0.0/textshaping_1.0.0_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-16 01:17:29 UTC; unix
-Filesize: 1355349
-SHA256: b45dd730ce52518d77c1638ec2860314f3535314bd7c596bddd59f5abf30a66e
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: freetype2, harfbuzz, fribidi
-LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
-
 Package: tibble
 Version: 3.2.1
 Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
@@ -971,23 +951,6 @@ DownloadURL: https://github.com/cran/usethis/releases/download/3.1.0/usethis_3.1
 Built: R 4.5.0; ; 2025-03-16 01:19:21 UTC; unix
 Filesize: 915325
 SHA256: 74d797f10c8c9f74acf7c6967b1a646d6b9bb84798b27ed986d6e7ebda3cb24a
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: utf8
-Version: 1.2.4
-Depends: R (>= 2.10), R (>= 4.5), R (< 4.5.99)
-Suggests: cli, covr, knitr, rlang, rmarkdown, testthat (>= 3.0.0), withr
-License: Apache License (== 2.0) | file LICENSE
-File: utf8_1.2.4_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/utf8/releases/download/1.2.4/utf8_1.2.4_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-16 01:13:04 UTC; unix
-Filesize: 236400
-SHA256: df87ad623184c6e2ff323ba76789446eecf3f35d826e6f5672fe8324052a0870
 RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -2831,22 +2794,6 @@ Arch: arm64
 Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-16 01:14:28 UTC; unix
 Filesize: 1544959
 SHA256: fa87c792b4fb32eb1cb2cac57387441ada0a189c9079d1bcbccb32d85ff80748
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: reformulas
-Version: 0.4.0
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: stats, methods, Matrix, Rdpack
-Suggests: lme4, tinytest
-License: GPL-3
-File: reformulas_0.4.0_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/reformulas/releases/download/0.4.0/reformulas_0.4.0_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.0; ; 2025-03-16 01:35:13 UTC; unix
-Filesize: 91602
-SHA256: 52d61968d4546ccf82a15bf5f9926edee59a5140fa2830fba20618210f6cc32d
 RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4915,3 +4862,56 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: fontconfig, freetype2
 LinkingTo: cpp11 (>= 0.2.1)
+
+Package: textshaping
+Version: 1.0.1
+Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
+Imports: lifecycle, stats, stringi, systemfonts (>= 1.1.0), utils
+Suggests: covr, grDevices, grid, knitr, rmarkdown, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: textshaping_1.0.1_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/textshaping/releases/download/1.0.1/textshaping_1.0.1_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-05-01 18:44:28 UTC; unix
+Filesize: 1356051
+SHA256: b501f1ce26e4bc7c396fb856cc7854f9bb9a0fdb0ffcef0472164d10e0f0de57
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: freetype2, harfbuzz, fribidi
+LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
+
+Package: utf8
+Version: 1.2.5
+Depends: R (>= 2.10), R (>= 4.5), R (< 4.5.99)
+Suggests: cli, covr, knitr, rlang, rmarkdown, testthat (>= 3.0.0), withr
+License: Apache License (== 2.0) | file LICENSE
+File: utf8_1.2.5_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/utf8/releases/download/1.2.5/utf8_1.2.5_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-05-01 18:44:27 UTC; unix
+Filesize: 238845
+SHA256: 858339f7f6743d03323d75cd8ad810908843c45ddafcdbddd3670be560439ab9
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: reformulas
+Version: 0.4.1
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: stats, methods, Matrix, Rdpack
+Suggests: lme4, tinytest, glmmTMB
+License: GPL-3
+File: reformulas_0.4.1_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/reformulas/releases/download/0.4.1/reformulas_0.4.1_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.0; ; 2025-05-01 18:44:28 UTC; unix
+Filesize: 135443
+SHA256: ac6b6a4b8de0df46c6681a3f5cb465a82be44c9f22e92b46237f41edd8f50562
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
