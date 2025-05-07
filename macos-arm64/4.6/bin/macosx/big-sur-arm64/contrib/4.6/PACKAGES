@@ -3060,26 +3060,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: svglite
-Version: 2.1.3
-Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
-Imports: systemfonts (>= 1.0.0)
-Suggests: covr, fontquiver (>= 0.2.0), htmltools, knitr, rmarkdown, testthat (>= 3.0.0), xml2 (>= 1.0.0)
-License: GPL (>= 2)
-File: svglite_2.1.3_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/svglite/releases/download/2.1.3/svglite_2.1.3_b1_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-03-16 18:04:47 UTC; unix
-Filesize: 304962
-SHA256: a1475d215ed076e9a54156e37416ba74aa52dfeb67cb0aabdbea820f4bcf41de
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libpng
-LinkingTo: cpp11, systemfonts
-
 Package: matrixStats
 Version: 1.5.0
 Depends: R (>= 3.4.0), R (>= 4.6), R (< 4.6.99)
@@ -3703,24 +3683,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
-
-Package: parallelly
-Version: 1.43.0
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: parallel, tools, utils
-Suggests: commonmark, base64enc
-License: LGPL (>= 2.1)
-File: parallelly_1.43.0_b2_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/parallelly/releases/download/1.43.0/parallelly_1.43.0_b2_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-03-24 17:39:19 UTC; unix
-Filesize: 563808
-SHA256: ac63a49d5252416f2792a11453e5c37b3060679f2600762f465440fad46bb0d1
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: pkgbuild
 Version: 1.4.7
@@ -4739,3 +4701,41 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
+
+Package: svglite
+Version: 2.2.0
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: base64enc, cli, lifecycle, rlang (>= 1.1.0), systemfonts (>= 1.2.3), textshaping (>= 0.3.0)
+Suggests: covr, fontquiver (>= 0.2.0), htmltools, knitr, rmarkdown, testthat (>= 3.0.0), xml2 (>= 1.0.0)
+License: GPL (>= 2)
+File: svglite_2.2.0_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/svglite/releases/download/2.2.0/svglite_2.2.0_b2_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-05-07 17:40:18 UTC; unix
+Filesize: 342378
+SHA256: d24873e4195cc906730a71ef9a9a8a8b345be055a826c40b7ca470e4a2e27e0b
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libpng
+LinkingTo: cpp11, systemfonts, textshaping
+
+Package: parallelly
+Version: 1.44.0
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: parallel, tools, utils
+Suggests: commonmark, base64enc
+License: LGPL (>= 2.1)
+File: parallelly_1.44.0_b3_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/parallelly/releases/download/1.44.0/parallelly_1.44.0_b3_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-05-07 17:40:15 UTC; unix
+Filesize: 565218
+SHA256: 5dc6eba2bac58f27a03726e9e69e6be00c5c64e81b14915b5801e2cc0681081e
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
