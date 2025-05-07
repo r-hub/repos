@@ -3076,26 +3076,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: svglite
-Version: 2.1.3
-Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-Imports: systemfonts (>= 1.0.0)
-Suggests: covr, fontquiver (>= 0.2.0), htmltools, knitr, rmarkdown, testthat (>= 3.0.0), xml2 (>= 1.0.0)
-License: GPL (>= 2)
-File: svglite_2.1.3_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/svglite/releases/download/2.1.3/svglite_2.1.3_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-16 09:05:08 UTC; unix
-Filesize: 718190
-SHA256: 94697198940d7e91716a163e3a755149c1c0d76cb134b5a0e012a5e0996a8ba5
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libpng
-LinkingTo: cpp11, systemfonts
-
 Package: matrixStats
 Version: 1.5.0
 Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
@@ -3878,24 +3858,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
-
-Package: parallelly
-Version: 1.43.0
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: parallel, tools, utils
-Suggests: commonmark, base64enc
-License: LGPL (>= 2.1)
-File: parallelly_1.43.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/parallelly/releases/download/1.43.0/parallelly_1.43.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-24 23:23:56 UTC; unix
-Filesize: 567588
-SHA256: f2e0082cbcc6af95702ea4abeeaca4d608824c38bb27f8530e5336434488df4d
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: pkgbuild
 Version: 1.4.7
@@ -4915,3 +4877,41 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
+
+Package: svglite
+Version: 2.2.0
+Depends: R (>= 4.1), R (>= 4.5), R (< 4.5.99)
+Imports: base64enc, cli, lifecycle, rlang (>= 1.1.0), systemfonts (>= 1.2.3), textshaping (>= 0.3.0)
+Suggests: covr, fontquiver (>= 0.2.0), htmltools, knitr, rmarkdown, testthat (>= 3.0.0), xml2 (>= 1.0.0)
+License: GPL (>= 2)
+File: svglite_2.2.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/svglite/releases/download/2.2.0/svglite_2.2.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-05-07 23:20:56 UTC; unix
+Filesize: 841722
+SHA256: 6aee60abbdbd3b296164656360518b8c1690e1ee3b0e279196ab3fd932dc4e7b
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libpng
+LinkingTo: cpp11, systemfonts, textshaping
+
+Package: parallelly
+Version: 1.44.0
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: parallel, tools, utils
+Suggests: commonmark, base64enc
+License: LGPL (>= 2.1)
+File: parallelly_1.44.0_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/parallelly/releases/download/1.44.0/parallelly_1.44.0_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-05-07 23:20:55 UTC; unix
+Filesize: 569228
+SHA256: b5c2fed4d715e66fb7afef80a6f24909d79480863c52bff6be129d91b323ae57
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
