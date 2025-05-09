@@ -4114,26 +4114,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: terra
-Version: 1.8-42
-Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-Imports: methods, Rcpp (>= 1.0-10)
-Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
-License: GPL (>= 3)
-File: terra_1.8-42_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/terra/releases/download/1.8-42/terra_1.8-42_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-04-02 23:21:58 UTC; unix
-Filesize: 31294545
-SHA256: e4151edcd1d6735c7f1db5cb601a070ce03c606546bc7012244e048a9780cd9b
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
-LinkingTo: Rcpp
-
 Package: pillar
 Version: 1.10.2
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4313,22 +4293,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: freetype2, libpng, libtiff, libjpeg
 LinkingTo: systemfonts, textshaping
-
-Package: future
-Version: 1.40.0
-Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
-Imports: digest, globals (>= 0.16.1), listenv (>= 0.8.0), parallel, parallelly (>= 1.43.0), utils
-Suggests: methods, RhpcBLASctl, R.rsp, markdown
-License: LGPL (>= 2.1)
-File: future_1.40.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/future/releases/download/1.40.0/future_1.40.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.5.0; ; 2025-04-10 23:22:03 UTC; unix
-Filesize: 895695
-SHA256: 7a4a12754b763c162bdd16f931a0fe00da98f53040427a696720468e4095632a
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: zoo
 Version: 1.8-14
@@ -4911,6 +4875,42 @@ DownloadURL: https://github.com/cran/globals/releases/download/0.18.0/globals_0.
 Built: R 4.5.0; ; 2025-05-08 23:21:28 UTC; unix
 Filesize: 158736
 SHA256: 6f170560b257665302794b19aee23eaadfe9093e9a5ac69fb5a8acbf124d4104
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: terra
+Version: 1.8-50
+Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+Imports: methods, Rcpp (>= 1.0-10)
+Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
+License: GPL (>= 3)
+File: terra_1.8-50_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/terra/releases/download/1.8-50/terra_1.8-50_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-05-09 23:21:52 UTC; unix
+Filesize: 31383987
+SHA256: c7746598a92a71cc186aceafbed6725fee81dd6f9f1f66591e54f523dfe31de0
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), netcdf (>=4.1.3), TBB, sqlite3
+LinkingTo: Rcpp
+
+Package: future
+Version: 1.49.0
+Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
+Imports: digest, globals (>= 0.18.0), listenv (>= 0.8.0), parallel, parallelly (>= 1.44.0), utils
+Suggests: methods, RhpcBLASctl, R.rsp, markdown
+License: LGPL (>= 2.1)
+File: future_1.49.0_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/future/releases/download/1.49.0/future_1.49.0_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.5.0; ; 2025-05-09 23:21:50 UTC; unix
+Filesize: 920213
+SHA256: 97cd5e14b3ff3d75d051903e5864561fffe15a95ec7f7dd171d419291146e817
 RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
