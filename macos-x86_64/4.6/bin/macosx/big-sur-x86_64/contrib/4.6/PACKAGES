@@ -4060,26 +4060,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make
 
-Package: terra
-Version: 1.8-42
-Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
-Imports: methods, Rcpp (>= 1.0-10)
-Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
-License: GPL (>= 3)
-File: terra_1.8-42_b2_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/terra/releases/download/1.8-42/terra_1.8-42_b2_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2025-04-02 17:38:10 UTC; unix
-Filesize: 23521353
-SHA256: e800ab9176246ccb1286e152f7b02c04eaf08a33f3b7fb4e47bc46e3957d8492
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
-LinkingTo: Rcpp
-
 Package: xfun
 Version: 0.52
 Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
@@ -4256,22 +4236,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: freetype2, libpng, libtiff, libjpeg
 LinkingTo: systemfonts, textshaping
-
-Package: future
-Version: 1.40.0
-Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
-Imports: digest, globals (>= 0.16.1), listenv (>= 0.8.0), parallel, parallelly (>= 1.43.0), utils
-Suggests: methods, RhpcBLASctl, R.rsp, markdown
-License: LGPL (>= 2.1)
-File: future_1.40.0_b2_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/future/releases/download/1.40.0/future_1.40.0_b2_R4.6_x86_64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-04-10 17:41:42 UTC; unix
-Filesize: 899833
-SHA256: 526d23f75a253fdaa6498f4ddc95c9527cebea11c0b33085affe165d40f1dba2
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: zoo
 Version: 1.8-14
@@ -4854,6 +4818,42 @@ DownloadURL: https://github.com/cran/globals/releases/download/0.18.0/globals_0.
 Built: R 4.6.0; ; 2025-05-08 17:38:23 UTC; unix
 Filesize: 159749
 SHA256: 58c1a78e78192a3dc435a0f91b0e8c5ad96e703f913140f6fbdf5d339fed0553
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: terra
+Version: 1.8-50
+Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
+Imports: methods, Rcpp (>= 1.0-10)
+Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
+License: GPL (>= 3)
+File: terra_1.8-50_b3_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/terra/releases/download/1.8-50/terra_1.8-50_b3_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-05-09 17:38:19 UTC; unix
+Filesize: 23546536
+SHA256: c754de78d0ca9f5f8707e8fb57121497db2113a1de491c97d7f62df95a77d28a
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), netcdf (>=4.1.3), TBB, sqlite3
+LinkingTo: Rcpp
+
+Package: future
+Version: 1.49.0
+Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
+Imports: digest, globals (>= 0.18.0), listenv (>= 0.8.0), parallel, parallelly (>= 1.44.0), utils
+Suggests: methods, RhpcBLASctl, R.rsp, markdown
+License: LGPL (>= 2.1)
+File: future_1.49.0_b3_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/future/releases/download/1.49.0/future_1.49.0_b3_R4.6_x86_64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-05-09 17:42:41 UTC; unix
+Filesize: 922521
+SHA256: 5b048801f8405dce0d575ed83413f51c2cace59a1009e6d30d8ffcbd6aae116e
 RVersion: 4.6
 Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
