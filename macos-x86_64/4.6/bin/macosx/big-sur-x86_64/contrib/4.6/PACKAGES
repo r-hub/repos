@@ -1193,24 +1193,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: data.table
-Version: 1.17.0
-Depends: R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
-Imports: methods
-Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
-License: MPL-2.0 | file LICENSE
-File: data.table_1.17.0_b1_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/data.table/releases/download/1.17.0/data.table_1.17.0_b1_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2025-03-16 18:02:03 UTC; unix
-Filesize: 2695496
-SHA256: 72b656afc7a6e367c1b766449325d58913956db32111ef988a2842bfc527c02c
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: diagram
 Version: 1.6.5
 Depends: R (>= 2.01), shape, R (>= 4.6), R (< 4.6.99)
@@ -2592,26 +2574,6 @@ RVersion: 4.6
 Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: s2
-Version: 1.1.7
-Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp, wk (>= 0.6.0)
-Suggests: bit64, testthat (>= 3.0.0), vctrs
-License: Apache License (== 2.0)
-File: s2_1.1.7_b1_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/s2/releases/download/1.1.7/s2_1.1.7_b1_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2025-03-16 19:02:08 UTC; unix
-Filesize: 2222627
-SHA256: f5468c0d78c15b8c34b0f0704cd89f9e7fcfa95de3a3033a3d2866f421c6eeb4
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: OpenSSL >= 1.0.1
-LinkingTo: Rcpp, wk
 
 Package: units
 Version: 0.8-7
@@ -4858,3 +4820,41 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
+
+Package: data.table
+Version: 1.17.2
+Depends: R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
+Imports: methods
+Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
+License: MPL-2.0 | file LICENSE
+File: data.table_1.17.2_b2_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/data.table/releases/download/1.17.2/data.table_1.17.2_b2_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-05-12 17:39:43 UTC; unix
+Filesize: 2706664
+SHA256: 3af54ae94fc8c24d70bceecf4901e286c7713b67fd3ba9f08fff2aa537482f57
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: s2
+Version: 1.1.8
+Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp, wk (>= 0.6.0)
+Suggests: bit64, testthat (>= 3.0.0), vctrs
+License: Apache License (== 2.0)
+File: s2_1.1.8_b2_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/s2/releases/download/1.1.8/s2_1.1.8_b2_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-05-12 17:44:01 UTC; unix
+Filesize: 4024814
+SHA256: a146bca9deebbae818548ee994ec49f0ab79cb2949b10facadc6689ff35f52bf
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: OpenSSL >= 1.0.1, Abseil >= 20230802.0
+LinkingTo: Rcpp, wk
