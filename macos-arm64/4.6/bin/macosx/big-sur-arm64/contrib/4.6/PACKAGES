@@ -1088,23 +1088,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: zip
-Version: 2.3.2
-Depends: R (>= 4.6), R (< 4.6.99)
-Suggests: covr, pillar, processx, R6, testthat, withr
-License: MIT + file LICENSE
-File: zip_2.3.2_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/zip/releases/download/2.3.2/zip_2.3.2_b1_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-03-16 17:53:44 UTC; unix
-Filesize: 220776
-SHA256: 5e40c1d2ced5806c05a3168898a8a4de50fe0c6d64a7dc37cf6540d19b5fff1d
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: backports
 Version: 1.5.0
 Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
@@ -4576,26 +4559,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
 
-Package: svglite
-Version: 2.2.0
-Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
-Imports: base64enc, cli, lifecycle, rlang (>= 1.1.0), systemfonts (>= 1.2.3), textshaping (>= 0.3.0)
-Suggests: covr, fontquiver (>= 0.2.0), htmltools, knitr, rmarkdown, testthat (>= 3.0.0), xml2 (>= 1.0.0)
-License: GPL (>= 2)
-File: svglite_2.2.0_b2_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/svglite/releases/download/2.2.0/svglite_2.2.0_b2_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-05-07 17:40:18 UTC; unix
-Filesize: 342378
-SHA256: d24873e4195cc906730a71ef9a9a8a8b345be055a826c40b7ca470e4a2e27e0b
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libpng
-LinkingTo: cpp11, systemfonts, textshaping
-
 Package: parallelly
 Version: 1.44.0
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4739,3 +4702,40 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: OpenSSL >= 1.0.1, Abseil >= 20230802.0
 LinkingTo: Rcpp, wk
+
+Package: zip
+Version: 2.3.3
+Depends: R (>= 4.6), R (< 4.6.99)
+Suggests: covr, pillar, processx, R6, testthat, withr
+License: MIT + file LICENSE
+File: zip_2.3.3_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/zip/releases/download/2.3.3/zip_2.3.3_b2_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-05-13 17:39:56 UTC; unix
+Filesize: 222609
+SHA256: 6f7c20bafcf4c7ceb1d5e046aeee457ad3e0f3f375e50fef938c3d27cc566737
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: svglite
+Version: 2.2.1
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: base64enc, cli, lifecycle, rlang (>= 1.1.0), systemfonts (>= 1.2.3), textshaping (>= 0.3.0)
+Suggests: covr, fontquiver (>= 0.2.0), htmltools, knitr, rmarkdown, testthat (>= 3.0.0), xml2 (>= 1.0.0)
+License: GPL (>= 2)
+File: svglite_2.2.1_b3_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/svglite/releases/download/2.2.1/svglite_2.2.1_b3_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-05-13 17:40:17 UTC; unix
+Filesize: 342704
+SHA256: a2fb9bfe1a494c523eb7d8058cf05741b29816c24b6fe888654fdcac8fd18843
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libpng
+LinkingTo: cpp11, systemfonts, textshaping
