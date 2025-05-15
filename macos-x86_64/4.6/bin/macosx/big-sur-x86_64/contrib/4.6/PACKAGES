@@ -3803,28 +3803,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
 
-Package: sf
-Version: 1.0-20
-Depends: methods, R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
-Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
-Suggests: blob, nanoarrow, covr, dplyr (>= 1.0.0), ggplot2, knitr, lwgeom (>= 0.2-14), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>=
-        1.1.0), RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.6-0), terra, testthat (>= 3.0.0), tibble (>=
-        1.4.1), tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk (>= 0.9.0)
-License: GPL-2 | MIT + file LICENSE
-File: sf_1.0-20_b2_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/sf/releases/download/1.0-20/sf_1.0-20_b2_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2025-03-25 17:40:12 UTC; unix
-Filesize: 22812000
-SHA256: 77352b409ae44c367e25857c27dbbce5ec2b023d028f1e3436dd9a74d9fdfad6
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
-LinkingTo: Rcpp
-
 Package: httr2
 Version: 1.1.2
 Depends: R (>= 4.0), R (>= 4.6), R (< 4.6.99)
@@ -4858,3 +4836,25 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libpng
 LinkingTo: cpp11, systemfonts, textshaping
+
+Package: sf
+Version: 1.0-21
+Depends: methods, R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
+Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
+Suggests: blob, nanoarrow, covr, dplyr (>= 1.0.0), ggplot2, knitr, lwgeom (>= 0.2-14), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>=
+        1.1.0), RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.6-0), terra, testthat (>= 3.0.0), tibble (>=
+        1.4.1), tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk (>= 0.9.0)
+License: GPL-2 | MIT + file LICENSE
+File: sf_1.0-21_b3_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/sf/releases/download/1.0-21/sf_1.0-21_b3_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-05-15 17:37:57 UTC; unix
+Filesize: 22803746
+SHA256: b4dc23ee5c43ecbbaac0c15dd5631ab5c8880b8eec3cf83adbf54a7a2456ae56
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
+LinkingTo: Rcpp
