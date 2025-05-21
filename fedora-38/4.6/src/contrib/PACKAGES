@@ -4384,24 +4384,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, zlib
 LinkingTo: later, Rcpp
 
-Package: recipes
-Version: 1.3.0
-Depends: dplyr (>= 1.1.0), R (>= 3.6), R (>= 4.6), R (< 4.6.99)
-Imports: cli, clock (>= 0.6.1), generics (>= 0.1.2), glue, gower, hardhat (>= 1.4.1), ipred (>= 0.9-12), lifecycle (>= 1.0.3), lubridate (>= 1.8.0), magrittr, Matrix, purrr (>= 1.0.0), rlang (>=
-        1.1.0), sparsevctrs (>= 0.3.3), stats, tibble, tidyr (>= 1.0.0), tidyselect (>= 1.2.0), timeDate, utils, vctrs (>= 0.5.0), withr
-Suggests: covr, ddalpha, dials (>= 1.2.0), ggplot2, igraph, kernlab, knitr, methods, modeldata (>= 0.1.1), parsnip (>= 1.2.0), RANN, RcppRoll, rmarkdown, rpart, rsample, RSpectra, splines2, testthat
-        (>= 3.0.0), workflows, xml2
-License: MIT + file LICENSE
-File: recipes_1.3.0_b4_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/recipes/releases/download/1.3.0/recipes_1.3.0_b4_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.6.0; ; 2025-04-17 17:16:16 UTC; unix
-Filesize: 1814145
-SHA256: a9550e42425daa5ec3b0c06694bddbb42043b6ace2eb64716801f055a8098c21
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: miniUI
 Version: 0.1.2
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4486,25 +4468,6 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: RcppArmadillo
-Version: 14.4.2-1
-Depends: R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp (>= 1.0.12), stats, utils, methods
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-License: GPL (>= 2)
-File: RcppArmadillo_14.4.2-1_b4_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/14.4.2-1/RcppArmadillo_14.4.2-1_b4_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-04-26 17:14:21 UTC; unix
-Filesize: 1900566
-SHA256: 13afa957d2633e60b9e833bed4a41b0e507ce73d6a045c8f9a36bb93e15655b3
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
 
 Package: pkgdown
 Version: 2.1.2
@@ -4878,3 +4841,40 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: recipes
+Version: 1.3.1
+Depends: dplyr (>= 1.1.0), R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: cli, clock (>= 0.6.1), generics (>= 0.1.2), glue, gower, hardhat (>= 1.4.1), ipred (>= 0.9-12), lifecycle (>= 1.0.3), lubridate (>= 1.8.0), magrittr, Matrix, purrr (>= 1.0.0), rlang (>=
+        1.1.0), sparsevctrs (>= 0.3.3), stats, tibble, tidyr (>= 1.0.0), tidyselect (>= 1.2.0), timeDate, utils, vctrs (>= 0.5.0), withr
+Suggests: covr, ddalpha, dials (>= 1.2.0), ggplot2, igraph, kernlab, knitr, methods, modeldata (>= 0.1.1), parsnip (>= 1.2.0), RANN, RcppRoll, rmarkdown, rpart, rsample, RSpectra, splines2, testthat
+        (>= 3.0.0), workflows, xml2
+License: MIT + file LICENSE
+File: recipes_1.3.1_b5_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/recipes/releases/download/1.3.1/recipes_1.3.1_b5_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.6.0; ; 2025-05-21 17:17:16 UTC; unix
+Filesize: 1820509
+SHA256: 15d5bc9cad7471d7858c3c36f9f0933442ca3e0749d8e2104c99f0137edcb4ef
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: RcppArmadillo
+Version: 14.4.3-1
+Depends: R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp (>= 1.0.12), stats, utils, methods
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+File: RcppArmadillo_14.4.3-1_b5_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/14.4.3-1/RcppArmadillo_14.4.3-1_b5_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-05-21 17:17:09 UTC; unix
+Filesize: 1900466
+SHA256: 7208f59a0121cb4b4f631faddee850c45f65bdb419ec86a19b6e4308ceef3e08
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
