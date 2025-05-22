@@ -3611,22 +3611,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
 
-Package: doFuture
-Version: 1.0.2
-Depends: foreach (>= 1.5.0), future (>= 1.32.0), R (>= 4.6), R (< 4.6.99)
-Imports: future.apply, globals, iterators, parallel, utils
-Suggests: doRNG (>= 1.8.2), markdown, R.rsp
-License: LGPL (>= 2.1)
-File: doFuture_1.0.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/doFuture/releases/download/1.0.2/doFuture_1.0.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.6.0; ; 2025-03-16 16:37:29 UTC; unix
-Filesize: 136730
-SHA256: 1bc11290690c3a9d171ef055a834376f944c56335e2f7b5fea41bca7dc6990b6
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: tzdb
 Version: 0.5.0
 Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
@@ -4878,3 +4862,19 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
+
+Package: doFuture
+Version: 1.1.0
+Depends: foreach (>= 1.5.0), future (>= 1.49.0), R (>= 4.6), R (< 4.6.99)
+Imports: future.apply, globals, iterators, parallel, utils
+Suggests: doRNG (>= 1.8.2), markdown, R.rsp
+License: LGPL (>= 2.1)
+File: doFuture_1.1.0_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/doFuture/releases/download/1.1.0/doFuture_1.1.0_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.6.0; ; 2025-05-22 16:43:54 UTC; unix
+Filesize: 168010
+SHA256: e232c4d2c8f4ce7444afdeffaf172ae4ca3e805571914cb8098b008488fdbb92
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
