@@ -4711,26 +4711,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: s2
-Version: 1.1.8
-Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp, wk (>= 0.6.0)
-Suggests: bit64, testthat (>= 3.0.0), vctrs
-License: Apache License (== 2.0)
-File: s2_1.1.8_b2_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/s2/releases/download/1.1.8/s2_1.1.8_b2_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2025-05-12 17:44:01 UTC; unix
-Filesize: 4024814
-SHA256: a146bca9deebbae818548ee994ec49f0ab79cb2949b10facadc6689ff35f52bf
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: OpenSSL >= 1.0.1, Abseil >= 20230802.0
-LinkingTo: Rcpp, wk
-
 Package: zip
 Version: 2.3.3
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4858,3 +4838,23 @@ RVersion: 4.6
 Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: s2
+Version: 1.1.9
+Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp, wk (>= 0.6.0)
+Suggests: bit64, testthat (>= 3.0.0), vctrs
+License: Apache License (== 2.0)
+File: s2_1.1.9_b3_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/s2/releases/download/1.1.9/s2_1.1.9_b3_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-05-23 17:41:38 UTC; unix
+Filesize: 4024486
+SHA256: bad6e609fd37b402d2133b8ca204461e38ef28c72c95ccc153e5bca07fee33a2
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: cmake, OpenSSL >= 1.0.1, Abseil >= 20230802.0
+LinkingTo: Rcpp, wk
