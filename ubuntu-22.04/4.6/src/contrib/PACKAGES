@@ -2487,26 +2487,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: s2
-Version: 1.1.7
-Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp, wk (>= 0.6.0)
-Suggests: bit64, testthat (>= 3.0.0), vctrs
-License: Apache License (== 2.0)
-File: s2_1.1.7_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/s2/releases/download/1.1.7/s2_1.1.7_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:45:09 UTC; unix
-Filesize: 21118931
-SHA256: 7afbd76a3c56604bbc1d6d518d387854b3d75f7231bc6533ba2519ef3280a2e2
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: OpenSSL >= 1.0.1
-LinkingTo: Rcpp, wk
-
 Package: units
 Version: 0.8-7
 Depends: R (>= 3.0.2), R (>= 4.6), R (< 4.6.99)
@@ -3738,24 +3718,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp (>= 0.12.12)
 
-Package: curl
-Version: 6.2.2
-Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
-License: MIT + file LICENSE
-File: curl_6.2.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/curl/releases/download/6.2.2/curl_6.2.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-24 16:43:10 UTC; unix
-Filesize: 875191
-SHA256: 404512c59a986f2240ef315adde938fd4aecb37b1d0c840dd281847c8f198f2a
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
-
 Package: pkgbuild
 Version: 1.4.7
 Depends: R (>= 3.5), R (>= 4.6), R (< 4.6.99)
@@ -3826,28 +3788,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
-
-Package: sf
-Version: 1.0-20
-Depends: methods, R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
-Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
-Suggests: blob, nanoarrow, covr, dplyr (>= 1.0.0), ggplot2, knitr, lwgeom (>= 0.2-14), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>=
-        1.1.0), RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.6-0), terra, testthat (>= 3.0.0), tibble (>=
-        1.4.1), tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk (>= 0.9.0)
-License: GPL-2 | MIT + file LICENSE
-File: sf_1.0-20_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/sf/releases/download/1.0-20/sf_1.0-20_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-25 16:42:26 UTC; unix
-Filesize: 9838675
-SHA256: dbfa679f3b1bfd4bbb74fb7f69367cca37c996a4d836c36241eb62d57fce751e
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
-LinkingTo: Rcpp
 
 Package: httr2
 Version: 1.1.2
@@ -4878,3 +4818,63 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: s2
+Version: 1.1.9
+Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp, wk (>= 0.6.0)
+Suggests: bit64, testthat (>= 3.0.0), vctrs
+License: Apache License (== 2.0)
+File: s2_1.1.9_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/s2/releases/download/1.1.9/s2_1.1.9_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-05-24 16:41:36 UTC; unix
+Filesize: 22620473
+SHA256: e017cd77615a62c01c343ad784f1b49f8dcc91b6ad164cff7be1cce353660337
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: cmake, OpenSSL >= 1.0.1, Abseil >= 20230802.0
+LinkingTo: Rcpp, wk
+
+Package: curl
+Version: 6.2.3
+Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+License: MIT + file LICENSE
+File: curl_6.2.3_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/curl/releases/download/6.2.3/curl_6.2.3_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-05-24 16:39:40 UTC; unix
+Filesize: 875213
+SHA256: 5f17a34169aa40c8111743f17c9a1dbcb96dc22083801c63f2d86a476d527b5d
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
+
+Package: sf
+Version: 1.0-21
+Depends: methods, R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
+Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
+Suggests: blob, nanoarrow, covr, dplyr (>= 1.0.0), ggplot2, knitr, lwgeom (>= 0.2-14), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>=
+        1.1.0), RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.6-0), terra, testthat (>= 3.0.0), tibble (>=
+        1.4.1), tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk (>= 0.9.0)
+License: GPL-2 | MIT + file LICENSE
+File: sf_1.0-21_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/sf/releases/download/1.0-21/sf_1.0-21_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-05-24 16:47:15 UTC; unix
+Filesize: 9828520
+SHA256: 12e44b3e6b205f0a0f9ddd6f53a265057e0de8d97714591e273be005605209fc
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
+LinkingTo: Rcpp
