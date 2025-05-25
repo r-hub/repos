@@ -4270,24 +4270,6 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: sparsevctrs
-Version: 0.3.3
-Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
-Imports: cli (>= 3.4.0), rlang (>= 1.1.0), vctrs
-Suggests: knitr, Matrix, methods, rmarkdown, testthat (>= 3.0.0), tibble, withr
-License: MIT + file LICENSE
-File: sparsevctrs_0.3.3_b4_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/sparsevctrs/releases/download/0.3.3/sparsevctrs_0.3.3_b4_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-04-15 17:20:31 UTC; unix
-Filesize: 258739
-SHA256: 8671546cb5c78cdd762e8e00168b424bea54eb1e701bc16c132f838e3509d199
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: httpuv
 Version: 1.6.16
 Depends: R (>= 2.15.1), R (>= 4.6), R (< 4.6.99)
@@ -4392,25 +4374,6 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: pkgdown
-Version: 2.1.2
-Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
-Imports: bslib (>= 0.5.1), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.0), downlit (>= 0.4.4), fontawesome, fs (>= 1.4.0), httr2 (>= 1.0.2), jsonlite, openssl, purrr (>= 1.0.0), ragg (>= 1.4.0),
-        rlang (>= 1.1.4), rmarkdown (>= 2.27), tibble, whisker, withr (>= 2.4.3), xml2 (>= 1.3.1), yaml
-Suggests: covr, diffviewer, evaluate (>= 0.24.0), gert, gt, htmltools, htmlwidgets, knitr (>= 1.50), lifecycle, magick, methods, pkgload (>= 1.0.2), quarto, rsconnect, rstudioapi, rticles, sass,
-        testthat (>= 3.1.3), tools
-License: MIT + file LICENSE
-File: pkgdown_2.1.2_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/pkgdown/releases/download/2.1.2/pkgdown_2.1.2_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-Built: R 4.6.0; ; 2025-04-28 17:19:46 UTC; unix
-Filesize: 932499
-SHA256: 5bbe5566f528438ff3028a9ac2cfe1a89a92e91b5c365e2eac78868b0460975e
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc
 
 Package: pbkrtest
 Version: 0.5.4
@@ -4878,3 +4841,40 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
+
+Package: sparsevctrs
+Version: 0.3.4
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: cli (>= 3.4.0), rlang (>= 1.1.0), vctrs
+Suggests: knitr, Matrix, methods, rmarkdown, testthat (>= 3.0.0), tibble, withr
+License: MIT + file LICENSE
+File: sparsevctrs_0.3.4_b5_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/sparsevctrs/releases/download/0.3.4/sparsevctrs_0.3.4_b5_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-05-25 17:18:01 UTC; unix
+Filesize: 259055
+SHA256: 8b1adee443a8bdc8c86ce7074d9963c16bd27546d146d783b121a86cd34193cd
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: pkgdown
+Version: 2.1.3
+Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
+Imports: bslib (>= 0.5.1), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.0), downlit (>= 0.4.4), fontawesome, fs (>= 1.4.0), httr2 (>= 1.0.2), jsonlite, openssl, purrr (>= 1.0.0), ragg (>= 1.4.0),
+        rlang (>= 1.1.4), rmarkdown (>= 2.27), tibble, whisker, withr (>= 2.4.3), xml2 (>= 1.3.1), yaml
+Suggests: covr, diffviewer, evaluate (>= 0.24.0), gert, gt, htmltools, htmlwidgets, knitr (>= 1.50), lifecycle, magick, methods, pkgload (>= 1.0.2), quarto, rsconnect, rstudioapi, rticles, sass,
+        testthat (>= 3.1.3), tools
+License: MIT + file LICENSE
+File: pkgdown_2.1.3_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/pkgdown/releases/download/2.1.3/pkgdown_2.1.3_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.6.0; ; 2025-05-25 17:18:07 UTC; unix
+Filesize: 932845
+SHA256: 82fac5387c194c72a7372647f657e0d39f0b4714f7bb4a964fc5755e541e347f
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc
