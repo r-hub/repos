@@ -1505,24 +1505,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: parsnip
-Version: 1.3.1
-Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
-Imports: cli, dplyr (>= 1.1.0), generics (>= 0.1.2), ggplot2, globals, glue, hardhat (>= 1.4.1), lifecycle, magrittr, pillar, prettyunits, purrr (>= 1.0.0), rlang (>= 1.1.0), sparsevctrs (>= 0.2.0),
-        stats, tibble (>= 2.1.1), tidyr (>= 1.3.0), utils, vctrs (>= 0.6.0), withr
-Suggests: bench, C50, covr, dials (>= 1.1.0), earth, ggrepel, keras, kernlab, kknn, knitr, LiblineaR, MASS, Matrix, methods, mgcv, modeldata, nlme, prodlim, ranger (>= 0.12.0), remotes, rmarkdown,
-        rpart, sparklyr (>= 1.0.0), survival, tensorflow, testthat (>= 3.0.0), xgboost (>= 1.5.0.1)
-License: MIT + file LICENSE
-File: parsnip_1.3.1_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/parsnip/releases/download/1.3.1/parsnip_1.3.1_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:43:00 UTC; unix
-Filesize: 1579741
-SHA256: a047ba050195723c8df0c5207300304aa10f079b5d0478a226a48b1ea24e489b
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: patchwork
 Version: 1.3.0
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -1785,23 +1767,6 @@ DownloadURL: https://github.com/cran/workflows/releases/download/1.2.0/workflows
 Built: R 4.6.0; ; 2025-03-15 08:57:03 UTC; unix
 Filesize: 274409
 SHA256: 30568d1b5271b68fe6bfb128fd37f9597fd35f9c24feef490bb33d99b406bf71
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: workflowsets
-Version: 1.1.0
-Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
-Imports: cli, dplyr (>= 1.0.0), generics (>= 0.1.2), ggplot2, glue, hardhat (>= 1.2.0), lifecycle (>= 1.0.0), parsnip (>= 1.2.0), pillar (>= 1.7.0), prettyunits, purrr, rlang (>= 1.1.0), rsample (>=
-        0.0.9), stats, tibble (>= 3.1.0), tidyr, tune (>= 1.2.0), vctrs, withr, workflows (>= 1.1.4)
-Suggests: covr, dials (>= 0.1.0), finetune, kknn, knitr, modeldata, recipes (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tidyclust, yardstick (>= 1.3.0)
-License: MIT + file LICENSE
-File: workflowsets_1.1.0_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/workflowsets/releases/download/1.1.0/workflowsets_1.1.0_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:57:35 UTC; unix
-Filesize: 2873413
-SHA256: 906670829fd7427d35f0d14488c4825312f3147bb2092c5abff769541ac6031e
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
@@ -4878,3 +4843,38 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
+
+Package: parsnip
+Version: 1.3.2
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: cli, dplyr (>= 1.1.0), generics (>= 0.1.2), ggplot2, globals, glue, hardhat (>= 1.4.1), lifecycle, magrittr, pillar, prettyunits, purrr (>= 1.0.0), rlang (>= 1.1.0), sparsevctrs (>= 0.2.0),
+        stats, tibble (>= 2.1.1), tidyr (>= 1.3.0), utils, vctrs (>= 0.6.0), withr
+Suggests: bench, C50, covr, dials (>= 1.1.0), earth, ggrepel, keras, kernlab, kknn, knitr, LiblineaR, MASS, Matrix, methods, mgcv, modeldata, nlme, prodlim, ranger (>= 0.12.0), remotes, rmarkdown,
+        rpart, sparklyr (>= 1.0.0), survival, tensorflow, testthat (>= 3.0.0), xgboost (>= 1.5.0.1)
+License: MIT + file LICENSE
+File: parsnip_1.3.2_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/parsnip/releases/download/1.3.2/parsnip_1.3.2_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.6.0; ; 2025-05-28 17:17:28 UTC; unix
+Filesize: 1574069
+SHA256: 7f75910ba90c42f0b6d32efe59c7e671527024bd84190ce4d4e93e29d0bb8bf7
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: workflowsets
+Version: 1.1.1
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: cli, dplyr (>= 1.0.0), generics (>= 0.1.2), ggplot2, hardhat (>= 1.2.0), lifecycle (>= 1.0.0), parsnip (>= 1.2.1), pillar (>= 1.7.0), prettyunits, purrr, rlang (>= 1.1.0), rsample (>=
+        0.0.9), stats, tibble (>= 3.1.0), tidyr, tune (>= 1.2.0), vctrs, withr, workflows (>= 1.1.4)
+Suggests: covr, dials (>= 0.1.0), finetune, kknn, knitr, modeldata, recipes (>= 1.1.0), rmarkdown, spelling, testthat (>= 3.0.0), tidyclust, yardstick (>= 1.3.0)
+License: MIT + file LICENSE
+File: workflowsets_1.1.1_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/workflowsets/releases/download/1.1.1/workflowsets_1.1.1_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.6.0; ; 2025-05-28 17:17:41 UTC; unix
+Filesize: 2939690
+SHA256: 3c7d39c1020dfd4a7c9f1ebac54c3159c32017eeae77c7457d8d7111b728b8e1
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
