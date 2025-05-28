@@ -1789,23 +1789,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: workflowsets
-Version: 1.1.0
-Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
-Imports: cli, dplyr (>= 1.0.0), generics (>= 0.1.2), ggplot2, glue, hardhat (>= 1.2.0), lifecycle (>= 1.0.0), parsnip (>= 1.2.0), pillar (>= 1.7.0), prettyunits, purrr, rlang (>= 1.1.0), rsample (>=
-        0.0.9), stats, tibble (>= 3.1.0), tidyr, tune (>= 1.2.0), vctrs, withr, workflows (>= 1.1.4)
-Suggests: covr, dials (>= 0.1.0), finetune, kknn, knitr, modeldata, recipes (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tidyclust, yardstick (>= 1.3.0)
-License: MIT + file LICENSE
-File: workflowsets_1.1.0_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/workflowsets/releases/download/1.1.0/workflowsets_1.1.0_b1_R4.6_aarch64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-03-16 18:31:14 UTC; unix
-Filesize: 2837020
-SHA256: ba77c0746f6ce321e759c1d641d69afa517840ab62cd39d2e23309b0167eeb4d
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: yardstick
 Version: 1.3.2
 Depends: R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
@@ -4739,3 +4722,20 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
+
+Package: workflowsets
+Version: 1.1.1
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: cli, dplyr (>= 1.0.0), generics (>= 0.1.2), ggplot2, hardhat (>= 1.2.0), lifecycle (>= 1.0.0), parsnip (>= 1.2.1), pillar (>= 1.7.0), prettyunits, purrr, rlang (>= 1.1.0), rsample (>=
+        0.0.9), stats, tibble (>= 3.1.0), tidyr, tune (>= 1.2.0), vctrs, withr, workflows (>= 1.1.4)
+Suggests: covr, dials (>= 0.1.0), finetune, kknn, knitr, modeldata, recipes (>= 1.1.0), rmarkdown, spelling, testthat (>= 3.0.0), tidyclust, yardstick (>= 1.3.0)
+License: MIT + file LICENSE
+File: workflowsets_1.1.1_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/workflowsets/releases/download/1.1.1/workflowsets_1.1.1_b2_R4.6_aarch64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-05-28 17:40:07 UTC; unix
+Filesize: 2900305
+SHA256: 6330c48531a08b487ab6b85b4e82ad4298b62b90bfd65c52b734be8d16ecc6b3
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
