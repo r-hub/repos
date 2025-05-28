@@ -1505,24 +1505,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: parsnip
-Version: 1.3.1
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-Imports: cli, dplyr (>= 1.1.0), generics (>= 0.1.2), ggplot2, globals, glue, hardhat (>= 1.4.1), lifecycle, magrittr, pillar, prettyunits, purrr (>= 1.0.0), rlang (>= 1.1.0), sparsevctrs (>= 0.2.0),
-        stats, tibble (>= 2.1.1), tidyr (>= 1.3.0), utils, vctrs (>= 0.6.0), withr
-Suggests: bench, C50, covr, dials (>= 1.1.0), earth, ggrepel, keras, kernlab, kknn, knitr, LiblineaR, MASS, Matrix, methods, mgcv, modeldata, nlme, prodlim, ranger (>= 0.12.0), remotes, rmarkdown,
-        rpart, sparklyr (>= 1.0.0), survival, tensorflow, testthat (>= 3.0.0), xgboost (>= 1.5.0.1)
-License: MIT + file LICENSE
-File: parsnip_1.3.1_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/parsnip/releases/download/1.3.1/parsnip_1.3.1_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.0; ; 2025-03-16 01:21:28 UTC; unix
-Filesize: 1475088
-SHA256: d89bd81af751c4549e4e61a9c65ebc45cedb6d514675ed68a94f601fabcc2a40
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: patchwork
 Version: 1.3.0
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -1803,23 +1785,6 @@ DownloadURL: https://github.com/cran/workflows/releases/download/1.2.0/workflows
 Built: R 4.5.0; ; 2025-03-16 01:30:48 UTC; unix
 Filesize: 258613
 SHA256: f6f6b5c4dacb12f3fe9423bfe60ff086292377bbfbb607a9f3528dd7968e7f64
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: workflowsets
-Version: 1.1.0
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-Imports: cli, dplyr (>= 1.0.0), generics (>= 0.1.2), ggplot2, glue, hardhat (>= 1.2.0), lifecycle (>= 1.0.0), parsnip (>= 1.2.0), pillar (>= 1.7.0), prettyunits, purrr, rlang (>= 1.1.0), rsample (>=
-        0.0.9), stats, tibble (>= 3.1.0), tidyr, tune (>= 1.2.0), vctrs, withr, workflows (>= 1.1.4)
-Suggests: covr, dials (>= 0.1.0), finetune, kknn, knitr, modeldata, recipes (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tidyclust, yardstick (>= 1.3.0)
-License: MIT + file LICENSE
-File: workflowsets_1.1.0_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/workflowsets/releases/download/1.1.0/workflowsets_1.1.0_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.0; ; 2025-03-16 01:31:09 UTC; unix
-Filesize: 2833244
-SHA256: 030985710aa89a6163ec06aa63892a8ca7e575f81e8c713c4b310d5cd6f387ee
 RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4911,6 +4876,41 @@ Arch: arm64
 Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-05-26 18:44:30 UTC; unix
 Filesize: 3230380
 SHA256: 4678875e30e40c0c7e5887dea33b8ce1872849b06ff409dcf6f5af4306bf1b0f
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: parsnip
+Version: 1.3.2
+Depends: R (>= 4.1), R (>= 4.5), R (< 4.5.99)
+Imports: cli, dplyr (>= 1.1.0), generics (>= 0.1.2), ggplot2, globals, glue, hardhat (>= 1.4.1), lifecycle, magrittr, pillar, prettyunits, purrr (>= 1.0.0), rlang (>= 1.1.0), sparsevctrs (>= 0.2.0),
+        stats, tibble (>= 2.1.1), tidyr (>= 1.3.0), utils, vctrs (>= 0.6.0), withr
+Suggests: bench, C50, covr, dials (>= 1.1.0), earth, ggrepel, keras, kernlab, kknn, knitr, LiblineaR, MASS, Matrix, methods, mgcv, modeldata, nlme, prodlim, ranger (>= 0.12.0), remotes, rmarkdown,
+        rpart, sparklyr (>= 1.0.0), survival, tensorflow, testthat (>= 3.0.0), xgboost (>= 1.5.0.1)
+License: MIT + file LICENSE
+File: parsnip_1.3.2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/parsnip/releases/download/1.3.2/parsnip_1.3.2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.0; ; 2025-05-28 18:45:28 UTC; unix
+Filesize: 1471298
+SHA256: 6c2749037f6a4adb0eabd97a361dbdf28e45594862cd2259a8a83f936a34bbea
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: workflowsets
+Version: 1.1.1
+Depends: R (>= 4.1), R (>= 4.5), R (< 4.5.99)
+Imports: cli, dplyr (>= 1.0.0), generics (>= 0.1.2), ggplot2, hardhat (>= 1.2.0), lifecycle (>= 1.0.0), parsnip (>= 1.2.1), pillar (>= 1.7.0), prettyunits, purrr, rlang (>= 1.1.0), rsample (>=
+        0.0.9), stats, tibble (>= 3.1.0), tidyr, tune (>= 1.2.0), vctrs, withr, workflows (>= 1.1.4)
+Suggests: covr, dials (>= 0.1.0), finetune, kknn, knitr, modeldata, recipes (>= 1.1.0), rmarkdown, spelling, testthat (>= 3.0.0), tidyclust, yardstick (>= 1.3.0)
+License: MIT + file LICENSE
+File: workflowsets_1.1.1_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/workflowsets/releases/download/1.1.1/workflowsets_1.1.1_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.0; ; 2025-05-28 18:45:35 UTC; unix
+Filesize: 2896511
+SHA256: 70f6ebe2389cd7d4d2ce2d8a3e793eb4b4614fa60a3de954ab2fd3f4e459abe4
 RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
