@@ -585,26 +585,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli, glue, grid, lifecycle, rlang (>= 1.1.0), stats
 
-Package: haven
-Version: 2.5.4
-Depends: R (>= 3.6), R (>= 4.3), R (< 4.3.99)
-Suggests: covr, crayon, fs, knitr, pillar (>= 1.4.0), rmarkdown, testthat (>= 3.0.0), utf8
-License: MIT + file LICENSE
-File: haven_2.5.4_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/haven/releases/download/2.5.4/haven_2.5.4_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-03-15 12:00:38 UTC; unix
-Filesize: 1486315
-SHA256: c6a713c861815bb52827e79bf4def952c49d10e0e6740740ba1fa7ec8fc2a26b
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: cli (>= 3.0.0), forcats (>= 0.2.0), hms, lifecycle, methods, readr (>= 0.1.0), rlang (>= 0.4.0), tibble, tidyselect, vctrs (>= 0.3.0)
-SystemRequirements: GNU make, zlib: zlib1g-dev (deb), zlib-devel (rpm)
-LinkingTo: cpp11
-
 Package: highr
 Version: 0.11
 Depends: R (>= 3.3.0), R (>= 4.3), R (< 4.3.99)
@@ -2074,3 +2054,23 @@ Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: callr (>= 3.2.0), cli (>= 3.4.0), desc, processx, R6
+
+Package: haven
+Version: 2.5.5
+Depends: R (>= 3.6), R (>= 4.3), R (< 4.3.99)
+Suggests: covr, crayon, fs, knitr, pillar (>= 1.4.0), rmarkdown, testthat (>= 3.0.0), utf8
+License: MIT + file LICENSE
+File: haven_2.5.5_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/haven/releases/download/2.5.5/haven_2.5.5_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-05-31 14:44:32 UTC; unix
+Filesize: 1502498
+SHA256: 5402fe8d93a60a1cc8669c2407dcda4893f967217b6f87a266de1de6f5a2a7d3
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli (>= 3.0.0), forcats (>= 0.2.0), hms, lifecycle, methods, readr (>= 0.1.0), rlang (>= 0.4.0), tibble, tidyselect, vctrs (>= 0.3.0)
+SystemRequirements: GNU make, zlib: zlib1g-dev (deb), zlib-devel (rpm)
+LinkingTo: cpp11
