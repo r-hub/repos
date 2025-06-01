@@ -4408,25 +4408,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: RSQLite
-Version: 2.3.11
-Depends: R (>= 3.1.0), R (>= 4.6), R (< 4.6.99)
-Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
-Suggests: callr, cli, DBItest (>= 1.8.0), decor, gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
-License: LGPL (>= 2.1)
-File: RSQLite_2.3.11_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/RSQLite/releases/download/2.3.11/RSQLite_2.3.11_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-05-04 16:38:55 UTC; unix
-Filesize: 5354524
-SHA256: 8a8ba48dae005b6c431416e42cc0ee17403099bf2549537f895a7349fac49eac
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
-
 Package: parallelly
 Version: 1.44.0
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4878,3 +4859,22 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, zlib: zlib1g-dev (deb), zlib-devel (rpm)
 LinkingTo: cpp11
+
+Package: RSQLite
+Version: 2.4.0
+Depends: R (>= 3.1.0), R (>= 4.6), R (< 4.6.99)
+Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
+Suggests: callr, cli, DBItest (>= 1.8.0), decor, gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
+License: LGPL (>= 2.1)
+File: RSQLite_2.4.0_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/RSQLite/releases/download/2.4.0/RSQLite_2.4.0_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-06-01 16:41:55 UTC; unix
+Filesize: 5359634
+SHA256: 86439727eed8df7475c555a1808f953d4e689c444e59b4bb377bedfdc34c8e13
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
