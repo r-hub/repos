@@ -4269,25 +4269,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: RSQLite
-Version: 2.3.11
-Depends: R (>= 3.1.0), R (>= 4.6), R (< 4.6.99)
-Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
-Suggests: callr, cli, DBItest (>= 1.8.0), decor, gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
-License: LGPL (>= 2.1)
-File: RSQLite_2.3.11_b3_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/RSQLite/releases/download/2.3.11/RSQLite_2.3.11_b3_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-05-04 17:35:36 UTC; unix
-Filesize: 1372888
-SHA256: a265d76b1801dab7f6cb8f3d0ca6445f149df2ff95a3c735a69ba900401db9e2
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
-
 Package: parallelly
 Version: 1.44.0
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4320,26 +4301,6 @@ RVersion: 4.6
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: terra
-Version: 1.8-50
-Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
-Imports: methods, Rcpp (>= 1.0-10)
-Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
-License: GPL (>= 3)
-File: terra_1.8-50_b3_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/terra/releases/download/1.8-50/terra_1.8-50_b3_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-05-09 17:38:53 UTC; unix
-Filesize: 21985417
-SHA256: bd3dd92e24d22fc65669ca8c3e7620d138e2752d3656f16c7643da1485e9b56b
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), netcdf (>=4.1.3), TBB, sqlite3
-LinkingTo: Rcpp
 
 Package: future
 Version: 1.49.0
@@ -4739,3 +4700,42 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, zlib: zlib1g-dev (deb), zlib-devel (rpm)
 LinkingTo: cpp11
+
+Package: RSQLite
+Version: 2.4.0
+Depends: R (>= 3.1.0), R (>= 4.6), R (< 4.6.99)
+Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
+Suggests: callr, cli, DBItest (>= 1.8.0), decor, gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
+License: LGPL (>= 2.1)
+File: RSQLite_2.4.0_b4_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/RSQLite/releases/download/2.4.0/RSQLite_2.4.0_b4_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-06-01 17:37:51 UTC; unix
+Filesize: 1375792
+SHA256: 80d9554db614bcf86c37616ed7d8a50e55705fe6c9ccfd5e4f7567d366b21890
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
+
+Package: terra
+Version: 1.8-54
+Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
+Imports: methods, Rcpp (>= 1.0-10)
+Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
+License: GPL (>= 3)
+File: terra_1.8-54_b4_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/terra/releases/download/1.8-54/terra_1.8-54_b4_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-06-01 17:38:25 UTC; unix
+Filesize: 22048165
+SHA256: df253e7ce1387d0c93993a5ddac89cb5f67ba312b59e2d0740287c0214a53100
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
+LinkingTo: Rcpp
