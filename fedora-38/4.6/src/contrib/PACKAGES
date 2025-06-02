@@ -2809,26 +2809,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: glmnet
-Version: 4.1-8
-Depends: R (>= 3.6.0), Matrix (>= 1.0-6), R (>= 4.6), R (< 4.6.99)
-Imports: methods, utils, foreach, shape, survival, Rcpp
-Suggests: knitr, lars, testthat, xfun, rmarkdown
-License: GPL-2
-File: glmnet_4.1-8_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/glmnet/releases/download/4.1-8/glmnet_4.1-8_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 09:00:44 UTC; unix
-Filesize: 10573893
-SHA256: 885497aed32a8e215cedd620c54eae5c500c233d3d7da1a82297a99a9d28db92
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17
-LinkingTo: RcppEigen, Rcpp
-
 Package: gtools
 Version: 3.9.5
 Depends: methods, stats, utils, R (>= 4.6), R (< 4.6.99)
@@ -3443,22 +3423,6 @@ DownloadURL: https://github.com/cran/plogr/releases/download/0.2.0/plogr_0.2.0_b
 Built: R 4.6.0; ; 2025-03-15 08:34:37 UTC; unix
 Filesize: 14268
 SHA256: fcb91d6c35dbddbc8d7983458cb4284c189faf97841e3d1cbfaa8614464d02ed
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: tripack
-Version: 1.3-9.2
-Depends: R (>= 4.6), R (< 4.6.99)
-License: ACM | file LICENSE
-File: tripack_1.3-9.2_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/tripack/releases/download/1.3-9.2/tripack_1.3-9.2_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:34:39 UTC; unix
-Filesize: 260409
-SHA256: c39972eaf9ccb24e0492efc7f28005d2ddb0d8664a2588ffeb4b327ab829ddd6
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
@@ -4285,25 +4249,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: duckdb
-Version: 1.2.2
-Depends: DBI, R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
-Imports: methods, utils
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-License: MIT + file LICENSE
-File: duckdb_1.2.2_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.2.2/duckdb_1.2.2_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-04-29 17:17:20 UTC; unix
-Filesize: 244275854
-SHA256: 53346ce1c92940b2552ccf8efcf1ea886bf8088cfa3c967badf2c5e8eb862e0e
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: xz (for building from source)
-
 Package: textshaping
 Version: 1.0.1
 Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
@@ -4878,3 +4823,58 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
 LinkingTo: Rcpp
+
+Package: glmnet
+Version: 4.1-9
+Depends: R (>= 3.6.0), Matrix (>= 1.0-6), R (>= 4.6), R (< 4.6.99)
+Imports: methods, utils, foreach, shape, survival, Rcpp
+Suggests: knitr, lars, testthat, xfun, rmarkdown
+License: GPL-2
+File: glmnet_4.1-9_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/glmnet/releases/download/4.1-9/glmnet_4.1-9_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-06-02 17:17:55 UTC; unix
+Filesize: 10553225
+SHA256: b6bff68d3cf887017a8b280d4c295e4aa7687cf9ec4ce882539f29601d634d33
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17
+LinkingTo: RcppEigen, Rcpp
+
+Package: tripack
+Version: 1.3-9.3
+Depends: R (>= 4.6), R (< 4.6.99)
+License: file LICENSE
+File: tripack_1.3-9.3_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/tripack/releases/download/1.3-9.3/tripack_1.3-9.3_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-06-02 17:17:52 UTC; unix
+Filesize: 260581
+SHA256: 23725594879da0107fa8312786c7bedb6c2ffc63bc9a844792e630c50f1b17fa
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: duckdb
+Version: 1.3.0
+Depends: DBI, R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
+Imports: methods, utils
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+License: MIT + file LICENSE
+File: duckdb_1.3.0_b3_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.3.0/duckdb_1.3.0_b3_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-06-02 17:17:55 UTC; unix
+Filesize: 261751999
+SHA256: 5ff3f56821d25854dd53bea376f98df8ea6d489b0fb71ebf61c18c71281f3aa3
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: xz (for building from source)
