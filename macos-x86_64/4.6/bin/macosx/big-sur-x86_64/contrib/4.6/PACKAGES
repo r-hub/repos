@@ -2864,26 +2864,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: glmnet
-Version: 4.1-8
-Depends: R (>= 3.6.0), Matrix (>= 1.0-6), R (>= 4.6), R (< 4.6.99)
-Imports: methods, utils, foreach, shape, survival, Rcpp
-Suggests: knitr, lars, testthat, xfun, rmarkdown
-License: GPL-2
-File: glmnet_4.1-8_b1_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/glmnet/releases/download/4.1-8/glmnet_4.1-8_b1_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2025-03-16 19:22:13 UTC; unix
-Filesize: 2064074
-SHA256: 2a97c15722c6eeaec76bcfe272e95ba9cbdd4cd5e4735971410e3a859aa93e09
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17
-LinkingTo: RcppEigen, Rcpp
-
 Package: gtools
 Version: 3.9.5
 Depends: methods, stats, utils, R (>= 4.6), R (< 4.6.99)
@@ -3498,22 +3478,6 @@ DownloadURL: https://github.com/cran/plogr/releases/download/0.2.0/plogr_0.2.0_b
 Built: R 4.6.0; ; 2025-03-16 18:07:44 UTC; unix
 Filesize: 13762
 SHA256: 102cba930d7e5b7d048de85d81530c2832ad15d76b99bca0bfae6e46d2dd652b
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: tripack
-Version: 1.3-9.2
-Depends: R (>= 4.6), R (< 4.6.99)
-License: ACM | file LICENSE
-File: tripack_1.3-9.2_b1_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/tripack/releases/download/1.3-9.2/tripack_1.3-9.2_b1_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2025-03-16 18:07:45 UTC; unix
-Filesize: 201321
-SHA256: d81c5ae5e1b5e8cdbdf22171fe1482f0af2d6e55adadfabae0669daea83c5005
 RVersion: 4.6
 Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
@@ -4265,25 +4229,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: duckdb
-Version: 1.2.2
-Depends: DBI, R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
-Imports: methods, utils
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-License: MIT + file LICENSE
-File: duckdb_1.2.2_b2_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.2.2/duckdb_1.2.2_b2_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2025-04-29 17:38:44 UTC; unix
-Filesize: 13758035
-SHA256: ff0e85d130a7fc5c87ebf222fecc76b8b63524c2af4b33c07f2dc1eb159caf07
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: xz (for building from source)
-
 Package: textshaping
 Version: 1.0.1
 Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
@@ -4858,3 +4803,58 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
 LinkingTo: Rcpp
+
+Package: glmnet
+Version: 4.1-9
+Depends: R (>= 3.6.0), Matrix (>= 1.0-6), R (>= 4.6), R (< 4.6.99)
+Imports: methods, utils, foreach, shape, survival, Rcpp
+Suggests: knitr, lars, testthat, xfun, rmarkdown
+License: GPL-2
+File: glmnet_4.1-9_b2_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/glmnet/releases/download/4.1-9/glmnet_4.1-9_b2_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-06-02 17:41:17 UTC; unix
+Filesize: 2040558
+SHA256: 89955941639d829bb627bdf8a13448ff303ac02932789f40b232e644f6226d61
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17
+LinkingTo: RcppEigen, Rcpp
+
+Package: tripack
+Version: 1.3-9.3
+Depends: R (>= 4.6), R (< 4.6.99)
+License: file LICENSE
+File: tripack_1.3-9.3_b2_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/tripack/releases/download/1.3-9.3/tripack_1.3-9.3_b2_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-06-02 17:41:07 UTC; unix
+Filesize: 201610
+SHA256: 1a4ee51ac662e156227dded24c7ecaa5baa7933ea637cb867ffc53e3ec39b366
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: duckdb
+Version: 1.3.0
+Depends: DBI, R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
+Imports: methods, utils
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+License: MIT + file LICENSE
+File: duckdb_1.3.0_b3_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.3.0/duckdb_1.3.0_b3_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-06-02 17:42:38 UTC; unix
+Filesize: 14214774
+SHA256: fbb4e61e7ab82b4784076fff8164a85ef0db38601e275aef2edb153a614154ea
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: xz (for building from source)
