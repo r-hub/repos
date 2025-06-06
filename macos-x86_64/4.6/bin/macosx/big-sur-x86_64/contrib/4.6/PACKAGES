@@ -1239,22 +1239,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: future.apply
-Version: 1.11.3
-Depends: R (>= 3.2.0), future (>= 1.28.0), R (>= 4.6), R (< 4.6.99)
-Imports: globals (>= 0.16.1), parallel, utils
-Suggests: datasets, stats, tools, listenv (>= 0.8.0), R.rsp, markdown
-License: GPL (>= 2)
-File: future.apply_1.11.3_b1_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/future.apply/releases/download/1.11.3/future.apply_1.11.3_b1_R4.6_x86_64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-03-16 19:19:05 UTC; unix
-Filesize: 157608
-SHA256: 743dd7aba4406a250312a27b2491fa0704444bcab714fd5cac9f86dc414edab5
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: gower
 Version: 1.0.2
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4476,22 +4460,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: doFuture
-Version: 1.1.0
-Depends: foreach (>= 1.5.0), future (>= 1.49.0), R (>= 4.6), R (< 4.6.99)
-Imports: future.apply, globals, iterators, parallel, utils
-Suggests: doRNG (>= 1.8.2), markdown, R.rsp
-License: LGPL (>= 2.1)
-File: doFuture_1.1.0_b2_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/doFuture/releases/download/1.1.0/doFuture_1.1.0_b2_R4.6_x86_64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-05-22 17:38:48 UTC; unix
-Filesize: 168547
-SHA256: 6a8b25a7946ba0b18951e791367889888869657eba508d6417282edcb0eab345
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: s2
 Version: 1.1.9
 Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
@@ -4511,24 +4479,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: cmake, OpenSSL >= 1.0.1, Abseil >= 20230802.0
 LinkingTo: Rcpp, wk
-
-Package: curl
-Version: 6.2.3
-Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
-License: MIT + file LICENSE
-File: curl_6.2.3_b3_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/curl/releases/download/6.2.3/curl_6.2.3_b3_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2025-05-24 17:36:15 UTC; unix
-Filesize: 3133664
-SHA256: ac2e548ded04f96a5b159a671317b9779a1b7ee82af1c1f5dc8a9bfecbe06201
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
 
 Package: sparsevctrs
 Version: 0.3.4
@@ -4858,3 +4808,53 @@ RVersion: 4.6
 Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: future.apply
+Version: 1.20.0
+Depends: R (>= 3.2.0), future (>= 1.49.0), R (>= 4.6), R (< 4.6.99)
+Imports: globals, parallel, utils
+Suggests: datasets, stats, tools, listenv, R.rsp, markdown
+License: GPL (>= 2)
+File: future.apply_1.20.0_b2_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/future.apply/releases/download/1.20.0/future.apply_1.20.0_b2_R4.6_x86_64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-06-06 17:40:51 UTC; unix
+Filesize: 191870
+SHA256: 58918f3285643334ccb3f5a2807a58622d914d667580b957154bc038048d42e1
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: doFuture
+Version: 1.1.1
+Depends: foreach (>= 1.5.0), future (>= 1.49.0), R (>= 4.6), R (< 4.6.99)
+Imports: future.apply, globals, iterators, parallel, utils
+Suggests: doRNG (>= 1.8.2), markdown, R.rsp
+License: LGPL (>= 2.1)
+File: doFuture_1.1.1_b3_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/doFuture/releases/download/1.1.1/doFuture_1.1.1_b3_R4.6_x86_64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-06-06 17:40:54 UTC; unix
+Filesize: 173553
+SHA256: fc5db726283c34fb9f4659503b84c2166308bd7ba71307b3d9189cd7394d1484
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: curl
+Version: 6.3.0
+Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+License: MIT + file LICENSE
+File: curl_6.3.0_b4_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/curl/releases/download/6.3.0/curl_6.3.0_b4_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-06-06 17:40:32 UTC; unix
+Filesize: 1142958
+SHA256: 5f2612cef05cf3d26dc07a18a4446e4ab777df6000387426d8019077b7d45187
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
