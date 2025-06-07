@@ -1984,24 +1984,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: methods
 
-Package: curl
-Version: 6.2.3
-Depends: R (>= 3.0.0), R (>= 4.3), R (< 4.3.99)
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
-License: MIT + file LICENSE
-File: curl_6.2.3_b3_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/curl/releases/download/6.2.3/curl_6.2.3_b3_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-05-24 14:43:40 UTC; unix
-Filesize: 865271
-SHA256: 6b874378000f52aae29ff1444c0b1927bd472dbf0753a9fd2abf39c96a5693eb
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
-
 Package: openssl
 Version: 2.3.3
 Depends: R (>= 4.3), R (< 4.3.99)
@@ -2074,3 +2056,21 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli (>= 3.0.0), forcats (>= 0.2.0), hms, lifecycle, methods, readr (>= 0.1.0), rlang (>= 0.4.0), tibble, tidyselect, vctrs (>= 0.3.0)
 SystemRequirements: GNU make, zlib: zlib1g-dev (deb), zlib-devel (rpm)
 LinkingTo: cpp11
+
+Package: curl
+Version: 6.3.0
+Depends: R (>= 3.0.0), R (>= 4.3), R (< 4.3.99)
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+License: MIT + file LICENSE
+File: curl_6.3.0_b4_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/curl/releases/download/6.3.0/curl_6.3.0_b4_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-06-07 14:44:54 UTC; unix
+Filesize: 871618
+SHA256: a561db2888d5434587ca879e73542fd04ae85afdc2e2fe0962c7e47b04d630e4
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
