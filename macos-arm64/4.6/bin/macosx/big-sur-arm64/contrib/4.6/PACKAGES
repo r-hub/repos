@@ -849,25 +849,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: tibble
-Version: 3.2.1
-Depends: R (>= 3.4.0), R (>= 4.6), R (< 4.6.99)
-Imports: fansi (>= 0.4.0), lifecycle (>= 1.0.0), magrittr, methods, pillar (>= 1.8.1), pkgconfig, rlang (>= 1.0.2), utils, vctrs (>= 0.4.2)
-Suggests: bench, bit64, blob, brio, callr, cli, covr, crayon (>= 1.3.4), DiagrammeR, dplyr, evaluate, formattable, ggplot2, here, hms, htmltools, knitr, lubridate, mockr, nycflights13, pkgbuild,
-        pkgload, purrr, rmarkdown, stringi, testthat (>= 3.0.2), tidyr, withr
-License: MIT + file LICENSE
-File: tibble_3.2.1_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/tibble/releases/download/3.2.1/tibble_3.2.1_b1_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-03-16 18:06:46 UTC; unix
-Filesize: 677636
-SHA256: 98cc6a803af01f34c7cb66be5136ef7988363eba03c3902eefddead9b88a583b
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: urlchecker
 Version: 1.0.1
 Depends: R (>= 3.3), R (>= 4.6), R (< 4.6.99)
@@ -4562,25 +4543,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, zlib: zlib1g-dev (deb), zlib-devel (rpm)
 LinkingTo: cpp11
 
-Package: RSQLite
-Version: 2.4.0
-Depends: R (>= 3.1.0), R (>= 4.6), R (< 4.6.99)
-Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
-Suggests: callr, cli, DBItest (>= 1.8.0), decor, gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
-License: LGPL (>= 2.1)
-File: RSQLite_2.4.0_b4_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/RSQLite/releases/download/2.4.0/RSQLite_2.4.0_b4_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-06-01 17:37:51 UTC; unix
-Filesize: 1375792
-SHA256: 80d9554db614bcf86c37616ed7d8a50e55705fe6c9ccfd5e4f7567d366b21890
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
-
 Package: terra
 Version: 1.8-54
 Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
@@ -4739,3 +4701,41 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libcurl (>= 7.62): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
+
+Package: tibble
+Version: 3.3.0
+Depends: R (>= 3.4.0), R (>= 4.6), R (< 4.6.99)
+Imports: cli, lifecycle (>= 1.0.0), magrittr, methods, pillar (>= 1.8.1), pkgconfig, rlang (>= 1.0.2), utils, vctrs (>= 0.5.0)
+Suggests: bench, bit64, blob, brio, callr, DiagrammeR, dplyr, evaluate, formattable, ggplot2, here, hms, htmltools, knitr, lubridate, nycflights13, pkgload, purrr, rmarkdown, stringi, testthat (>=
+        3.0.2), tidyr, withr
+License: MIT + file LICENSE
+File: tibble_3.3.0_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/tibble/releases/download/3.3.0/tibble_3.3.0_b2_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-06-08 17:37:05 UTC; unix
+Filesize: 679533
+SHA256: 6762cd976eef5d65834931302b79122c159ad42cc7d1caeb4dbd7efa1d80ac4f
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: RSQLite
+Version: 2.4.1
+Depends: R (>= 3.1.0), R (>= 4.6), R (< 4.6.99)
+Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
+Suggests: callr, cli, DBItest (>= 1.8.0), decor, gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
+License: LGPL (>= 2.1)
+File: RSQLite_2.4.1_b5_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/RSQLite/releases/download/2.4.1/RSQLite_2.4.1_b5_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-06-08 17:37:09 UTC; unix
+Filesize: 1376024
+SHA256: 35a6fdab4b8b0da8dc97fa059c85a61278e7ceaf3a0149c601459d519b79b814
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
