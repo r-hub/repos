@@ -2460,22 +2460,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: Deriv
-Version: 4.1.6
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: methods
-Suggests: testthat (>= 0.11.0)
-License: GPL (>= 3)
-File: Deriv_4.1.6_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/Deriv/releases/download/4.1.6/Deriv_4.1.6_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:33:18 UTC; unix
-Filesize: 150386
-SHA256: ea94ac3f53432d1ea827a5b5686a5c63e7eb1f9c675e6adb44b72a3222154a10
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: microbenchmark
 Version: 1.5.0
 Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
@@ -2804,24 +2788,6 @@ Arch: amd64
 Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:34:02 UTC; unix
 Filesize: 733997
 SHA256: 7a54118a299737e85fc88ba322482f36029932de794795dd3365904438d9382e
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: plotly
-Version: 4.10.4
-Depends: R (>= 3.2.0), ggplot2 (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
-Imports: tools, scales, httr (>= 1.3.0), jsonlite (>= 1.6), magrittr, digest, viridisLite, base64enc, htmltools (>= 0.3.6), htmlwidgets (>= 1.5.2.9001), tidyr (>= 1.0.0), RColorBrewer, dplyr, vctrs,
-        tibble, lazyeval (>= 0.2.0), rlang (>= 0.4.10), crosstalk, purrr, data.table, promises
-Suggests: MASS, maps, hexbin, ggthemes, GGally, ggalluvial, testthat, knitr, shiny (>= 1.1.0), shinytest (>= 1.3.0), curl, rmarkdown, Cairo, broom, webshot, listviewer, dendextend, sf, png,
-        IRdisplay, processx, plotlyGeoAssets, forcats, withr, palmerpenguins, rversions, reticulate, rsvg
-License: MIT + file LICENSE
-File: plotly_4.10.4_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/plotly/releases/download/4.10.4/plotly_4.10.4_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:56:15 UTC; unix
-Filesize: 3174427
-SHA256: ca5a51d6157d00846ce6c93fbe39a6596205ca546b261cfe6ed4de1bc5665711
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4878,3 +4844,37 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
+
+Package: Deriv
+Version: 4.2.0
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: methods
+Suggests: testthat (>= 0.11.0)
+License: GPL (>= 3)
+File: Deriv_4.2.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/Deriv/releases/download/4.2.0/Deriv_4.2.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.6.0; ; 2025-06-20 16:43:32 UTC; unix
+Filesize: 153141
+SHA256: 78297655e89705119edf4ba69989bf7b63d516b663f2e274705c2df89b23de0b
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: plotly
+Version: 4.11.0
+Depends: R (>= 3.2.0), ggplot2 (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
+Imports: tools, scales, httr (>= 1.3.0), jsonlite (>= 1.6), magrittr, digest, viridisLite, base64enc, htmltools (>= 0.3.6), htmlwidgets (>= 1.5.2.9001), tidyr (>= 1.0.0), RColorBrewer, dplyr, vctrs,
+        tibble, lazyeval (>= 0.2.0), rlang (>= 1.0.0), crosstalk, purrr, data.table, promises
+Suggests: MASS, maps, hexbin, ggthemes, GGally, ggalluvial, testthat, knitr, shiny (>= 1.1.0), shinytest2, curl, rmarkdown, Cairo, broom, webshot, listviewer, dendextend, sf, png, IRdisplay,
+        processx, plotlyGeoAssets, forcats, withr, palmerpenguins, rversions, reticulate, rsvg, ggridges
+License: MIT + file LICENSE
+File: plotly_4.11.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/plotly/releases/download/4.11.0/plotly_4.11.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.6.0; ; 2025-06-20 16:43:37 UTC; unix
+Filesize: 3855116
+SHA256: 4832b9e73d9a61aef8c8fe93e8fbbcf942b05fe7c042aae3987321e3771f5be4
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
