@@ -2478,22 +2478,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: Deriv
-Version: 4.1.6
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: methods
-Suggests: testthat (>= 0.11.0)
-License: GPL (>= 3)
-File: Deriv_4.1.6_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/Deriv/releases/download/4.1.6/Deriv_4.1.6_b1_R4.6_aarch64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-03-16 17:58:20 UTC; unix
-Filesize: 150671
-SHA256: 0ffbcb3d02ff4d4b680e64820a3638325565dff4bfbc4eaf3ce788ea9faf28f7
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: microbenchmark
 Version: 1.5.0
 Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
@@ -2806,24 +2790,6 @@ Arch: arm64
 Built: R 4.6.0; aarch64-apple-darwin20; 2025-03-16 17:58:47 UTC; unix
 Filesize: 451577
 SHA256: 1b5371e5c4406029a7730811e9d3e0250267faf56775be8e9acf18854acf6182
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: plotly
-Version: 4.10.4
-Depends: R (>= 3.2.0), ggplot2 (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
-Imports: tools, scales, httr (>= 1.3.0), jsonlite (>= 1.6), magrittr, digest, viridisLite, base64enc, htmltools (>= 0.3.6), htmlwidgets (>= 1.5.2.9001), tidyr (>= 1.0.0), RColorBrewer, dplyr, vctrs,
-        tibble, lazyeval (>= 0.2.0), rlang (>= 0.4.10), crosstalk, purrr, data.table, promises
-Suggests: MASS, maps, hexbin, ggthemes, GGally, ggalluvial, testthat, knitr, shiny (>= 1.1.0), shinytest (>= 1.3.0), curl, rmarkdown, Cairo, broom, webshot, listviewer, dendextend, sf, png,
-        IRdisplay, processx, plotlyGeoAssets, forcats, withr, palmerpenguins, rversions, reticulate, rsvg
-License: MIT + file LICENSE
-File: plotly_4.10.4_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/plotly/releases/download/4.10.4/plotly_4.10.4_b1_R4.6_aarch64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-03-16 18:31:36 UTC; unix
-Filesize: 3182576
-SHA256: 08a94901a11d21648fa6773881bb85c131b674063dc79ea0a097190cebb29684
 RVersion: 4.6
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
@@ -4739,3 +4705,37 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
+
+Package: Deriv
+Version: 4.2.0
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: methods
+Suggests: testthat (>= 0.11.0)
+License: GPL (>= 3)
+File: Deriv_4.2.0_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/Deriv/releases/download/4.2.0/Deriv_4.2.0_b2_R4.6_aarch64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-06-20 17:40:03 UTC; unix
+Filesize: 153399
+SHA256: ea656b071280d22de5232a1634a93f4ff28333ef8b914641006ab1d8a9a0a8a2
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: plotly
+Version: 4.11.0
+Depends: R (>= 3.2.0), ggplot2 (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
+Imports: tools, scales, httr (>= 1.3.0), jsonlite (>= 1.6), magrittr, digest, viridisLite, base64enc, htmltools (>= 0.3.6), htmlwidgets (>= 1.5.2.9001), tidyr (>= 1.0.0), RColorBrewer, dplyr, vctrs,
+        tibble, lazyeval (>= 0.2.0), rlang (>= 1.0.0), crosstalk, purrr, data.table, promises
+Suggests: MASS, maps, hexbin, ggthemes, GGally, ggalluvial, testthat, knitr, shiny (>= 1.1.0), shinytest2, curl, rmarkdown, Cairo, broom, webshot, listviewer, dendextend, sf, png, IRdisplay,
+        processx, plotlyGeoAssets, forcats, withr, palmerpenguins, rversions, reticulate, rsvg, ggridges
+License: MIT + file LICENSE
+File: plotly_4.11.0_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/plotly/releases/download/4.11.0/plotly_4.11.0_b2_R4.6_aarch64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-06-20 17:40:37 UTC; unix
+Filesize: 3863557
+SHA256: 203038eb0998f7405aca5cc7313c7b0cdd833f0a97d035f0889c1d4b3b5f6508
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
