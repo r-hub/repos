@@ -2460,22 +2460,6 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: Deriv
-Version: 4.1.6
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: methods
-Suggests: testthat (>= 0.11.0)
-License: GPL (>= 3)
-File: Deriv_4.1.6_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/Deriv/releases/download/4.1.6/Deriv_4.1.6_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:41:01 UTC; unix
-Filesize: 154392
-SHA256: 9225346a444d1fd2db3ca1fcebdb0ba2384913c95323418815cf2fa3a3344fcc
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: microbenchmark
 Version: 1.5.0
 Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
@@ -2804,24 +2788,6 @@ Arch: amd64
 Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:41:42 UTC; unix
 Filesize: 800681
 SHA256: a4775528e70a590d6433674feda974528b32ffaebc988a7a0bf5a91bad059092
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: plotly
-Version: 4.10.4
-Depends: R (>= 3.2.0), ggplot2 (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
-Imports: tools, scales, httr (>= 1.3.0), jsonlite (>= 1.6), magrittr, digest, viridisLite, base64enc, htmltools (>= 0.3.6), htmlwidgets (>= 1.5.2.9001), tidyr (>= 1.0.0), RColorBrewer, dplyr, vctrs,
-        tibble, lazyeval (>= 0.2.0), rlang (>= 0.4.10), crosstalk, purrr, data.table, promises
-Suggests: MASS, maps, hexbin, ggthemes, GGally, ggalluvial, testthat, knitr, shiny (>= 1.1.0), shinytest (>= 1.3.0), curl, rmarkdown, Cairo, broom, webshot, listviewer, dendextend, sf, png,
-        IRdisplay, processx, plotlyGeoAssets, forcats, withr, palmerpenguins, rversions, reticulate, rsvg
-License: MIT + file LICENSE
-File: plotly_4.10.4_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/plotly/releases/download/4.10.4/plotly_4.10.4_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-Built: R 4.6.0; ; 2025-03-15 09:08:37 UTC; unix
-Filesize: 3235370
-SHA256: 8e58cd2c4a4d6e1aa13af051a905a96302040858cce8955e15cda4dc55f23643
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
@@ -4878,3 +4844,37 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
+
+Package: Deriv
+Version: 4.2.0
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: methods
+Suggests: testthat (>= 0.11.0)
+License: GPL (>= 3)
+File: Deriv_4.2.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/Deriv/releases/download/4.2.0/Deriv_4.2.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.6.0; ; 2025-06-20 17:20:42 UTC; unix
+Filesize: 157999
+SHA256: f8dd0de20be72c32dfa3d64457aebe98eafee74c59454692a15270c06eddc7dc
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: plotly
+Version: 4.11.0
+Depends: R (>= 3.2.0), ggplot2 (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
+Imports: tools, scales, httr (>= 1.3.0), jsonlite (>= 1.6), magrittr, digest, viridisLite, base64enc, htmltools (>= 0.3.6), htmlwidgets (>= 1.5.2.9001), tidyr (>= 1.0.0), RColorBrewer, dplyr, vctrs,
+        tibble, lazyeval (>= 0.2.0), rlang (>= 1.0.0), crosstalk, purrr, data.table, promises
+Suggests: MASS, maps, hexbin, ggthemes, GGally, ggalluvial, testthat, knitr, shiny (>= 1.1.0), shinytest2, curl, rmarkdown, Cairo, broom, webshot, listviewer, dendextend, sf, png, IRdisplay,
+        processx, plotlyGeoAssets, forcats, withr, palmerpenguins, rversions, reticulate, rsvg, ggridges
+License: MIT + file LICENSE
+File: plotly_4.11.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/plotly/releases/download/4.11.0/plotly_4.11.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.6.0; ; 2025-06-20 17:20:50 UTC; unix
+Filesize: 3894608
+SHA256: 21e1bcd176cbfd55f39736467bd7c7b194c58e8cfb0cdabe9a2100d49704cb5e
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
