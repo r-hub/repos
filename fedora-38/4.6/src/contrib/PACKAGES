@@ -3897,22 +3897,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Pandoc (>= 1.17.2)
 
-Package: infer
-Version: 1.0.8
-Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
-Imports: broom, cli, dplyr (>= 0.7.0), generics, ggplot2 (>= 3.5.2), glue (>= 1.3.0), grDevices, lifecycle, magrittr, methods, patchwork, purrr, rlang (>= 0.2.0), tibble, tidyr, vctrs (>= 0.6.5)
-Suggests: covr, devtools (>= 1.12.0), fs, knitr, nycflights13, parsnip, rmarkdown, stringr, testthat (>= 3.0.0), vdiffr (>= 1.0.0)
-License: MIT + file LICENSE
-File: infer_1.0.8_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/infer/releases/download/1.0.8/infer_1.0.8_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.6.0; ; 2025-04-15 17:17:19 UTC; unix
-Filesize: 2136595
-SHA256: 6b5e3d2a6a88407dd2d51a65eea1d84179cd98c9935ec0a8e08c8433cd0eb28f
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: httpuv
 Version: 1.6.16
 Depends: R (>= 2.15.1), R (>= 4.6), R (< 4.6.99)
@@ -4878,3 +4862,19 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: waldo
 SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
         (optional), libpng (>=1.2.9, optional), FreeType (optional), pandoc (>=1.14, needed for vignettes)
+
+Package: infer
+Version: 1.0.9
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: broom, cli, dplyr (>= 0.7.0), generics, ggplot2 (>= 3.5.2), glue (>= 1.3.0), grDevices, lifecycle, magrittr, methods, patchwork, purrr, rlang (>= 0.2.0), tibble, tidyr, vctrs (>= 0.6.5)
+Suggests: covr, devtools (>= 1.12.0), fs, knitr, nycflights13, parsnip, rmarkdown, stringr, testthat (>= 3.0.0), vdiffr (>= 1.0.0)
+License: MIT + file LICENSE
+File: infer_1.0.9_b3_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/infer/releases/download/1.0.9/infer_1.0.9_b3_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.6.0; ; 2025-06-27 17:17:31 UTC; unix
+Filesize: 2137070
+SHA256: 857a97fab479bf4c124ac590f1fbc56d6df5799cec1c775eb5730dedf1042a0c
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
