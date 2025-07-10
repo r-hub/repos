@@ -565,25 +565,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: purrr
-Version: 1.0.4
-Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
-Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), magrittr (>= 1.5.0), rlang (>= 1.1.1), vctrs (>= 0.6.3)
-Suggests: covr, dplyr (>= 0.7.8), httr, knitr, lubridate, rmarkdown, testthat (>= 3.0.0), tibble, tidyselect
-License: MIT + file LICENSE
-File: purrr_1.0.4_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/purrr/releases/download/1.0.4/purrr_1.0.4_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-16 09:05:23 UTC; unix
-Filesize: 574007
-SHA256: 15aa4647de75b28257c42254bb540a0afd809a4c6c92f451a31728314e4923cf
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cli
-
 Package: R6
 Version: 2.6.1
 Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
@@ -4619,24 +4600,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make
 
-Package: data.table
-Version: 1.17.6
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-Imports: methods
-Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
-License: MPL-2.0 | file LICENSE
-File: data.table_1.17.6_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/data.table/releases/download/1.17.6/data.table_1.17.6_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.1; aarch64-unknown-linux-gnu; 2025-06-17 23:22:21 UTC; unix
-Filesize: 3241728
-SHA256: df92a600b43ee6db545bb179d3d1425c2c2b68e979e112343b22d778f791bd30
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: evaluate
 Version: 1.0.4
 Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
@@ -4915,3 +4878,40 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: xz (for building from source)
+
+Package: purrr
+Version: 1.1.0
+Depends: R (>= 4.1), R (>= 4.5), R (< 4.5.99)
+Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), magrittr (>= 1.5.0), rlang (>= 1.1.1), vctrs (>= 0.6.3)
+Suggests: carrier (>= 0.2.0), covr, dplyr (>= 0.7.8), httr, knitr, lubridate, mirai (>= 2.4.0), rmarkdown, testthat (>= 3.0.0), tibble, tidyselect
+License: MIT + file LICENSE
+File: purrr_1.1.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/purrr/releases/download/1.1.0/purrr_1.1.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.1; aarch64-unknown-linux-gnu; 2025-07-10 23:23:15 UTC; unix
+Filesize: 590761
+SHA256: 63432db4eddd6ee25a144a153b49888a402aba67cc1135e05adebb2f57ca28d4
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cli
+
+Package: data.table
+Version: 1.17.8
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+Imports: methods
+Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
+License: MPL-2.0 | file LICENSE
+File: data.table_1.17.8_b5_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/data.table/releases/download/1.17.8/data.table_1.17.8_b5_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.1; aarch64-unknown-linux-gnu; 2025-07-10 23:23:15 UTC; unix
+Filesize: 3211202
+SHA256: b349f5cf9b69f3e5c070a98a3ad2f53ed232fef72b211df287595a575910a5cb
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
