@@ -565,25 +565,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: purrr
-Version: 1.0.4
-Depends: R (>= 4.0), R (>= 4.6), R (< 4.6.99)
-Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), magrittr (>= 1.5.0), rlang (>= 1.1.1), vctrs (>= 0.6.3)
-Suggests: covr, dplyr (>= 0.7.8), httr, knitr, lubridate, rmarkdown, testthat (>= 3.0.0), tibble, tidyselect
-License: MIT + file LICENSE
-File: purrr_1.0.4_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/purrr/releases/download/1.0.4/purrr_1.0.4_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:37:55 UTC; unix
-Filesize: 576979
-SHA256: 42e1fb362c8deaa4b35876aa797b68631b046502eeaf5d2ea4f54775218def65
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cli
-
 Package: R6
 Version: 2.6.1
 Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
@@ -863,22 +844,6 @@ Arch: amd64
 Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:29:07 UTC; unix
 Filesize: 2260572
 SHA256: cb35bfa44861ea97f99abc3eaad9e1be2e9971890e9ffbfefe00fcd78e02d223
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: waldo
-Version: 0.6.1
-Depends: R (>= 4.0), R (>= 4.6), R (< 4.6.99)
-Imports: cli, diffobj (>= 0.3.4), glue, methods, rlang (>= 1.1.0)
-Suggests: bit64, R6, S7, testthat (>= 3.0.0), withr, xml2
-License: MIT + file LICENSE
-File: waldo_0.6.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/waldo/releases/download/0.6.1/waldo_0.6.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:36:56 UTC; unix
-Filesize: 133921
-SHA256: ab739234a87cc50653b5003109716463034f89daf1efafd8a464b05b6df36e2c
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4878,3 +4843,38 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: xz (for building from source)
+
+Package: purrr
+Version: 1.1.0
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), magrittr (>= 1.5.0), rlang (>= 1.1.1), vctrs (>= 0.6.3)
+Suggests: carrier (>= 0.2.0), covr, dplyr (>= 0.7.8), httr, knitr, lubridate, mirai (>= 2.4.0), rmarkdown, testthat (>= 3.0.0), tibble, tidyselect
+License: MIT + file LICENSE
+File: purrr_1.1.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/purrr/releases/download/1.1.0/purrr_1.1.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-07-11 16:44:42 UTC; unix
+Filesize: 594175
+SHA256: 359fba7639ccae385fe14af0084be91b4babdccd10258284d013a87e4790018d
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cli
+
+Package: waldo
+Version: 0.6.2
+Depends: R (>= 4.0), R (>= 4.6), R (< 4.6.99)
+Imports: cli, diffobj (>= 0.3.4), glue, methods, rlang (>= 1.1.0)
+Suggests: bit64, R6, S7, testthat (>= 3.0.0), withr, xml2
+License: MIT + file LICENSE
+File: waldo_0.6.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/waldo/releases/download/0.6.2/waldo_0.6.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.6.0; ; 2025-07-11 16:44:42 UTC; unix
+Filesize: 135882
+SHA256: 72237c22626aff93fc1c47361b4f06c1b1a70214622c3c0b92b73d75fe58eebe
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
