@@ -564,25 +564,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: purrr
-Version: 1.0.4
-Depends: R (>= 4.0), R (>= 4.6), R (< 4.6.99)
-Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), magrittr (>= 1.5.0), rlang (>= 1.1.1), vctrs (>= 0.6.3)
-Suggests: covr, dplyr (>= 0.7.8), httr, knitr, lubridate, rmarkdown, testthat (>= 3.0.0), tibble, tidyselect
-License: MIT + file LICENSE
-File: purrr_1.0.4_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/purrr/releases/download/1.0.4/purrr_1.0.4_b1_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-03-16 18:05:40 UTC; unix
-Filesize: 541088
-SHA256: 28bedbc47242bba51586127d76e13aad4169dad93b5cf2b8a80ba145d9d858e2
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cli
-
 Package: R6
 Version: 2.6.1
 Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
@@ -862,22 +843,6 @@ Arch: arm64
 Built: R 4.6.0; aarch64-apple-darwin20; 2025-03-16 17:53:59 UTC; unix
 Filesize: 1310900
 SHA256: 8546fe6fab9b8982b4e8022503853b4e486d6f99e03235dec08a606b352d99b8
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: waldo
-Version: 0.6.1
-Depends: R (>= 4.0), R (>= 4.6), R (< 4.6.99)
-Imports: cli, diffobj (>= 0.3.4), glue, methods, rlang (>= 1.1.0)
-Suggests: bit64, R6, S7, testthat (>= 3.0.0), withr, xml2
-License: MIT + file LICENSE
-File: waldo_0.6.1_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/waldo/releases/download/0.6.1/waldo_0.6.1_b1_R4.6_aarch64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-03-16 18:03:31 UTC; unix
-Filesize: 133976
-SHA256: 89a2b3637457f05ada29def02083a62429d3a7479530843e43b1a515ec6caed4
 RVersion: 4.6
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
@@ -4739,3 +4704,38 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: xz (for building from source)
+
+Package: purrr
+Version: 1.1.0
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), magrittr (>= 1.5.0), rlang (>= 1.1.1), vctrs (>= 0.6.3)
+Suggests: carrier (>= 0.2.0), covr, dplyr (>= 0.7.8), httr, knitr, lubridate, mirai (>= 2.4.0), rmarkdown, testthat (>= 3.0.0), tibble, tidyselect
+License: MIT + file LICENSE
+File: purrr_1.1.0_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/purrr/releases/download/1.1.0/purrr_1.1.0_b2_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-07-11 17:41:50 UTC; unix
+Filesize: 559146
+SHA256: 3c36d3b96216cc7f7bccd34e11cb0ee855a985d33c99493ddfebc27eb74680f3
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cli
+
+Package: waldo
+Version: 0.6.2
+Depends: R (>= 4.0), R (>= 4.6), R (< 4.6.99)
+Imports: cli, diffobj (>= 0.3.4), glue, methods, rlang (>= 1.1.0)
+Suggests: bit64, R6, S7, testthat (>= 3.0.0), withr, xml2
+License: MIT + file LICENSE
+File: waldo_0.6.2_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/waldo/releases/download/0.6.2/waldo_0.6.2_b2_R4.6_aarch64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-07-11 17:41:53 UTC; unix
+Filesize: 135873
+SHA256: 7409367c096683cdc2fb356211d881bfc4d516ffc6f2bafbc7dcb11b470a23f6
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
