@@ -4301,26 +4301,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, zlib: zlib1g-dev (deb), zlib-devel (rpm)
 LinkingTo: cpp11
 
-Package: glmnet
-Version: 4.1-9
-Depends: R (>= 3.6.0), Matrix (>= 1.0-6), R (>= 4.6), R (< 4.6.99)
-Imports: methods, utils, foreach, shape, survival, Rcpp
-Suggests: knitr, lars, testthat, xfun, rmarkdown
-License: GPL-2
-File: glmnet_4.1-9_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/glmnet/releases/download/4.1-9/glmnet_4.1-9_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-06-02 16:46:30 UTC; unix
-Filesize: 10569679
-SHA256: c74f66181599ac19b52998fad2f6921deadd2dcf8ec4530d5a8a246485531fc9
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17
-LinkingTo: RcppEigen, Rcpp
-
 Package: tripack
 Version: 1.3-9.3
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4878,3 +4858,23 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: glmnet
+Version: 4.1-10
+Depends: R (>= 3.6.0), Matrix (>= 1.0-6), R (>= 4.6), R (< 4.6.99)
+Imports: methods, utils, foreach, shape, survival, Rcpp
+Suggests: knitr, lars, testthat, xfun, rmarkdown
+License: GPL-2
+File: glmnet_4.1-10_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/glmnet/releases/download/4.1-10/glmnet_4.1-10_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-07-17 16:46:46 UTC; unix
+Filesize: 10570217
+SHA256: 4bf8e2802edbecc24cd5fdd7b4092083f4a57189acf31a2ef76cec3fce3658f3
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17
+LinkingTo: RcppEigen, Rcpp
