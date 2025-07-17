@@ -4220,26 +4220,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
 LinkingTo: Rcpp
 
-Package: glmnet
-Version: 4.1-9
-Depends: R (>= 3.6.0), Matrix (>= 1.0-6), R (>= 4.6), R (< 4.6.99)
-Imports: methods, utils, foreach, shape, survival, Rcpp
-Suggests: knitr, lars, testthat, xfun, rmarkdown
-License: GPL-2
-File: glmnet_4.1-9_b2_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/glmnet/releases/download/4.1-9/glmnet_4.1-9_b2_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-06-02 17:40:46 UTC; unix
-Filesize: 1979599
-SHA256: 69b635e24b9269c1d3d67bb439efffa41a6f67ee851ad978a13efc3c7ae8848e
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17
-LinkingTo: RcppEigen, Rcpp
-
 Package: tripack
 Version: 1.3-9.3
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4739,3 +4719,23 @@ RVersion: 4.6
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: glmnet
+Version: 4.1-10
+Depends: R (>= 3.6.0), Matrix (>= 1.0-6), R (>= 4.6), R (< 4.6.99)
+Imports: methods, utils, foreach, shape, survival, Rcpp
+Suggests: knitr, lars, testthat, xfun, rmarkdown
+License: GPL-2
+File: glmnet_4.1-10_b3_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/glmnet/releases/download/4.1-10/glmnet_4.1-10_b3_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-07-17 17:43:29 UTC; unix
+Filesize: 1981018
+SHA256: b8c0ff87fa953d159e303da06e0a56b58ff171ae860183b6894667e5d75c6855
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17
+LinkingTo: RcppEigen, Rcpp
