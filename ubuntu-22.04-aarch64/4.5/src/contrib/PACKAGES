@@ -4358,26 +4358,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
 LinkingTo: Rcpp
 
-Package: glmnet
-Version: 4.1-9
-Depends: R (>= 3.6.0), Matrix (>= 1.0-6), R (>= 4.5), R (< 4.5.99)
-Imports: methods, utils, foreach, shape, survival, Rcpp
-Suggests: knitr, lars, testthat, xfun, rmarkdown
-License: GPL-2
-File: glmnet_4.1-9_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/glmnet/releases/download/4.1-9/glmnet_4.1-9_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-06-02 18:46:08 UTC; unix
-Filesize: 10539082
-SHA256: 6767111fb71b5683d183b8c9fe8ece096b3e8b8f69436aa425f35665931b466d
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17
-LinkingTo: RcppEigen, Rcpp
-
 Package: tripack
 Version: 1.3-9.3
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4915,3 +4895,23 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: glmnet
+Version: 4.1-10
+Depends: R (>= 3.6.0), Matrix (>= 1.0-6), R (>= 4.5), R (< 4.5.99)
+Imports: methods, utils, foreach, shape, survival, Rcpp
+Suggests: knitr, lars, testthat, xfun, rmarkdown
+License: GPL-2
+File: glmnet_4.1-10_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/glmnet/releases/download/4.1-10/glmnet_4.1-10_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.1; aarch64-unknown-linux-gnu; 2025-07-17 18:49:47 UTC; unix
+Filesize: 10541513
+SHA256: afa5b24b557ce47e23d01d41f2ab492b7a2864b6bc72f3f0483e735e576073e6
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17
+LinkingTo: RcppEigen, Rcpp
