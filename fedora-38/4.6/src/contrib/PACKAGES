@@ -4321,26 +4321,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
 LinkingTo: Rcpp
 
-Package: glmnet
-Version: 4.1-9
-Depends: R (>= 3.6.0), Matrix (>= 1.0-6), R (>= 4.6), R (< 4.6.99)
-Imports: methods, utils, foreach, shape, survival, Rcpp
-Suggests: knitr, lars, testthat, xfun, rmarkdown
-License: GPL-2
-File: glmnet_4.1-9_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/glmnet/releases/download/4.1-9/glmnet_4.1-9_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-06-02 17:17:55 UTC; unix
-Filesize: 10553225
-SHA256: b6bff68d3cf887017a8b280d4c295e4aa7687cf9ec4ce882539f29601d634d33
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17
-LinkingTo: RcppEigen, Rcpp
-
 Package: tripack
 Version: 1.3-9.3
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4878,3 +4858,23 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: glmnet
+Version: 4.1-10
+Depends: R (>= 3.6.0), Matrix (>= 1.0-6), R (>= 4.6), R (< 4.6.99)
+Imports: methods, utils, foreach, shape, survival, Rcpp
+Suggests: knitr, lars, testthat, xfun, rmarkdown
+License: GPL-2
+File: glmnet_4.1-10_b3_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/glmnet/releases/download/4.1-10/glmnet_4.1-10_b3_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-07-17 17:19:14 UTC; unix
+Filesize: 10553303
+SHA256: b349131e845d0a99ff3a035f1a54b8641ab01f313c7678f1a5060e08d7cb5a63
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17
+LinkingTo: RcppEigen, Rcpp
