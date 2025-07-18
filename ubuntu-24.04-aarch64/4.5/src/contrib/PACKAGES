@@ -3924,22 +3924,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: pbkrtest
-Version: 0.5.4
-Depends: R (>= 4.2.0), lme4 (>= 1.1.31), R (>= 4.5), R (< 4.5.99)
-Imports: broom, dplyr, MASS, methods, numDeriv, Matrix (>= 1.2.3), doBy (>= 4.6.22)
-Suggests: markdown, knitr
-License: GPL (>= 2)
-File: pbkrtest_0.5.4_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/pbkrtest/releases/download/0.5.4/pbkrtest_0.5.4_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.5.0; ; 2025-04-28 23:20:55 UTC; unix
-Filesize: 223835
-SHA256: 89f1daea391df8e4887b61fd917cfe39c20773fba5df29f3d1da37b2b1548dbb
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: reformulas
 Version: 0.4.1
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4480,25 +4464,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: RSQLite
-Version: 2.4.1
-Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
-Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
-Suggests: callr, cli, DBItest (>= 1.8.0), decor, gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
-License: LGPL (>= 2.1)
-File: RSQLite_2.4.1_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/RSQLite/releases/download/2.4.1/RSQLite_2.4.1_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.1; aarch64-unknown-linux-gnu; 2025-06-08 23:20:20 UTC; unix
-Filesize: 5235405
-SHA256: 033803e1868121edee021a7961d406534f44b13d08bdbbfb6f3080908c6f3c8e
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
-
 Package: QuickJSR
 Version: 1.8.0
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4915,3 +4880,38 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17
 LinkingTo: RcppEigen, Rcpp
+
+Package: pbkrtest
+Version: 0.5.5
+Depends: R (>= 4.2.0), lme4 (>= 1.1.31), R (>= 4.5), R (< 4.5.99)
+Imports: broom, dplyr, MASS, methods, numDeriv, Matrix (>= 1.2.3), doBy (>= 4.6.22)
+Suggests: nlme, markdown, knitr
+License: GPL (>= 2)
+File: pbkrtest_0.5.5_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/pbkrtest/releases/download/0.5.5/pbkrtest_0.5.5_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.5.1; ; 2025-07-18 23:22:58 UTC; unix
+Filesize: 222377
+SHA256: 2a468ab10a281b33e8a446107d281e832927395049a3a7542c6528b45a706896
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: RSQLite
+Version: 2.4.2
+Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
+Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
+Suggests: callr, cli, DBItest (>= 1.8.0), decor, gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
+License: LGPL (>= 2.1)
+File: RSQLite_2.4.2_b5_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/RSQLite/releases/download/2.4.2/RSQLite_2.4.2_b5_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.1; aarch64-unknown-linux-gnu; 2025-07-18 23:23:03 UTC; unix
+Filesize: 5235753
+SHA256: 401e9894f06b16a1d021668e87df10fc3c8162d2cc91ae96e32361c9ef249e06
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
