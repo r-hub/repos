@@ -4089,27 +4089,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: arrow
-Version: 20.0.0.2
-Depends: R (>= 4.0), R (>= 4.6), R (< 4.6.99)
-Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
-Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
-        tibble, tzdb, withr
-License: Apache License (>= 2.0)
-File: arrow_20.0.0.2_b4_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/arrow/releases/download/20.0.0.2/arrow_20.0.0.2_b4_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-05-27 17:38:42 UTC; unix
-Filesize: 19239501
-SHA256: cfd0c36b35efbd13c335386c00b45120e7745c9469e0f4e501185f42c7b6081e
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.16 (build-time only, and only for full source build)
-LinkingTo: cpp11 (>= 0.4.2)
-
 Package: workflowsets
 Version: 1.1.1
 Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
@@ -4195,24 +4174,6 @@ Arch: arm64
 Built: R 4.6.0; aarch64-apple-darwin20; 2025-06-02 17:40:42 UTC; unix
 Filesize: 201380
 SHA256: 448db15da7ed8e8f197a0770fd183c37ec21e09e923e08ceedf3397e89bd7d7d
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: parallelly
-Version: 1.45.0
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: parallel, tools, utils
-Suggests: commonmark, base64enc
-License: LGPL (>= 2.1)
-File: parallelly_1.45.0_b4_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/parallelly/releases/download/1.45.0/parallelly_1.45.0_b4_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-06-03 17:44:13 UTC; unix
-Filesize: 573757
-SHA256: f407ffa1a08efe7578f0ab7f95d0c6737196158ca043a84a1d02562b3481823d
 RVersion: 4.6
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
@@ -4909,6 +4870,45 @@ DownloadURL: https://github.com/cran/shinythemes/releases/download/1.2.0/shinyth
 Built: R 4.6.0; ; 2025-07-18 07:20:31 UTC; unix
 Filesize: 964348
 SHA256: ee56ddafeaf58268231bd793d4005a73a01370eb7139fcd8412167536b427b18
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: arrow
+Version: 21.0.0
+Depends: R (>= 4.0), R (>= 4.6), R (< 4.6.99)
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
+        tibble, tzdb, withr
+License: Apache License (>= 2.0)
+File: arrow_21.0.0_b5_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/arrow/releases/download/21.0.0/arrow_21.0.0_b5_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-07-24 17:43:56 UTC; unix
+Filesize: 19679142
+SHA256: 8024b95de9c5410f7842f1a2aa91a79169490722b2962583fe86269eb30e8e67
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.25 (build-time only, and only for full source build)
+LinkingTo: cpp11 (>= 0.4.2)
+
+Package: parallelly
+Version: 1.45.1
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: parallel, tools, utils
+Suggests: commonmark, base64enc
+License: LGPL (>= 2.1)
+File: parallelly_1.45.1_b5_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/parallelly/releases/download/1.45.1/parallelly_1.45.1_b5_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-07-24 17:43:47 UTC; unix
+Filesize: 574611
+SHA256: 7d2d84bc6498b4bbb2b5b9c50ae45398f76404eced09040e3474fa84fc82d6a9
 RVersion: 4.6
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
