@@ -1482,26 +1482,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: tools, utils, stats
 SystemRequirements: ICU4C (>= 61, optional)
 
-Package: broom
-Version: 1.0.8
-Depends: R (>= 3.5), R (>= 4.3), R (< 4.3.99)
-Suggests: AER, AUC, bbmle, betareg (>= 3.2-1), biglm, binGroup, boot, btergm (>= 1.10.6), car (>= 3.1-2), carData, caret, cluster, cmprsk, coda, covr, drc, e1071, emmeans, epiR, ergm (>= 3.10.4),
-        fixest (>= 0.9.0), gam (>= 1.15), gee, geepack, ggplot2, glmnet, glmnetUtils, gmm, Hmisc, irlba, interp, joineRML, Kendall, knitr, ks, Lahman, lavaan (>= 0.6.18), leaps, lfe, lm.beta, lme4,
-        lmodel2, lmtest (>= 0.9.38), lsmeans, maps, margins, MASS, mclust, mediation, metafor, mfx, mgcv, mlogit, modeldata, modeltests (>= 0.1.6), muhaz, multcomp, network, nnet, ordinal, plm,
-        poLCA, psych, quantreg, rmarkdown, robust, robustbase, rsample, sandwich, spdep (>= 1.1), spatialreg, speedglm, spelling, survey, survival (>= 3.6-4), systemfit, testthat (>= 3.0.0), tseries,
-        vars, zoo
-License: MIT + file LICENSE
-File: broom_1.0.8_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/broom/releases/download/1.0.8/broom_1.0.8_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.3.3; ; 2025-03-28 14:46:11 UTC; unix
-Filesize: 1864089
-SHA256: 89b7819a3e05ee459d91e5279b2c6bac0d03b299785a7bb2b9ae014d09ae3920
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: backports, cli, dplyr (>= 1.0.0), generics (>= 0.0.2), glue, lifecycle, purrr, rlang (>= 1.1.0), stringr, tibble (>= 3.0.0), tidyr (>= 1.0.0)
-
 Package: nlme
 Version: 3.1-168
 Depends: R (>= 3.6.0), R (>= 4.3), R (< 4.3.99)
@@ -2074,3 +2054,23 @@ Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli, diffobj (>= 0.3.4), glue, methods, rlang (>= 1.1.0)
+
+Package: broom
+Version: 1.0.9
+Depends: R (>= 4.1), R (>= 4.3), R (< 4.3.99)
+Suggests: AER, AUC, bbmle, betareg (>= 3.2-1), biglm, binGroup, boot, btergm (>= 1.10.6), car (>= 3.1-2), carData, caret, cluster, cmprsk, coda, covr, drc, e1071, emmeans, epiR (>= 2.0.85), ergm (>=
+        3.10.4), fixest (>= 0.9.0), gam (>= 1.15), gee, geepack, ggplot2, glmnet, glmnetUtils, gmm, Hmisc, interp, irlba, joineRML, Kendall, knitr, ks, Lahman, lavaan (>= 0.6.18), leaps, lfe,
+        lm.beta, lme4, lmodel2, lmtest (>= 0.9.38), lsmeans, maps, margins, MASS, mclust, mediation, metafor, mfx, mgcv, mlogit, modeldata, modeltests (>= 0.1.6), muhaz, multcomp, network, nnet,
+        ordinal, plm, poLCA, psych, quantreg, rmarkdown, robust, robustbase, rsample, sandwich, spatialreg, spdep (>= 1.1), speedglm, spelling, survey, survival (>= 3.6-4), systemfit, testthat (>=
+        3.0.0), tseries, vars, zoo
+License: MIT + file LICENSE
+File: broom_1.0.9_b3_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/broom/releases/download/1.0.9/broom_1.0.9_b3_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.3.3; ; 2025-07-29 14:54:24 UTC; unix
+Filesize: 1861623
+SHA256: f6f32264729bcb322660de3e51c3277aa123e6f2ce3a726091ffb2e804400efa
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: backports, cli, dplyr (>= 1.0.0), generics (>= 0.0.2), glue, lifecycle, purrr, rlang (>= 1.1.0), stringr, tibble (>= 3.0.0), tidyr (>= 1.0.0)
