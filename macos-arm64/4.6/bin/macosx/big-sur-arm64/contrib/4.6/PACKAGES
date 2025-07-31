@@ -2509,25 +2509,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: pROC
-Version: 1.18.5
-Depends: R (>= 2.14), R (>= 4.6), R (< 4.6.99)
-Imports: methods, plyr, Rcpp (>= 0.11.1)
-Suggests: microbenchmark, tcltk, MASS, logcondens, doParallel, testthat, vdiffr, ggplot2, rlang
-License: GPL (>= 3)
-File: pROC_1.18.5_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/pROC/releases/download/1.18.5/pROC_1.18.5_b1_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-03-16 18:31:43 UTC; unix
-Filesize: 846531
-SHA256: 3f4d299d153366b13204df5b57f0d6e9e4132cb8db8a950b540cc8ec4b73a79b
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: coda
 Version: 0.19-4.1
 Depends: R (>= 2.14.0), R (>= 4.6), R (< 4.6.99)
@@ -4913,3 +4894,22 @@ RVersion: 4.6
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: pROC
+Version: 1.19.0.1
+Depends: R (>= 2.14), R (>= 4.6), R (< 4.6.99)
+Imports: methods, Rcpp (>= 0.11.1)
+Suggests: tcltk, MASS, logcondens, testthat, vdiffr, ggplot2, rlang
+License: GPL (>= 3)
+File: pROC_1.19.0.1_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/pROC/releases/download/1.19.0.1/pROC_1.19.0.1_b2_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-07-31 11:14:17 UTC; unix
+Filesize: 1087202
+SHA256: d171e34e33f9149cf82d841cde6b5081aeb2e4fc31a06d60620bc48c40d6708d
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
