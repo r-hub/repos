@@ -2473,25 +2473,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: pROC
-Version: 1.18.5
-Depends: R (>= 2.14), R (>= 4.6), R (< 4.6.99)
-Imports: methods, plyr, Rcpp (>= 0.11.1)
-Suggests: microbenchmark, tcltk, MASS, logcondens, doParallel, testthat, vdiffr, ggplot2, rlang
-License: GPL (>= 3)
-File: pROC_1.18.5_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/pROC/releases/download/1.18.5/pROC_1.18.5_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 09:09:15 UTC; unix
-Filesize: 1556299
-SHA256: 60b98824668a6b10841d5060281f7349552ef91fe3ba2fa6acb330848e9c7728
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: coda
 Version: 0.19-4.1
 Depends: R (>= 2.14.0), R (>= 4.6), R (< 4.6.99)
@@ -4878,3 +4859,22 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: pROC
+Version: 1.19.0.1
+Depends: R (>= 2.14), R (>= 4.6), R (< 4.6.99)
+Imports: methods, Rcpp (>= 0.11.1)
+Suggests: tcltk, MASS, logcondens, testthat, vdiffr, ggplot2, rlang
+License: GPL (>= 3)
+File: pROC_1.19.0.1_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/pROC/releases/download/1.19.0.1/pROC_1.19.0.1_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-07-31 17:24:12 UTC; unix
+Filesize: 1362482
+SHA256: 8b2be97b0b853f9aa471a924b7ed37754daffc974e88bf84378a146798378f0a
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
