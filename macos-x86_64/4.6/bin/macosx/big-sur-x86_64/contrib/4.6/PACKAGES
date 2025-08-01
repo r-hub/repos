@@ -1290,22 +1290,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: chron, data.table, timeDate, tis, zoo
 SystemRequirements: C++11, A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
 
-Package: modeldata
-Version: 1.4.0
-Depends: R (>= 3.4), R (>= 4.6), R (< 4.6.99)
-Imports: dplyr, MASS, purrr, rlang, tibble
-Suggests: covr, testthat (>= 3.0.0), ggplot2
-License: MIT + file LICENSE
-File: modeldata_1.4.0_b1_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/modeldata/releases/download/1.4.0/modeldata_1.4.0_b1_R4.6_x86_64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-03-16 18:27:17 UTC; unix
-Filesize: 5165465
-SHA256: 2f8aa66265995c9b8a08a5ccf6a5c1863e68b87859e4cbc3518db7537357dc42
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: modelenv
 Version: 0.2.0
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4858,3 +4842,19 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
+
+Package: modeldata
+Version: 1.5.0
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: cli, dplyr, MASS, purrr, rlang (>= 1.1.0), tibble
+Suggests: covr, ggplot2, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: modeldata_1.5.0_b2_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/modeldata/releases/download/1.5.0/modeldata_1.5.0_b2_R4.6_x86_64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-08-01 17:47:06 UTC; unix
+Filesize: 5193367
+SHA256: 92141a553fd49ee8000607a37c032c77bf88280a05f765f0097606f7d7fc71db
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
