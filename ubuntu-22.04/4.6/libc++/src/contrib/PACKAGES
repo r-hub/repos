@@ -1272,22 +1272,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: chron, data.table, timeDate, tis, zoo
 SystemRequirements: C++11, A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
 
-Package: modeldata
-Version: 1.4.0
-Depends: R (>= 3.4), R (>= 4.6), R (< 4.6.99)
-Imports: dplyr, MASS, purrr, rlang, tibble
-Suggests: covr, testthat (>= 3.0.0), ggplot2
-License: MIT + file LICENSE
-File: modeldata_1.4.0_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/modeldata/releases/download/1.4.0/modeldata_1.4.0_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.6.0; ; 2025-03-15 19:36:35 UTC; unix
-Filesize: 5161658
-SHA256: 311327acda004a7cebfd75634ae09a273f0764d126698a30bf230d97a9785641
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: modelenv
 Version: 0.2.0
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4550,3 +4534,19 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
+
+Package: modeldata
+Version: 1.5.0
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: cli, dplyr, MASS, purrr, rlang (>= 1.1.0), tibble
+Suggests: covr, ggplot2, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: modeldata_1.5.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/modeldata/releases/download/1.5.0/modeldata_1.5.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.6.0; ; 2025-08-01 17:12:36 UTC; unix
+Filesize: 5191194
+SHA256: 4f881d614a5c0c89e366182036e7f2f2959f0c2da83cf5bf0ac53cbff048540c
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
