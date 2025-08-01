@@ -1272,22 +1272,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: chron, data.table, timeDate, tis, zoo
 SystemRequirements: C++11, A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
 
-Package: modeldata
-Version: 1.4.0
-Depends: R (>= 3.4), R (>= 4.6), R (< 4.6.99)
-Imports: dplyr, MASS, purrr, rlang, tibble
-Suggests: covr, testthat (>= 3.0.0), ggplot2
-License: MIT + file LICENSE
-File: modeldata_1.4.0_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/modeldata/releases/download/1.4.0/modeldata_1.4.0_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:49:47 UTC; unix
-Filesize: 5188148
-SHA256: fd4e217fecf6ba8ae5d70fda54adaaee82f29abc86b8cd2af795d0c58a29f0d5
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: modelenv
 Version: 0.2.0
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4878,3 +4862,19 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
+
+Package: modeldata
+Version: 1.5.0
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: cli, dplyr, MASS, purrr, rlang (>= 1.1.0), tibble
+Suggests: covr, ggplot2, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: modeldata_1.5.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/modeldata/releases/download/1.5.0/modeldata_1.5.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.6.0; ; 2025-08-01 17:25:07 UTC; unix
+Filesize: 5217549
+SHA256: e2a60f720a9123f6a687cffd4cf7a3f542cca676154388a0d3cb89bad599c312
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
