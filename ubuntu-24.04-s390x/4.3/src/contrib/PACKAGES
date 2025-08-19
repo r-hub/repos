@@ -1292,22 +1292,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli (>= 3.1.0), tools, utils
 
-Package: spelling
-Version: 2.3.1
-Depends: R (>= 4.3), R (< 4.3.99)
-Suggests: pdftools
-License: MIT + file LICENSE
-File: spelling_2.3.1_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/spelling/releases/download/2.3.1/spelling_2.3.1_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.3.3; ; 2025-03-15 11:59:07 UTC; unix
-Filesize: 54635
-SHA256: da1e8b2c535cbf085879c5fd8ec066bfaa75847d81892f73ea6d6e73947556a1
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: commonmark, xml2, hunspell (>= 3.0), knitr
-
 Package: brio
 Version: 1.1.5
 Depends: R (>= 3.6), R (>= 4.3), R (< 4.3.99)
@@ -1518,24 +1502,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: grid, grDevices, graphics, stats, utils
 Enhances: chron, zoo
-
-Package: xfun
-Version: 0.52
-Depends: R (>= 3.2.0), R (>= 4.3), R (< 4.3.99)
-Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.4), commonmark, knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, qs
-License: MIT + file LICENSE
-File: xfun_0.52_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/xfun/releases/download/0.52/xfun_0.52_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-04-03 14:47:00 UTC; unix
-Filesize: 588383
-SHA256: 0aa0be81674dc37bd31af97d03597658477477897ece46a5e4e6b15c8a54ad20
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: grDevices, stats, tools
 
 Package: mgcv
 Version: 1.9-3
@@ -2074,3 +2040,37 @@ Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: backports, cli, dplyr (>= 1.0.0), generics (>= 0.0.2), glue, lifecycle, purrr, rlang (>= 1.1.0), stringr, tibble (>= 3.0.0), tidyr (>= 1.0.0)
+
+Package: spelling
+Version: 2.3.2
+Depends: R (>= 4.3), R (< 4.3.99)
+Suggests: pdftools
+License: MIT + file LICENSE
+File: spelling_2.3.2_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/spelling/releases/download/2.3.2/spelling_2.3.2_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.3.3; ; 2025-08-19 14:49:08 UTC; unix
+Filesize: 54747
+SHA256: 985a2e46f57fb5101219d9c32e37552a348794bc7bd7b8013a57505642c4f3af
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: commonmark, xml2, hunspell (>= 3.0), knitr
+
+Package: xfun
+Version: 0.53
+Depends: R (>= 3.2.0), R (>= 4.3), R (< 4.3.99)
+Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.6), commonmark, knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, data.table, qs
+License: MIT + file LICENSE
+File: xfun_0.53_b3_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/xfun/releases/download/0.53/xfun_0.53_b3_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-08-19 14:48:29 UTC; unix
+Filesize: 576993
+SHA256: 0a20edf9bbd24d7c854ed5545f2a62caad83394badb79ca3f93e9a9e9258d6d9
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: grDevices, stats, tools
