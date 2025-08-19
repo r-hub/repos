@@ -2834,22 +2834,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: spelling
-Version: 2.3.1
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: commonmark, xml2, hunspell (>= 3.0), knitr
-Suggests: pdftools
-License: MIT + file LICENSE
-File: spelling_2.3.1_b1_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/spelling/releases/download/2.3.1/spelling_2.3.1_b1_R4.6_x86_64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-03-16 19:26:23 UTC; unix
-Filesize: 55303
-SHA256: b26deae9da7c76b4512772739183e2b6adeb6f83a2c75361eda697f7a30e6fab
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: tinytest
 Version: 1.4.1
 Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
@@ -3407,24 +3391,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
-
-Package: xfun
-Version: 0.52
-Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
-Imports: grDevices, stats, tools
-Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.4), commonmark, knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, qs
-License: MIT + file LICENSE
-File: xfun_0.52_b2_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/xfun/releases/download/0.52/xfun_0.52_b2_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2025-04-03 17:37:00 UTC; unix
-Filesize: 598789
-SHA256: e34d675cd137dc9822fcced555e0b06295dc78546918bffd8356eb52a273a37c
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: later
 Version: 1.4.2
@@ -4699,27 +4665,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: arrow
-Version: 21.0.0
-Depends: R (>= 4.0), R (>= 4.6), R (< 4.6.99)
-Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
-Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
-        tibble, tzdb, withr
-License: Apache License (>= 2.0)
-File: arrow_21.0.0_b5_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/arrow/releases/download/21.0.0/arrow_21.0.0_b5_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2025-07-24 17:46:39 UTC; unix
-Filesize: 20669779
-SHA256: 0c543268acdaf5ca9379c560e24d7ea6d0943affe2495f5cac453915412a79fb
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.25 (build-time only, and only for full source build)
-LinkingTo: cpp11 (>= 0.4.2)
-
 Package: parallelly
 Version: 1.45.1
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4858,3 +4803,58 @@ RVersion: 4.6
 Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: spelling
+Version: 2.3.2
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: commonmark, xml2, hunspell (>= 3.0), knitr
+Suggests: pdftools
+License: MIT + file LICENSE
+File: spelling_2.3.2_b2_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/spelling/releases/download/2.3.2/spelling_2.3.2_b2_R4.6_x86_64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-08-19 17:38:48 UTC; unix
+Filesize: 55503
+SHA256: ac75e079387cee1e7dabe474568600bba2a2c2c8774822991e7605190bc32449
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: xfun
+Version: 0.53
+Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
+Imports: grDevices, stats, tools
+Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.6), commonmark, knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, data.table, qs
+License: MIT + file LICENSE
+File: xfun_0.53_b3_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/xfun/releases/download/0.53/xfun_0.53_b3_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-08-19 17:38:42 UTC; unix
+Filesize: 586706
+SHA256: 6d80e3811ef41c0fb1a55a8e692c5effb59fff83a3587c969b4670fdf757a881
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: arrow
+Version: 21.0.0.1
+Depends: R (>= 4.0), R (>= 4.6), R (< 4.6.99)
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
+        tibble, tzdb, withr
+License: Apache License (>= 2.0)
+File: arrow_21.0.0.1_b6_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/arrow/releases/download/21.0.0.1/arrow_21.0.0.1_b6_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-08-19 17:39:00 UTC; unix
+Filesize: 20665222
+SHA256: 29c17e2836e347aa73abda2e224bc8738789ad237aeacc5616f841c3f4b97a78
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.25 (build-time only, and only for full source build)
+LinkingTo: cpp11 (>= 0.4.2)
