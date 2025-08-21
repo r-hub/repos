@@ -883,25 +883,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: xml2
-Version: 1.3.8
-Depends: R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
-Imports: cli, methods, rlang (>= 1.1.0)
-Suggests: covr, curl, httr, knitr, magrittr, mockery, rmarkdown, testthat (>= 3.2.0), xslt
-License: MIT + file LICENSE
-File: xml2_1.3.8_b1_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/xml2/releases/download/1.3.8/xml2_1.3.8_b1_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2025-03-16 18:18:24 UTC; unix
-Filesize: 282379
-SHA256: e79df5e34c01843f8e80b1ec57ba932cc3ef442d98ab3da21025ed3a31c73d4c
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
-
 Package: xopen
 Version: 1.0.1
 Depends: R (>= 3.1), R (>= 4.6), R (< 4.6.99)
@@ -3571,24 +3552,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: bookdown
-Version: 0.43
-Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
-Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.48), tinytex (>= 0.12), yaml (>= 2.1.19)
-Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, curl, rstudioapi, miniUI, rsconnect (>= 0.4.3), servr (>= 0.13), shiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat
-        (>= 3.1.0), withr (>= 2.3.0)
-License: GPL-3
-File: bookdown_0.43_b2_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/bookdown/releases/download/0.43/bookdown_0.43_b2_R4.6_x86_64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-04-15 17:40:20 UTC; unix
-Filesize: 1090381
-SHA256: 151da1c0681dd274b1794ca51ba29d49dfebe7499856c97f4160128494d140ea
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: Pandoc (>= 1.17.2)
-
 Package: httpuv
 Version: 1.6.16
 Depends: R (>= 2.15.1), R (>= 4.6), R (< 4.6.99)
@@ -4858,3 +4821,40 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
+
+Package: xml2
+Version: 1.4.0
+Depends: R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
+Imports: cli, methods, rlang (>= 1.1.0)
+Suggests: covr, curl, httr, knitr, magrittr, mockery, rmarkdown, testthat (>= 3.2.0), xslt
+License: MIT + file LICENSE
+File: xml2_1.4.0_b2_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/xml2/releases/download/1.4.0/xml2_1.4.0_b2_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-08-20 21:13:23 UTC; unix
+Filesize: 530568
+SHA256: c3148f628f5fb32bc495b269c0e3c4ccf681f38c365a82a0b3a2900c4ad8ea24
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
+
+Package: bookdown
+Version: 0.44
+Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
+Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.48), tinytex (>= 0.12), yaml (>= 2.1.19)
+Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, curl, rstudioapi, miniUI, rsconnect (>= 0.4.3), servr (>= 0.13), shiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat
+        (>= 3.1.0), withr (>= 2.3.0)
+License: GPL-3
+File: bookdown_0.44_b3_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/bookdown/releases/download/0.44/bookdown_0.44_b3_R4.6_x86_64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-08-21 13:15:21 UTC; unix
+Filesize: 1089710
+SHA256: d1c421ff49eee9e50a1265110c07b6282ff5fbdad3f4bfccfb918ba2d7c2abf0
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: Pandoc (>= 1.17.2)
