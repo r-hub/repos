@@ -2779,24 +2779,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libpng
 LinkingTo: cpp11
 
-Package: XML
-Version: 3.99-0.18
-Depends: R (>= 4.0.0), methods, utils, R (>= 4.6), R (< 4.6.99)
-Suggests: bitops, RCurl
-License: BSD_3_clause + file LICENSE
-File: XML_3.99-0.18_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/XML/releases/download/3.99-0.18/XML_3.99-0.18_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:42:03 UTC; unix
-Filesize: 2080436
-SHA256: fcbda1903a2c7d376415cbca9252de38ee1115298c5ee80d50d48443b1209ddd
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libxml2 (>= 2.6.3)
-
 Package: colourpicker
 Version: 1.3.0
 Depends: R (>= 3.1.0), R (>= 4.6), R (< 4.6.99)
@@ -4662,22 +4644,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: modeldata
-Version: 1.5.0
-Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
-Imports: cli, dplyr, MASS, purrr, rlang (>= 1.1.0), tibble
-Suggests: covr, ggplot2, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: modeldata_1.5.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/modeldata/releases/download/1.5.0/modeldata_1.5.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-Built: R 4.6.0; ; 2025-08-01 17:25:07 UTC; unix
-Filesize: 5217549
-SHA256: e2a60f720a9123f6a687cffd4cf7a3f542cca676154388a0d3cb89bad599c312
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: checkmate
 Version: 2.3.3
 Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
@@ -4878,3 +4844,37 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Pandoc (>= 1.17.2)
+
+Package: XML
+Version: 3.99-0.19
+Depends: R (>= 4.0.0), methods, utils, R (>= 4.6), R (< 4.6.99)
+Suggests: bitops, RCurl
+License: BSD_3_clause + file LICENSE
+File: XML_3.99-0.19_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/XML/releases/download/3.99-0.19/XML_3.99-0.19_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-08-22 17:20:10 UTC; unix
+Filesize: 2080781
+SHA256: be2288871608c2ee57c98b1bccb2a2ffda8770c1e6d75a055ce511974acf5ad9
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libxml2 (>= 2.6.3)
+
+Package: modeldata
+Version: 1.5.1
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: cli, dplyr, MASS, purrr, rlang (>= 1.1.0), tibble
+Suggests: covr, ggplot2, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: modeldata_1.5.1_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/modeldata/releases/download/1.5.1/modeldata_1.5.1_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.6.0; ; 2025-08-22 17:20:11 UTC; unix
+Filesize: 5217749
+SHA256: 8f5ca7fef71e4bda7bf3f25212455ea11ba965c10026f2fdcd470b80a8744f27
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
