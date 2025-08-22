@@ -2799,24 +2799,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libpng
 LinkingTo: cpp11
 
-Package: XML
-Version: 3.99-0.18
-Depends: R (>= 4.0.0), methods, utils, R (>= 4.6), R (< 4.6.99)
-Suggests: bitops, RCurl
-License: BSD_3_clause + file LICENSE
-File: XML_3.99-0.18_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/XML/releases/download/3.99-0.18/XML_3.99-0.18_b1_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-03-16 17:59:09 UTC; unix
-Filesize: 1825248
-SHA256: bf29a1fb898bf2ebbc61175c6d2dc7319d57a68545c97b2a05055dc69ebe988e
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libxml2 (>= 2.6.3)
-
 Package: distributional
 Version: 0.5.0
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4697,22 +4679,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: modeldata
-Version: 1.5.0
-Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
-Imports: cli, dplyr, MASS, purrr, rlang (>= 1.1.0), tibble
-Suggests: covr, ggplot2, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: modeldata_1.5.0_b2_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/modeldata/releases/download/1.5.0/modeldata_1.5.0_b2_R4.6_aarch64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-08-01 01:00:36 UTC; unix
-Filesize: 5193993
-SHA256: 849466310cd17bd37e7eb26783c5b33d2e10f8b9b56031773dba18667714fd65
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: checkmate
 Version: 2.3.3
 Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
@@ -4913,3 +4879,37 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Pandoc (>= 1.17.2)
+
+Package: XML
+Version: 3.99-0.19
+Depends: R (>= 4.0.0), methods, utils, R (>= 4.6), R (< 4.6.99)
+Suggests: bitops, RCurl
+License: BSD_3_clause + file LICENSE
+File: XML_3.99-0.19_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/XML/releases/download/3.99-0.19/XML_3.99-0.19_b2_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-08-22 17:38:59 UTC; unix
+Filesize: 1828625
+SHA256: 80fb88a16a0046d797b089311c7ea8b7536de8cee154d930407eab245cea68ec
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libxml2 (>= 2.6.3)
+
+Package: modeldata
+Version: 1.5.1
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: cli, dplyr, MASS, purrr, rlang (>= 1.1.0), tibble
+Suggests: covr, ggplot2, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: modeldata_1.5.1_b3_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/modeldata/releases/download/1.5.1/modeldata_1.5.1_b3_R4.6_aarch64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-08-22 17:39:04 UTC; unix
+Filesize: 5193987
+SHA256: cc2d0dd7421fe9e9c672fdd9700f2d111968e18a4216bfcd5d6d06a047123e5c
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
