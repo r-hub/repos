@@ -2797,24 +2797,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libpng
 LinkingTo: cpp11
 
-Package: XML
-Version: 3.99-0.18
-Depends: R (>= 4.0.0), methods, utils, R (>= 4.5), R (< 4.5.99)
-Suggests: bitops, RCurl
-License: BSD_3_clause + file LICENSE
-File: XML_3.99-0.18_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/XML/releases/download/3.99-0.18/XML_3.99-0.18_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-16 09:02:31 UTC; unix
-Filesize: 1982878
-SHA256: 96493fe72d7261c5d0935bbfd93f855da8d67a425ba22432100f0d8aafba2e64
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libxml2 (>= 2.6.3)
-
 Package: colourpicker
 Version: 1.3.0
 Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
@@ -4699,22 +4681,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: modeldata
-Version: 1.5.0
-Depends: R (>= 4.1), R (>= 4.5), R (< 4.5.99)
-Imports: cli, dplyr, MASS, purrr, rlang (>= 1.1.0), tibble
-Suggests: covr, ggplot2, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: modeldata_1.5.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/modeldata/releases/download/1.5.0/modeldata_1.5.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.5.1; ; 2025-08-01 23:24:54 UTC; unix
-Filesize: 5189546
-SHA256: 8bd58bdaec433262b7acf416ec7a7820ece9346a3d39bd2a38718f4a9b784cdf
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: checkmate
 Version: 2.3.3
 Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
@@ -4915,3 +4881,37 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Pandoc (>= 1.17.2)
+
+Package: XML
+Version: 3.99-0.19
+Depends: R (>= 4.0.0), methods, utils, R (>= 4.5), R (< 4.5.99)
+Suggests: bitops, RCurl
+License: BSD_3_clause + file LICENSE
+File: XML_3.99-0.19_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/XML/releases/download/3.99-0.19/XML_3.99-0.19_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.1; aarch64-unknown-linux-gnu; 2025-08-22 23:21:39 UTC; unix
+Filesize: 1987331
+SHA256: 067a8ff54e1b0822a0a073258e7df63404bf28b13fdc5208794d1be6bf6daeee
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libxml2 (>= 2.6.3)
+
+Package: modeldata
+Version: 1.5.1
+Depends: R (>= 4.1), R (>= 4.5), R (< 4.5.99)
+Imports: cli, dplyr, MASS, purrr, rlang (>= 1.1.0), tibble
+Suggests: covr, ggplot2, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: modeldata_1.5.1_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/modeldata/releases/download/1.5.1/modeldata_1.5.1_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.5.1; ; 2025-08-22 23:21:39 UTC; unix
+Filesize: 5189660
+SHA256: 7b0ef254a8dcf1e6f668942f220a45599096a6b3b0fb00ba2c110039d8af36ff
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
