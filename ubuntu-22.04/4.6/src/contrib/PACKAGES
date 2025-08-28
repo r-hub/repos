@@ -799,23 +799,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: usethis
-Version: 3.1.0
-Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
-Imports: cli (>= 3.0.1), clipr (>= 0.3.0), crayon, curl (>= 2.7), desc (>= 1.4.2), fs (>= 1.3.0), gert (>= 1.4.1), gh (>= 1.2.1), glue (>= 1.3.0), jsonlite, lifecycle (>= 1.0.0), purrr, rappdirs,
-        rlang (>= 1.1.0), rprojroot (>= 1.2), rstudioapi, stats, tools, utils, whisker, withr (>= 2.3.0), yaml
-Suggests: covr, knitr, magick, pkgload (>= 1.3.2.1), rmarkdown, roxygen2 (>= 7.1.2), spelling (>= 1.2), styler (>= 1.2.0), testthat (>= 3.1.8)
-License: MIT + file LICENSE
-File: usethis_3.1.0_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/usethis/releases/download/3.1.0/usethis_3.1.0_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:40:46 UTC; unix
-Filesize: 915971
-SHA256: bb835361ca788cf6020695d9284c4a584582b2c77a2d6a03c48af70124c84905
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: vctrs
 Version: 0.6.5
 Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
@@ -4074,21 +4057,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: evaluate
-Version: 1.0.4
-Depends: R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
-Suggests: callr, covr, ggplot2 (>= 3.3.6), lattice, methods, pkgload, ragg (>= 1.4.0), rlang (>= 1.1.5), knitr, testthat (>= 3.0.0), withr
-License: MIT + file LICENSE
-File: evaluate_1.0.4_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/evaluate/releases/download/1.0.4/evaluate_1.0.4_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.6.0; ; 2025-06-18 16:45:16 UTC; unix
-Filesize: 102902
-SHA256: beb3fd1925232fa0d3f096e737138e10ebf768105df63b5de8598f0ed10cb602
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: bayesplot
 Version: 1.13.0
 Depends: R (>= 3.1.0), R (>= 4.6), R (< 4.6.99)
@@ -4878,3 +4846,35 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
+
+Package: usethis
+Version: 3.2.0
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: cli (>= 3.0.1), clipr (>= 0.3.0), crayon, curl (>= 2.7), desc (>= 1.4.2), fs (>= 1.3.0), gert (>= 1.4.1), gh (>= 1.2.1), glue (>= 1.3.0), jsonlite, lifecycle (>= 1.0.0), purrr, rappdirs,
+        rlang (>= 1.1.0), rprojroot (>= 1.2), rstudioapi, stats, tools, utils, whisker, withr (>= 2.3.0), yaml
+Suggests: covr, knitr, magick, pkgload (>= 1.3.2.1), quarto, rmarkdown, roxygen2 (>= 7.1.2), spelling (>= 1.2), testthat (>= 3.1.8)
+License: MIT + file LICENSE
+File: usethis_3.2.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/usethis/releases/download/3.2.0/usethis_3.2.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.6.0; ; 2025-08-28 16:41:22 UTC; unix
+Filesize: 930713
+SHA256: 7fe34885bcc10dee6d7bfb9631634d3b6b889ab48598f71d4de93eabf8ba57de
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: evaluate
+Version: 1.0.5
+Depends: R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
+Suggests: callr, covr, ggplot2 (>= 3.3.6), lattice, methods, pkgload, ragg (>= 1.4.0), rlang (>= 1.1.5), knitr, testthat (>= 3.0.0), withr
+License: MIT + file LICENSE
+File: evaluate_1.0.5_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/evaluate/releases/download/1.0.5/evaluate_1.0.5_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.6.0; ; 2025-08-28 16:41:19 UTC; unix
+Filesize: 103608
+SHA256: 07a0f66f874d4d3bd94c734a217bbd85866a47033826fbb29b68eafc97505f26
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
