@@ -1865,22 +1865,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 2.0) - https://pandoc.org/
 
-Package: rvest
-Version: 1.0.4
-Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
-Imports: cli, glue, httr (>= 0.5), lifecycle (>= 1.0.3), magrittr, rlang (>= 1.1.0), selectr, tibble, xml2 (>= 1.3)
-Suggests: chromote, covr, knitr, R6, readr, repurrrsive, rmarkdown, spelling, stringi (>= 0.3.1), testthat (>= 3.0.2), webfakes
-License: MIT + file LICENSE
-File: rvest_1.0.4_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/rvest/releases/download/1.0.4/rvest_1.0.4_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.6.0; ; 2025-03-15 19:38:41 UTC; unix
-Filesize: 300900
-SHA256: ad60c0906bddf304a0abccfebce4ac7338f706982ab0c39efb1e2fdf1374e34d
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: selectr
 Version: 0.4-2
 Depends: R (>= 3.0), R (>= 4.6), R (< 4.6.99)
@@ -4546,6 +4530,22 @@ DownloadURL: https://github.com/cran/evaluate/releases/download/1.0.5/evaluate_1
 Built: R 4.6.0; ; 2025-08-28 16:59:24 UTC; unix
 Filesize: 103434
 SHA256: 2f6abe1ebdf0cfc1ed6320bee341097e0ff7047f4005fec86587c7f19abc1b49
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rvest
+Version: 1.0.5
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: cli, glue, httr (>= 0.5), lifecycle (>= 1.0.3), magrittr, rlang (>= 1.1.0), selectr, tibble, xml2 (>= 1.4.0)
+Suggests: chromote, covr, knitr, purrr, R6, readr, repurrrsive, rmarkdown, spelling, stringi (>= 0.3.1), testthat (>= 3.0.2), tidyr, webfakes
+License: MIT + file LICENSE
+File: rvest_1.0.5_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/rvest/releases/download/1.0.5/rvest_1.0.5_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.6.0; ; 2025-08-29 16:59:01 UTC; unix
+Filesize: 302761
+SHA256: 30dd75a4fa809654cc4314e4dfd08475b49623e29891df55cbf0e331be23fef8
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
