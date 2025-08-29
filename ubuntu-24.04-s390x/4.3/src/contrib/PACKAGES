@@ -986,22 +986,6 @@ Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: rvest
-Version: 1.0.4
-Depends: R (>= 3.6), R (>= 4.3), R (< 4.3.99)
-Suggests: chromote, covr, knitr, R6, readr, repurrrsive, rmarkdown, spelling, stringi (>= 0.3.1), testthat (>= 3.0.2), webfakes
-License: MIT + file LICENSE
-File: rvest_1.0.4_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/rvest/releases/download/1.0.4/rvest_1.0.4_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.3.3; ; 2025-03-15 11:46:48 UTC; unix
-Filesize: 296968
-SHA256: 13b24b16292af9014974b2d22e72c5e3877e23c74f11979712bbef2335df38da
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: cli, glue, httr (>= 0.5), lifecycle (>= 1.0.3), magrittr, rlang (>= 1.1.0), selectr, tibble, xml2 (>= 1.3)
-
 Package: selectr
 Version: 0.4-2
 Depends: R (>= 3.0), R (>= 4.3), R (< 4.3.99)
@@ -2074,3 +2058,19 @@ RVersion: 4.3
 Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rvest
+Version: 1.0.5
+Depends: R (>= 4.1), R (>= 4.3), R (< 4.3.99)
+Suggests: chromote, covr, knitr, purrr, R6, readr, repurrrsive, rmarkdown, spelling, stringi (>= 0.3.1), testthat (>= 3.0.2), tidyr, webfakes
+License: MIT + file LICENSE
+File: rvest_1.0.5_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/rvest/releases/download/1.0.5/rvest_1.0.5_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.3.3; ; 2025-08-29 14:46:13 UTC; unix
+Filesize: 299086
+SHA256: 166704d6fef733f871f857f534e9877570a50f94a6ab6447380d76bbf77377ac
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli, glue, httr (>= 0.5), lifecycle (>= 1.0.3), magrittr, rlang (>= 1.1.0), selectr, tibble, xml2 (>= 1.4.0)
