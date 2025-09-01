@@ -1450,24 +1450,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: tune
-Version: 1.3.0
-Depends: R (>= 4.0), R (>= 4.5), R (< 4.5.99)
-Imports: cli (>= 3.3.0), dials (>= 1.4.0), doFuture (>= 1.0.0), dplyr (>= 1.1.0), foreach, future (>= 1.33.0), generics (>= 0.1.2), ggplot2, glue (>= 1.6.2), GPfit, hardhat (>= 1.4.1), lifecycle (>=
-        1.0.0), parsnip (>= 1.2.0), purrr (>= 1.0.0), recipes (>= 1.0.4), rlang (>= 1.1.0), rsample (>= 1.2.1), tibble (>= 3.1.0), tidyr (>= 1.2.0), tidyselect (>= 1.1.2), vctrs (>= 0.6.1), withr,
-        workflows (>= 1.2.0), yardstick (>= 1.3.0)
-Suggests: C50, censored (>= 0.3.0), covr, kernlab, kknn, knitr, modeldata, scales, spelling, testthat (>= 3.0.0), xgboost, xml2
-License: MIT + file LICENSE
-File: tune_1.3.0_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/tune/releases/download/1.3.0/tune_1.3.0_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.5.0; ; 2025-03-16 09:19:14 UTC; unix
-Filesize: 1967931
-SHA256: eecbf1ba082360c8ed91cf34feaf181f1999f9a4b24ca710e7c71d2f8a4e0b17
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: tzdb
 Version: 0.5.0
 Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
@@ -2871,23 +2853,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, pandoc (>= 1.12.3), pandoc-citeproc
 LinkingTo: StanHeaders (>= 2.32.0), rstan (>= 2.32.0), BH (>= 1.72.0-2), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0), RcppParallel (>= 5.0.1)
 
-Package: rstantools
-Version: 2.4.0
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1)
-Suggests: rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0), knitr, pkgbuild, pkgload, roxygen2 (>= 6.0.1), rmarkdown, rstudioapi
-License: GPL (>= 3)
-File: rstantools_2.4.0_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/rstantools/releases/download/2.4.0/rstantools_2.4.0_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.5.0; ; 2025-03-16 09:25:55 UTC; unix
-Filesize: 170468
-SHA256: 7bbdb55a501bd7cf121d162b49d7b50bffe5fb36903da6ba46a2ea9071a360af
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc, C++14
-
 Package: shinyjs
 Version: 2.1.0
 Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
@@ -3631,26 +3596,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: fontconfig, freetype2
 LinkingTo: cpp11 (>= 0.2.1)
 
-Package: textshaping
-Version: 1.0.1
-Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
-Imports: lifecycle, stats, stringi, systemfonts (>= 1.1.0), utils
-Suggests: covr, grDevices, grid, knitr, rmarkdown, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: textshaping_1.0.1_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/textshaping/releases/download/1.0.1/textshaping_1.0.1_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-05-01 23:20:48 UTC; unix
-Filesize: 1341388
-SHA256: dfa49c9fd95db1a92f350006810c5189409fa43b9beda38a36c700f2aca63751
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: freetype2, harfbuzz, fribidi
-LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
-
 Package: R.oo
 Version: 1.27.1
 Depends: R (>= 2.13.0), R.methodsS3 (>= 1.8.2), R (>= 4.5), R (< 4.5.99)
@@ -4077,24 +4022,6 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: bayesplot
-Version: 1.13.0
-Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
-Imports: dplyr (>= 0.8.0), ggplot2 (>= 3.4.0), ggridges (>= 0.5.5), glue, posterior, reshape2, rlang (>= 0.3.0), stats, tibble (>= 2.0.0), tidyr, tidyselect, utils
-Suggests: ggfortify, gridExtra (>= 2.2.1), hexbin, knitr (>= 1.16), loo (>= 2.0.0), RColorBrewer, rmarkdown (>= 1.0.0), rstan (>= 2.17.1), rstanarm (>= 2.17.4), rstantools (>= 1.5.0), scales,
-        shinystan (>= 2.3.0), survival, testthat (>= 2.0.0), vdiffr (>= 1.0.2)
-License: GPL (>= 3)
-File: bayesplot_1.13.0_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/bayesplot/releases/download/1.13.0/bayesplot_1.13.0_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.5.1; ; 2025-06-19 23:22:34 UTC; unix
-Filesize: 5502857
-SHA256: a00c520442c160ecfb935a72556e074d055c22fd993f039d18c8959751906ca9
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
 
 Package: Deriv
 Version: 4.2.0
@@ -4643,25 +4570,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: RcppArmadillo
-Version: 14.6.3-1
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-Imports: Rcpp (>= 1.0.12), stats, utils, methods
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-License: GPL (>= 2)
-File: RcppArmadillo_14.6.3-1_b7_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/14.6.3-1/RcppArmadillo_14.6.3-1_b7_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.1; aarch64-unknown-linux-gnu; 2025-08-20 23:21:31 UTC; unix
-Filesize: 1914451
-SHA256: 1d55e4e836410746935ff618ec5acb84bec294d26bbfcc2760de6708eb6ea6cf
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: RSQLite
 Version: 2.4.3
 Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
@@ -4915,3 +4823,112 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: tailor
+Version: 0.1.0
+Depends: R (>= 4.1), R (>= 4.5), R (< 4.5.99)
+Imports: cli, dplyr, generics, hardhat, purrr, rlang (>= 1.1.0), tibble, tidyselect, vctrs
+Suggests: betacal, dials (>= 1.4.1), mgcv, modeldata, probably (>= 1.1.0), testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: tailor_0.1.0_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/tailor/releases/download/0.1.0/tailor_0.1.0_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.5.1; ; 2025-09-01 23:21:03 UTC; unix
+Filesize: 487937
+SHA256: ec2e6b0809abc5f2b61889b045cc4e3aaece319f298f5a5e05b570657565eb9e
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: tune
+Version: 2.0.0
+Depends: R (>= 4.1), R (>= 4.5), R (< 4.5.99)
+Imports: cli (>= 3.3.0), dials (>= 1.3.0.9000), dplyr (>= 1.1.0), generics (>= 0.1.2), ggplot2, glue (>= 1.6.2), GPfit, hardhat (>= 1.4.2), parallel, parsnip (>= 1.2.1.9003), purrr (>= 1.0.0),
+        recipes (>= 1.1.0.9001), rlang (>= 1.1.4), rsample (>= 1.3.0.9003), tailor (>= 0.1.0), tibble (>= 3.1.0), tidyr (>= 1.2.0), tidyselect (>= 1.1.2), vctrs (>= 0.6.1), withr, workflows (>=
+        1.3.0), yardstick (>= 1.3.0)
+Suggests: C50, censored (>= 0.3.0), covr, future (>= 1.33.0), future.apply, kernlab, kknn, knitr, mgcv, mirai (>= 2.4.0), modeldata, probably, scales, spelling, splines2, survival, testthat (>=
+        3.0.0), xgboost, xml2
+License: MIT + file LICENSE
+File: tune_2.0.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/tune/releases/download/2.0.0/tune_2.0.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.5.1; ; 2025-09-01 23:21:06 UTC; unix
+Filesize: 1510203
+SHA256: 76af0c3edae69695914ac652f5989b0444a968bcb7019ac77141358fa2f5d98f
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rstantools
+Version: 2.5.0
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1)
+Suggests: rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0), knitr, pkgbuild, pkgload, roxygen2 (>= 6.0.1), rmarkdown, rstudioapi
+License: GPL (>= 3)
+File: rstantools_2.5.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/rstantools/releases/download/2.5.0/rstantools_2.5.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.5.1; ; 2025-09-01 23:21:04 UTC; unix
+Filesize: 172849
+SHA256: d375dca077596ff17f9319942d4f0da6fa93528251c1a13e917881a71c5bd4ad
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc, C++14
+
+Package: textshaping
+Version: 1.0.2
+Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
+Imports: lifecycle, stats, stringi, systemfonts (>= 1.1.0), utils
+Suggests: covr, grDevices, grid, knitr, rmarkdown, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: textshaping_1.0.2_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/textshaping/releases/download/1.0.2/textshaping_1.0.2_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.1; aarch64-unknown-linux-gnu; 2025-09-01 23:21:04 UTC; unix
+Filesize: 1342232
+SHA256: e90176fc9f467f6965a1706dcb6f5d462a7a3fe95a3a331b2961cc3d5743cf68
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: freetype2, harfbuzz, fribidi
+LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
+
+Package: bayesplot
+Version: 1.14.0
+Depends: R (>= 4.1.0), R (>= 4.5), R (< 4.5.99)
+Imports: dplyr (>= 0.8.0), ggplot2 (>= 3.4.0), ggridges (>= 0.5.5), glue, posterior, reshape2, rlang (>= 0.3.0), stats, tibble (>= 2.0.0), tidyr, tidyselect, utils
+Suggests: ggdist, ggfortify, gridExtra (>= 2.2.1), hexbin, knitr (>= 1.16), loo (>= 2.0.0), RColorBrewer, rmarkdown (>= 1.0.0), rstan (>= 2.17.1), rstanarm (>= 2.17.4), rstantools (>= 1.5.0), scales,
+        shinystan (>= 2.3.0), survival, testthat (>= 2.0.0), vdiffr (>= 1.0.2)
+License: GPL (>= 3)
+File: bayesplot_1.14.0_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/bayesplot/releases/download/1.14.0/bayesplot_1.14.0_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.5.1; ; 2025-09-01 23:21:07 UTC; unix
+Filesize: 5522300
+SHA256: 7e28c861362ad0f1cc76d770c974e6c49cdec25792dccbb6ff0d89c937591a4f
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
+
+Package: RcppArmadillo
+Version: 15.0.1-1
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+Imports: Rcpp (>= 1.0.12), stats, utils, methods
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+File: RcppArmadillo_15.0.1-1_b8_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/15.0.1-1/RcppArmadillo_15.0.1-1_b8_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.1; aarch64-unknown-linux-gnu; 2025-09-01 23:21:04 UTC; unix
+Filesize: 2522940
+SHA256: 36688d62ec557e7390b5d08d772878861d0065313efd7f2438041664f28741e0
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
