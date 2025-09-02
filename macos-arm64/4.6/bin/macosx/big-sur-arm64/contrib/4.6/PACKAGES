@@ -3188,26 +3188,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: ragg
-Version: 1.4.0
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
-Suggests: covr, graphics, grid, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: ragg_1.4.0_b2_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/ragg/releases/download/1.4.0/ragg_1.4.0_b2_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-04-10 17:38:28 UTC; unix
-Filesize: 2356930
-SHA256: 798c794313f2422f6df6e5d7c90ac68b70dadef4d2a5891d0e8d0ad380c2ac65
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: freetype2, libpng, libtiff, libjpeg
-LinkingTo: systemfonts, textshaping
-
 Package: zoo
 Version: 1.8-14
 Depends: R (>= 3.1.0), stats, R (>= 4.6), R (< 4.6.99)
@@ -4549,25 +4529,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libcurl (>= 7.73): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
 
-Package: RcppArmadillo
-Version: 14.6.3-1
-Depends: R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp (>= 1.0.12), stats, utils, methods
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-License: GPL (>= 2)
-File: RcppArmadillo_14.6.3-1_b7_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/14.6.3-1/RcppArmadillo_14.6.3-1_b7_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-08-20 17:39:41 UTC; unix
-Filesize: 1089802
-SHA256: bb395e65bf81517dcad836392c70580f58471cc97a98cbbacaedc2b7b5810adf
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: RSQLite
 Version: 2.4.3
 Depends: R (>= 3.1.0), R (>= 4.6), R (< 4.6.99)
@@ -4894,26 +4855,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc, C++14
 
-Package: textshaping
-Version: 1.0.2
-Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
-Imports: lifecycle, stats, stringi, systemfonts (>= 1.1.0), utils
-Suggests: covr, grDevices, grid, knitr, rmarkdown, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: textshaping_1.0.2_b3_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/textshaping/releases/download/1.0.2/textshaping_1.0.2_b3_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-09-01 17:35:15 UTC; unix
-Filesize: 1068527
-SHA256: 648148cd3701d8ba0eae23809c07daab2abc14963181e11d468bfa33bae94250
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: freetype2, harfbuzz, fribidi
-LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
-
 Package: parsnip
 Version: 1.3.3
 Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
@@ -4949,3 +4890,62 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
+
+Package: ragg
+Version: 1.5.0
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
+Suggests: covr, graphics, grid, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: ragg_1.5.0_b3_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/ragg/releases/download/1.5.0/ragg_1.5.0_b3_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-09-02 17:36:44 UTC; unix
+Filesize: 2402636
+SHA256: 86f3670ba9313a94f8c053e9f7f7577a9dd7739ab97aa9f604446fbf5c16368a
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: freetype2, libpng, libtiff, libjpeg, libwebp, libwebpmux
+LinkingTo: systemfonts, textshaping
+
+Package: RcppArmadillo
+Version: 15.0.1-1
+Depends: R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp (>= 1.0.12), stats, utils, methods
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+File: RcppArmadillo_15.0.1-1_b8_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/15.0.1-1/RcppArmadillo_15.0.1-1_b8_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-09-02 17:36:33 UTC; unix
+Filesize: 1698273
+SHA256: ce106d1a7567bfe20582b37ae4244f752b11d5c2d3a78412a0200b40de1709a1
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: textshaping
+Version: 1.0.3
+Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
+Imports: lifecycle, stats, stringi, systemfonts (>= 1.1.0), utils
+Suggests: covr, grDevices, grid, knitr, rmarkdown, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: textshaping_1.0.3_b4_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/textshaping/releases/download/1.0.3/textshaping_1.0.3_b4_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-09-02 17:36:20 UTC; unix
+Filesize: 1068519
+SHA256: 805fd9c0e663ece2e5e94081d8c35393181e329d898e1bc7a585263855b42b52
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: freetype2, harfbuzz, fribidi
+LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
