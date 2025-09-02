@@ -3030,26 +3030,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: ragg
-Version: 1.4.0
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
-Suggests: covr, graphics, grid, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: ragg_1.4.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/ragg/releases/download/1.4.0/ragg_1.4.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-04-10 16:59:23 UTC; unix
-Filesize: 825816
-SHA256: f50905f0a7d9343b2268395a1962de340904a01fc618787641f68a990d090180
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: freetype2, libpng, libtiff, libjpeg
-LinkingTo: systemfonts, textshaping
-
 Package: zoo
 Version: 1.8-14
 Depends: R (>= 3.1.0), stats, R (>= 4.6), R (< 4.6.99)
@@ -4255,25 +4235,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libcurl (>= 7.73): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
 
-Package: RcppArmadillo
-Version: 14.6.3-1
-Depends: R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp (>= 1.0.12), stats, utils, methods
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-License: GPL (>= 2)
-File: RcppArmadillo_14.6.3-1_b7_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/14.6.3-1/RcppArmadillo_14.6.3-1_b7_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-08-20 16:59:44 UTC; unix
-Filesize: 1109119
-SHA256: 7d29a490d0fb6b8838ab8f0a50ff670a0131711f27354065b8ffc7fab81da76c
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: RSQLite
 Version: 2.4.3
 Depends: R (>= 3.1.0), R (>= 4.6), R (< 4.6.99)
@@ -4530,26 +4491,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: textshaping
-Version: 1.0.2
-Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
-Imports: lifecycle, stats, stringi, systemfonts (>= 1.1.0), utils
-Suggests: covr, grDevices, grid, knitr, rmarkdown, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: textshaping_1.0.2_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/textshaping/releases/download/1.0.2/textshaping_1.0.2_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-09-01 16:59:40 UTC; unix
-Filesize: 203145
-SHA256: 5f7f64457be2be42174636e87fc6e379f0e21d0acfdf4bd6cd5082d9c464d83e
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: freetype2, harfbuzz, fribidi
-LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
-
 Package: parsnip
 Version: 1.3.3
 Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
@@ -4567,3 +4508,62 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: ragg
+Version: 1.5.0
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
+Suggests: covr, graphics, grid, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: ragg_1.5.0_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/ragg/releases/download/1.5.0/ragg_1.5.0_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-09-02 17:00:17 UTC; unix
+Filesize: 862734
+SHA256: f6b52d9f363039520ec255838e772121d23f82fbffc31976cb0c8b4c974bc30c
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: freetype2, libpng, libtiff, libjpeg, libwebp, libwebpmux
+LinkingTo: systemfonts, textshaping
+
+Package: RcppArmadillo
+Version: 15.0.1-1
+Depends: R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp (>= 1.0.12), stats, utils, methods
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+File: RcppArmadillo_15.0.1-1_b8_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/15.0.1-1/RcppArmadillo_15.0.1-1_b8_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-09-02 16:59:55 UTC; unix
+Filesize: 1716795
+SHA256: 91f8c62223253336f2b27e375b42523ae0b91036daa16c37d81a03d2b7968c06
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: textshaping
+Version: 1.0.3
+Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
+Imports: lifecycle, stats, stringi, systemfonts (>= 1.1.0), utils
+Suggests: covr, grDevices, grid, knitr, rmarkdown, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: textshaping_1.0.3_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/textshaping/releases/download/1.0.3/textshaping_1.0.3_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-09-02 16:59:51 UTC; unix
+Filesize: 203304
+SHA256: c2b8192dee3271083a0e8d7c0d2e2c2c56ae443d3fdc438caa8fdf2848688e12
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: freetype2, harfbuzz, fribidi
+LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
