@@ -1631,22 +1631,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: gargle
-Version: 1.5.2
-Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
-Imports: cli (>= 3.0.1), fs (>= 1.3.1), glue (>= 1.3.0), httr (>= 1.4.5), jsonlite, lifecycle, openssl, rappdirs, rlang (>= 1.1.0), stats, utils, withr
-Suggests: aws.ec2metadata, aws.signature, covr, httpuv, knitr, rmarkdown, sodium, spelling, testthat (>= 3.1.7)
-License: MIT + file LICENSE
-File: gargle_1.5.2_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/gargle/releases/download/1.5.2/gargle_1.5.2_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:43:30 UTC; unix
-Filesize: 797008
-SHA256: 32ea28cd695122ec2ef30d5c9ee54bc434360192026f5ef1b17e02225356ad7c
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: googledrive
 Version: 2.1.1
 Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
@@ -2384,22 +2368,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: compiler
-
-Package: DT
-Version: 0.33
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: htmltools (>= 0.3.6), htmlwidgets (>= 1.3), httpuv, jsonlite (>= 0.9.16), magrittr, crosstalk, jquerylib, promises
-Suggests: knitr (>= 1.8), rmarkdown, shiny (>= 1.6), bslib, future, testit, tibble
-License: GPL-3 | file LICENSE
-File: DT_0.33_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/DT/releases/download/0.33/DT_0.33_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:58:58 UTC; unix
-Filesize: 1806636
-SHA256: 4cbc0031db12fc6111aecfd579f896aeac6bf8be43cbc101a99c4e430473c878
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: lazyeval
 Version: 0.2.2
@@ -4895,3 +4863,35 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: freetype2, harfbuzz, fribidi
 LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
+
+Package: gargle
+Version: 1.6.0
+Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
+Imports: cli (>= 3.0.1), fs (>= 1.3.1), glue (>= 1.3.0), httr (>= 1.4.5), jsonlite, lifecycle (>= 0.2.0), openssl, rappdirs, rlang (>= 1.1.0), stats, utils, withr
+Suggests: aws.ec2metadata, aws.signature, covr, httpuv, knitr, rmarkdown, sodium, spelling, testthat (>= 3.1.7)
+License: MIT + file LICENSE
+File: gargle_1.6.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/gargle/releases/download/1.6.0/gargle_1.6.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.6.0; ; 2025-09-03 17:15:58 UTC; unix
+Filesize: 642677
+SHA256: 5a903e0c29d6439f41b71b435f158d403ebb4e3ec5830f430e291fd150acf943
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: DT
+Version: 0.34.0
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: crosstalk, htmltools (>= 0.3.6), htmlwidgets (>= 1.3), jquerylib, jsonlite (>= 0.9.16), magrittr, promises
+Suggests: bslib, future, httpuv, knitr (>= 1.8), rmarkdown, shiny (>= 1.6), testit, tibble
+License: MIT + file LICENSE
+File: DT_0.34.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/DT/releases/download/0.34.0/DT_0.34.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.6.0; ; 2025-09-03 17:16:00 UTC; unix
+Filesize: 1792323
+SHA256: 97fc52c375de6ff49cb88654c1d7c3a069080281b9b639baec4c2e1e4c6a116b
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
