@@ -1667,22 +1667,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: gargle
-Version: 1.5.2
-Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
-Imports: cli (>= 3.0.1), fs (>= 1.3.1), glue (>= 1.3.0), httr (>= 1.4.5), jsonlite, lifecycle, openssl, rappdirs, rlang (>= 1.1.0), stats, utils, withr
-Suggests: aws.ec2metadata, aws.signature, covr, httpuv, knitr, rmarkdown, sodium, spelling, testthat (>= 3.1.7)
-License: MIT + file LICENSE
-File: gargle_1.5.2_b1_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/gargle/releases/download/1.5.2/gargle_1.5.2_b1_R4.6_x86_64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-03-16 18:59:23 UTC; unix
-Filesize: 776205
-SHA256: e123e91b71373de582895372e73a2e59f5ff51b70a0535ccb3eedc7b79eb9377
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: googledrive
 Version: 2.1.1
 Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
@@ -2439,22 +2423,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: compiler
-
-Package: DT
-Version: 0.33
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: htmltools (>= 0.3.6), htmlwidgets (>= 1.3), httpuv, jsonlite (>= 0.9.16), magrittr, crosstalk, jquerylib, promises
-Suggests: knitr (>= 1.8), rmarkdown, shiny (>= 1.6), bslib, future, testit, tibble
-License: GPL-3 | file LICENSE
-File: DT_0.33_b1_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/DT/releases/download/0.33/DT_0.33_b1_R4.6_x86_64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-03-16 19:21:00 UTC; unix
-Filesize: 1793178
-SHA256: de9427baf3482147b30f31fa96b5600617a82736c5c1c38cd68d3c83e1f0e791
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: lazyeval
 Version: 0.2.2
@@ -4894,3 +4862,35 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: freetype2, harfbuzz, fribidi
 LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
+
+Package: gargle
+Version: 1.6.0
+Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
+Imports: cli (>= 3.0.1), fs (>= 1.3.1), glue (>= 1.3.0), httr (>= 1.4.5), jsonlite, lifecycle (>= 0.2.0), openssl, rappdirs, rlang (>= 1.1.0), stats, utils, withr
+Suggests: aws.ec2metadata, aws.signature, covr, httpuv, knitr, rmarkdown, sodium, spelling, testthat (>= 3.1.7)
+License: MIT + file LICENSE
+File: gargle_1.6.0_b2_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/gargle/releases/download/1.6.0/gargle_1.6.0_b2_R4.6_x86_64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-09-03 08:24:17 UTC; unix
+Filesize: 619624
+SHA256: 54e641881bb5b16e043f76ebe5854c8af50d6e4d64a8e530f753fd51f188c407
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: DT
+Version: 0.34.0
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: crosstalk, htmltools (>= 0.3.6), htmlwidgets (>= 1.3), jquerylib, jsonlite (>= 0.9.16), magrittr, promises
+Suggests: bslib, future, httpuv, knitr (>= 1.8), rmarkdown, shiny (>= 1.6), testit, tibble
+License: MIT + file LICENSE
+File: DT_0.34.0_b2_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/DT/releases/download/0.34.0/DT_0.34.0_b2_R4.6_x86_64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-09-03 01:23:04 UTC; unix
+Filesize: 1779564
+SHA256: af2fa0a413aa373c394a17ba1fa20fb295d6c1943483cfd96e737bb5cd3dfc91
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
