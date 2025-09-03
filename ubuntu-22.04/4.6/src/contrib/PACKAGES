@@ -1631,22 +1631,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: gargle
-Version: 1.5.2
-Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
-Imports: cli (>= 3.0.1), fs (>= 1.3.1), glue (>= 1.3.0), httr (>= 1.4.5), jsonlite, lifecycle, openssl, rappdirs, rlang (>= 1.1.0), stats, utils, withr
-Suggests: aws.ec2metadata, aws.signature, covr, httpuv, knitr, rmarkdown, sodium, spelling, testthat (>= 3.1.7)
-License: MIT + file LICENSE
-File: gargle_1.5.2_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/gargle/releases/download/1.5.2/gargle_1.5.2_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:44:09 UTC; unix
-Filesize: 776082
-SHA256: 48f9f12f854212ee972a3d31320ef035bddc4647f5cf6e0301d67434f136346d
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: googledrive
 Version: 2.1.1
 Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
@@ -2384,22 +2368,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: compiler
-
-Package: DT
-Version: 0.33
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: htmltools (>= 0.3.6), htmlwidgets (>= 1.3), httpuv, jsonlite (>= 0.9.16), magrittr, crosstalk, jquerylib, promises
-Suggests: knitr (>= 1.8), rmarkdown, shiny (>= 1.6), bslib, future, testit, tibble
-License: GPL-3 | file LICENSE
-File: DT_0.33_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/DT/releases/download/0.33/DT_0.33_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:56:09 UTC; unix
-Filesize: 1793029
-SHA256: 518edbaad8be865a0f3879b77e469e04e13081c68e204cc9cced52c23481da0c
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: lazyeval
 Version: 0.2.2
@@ -4895,3 +4863,35 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: freetype2, harfbuzz, fribidi
 LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
+
+Package: gargle
+Version: 1.6.0
+Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
+Imports: cli (>= 3.0.1), fs (>= 1.3.1), glue (>= 1.3.0), httr (>= 1.4.5), jsonlite, lifecycle (>= 0.2.0), openssl, rappdirs, rlang (>= 1.1.0), stats, utils, withr
+Suggests: aws.ec2metadata, aws.signature, covr, httpuv, knitr, rmarkdown, sodium, spelling, testthat (>= 3.1.7)
+License: MIT + file LICENSE
+File: gargle_1.6.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/gargle/releases/download/1.6.0/gargle_1.6.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.6.0; ; 2025-09-03 16:40:32 UTC; unix
+Filesize: 620936
+SHA256: ee14f59e5393ac2f85e9fcf7a1009353d1824145189acdc1c3bacca61e913db6
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: DT
+Version: 0.34.0
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: crosstalk, htmltools (>= 0.3.6), htmlwidgets (>= 1.3), jquerylib, jsonlite (>= 0.9.16), magrittr, promises
+Suggests: bslib, future, httpuv, knitr (>= 1.8), rmarkdown, shiny (>= 1.6), testit, tibble
+License: MIT + file LICENSE
+File: DT_0.34.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/DT/releases/download/0.34.0/DT_0.34.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.6.0; ; 2025-09-03 16:40:34 UTC; unix
+Filesize: 1779914
+SHA256: 4bb3f3f983cd7db5d422518b8e76eaf192416e3ea0d14b7fe6ca41f7d0f1899a
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
