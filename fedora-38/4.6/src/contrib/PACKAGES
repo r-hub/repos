@@ -648,25 +648,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
 
-Package: roxygen2
-Version: 7.3.2
-Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
-Imports: brew, cli (>= 3.3.0), commonmark, desc (>= 1.2.0), knitr, methods, pkgload (>= 1.0.2), purrr (>= 1.0.0), R6 (>= 2.1.2), rlang (>= 1.0.6), stringi, stringr (>= 1.0.0), utils, withr, xml2
-Suggests: covr, R.methodsS3, R.oo, rmarkdown (>= 2.16), testthat (>= 3.1.2), yaml
-License: MIT + file LICENSE
-File: roxygen2_7.3.2_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/roxygen2/releases/download/7.3.2/roxygen2_7.3.2_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:44:15 UTC; unix
-Filesize: 1072315
-SHA256: 558e849f83e1d7a427922b7505de3e780fdd5b34baf5b2de7d9de45880d72e46
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cpp11
-
 Package: rstudioapi
 Version: 0.17.1
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -1643,23 +1624,6 @@ DownloadURL: https://github.com/cran/googledrive/releases/download/2.1.1/googled
 Built: R 4.6.0; ; 2025-03-15 08:43:52 UTC; unix
 Filesize: 1937419
 SHA256: 4498e21b43c1db32d89244cf253cd9f720fa3acf150c74ba74b93d20f3c337e5
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: googlesheets4
-Version: 1.1.1
-Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
-Imports: cellranger, cli (>= 3.0.0), curl, gargle (>= 1.5.0), glue (>= 1.3.0), googledrive (>= 2.1.0), httr, ids, lifecycle, magrittr, methods, purrr, rematch2, rlang (>= 1.0.2), tibble (>= 2.1.1),
-        utils, vctrs (>= 0.2.3), withr
-Suggests: readr, rmarkdown, spelling, testthat (>= 3.1.7)
-License: MIT + file LICENSE
-File: googlesheets4_1.1.1_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/googlesheets4/releases/download/1.1.1/googlesheets4_1.1.1_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:44:02 UTC; unix
-Filesize: 543087
-SHA256: 36ded622f01c1357f174aba0af8124f256366b0790d53c15b7df567271cf1cf3
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
@@ -4320,22 +4284,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: dials
-Version: 1.4.1
-Depends: R (>= 4.1), scales (>= 1.3.0), R (>= 4.6), R (< 4.6.99)
-Imports: cli, DiceDesign, dplyr (>= 0.8.5), glue, hardhat (>= 1.1.0), lifecycle, pillar, purrr, rlang (>= 1.1.0), sfd, tibble, utils, vctrs (>= 0.3.8), withr
-Suggests: covr, ggplot2, kernlab, knitr, rmarkdown, rpart, testthat (>= 3.1.9), xml2
-License: MIT + file LICENSE
-File: dials_1.4.1_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/dials/releases/download/1.4.1/dials_1.4.1_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.6.0; ; 2025-07-30 17:20:26 UTC; unix
-Filesize: 464756
-SHA256: e11e9b56b2bf076fb461e5f462c4700211fa2fa9e18650ea70769ff93945d995
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: pROC
 Version: 1.19.0.1
 Depends: R (>= 2.14), R (>= 4.6), R (< 4.6.99)
@@ -4891,6 +4839,58 @@ DownloadURL: https://github.com/cran/DT/releases/download/0.34.0/DT_0.34.0_b2_R4
 Built: R 4.6.0; ; 2025-09-03 17:16:00 UTC; unix
 Filesize: 1792323
 SHA256: 97fc52c375de6ff49cb88654c1d7c3a069080281b9b639baec4c2e1e4c6a116b
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: roxygen2
+Version: 7.3.3
+Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
+Imports: brew, cli (>= 3.3.0), commonmark, desc (>= 1.2.0), knitr, methods, pkgload (>= 1.0.2), purrr (>= 1.0.0), R6 (>= 2.1.2), rlang (>= 1.0.6), stringi, stringr (>= 1.0.0), utils, withr, xml2
+Suggests: covr, R.methodsS3, R.oo, rmarkdown (>= 2.16), testthat (>= 3.1.2), yaml
+License: MIT + file LICENSE
+File: roxygen2_7.3.3_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/roxygen2/releases/download/7.3.3/roxygen2_7.3.3_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-09-04 17:15:47 UTC; unix
+Filesize: 1075264
+SHA256: ad9f3d6fc7b9af2dfef17bfd58fcc3487aa0567394a97254555b06a26b267200
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11
+
+Package: googlesheets4
+Version: 1.1.2
+Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
+Imports: cellranger, cli (>= 3.0.0), curl, gargle (>= 1.6.0), glue (>= 1.3.0), googledrive (>= 2.1.0), httr, ids, lifecycle, magrittr, methods, purrr, rematch2, rlang (>= 1.0.2), tibble (>= 2.1.1),
+        utils, vctrs (>= 0.2.3), withr
+Suggests: readr, rmarkdown, spelling, testthat (>= 3.1.7)
+License: MIT + file LICENSE
+File: googlesheets4_1.1.2_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/googlesheets4/releases/download/1.1.2/googlesheets4_1.1.2_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.6.0; ; 2025-09-04 17:15:49 UTC; unix
+Filesize: 543491
+SHA256: 5ef3e4b688c6ec4ebb8d6f27380dda929e5766e4673808128291f420f6ab736d
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: dials
+Version: 1.4.2
+Depends: R (>= 4.1), scales (>= 1.3.0), R (>= 4.6), R (< 4.6.99)
+Imports: cli, DiceDesign, dplyr (>= 0.8.5), glue, hardhat (>= 1.1.0), lifecycle, pillar, purrr, rlang (>= 1.1.0), sfd, tibble, utils, vctrs (>= 0.3.8), withr
+Suggests: covr, ggplot2, kernlab, knitr, rmarkdown, rpart, testthat (>= 3.1.9), xml2
+License: MIT + file LICENSE
+File: dials_1.4.2_b3_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/dials/releases/download/1.4.2/dials_1.4.2_b3_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.6.0; ; 2025-09-04 17:15:51 UTC; unix
+Filesize: 468974
+SHA256: 1f501d88a5dc7bb03e4ced3d393a18e5036794082bbc6dfb00c9a794e6ed5dfc
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 17
