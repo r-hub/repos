@@ -647,25 +647,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
 
-Package: roxygen2
-Version: 7.3.2
-Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
-Imports: brew, cli (>= 3.3.0), commonmark, desc (>= 1.2.0), knitr, methods, pkgload (>= 1.0.2), purrr (>= 1.0.0), R6 (>= 2.1.2), rlang (>= 1.0.6), stringi, stringr (>= 1.0.0), utils, withr, xml2
-Suggests: covr, R.methodsS3, R.oo, rmarkdown (>= 2.16), testthat (>= 3.1.2), yaml
-License: MIT + file LICENSE
-File: roxygen2_7.3.2_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/roxygen2/releases/download/7.3.2/roxygen2_7.3.2_b1_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-03-16 18:23:15 UTC; unix
-Filesize: 732290
-SHA256: 10e287b06713b63f7c884e9c31947475d8df21556b3dafd2a1b8f424e0f0f130
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cpp11
-
 Package: rstudioapi
 Version: 0.17.1
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -1660,23 +1641,6 @@ DownloadURL: https://github.com/cran/googledrive/releases/download/2.1.1/googled
 Built: R 4.6.0; ; 2025-03-16 18:22:50 UTC; unix
 Filesize: 1904597
 SHA256: dd1a3be8d3f39823aa8df313fb1255ecbdce4d72d8d7b08dbf4d16012b7e854a
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: googlesheets4
-Version: 1.1.1
-Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
-Imports: cellranger, cli (>= 3.0.0), curl, gargle (>= 1.5.0), glue (>= 1.3.0), googledrive (>= 2.1.0), httr, ids, lifecycle, magrittr, methods, purrr, rematch2, rlang (>= 1.0.2), tibble (>= 2.1.1),
-        utils, vctrs (>= 0.2.3), withr
-Suggests: readr, rmarkdown, spelling, testthat (>= 3.1.7)
-License: MIT + file LICENSE
-File: googlesheets4_1.1.1_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/googlesheets4/releases/download/1.1.1/googlesheets4_1.1.1_b1_R4.6_aarch64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-03-16 18:22:52 UTC; unix
-Filesize: 519671
-SHA256: c401f85621b4a56ea6f9fcb4202d169def646198676532d0c5277e3e1fb6cccd
 RVersion: 4.6
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
@@ -4355,22 +4319,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: dials
-Version: 1.4.1
-Depends: R (>= 4.1), scales (>= 1.3.0), R (>= 4.6), R (< 4.6.99)
-Imports: cli, DiceDesign, dplyr (>= 0.8.5), glue, hardhat (>= 1.1.0), lifecycle, pillar, purrr, rlang (>= 1.1.0), sfd, tibble, utils, vctrs (>= 0.3.8), withr
-Suggests: covr, ggplot2, kernlab, knitr, rmarkdown, rpart, testthat (>= 3.1.9), xml2
-License: MIT + file LICENSE
-File: dials_1.4.1_b2_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/dials/releases/download/1.4.1/dials_1.4.1_b2_R4.6_aarch64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-07-29 20:21:32 UTC; unix
-Filesize: 444191
-SHA256: b5b70cb2c8936140e5b5d50721e005e750d29eb67805e1229e4175609a3ed187
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: pROC
 Version: 1.19.0.1
 Depends: R (>= 2.14), R (>= 4.6), R (< 4.6.99)
@@ -4945,6 +4893,58 @@ DownloadURL: https://github.com/cran/DT/releases/download/0.34.0/DT_0.34.0_b2_R4
 Built: R 4.6.0; ; 2025-09-03 17:36:17 UTC; unix
 Filesize: 1780226
 SHA256: ef7bbb1f426d08afa010dd97d44f5ebf320335b0ddcd2266c3c9c2a57e983457
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: roxygen2
+Version: 7.3.3
+Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
+Imports: brew, cli (>= 3.3.0), commonmark, desc (>= 1.2.0), knitr, methods, pkgload (>= 1.0.2), purrr (>= 1.0.0), R6 (>= 2.1.2), rlang (>= 1.0.6), stringi, stringr (>= 1.0.0), utils, withr, xml2
+Suggests: covr, R.methodsS3, R.oo, rmarkdown (>= 2.16), testthat (>= 3.1.2), yaml
+License: MIT + file LICENSE
+File: roxygen2_7.3.3_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/roxygen2/releases/download/7.3.3/roxygen2_7.3.3_b2_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-09-03 23:21:27 UTC; unix
+Filesize: 964992
+SHA256: b330eb4fb68b2f5cda059d0dee9e9229b02d3da5e44eec43acdc4c4253803561
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11
+
+Package: googlesheets4
+Version: 1.1.2
+Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
+Imports: cellranger, cli (>= 3.0.0), curl, gargle (>= 1.6.0), glue (>= 1.3.0), googledrive (>= 2.1.0), httr, ids, lifecycle, magrittr, methods, purrr, rematch2, rlang (>= 1.0.2), tibble (>= 2.1.1),
+        utils, vctrs (>= 0.2.3), withr
+Suggests: readr, rmarkdown, spelling, testthat (>= 3.1.7)
+License: MIT + file LICENSE
+File: googlesheets4_1.1.2_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/googlesheets4/releases/download/1.1.2/googlesheets4_1.1.2_b2_R4.6_aarch64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-09-04 17:35:50 UTC; unix
+Filesize: 519665
+SHA256: 601aa505e16c4c43126f268309a361af604467661edf05a23ebcb6953e375501
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: dials
+Version: 1.4.2
+Depends: R (>= 4.1), scales (>= 1.3.0), R (>= 4.6), R (< 4.6.99)
+Imports: cli, DiceDesign, dplyr (>= 0.8.5), glue, hardhat (>= 1.1.0), lifecycle, pillar, purrr, rlang (>= 1.1.0), sfd, tibble, utils, vctrs (>= 0.3.8), withr
+Suggests: covr, ggplot2, kernlab, knitr, rmarkdown, rpart, testthat (>= 3.1.9), xml2
+License: MIT + file LICENSE
+File: dials_1.4.2_b3_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/dials/releases/download/1.4.2/dials_1.4.2_b3_R4.6_aarch64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-09-04 17:35:53 UTC; unix
+Filesize: 449680
+SHA256: 8764e5409258bf18bbdb8c5370b1fd6c5e3bdbdcdffedf3c7d8912345ebe81b8
 RVersion: 4.6
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
