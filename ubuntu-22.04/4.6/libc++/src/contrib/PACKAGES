@@ -648,25 +648,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
 
-Package: roxygen2
-Version: 7.3.2
-Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
-Imports: brew, cli (>= 3.3.0), commonmark, desc (>= 1.2.0), knitr, methods, pkgload (>= 1.0.2), purrr (>= 1.0.0), R6 (>= 2.1.2), rlang (>= 1.0.6), stringi, stringr (>= 1.0.0), utils, withr, xml2
-Suggests: covr, R.methodsS3, R.oo, rmarkdown (>= 2.16), testthat (>= 3.1.2), yaml
-License: MIT + file LICENSE
-File: roxygen2_7.3.2_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/roxygen2/releases/download/7.3.2/roxygen2_7.3.2_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 19:38:54 UTC; unix
-Filesize: 736284
-SHA256: 2daa246c9a72d419a7cb2fcb0bb82581201b8f7d1538b7d0e2744645cf1361e0
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cpp11
-
 Package: rstudioapi
 Version: 0.17.1
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -1643,23 +1624,6 @@ DownloadURL: https://github.com/cran/googledrive/releases/download/2.1.1/googled
 Built: R 4.6.0; ; 2025-03-15 19:38:42 UTC; unix
 Filesize: 1899901
 SHA256: 49594751a59db2727ff25cead130187d3a1cfec4834d9f77aa837ecbbb72dbd4
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: googlesheets4
-Version: 1.1.1
-Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
-Imports: cellranger, cli (>= 3.0.0), curl, gargle (>= 1.5.0), glue (>= 1.3.0), googledrive (>= 2.1.0), httr, ids, lifecycle, magrittr, methods, purrr, rematch2, rlang (>= 1.0.2), tibble (>= 2.1.1),
-        utils, vctrs (>= 0.2.3), withr
-Suggests: readr, rmarkdown, spelling, testthat (>= 3.1.7)
-License: MIT + file LICENSE
-File: googlesheets4_1.1.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/googlesheets4/releases/download/1.1.1/googlesheets4_1.1.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.6.0; ; 2025-03-15 19:38:49 UTC; unix
-Filesize: 517405
-SHA256: 5abb812a6e6486814edff46eedb7854d4f6f0e020b92686e9ed189effa5f3769
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
@@ -4061,22 +4025,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: dials
-Version: 1.4.1
-Depends: R (>= 4.1), scales (>= 1.3.0), R (>= 4.6), R (< 4.6.99)
-Imports: cli, DiceDesign, dplyr (>= 0.8.5), glue, hardhat (>= 1.1.0), lifecycle, pillar, purrr, rlang (>= 1.1.0), sfd, tibble, utils, vctrs (>= 0.3.8), withr
-Suggests: covr, ggplot2, kernlab, knitr, rmarkdown, rpart, testthat (>= 3.1.9), xml2
-License: MIT + file LICENSE
-File: dials_1.4.1_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/dials/releases/download/1.4.1/dials_1.4.1_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.6.0; ; 2025-07-30 17:11:18 UTC; unix
-Filesize: 439482
-SHA256: 8ba37eb954bd8cf9dc3e56538ebebf44efc7e19a45ecdab0daca1c21cedfebcd
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: pROC
 Version: 1.19.0.1
 Depends: R (>= 2.14), R (>= 4.6), R (< 4.6.99)
@@ -4563,6 +4511,58 @@ DownloadURL: https://github.com/cran/DT/releases/download/0.34.0/DT_0.34.0_b2_R4
 Built: R 4.6.0; ; 2025-09-03 16:59:24 UTC; unix
 Filesize: 1779390
 SHA256: db1035143ea2b25947222accd992c3febb8b74018bbbac3cff468efbe1b6f176
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: roxygen2
+Version: 7.3.3
+Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
+Imports: brew, cli (>= 3.3.0), commonmark, desc (>= 1.2.0), knitr, methods, pkgload (>= 1.0.2), purrr (>= 1.0.0), R6 (>= 2.1.2), rlang (>= 1.0.6), stringi, stringr (>= 1.0.0), utils, withr, xml2
+Suggests: covr, R.methodsS3, R.oo, rmarkdown (>= 2.16), testthat (>= 3.1.2), yaml
+License: MIT + file LICENSE
+File: roxygen2_7.3.3_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/roxygen2/releases/download/7.3.3/roxygen2_7.3.3_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-09-04 16:59:32 UTC; unix
+Filesize: 743756
+SHA256: e28b2552b3c0c72149ca636c87c5c659d0fd1a9c071ab371b7dc4dcd75d5f9a5
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11
+
+Package: googlesheets4
+Version: 1.1.2
+Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
+Imports: cellranger, cli (>= 3.0.0), curl, gargle (>= 1.6.0), glue (>= 1.3.0), googledrive (>= 2.1.0), httr, ids, lifecycle, magrittr, methods, purrr, rematch2, rlang (>= 1.0.2), tibble (>= 2.1.1),
+        utils, vctrs (>= 0.2.3), withr
+Suggests: readr, rmarkdown, spelling, testthat (>= 3.1.7)
+License: MIT + file LICENSE
+File: googlesheets4_1.1.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/googlesheets4/releases/download/1.1.2/googlesheets4_1.1.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.6.0; ; 2025-09-04 16:59:35 UTC; unix
+Filesize: 516918
+SHA256: 17ebcf7486dd3958313c4e050e7016b5f57106f11da10caca58cd16ccb9e3289
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: dials
+Version: 1.4.2
+Depends: R (>= 4.1), scales (>= 1.3.0), R (>= 4.6), R (< 4.6.99)
+Imports: cli, DiceDesign, dplyr (>= 0.8.5), glue, hardhat (>= 1.1.0), lifecycle, pillar, purrr, rlang (>= 1.1.0), sfd, tibble, utils, vctrs (>= 0.3.8), withr
+Suggests: covr, ggplot2, kernlab, knitr, rmarkdown, rpart, testthat (>= 3.1.9), xml2
+License: MIT + file LICENSE
+File: dials_1.4.2_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/dials/releases/download/1.4.2/dials_1.4.2_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.6.0; ; 2025-09-04 16:59:36 UTC; unix
+Filesize: 444991
+SHA256: b9ec87419f5596207da6ef2b1c64fd38eeea3cd16f3c7ff70051f0fab6fd7f58
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
