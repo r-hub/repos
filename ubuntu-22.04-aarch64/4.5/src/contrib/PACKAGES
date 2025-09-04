@@ -648,25 +648,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
 
-Package: roxygen2
-Version: 7.3.2
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-Imports: brew, cli (>= 3.3.0), commonmark, desc (>= 1.2.0), knitr, methods, pkgload (>= 1.0.2), purrr (>= 1.0.0), R6 (>= 2.1.2), rlang (>= 1.0.6), stringi, stringr (>= 1.0.0), utils, withr, xml2
-Suggests: covr, R.methodsS3, R.oo, rmarkdown (>= 2.16), testthat (>= 3.1.2), yaml
-License: MIT + file LICENSE
-File: roxygen2_7.3.2_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/roxygen2/releases/download/7.3.2/roxygen2_7.3.2_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-16 01:22:54 UTC; unix
-Filesize: 1051914
-SHA256: f79a927c33a797487648ae6d832239a542792785a905bf18ddd8508283de6364
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cpp11
-
 Package: rstudioapi
 Version: 0.17.1
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -1661,23 +1642,6 @@ DownloadURL: https://github.com/cran/googledrive/releases/download/2.1.1/googled
 Built: R 4.5.0; ; 2025-03-16 01:22:45 UTC; unix
 Filesize: 1899927
 SHA256: cdaae6101138e4fa54c55394cdd68effbea4aef6488203d7d23dd513ef487d68
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: googlesheets4
-Version: 1.1.1
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-Imports: cellranger, cli (>= 3.0.0), curl, gargle (>= 1.5.0), glue (>= 1.3.0), googledrive (>= 2.1.0), httr, ids, lifecycle, magrittr, methods, purrr, rematch2, rlang (>= 1.0.2), tibble (>= 2.1.1),
-        utils, vctrs (>= 0.2.3), withr
-Suggests: readr, rmarkdown, spelling, testthat (>= 3.1.7)
-License: MIT + file LICENSE
-File: googlesheets4_1.1.1_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/googlesheets4/releases/download/1.1.1/googlesheets4_1.1.1_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.0; ; 2025-03-16 01:22:50 UTC; unix
-Filesize: 518009
-SHA256: 1e5418a51f9f2ba0228987e867ab3123b36cf23043c546fbf308f85c15cfef6a
 RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4357,22 +4321,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: dials
-Version: 1.4.1
-Depends: R (>= 4.1), scales (>= 1.3.0), R (>= 4.5), R (< 4.5.99)
-Imports: cli, DiceDesign, dplyr (>= 0.8.5), glue, hardhat (>= 1.1.0), lifecycle, pillar, purrr, rlang (>= 1.1.0), sfd, tibble, utils, vctrs (>= 0.3.8), withr
-Suggests: covr, ggplot2, kernlab, knitr, rmarkdown, rpart, testthat (>= 3.1.9), xml2
-License: MIT + file LICENSE
-File: dials_1.4.1_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/dials/releases/download/1.4.1/dials_1.4.1_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.1; ; 2025-07-30 18:51:23 UTC; unix
-Filesize: 441831
-SHA256: 72161c5a86af413f048995b60d305ac95e080b475465e5e838e8102b9edc3f0f
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: pROC
 Version: 1.19.0.1
 Depends: R (>= 2.14), R (>= 4.5), R (< 4.5.99)
@@ -4928,6 +4876,58 @@ DownloadURL: https://github.com/cran/DT/releases/download/0.34.0/DT_0.34.0_b2_R4
 Built: R 4.5.1; ; 2025-09-03 18:42:22 UTC; unix
 Filesize: 1779741
 SHA256: 58d9e35c37e2870965952e3a4ee7322dd41893d506e6a40ea069ffd9a494949b
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: roxygen2
+Version: 7.3.3
+Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+Imports: brew, cli (>= 3.3.0), commonmark, desc (>= 1.2.0), knitr, methods, pkgload (>= 1.0.2), purrr (>= 1.0.0), R6 (>= 2.1.2), rlang (>= 1.0.6), stringi, stringr (>= 1.0.0), utils, withr, xml2
+Suggests: covr, R.methodsS3, R.oo, rmarkdown (>= 2.16), testthat (>= 3.1.2), yaml
+License: MIT + file LICENSE
+File: roxygen2_7.3.3_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/roxygen2/releases/download/7.3.3/roxygen2_7.3.3_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.1; aarch64-unknown-linux-gnu; 2025-09-04 18:43:53 UTC; unix
+Filesize: 1061236
+SHA256: b613d401593cea171824f269e49d604fbb005902a9868030cc4cd1a4fcfe0aef
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11
+
+Package: googlesheets4
+Version: 1.1.2
+Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+Imports: cellranger, cli (>= 3.0.0), curl, gargle (>= 1.6.0), glue (>= 1.3.0), googledrive (>= 2.1.0), httr, ids, lifecycle, magrittr, methods, purrr, rematch2, rlang (>= 1.0.2), tibble (>= 2.1.1),
+        utils, vctrs (>= 0.2.3), withr
+Suggests: readr, rmarkdown, spelling, testthat (>= 3.1.7)
+License: MIT + file LICENSE
+File: googlesheets4_1.1.2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/googlesheets4/releases/download/1.1.2/googlesheets4_1.1.2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.1; ; 2025-09-04 18:43:55 UTC; unix
+Filesize: 516419
+SHA256: 79711b9cfff673deb035e43a46964de7033d84dfcec4956d68d83a62c5cd27f8
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: dials
+Version: 1.4.2
+Depends: R (>= 4.1), scales (>= 1.3.0), R (>= 4.5), R (< 4.5.99)
+Imports: cli, DiceDesign, dplyr (>= 0.8.5), glue, hardhat (>= 1.1.0), lifecycle, pillar, purrr, rlang (>= 1.1.0), sfd, tibble, utils, vctrs (>= 0.3.8), withr
+Suggests: covr, ggplot2, kernlab, knitr, rmarkdown, rpart, testthat (>= 3.1.9), xml2
+License: MIT + file LICENSE
+File: dials_1.4.2_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/dials/releases/download/1.4.2/dials_1.4.2_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.1; ; 2025-09-04 18:43:56 UTC; unix
+Filesize: 446170
+SHA256: 8a73cbfe819d4ca33d8b62f9e4a0f37157d78598e73b4cfe708684567e7076a5
 RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
