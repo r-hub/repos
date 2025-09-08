@@ -712,22 +712,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: stringr
-Version: 1.5.1
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-Imports: cli, glue (>= 1.6.1), lifecycle (>= 1.0.3), magrittr, rlang (>= 1.0.0), stringi (>= 1.5.3), vctrs (>= 0.4.0)
-Suggests: covr, dplyr, gt, htmltools, htmlwidgets, knitr, rmarkdown, testthat (>= 3.0.0), tibble
-License: MIT + file LICENSE
-File: stringr_1.5.1_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/stringr/releases/download/1.5.1/stringr_1.5.1_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.5.0; ; 2025-03-16 09:05:26 UTC; unix
-Filesize: 311118
-SHA256: d5a5f18165f49a8563617f8e24ed506feedde3740f600cff0018949326d7ad7e
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: sys
 Version: 3.4.3
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -3825,26 +3809,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: magick
-Version: 2.8.7
-Depends: R (>= 4.1.0), R (>= 4.5), R (< 4.5.99)
-Imports: Rcpp (>= 0.12.12), magrittr, curl
-Suggests: av (>= 0.3), spelling, jsonlite, methods, knitr, rmarkdown, rsvg, webp, pdftools, ggplot2, gapminder, IRdisplay, tesseract (>= 2.0), gifski
-License: MIT + file LICENSE
-File: magick_2.8.7_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/magick/releases/download/2.8.7/magick_2.8.7_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.1; aarch64-unknown-linux-gnu; 2025-06-06 23:22:48 UTC; unix
-Filesize: 8544968
-SHA256: e59aec504ee0789995f6e977ad80a77f9fb7b3d314472f773cd6fef1352a33b8
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or libmagick++-dev (deb)
-LinkingTo: Rcpp
-
 Package: tibble
 Version: 3.3.0
 Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
@@ -4755,25 +4719,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
 
-Package: RcppArmadillo
-Version: 15.0.1-1
-Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-Imports: Rcpp (>= 1.0.12), stats, utils, methods
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-License: GPL (>= 2)
-File: RcppArmadillo_15.0.1-1_b8_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/15.0.1-1/RcppArmadillo_15.0.1-1_b8_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.1; aarch64-unknown-linux-gnu; 2025-09-01 23:21:04 UTC; unix
-Filesize: 2522940
-SHA256: 36688d62ec557e7390b5d08d772878861d0065313efd7f2438041664f28741e0
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: DT
 Version: 0.34.0
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4898,24 +4843,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: tidymodels
-Version: 1.4.0
-Depends: R (>= 4.1), R (>= 4.5), R (< 4.5.99)
-Imports: broom (>= 1.0.9), cli (>= 3.6.5), conflicted (>= 1.2.0), dials (>= 1.4.2), dplyr (>= 1.1.4), ggplot2 (>= 3.5.2), hardhat (>= 1.4.2), infer (>= 1.0.9), modeldata (>= 1.5.1), parsnip (>=
-        1.3.2), purrr (>= 1.1.0), recipes (>= 1.3.1), rlang (>= 1.1.6), rsample (>= 1.3.1), rstudioapi (>= 0.17.1), tailor (>= 0.1.0), tidyr (>= 1.3.1), tune (>= 1.3.0), workflows (>= 1.3.0),
-        workflowsets (>= 1.1.1), yardstick (>= 1.3.2)
-Suggests: covr, glue, knitr, rmarkdown, testthat (>= 3.0.0), xml2
-License: MIT + file LICENSE
-File: tidymodels_1.4.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/tidymodels/releases/download/1.4.0/tidymodels_1.4.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.5.1; ; 2025-09-05 23:20:39 UTC; unix
-Filesize: 85691
-SHA256: e1ff5e73aadf1367220806281d9edb754271419ef7e3c15988b77822c0a7655e
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: usethis
 Version: 3.2.1
 Depends: R (>= 4.1), R (>= 4.5), R (< 4.5.99)
@@ -4928,6 +4855,79 @@ DownloadURL: https://github.com/cran/usethis/releases/download/3.2.1/usethis_3.2
 Built: R 4.5.1; ; 2025-09-06 23:18:08 UTC; unix
 Filesize: 929859
 SHA256: c63048090d8c9b11c84600e04337a3a485f6c4ed2e3ef5ea22f75fa5848d2bd0
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: stringr
+Version: 1.5.2
+Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+Imports: cli, glue (>= 1.6.1), lifecycle (>= 1.0.3), magrittr, rlang (>= 1.0.0), stringi (>= 1.5.3), vctrs (>= 0.4.0)
+Suggests: covr, dplyr, gt, htmltools, htmlwidgets, knitr, rmarkdown, testthat (>= 3.0.0), tibble
+License: MIT + file LICENSE
+File: stringr_1.5.2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/stringr/releases/download/1.5.2/stringr_1.5.2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.5.1; ; 2025-09-08 23:21:07 UTC; unix
+Filesize: 311896
+SHA256: df5aa9ccd6bdcb470c3683e4572972a9bc6f49572b1e903d41b9395b7c268f74
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: magick
+Version: 2.9.0
+Depends: R (>= 4.1.0), R (>= 4.5), R (< 4.5.99)
+Imports: Rcpp (>= 0.12.12), magrittr, curl
+Suggests: av, spelling, jsonlite, methods, knitr, rmarkdown, rsvg, webp, pdftools, ggplot2, gapminder, IRdisplay, tesseract, gifski
+License: MIT + file LICENSE
+File: magick_2.9.0_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/magick/releases/download/2.9.0/magick_2.9.0_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.1; aarch64-unknown-linux-gnu; 2025-09-08 23:21:08 UTC; unix
+Filesize: 8553351
+SHA256: 9c5626c060d2ff9a4da99fd4a1a2262d34bcf0034c24047bf2040969a2852720
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or libmagick++-dev (deb)
+LinkingTo: Rcpp
+
+Package: RcppArmadillo
+Version: 15.0.2-1
+Depends: R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+Imports: Rcpp (>= 1.0.12), stats, utils, methods
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+File: RcppArmadillo_15.0.2-1_b9_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/15.0.2-1/RcppArmadillo_15.0.2-1_b9_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.1; aarch64-unknown-linux-gnu; 2025-09-08 23:21:10 UTC; unix
+Filesize: 2524084
+SHA256: 1f14770833ca1b9de72a77c0ec0e2d6fb5f98f2875a018bb1280c8c1f40c9993
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: tidymodels
+Version: 1.4.1
+Depends: R (>= 4.1), R (>= 4.5), R (< 4.5.99)
+Imports: broom (>= 1.0.9), cli (>= 3.6.5), conflicted (>= 1.2.0), dials (>= 1.4.2), dplyr (>= 1.1.4), ggplot2 (>= 3.5.2), hardhat (>= 1.4.2), infer (>= 1.0.9), modeldata (>= 1.5.1), parsnip (>=
+        1.3.3), purrr (>= 1.1.0), recipes (>= 1.3.1), rlang (>= 1.1.6), rsample (>= 1.3.1), rstudioapi (>= 0.17.1), tailor (>= 0.1.0), tidyr (>= 1.3.1), tune (>= 2.0.0), workflows (>= 1.3.0),
+        workflowsets (>= 1.1.1), yardstick (>= 1.3.2)
+Suggests: covr, glue, knitr, rmarkdown, testthat (>= 3.0.0), xml2
+License: MIT + file LICENSE
+File: tidymodels_1.4.1_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/tidymodels/releases/download/1.4.1/tidymodels_1.4.1_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.5.1; ; 2025-09-08 23:21:14 UTC; unix
+Filesize: 85652
+SHA256: 041cc1dd062c38dcbbf72c153baeab8ce269803fa17e49e319440c25b09b61a0
 RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
