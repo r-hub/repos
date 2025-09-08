@@ -712,22 +712,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: stringr
-Version: 1.5.1
-Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
-Imports: cli, glue (>= 1.6.1), lifecycle (>= 1.0.3), magrittr, rlang (>= 1.0.0), stringi (>= 1.5.3), vctrs (>= 0.4.0)
-Suggests: covr, dplyr, gt, htmltools, htmlwidgets, knitr, rmarkdown, testthat (>= 3.0.0), tibble
-License: MIT + file LICENSE
-File: stringr_1.5.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/stringr/releases/download/1.5.1/stringr_1.5.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:38:00 UTC; unix
-Filesize: 311490
-SHA256: 7ffeab3af065cccb08e4d306b03c58f75c8b931512055321b6b5a140a1fdf274
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: sys
 Version: 3.4.3
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -3788,26 +3772,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: magick
-Version: 2.8.7
-Depends: R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp (>= 0.12.12), magrittr, curl
-Suggests: av (>= 0.3), spelling, jsonlite, methods, knitr, rmarkdown, rsvg, webp, pdftools, ggplot2, gapminder, IRdisplay, tesseract (>= 2.0), gifski
-License: MIT + file LICENSE
-File: magick_2.8.7_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/magick/releases/download/2.8.7/magick_2.8.7_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-06-06 16:45:09 UTC; unix
-Filesize: 8801229
-SHA256: 502dbfc876f55d61db3f4d5f2f1e8621ced789f7f18962f526c48cfaa02ab4a6
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or libmagick++-dev (deb)
-LinkingTo: Rcpp
-
 Package: tibble
 Version: 3.3.0
 Depends: R (>= 3.4.0), R (>= 4.6), R (< 4.6.99)
@@ -4895,3 +4859,39 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: stringr
+Version: 1.5.2
+Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
+Imports: cli, glue (>= 1.6.1), lifecycle (>= 1.0.3), magrittr, rlang (>= 1.0.0), stringi (>= 1.5.3), vctrs (>= 0.4.0)
+Suggests: covr, dplyr, gt, htmltools, htmlwidgets, knitr, rmarkdown, testthat (>= 3.0.0), tibble
+License: MIT + file LICENSE
+File: stringr_1.5.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/stringr/releases/download/1.5.2/stringr_1.5.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.6.0; ; 2025-09-08 16:41:02 UTC; unix
+Filesize: 312055
+SHA256: ca9cf839164a6a0f24d6c124f73f1a6aa4f35b391b17a679d6e3a52ef578bf34
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: magick
+Version: 2.9.0
+Depends: R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp (>= 0.12.12), magrittr, curl
+Suggests: av, spelling, jsonlite, methods, knitr, rmarkdown, rsvg, webp, pdftools, ggplot2, gapminder, IRdisplay, tesseract, gifski
+License: MIT + file LICENSE
+File: magick_2.9.0_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/magick/releases/download/2.9.0/magick_2.9.0_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-09-08 16:41:03 UTC; unix
+Filesize: 8808754
+SHA256: fb1a6c2bf8f73e438e978f42c044b0e970b5ce473609b7720a0ee0f8e5c3afdb
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or libmagick++-dev (deb)
+LinkingTo: Rcpp
