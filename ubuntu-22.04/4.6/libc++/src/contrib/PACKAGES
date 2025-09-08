@@ -712,22 +712,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: stringr
-Version: 1.5.1
-Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
-Imports: cli, glue (>= 1.6.1), lifecycle (>= 1.0.3), magrittr, rlang (>= 1.0.0), stringi (>= 1.5.3), vctrs (>= 0.4.0)
-Suggests: covr, dplyr, gt, htmltools, htmlwidgets, knitr, rmarkdown, testthat (>= 3.0.0), tibble
-License: MIT + file LICENSE
-File: stringr_1.5.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/stringr/releases/download/1.5.1/stringr_1.5.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.6.0; ; 2025-03-15 19:32:52 UTC; unix
-Filesize: 312932
-SHA256: fee849a3a45967ec562ea2b7ea180097ff83d0a3f10d0e01c088b34324ae69bd
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: sys
 Version: 3.4.3
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -3567,26 +3551,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: magick
-Version: 2.8.7
-Depends: R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp (>= 0.12.12), magrittr, curl
-Suggests: av (>= 0.3), spelling, jsonlite, methods, knitr, rmarkdown, rsvg, webp, pdftools, ggplot2, gapminder, IRdisplay, tesseract (>= 2.0), gifski
-License: MIT + file LICENSE
-File: magick_2.8.7_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/magick/releases/download/2.8.7/magick_2.8.7_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-06-06 17:00:28 UTC; unix
-Filesize: 5042166
-SHA256: ade11882941456f45b253179ea002c13d22cd294244bf8f92df0e4c8706a21fd
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or libmagick++-dev (deb)
-LinkingTo: Rcpp
-
 Package: tibble
 Version: 3.3.0
 Depends: R (>= 3.4.0), R (>= 4.6), R (< 4.6.99)
@@ -4567,3 +4531,39 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: stringr
+Version: 1.5.2
+Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
+Imports: cli, glue (>= 1.6.1), lifecycle (>= 1.0.3), magrittr, rlang (>= 1.0.0), stringi (>= 1.5.3), vctrs (>= 0.4.0)
+Suggests: covr, dplyr, gt, htmltools, htmlwidgets, knitr, rmarkdown, testthat (>= 3.0.0), tibble
+License: MIT + file LICENSE
+File: stringr_1.5.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/stringr/releases/download/1.5.2/stringr_1.5.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.6.0; ; 2025-09-08 16:59:30 UTC; unix
+Filesize: 313669
+SHA256: 286b1e0a2766ad20deff585c439ffc4ccbb59420f03bff52ca7b695cc5d59e23
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: magick
+Version: 2.9.0
+Depends: R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp (>= 0.12.12), magrittr, curl
+Suggests: av, spelling, jsonlite, methods, knitr, rmarkdown, rsvg, webp, pdftools, ggplot2, gapminder, IRdisplay, tesseract, gifski
+License: MIT + file LICENSE
+File: magick_2.9.0_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/magick/releases/download/2.9.0/magick_2.9.0_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-09-08 16:59:33 UTC; unix
+Filesize: 7030421
+SHA256: 602b875f9c8c589a64f3326d925b8815214540574dbf7c8f06170d453f18cb8c
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or libmagick++-dev (deb)
+LinkingTo: Rcpp
