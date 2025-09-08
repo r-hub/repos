@@ -712,22 +712,6 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: stringr
-Version: 1.5.1
-Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
-Imports: cli, glue (>= 1.6.1), lifecycle (>= 1.0.3), magrittr, rlang (>= 1.0.0), stringi (>= 1.5.3), vctrs (>= 0.4.0)
-Suggests: covr, dplyr, gt, htmltools, htmlwidgets, knitr, rmarkdown, testthat (>= 3.0.0), tibble
-License: MIT + file LICENSE
-File: stringr_1.5.1_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/stringr/releases/download/1.5.1/stringr_1.5.1_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:45:40 UTC; unix
-Filesize: 331250
-SHA256: 624b395999358d253e52ba84479faf14eb1cc4e14da43d8b15ba95bfd8187a95
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: sys
 Version: 3.4.3
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -3788,26 +3772,6 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: magick
-Version: 2.8.7
-Depends: R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp (>= 0.12.12), magrittr, curl
-Suggests: av (>= 0.3), spelling, jsonlite, methods, knitr, rmarkdown, rsvg, webp, pdftools, ggplot2, gapminder, IRdisplay, tesseract (>= 2.0), gifski
-License: MIT + file LICENSE
-File: magick_2.8.7_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/magick/releases/download/2.8.7/magick_2.8.7_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-06-06 17:22:10 UTC; unix
-Filesize: 8962095
-SHA256: 994441c7776b2628fd23178eb004e70c082c1aed1426c8cf62e936af325c3e39
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or libmagick++-dev (deb)
-LinkingTo: Rcpp
-
 Package: tibble
 Version: 3.3.0
 Depends: R (>= 3.4.0), R (>= 4.6), R (< 4.6.99)
@@ -4895,3 +4859,39 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: stringr
+Version: 1.5.2
+Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
+Imports: cli, glue (>= 1.6.1), lifecycle (>= 1.0.3), magrittr, rlang (>= 1.0.0), stringi (>= 1.5.3), vctrs (>= 0.4.0)
+Suggests: covr, dplyr, gt, htmltools, htmlwidgets, knitr, rmarkdown, testthat (>= 3.0.0), tibble
+License: MIT + file LICENSE
+File: stringr_1.5.2_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/stringr/releases/download/1.5.2/stringr_1.5.2_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.6.0; ; 2025-09-08 17:20:49 UTC; unix
+Filesize: 331456
+SHA256: 13efb2a663607035cc2f831b9b85ee674ac04d69a444b48c2fced5058e83ecf1
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: magick
+Version: 2.9.0
+Depends: R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp (>= 0.12.12), magrittr, curl
+Suggests: av, spelling, jsonlite, methods, knitr, rmarkdown, rsvg, webp, pdftools, ggplot2, gapminder, IRdisplay, tesseract, gifski
+License: MIT + file LICENSE
+File: magick_2.9.0_b4_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/magick/releases/download/2.9.0/magick_2.9.0_b4_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-09-08 17:20:50 UTC; unix
+Filesize: 8970604
+SHA256: 1f2519a2f9bcd1c5895027c5caa1bc6a9785f983df9423e9795d494a23f4fe4f
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or libmagick++-dev (deb)
+LinkingTo: Rcpp
