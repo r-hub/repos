@@ -4374,25 +4374,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: freetype2, libpng, libtiff, libjpeg, libwebp, libwebpmux
 LinkingTo: systemfonts, textshaping
 
-Package: RcppArmadillo
-Version: 15.0.1-1
-Depends: R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp (>= 1.0.12), stats, utils, methods
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-License: GPL (>= 2)
-File: RcppArmadillo_15.0.1-1_b8_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/15.0.1-1/RcppArmadillo_15.0.1-1_b8_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-09-02 16:59:55 UTC; unix
-Filesize: 1716795
-SHA256: 91f8c62223253336f2b27e375b42523ae0b91036daa16c37d81a03d2b7968c06
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: textshaping
 Version: 1.0.3
 Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
@@ -4497,24 +4478,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: tidymodels
-Version: 1.4.0
-Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
-Imports: broom (>= 1.0.9), cli (>= 3.6.5), conflicted (>= 1.2.0), dials (>= 1.4.2), dplyr (>= 1.1.4), ggplot2 (>= 3.5.2), hardhat (>= 1.4.2), infer (>= 1.0.9), modeldata (>= 1.5.1), parsnip (>=
-        1.3.2), purrr (>= 1.1.0), recipes (>= 1.3.1), rlang (>= 1.1.6), rsample (>= 1.3.1), rstudioapi (>= 0.17.1), tailor (>= 0.1.0), tidyr (>= 1.3.1), tune (>= 1.3.0), workflows (>= 1.3.0),
-        workflowsets (>= 1.1.1), yardstick (>= 1.3.2)
-Suggests: covr, glue, knitr, rmarkdown, testthat (>= 3.0.0), xml2
-License: MIT + file LICENSE
-File: tidymodels_1.4.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/tidymodels/releases/download/1.4.0/tidymodels_1.4.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.6.0; ; 2025-09-05 16:59:43 UTC; unix
-Filesize: 85836
-SHA256: f28bd48272524851f3033b43981f620ab201583bbf9c430802e62f73335de3c5
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: usethis
 Version: 3.2.1
 Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
@@ -4567,3 +4530,40 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or libmagick++-dev (deb)
 LinkingTo: Rcpp
+
+Package: RcppArmadillo
+Version: 15.0.2-1
+Depends: R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp (>= 1.0.12), stats, utils, methods
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+File: RcppArmadillo_15.0.2-1_b9_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/15.0.2-1/RcppArmadillo_15.0.2-1_b9_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-09-09 16:59:27 UTC; unix
+Filesize: 1718284
+SHA256: 384584d3e7cdbb7453970d538b9d25720db2c5537deacbf539514b2f738b74f4
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: tidymodels
+Version: 1.4.1
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: broom (>= 1.0.9), cli (>= 3.6.5), conflicted (>= 1.2.0), dials (>= 1.4.2), dplyr (>= 1.1.4), ggplot2 (>= 3.5.2), hardhat (>= 1.4.2), infer (>= 1.0.9), modeldata (>= 1.5.1), parsnip (>=
+        1.3.3), purrr (>= 1.1.0), recipes (>= 1.3.1), rlang (>= 1.1.6), rsample (>= 1.3.1), rstudioapi (>= 0.17.1), tailor (>= 0.1.0), tidyr (>= 1.3.1), tune (>= 2.0.0), workflows (>= 1.3.0),
+        workflowsets (>= 1.1.1), yardstick (>= 1.3.2)
+Suggests: covr, glue, knitr, rmarkdown, testthat (>= 3.0.0), xml2
+License: MIT + file LICENSE
+File: tidymodels_1.4.1_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/tidymodels/releases/download/1.4.1/tidymodels_1.4.1_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.6.0; ; 2025-09-09 16:59:30 UTC; unix
+Filesize: 85841
+SHA256: a7b5646b12116d763700323156e27e746909b6fb379057371ff02090a0c93431
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
