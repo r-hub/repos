@@ -4776,25 +4776,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: freetype2, libpng, libtiff, libjpeg, libwebp, libwebpmux
 LinkingTo: systemfonts, textshaping
 
-Package: RcppArmadillo
-Version: 15.0.1-1
-Depends: R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp (>= 1.0.12), stats, utils, methods
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-License: GPL (>= 2)
-File: RcppArmadillo_15.0.1-1_b8_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/15.0.1-1/RcppArmadillo_15.0.1-1_b8_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-09-02 17:36:33 UTC; unix
-Filesize: 1698273
-SHA256: ce106d1a7567bfe20582b37ae4244f752b11d5c2d3a78412a0200b40de1709a1
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: textshaping
 Version: 1.0.3
 Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
@@ -4899,24 +4880,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: tidymodels
-Version: 1.4.0
-Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
-Imports: broom (>= 1.0.9), cli (>= 3.6.5), conflicted (>= 1.2.0), dials (>= 1.4.2), dplyr (>= 1.1.4), ggplot2 (>= 3.5.2), hardhat (>= 1.4.2), infer (>= 1.0.9), modeldata (>= 1.5.1), parsnip (>=
-        1.3.2), purrr (>= 1.1.0), recipes (>= 1.3.1), rlang (>= 1.1.6), rsample (>= 1.3.1), rstudioapi (>= 0.17.1), tailor (>= 0.1.0), tidyr (>= 1.3.1), tune (>= 1.3.0), workflows (>= 1.3.0),
-        workflowsets (>= 1.1.1), yardstick (>= 1.3.2)
-Suggests: covr, glue, knitr, rmarkdown, testthat (>= 3.0.0), xml2
-License: MIT + file LICENSE
-File: tidymodels_1.4.0_b2_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/tidymodels/releases/download/1.4.0/tidymodels_1.4.0_b2_R4.6_aarch64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-09-05 07:04:45 UTC; unix
-Filesize: 85950
-SHA256: 01e3cda28cdd486b6324f05cdeb6edd097ca0c622c62cd9c6a27d7f8b1d98125
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: usethis
 Version: 3.2.1
 Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
@@ -4945,6 +4908,43 @@ DownloadURL: https://github.com/cran/stringr/releases/download/1.5.2/stringr_1.5
 Built: R 4.6.0; ; 2025-09-08 17:37:43 UTC; unix
 Filesize: 316714
 SHA256: 5e6ddccf5d3b5baa5a449c3316a28747e3670f9d42a6a9fd3abcca9328529fcb
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: RcppArmadillo
+Version: 15.0.2-1
+Depends: R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp (>= 1.0.12), stats, utils, methods
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+File: RcppArmadillo_15.0.2-1_b9_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/15.0.2-1/RcppArmadillo_15.0.2-1_b9_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-09-08 19:54:39 UTC; unix
+Filesize: 2235879
+SHA256: 81b8d1b86560da8589e2a6f4512b588f5d699392f7bd609db93f3a2e24bb3272
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: tidymodels
+Version: 1.4.1
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: broom (>= 1.0.9), cli (>= 3.6.5), conflicted (>= 1.2.0), dials (>= 1.4.2), dplyr (>= 1.1.4), ggplot2 (>= 3.5.2), hardhat (>= 1.4.2), infer (>= 1.0.9), modeldata (>= 1.5.1), parsnip (>=
+        1.3.3), purrr (>= 1.1.0), recipes (>= 1.3.1), rlang (>= 1.1.6), rsample (>= 1.3.1), rstudioapi (>= 0.17.1), tailor (>= 0.1.0), tidyr (>= 1.3.1), tune (>= 2.0.0), workflows (>= 1.3.0),
+        workflowsets (>= 1.1.1), yardstick (>= 1.3.2)
+Suggests: covr, glue, knitr, rmarkdown, testthat (>= 3.0.0), xml2
+License: MIT + file LICENSE
+File: tidymodels_1.4.1_b3_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/tidymodels/releases/download/1.4.1/tidymodels_1.4.1_b3_R4.6_aarch64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-09-08 23:54:43 UTC; unix
+Filesize: 85900
+SHA256: 488ea83d8b135d83eb69fb35ae0606bf508750cecb33ee83962d17c230b40d28
 RVersion: 4.6
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
