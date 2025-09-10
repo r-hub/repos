@@ -349,23 +349,6 @@ Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: dbplyr
-Version: 2.5.0
-Depends: R (>= 3.6), R (>= 4.3), R (< 4.3.99)
-Suggests: bit64, covr, knitr, Lahman, nycflights13, odbc (>= 1.4.2), RMariaDB (>= 1.2.2), rmarkdown, RPostgres (>= 1.4.5), RPostgreSQL, RSQLite (>= 2.3.1), testthat (>= 3.1.10)
-License: MIT + file LICENSE
-File: dbplyr_2.5.0_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/dbplyr/releases/download/2.5.0/dbplyr_2.5.0_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.3.3; ; 2025-03-15 11:42:00 UTC; unix
-Filesize: 1221116
-SHA256: a7c4f3873732a94eafe4318e5996d7c77f64c26767cdf026f042865af7228e9e
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: blob (>= 1.2.0), cli (>= 3.6.1), DBI (>= 1.1.3), dplyr (>= 1.1.2), glue (>= 1.6.2), lifecycle (>= 1.0.3), magrittr, methods, pillar (>= 1.9.0), purrr (>= 1.0.1), R6 (>= 2.2.2), rlang (>=
-        1.1.1), tibble (>= 3.2.1), tidyr (>= 1.3.0), tidyselect (>= 1.2.1), utils, vctrs (>= 0.6.3), withr (>= 2.5.0)
-
 Package: digest
 Version: 0.6.37
 Depends: R (>= 3.3.0), R (>= 4.3), R (< 4.3.99)
@@ -503,23 +486,6 @@ Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli (>= 3.4.0), glue, lifecycle, magrittr, rlang (>= 1.0.0), tibble
-
-Package: googledrive
-Version: 2.1.1
-Depends: R (>= 3.6), R (>= 4.3), R (< 4.3.99)
-Suggests: curl, dplyr (>= 1.0.0), knitr, mockr, rmarkdown, spelling, testthat (>= 3.1.3)
-License: MIT + file LICENSE
-File: googledrive_2.1.1_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/googledrive/releases/download/2.1.1/googledrive_2.1.1_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.3.3; ; 2025-03-15 11:30:20 UTC; unix
-Filesize: 1888559
-SHA256: c21a42ad9bcaf91d2bcce892ac54a973b61f0bf75e48c3ec4067b90edced5de9
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: cli (>= 3.0.0), gargle (>= 1.5.0), glue (>= 1.4.2), httr, jsonlite, lifecycle, magrittr, pillar (>= 1.9.0), purrr (>= 1.0.1), rlang (>= 1.0.2), tibble (>= 2.0.0), utils, uuid, vctrs (>=
-        0.3.0), withr
 
 Package: gtable
 Version: 0.3.6
@@ -2074,3 +2040,37 @@ Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli, glue (>= 1.6.1), lifecycle (>= 1.0.3), magrittr, rlang (>= 1.0.0), stringi (>= 1.5.3), vctrs (>= 0.4.0)
+
+Package: dbplyr
+Version: 2.5.1
+Depends: R (>= 3.6), R (>= 4.3), R (< 4.3.99)
+Suggests: bit64, covr, knitr, Lahman, nycflights13, odbc (>= 1.4.2), RMariaDB (>= 1.2.2), rmarkdown, RPostgres (>= 1.4.5), RPostgreSQL, RSQLite (>= 2.3.8), testthat (>= 3.1.10)
+License: MIT + file LICENSE
+File: dbplyr_2.5.1_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/dbplyr/releases/download/2.5.1/dbplyr_2.5.1_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.3.3; ; 2025-09-10 14:46:31 UTC; unix
+Filesize: 1224237
+SHA256: a254ddfc51bed3fcaa809c826faaa214cd2e63698b0049d1e3521c5f7cd2899a
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: blob (>= 1.2.0), cli (>= 3.6.1), DBI (>= 1.1.3), dplyr (>= 1.1.2), glue (>= 1.6.2), lifecycle (>= 1.0.3), magrittr, methods, pillar (>= 1.9.0), purrr (>= 1.0.1), R6 (>= 2.2.2), rlang (>=
+        1.1.1), tibble (>= 3.2.1), tidyr (>= 1.3.0), tidyselect (>= 1.2.1), utils, vctrs (>= 0.6.3), withr (>= 2.5.0)
+
+Package: googledrive
+Version: 2.1.2
+Depends: R (>= 4.1), R (>= 4.3), R (< 4.3.99)
+Suggests: curl, dplyr (>= 1.0.0), knitr, rmarkdown, spelling, testthat (>= 3.1.5)
+License: MIT + file LICENSE
+File: googledrive_2.1.2_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/googledrive/releases/download/2.1.2/googledrive_2.1.2_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.3.3; ; 2025-09-10 14:46:39 UTC; unix
+Filesize: 1905007
+SHA256: 0c88c9ba587e25bc9f6d05fe5b799d0bfdfac620224c7f32d0cc2b38d4ee1ad5
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli (>= 3.0.0), gargle (>= 1.6.0), glue (>= 1.4.2), httr, jsonlite, lifecycle, magrittr, pillar (>= 1.9.0), purrr (>= 1.0.1), rlang (>= 1.0.2), tibble (>= 2.0.0), utils, uuid, vctrs (>=
+        0.3.0), withr
