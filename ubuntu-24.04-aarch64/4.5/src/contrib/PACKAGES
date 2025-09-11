@@ -3105,24 +3105,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: ggplot2
-Version: 3.5.2
-Depends: R (>= 3.5), R (>= 4.5), R (< 4.5.99)
-Imports: cli, glue, grDevices, grid, gtable (>= 0.1.1), isoband, lifecycle (> 1.0.1), MASS, mgcv, rlang (>= 1.1.0), scales (>= 1.3.0), stats, tibble, vctrs (>= 0.6.0), withr (>= 2.5.0)
-Suggests: covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, mapproj, maps, multcomp, munsell, nlme, profvis, quantreg, ragg (>= 1.2.6), RColorBrewer, rmarkdown, rpart, sf (>= 0.7-3), svglite (>=
-        2.1.2), testthat (>= 3.1.2), vdiffr (>= 1.0.6), xml2
-License: MIT + file LICENSE
-File: ggplot2_3.5.2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/ggplot2/releases/download/3.5.2/ggplot2_3.5.2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.5.0; ; 2025-04-09 23:21:46 UTC; unix
-Filesize: 5002053
-SHA256: a3aa59aba320ce8a9f6e85c8a970f4d8bd73d91db6b3c1ff1ce2ef5241799faa
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: sp
-
 Package: Rdpack
 Version: 2.6.4
 Depends: R (>= 2.15.0), methods, R (>= 4.5), R (< 4.5.99)
@@ -4932,3 +4914,39 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: xz (for building from source)
+
+Package: S7
+Version: 0.2.0
+Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+Imports: utils
+Suggests: bench, callr, covr, knitr, methods, rmarkdown, testthat (>= 3.2.0), tibble
+License: MIT + file LICENSE
+File: S7_0.2.0_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/S7/releases/download/0.2.0/S7_0.2.0_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.1; aarch64-unknown-linux-gnu; 2025-09-11 23:20:37 UTC; unix
+Filesize: 343758
+SHA256: ddb1ac655ade1102d098cdaf8394c46576ab08cfb69e1c69929715e484f91906
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: ggplot2
+Version: 4.0.0
+Depends: R (>= 4.1), R (>= 4.5), R (< 4.5.99)
+Imports: cli, grDevices, grid, gtable (>= 0.3.6), isoband, lifecycle (> 1.0.1), rlang (>= 1.1.0), S7, scales (>= 1.4.0), stats, vctrs (>= 0.6.0), withr (>= 2.5.0)
+Suggests: broom, covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, mapproj, maps, MASS, mgcv, multcomp, munsell, nlme, profvis, quantreg, ragg (>= 1.2.6), RColorBrewer, rmarkdown, roxygen2, rpart, sf
+        (>= 0.7-3), svglite (>= 2.1.2), testthat (>= 3.1.5), tibble, vdiffr (>= 1.0.6), xml2
+License: MIT + file LICENSE
+File: ggplot2_4.0.0_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/ggplot2/releases/download/4.0.0/ggplot2_4.0.0_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.5.1; ; 2025-09-11 23:20:40 UTC; unix
+Filesize: 5926786
+SHA256: c67655084648023bae36ef1f592847e99e619aa010eff00a35865ee2eeeb257c
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: sp
