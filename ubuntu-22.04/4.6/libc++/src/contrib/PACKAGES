@@ -1529,22 +1529,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: dtplyr
-Version: 1.3.1
-Depends: R (>= 3.3), R (>= 4.6), R (< 4.6.99)
-Imports: cli (>= 3.4.0), data.table (>= 1.13.0), dplyr (>= 1.1.0), glue, lifecycle, rlang (>= 1.0.4), tibble, tidyselect (>= 1.2.0), vctrs (>= 0.4.1)
-Suggests: bench, covr, knitr, rmarkdown, testthat (>= 3.1.2), tidyr (>= 1.1.0), waldo (>= 0.3.1)
-License: MIT + file LICENSE
-File: dtplyr_1.3.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/dtplyr/releases/download/1.3.1/dtplyr_1.3.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.6.0; ; 2025-03-15 19:36:52 UTC; unix
-Filesize: 356528
-SHA256: 52ddcfa86adb293183853f8d88a46e308030bb66aa4e9e88c58a565ee414a81d
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: forcats
 Version: 1.0.0
 Depends: R (>= 3.4), R (>= 4.6), R (< 4.6.99)
@@ -2860,24 +2844,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: ggplot2
-Version: 3.5.2
-Depends: R (>= 3.5), R (>= 4.6), R (< 4.6.99)
-Imports: cli, glue, grDevices, grid, gtable (>= 0.1.1), isoband, lifecycle (> 1.0.1), MASS, mgcv, rlang (>= 1.1.0), scales (>= 1.3.0), stats, tibble, vctrs (>= 0.6.0), withr (>= 2.5.0)
-Suggests: covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, mapproj, maps, multcomp, munsell, nlme, profvis, quantreg, ragg (>= 1.2.6), RColorBrewer, rmarkdown, rpart, sf (>= 0.7-3), svglite (>=
-        2.1.2), testthat (>= 3.1.2), vdiffr (>= 1.0.6), xml2
-License: MIT + file LICENSE
-File: ggplot2_3.5.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/ggplot2/releases/download/3.5.2/ggplot2_3.5.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.6.0; ; 2025-04-09 16:59:54 UTC; unix
-Filesize: 5004760
-SHA256: 4101e98cf2407db0c5ceda516d17acbffc23358ee0b19a00a0b7a6e5d457c61a
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: sp
-
 Package: Rdpack
 Version: 2.6.4
 Depends: R (>= 2.15.0), methods, R (>= 4.6), R (< 4.6.99)
@@ -3745,25 +3711,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: duckdb
-Version: 1.3.2
-Depends: DBI, R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
-Imports: methods, utils
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-License: MIT + file LICENSE
-File: duckdb_1.3.2_b5_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.3.2/duckdb_1.3.2_b5_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-07-10 17:11:13 UTC; unix
-Filesize: 17339797
-SHA256: 6d2c18b2b5c49f7963202f35c82620fbef015164af59aa3ccf5bdb988d3bb66b
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: xz (for building from source)
-
 Package: purrr
 Version: 1.1.0
 Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
@@ -4567,3 +4514,74 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: S7
+Version: 0.2.0
+Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
+Imports: utils
+Suggests: bench, callr, covr, knitr, methods, rmarkdown, testthat (>= 3.2.0), tibble
+License: MIT + file LICENSE
+File: S7_0.2.0_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/S7/releases/download/0.2.0/S7_0.2.0_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-09-11 16:59:08 UTC; unix
+Filesize: 320114
+SHA256: ebd8bca42d44d6c437d412bd695ba26993b296232304df055024509fc293fddb
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: dtplyr
+Version: 1.3.2
+Depends: R (>= 4.0), R (>= 4.6), R (< 4.6.99)
+Imports: cli (>= 3.4.0), data.table (>= 1.13.0), dplyr (>= 1.1.0), glue, lifecycle, rlang (>= 1.0.4), tibble, tidyselect (>= 1.2.0), vctrs (>= 0.4.1)
+Suggests: bench, covr, knitr, rmarkdown, testthat (>= 3.1.2), tidyr (>= 1.1.0), waldo (>= 0.3.1)
+License: MIT + file LICENSE
+File: dtplyr_1.3.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/dtplyr/releases/download/1.3.2/dtplyr_1.3.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.6.0; ; 2025-09-11 16:59:09 UTC; unix
+Filesize: 409518
+SHA256: e9285f60f6a250f1053c53a2ad6a07301911be0fe15f8094bad1a44b93a4f4c3
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: ggplot2
+Version: 4.0.0
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: cli, grDevices, grid, gtable (>= 0.3.6), isoband, lifecycle (> 1.0.1), rlang (>= 1.1.0), S7, scales (>= 1.4.0), stats, vctrs (>= 0.6.0), withr (>= 2.5.0)
+Suggests: broom, covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, mapproj, maps, MASS, mgcv, multcomp, munsell, nlme, profvis, quantreg, ragg (>= 1.2.6), RColorBrewer, rmarkdown, roxygen2, rpart, sf
+        (>= 0.7-3), svglite (>= 2.1.2), testthat (>= 3.1.5), tibble, vdiffr (>= 1.0.6), xml2
+License: MIT + file LICENSE
+File: ggplot2_4.0.0_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/ggplot2/releases/download/4.0.0/ggplot2_4.0.0_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.6.0; ; 2025-09-11 16:59:14 UTC; unix
+Filesize: 5942146
+SHA256: d1a48d9776d7b966ad41beac372e55b25f2a6326e383de99110dae26cfb9a70b
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: sp
+
+Package: duckdb
+Version: 1.3.3
+Depends: DBI, R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
+Imports: methods, utils
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+License: MIT + file LICENSE
+File: duckdb_1.3.3_b6_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.3.3/duckdb_1.3.3_b6_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-09-11 16:59:12 UTC; unix
+Filesize: 17366610
+SHA256: 041a297ac297c149ac924da8356e3f4e1d2953047d9296df4020cabb9c5a39df
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: xz (for building from source)
