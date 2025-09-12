@@ -164,23 +164,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: credentials
-Version: 2.0.2
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: openssl (>= 1.3), sys (>= 2.1), curl, jsonlite, askpass
-Suggests: testthat, knitr, rmarkdown
-License: MIT + file LICENSE
-File: credentials_2.0.2_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/credentials/releases/download/2.0.2/credentials_2.0.2_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.5.0; ; 2025-03-16 09:05:00 UTC; unix
-Filesize: 221596
-SHA256: 8e393c67335bd0b114e5a226c9cfa299577d1e9a29b718fa1c25f76f2a11bae4
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: git (optional)
-
 Package: desc
 Version: 1.4.3
 Depends: R (>= 3.4), R (>= 4.5), R (< 4.5.99)
@@ -429,23 +412,6 @@ DownloadURL: https://github.com/cran/lifecycle/releases/download/1.0.4/lifecycle
 Built: R 4.5.0; ; 2025-03-16 08:56:35 UTC; unix
 Filesize: 125317
 SHA256: 7799d61742e439b56fc771f2f8f70bd88db86210d2866e84bc373b0ba4c4e9de
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: magrittr
-Version: 2.0.3
-Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
-Suggests: covr, knitr, rlang, rmarkdown, testthat
-License: MIT + file LICENSE
-File: magrittr_2.0.3_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/magrittr/releases/download/2.0.3/magrittr_2.0.3_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-16 08:56:09 UTC; unix
-Filesize: 235519
-SHA256: 7d93ab1de01476da46e27a96d1d7a3ebf941a7142acba3a2df01a189494b08c7
 RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
@@ -4950,3 +4916,37 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: sp
+
+Package: credentials
+Version: 2.0.3
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: openssl (>= 1.3), sys (>= 2.1), curl, jsonlite, askpass
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+File: credentials_2.0.3_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/credentials/releases/download/2.0.3/credentials_2.0.3_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.5.1; ; 2025-09-12 23:19:30 UTC; unix
+Filesize: 221773
+SHA256: ce155c9c3b93c6a365b5f7fab8cc0533515f2cfc77fdcc9568d1b344135248d5
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: git (optional)
+
+Package: magrittr
+Version: 2.0.4
+Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
+Suggests: covr, knitr, rlang, rmarkdown, testthat
+License: MIT + file LICENSE
+File: magrittr_2.0.4_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/magrittr/releases/download/2.0.4/magrittr_2.0.4_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.1; aarch64-unknown-linux-gnu; 2025-09-12 23:18:22 UTC; unix
+Filesize: 234329
+SHA256: 3d93d5d29d229661bdf780ccec03885c31384a00ef93c44fb07ef037d3b7e76f
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
