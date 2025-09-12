@@ -164,23 +164,6 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: credentials
-Version: 2.0.2
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: openssl (>= 1.3), sys (>= 2.1), curl, jsonlite, askpass
-Suggests: testthat, knitr, rmarkdown
-License: MIT + file LICENSE
-File: credentials_2.0.2_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/credentials/releases/download/2.0.2/credentials_2.0.2_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:45:11 UTC; unix
-Filesize: 227999
-SHA256: 79e88ee74c19dd47b9dab8201720c8a1d4e55e18beb48001481955bdf8db7254
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: git (optional)
-
 Package: desc
 Version: 1.4.3
 Depends: R (>= 3.4), R (>= 4.6), R (< 4.6.99)
@@ -429,23 +412,6 @@ DownloadURL: https://github.com/cran/lifecycle/releases/download/1.0.4/lifecycle
 Built: R 4.6.0; ; 2025-03-15 08:35:42 UTC; unix
 Filesize: 131075
 SHA256: d88542ea376aee4df148c7ca6fba82f82e3c914371ffa9ec788e2610aad1993b
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: magrittr
-Version: 2.0.3
-Depends: R (>= 3.4.0), R (>= 4.6), R (< 4.6.99)
-Suggests: covr, knitr, rlang, rmarkdown, testthat
-License: MIT + file LICENSE
-File: magrittr_2.0.3_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/magrittr/releases/download/2.0.3/magrittr_2.0.3_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:35:04 UTC; unix
-Filesize: 244425
-SHA256: d0aad61f063afb7be61125643bd2bf238bd7620dd7c85418ac0f68d28e55770c
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
@@ -4913,3 +4879,37 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: sp
+
+Package: credentials
+Version: 2.0.3
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: openssl (>= 1.3), sys (>= 2.1), curl, jsonlite, askpass
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+File: credentials_2.0.3_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/credentials/releases/download/2.0.3/credentials_2.0.3_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.6.0; ; 2025-09-12 17:18:18 UTC; unix
+Filesize: 228103
+SHA256: c87c1aa1d3d9a09dda012525c77001282d4f9a497e18afe701aca94fab1331c0
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: git (optional)
+
+Package: magrittr
+Version: 2.0.4
+Depends: R (>= 3.4.0), R (>= 4.6), R (< 4.6.99)
+Suggests: covr, knitr, rlang, rmarkdown, testthat
+License: MIT + file LICENSE
+File: magrittr_2.0.4_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/magrittr/releases/download/2.0.4/magrittr_2.0.4_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-09-12 17:18:18 UTC; unix
+Filesize: 243699
+SHA256: 554ca0a7fcc90bad0001605853c2063c85ae90f477b88e2d29f58a267d281f48
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
