@@ -1024,26 +1024,6 @@ Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: vroom
-Version: 1.6.5
-Depends: R (>= 3.6), R (>= 4.3), R (< 4.3.99)
-Suggests: archive, bench (>= 1.1.0), covr, curl, dplyr, forcats, fs, ggplot2, knitr, patchwork, prettyunits, purrr, rmarkdown, rstudioapi, scales, spelling, testthat (>= 2.1.0), tidyr, utils, waldo,
-        xml2
-License: MIT + file LICENSE
-File: vroom_1.6.5_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/vroom/releases/download/1.6.5/vroom_1.6.5_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-03-15 11:31:24 UTC; unix
-Filesize: 7096497
-SHA256: 5c4e07ed278da995b507388eeaa5a6a5100da2c4fa4dd8f69f097537a65f6169
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: bit64, cli (>= 3.2.0), crayon, glue, hms, lifecycle (>= 1.0.3), methods, rlang (>= 0.4.2), stats, tibble (>= 2.0.0), tidyselect, tzdb (>= 0.1.1), vctrs (>= 0.2.0), withr
-LinkingTo: cpp11 (>= 0.2.0), progress (>= 1.2.1), tzdb (>= 0.1.1)
-
 Package: withr
 Version: 3.0.2
 Depends: R (>= 3.6.0), R (>= 4.3), R (< 4.3.99)
@@ -2092,3 +2072,23 @@ Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli (>= 2.3.0), glue, lifecycle, rlang (>= 1.0.2), utf8 (>= 1.1.0), utils, vctrs (>= 0.5.0)
+
+Package: vroom
+Version: 1.6.6
+Depends: R (>= 3.6), R (>= 4.3), R (< 4.3.99)
+Suggests: archive, bench (>= 1.1.0), covr, curl, dplyr, forcats, fs, ggplot2, knitr, patchwork, prettyunits, purrr, rmarkdown, rstudioapi, scales, spelling, testthat (>= 2.1.0), tidyr, utils, waldo,
+        xml2
+License: MIT + file LICENSE
+File: vroom_1.6.6_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/vroom/releases/download/1.6.6/vroom_1.6.6_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-09-19 14:46:18 UTC; unix
+Filesize: 7099759
+SHA256: 77496f2cb2d6a0ca1a5dba67193e686f7f54fba9322bfb18230bf5357f2403f2
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: bit64, cli (>= 3.2.0), crayon, glue, hms, lifecycle (>= 1.0.3), methods, rlang (>= 0.4.2), stats, tibble (>= 2.0.0), tidyselect, tzdb (>= 0.1.1), vctrs (>= 0.2.0), withr
+LinkingTo: cpp11 (>= 0.2.0), progress (>= 1.2.3), tzdb (>= 0.1.1)
