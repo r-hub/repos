@@ -449,22 +449,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: pkgload
-Version: 1.4.0
-Depends: R (>= 3.4.0), R (>= 4.6), R (< 4.6.99)
-Imports: cli (>= 3.3.0), desc, fs, glue, lifecycle, methods, pkgbuild, processx, rlang (>= 1.1.1), rprojroot, utils, withr (>= 2.4.3)
-Suggests: bitops, jsonlite, mathjaxr, pak, Rcpp, remotes, rstudioapi, testthat (>= 3.2.1.1), usethis
-License: GPL-3
-File: pkgload_1.4.0_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/pkgload/releases/download/1.4.0/pkgload_1.4.0_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:44:10 UTC; unix
-Filesize: 225949
-SHA256: 1f99860e5ae3e47c457f5b2058aa97136caf6e3e5b5a580954d1e56290e66040
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: praise
 Version: 1.0.0
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4909,6 +4893,22 @@ Arch: amd64
 Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-09-22 17:15:32 UTC; unix
 Filesize: 2723716
 SHA256: 21ee5ff673c70fc617d2332de0daea62a36f6a698195c011dbd2e53b5f2f767b
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: pkgload
+Version: 1.4.1
+Depends: R (>= 3.4.0), R (>= 4.6), R (< 4.6.99)
+Imports: cli (>= 3.3.0), desc, fs, glue, lifecycle, methods, pkgbuild, processx, rlang (>= 1.1.1), rprojroot, utils
+Suggests: bitops, jsonlite, mathjaxr, pak, Rcpp, remotes, rstudioapi, testthat (>= 3.2.1.1), usethis, withr
+License: MIT + file LICENSE
+File: pkgload_1.4.1_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/pkgload/releases/download/1.4.1/pkgload_1.4.1_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.6.0; ; 2025-09-24 17:16:29 UTC; unix
+Filesize: 231219
+SHA256: 435d42b1d2dc1da4e5aacf81e59bd95ebb1261e4f37154629f84e8b7b501ae29
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 17
