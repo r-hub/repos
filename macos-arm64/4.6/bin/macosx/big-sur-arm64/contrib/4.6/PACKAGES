@@ -3778,26 +3778,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: terra
-Version: 1.8-60
-Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
-Imports: methods, Rcpp (>= 1.0-10)
-Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
-License: GPL (>= 3)
-File: terra_1.8-60_b5_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/terra/releases/download/1.8-60/terra_1.8-60_b5_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-07-21 17:45:16 UTC; unix
-Filesize: 22056694
-SHA256: e5d6ffd923c2436365197a0235c5600be0165e868f9e41babbe1f4ddeb9d828b
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
-LinkingTo: Rcpp
-
 Package: httr2
 Version: 1.2.1
 Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
@@ -4967,3 +4947,23 @@ RVersion: 4.6
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: terra
+Version: 1.8-70
+Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
+Imports: methods, Rcpp (>= 1.0-10)
+Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
+License: GPL (>= 3)
+File: terra_1.8-70_b6_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/terra/releases/download/1.8-70/terra_1.8-70_b6_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-09-27 17:32:59 UTC; unix
+Filesize: 22068274
+SHA256: 1587902b00802b6f889dda00e2d63ebd1911b412041c840f76985093cc9bacae
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
+LinkingTo: Rcpp
