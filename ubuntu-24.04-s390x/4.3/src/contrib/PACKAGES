@@ -1461,25 +1461,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: methods
 
-Package: openssl
-Version: 2.3.3
-Depends: R (>= 4.3), R (< 4.3.99)
-Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
-License: MIT + file LICENSE
-File: openssl_2.3.3_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/openssl/releases/download/2.3.3/openssl_2.3.3_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-05-26 14:48:56 UTC; unix
-Filesize: 1398091
-SHA256: 6867f808afbc5a8eb2d9b36307b12d95185c3b57a4f2990f8fa78e982f94b028
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: askpass
-SystemRequirements: OpenSSL >= 1.0.2
-
 Package: pkgbuild
 Version: 1.4.8
 Depends: R (>= 3.5), R (>= 4.3), R (< 4.3.99)
@@ -2092,3 +2073,22 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.43), methods, tinytex (>= 0.31), tools, utils, xfun (>= 0.36), yaml (>=
         2.1.19)
 SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
+
+Package: openssl
+Version: 2.3.4
+Depends: R (>= 4.3), R (< 4.3.99)
+Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
+License: MIT + file LICENSE
+File: openssl_2.3.4_b3_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/openssl/releases/download/2.3.4/openssl_2.3.4_b3_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-09-30 14:46:33 UTC; unix
+Filesize: 1400235
+SHA256: b482cea00cd11f1c0ec60ff05db26acff597be45160893e6223adc6b6009fb02
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: askpass
+SystemRequirements: OpenSSL >= 1.0.2
