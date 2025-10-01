@@ -4547,26 +4547,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
 
-Package: systemfonts
-Version: 1.3.0
-Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
-Imports: base64enc, grid, jsonlite, lifecycle, tools, utils
-Suggests: covr, farver, ggplot2, graphics, knitr, ragg, rmarkdown, svglite, testthat (>= 2.1.0)
-License: MIT + file LICENSE
-File: systemfonts_1.3.0_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/systemfonts/releases/download/1.3.0/systemfonts_1.3.0_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-09-30 16:59:39 UTC; unix
-Filesize: 806500
-SHA256: 4d10e4d256c52b2c07dbaba6d5a36844451d75d131a0f7202254d2a10115f048
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: fontconfig, freetype2
-LinkingTo: cpp11 (>= 0.2.1)
-
 Package: openssl
 Version: 2.3.4
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4585,3 +4565,23 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: OpenSSL >= 1.0.2
+
+Package: systemfonts
+Version: 1.3.1
+Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
+Imports: base64enc, grid, jsonlite, lifecycle, tools, utils
+Suggests: covr, farver, ggplot2, graphics, knitr, ragg, rmarkdown, svglite, testthat (>= 2.1.0)
+License: MIT + file LICENSE
+File: systemfonts_1.3.1_b5_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/systemfonts/releases/download/1.3.1/systemfonts_1.3.1_b5_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-10-01 16:59:35 UTC; unix
+Filesize: 806982
+SHA256: 540cb9f36409d6761b78dfc537d0a980d677772387c7c2294b37bb491531e059
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: fontconfig, freetype2
+LinkingTo: cpp11 (>= 0.2.1)
