@@ -4875,26 +4875,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, pandoc (>= 1.12.3), pandoc-citeproc
 LinkingTo: StanHeaders (>= 2.32.0), rstan (>= 2.32.0), BH (>= 1.72.0-2), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0), RcppParallel (>= 5.0.1)
 
-Package: systemfonts
-Version: 1.3.0
-Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
-Imports: base64enc, grid, jsonlite, lifecycle, tools, utils
-Suggests: covr, farver, ggplot2, graphics, knitr, ragg, rmarkdown, svglite, testthat (>= 2.1.0)
-License: MIT + file LICENSE
-File: systemfonts_1.3.0_b4_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/systemfonts/releases/download/1.3.0/systemfonts_1.3.0_b4_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-09-30 17:16:56 UTC; unix
-Filesize: 3289764
-SHA256: d4b251aff7d5bcc400b2a49b59f238f24243921f290a007566e1584b9ecce69c
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: fontconfig, freetype2
-LinkingTo: cpp11 (>= 0.2.1)
-
 Package: openssl
 Version: 2.3.4
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4913,3 +4893,23 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: OpenSSL >= 1.0.2
+
+Package: systemfonts
+Version: 1.3.1
+Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
+Imports: base64enc, grid, jsonlite, lifecycle, tools, utils
+Suggests: covr, farver, ggplot2, graphics, knitr, ragg, rmarkdown, svglite, testthat (>= 2.1.0)
+License: MIT + file LICENSE
+File: systemfonts_1.3.1_b5_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/systemfonts/releases/download/1.3.1/systemfonts_1.3.1_b5_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-10-01 17:16:42 UTC; unix
+Filesize: 3290580
+SHA256: 9b578a3ab051e1c20e95525569faee9466c3fb662f87c5dc666af52d03ae9695
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: fontconfig, freetype2
+LinkingTo: cpp11 (>= 0.2.1)
