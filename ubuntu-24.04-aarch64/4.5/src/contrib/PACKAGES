@@ -180,25 +180,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: devtools
-Version: 2.4.5
-Depends: R (>= 3.0.2), usethis (>= 2.1.6), R (>= 4.5), R (< 4.5.99)
-Imports: cli (>= 3.3.0), desc (>= 1.4.1), ellipsis (>= 0.3.2), fs (>= 1.5.2), lifecycle (>= 1.0.1), memoise (>= 2.0.1), miniUI (>= 0.1.1.1), pkgbuild (>= 1.3.1), pkgdown (>= 2.0.6), pkgload (>=
-        1.3.0), profvis (>= 0.3.7), rcmdcheck (>= 1.4.0), remotes (>= 2.4.2), rlang (>= 1.0.4), roxygen2 (>= 7.2.1), rversions (>= 2.1.1), sessioninfo (>= 1.2.2), stats, testthat (>= 3.1.5), tools,
-        urlchecker (>= 1.0.1), utils, withr (>= 2.5.0)
-Suggests: BiocManager (>= 1.30.18), callr (>= 3.7.1), covr (>= 3.5.1), curl (>= 4.3.2), digest (>= 0.6.29), DT (>= 0.23), foghorn (>= 1.4.2), gh (>= 1.3.0), gmailr (>= 1.0.1), httr (>= 1.4.3), knitr
-        (>= 1.39), lintr (>= 3.0.0), MASS, mockery (>= 0.4.3), pingr (>= 2.0.1), rhub (>= 1.1.1), rmarkdown (>= 2.14), rstudioapi (>= 0.13), spelling (>= 2.2)
-License: MIT + file LICENSE
-File: devtools_2.4.5_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/devtools/releases/download/2.4.5/devtools_2.4.5_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.5.0; ; 2025-03-16 09:20:16 UTC; unix
-Filesize: 436508
-SHA256: e6e39aec9b07a9c81541cb15d9a244b5a83958201b9ce6ba6c1f9d4eb0d59427
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: downlit
 Version: 0.4.4
 Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
@@ -4069,24 +4050,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
 
-Package: bookdown
-Version: 0.44
-Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.48), tinytex (>= 0.12), yaml (>= 2.1.19)
-Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, curl, rstudioapi, miniUI, rsconnect (>= 0.4.3), servr (>= 0.13), shiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat
-        (>= 3.1.0), withr (>= 2.3.0)
-License: GPL-3
-File: bookdown_0.44_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/bookdown/releases/download/0.44/bookdown_0.44_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.5.1; ; 2025-08-21 23:21:59 UTC; unix
-Filesize: 1092550
-SHA256: 64e0680569c6005e211f29d5b63aad8be03c836a418c7f9a5231c53d3af1d694
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: Pandoc (>= 1.17.2)
-
 Package: XML
 Version: 3.99-0.19
 Depends: R (>= 4.0.0), methods, utils, R (>= 4.5), R (< 4.5.99)
@@ -4950,3 +4913,40 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: fontconfig, freetype2
 LinkingTo: cpp11 (>= 0.2.1)
+
+Package: devtools
+Version: 2.4.6
+Depends: R (>= 4.1), usethis (>= 3.2.1), R (>= 4.5), R (< 4.5.99)
+Imports: cli (>= 3.6.5), desc (>= 1.4.3), ellipsis (>= 0.3.2), fs (>= 1.6.6), lifecycle (>= 1.0.4), memoise (>= 2.0.1), miniUI (>= 0.1.2), pkgbuild (>= 1.4.8), pkgdown (>= 2.1.3), pkgload (>= 1.4.1),
+        profvis (>= 0.4.0), rcmdcheck (>= 1.4.0), remotes (>= 2.5.0), rlang (>= 1.1.6), roxygen2 (>= 7.3.3), rversions (>= 2.1.2), sessioninfo (>= 1.2.3), stats, testthat (>= 3.2.3), tools,
+        urlchecker (>= 1.0.1), utils, withr (>= 3.0.2)
+Suggests: BiocManager (>= 1.30.18), callr (>= 3.7.1), covr (>= 3.5.1), curl (>= 4.3.2), digest (>= 0.6.29), DT (>= 0.23), foghorn (>= 1.4.2), gh (>= 1.3.0), gmailr (>= 1.0.1), httr (>= 1.4.3), knitr
+        (>= 1.39), lintr (>= 3.0.0), MASS, mockery (>= 0.4.3), pingr (>= 2.0.1), rhub (>= 1.1.1), rmarkdown (>= 2.14), rstudioapi (>= 0.13), spelling (>= 2.2)
+License: MIT + file LICENSE
+File: devtools_2.4.6_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/devtools/releases/download/2.4.6/devtools_2.4.6_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.5.1; ; 2025-10-03 23:19:03 UTC; unix
+Filesize: 458423
+SHA256: ea282bd58f422d7b1098e407f28530f72048de3ffd9036b1b47e421604ec157b
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: bookdown
+Version: 0.45
+Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.48), tinytex (>= 0.12), yaml (>= 2.1.19)
+Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, curl, rstudioapi, miniUI, rsconnect (>= 0.4.3), servr (>= 0.13), shiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat
+        (>= 3.1.0), withr (>= 2.3.0)
+License: GPL-3
+File: bookdown_0.45_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/bookdown/releases/download/0.45/bookdown_0.45_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.5.1; ; 2025-10-03 23:19:02 UTC; unix
+Filesize: 1092629
+SHA256: 3ee08f8b79606dbacd1447faa4412d95f8079225c7b5c19fffa5a94e04742bbf
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: Pandoc (>= 1.17.2)
