@@ -2657,25 +2657,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11 (>= 0.5.2)
 
-Package: Hmisc
-Version: 5.2-3
-Depends: R (>= 4.2.0), R (>= 4.6), R (< 4.6.99)
-Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
-Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice,
-        latticeExtra, gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer, htm2txt
-License: GPL (>= 2)
-File: Hmisc_5.2-3_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/Hmisc/releases/download/5.2-3/Hmisc_5.2-3_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-16 17:17:58 UTC; unix
-Filesize: 3996676
-SHA256: 95dfdae64d5b124844b74c49cb78007079163cf26c0bd08d1493fe3c6bddf4da
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: nloptr
 Version: 2.2.1
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4913,3 +4894,22 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Pandoc (>= 1.17.2)
+
+Package: Hmisc
+Version: 5.2-4
+Depends: R (>= 4.2.0), R (>= 4.6), R (< 4.6.99)
+Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridisLite, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
+Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice, latticeExtra,
+        gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer, htm2txt, boot
+License: GPL (>= 2)
+File: Hmisc_5.2-4_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/Hmisc/releases/download/5.2-4/Hmisc_5.2-4_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-10-05 17:17:19 UTC; unix
+Filesize: 4011078
+SHA256: 2906e32cb8aa68f844127e2b2a70e257a78c80da0981fc9f31008767dc70c726
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
