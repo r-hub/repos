@@ -1690,25 +1690,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: Hmisc
-Version: 5.2-3
-Depends: R (>= 4.2.0), R (>= 4.6), R (< 4.6.99)
-Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
-Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, plyr, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice,
-        latticeExtra, gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer, htm2txt
-License: GPL (>= 2)
-File: Hmisc_5.2-3_b1_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/Hmisc/releases/download/5.2-3/Hmisc_5.2-3_b1_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2025-03-16 19:20:29 UTC; unix
-Filesize: 3648141
-SHA256: 91c5f85362c842d7770830767e1e0d0fdd120baddc670ef7bc25fb3e667586c4
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: htmlTable
 Version: 2.4.3
 Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
@@ -4912,3 +4893,22 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Pandoc (>= 1.17.2)
+
+Package: Hmisc
+Version: 5.2-4
+Depends: R (>= 4.2.0), R (>= 4.6), R (< 4.6.99)
+Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridisLite, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
+Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice, latticeExtra,
+        gt, sparkline, jsonlite, htmlwidgets, qs, getPass, keyring, safer, htm2txt, boot
+License: GPL (>= 2)
+File: Hmisc_5.2-4_b2_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/Hmisc/releases/download/5.2-4/Hmisc_5.2-4_b2_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-10-05 09:24:11 UTC; unix
+Filesize: 3671298
+SHA256: 1d58f6b19ca7b2abc480332885f83c3c8d8133c2bb0240ac2bd39bfbbb10ad8e
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
