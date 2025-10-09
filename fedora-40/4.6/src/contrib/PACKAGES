@@ -576,22 +576,6 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: rversions
-Version: 2.1.2
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: curl, utils, xml2 (>= 1.0.0)
-Suggests: covr, mockery, testthat
-License: MIT + file LICENSE
-File: rversions_2.1.2_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/rversions/releases/download/2.1.2/rversions_2.1.2_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:47:31 UTC; unix
-Filesize: 67369
-SHA256: 0c6fa442b48095f1551d3c5e2d43b42293c9e22d140ad5972b12a581a7089afb
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: sessioninfo
 Version: 1.2.3
 Depends: R (>= 3.4), R (>= 4.6), R (< 4.6.99)
@@ -1778,26 +1762,6 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: units
-Version: 0.8-7
-Depends: R (>= 3.0.2), R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp
-Suggests: NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0), dplyr (>= 1.0.0), vctrs (>= 0.3.1), ggplot2 (> 3.2.1), testthat (>= 3.0.0), vdiffr, knitr, rvest, rmarkdown
-License: GPL-2
-File: units_0.8-7_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/units/releases/download/0.8-7/units_0.8-7_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:43:20 UTC; unix
-Filesize: 979658
-SHA256: 3ae482d9cb34447743825feb39866efbd4bfdccd01f3853935a8b83dc65a8a53
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: udunits-2
-LinkingTo: Rcpp (>= 0.12.10)
 
 Package: wk
 Version: 0.9.4
@@ -4913,3 +4877,39 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rversions
+Version: 3.0.0
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: curl
+Suggests: pillar, testthat (>= 3.0.0), webfakes, withr
+License: MIT + file LICENSE
+File: rversions_3.0.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/rversions/releases/download/3.0.0/rversions_3.0.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.6.0; ; 2025-10-09 17:20:22 UTC; unix
+Filesize: 140711
+SHA256: 78225922ea41a4ddd50d40a016066a1420094e037d1d928f4972f6a87725b1ff
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: units
+Version: 1.0-0
+Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp
+Suggests: NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0), dplyr (>= 1.0.0), vctrs (>= 0.3.1), ggplot2 (> 3.2.1), testthat (>= 3.0.0), vdiffr, knitr, rvest, rmarkdown
+License: GPL-2
+File: units_1.0-0_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/units/releases/download/1.0-0/units_1.0-0_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-10-09 17:20:24 UTC; unix
+Filesize: 1138841
+SHA256: dd8164480767d12f78bb719bd8bd536a5422cf4e6aae5908dd33b8f6ec74652f
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: udunits-2
+LinkingTo: Rcpp (>= 0.12.10)
