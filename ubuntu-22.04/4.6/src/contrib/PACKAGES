@@ -576,22 +576,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: rversions
-Version: 2.1.2
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: curl, utils, xml2 (>= 1.0.0)
-Suggests: covr, mockery, testthat
-License: MIT + file LICENSE
-File: rversions_2.1.2_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/rversions/releases/download/2.1.2/rversions_2.1.2_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:40:19 UTC; unix
-Filesize: 65643
-SHA256: 09eb2d1f3ab6cc71d59f8b8b5fa176a0e42f4ebdcb88058b7159c59593f5e0af
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: sessioninfo
 Version: 1.2.3
 Depends: R (>= 3.4), R (>= 4.6), R (< 4.6.99)
@@ -1778,26 +1762,6 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: units
-Version: 0.8-7
-Depends: R (>= 3.0.2), R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp
-Suggests: NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0), dplyr (>= 1.0.0), vctrs (>= 0.3.1), ggplot2 (> 3.2.1), testthat (>= 3.0.0), vdiffr, knitr, rvest, rmarkdown
-License: GPL-2
-File: units_0.8-7_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/units/releases/download/0.8-7/units_0.8-7_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:35:17 UTC; unix
-Filesize: 949085
-SHA256: 664fbe099ccd3be17629a2ddd957bb9d822520b233e8c08cd91b6fb9829d5543
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: udunits-2
-LinkingTo: Rcpp (>= 0.12.10)
 
 Package: wk
 Version: 0.9.4
@@ -4913,3 +4877,39 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rversions
+Version: 3.0.0
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: curl
+Suggests: pillar, testthat (>= 3.0.0), webfakes, withr
+License: MIT + file LICENSE
+File: rversions_3.0.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/rversions/releases/download/3.0.0/rversions_3.0.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.6.0; ; 2025-10-09 16:43:33 UTC; unix
+Filesize: 136961
+SHA256: 34e7be9f775cbc445261db081cdfc52aaedeaa1ca98acd0d81bf3ae3d62ddb03
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: units
+Version: 1.0-0
+Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp
+Suggests: NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0), dplyr (>= 1.0.0), vctrs (>= 0.3.1), ggplot2 (> 3.2.1), testthat (>= 3.0.0), vdiffr, knitr, rvest, rmarkdown
+License: GPL-2
+File: units_1.0-0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/units/releases/download/1.0-0/units_1.0-0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-10-09 16:43:34 UTC; unix
+Filesize: 1109710
+SHA256: 101d6608402cef7d550ef1cefc69f37f2bfac8ce8b7fde843fd9d368c72c4509
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: udunits-2
+LinkingTo: Rcpp (>= 0.12.10)
