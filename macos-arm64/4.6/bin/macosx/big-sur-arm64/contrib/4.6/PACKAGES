@@ -4322,26 +4322,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: freetype2, libpng, libtiff, libjpeg, libwebp, libwebpmux
 LinkingTo: systemfonts, textshaping
 
-Package: textshaping
-Version: 1.0.3
-Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
-Imports: lifecycle, stats, stringi, systemfonts (>= 1.1.0), utils
-Suggests: covr, grDevices, grid, knitr, rmarkdown, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: textshaping_1.0.3_b4_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/textshaping/releases/download/1.0.3/textshaping_1.0.3_b4_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-09-02 17:36:20 UTC; unix
-Filesize: 1068519
-SHA256: 805fd9c0e663ece2e5e94081d8c35393181e329d898e1bc7a585263855b42b52
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: freetype2, harfbuzz, fribidi
-LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
-
 Package: gargle
 Version: 1.6.0
 Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
@@ -4967,3 +4947,23 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: udunits-2
 LinkingTo: Rcpp (>= 0.12.10)
+
+Package: textshaping
+Version: 1.0.4
+Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
+Imports: lifecycle, stats, stringi, systemfonts (>= 1.3.0), utils
+Suggests: covr, grDevices, grid, knitr, rmarkdown, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: textshaping_1.0.4_b5_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/textshaping/releases/download/1.0.4/textshaping_1.0.4_b5_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-10-10 08:33:08 UTC; unix
+Filesize: 6724954
+SHA256: 60590c0b675daeafae2e66a34210ee5090e8e4c4fe807257a52b1d9dd5417937
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: freetype2, harfbuzz, fribidi
+LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
