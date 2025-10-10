@@ -4248,26 +4248,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: freetype2, libpng, libtiff, libjpeg, libwebp, libwebpmux
 LinkingTo: systemfonts, textshaping
 
-Package: textshaping
-Version: 1.0.3
-Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
-Imports: lifecycle, stats, stringi, systemfonts (>= 1.1.0), utils
-Suggests: covr, grDevices, grid, knitr, rmarkdown, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: textshaping_1.0.3_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/textshaping/releases/download/1.0.3/textshaping_1.0.3_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-09-02 16:42:05 UTC; unix
-Filesize: 1380602
-SHA256: 0c27e3c53d6e21b96305bc3c4d121242f926f8bf402e33116b89eee6537c601f
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: freetype2, harfbuzz, fribidi
-LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
-
 Package: gargle
 Version: 1.6.0
 Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
@@ -4913,3 +4893,23 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: udunits-2
 LinkingTo: Rcpp (>= 0.12.10)
+
+Package: textshaping
+Version: 1.0.4
+Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
+Imports: lifecycle, stats, stringi, systemfonts (>= 1.3.0), utils
+Suggests: covr, grDevices, grid, knitr, rmarkdown, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: textshaping_1.0.4_b5_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/textshaping/releases/download/1.0.4/textshaping_1.0.4_b5_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-10-10 16:40:27 UTC; unix
+Filesize: 1389826
+SHA256: b2b6620f30ccbf68e2bbf093010073a9758a11a18349927d686f5b6f3376dd1b
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: freetype2, harfbuzz, fribidi
+LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
