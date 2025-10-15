@@ -4595,22 +4595,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: xz (for building from source)
 
-Package: progressr
-Version: 0.16.0
-Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-Imports: digest, utils
-Suggests: graphics, tcltk, beepr, cli, crayon, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, ntfy, RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools
-License: GPL (>= 3)
-File: progressr_0.16.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/progressr/releases/download/0.16.0/progressr_0.16.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.1; ; 2025-09-19 18:43:40 UTC; unix
-Filesize: 393445
-SHA256: c20360c7161287d8c0e3ea0f7dee8de3f4333d355c3d3b7757cc2877216cddfc
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: vroom
 Version: 1.6.6
 Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
@@ -4950,3 +4934,19 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: graph
 SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
 LinkingTo: cpp11 (>= 0.5.0)
+
+Package: progressr
+Version: 0.17.0
+Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+Imports: digest, utils
+Suggests: graphics, tcltk, beepr, cli, crayon, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, ntfy, RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools
+License: GPL (>= 3)
+File: progressr_0.17.0_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/progressr/releases/download/0.17.0/progressr_0.17.0_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.1; ; 2025-10-15 18:45:08 UTC; unix
+Filesize: 409118
+SHA256: f2ae1870b3eea9b4971b2953b726a2fe7a4e80db6ac3f91a680108cc32851887
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
