@@ -4539,25 +4539,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: duckdb
-Version: 1.4.0
-Depends: DBI, R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
-Imports: methods, utils
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-License: MIT + file LICENSE
-File: duckdb_1.4.0_b7_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.4.0/duckdb_1.4.0_b7_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-09-18 17:16:11 UTC; unix
-Filesize: 292353072
-SHA256: 6e6284ffe73c7a57bae2a2a44dfbd90dc5c52cfe9dedec1cf006afb9b546afeb
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: xz (for building from source)
-
 Package: vroom
 Version: 1.6.6
 Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
@@ -4913,3 +4894,22 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: duckdb
+Version: 1.4.1
+Depends: DBI, R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
+Imports: methods, utils
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+License: MIT + file LICENSE
+File: duckdb_1.4.1_b8_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.4.1/duckdb_1.4.1_b8_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-10-16 17:17:28 UTC; unix
+Filesize: 292934590
+SHA256: bd51fa7217b8bc332a66686b248e9d26ec65fa9ba97c8c108ca8a55a916e47b3
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: xz (for building from source)
