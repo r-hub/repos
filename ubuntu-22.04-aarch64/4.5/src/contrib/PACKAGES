@@ -4576,25 +4576,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: duckdb
-Version: 1.4.0
-Depends: DBI, R (>= 4.1.0), R (>= 4.5), R (< 4.5.99)
-Imports: methods, utils
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-License: MIT + file LICENSE
-File: duckdb_1.4.0_b7_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.4.0/duckdb_1.4.0_b7_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.1; aarch64-unknown-linux-gnu; 2025-09-18 18:44:55 UTC; unix
-Filesize: 292232988
-SHA256: 0943ce178cc75b7607a328001dd9fb0c55e5e0c19e63a5d6a289622eb7a13caf
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: xz (for building from source)
-
 Package: vroom
 Version: 1.6.6
 Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
@@ -4950,3 +4931,22 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: duckdb
+Version: 1.4.1
+Depends: DBI, R (>= 4.1.0), R (>= 4.5), R (< 4.5.99)
+Imports: methods, utils
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+License: MIT + file LICENSE
+File: duckdb_1.4.1_b8_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.4.1/duckdb_1.4.1_b8_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.1; aarch64-unknown-linux-gnu; 2025-10-16 18:46:10 UTC; unix
+Filesize: 292878862
+SHA256: d199cdb1c9cd0357bb68b9e438dc0bceedd15443d86198e9897b1cd9b4e8094b
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: xz (for building from source)
