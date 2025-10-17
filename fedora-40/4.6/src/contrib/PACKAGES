@@ -1243,22 +1243,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: A system with zoneinfo data (e.g.  /usr/share/zoneinfo) as well as a recent-enough C++11 compiler (such as g++-4.8 or later). On Windows the zoneinfo included with R is used.
 LinkingTo: cpp11 (>= 0.2.7)
 
-Package: timeDate
-Version: 4041.110
-Depends: R (>= 3.6.0), methods, R (>= 4.6), R (< 4.6.99)
-Imports: graphics, utils, stats
-Suggests: RUnit
-License: GPL (>= 2)
-File: timeDate_4041.110_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/timeDate/releases/download/4041.110/timeDate_4041.110_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:40:19 UTC; unix
-Filesize: 1483897
-SHA256: 0093424e35dba49c50c2e97e38b43570998687214870ce9875a7e201dbc417f3
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: viridisLite
 Version: 0.4.2
 Depends: R (>= 2.10), R (>= 4.6), R (< 4.6.99)
@@ -1386,22 +1370,6 @@ DownloadURL: https://github.com/cran/DBI/releases/download/1.2.3/DBI_1.2.3_b1_R4
 Built: R 4.6.0; ; 2025-03-15 08:40:26 UTC; unix
 Filesize: 957524
 SHA256: b7069f38324b883d4c98fabca54fc780f33f6e71c4dd8f74f247aeed6273a8ad
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: hms
-Version: 1.1.3
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: lifecycle, methods, pkgconfig, rlang (>= 1.0.2), vctrs (>= 0.3.8)
-Suggests: crayon, lubridate, pillar (>= 1.1.0), testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: hms_1.1.3_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/hms/releases/download/1.1.3/hms_1.1.3_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:45:50 UTC; unix
-Filesize: 104057
-SHA256: ef84075c76426fb75769e40a84d0614b9c492253c6320477e873db85ab2ababe
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
@@ -4135,25 +4103,6 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: tune
-Version: 2.0.0
-Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
-Imports: cli (>= 3.3.0), dials (>= 1.3.0.9000), dplyr (>= 1.1.0), generics (>= 0.1.2), ggplot2, glue (>= 1.6.2), GPfit, hardhat (>= 1.4.2), parallel, parsnip (>= 1.2.1.9003), purrr (>= 1.0.0),
-        recipes (>= 1.1.0.9001), rlang (>= 1.1.4), rsample (>= 1.3.0.9003), tailor (>= 0.1.0), tibble (>= 3.1.0), tidyr (>= 1.2.0), tidyselect (>= 1.1.2), vctrs (>= 0.6.1), withr, workflows (>=
-        1.3.0), yardstick (>= 1.3.0)
-Suggests: C50, censored (>= 0.3.0), covr, future (>= 1.33.0), future.apply, kernlab, kknn, knitr, mgcv, mirai (>= 2.4.0), modeldata, probably, scales, spelling, splines2, survival, testthat (>=
-        3.0.0), xgboost, xml2
-License: MIT + file LICENSE
-File: tune_2.0.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/tune/releases/download/2.0.0/tune_2.0.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-Built: R 4.6.0; ; 2025-09-01 17:18:48 UTC; unix
-Filesize: 1549436
-SHA256: 649a325d7c3d8d60171c592301e6455ea452d1538df2d88646117375c259da4d
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: rstantools
 Version: 2.5.0
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4913,3 +4862,54 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: xz (for building from source)
+
+Package: timeDate
+Version: 4051.111
+Depends: R (>= 3.6.0), methods, R (>= 4.6), R (< 4.6.99)
+Imports: graphics, utils, stats
+Suggests: RUnit
+License: GPL (>= 2)
+File: timeDate_4051.111_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/timeDate/releases/download/4051.111/timeDate_4051.111_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.6.0; ; 2025-10-17 17:19:24 UTC; unix
+Filesize: 1570077
+SHA256: 971d5f9ded2f0b3ce6e7c72ac54ece1900a386d658fc68ac65e0b9f91740c4d1
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: hms
+Version: 1.1.4
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: cli, lifecycle, methods, pkgconfig, rlang (>= 1.0.2), vctrs (>= 0.3.8)
+Suggests: crayon, lubridate, pillar (>= 1.1.0), testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: hms_1.1.4_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/hms/releases/download/1.1.4/hms_1.1.4_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.6.0; ; 2025-10-17 17:19:25 UTC; unix
+Filesize: 108263
+SHA256: 482f5737258fc06ce3aae4a74175d4738295bb07c3b7a24624404699fbdba2e1
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: tune
+Version: 2.0.1
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: cli (>= 3.3.0), dials (>= 1.3.0.9000), dplyr (>= 1.1.0), generics (>= 0.1.2), ggplot2, glue (>= 1.6.2), GPfit, hardhat (>= 1.4.2), parallel, parsnip (>= 1.2.1.9003), purrr (>= 1.0.0),
+        recipes (>= 1.1.0.9001), rlang (>= 1.1.4), rsample (>= 1.3.0.9003), tailor (>= 0.1.0), tibble (>= 3.1.0), tidyr (>= 1.2.0), tidyselect (>= 1.1.2), vctrs (>= 0.6.1), withr, workflows (>=
+        1.3.0), yardstick (>= 1.3.0)
+Suggests: C50, censored (>= 0.3.0), covr, future (>= 1.33.0), future.apply, kernlab, kknn, knitr, mgcv, mirai (>= 2.4.0), modeldata, probably, scales, spelling, splines2, survival, testthat (>=
+        3.0.0), xgboost, xml2
+License: MIT + file LICENSE
+File: tune_2.0.1_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/tune/releases/download/2.0.1/tune_2.0.1_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.6.0; ; 2025-10-17 17:19:36 UTC; unix
+Filesize: 1552484
+SHA256: 7ac7b1dafab1e21c34fae4c5db6bcd005fe15cd9de06f60dcae1ecfaec1d5c2d
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
