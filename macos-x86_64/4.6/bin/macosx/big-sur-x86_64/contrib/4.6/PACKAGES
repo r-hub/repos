@@ -1261,22 +1261,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: A system with zoneinfo data (e.g.  /usr/share/zoneinfo) as well as a recent-enough C++11 compiler (such as g++-4.8 or later). On Windows the zoneinfo included with R is used.
 LinkingTo: cpp11 (>= 0.2.7)
 
-Package: timeDate
-Version: 4041.110
-Depends: R (>= 3.6.0), methods, R (>= 4.6), R (< 4.6.99)
-Imports: graphics, utils, stats
-Suggests: RUnit
-License: GPL (>= 2)
-File: timeDate_4041.110_b1_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/timeDate/releases/download/4041.110/timeDate_4041.110_b1_R4.6_x86_64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-03-16 18:03:05 UTC; unix
-Filesize: 1404710
-SHA256: 80eb1427285775a9cd5b31a8d9284d04b1068a2dbd8019f6aa9296424b4316bf
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: tzdb
 Version: 0.5.0
 Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
@@ -1422,22 +1406,6 @@ DownloadURL: https://github.com/cran/DBI/releases/download/1.2.3/DBI_1.2.3_b1_R4
 Built: R 4.6.0; ; 2025-03-16 18:03:23 UTC; unix
 Filesize: 918593
 SHA256: 4b93a2e12ec3974cd46248e19d65fc797b0cae11ceb2b82e69ea0cbe39b556a4
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: hms
-Version: 1.1.3
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: lifecycle, methods, pkgconfig, rlang (>= 1.0.2), vctrs (>= 0.3.8)
-Suggests: crayon, lubridate, pillar (>= 1.1.0), testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: hms_1.1.3_b1_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/hms/releases/download/1.1.3/hms_1.1.3_b1_R4.6_x86_64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-03-16 18:23:07 UTC; unix
-Filesize: 100884
-SHA256: 2fd478813eea21f1c223ea37a2cc7d8e09948b64447eb4a4d7f2374e51d5870a
 RVersion: 4.6
 Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
@@ -4154,25 +4122,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: tune
-Version: 2.0.0
-Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
-Imports: cli (>= 3.3.0), dials (>= 1.3.0.9000), dplyr (>= 1.1.0), generics (>= 0.1.2), ggplot2, glue (>= 1.6.2), GPfit, hardhat (>= 1.4.2), parallel, parsnip (>= 1.2.1.9003), purrr (>= 1.0.0),
-        recipes (>= 1.1.0.9001), rlang (>= 1.1.4), rsample (>= 1.3.0.9003), tailor (>= 0.1.0), tibble (>= 3.1.0), tidyr (>= 1.2.0), tidyselect (>= 1.1.2), vctrs (>= 0.6.1), withr, workflows (>=
-        1.3.0), yardstick (>= 1.3.0)
-Suggests: C50, censored (>= 0.3.0), covr, future (>= 1.33.0), future.apply, kernlab, kknn, knitr, mgcv, mirai (>= 2.4.0), modeldata, probably, scales, spelling, splines2, survival, testthat (>=
-        3.0.0), xgboost, xml2
-License: MIT + file LICENSE
-File: tune_2.0.0_b2_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/tune/releases/download/2.0.0/tune_2.0.0_b2_R4.6_x86_64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-09-01 13:13:40 UTC; unix
-Filesize: 1509867
-SHA256: fd9abeb0324faf80d076cd49b58ac1fde77cca57c66093964df7f109bd30f911
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: rstantools
 Version: 2.5.0
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4912,3 +4861,54 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: xz (for building from source)
+
+Package: timeDate
+Version: 4051.111
+Depends: R (>= 3.6.0), methods, R (>= 4.6), R (< 4.6.99)
+Imports: graphics, utils, stats
+Suggests: RUnit
+License: GPL (>= 2)
+File: timeDate_4051.111_b2_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/timeDate/releases/download/4051.111/timeDate_4051.111_b2_R4.6_x86_64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-10-17 11:59:41 UTC; unix
+Filesize: 1488330
+SHA256: 28c32bac58673bcce625f137b91aa7acc96c59d96d4a87cefcaaced002c2de37
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: hms
+Version: 1.1.4
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: cli, lifecycle, methods, pkgconfig, rlang (>= 1.0.2), vctrs (>= 0.3.8)
+Suggests: crayon, lubridate, pillar (>= 1.1.0), testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: hms_1.1.4_b2_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/hms/releases/download/1.1.4/hms_1.1.4_b2_R4.6_x86_64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-10-17 08:28:11 UTC; unix
+Filesize: 103871
+SHA256: df1040b72d61d871b88b53c74542262d0dcff2cea36eaec9c6cd57c88a24daf0
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: tune
+Version: 2.0.1
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: cli (>= 3.3.0), dials (>= 1.3.0.9000), dplyr (>= 1.1.0), generics (>= 0.1.2), ggplot2, glue (>= 1.6.2), GPfit, hardhat (>= 1.4.2), parallel, parsnip (>= 1.2.1.9003), purrr (>= 1.0.0),
+        recipes (>= 1.1.0.9001), rlang (>= 1.1.4), rsample (>= 1.3.0.9003), tailor (>= 0.1.0), tibble (>= 3.1.0), tidyr (>= 1.2.0), tidyselect (>= 1.1.2), vctrs (>= 0.6.1), withr, workflows (>=
+        1.3.0), yardstick (>= 1.3.0)
+Suggests: C50, censored (>= 0.3.0), covr, future (>= 1.33.0), future.apply, kernlab, kknn, knitr, mgcv, mirai (>= 2.4.0), modeldata, probably, scales, spelling, splines2, survival, testthat (>=
+        3.0.0), xgboost, xml2
+License: MIT + file LICENSE
+File: tune_2.0.1_b3_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/tune/releases/download/2.0.1/tune_2.0.1_b3_R4.6_x86_64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-10-17 17:38:09 UTC; unix
+Filesize: 1515047
+SHA256: a48d1ca729d4d20296b692e6ab52555a5a1677070729c42f359fcdf77f02455d
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
