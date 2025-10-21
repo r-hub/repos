@@ -3140,26 +3140,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: svglite
-Version: 2.2.1
-Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
-Imports: base64enc, cli, lifecycle, rlang (>= 1.1.0), systemfonts (>= 1.2.3), textshaping (>= 0.3.0)
-Suggests: covr, fontquiver (>= 0.2.0), htmltools, knitr, rmarkdown, testthat (>= 3.0.0), xml2 (>= 1.0.0)
-License: GPL (>= 2)
-File: svglite_2.2.1_b3_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/svglite/releases/download/2.2.1/svglite_2.2.1_b3_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-05-13 17:17:44 UTC; unix
-Filesize: 876172
-SHA256: 937dc358620d88c0f38edbbbb2c5dd188d40a75ad06ea9e9e5dc862bd32706c5
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libpng
-LinkingTo: cpp11, systemfonts, textshaping
-
 Package: recipes
 Version: 1.3.1
 Depends: dplyr (>= 1.1.0), R (>= 4.1), R (>= 4.6), R (< 4.6.99)
@@ -4913,3 +4893,23 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: svglite
+Version: 2.2.2
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: base64enc, cli, lifecycle, rlang (>= 1.1.0), systemfonts (>= 1.3.0), textshaping (>= 0.3.0)
+Suggests: covr, fontquiver (>= 0.2.0), htmltools, knitr, rmarkdown, testthat (>= 3.0.0), xml2 (>= 1.0.0)
+License: GPL (>= 2)
+File: svglite_2.2.2_b4_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/svglite/releases/download/2.2.2/svglite_2.2.2_b4_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-10-21 17:18:24 UTC; unix
+Filesize: 870014
+SHA256: fe2fe11719864888e599540ee81c2d793a78032f8cf6017af3a9e664fec83848
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libpng
+LinkingTo: cpp11, systemfonts, textshaping
