@@ -2124,22 +2124,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libpng
 
-Package: pracma
-Version: 2.4.4
-Depends: R (>= 3.1.0), R (>= 4.6), R (< 4.6.99)
-Imports: graphics, grDevices, stats, utils
-Suggests: NlcOptim, quadprog
-License: GPL (>= 3)
-File: pracma_2.4.4_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/pracma/releases/download/2.4.4/pracma_2.4.4_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:41:47 UTC; unix
-Filesize: 1925581
-SHA256: 9b37ae4d110569e290b03211b6a24b57ad358272ffde7765e0b9dd0b96351de5
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: R.methodsS3
 Version: 1.8.2
 Depends: R (>= 2.13.0), R (>= 4.6), R (< 4.6.99)
@@ -3285,25 +3269,6 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: promises
-Version: 1.3.3
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: fastmap (>= 1.1.0), later, magrittr (>= 1.5), R6, Rcpp, rlang, stats
-Suggests: future (>= 1.21.0), knitr, purrr, rmarkdown, spelling, testthat (>= 3.0.0), vembedr
-License: MIT + file LICENSE
-File: promises_1.3.3_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/promises/releases/download/1.3.3/promises_1.3.3_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-05-29 17:21:02 UTC; unix
-Filesize: 2032414
-SHA256: 95e5fd725f7a065a4a5c9394dcddd59484136ed8848e39a4377a799b33583a96
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: later, Rcpp
 
 Package: haven
 Version: 2.5.5
@@ -4913,3 +4878,50 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libpng
 LinkingTo: cpp11, systemfonts, textshaping
+
+Package: otel
+Version: 0.2.0
+Depends: R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
+Suggests: callr, cli, glue, jsonlite, otelsdk, processx, shiny, spelling, testthat (>= 3.0.0), utils, withr
+License: MIT + file LICENSE
+File: otel_0.2.0_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/otel/releases/download/0.2.0/otel_0.2.0_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.6.0; ; 2025-10-22 17:20:29 UTC; unix
+Filesize: 303484
+SHA256: 2fdb8bd9d81bd2babdbb0e210eb7dd0aa9318a82a875991ebd2b34cf2e046d9e
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: pracma
+Version: 2.4.6
+Depends: R (>= 3.1.0), R (>= 4.6), R (< 4.6.99)
+Imports: graphics, grDevices, stats, utils
+Suggests: NlcOptim, quadprog
+License: GPL (>= 3)
+File: pracma_2.4.6_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/pracma/releases/download/2.4.6/pracma_2.4.6_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.6.0; ; 2025-10-22 17:20:30 UTC; unix
+Filesize: 1937876
+SHA256: 7663fe01bac25b22aea5ad6e91c5d47465181a3c7380053273815beff69bc163
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: promises
+Version: 1.4.0
+Depends: R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
+Imports: fastmap (>= 1.1.0), later, lifecycle, magrittr (>= 1.5), otel (>= 0.2.0), R6, rlang
+Suggests: future (>= 1.21.0), knitr, mirai, otelsdk (>= 0.2.0), purrr, Rcpp, rmarkdown, spelling, testthat (>= 3.0.0), vembedr
+License: MIT + file LICENSE
+File: promises_1.4.0_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/promises/releases/download/1.4.0/promises_1.4.0_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.6.0; ; 2025-10-22 17:20:33 UTC; unix
+Filesize: 1727994
+SHA256: e2008c879bc6e44fa5b289af46833387f815bb92fbe9c5b92ac58f6559cc40ce
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
