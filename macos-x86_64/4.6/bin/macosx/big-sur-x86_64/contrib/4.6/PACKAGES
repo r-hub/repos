@@ -2160,22 +2160,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libpng
 
-Package: pracma
-Version: 2.4.4
-Depends: R (>= 3.1.0), R (>= 4.6), R (< 4.6.99)
-Imports: graphics, grDevices, stats, utils
-Suggests: NlcOptim, quadprog
-License: GPL (>= 3)
-File: pracma_2.4.4_b1_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/pracma/releases/download/2.4.4/pracma_2.4.4_b1_R4.6_x86_64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-03-16 18:05:58 UTC; unix
-Filesize: 1771505
-SHA256: c81e1e270a8acd9cab32b964e792d9d2f1f16164d27bdb63e244ae94eb289312
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: R.methodsS3
 Version: 1.8.2
 Depends: R (>= 2.13.0), R (>= 4.6), R (< 4.6.99)
@@ -3285,25 +3269,6 @@ RVersion: 4.6
 Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: promises
-Version: 1.3.3
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: fastmap (>= 1.1.0), later, magrittr (>= 1.5), R6, Rcpp, rlang, stats
-Suggests: future (>= 1.21.0), knitr, purrr, rmarkdown, spelling, testthat (>= 3.0.0), vembedr
-License: MIT + file LICENSE
-File: promises_1.3.3_b2_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/promises/releases/download/1.3.3/promises_1.3.3_b2_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2025-05-29 17:45:08 UTC; unix
-Filesize: 1687165
-SHA256: 2d9b976654631ad441a284d34c687509a02617d22596f184039a0e12ede62219
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: later, Rcpp
 
 Package: haven
 Version: 2.5.5
@@ -4912,3 +4877,50 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libpng
 LinkingTo: cpp11, systemfonts, textshaping
+
+Package: otel
+Version: 0.2.0
+Depends: R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
+Suggests: callr, cli, glue, jsonlite, otelsdk, processx, shiny, spelling, testthat (>= 3.0.0), utils, withr
+License: MIT + file LICENSE
+File: otel_0.2.0_b1_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/otel/releases/download/0.2.0/otel_0.2.0_b1_R4.6_x86_64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-08-29 14:54:50 UTC; unix
+Filesize: 280974
+SHA256: 7cf9b3671506d408d51623d6d7421a94ce2e4178846f2cfd34fad11f4d98f948
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: pracma
+Version: 2.4.6
+Depends: R (>= 3.1.0), R (>= 4.6), R (< 4.6.99)
+Imports: graphics, grDevices, stats, utils
+Suggests: NlcOptim, quadprog
+License: GPL (>= 3)
+File: pracma_2.4.6_b2_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/pracma/releases/download/2.4.6/pracma_2.4.6_b2_R4.6_x86_64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-10-22 17:36:47 UTC; unix
+Filesize: 1781991
+SHA256: 44db5ff6b78cf20963cbfb11830aabdb3e9622378cd3754ce225fc6c12340464
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: promises
+Version: 1.4.0
+Depends: R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
+Imports: fastmap (>= 1.1.0), later, lifecycle, magrittr (>= 1.5), otel (>= 0.2.0), R6, rlang
+Suggests: future (>= 1.21.0), knitr, mirai, otelsdk (>= 0.2.0), purrr, Rcpp, rmarkdown, spelling, testthat (>= 3.0.0), vembedr
+License: MIT + file LICENSE
+File: promises_1.4.0_b3_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/promises/releases/download/1.4.0/promises_1.4.0_b3_R4.6_x86_64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-10-22 08:30:21 UTC; unix
+Filesize: 1690144
+SHA256: 87a7e7239d0033ae302d68851b732d164544541fc8fabc0e24f1ba30c017c82a
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
