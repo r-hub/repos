@@ -3831,25 +3831,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
 
-Package: xml2
-Version: 1.4.0
-Depends: R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
-Imports: cli, methods, rlang (>= 1.1.0)
-Suggests: covr, curl, httr, knitr, magrittr, mockery, rmarkdown, testthat (>= 3.2.0), xslt
-License: MIT + file LICENSE
-File: xml2_1.4.0_b2_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/xml2/releases/download/1.4.0/xml2_1.4.0_b2_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2025-08-20 21:13:23 UTC; unix
-Filesize: 530568
-SHA256: c3148f628f5fb32bc495b269c0e3c4ccf681f38c365a82a0b3a2900c4ad8ea24
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
-
 Package: XML
 Version: 3.99-0.19
 Depends: R (>= 4.0.0), methods, utils, R (>= 4.6), R (< 4.6.99)
@@ -4751,27 +4732,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: freetype2, harfbuzz, fribidi
 LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
 
-Package: igraph
-Version: 2.2.0
-Depends: methods, R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
-Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang (>= 1.1.0), stats, utils, vctrs
-Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl (>= 1.3.14), rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
-License: GPL (>= 2)
-File: igraph_2.2.0_b2_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/igraph/releases/download/2.2.0/igraph_2.2.0_b2_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2025-10-13 17:35:36 UTC; unix
-Filesize: 6201212
-SHA256: b365dd5b48cbbe59e76d566296bd5053ed6cee7a5fd65f726f86fbfdbb9de4b0
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: graph
-SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
-LinkingTo: cpp11 (>= 0.5.0)
-
 Package: progressr
 Version: 0.17.0
 Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
@@ -4924,3 +4884,43 @@ RVersion: 4.6
 Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: xml2
+Version: 1.4.1
+Depends: R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
+Imports: cli, methods, rlang (>= 1.1.0)
+Suggests: covr, curl, httr, knitr, mockery, rmarkdown, testthat (>= 3.2.0), xslt
+License: MIT + file LICENSE
+File: xml2_1.4.1_b3_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/xml2/releases/download/1.4.1/xml2_1.4.1_b3_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-10-27 09:15:31 UTC; unix
+Filesize: 529744
+SHA256: 4c2c524f78e5f539c9d5202f59c1eca1591c53709acd6391037624566dc34b09
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
+
+Package: igraph
+Version: 2.2.1
+Depends: methods, R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
+Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang (>= 1.1.0), stats, utils, vctrs
+Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl (>= 1.3.14), rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
+License: GPL (>= 2)
+File: igraph_2.2.1_b3_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/igraph/releases/download/2.2.1/igraph_2.2.1_b3_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-10-27 13:33:04 UTC; unix
+Filesize: 10731950
+SHA256: e2220621bb66bcb61defd0273b3944fb15304d04609deff96a76cd3c6f6f2984
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: graph
+SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
+LinkingTo: cpp11 (>= 0.5.0)
