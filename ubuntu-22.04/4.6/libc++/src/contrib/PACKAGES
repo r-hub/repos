@@ -3632,25 +3632,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
 
-Package: xml2
-Version: 1.4.0
-Depends: R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
-Imports: cli, methods, rlang (>= 1.1.0)
-Suggests: covr, curl, httr, knitr, magrittr, mockery, rmarkdown, testthat (>= 3.2.0), xslt
-License: MIT + file LICENSE
-File: xml2_1.4.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/xml2/releases/download/1.4.0/xml2_1.4.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-08-21 17:00:26 UTC; unix
-Filesize: 288266
-SHA256: 1c023b9b6446786fdbf3b4ec44c1428a4aac19d006ef2cdef606a24825dd5977
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
-
 Package: XML
 Version: 3.99-0.19
 Depends: R (>= 4.0.0), methods, utils, R (>= 4.6), R (< 4.6.99)
@@ -4424,27 +4405,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: freetype2, harfbuzz, fribidi
 LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
 
-Package: igraph
-Version: 2.2.0
-Depends: methods, R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
-Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang (>= 1.1.0), stats, utils, vctrs
-Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl (>= 1.3.14), rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
-License: GPL (>= 2)
-File: igraph_2.2.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/igraph/releases/download/2.2.0/igraph_2.2.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-10-13 16:59:26 UTC; unix
-Filesize: 5974514
-SHA256: 44e77165014e6d647a520d51a15d3848fef678ddb02f653ae8413ae6e97574a8
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: graph
-SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
-LinkingTo: cpp11 (>= 0.5.0)
-
 Package: progressr
 Version: 0.17.0
 Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
@@ -4597,3 +4557,43 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: xml2
+Version: 1.4.1
+Depends: R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
+Imports: cli, methods, rlang (>= 1.1.0)
+Suggests: covr, curl, httr, knitr, mockery, rmarkdown, testthat (>= 3.2.0), xslt
+License: MIT + file LICENSE
+File: xml2_1.4.1_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/xml2/releases/download/1.4.1/xml2_1.4.1_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-10-27 17:00:44 UTC; unix
+Filesize: 288714
+SHA256: cc7c96c3703c66af00dadc74bbd30c9c195067f3c34080effcd5869db901094f
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
+
+Package: igraph
+Version: 2.2.1
+Depends: methods, R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
+Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang (>= 1.1.0), stats, utils, vctrs
+Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl (>= 1.3.14), rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
+License: GPL (>= 2)
+File: igraph_2.2.1_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/igraph/releases/download/2.2.1/igraph_2.2.1_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-10-27 17:00:47 UTC; unix
+Filesize: 5965395
+SHA256: 724a39d00687e89dfa937a0a107fbe739cde0632644bce9be6dd6ccb5af5702b
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: graph
+SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
+LinkingTo: cpp11 (>= 0.5.0)
