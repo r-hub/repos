@@ -3741,27 +3741,6 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: arrow
-Version: 21.0.0.1
-Depends: R (>= 4.0), R (>= 4.6), R (< 4.6.99)
-Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
-Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
-        tibble, tzdb, withr
-License: Apache License (>= 2.0)
-File: arrow_21.0.0.1_b6_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/arrow/releases/download/21.0.0.1/arrow_21.0.0.1_b6_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-08-19 17:38:49 UTC; unix
-Filesize: 200300397
-SHA256: 6efaa8171b79641137a29d43ccd422b719f43529ccf36f7cfa2f018ea13c3d6b
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.25 (build-time only, and only for full source build)
-LinkingTo: cpp11 (>= 0.4.2)
-
 Package: hardhat
 Version: 1.4.2
 Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
@@ -4925,3 +4904,24 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: arrow
+Version: 22.0.0
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
+        tibble, tzdb, withr
+License: Apache License (>= 2.0)
+File: arrow_22.0.0_b7_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/arrow/releases/download/22.0.0/arrow_22.0.0_b7_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-10-29 17:40:25 UTC; unix
+Filesize: 202167428
+SHA256: 5fe80e39f9abdb720b02f6b3e8308635d47fd83328a7c8bae71cb462b48cadb4
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.26 (build-time only, and only for full source build)
+LinkingTo: cpp11 (>= 0.4.2)
