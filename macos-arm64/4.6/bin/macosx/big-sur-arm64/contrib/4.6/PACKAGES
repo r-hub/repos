@@ -1010,23 +1010,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: lava
-Version: 1.8.1
-Depends: R (>= 3.0), R (>= 4.6), R (< 4.6.99)
-Imports: cli, future.apply, graphics, grDevices, methods, numDeriv, progressr, stats, survival, SQUAREM, utils
-Suggests: KernSmooth, Rgraphviz, data.table, ellipse, fields, geepack, graph, knitr, rmarkdown, igraph (>= 0.6), lavaSearch2, lme4 (>= 1.1.35.1), MASS, Matrix (>= 1.6.3), mets (>= 1.1), nlme, optimx,
-        polycor, quantreg, rgl, targeted (>= 0.4), testthat (>= 0.11), visNetwork
-License: GPL-3
-File: lava_1.8.1_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/lava/releases/download/1.8.1/lava_1.8.1_b1_R4.6_aarch64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-03-16 18:30:48 UTC; unix
-Filesize: 2506933
-SHA256: 6608be37fc92e0f53fecff4cbbc6c8444efa44e1f4438ec926d28fce9a089e33
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: lhs
 Version: 1.2.0
 Depends: R (>= 3.4.0), R (>= 4.6), R (< 4.6.99)
@@ -4979,3 +4962,20 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.26 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
+
+Package: lava
+Version: 1.8.2
+Depends: R (>= 3.0), R (>= 4.6), R (< 4.6.99)
+Imports: cli, future.apply, graphics, grDevices, methods, numDeriv, progressr, stats, survival, SQUAREM, utils
+Suggests: KernSmooth, Rgraphviz, data.table, ellipse, fields, geepack, graph, knitr, rmarkdown, igraph (>= 0.6), lavaSearch2, lme4 (>= 1.1.35.1), MASS, Matrix (>= 1.6.3), mets (>= 1.1), nlme, optimx,
+        polycor, quantreg, rgl, targeted (>= 0.4), testthat (>= 0.11), visNetwork
+License: GPL-3
+File: lava_1.8.2_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/lava/releases/download/1.8.2/lava_1.8.2_b2_R4.6_aarch64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-10-30 06:58:04 UTC; unix
+Filesize: 2533633
+SHA256: 9a50a9d7f51138b07498d1073e3baffaf4394b3ac6ccead45e13ae8e4f0b3a6b
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
