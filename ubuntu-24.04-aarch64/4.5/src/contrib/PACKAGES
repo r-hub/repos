@@ -992,23 +992,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: lava
-Version: 1.8.1
-Depends: R (>= 3.0), R (>= 4.5), R (< 4.5.99)
-Imports: cli, future.apply, graphics, grDevices, methods, numDeriv, progressr, stats, survival, SQUAREM, utils
-Suggests: KernSmooth, Rgraphviz, data.table, ellipse, fields, geepack, graph, knitr, rmarkdown, igraph (>= 0.6), lavaSearch2, lme4 (>= 1.1.35.1), MASS, Matrix (>= 1.6.3), mets (>= 1.1), nlme, optimx,
-        polycor, quantreg, rgl, targeted (>= 0.4), testthat (>= 0.11), visNetwork
-License: GPL-3
-File: lava_1.8.1_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/lava/releases/download/1.8.1/lava_1.8.1_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.5.0; ; 2025-03-16 09:18:04 UTC; unix
-Filesize: 2501568
-SHA256: 0f124d46dda110f7ea92d795deed6afcc669be814ed17732cee4b8ccb04eb2ed
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: lhs
 Version: 1.2.0
 Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
@@ -3760,24 +3743,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: xfun
-Version: 0.53
-Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
-Imports: grDevices, stats, tools
-Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.6), commonmark, knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, data.table, qs
-License: MIT + file LICENSE
-File: xfun_0.53_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/xfun/releases/download/0.53/xfun_0.53_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.1; aarch64-unknown-linux-gnu; 2025-08-19 23:21:48 UTC; unix
-Filesize: 589273
-SHA256: e9e2f73df84439b135a426c43637a995b056415157cd0ac88ebd9b65677945fe
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: curl
 Version: 7.0.0
 Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
@@ -4962,3 +4927,38 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.26 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
+
+Package: lava
+Version: 1.8.2
+Depends: R (>= 3.0), R (>= 4.5), R (< 4.5.99)
+Imports: cli, future.apply, graphics, grDevices, methods, numDeriv, progressr, stats, survival, SQUAREM, utils
+Suggests: KernSmooth, Rgraphviz, data.table, ellipse, fields, geepack, graph, knitr, rmarkdown, igraph (>= 0.6), lavaSearch2, lme4 (>= 1.1.35.1), MASS, Matrix (>= 1.6.3), mets (>= 1.1), nlme, optimx,
+        polycor, quantreg, rgl, targeted (>= 0.4), testthat (>= 0.11), visNetwork
+License: GPL-3
+File: lava_1.8.2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/lava/releases/download/1.8.2/lava_1.8.2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.5.2; ; 2025-10-30 23:20:18 UTC; unix
+Filesize: 2534006
+SHA256: e7c3ec0e83eb51eddc625b7ab2040d6bf671b8c3bbd4c21f2fcff661a4d12f95
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: xfun
+Version: 0.54
+Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
+Imports: grDevices, stats, tools
+Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.6), commonmark, knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, data.table, qs
+License: MIT + file LICENSE
+File: xfun_0.54_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/xfun/releases/download/0.54/xfun_0.54_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.2; aarch64-unknown-linux-gnu; 2025-10-30 23:20:17 UTC; unix
+Filesize: 593521
+SHA256: ddc9388b5f18dc51b37d68a6b2900c3387eb918e505260d32c0bc8f0426283d9
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
