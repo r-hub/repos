@@ -1568,25 +1568,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: methods
 
-Package: purrr
-Version: 1.1.0
-Depends: R (>= 4.1), R (>= 4.3), R (< 4.3.99)
-Suggests: carrier (>= 0.2.0), covr, dplyr (>= 0.7.8), httr, knitr, lubridate, mirai (>= 2.4.0), rmarkdown, testthat (>= 3.0.0), tibble, tidyselect
-License: MIT + file LICENSE
-File: purrr_1.1.0_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/purrr/releases/download/1.1.0/purrr_1.1.0_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-07-11 14:48:45 UTC; unix
-Filesize: 579983
-SHA256: e687175c27e633d593f3efa51f141d3b3bc9325c72234d03b274ff72d82be8a4
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), magrittr (>= 1.5.0), rlang (>= 1.1.1), vctrs (>= 0.6.3)
-LinkingTo: cli
-
 Package: waldo
 Version: 0.6.2
 Depends: R (>= 4.0), R (>= 4.3), R (< 4.3.99)
@@ -1735,22 +1716,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cellranger, cli (>= 3.0.0), curl, gargle (>= 1.6.0), glue (>= 1.3.0), googledrive (>= 2.1.0), httr, ids, lifecycle, magrittr, methods, purrr, rematch2, rlang (>= 1.0.2), tibble (>= 2.1.1),
         utils, vctrs (>= 0.2.3), withr
-
-Package: stringr
-Version: 1.5.2
-Depends: R (>= 3.6), R (>= 4.3), R (< 4.3.99)
-Suggests: covr, dplyr, gt, htmltools, htmlwidgets, knitr, rmarkdown, testthat (>= 3.0.0), tibble
-License: MIT + file LICENSE
-File: stringr_1.5.2_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/stringr/releases/download/1.5.2/stringr_1.5.2_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.3.3; ; 2025-09-08 14:48:50 UTC; unix
-Filesize: 308336
-SHA256: f3b07add2343805573675f99d273b7f5cf016b079accf2657ef07ed37e302cc2
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: cli, glue (>= 1.6.1), lifecycle (>= 1.0.3), magrittr, rlang (>= 1.0.0), stringi (>= 1.5.3), vctrs (>= 0.4.0)
 
 Package: dbplyr
 Version: 2.5.1
@@ -2092,3 +2057,38 @@ Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: grDevices, stats, tools
+
+Package: purrr
+Version: 1.2.0
+Depends: R (>= 4.1), R (>= 4.3), R (< 4.3.99)
+Suggests: carrier (>= 0.3.0), covr, dplyr (>= 0.7.8), httr, knitr, lubridate, mirai (>= 2.5.1), rmarkdown, testthat (>= 3.0.0), tibble, tidyselect
+License: MIT + file LICENSE
+File: purrr_1.2.0_b3_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/purrr/releases/download/1.2.0/purrr_1.2.0_b3_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-11-04 14:46:07 UTC; unix
+Filesize: 579726
+SHA256: 052e92a691cd890efb887a93d7fdf5dc148c34a03c53806f9c77d846071fcb36
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), magrittr (>= 1.5.0), rlang (>= 1.1.1), vctrs (>= 0.6.3)
+LinkingTo: cli
+
+Package: stringr
+Version: 1.6.0
+Depends: R (>= 4.1.0), R (>= 4.3), R (< 4.3.99)
+Suggests: covr, dplyr, gt, htmltools, htmlwidgets, knitr, rmarkdown, testthat (>= 3.0.0), tibble
+License: MIT + file LICENSE
+File: stringr_1.6.0_b3_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/stringr/releases/download/1.6.0/stringr_1.6.0_b3_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.3.3; ; 2025-11-04 14:46:07 UTC; unix
+Filesize: 328421
+SHA256: 7fd9a15c047ac04e06fc804f99826b2cda3bd8108c03cf82db828cc70e8de725
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli, glue (>= 1.6.1), lifecycle (>= 1.0.3), magrittr, rlang (>= 1.0.0), stringi (>= 1.5.3), vctrs (>= 0.4.0)
