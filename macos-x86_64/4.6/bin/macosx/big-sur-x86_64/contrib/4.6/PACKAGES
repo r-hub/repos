@@ -3138,25 +3138,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: pkgdown
-Version: 2.1.3
-Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
-Imports: bslib (>= 0.5.1), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.0), downlit (>= 0.4.4), fontawesome, fs (>= 1.4.0), httr2 (>= 1.0.2), jsonlite, openssl, purrr (>= 1.0.0), ragg (>= 1.4.0),
-        rlang (>= 1.1.4), rmarkdown (>= 2.27), tibble, whisker, withr (>= 2.4.3), xml2 (>= 1.3.1), yaml
-Suggests: covr, diffviewer, evaluate (>= 0.24.0), gert, gt, htmltools, htmlwidgets, knitr (>= 1.50), lifecycle, magick, methods, pkgload (>= 1.0.2), quarto, rsconnect, rstudioapi, rticles, sass,
-        testthat (>= 3.1.3), tools
-License: MIT + file LICENSE
-File: pkgdown_2.1.3_b3_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/pkgdown/releases/download/2.1.3/pkgdown_2.1.3_b3_R4.6_x86_64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-05-25 17:36:48 UTC; unix
-Filesize: 909519
-SHA256: f088405d9f30f55bb734787303135fa0f6253d908386c02829e014209054791e
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc
-
 Package: gh
 Version: 1.5.0
 Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
@@ -4574,22 +4555,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: freetype2, harfbuzz, fribidi
 LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
 
-Package: progressr
-Version: 0.17.0
-Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
-Imports: digest, utils
-Suggests: graphics, tcltk, beepr, cli, crayon, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, ntfy, RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools
-License: GPL (>= 3)
-File: progressr_0.17.0_b3_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/progressr/releases/download/0.17.0/progressr_0.17.0_b3_R4.6_x86_64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-10-15 08:42:43 UTC; unix
-Filesize: 410452
-SHA256: fa56b7e85ab86b14952c71a18a98377d93de906ca4f5c3f3a492efee4a8e6022
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: duckdb
 Version: 1.4.1
 Depends: DBI, R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
@@ -4924,3 +4889,38 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
 LinkingTo: Rcpp
+
+Package: pkgdown
+Version: 2.2.0
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: bslib (>= 0.5.1), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.0), downlit (>= 0.4.4), fontawesome, fs (>= 1.4.0), httr2 (>= 1.0.2), jsonlite, lifecycle, openssl, purrr (>= 1.0.0), ragg
+        (>= 1.4.0), rlang (>= 1.1.4), rmarkdown (>= 2.27), tibble, whisker, withr (>= 2.4.3), xml2 (>= 1.3.1), yaml (>= 2.3.9)
+Suggests: covr, diffviewer, evaluate (>= 0.24.0), gert, gt, htmltools, htmlwidgets, knitr (>= 1.50), magick, methods, pkgload (>= 1.0.2), quarto, rsconnect, rstudioapi, rticles, sass, testthat (>=
+        3.1.3), tools
+License: MIT + file LICENSE
+File: pkgdown_2.2.0_b4_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/pkgdown/releases/download/2.2.0/pkgdown_2.2.0_b4_R4.6_x86_64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-11-06 07:44:50 UTC; unix
+Filesize: 927242
+SHA256: 24918781a75059098258db78d8210520e09b32d7bae4c905c6f1e0e4d2d8642c
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc
+
+Package: progressr
+Version: 0.18.0
+Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
+Imports: digest, utils
+Suggests: graphics, tcltk, beepr, cli, crayon, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, ntfy, RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools
+License: GPL (>= 3)
+File: progressr_0.18.0_b4_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/progressr/releases/download/0.18.0/progressr_0.18.0_b4_R4.6_x86_64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-11-06 07:33:26 UTC; unix
+Filesize: 413426
+SHA256: 1bb2b8de0665756dda16706c66baa79bc75df485b3ab031aa0256a822978a754
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
