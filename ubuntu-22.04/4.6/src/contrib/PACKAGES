@@ -3138,25 +3138,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: pkgdown
-Version: 2.1.3
-Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
-Imports: bslib (>= 0.5.1), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.0), downlit (>= 0.4.4), fontawesome, fs (>= 1.4.0), httr2 (>= 1.0.2), jsonlite, openssl, purrr (>= 1.0.0), ragg (>= 1.4.0),
-        rlang (>= 1.1.4), rmarkdown (>= 2.27), tibble, whisker, withr (>= 2.4.3), xml2 (>= 1.3.1), yaml
-Suggests: covr, diffviewer, evaluate (>= 0.24.0), gert, gt, htmltools, htmlwidgets, knitr (>= 1.50), lifecycle, magick, methods, pkgload (>= 1.0.2), quarto, rsconnect, rstudioapi, rticles, sass,
-        testthat (>= 3.1.3), tools
-License: MIT + file LICENSE
-File: pkgdown_2.1.3_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/pkgdown/releases/download/2.1.3/pkgdown_2.1.3_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.6.0; ; 2025-05-25 16:40:20 UTC; unix
-Filesize: 914359
-SHA256: 3d35bfc6d0f3992fd9c86f36ffae0e0f0cdf044e8a5d928b9cab30ef681bafe3
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc
-
 Package: gh
 Version: 1.5.0
 Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
@@ -4575,22 +4556,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: freetype2, harfbuzz, fribidi
 LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
 
-Package: progressr
-Version: 0.17.0
-Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
-Imports: digest, utils
-Suggests: graphics, tcltk, beepr, cli, crayon, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, ntfy, RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools
-License: GPL (>= 3)
-File: progressr_0.17.0_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/progressr/releases/download/0.17.0/progressr_0.17.0_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.6.0; ; 2025-10-15 16:38:16 UTC; unix
-Filesize: 409286
-SHA256: e9b7b0af4059b55302ba832a63c9673350802a794d121ddeec20b4afcb2ebee7
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: duckdb
 Version: 1.4.1
 Depends: DBI, R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
@@ -4925,3 +4890,38 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
 LinkingTo: Rcpp
+
+Package: pkgdown
+Version: 2.2.0
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: bslib (>= 0.5.1), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.0), downlit (>= 0.4.4), fontawesome, fs (>= 1.4.0), httr2 (>= 1.0.2), jsonlite, lifecycle, openssl, purrr (>= 1.0.0), ragg
+        (>= 1.4.0), rlang (>= 1.1.4), rmarkdown (>= 2.27), tibble, whisker, withr (>= 2.4.3), xml2 (>= 1.3.1), yaml (>= 2.3.9)
+Suggests: covr, diffviewer, evaluate (>= 0.24.0), gert, gt, htmltools, htmlwidgets, knitr (>= 1.50), magick, methods, pkgload (>= 1.0.2), quarto, rsconnect, rstudioapi, rticles, sass, testthat (>=
+        3.1.3), tools
+License: MIT + file LICENSE
+File: pkgdown_2.2.0_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/pkgdown/releases/download/2.2.0/pkgdown_2.2.0_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.6.0; ; 2025-11-06 16:46:56 UTC; unix
+Filesize: 933385
+SHA256: 728a21274e751ee95dfd2e6724a5f9cfd6b4d1762ea2f52b7f3e08821c11a172
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc
+
+Package: progressr
+Version: 0.18.0
+Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
+Imports: digest, utils
+Suggests: graphics, tcltk, beepr, cli, crayon, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, ntfy, RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools
+License: GPL (>= 3)
+File: progressr_0.18.0_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/progressr/releases/download/0.18.0/progressr_0.18.0_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.6.0; ; 2025-11-06 16:46:52 UTC; unix
+Filesize: 412629
+SHA256: 30a4a64c84b389cb1795f549e61f7da643bb703845b6a780d27c4616924c72fe
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
