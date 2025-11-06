@@ -3138,25 +3138,6 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: pkgdown
-Version: 2.1.3
-Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
-Imports: bslib (>= 0.5.1), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.0), downlit (>= 0.4.4), fontawesome, fs (>= 1.4.0), httr2 (>= 1.0.2), jsonlite, openssl, purrr (>= 1.0.0), ragg (>= 1.4.0),
-        rlang (>= 1.1.4), rmarkdown (>= 2.27), tibble, whisker, withr (>= 2.4.3), xml2 (>= 1.3.1), yaml
-Suggests: covr, diffviewer, evaluate (>= 0.24.0), gert, gt, htmltools, htmlwidgets, knitr (>= 1.50), lifecycle, magick, methods, pkgload (>= 1.0.2), quarto, rsconnect, rstudioapi, rticles, sass,
-        testthat (>= 3.1.3), tools
-License: MIT + file LICENSE
-File: pkgdown_2.1.3_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/pkgdown/releases/download/2.1.3/pkgdown_2.1.3_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-Built: R 4.6.0; ; 2025-05-25 17:18:07 UTC; unix
-Filesize: 932845
-SHA256: 82fac5387c194c72a7372647f657e0d39f0b4714f7bb4a964fc5755e541e347f
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc
-
 Package: gh
 Version: 1.5.0
 Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
@@ -4575,22 +4556,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: freetype2, harfbuzz, fribidi
 LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
 
-Package: progressr
-Version: 0.17.0
-Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
-Imports: digest, utils
-Suggests: graphics, tcltk, beepr, cli, crayon, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, ntfy, RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools
-License: GPL (>= 3)
-File: progressr_0.17.0_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/progressr/releases/download/0.17.0/progressr_0.17.0_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-Built: R 4.6.0; ; 2025-10-15 17:20:12 UTC; unix
-Filesize: 423589
-SHA256: bd7f5d89caa021243d374c8655ab7f32412a3a7ced4fa74968c18582510fd15b
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: duckdb
 Version: 1.4.1
 Depends: DBI, R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
@@ -4925,3 +4890,38 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
 LinkingTo: Rcpp
+
+Package: pkgdown
+Version: 2.2.0
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: bslib (>= 0.5.1), callr (>= 3.7.3), cli (>= 3.6.1), desc (>= 1.4.0), downlit (>= 0.4.4), fontawesome, fs (>= 1.4.0), httr2 (>= 1.0.2), jsonlite, lifecycle, openssl, purrr (>= 1.0.0), ragg
+        (>= 1.4.0), rlang (>= 1.1.4), rmarkdown (>= 2.27), tibble, whisker, withr (>= 2.4.3), xml2 (>= 1.3.1), yaml (>= 2.3.9)
+Suggests: covr, diffviewer, evaluate (>= 0.24.0), gert, gt, htmltools, htmlwidgets, knitr (>= 1.50), magick, methods, pkgload (>= 1.0.2), quarto, rsconnect, rstudioapi, rticles, sass, testthat (>=
+        3.1.3), tools
+License: MIT + file LICENSE
+File: pkgdown_2.2.0_b4_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/pkgdown/releases/download/2.2.0/pkgdown_2.2.0_b4_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.6.0; ; 2025-11-06 17:22:50 UTC; unix
+Filesize: 951998
+SHA256: 74bd5b1e13dc94b0094d0835dc850e66e8ae3138dcbc5067859a7292141e8dd5
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc
+
+Package: progressr
+Version: 0.18.0
+Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
+Imports: digest, utils
+Suggests: graphics, tcltk, beepr, cli, crayon, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, ntfy, RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools
+License: GPL (>= 3)
+File: progressr_0.18.0_b4_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/progressr/releases/download/0.18.0/progressr_0.18.0_b4_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.6.0; ; 2025-11-06 17:22:45 UTC; unix
+Filesize: 426571
+SHA256: 66d32a4e49b52f626bb7f421d3c66f617147d3824f86d82d3fb812eb18cdacd0
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
