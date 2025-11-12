@@ -1918,24 +1918,6 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: digest
-Version: 0.6.37
-Depends: R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
-Imports: utils
-Suggests: tinytest, simplermarkdown
-License: GPL (>= 2)
-File: digest_0.6.37_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/digest/releases/download/0.6.37/digest_0.6.37_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:41:32 UTC; unix
-Filesize: 502885
-SHA256: 12251fde93ccf3ca3131258c8c888037e3bf1145cfe9bf4fbbc2febad82fe479
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: doParallel
 Version: 1.0.17
 Depends: R (>= 2.14.0), foreach (>= 1.2.0), iterators (>= 1.0.0), parallel, utils, R (>= 4.6), R (< 4.6.99)
@@ -2152,25 +2134,6 @@ Arch: amd64
 Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:44:11 UTC; unix
 Filesize: 7717607
 SHA256: 1b41630c751c2f1145ba717b7736ed14a9bdb25e7da3e18da3f11d4d369734ba
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
-Package: reshape2
-Version: 1.4.4
-Depends: R (>= 3.1), R (>= 4.6), R (< 4.6.99)
-Imports: plyr (>= 1.8.1), Rcpp, stringr
-Suggests: covr, lattice, testthat (>= 0.8.0)
-License: MIT + file LICENSE
-File: reshape2_1.4.4_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/reshape2/releases/download/1.4.4/reshape2_1.4.4_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 09:09:44 UTC; unix
-Filesize: 568658
-SHA256: 15c3948bf01c91131c3eda6bd1e10b58ff29143e72b05b43fb65f0f6f4225a84
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
@@ -4925,3 +4888,40 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
+
+Package: digest
+Version: 0.6.38
+Depends: R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
+Imports: utils
+Suggests: tinytest, simplermarkdown, rbenchmark
+License: GPL (>= 2)
+File: digest_0.6.38_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/digest/releases/download/0.6.38/digest_0.6.38_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-11-12 17:22:43 UTC; unix
+Filesize: 508195
+SHA256: 112472bd1067e1342ba4c66b2c41f7978c91090e8ab988796a710c6f9fff33fc
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: reshape2
+Version: 1.4.5
+Depends: R (>= 3.1), R (>= 4.6), R (< 4.6.99)
+Imports: plyr (>= 1.8.1), Rcpp, stringr
+Suggests: covr, lattice, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: reshape2_1.4.5_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/reshape2/releases/download/1.4.5/reshape2_1.4.5_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-11-12 17:22:44 UTC; unix
+Filesize: 564319
+SHA256: 0712a3e24cd0fe4fa72a705ed773df922e632f47c72c210f0d0d51d4fc71a02a
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
