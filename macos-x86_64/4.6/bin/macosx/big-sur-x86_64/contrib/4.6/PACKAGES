@@ -1954,24 +1954,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: digest
-Version: 0.6.37
-Depends: R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
-Imports: utils
-Suggests: tinytest, simplermarkdown
-License: GPL (>= 2)
-File: digest_0.6.37_b1_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/digest/releases/download/0.6.37/digest_0.6.37_b1_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2025-03-16 18:05:34 UTC; unix
-Filesize: 225500
-SHA256: 59f29c2f8851b3ad9abf70bf293b8ab27d665ce7985f3977ec79f9068f412b3f
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: doParallel
 Version: 1.0.17
 Depends: R (>= 2.14.0), foreach (>= 1.2.0), iterators (>= 1.0.0), parallel, utils, R (>= 4.6), R (< 4.6.99)
@@ -2188,25 +2170,6 @@ Arch: amd64
 Built: R 4.6.0; x86_64-apple-darwin20; 2025-03-16 18:17:15 UTC; unix
 Filesize: 1888865
 SHA256: f70dea41dcd5188ee6de7154e1a6fa5ab4649b86f07f1d4999f0ed38150dcc7e
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
-Package: reshape2
-Version: 1.4.4
-Depends: R (>= 3.1), R (>= 4.6), R (< 4.6.99)
-Imports: plyr (>= 1.8.1), Rcpp, stringr
-Suggests: covr, lattice, testthat (>= 0.8.0)
-License: MIT + file LICENSE
-File: reshape2_1.4.4_b1_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/reshape2/releases/download/1.4.4/reshape2_1.4.4_b1_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2025-03-16 19:21:35 UTC; unix
-Filesize: 121390
-SHA256: 2dd722dc8cf318401d6b1c613da7c4f809fa273140bb93ce67fe19ec43b27f08
 RVersion: 4.6
 Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
@@ -4924,3 +4887,40 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
+
+Package: digest
+Version: 0.6.38
+Depends: R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
+Imports: utils
+Suggests: tinytest, simplermarkdown, rbenchmark
+License: GPL (>= 2)
+File: digest_0.6.38_b2_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/digest/releases/download/0.6.38/digest_0.6.38_b2_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-11-12 10:43:35 UTC; unix
+Filesize: 380067
+SHA256: 22e32f5fcd6ed3372f1d6ebf03466dac2f70f11a7abdf1792b663cd65733913d
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: reshape2
+Version: 1.4.5
+Depends: R (>= 3.1), R (>= 4.6), R (< 4.6.99)
+Imports: plyr (>= 1.8.1), Rcpp, stringr
+Suggests: covr, lattice, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: reshape2_1.4.5_b2_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/reshape2/releases/download/1.4.5/reshape2_1.4.5_b2_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-11-12 06:55:28 UTC; unix
+Filesize: 345779
+SHA256: 76e19bca7f25a1b771fd6637dd3b6dc544ce9c35a6698f8aecdf3f2e23f03a28
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
