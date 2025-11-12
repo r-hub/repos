@@ -1918,24 +1918,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: digest
-Version: 0.6.37
-Depends: R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
-Imports: utils
-Suggests: tinytest, simplermarkdown
-License: GPL (>= 2)
-File: digest_0.6.37_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/digest/releases/download/0.6.37/digest_0.6.37_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:33:53 UTC; unix
-Filesize: 495788
-SHA256: 41bccb34bdb61c5018aa5364e0f07b2ce842cc2298d8e6d383d754e775e71166
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: doParallel
 Version: 1.0.17
 Depends: R (>= 2.14.0), foreach (>= 1.2.0), iterators (>= 1.0.0), parallel, utils, R (>= 4.6), R (< 4.6.99)
@@ -2152,25 +2134,6 @@ Arch: amd64
 Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:36:33 UTC; unix
 Filesize: 7577567
 SHA256: 082173e97f9f52cc46d7bde8b542db231ea217f5f6a85b2550322aaabe4786aa
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
-Package: reshape2
-Version: 1.4.4
-Depends: R (>= 3.1), R (>= 4.6), R (< 4.6.99)
-Imports: plyr (>= 1.8.1), Rcpp, stringr
-Suggests: covr, lattice, testthat (>= 0.8.0)
-License: MIT + file LICENSE
-File: reshape2_1.4.4_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/reshape2/releases/download/1.4.4/reshape2_1.4.4_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:56:26 UTC; unix
-Filesize: 569765
-SHA256: 7429dfe99922fa852867f379f0e2b07ab83a718935f160f15b2c1d7df10d61fd
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4925,3 +4888,40 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
+
+Package: digest
+Version: 0.6.38
+Depends: R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
+Imports: utils
+Suggests: tinytest, simplermarkdown, rbenchmark
+License: GPL (>= 2)
+File: digest_0.6.38_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/digest/releases/download/0.6.38/digest_0.6.38_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-11-12 16:45:50 UTC; unix
+Filesize: 501466
+SHA256: cd186d4cc0ea7e175ce62fbedb9f623ed7fbb50f471da668b148471ee14525ef
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: reshape2
+Version: 1.4.5
+Depends: R (>= 3.1), R (>= 4.6), R (< 4.6.99)
+Imports: plyr (>= 1.8.1), Rcpp, stringr
+Suggests: covr, lattice, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: reshape2_1.4.5_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/reshape2/releases/download/1.4.5/reshape2_1.4.5_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-11-12 16:45:51 UTC; unix
+Filesize: 566194
+SHA256: 20a1100b4e211192072c01c63207d61aee3f1b372fba97cc339cb295850e4813
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
