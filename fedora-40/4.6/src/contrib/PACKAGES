@@ -180,22 +180,6 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: downlit
-Version: 0.4.4
-Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
-Imports: brio, desc, digest, evaluate, fansi, memoise, rlang, vctrs, withr, yaml
-Suggests: covr, htmltools, jsonlite, MASS, MassSpecWavelet, pkgload, rmarkdown, testthat (>= 3.0.0), xml2
-License: MIT + file LICENSE
-File: downlit_0.4.4_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/downlit/releases/download/0.4.4/downlit_0.4.4_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:56:59 UTC; unix
-Filesize: 116729
-SHA256: d59c3f78097a0126cc90c49c00a645aa077ce99ebdd550420e62b1e35c5acb40
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: ellipsis
 Version: 0.3.2
 Depends: R (>= 3.2), R (>= 4.6), R (< 4.6.99)
@@ -3213,28 +3197,6 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: rgl
-Version: 1.3.24
-Depends: R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
-Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
-Suggests: MASS, rmarkdown (>= 2.16), deldir (>= 1.0-4), orientlib, lattice, misc3d, magick, plotrix (>= 3.7-3), tripack, interp, alphashape3d, tcltk, js (>= 1.2), webshot2 (>= 0.1.0), downlit (>=
-        0.4.0), pkgdown (>= 2.0.0), extrafont, shiny, manipulateWidget (>= 0.9.0), testthat, crosstalk, V8, chromote, jpeg, png, markdown
-License: GPL
-File: rgl_1.3.24_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/rgl/releases/download/1.3.24/rgl_1.3.24_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-06-25 17:22:19 UTC; unix
-Filesize: 8149736
-SHA256: 005ca8158af1549f447fe591670978ed07c79e7a1029059263ac0609ca9b12b0
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: waldo
-SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
-        (optional), libpng (>=1.2.9, optional), FreeType (optional), pandoc (>=1.14, needed for vignettes)
-
 Package: infer
 Version: 1.0.9
 Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
@@ -4034,24 +3996,6 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: ggplot2
-Version: 4.0.0
-Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
-Imports: cli, grDevices, grid, gtable (>= 0.3.6), isoband, lifecycle (> 1.0.1), rlang (>= 1.1.0), S7, scales (>= 1.4.0), stats, vctrs (>= 0.6.0), withr (>= 2.5.0)
-Suggests: broom, covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, mapproj, maps, MASS, mgcv, multcomp, munsell, nlme, profvis, quantreg, ragg (>= 1.2.6), RColorBrewer, rmarkdown, roxygen2, rpart, sf
-        (>= 0.7-3), svglite (>= 2.1.2), testthat (>= 3.1.5), tibble, vdiffr (>= 1.0.6), xml2
-License: MIT + file LICENSE
-File: ggplot2_4.0.0_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/ggplot2/releases/download/4.0.0/ggplot2_4.0.0_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-Built: R 4.6.0; ; 2025-09-11 17:18:39 UTC; unix
-Filesize: 6085831
-SHA256: 9d4fb9f387b6d5b1b0b449711781d5a0781f6cdc3937eb590ec84ebecb44b597
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: sp
 
 Package: credentials
 Version: 2.0.3
@@ -4925,3 +4869,59 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: downlit
+Version: 0.4.5
+Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
+Imports: brio, desc, digest, evaluate, fansi, memoise, rlang, vctrs, withr, yaml
+Suggests: covr, htmltools, jsonlite, MASS, MassSpecWavelet, pkgload, rmarkdown, testthat (>= 3.0.0), xml2
+License: MIT + file LICENSE
+File: downlit_0.4.5_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/downlit/releases/download/0.4.5/downlit_0.4.5_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.6.0; ; 2025-11-14 17:22:20 UTC; unix
+Filesize: 116917
+SHA256: e4aff100b30708ed8f1fdfd7416b318138bf956c371d0e421ec5ee0119ec89c6
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rgl
+Version: 1.3.31
+Depends: R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
+Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
+Suggests: MASS, rmarkdown (>= 2.16), deldir (>= 1.0-4), orientlib, lattice, misc3d, magick, plotrix (>= 3.7-3), interp, alphashape3d, tcltk, js (>= 1.2), webshot2 (>= 0.1.0), downlit (>= 0.4.0),
+        pkgdown (>= 2.0.0), extrafont, shiny, manipulateWidget (>= 0.9.0), testthat, crosstalk, V8, chromote, jpeg, png, markdown, xdvir, grid
+License: GPL
+File: rgl_1.3.31_b4_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/rgl/releases/download/1.3.31/rgl_1.3.31_b4_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-11-14 17:22:25 UTC; unix
+Filesize: 8156127
+SHA256: c6f850e7b9bbc2254ca56da0ac70ba9a47672f2ac460b7cfcd768e237635fd3a
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: waldo
+SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
+        (optional), libpng (>=1.2.9, optional), FreeType (optional), pandoc (>=1.14, needed for vignettes), LaTeX needed for optional latex3d() examples.
+
+Package: ggplot2
+Version: 4.0.1
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: cli, grDevices, grid, gtable (>= 0.3.6), isoband, lifecycle (> 1.0.1), rlang (>= 1.1.0), S7, scales (>= 1.4.0), stats, vctrs (>= 0.6.0), withr (>= 2.5.0)
+Suggests: broom, covr, dplyr, ggplot2movies, hexbin, Hmisc, hms, knitr, mapproj, maps, MASS, mgcv, multcomp, munsell, nlme, profvis, quantreg, quarto, ragg (>= 1.2.6), RColorBrewer, roxygen2, rpart,
+        sf (>= 0.7-3), svglite (>= 2.1.2), testthat (>= 3.1.5), tibble, vdiffr (>= 1.0.6), xml2
+License: MIT + file LICENSE
+File: ggplot2_4.0.1_b4_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/ggplot2/releases/download/4.0.1/ggplot2_4.0.1_b4_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.6.0; ; 2025-11-14 17:22:26 UTC; unix
+Filesize: 8645762
+SHA256: a8a7130455316d6d77023582ca0058c7b4ea4e26cd66588d6ed4ba5d0f9caf69
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: sp
