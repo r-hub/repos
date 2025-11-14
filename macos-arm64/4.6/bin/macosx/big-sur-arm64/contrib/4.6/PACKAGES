@@ -180,22 +180,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: downlit
-Version: 0.4.4
-Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
-Imports: brio, desc, digest, evaluate, fansi, memoise, rlang, vctrs, withr, yaml
-Suggests: covr, htmltools, jsonlite, MASS, MassSpecWavelet, pkgload, rmarkdown, testthat (>= 3.0.0), xml2
-License: MIT + file LICENSE
-File: downlit_0.4.4_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/downlit/releases/download/0.4.4/downlit_0.4.4_b1_R4.6_aarch64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-03-16 18:27:33 UTC; unix
-Filesize: 113380
-SHA256: 576054e419de75c43fef9ff1575a2c95fa046a865fa355c52d053984ac006ce6
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: ellipsis
 Version: 0.3.2
 Depends: R (>= 3.2), R (>= 4.6), R (< 4.6.99)
@@ -3151,28 +3135,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: rgl
-Version: 1.3.24
-Depends: R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
-Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
-Suggests: MASS, rmarkdown (>= 2.16), deldir (>= 1.0-4), orientlib, lattice, misc3d, magick, plotrix (>= 3.7-3), tripack, interp, alphashape3d, tcltk, js (>= 1.2), webshot2 (>= 0.1.0), downlit (>=
-        0.4.0), pkgdown (>= 2.0.0), extrafont, shiny, manipulateWidget (>= 0.9.0), testthat, crosstalk, V8, chromote, jpeg, png, markdown
-License: GPL
-File: rgl_1.3.24_b3_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/rgl/releases/download/1.3.24/rgl_1.3.24_b3_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-06-25 17:41:44 UTC; unix
-Filesize: 6173839
-SHA256: 20bc672fa84da963faed64ebea7801438b36dd81ef5e92acb161e1017584d649
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: waldo
-SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
-        (optional), libpng (>=1.2.9, optional), FreeType (optional), pandoc (>=1.14, needed for vignettes)
-
 Package: infer
 Version: 1.0.9
 Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
@@ -4071,24 +4033,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: ggplot2
-Version: 4.0.0
-Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
-Imports: cli, grDevices, grid, gtable (>= 0.3.6), isoband, lifecycle (> 1.0.1), rlang (>= 1.1.0), S7, scales (>= 1.4.0), stats, vctrs (>= 0.6.0), withr (>= 2.5.0)
-Suggests: broom, covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, mapproj, maps, MASS, mgcv, multcomp, munsell, nlme, profvis, quantreg, ragg (>= 1.2.6), RColorBrewer, rmarkdown, roxygen2, rpart, sf
-        (>= 0.7-3), svglite (>= 2.1.2), testthat (>= 3.1.5), tibble, vdiffr (>= 1.0.6), xml2
-License: MIT + file LICENSE
-File: ggplot2_4.0.0_b3_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/ggplot2/releases/download/4.0.0/ggplot2_4.0.0_b3_R4.6_aarch64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-09-11 10:47:55 UTC; unix
-Filesize: 5933687
-SHA256: 00ab666858b670952b2dde791e062151e100fcd99efa570aeb0c1837c9229a79
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: sp
-
 Package: credentials
 Version: 2.0.3
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4979,3 +4923,59 @@ RVersion: 4.6
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: downlit
+Version: 0.4.5
+Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
+Imports: brio, desc, digest, evaluate, fansi, memoise, rlang, vctrs, withr, yaml
+Suggests: covr, htmltools, jsonlite, MASS, MassSpecWavelet, pkgload, rmarkdown, testthat (>= 3.0.0), xml2
+License: MIT + file LICENSE
+File: downlit_0.4.5_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/downlit/releases/download/0.4.5/downlit_0.4.5_b2_R4.6_aarch64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-11-14 17:39:59 UTC; unix
+Filesize: 113563
+SHA256: fdc56dbfdad253d40a3fc1c2930b6c0f068e532257ff21d2b9a7cce333f7d642
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rgl
+Version: 1.3.31
+Depends: R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
+Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
+Suggests: MASS, rmarkdown (>= 2.16), deldir (>= 1.0-4), orientlib, lattice, misc3d, magick, plotrix (>= 3.7-3), interp, alphashape3d, tcltk, js (>= 1.2), webshot2 (>= 0.1.0), downlit (>= 0.4.0),
+        pkgdown (>= 2.0.0), extrafont, shiny, manipulateWidget (>= 0.9.0), testthat, crosstalk, V8, chromote, jpeg, png, markdown, xdvir, grid
+License: GPL
+File: rgl_1.3.31_b4_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/rgl/releases/download/1.3.31/rgl_1.3.31_b4_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-11-14 17:40:04 UTC; unix
+Filesize: 6180682
+SHA256: 9838cd35423a09a05352558abbcce17f54404ef9b54e6bfdba1ef7b935414f01
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: waldo
+SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
+        (optional), libpng (>=1.2.9, optional), FreeType (optional), pandoc (>=1.14, needed for vignettes), LaTeX needed for optional latex3d() examples.
+
+Package: ggplot2
+Version: 4.0.1
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: cli, grDevices, grid, gtable (>= 0.3.6), isoband, lifecycle (> 1.0.1), rlang (>= 1.1.0), S7, scales (>= 1.4.0), stats, vctrs (>= 0.6.0), withr (>= 2.5.0)
+Suggests: broom, covr, dplyr, ggplot2movies, hexbin, Hmisc, hms, knitr, mapproj, maps, MASS, mgcv, multcomp, munsell, nlme, profvis, quantreg, quarto, ragg (>= 1.2.6), RColorBrewer, roxygen2, rpart,
+        sf (>= 0.7-3), svglite (>= 2.1.2), testthat (>= 3.1.5), tibble, vdiffr (>= 1.0.6), xml2
+License: MIT + file LICENSE
+File: ggplot2_4.0.1_b4_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/ggplot2/releases/download/4.0.1/ggplot2_4.0.1_b4_R4.6_aarch64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-11-14 17:40:49 UTC; unix
+Filesize: 8491612
+SHA256: cd6d12eb571167ecd809f7b7b8c66479b274840141712dba9e424234dc10d09c
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: sp
