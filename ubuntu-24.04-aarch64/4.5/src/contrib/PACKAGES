@@ -1190,23 +1190,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: warp
-Version: 0.2.1
-Depends: R (>= 3.2), R (>= 4.5), R (< 4.5.99)
-Suggests: covr, knitr, rmarkdown, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: warp_0.2.1_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/warp/releases/download/0.2.1/warp_0.2.1_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-16 09:01:14 UTC; unix
-Filesize: 122066
-SHA256: 6d4ff447b8fd8e220bbf6a8dbb944c90b36a2cd2401c7c12c433109ee8fc4de8
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: yardstick
 Version: 1.3.2
 Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
@@ -1370,25 +1353,6 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: readr
-Version: 2.1.5
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-Imports: cli (>= 3.2.0), clipr, crayon, hms (>= 0.4.1), lifecycle (>= 0.2.0), methods, R6, rlang, tibble, utils, vroom (>= 1.6.0)
-Suggests: covr, curl, datasets, knitr, rmarkdown, spelling, stringi, testthat (>= 3.2.0), tzdb (>= 0.1.1), waldo, withr, xml2
-License: MIT + file LICENSE
-File: readr_2.1.5_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/readr/releases/download/2.1.5/readr_2.1.5_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-16 09:11:43 UTC; unix
-Filesize: 3063083
-SHA256: 914b96c92316bb476fed58e08d446714801a718954ad1723e64c62060d91d3a0
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cpp11, tzdb (>= 0.1.1)
 
 Package: readxl
 Version: 1.4.5
@@ -4962,3 +4926,39 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: sp
+
+Package: warp
+Version: 0.2.2
+Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
+Suggests: covr, knitr, rmarkdown, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: warp_0.2.2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/warp/releases/download/0.2.2/warp_0.2.2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.2; aarch64-unknown-linux-gnu; 2025-11-15 23:20:51 UTC; unix
+Filesize: 122407
+SHA256: 384688236b3939a497804a0419bc422b6f812c325858b73fc279c87e9bfede14
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: readr
+Version: 2.1.6
+Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
+Imports: cli (>= 3.2.0), clipr, crayon, hms (>= 0.4.1), lifecycle (>= 0.2.0), methods, R6, rlang, tibble, utils, vroom (>= 1.6.0)
+Suggests: covr, curl, datasets, knitr, rmarkdown, spelling, stringi, testthat (>= 3.2.0), tzdb (>= 0.1.1), waldo, withr, xml2
+License: MIT + file LICENSE
+File: readr_2.1.6_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/readr/releases/download/2.1.6/readr_2.1.6_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.2; aarch64-unknown-linux-gnu; 2025-11-15 23:20:53 UTC; unix
+Filesize: 3066067
+SHA256: 6adae8eacbbba98ff84bec8dba0cec5e7dc892aa1ccadfc3eeb761646b339614
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11, tzdb (>= 0.1.1)
