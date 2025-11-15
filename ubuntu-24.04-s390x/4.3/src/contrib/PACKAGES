@@ -698,25 +698,6 @@ Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: readr
-Version: 2.1.5
-Depends: R (>= 3.6), R (>= 4.3), R (< 4.3.99)
-Suggests: covr, curl, datasets, knitr, rmarkdown, spelling, stringi, testthat (>= 3.2.0), tzdb (>= 0.1.1), waldo, withr, xml2
-License: MIT + file LICENSE
-File: readr_2.1.5_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/readr/releases/download/2.1.5/readr_2.1.5_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-03-15 11:50:59 UTC; unix
-Filesize: 3206429
-SHA256: ef5b9842e7d01ff30108517d63f647be0ba1250649fb9be8aa45a1317db58b2e
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: cli (>= 3.2.0), clipr, crayon, hms (>= 0.4.1), lifecycle (>= 0.2.0), methods, R6, rlang, tibble, utils, vroom (>= 1.6.0)
-LinkingTo: cpp11, tzdb (>= 0.1.1)
-
 Package: readxl
 Version: 1.4.5
 Depends: R (>= 3.6), R (>= 4.3), R (< 4.3.99)
@@ -1714,24 +1695,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli (>= 3.0.0), gargle (>= 1.6.0), glue (>= 1.4.2), httr, jsonlite, lifecycle, magrittr, pillar (>= 1.9.0), purrr (>= 1.0.1), rlang (>= 1.0.2), tibble (>= 2.0.0), utils, uuid, vctrs (>=
         0.3.0), withr
 
-Package: S7
-Version: 0.2.0
-Depends: R (>= 3.5.0), R (>= 4.3), R (< 4.3.99)
-Suggests: bench, callr, covr, knitr, methods, rmarkdown, testthat (>= 3.2.0), tibble
-License: MIT + file LICENSE
-File: S7_0.2.0_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/S7/releases/download/0.2.0/S7_0.2.0_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-09-11 14:46:37 UTC; unix
-Filesize: 333269
-SHA256: b470cf32a6d932471f68ffbb7b5f3b2a324d593ecf35d6c17f60743466e9e0e5
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: utils
-
 Package: dtplyr
 Version: 1.3.2
 Depends: R (>= 4.0), R (>= 4.3), R (< 4.3.99)
@@ -2092,3 +2055,40 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli, grDevices, grid, gtable (>= 0.3.6), isoband, lifecycle (> 1.0.1), rlang (>= 1.1.0), S7, scales (>= 1.4.0), stats, vctrs (>= 0.6.0), withr (>= 2.5.0)
 Enhances: sp
+
+Package: readr
+Version: 2.1.6
+Depends: R (>= 3.6), R (>= 4.3), R (< 4.3.99)
+Suggests: covr, curl, datasets, knitr, rmarkdown, spelling, stringi, testthat (>= 3.2.0), tzdb (>= 0.1.1), waldo, withr, xml2
+License: MIT + file LICENSE
+File: readr_2.1.6_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/readr/releases/download/2.1.6/readr_2.1.6_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-11-15 14:37:00 UTC; unix
+Filesize: 3207990
+SHA256: 08693c4c163775fbe3a9cfbcf4ccfc223963bf1a43387f043fcd3fe67f902986
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli (>= 3.2.0), clipr, crayon, hms (>= 0.4.1), lifecycle (>= 0.2.0), methods, R6, rlang, tibble, utils, vroom (>= 1.6.0)
+LinkingTo: cpp11, tzdb (>= 0.1.1)
+
+Package: S7
+Version: 0.2.1
+Depends: R (>= 3.5.0), R (>= 4.3), R (< 4.3.99)
+Suggests: bench, callr, covr, knitr, methods, rmarkdown, testthat (>= 3.2.0), tibble
+License: MIT + file LICENSE
+File: S7_0.2.1_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/S7/releases/download/0.2.1/S7_0.2.1_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-11-15 14:36:48 UTC; unix
+Filesize: 334027
+SHA256: 0fb73dfe72bd30f1d14034ed92e50323642659d99a81d58d8c973acfd46e2e65
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: utils
