@@ -3379,22 +3379,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: future
-Version: 1.67.0
-Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
-Imports: digest, globals (>= 0.18.0), listenv (>= 0.8.0), parallel, parallelly (>= 1.44.0), utils
-Suggests: methods, RhpcBLASctl, R.rsp, markdown
-License: LGPL (>= 2.1)
-File: future_1.67.0_b5_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/future/releases/download/1.67.0/future_1.67.0_b5_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.1; ; 2025-07-29 18:53:39 UTC; unix
-Filesize: 966392
-SHA256: bae122eb3507932fb89c6a9fb8c767bbd78c7d515d25cadd19f9000eb2111619
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: pROC
 Version: 1.19.0.1
 Depends: R (>= 2.14), R (>= 4.5), R (< 4.5.99)
@@ -4415,25 +4399,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: xml2
-Version: 1.4.1
-Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-Imports: cli, methods, rlang (>= 1.1.0)
-Suggests: covr, curl, httr, knitr, mockery, rmarkdown, testthat (>= 3.2.0), xslt
-License: MIT + file LICENSE
-File: xml2_1.4.1_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/xml2/releases/download/1.4.1/xml2_1.4.1_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.2; aarch64-unknown-linux-gnu; 2025-10-27 18:45:11 UTC; unix
-Filesize: 649374
-SHA256: ddf0f0ca9040114da29b2bb10adadee43b0d411819511bcbc1076c13d36e27b3
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
-
 Package: igraph
 Version: 2.2.1
 Depends: methods, R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
@@ -4962,3 +4927,38 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
+
+Package: future
+Version: 1.68.0
+Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
+Imports: digest, globals (>= 0.18.0), listenv (>= 0.8.0), parallel, parallelly (>= 1.44.0), utils
+Suggests: methods, RhpcBLASctl, R.rsp, markdown
+License: LGPL (>= 2.1)
+File: future_1.68.0_b6_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/future/releases/download/1.68.0/future_1.68.0_b6_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.2; ; 2025-11-17 18:45:59 UTC; unix
+Filesize: 967734
+SHA256: 523f3e7a4fcd1f88ec9048f0e0170adbe3f9e694e074bcabeffb6e7f418e52e2
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: xml2
+Version: 1.5.0
+Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+Imports: cli, methods, rlang (>= 1.1.0)
+Suggests: covr, curl, httr, knitr, mockery, rmarkdown, testthat (>= 3.2.0), xslt
+License: MIT + file LICENSE
+File: xml2_1.5.0_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/xml2/releases/download/1.5.0/xml2_1.5.0_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.2; aarch64-unknown-linux-gnu; 2025-11-17 18:46:00 UTC; unix
+Filesize: 655273
+SHA256: c5df01eace3736f14e3180c1f5fc34c484b0b63162e288b46c0bcb72aac5d4b7
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
