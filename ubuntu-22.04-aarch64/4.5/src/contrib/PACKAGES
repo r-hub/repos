@@ -4278,25 +4278,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: freetype2, harfbuzz, fribidi
 LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
 
-Package: duckdb
-Version: 1.4.1
-Depends: DBI, R (>= 4.1.0), R (>= 4.5), R (< 4.5.99)
-Imports: methods, utils
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-License: MIT + file LICENSE
-File: duckdb_1.4.1_b8_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.4.1/duckdb_1.4.1_b8_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.1; aarch64-unknown-linux-gnu; 2025-10-16 18:46:10 UTC; unix
-Filesize: 292878862
-SHA256: d199cdb1c9cd0357bb68b9e438dc0bceedd15443d86198e9897b1cd9b4e8094b
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: xz (for building from source)
-
 Package: timeDate
 Version: 4051.111
 Depends: R (>= 3.6.0), methods, R (>= 4.5), R (< 4.5.99)
@@ -4962,3 +4943,22 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
+
+Package: duckdb
+Version: 1.4.2
+Depends: DBI, R (>= 4.1.0), R (>= 4.5), R (< 4.5.99)
+Imports: methods, utils
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+License: MIT + file LICENSE
+File: duckdb_1.4.2_b9_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.4.2/duckdb_1.4.2_b9_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.2; aarch64-unknown-linux-gnu; 2025-11-18 18:48:41 UTC; unix
+Filesize: 293996008
+SHA256: b226261482ac1e563bce7e33fa5e23b57c20e187ca905a98ac36aed81d877d7d
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: xz (for building from source)
