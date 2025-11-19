@@ -198,24 +198,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: fansi
-Version: 1.0.6
-Depends: R (>= 3.1.0), R (>= 4.6), R (< 4.6.99)
-Imports: grDevices, utils
-Suggests: unitizer, knitr, rmarkdown
-License: GPL-2 | GPL-3
-File: fansi_1.0.6_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/fansi/releases/download/1.0.6/fansi_1.0.6_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:31:06 UTC; unix
-Filesize: 432171
-SHA256: 7d290604b3bd5b0df48d2d42ec08e8813f5e9ec3ee66a5685cbd24fe55de365f
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: fastmap
 Version: 1.2.0
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -2677,22 +2659,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: tinytex
-Version: 0.57
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: xfun (>= 0.48)
-Suggests: testit, rstudioapi
-License: MIT + file LICENSE
-File: tinytex_0.57_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/tinytex/releases/download/0.57/tinytex_0.57_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.6.0; ; 2025-04-15 16:42:09 UTC; unix
-Filesize: 144139
-SHA256: 0a409e95e515f2866fa40c9fd57af0119582403840f4edd1d517c10740c53ecb
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: httpuv
 Version: 1.6.16
 Depends: R (>= 2.15.1), R (>= 4.6), R (< 4.6.99)
@@ -4668,24 +4634,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
 
-Package: digest
-Version: 0.6.38
-Depends: R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
-Imports: utils
-Suggests: tinytest, simplermarkdown, rbenchmark
-License: GPL (>= 2)
-File: digest_0.6.38_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/digest/releases/download/0.6.38/digest_0.6.38_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-11-12 16:45:50 UTC; unix
-Filesize: 501466
-SHA256: cd186d4cc0ea7e175ce62fbedb9f623ed7fbb50f471da668b148471ee14525ef
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: reshape2
 Version: 1.4.5
 Depends: R (>= 3.1), R (>= 4.6), R (< 4.6.99)
@@ -4925,3 +4873,55 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: xz (for building from source)
+
+Package: fansi
+Version: 1.0.7
+Depends: R (>= 3.1.0), R (>= 4.6), R (< 4.6.99)
+Imports: grDevices, utils
+Suggests: unitizer, knitr, rmarkdown
+License: GPL-2 | GPL-3
+File: fansi_1.0.7_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/fansi/releases/download/1.0.7/fansi_1.0.7_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-11-19 16:45:04 UTC; unix
+Filesize: 436528
+SHA256: ab2f10f1aa3febe341b26fdade3dc061e34fd63f4bda0157fbd403af8c74511e
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: tinytex
+Version: 0.58
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: xfun (>= 0.48)
+Suggests: testit, rstudioapi
+License: MIT + file LICENSE
+File: tinytex_0.58_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/tinytex/releases/download/0.58/tinytex_0.58_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.6.0; ; 2025-11-19 16:45:05 UTC; unix
+Filesize: 144291
+SHA256: e960397b83c2d1bac2833995469b7b5ed78c89963066c468a2b73ae7f8a8c517
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: digest
+Version: 0.6.39
+Depends: R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
+Imports: utils
+Suggests: tinytest, simplermarkdown, rbenchmark
+License: GPL (>= 2)
+File: digest_0.6.39_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/digest/releases/download/0.6.39/digest_0.6.39_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-11-19 16:45:04 UTC; unix
+Filesize: 501510
+SHA256: 38f40e064f1fd404a2f994c3a6134657c0402746a9d30fd346fa7cb96a2b709a
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
