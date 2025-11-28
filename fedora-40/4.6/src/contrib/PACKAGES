@@ -689,23 +689,6 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: yaml
-Version: 2.3.10
-Depends: R (>= 4.6), R (< 4.6.99)
-Suggests: RUnit
-License: BSD_3_clause + file LICENSE
-File: yaml_2.3.10_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/yaml/releases/download/2.3.10/yaml_2.3.10_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:35:14 UTC; unix
-Filesize: 295031
-SHA256: c29be11b882acf50cd6fead15e894b55e344b28d79110f91334d3f2db2103665
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: backports
 Version: 1.5.0
 Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
@@ -3910,26 +3893,6 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: vroom
-Version: 1.6.6
-Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
-Imports: bit64, cli (>= 3.2.0), crayon, glue, hms, lifecycle (>= 1.0.3), methods, rlang (>= 0.4.2), stats, tibble (>= 2.0.0), tidyselect, tzdb (>= 0.1.1), vctrs (>= 0.2.0), withr
-Suggests: archive, bench (>= 1.1.0), covr, curl, dplyr, forcats, fs, ggplot2, knitr, patchwork, prettyunits, purrr, rmarkdown, rstudioapi, scales, spelling, testthat (>= 2.1.0), tidyr, utils, waldo,
-        xml2
-License: MIT + file LICENSE
-File: vroom_1.6.6_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/vroom/releases/download/1.6.6/vroom_1.6.6_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-09-19 17:18:23 UTC; unix
-Filesize: 7037704
-SHA256: 780f8875dea68d232f4a951b972a86a9950ec18f5abadb6d937acb8ba01a6ae3
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cpp11 (>= 0.2.0), progress (>= 1.2.3), tzdb (>= 0.1.1)
-
 Package: QuickJSR
 Version: 1.8.1
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4467,26 +4430,6 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: terra
-Version: 1.8-80
-Depends: R (>= 3.5.0), methods, R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp (>= 1.0-10)
-Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
-License: GPL (>= 3)
-File: terra_1.8-80_b7_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/terra/releases/download/1.8-80/terra_1.8-80_b7_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-11-05 17:22:54 UTC; unix
-Filesize: 35592237
-SHA256: 9f3fe05945710b426900765c233e8229036759dbb15c95caed9b04c22f20151a
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
-LinkingTo: Rcpp
-
 Package: pkgdown
 Version: 2.2.0
 Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
@@ -4557,28 +4500,6 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libxml2 (>= 2.6.3)
-
-Package: sf
-Version: 1.0-22
-Depends: methods, R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
-Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
-Suggests: blob, nanoarrow, covr, dplyr (>= 1.0.0), ggplot2, knitr, lwgeom (>= 0.2-14), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>=
-        1.1.0), RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.6-0), terra, testthat (>= 3.0.0), tibble (>=
-        1.4.1), tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk (>= 0.9.0)
-License: GPL-2 | MIT + file LICENSE
-File: sf_1.0-22_b4_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/sf/releases/download/1.0-22/sf_1.0-22_b4_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-11-10 17:22:30 UTC; unix
-Filesize: 15564932
-SHA256: 1ef66bf296df5a3bf2bc24a756685b9291fc7b89ea188d2b7520f8783bdca28e
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
-LinkingTo: Rcpp
 
 Package: RSQLite
 Version: 2.4.4
@@ -4925,3 +4846,82 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: yaml
+Version: 2.3.11
+Depends: R (>= 4.6), R (< 4.6.99)
+Suggests: RUnit
+License: BSD_3_clause + file LICENSE
+File: yaml_2.3.11_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/yaml/releases/download/2.3.11/yaml_2.3.11_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-11-28 17:20:44 UTC; unix
+Filesize: 295828
+SHA256: a2c23bbd3b4b49614950e25e7c61913c54c6370653a5d1bc47b443594f6450ad
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: vroom
+Version: 1.6.7
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: bit64, cli (>= 3.2.0), crayon, glue, hms, lifecycle (>= 1.0.3), methods, rlang (>= 0.4.2), stats, tibble (>= 2.0.0), tidyselect, tzdb (>= 0.1.1), vctrs (>= 0.2.0), withr
+Suggests: archive, bench (>= 1.1.0), covr, curl, dplyr, forcats, fs, ggplot2, knitr, patchwork, prettyunits, purrr, rmarkdown, rstudioapi, scales, spelling, testthat (>= 2.1.0), tidyr, utils, waldo,
+        xml2
+License: MIT + file LICENSE
+File: vroom_1.6.7_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/vroom/releases/download/1.6.7/vroom_1.6.7_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-11-28 17:21:34 UTC; unix
+Filesize: 7221407
+SHA256: 704fac422bcb8b6eef537db18509232c9ba388587397934aadbf5ee1b09bcb29
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11 (>= 0.2.0), progress (>= 1.2.3), tzdb (>= 0.1.1)
+
+Package: terra
+Version: 1.8-86
+Depends: R (>= 3.5.0), methods, R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp (>= 1.0-10)
+Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
+License: GPL (>= 3)
+File: terra_1.8-86_b8_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/terra/releases/download/1.8-86/terra_1.8-86_b8_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-11-28 17:21:39 UTC; unix
+Filesize: 35642678
+SHA256: 2f021acf3836b9ce445e5f1f2659b4c09d908bc679ccd8fa2e2e01cdabcbde73
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
+LinkingTo: Rcpp
+
+Package: sf
+Version: 1.0-23
+Depends: methods, R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
+Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
+Suggests: blob, nanoarrow, covr, dplyr (>= 1.0.0), ggplot2, knitr, lwgeom (>= 0.2-14), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>=
+        1.1.0), RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.6-0), terra, testthat (>= 3.0.0), tibble (>=
+        1.4.1), tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk (>= 0.9.0)
+License: GPL-2 | MIT + file LICENSE
+File: sf_1.0-23_b5_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/sf/releases/download/1.0-23/sf_1.0-23_b5_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-11-28 17:21:42 UTC; unix
+Filesize: 15565667
+SHA256: 605b3836f00361ce78114a5bbc43309ac16d3de678bc886ba0c671ab95d039d1
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
+LinkingTo: Rcpp
