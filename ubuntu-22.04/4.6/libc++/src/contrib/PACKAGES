@@ -4193,25 +4193,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libxml2 (>= 2.6.3)
 
-Package: RSQLite
-Version: 2.4.4
-Depends: R (>= 3.1.0), R (>= 4.6), R (< 4.6.99)
-Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
-Suggests: callr, cli, DBItest (>= 1.8.0), decor, gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
-License: LGPL (>= 2.1)
-File: RSQLite_2.4.4_b7_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/RSQLite/releases/download/2.4.4/RSQLite_2.4.4_b7_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-11-10 17:01:01 UTC; unix
-Filesize: 1532074
-SHA256: f1f7980eeed71761c6e69463e6e1663f3ab18955307095dcfa2162cc1a437d74
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
-
 Package: reshape2
 Version: 1.4.5
 Depends: R (>= 3.1), R (>= 4.6), R (< 4.6.99)
@@ -4597,3 +4578,22 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
 LinkingTo: Rcpp
+
+Package: RSQLite
+Version: 2.4.5
+Depends: R (>= 3.1.0), R (>= 4.6), R (< 4.6.99)
+Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
+Suggests: callr, cli, DBItest (>= 1.8.0), decor, gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
+License: LGPL (>= 2.1)
+File: RSQLite_2.4.5_b8_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/RSQLite/releases/download/2.4.5/RSQLite_2.4.5_b8_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-11-30 16:59:37 UTC; unix
+Filesize: 1532302
+SHA256: 3cb885673cced73d33cd4e37793f8fcd5e8f43de4daf7d79d1feeabf41a28b27
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
