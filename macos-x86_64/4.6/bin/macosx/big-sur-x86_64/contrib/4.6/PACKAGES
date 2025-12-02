@@ -2428,25 +2428,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: lme4
-Version: 1.1-37
-Depends: R (>= 3.6.0), Matrix, methods, stats, R (>= 4.6), R (< 4.6.99)
-Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4), reformulas (>= 0.3.0)
-Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
-License: GPL (>= 2)
-File: lme4_1.1-37_b2_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/lme4/releases/download/1.1-37/lme4_1.1-37_b2_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2025-03-26 17:38:15 UTC; unix
-Filesize: 4293738
-SHA256: 43ff59fe426fb60e18034f9cf0017a818356ddb3f95d8702b314a595cd23f6f9
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix (>= 1.2-3)
-
 Package: jsonlite
 Version: 2.0.0
 Depends: methods, R (>= 4.6), R (< 4.6.99)
@@ -3067,22 +3048,6 @@ DownloadURL: https://github.com/cran/infer/releases/download/1.0.9/infer_1.0.9_b
 Built: R 4.6.0; ; 2025-06-27 17:39:36 UTC; unix
 Filesize: 2120988
 SHA256: 7cb2e1fe2ba3a37fa7ee2122124312561c9f61e01c001431d4e8e9b6b31f8746
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: doBy
-Version: 4.7.0
-Depends: R (>= 4.2.0), methods, R (>= 4.6), R (< 4.6.99)
-Imports: boot, broom, cowplot, Deriv, dplyr, ggplot2, MASS, Matrix, modelr, microbenchmark, rlang, tibble, tidyr,
-Suggests: geepack, knitr, lme4, markdown, multcomp, pbkrtest (>= 0.5.2), survival, testthat (>= 2.1.0)
-License: GPL (>= 2)
-File: doBy_4.7.0_b4_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/doBy/releases/download/4.7.0/doBy_4.7.0_b4_R4.6_x86_64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-06-30 17:40:09 UTC; unix
-Filesize: 4910219
-SHA256: 314a7ccaf7355a3136f789feeb5b175f1d87415df1688f069430c9ea71f5a90e
 RVersion: 4.6
 Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 17
@@ -4924,3 +4889,180 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
+
+Package: TTR
+Version: 0.24.4
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: xts (>= 0.10-0), zoo, curl
+Suggests: RUnit
+License: GPL (>= 2)
+File: TTR_0.24.4_b1_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/TTR/releases/download/0.24.4/TTR_0.24.4_b1_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-08-18 05:25:41 UTC; unix
+Filesize: 555099
+SHA256: 8cb3d2820add433a717e197a7bd8c6d699c04b93923b475225a3a09115a9948a
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: quantmod
+LinkingTo: xts
+
+Package: forecast
+Version: 8.24.0
+Depends: R (>= 3.5.0),, R (>= 4.6), R (< 4.6.99)
+Imports: colorspace, fracdiff, generics (>= 0.1.2), ggplot2 (>= 2.2.1), graphics, lmtest, magrittr, nnet, parallel, Rcpp (>= 0.11.0), stats, timeDate, tseries, urca, withr, zoo
+Suggests: forecTheta, knitr, methods, rmarkdown, rticles, scales, seasonal, testthat (>= 3.0.0), uroot
+License: GPL-3
+File: forecast_8.24.0_b1_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/forecast/releases/download/8.24.0/forecast_8.24.0_b1_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-08-18 10:03:19 UTC; unix
+Filesize: 2523211
+SHA256: e3863bf332f24647b29193f45b3d704b65c863551a94220595c229305f714525
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp (>= 0.11.0), RcppArmadillo (>= 0.2.35)
+
+Package: fracdiff
+Version: 1.5-3
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: stats
+Suggests: longmemo, forecast, urca
+License: GPL (>= 2)
+File: fracdiff_1.5-3_b1_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/fracdiff/releases/download/1.5-3/fracdiff_1.5-3_b1_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-08-18 01:53:53 UTC; unix
+Filesize: 141663
+SHA256: e960d4f8bafa223a6a66423887db997cede476aaa14cbb0907086edb9c6bc757
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: lmtest
+Version: 0.9-40
+Depends: R (>= 3.0.0), stats, zoo, R (>= 4.6), R (< 4.6.99)
+Imports: graphics
+Suggests: car, strucchange, sandwich, dynlm, stats4, survival, AER
+License: GPL-2 | GPL-3
+File: lmtest_0.9-40_b1_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/lmtest/releases/download/0.9-40/lmtest_0.9-40_b1_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-08-18 01:54:00 UTC; unix
+Filesize: 410024
+SHA256: 240b26755943da8891478e07f91805491b417fe13090bc3672f9a2301ca4fea0
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: quadprog
+Version: 1.5-8
+Depends: R (>= 3.1.0), R (>= 4.6), R (< 4.6.99)
+License: GPL (>= 2)
+File: quadprog_1.5-8_b1_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/quadprog/releases/download/1.5-8/quadprog_1.5-8_b1_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-08-18 01:51:52 UTC; unix
+Filesize: 43334
+SHA256: be65c98548f8c5743861deac4331cbc63a86dacb3e45f4cba01bde00bd735f0c
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: quantmod
+Version: 0.4.28
+Depends: R (>= 3.2.0), xts(>= 0.9-0), zoo, TTR(>= 0.2), methods, R (>= 4.6), R (< 4.6.99)
+Imports: curl, jsonlite(>= 1.1)
+Suggests: DBI, RMySQL, RSQLite, timeSeries, xml2, downloader, tinytest
+License: GPL-3
+File: quantmod_0.4.28_b1_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/quantmod/releases/download/0.4.28/quantmod_0.4.28_b1_R4.6_x86_64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-08-18 06:55:05 UTC; unix
+Filesize: 1066539
+SHA256: edc6b10d9776a0dd1ceec7c5ea5edbba549f0611bdce1471e4b57d059986beff
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: tseries
+Version: 0.10-58
+Depends: R (>= 3.4.0), R (>= 4.6), R (< 4.6.99)
+Imports: graphics, stats, utils, quadprog, zoo, quantmod (>= 0.4-9), jsonlite
+License: GPL-2 | GPL-3
+File: tseries_0.10-58_b1_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/tseries/releases/download/0.10-58/tseries_0.10-58_b1_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-08-18 08:06:48 UTC; unix
+Filesize: 429234
+SHA256: c448d0cbb3ca5b8892abe525aaa07331c2c8d79649f7b9c7378d8d5ad55c2f28
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: urca
+Version: 1.3-4
+Depends: R (>= 2.0.0), methods, R (>= 4.6), R (< 4.6.99)
+Imports: nlme, graphics, stats
+License: GPL (>= 2)
+File: urca_1.3-4_b1_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/urca/releases/download/1.3-4/urca_1.3-4_b1_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-08-18 05:26:03 UTC; unix
+Filesize: 1071617
+SHA256: c67080ea78453c3360ad55f246770ea04b1c67339f835eac52c2f25abb06f396
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: lme4
+Version: 1.1-38
+Depends: R (>= 3.6.0), Matrix, methods, stats, R (>= 4.6), R (< 4.6.99)
+Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4), reformulas (>= 0.3.0), rlang, Rdpack
+Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
+License: GPL (>= 2)
+File: lme4_1.1-38_b3_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/lme4/releases/download/1.1-38/lme4_1.1-38_b3_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-12-02 17:46:16 UTC; unix
+Filesize: 4355847
+SHA256: 9d11bf64003ebb66a1e85ca6e96a7d0f9ada7b386a86cfd383510267060b7406
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: DHARMa, performance
+LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix (>= 1.5-0)
+
+Package: doBy
+Version: 4.7.1
+Depends: R (>= 4.2.0), methods, R (>= 4.6), R (< 4.6.99)
+Imports: boot, broom, cowplot, Deriv, dplyr, forecast, ggplot2, MASS, Matrix, modelr, microbenchmark, rlang, purrr, tibble, tidyr,
+Suggests: geepack, knitr, lme4, markdown, rmarkdown, multcomp, pbkrtest (>= 0.5.2), survival, testthat (>= 2.1.0)
+License: GPL (>= 2)
+File: doBy_4.7.1_b5_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/doBy/releases/download/4.7.1/doBy_4.7.1_b5_R4.6_x86_64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-12-02 11:00:05 UTC; unix
+Filesize: 4813692
+SHA256: e90df515524089b9ebc1be6cc56e2976bb303316c6c013f847cfb4800c697291
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
