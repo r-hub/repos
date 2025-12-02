@@ -2428,25 +2428,6 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: lme4
-Version: 1.1-37
-Depends: R (>= 3.6.0), Matrix, methods, stats, R (>= 4.6), R (< 4.6.99)
-Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4), reformulas (>= 0.3.0)
-Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
-License: GPL (>= 2)
-File: lme4_1.1-37_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/lme4/releases/download/1.1-37/lme4_1.1-37_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-26 17:19:50 UTC; unix
-Filesize: 9280601
-SHA256: 6c2005f4ed5851edb8d8787ab77ff821528f936486a2a8e2547e373fc122bbec
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix (>= 1.2-3)
-
 Package: jsonlite
 Version: 2.0.0
 Depends: methods, R (>= 4.6), R (< 4.6.99)
@@ -3067,22 +3048,6 @@ DownloadURL: https://github.com/cran/infer/releases/download/1.0.9/infer_1.0.9_b
 Built: R 4.6.0; ; 2025-06-27 17:20:46 UTC; unix
 Filesize: 2162962
 SHA256: 909496c7dcfe3e4e96cb170d3c14206c87370b3b829a26e7cee1e82bddbb02a6
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: doBy
-Version: 4.7.0
-Depends: R (>= 4.2.0), methods, R (>= 4.6), R (< 4.6.99)
-Imports: boot, broom, cowplot, Deriv, dplyr, ggplot2, MASS, Matrix, modelr, microbenchmark, rlang, tibble, tidyr,
-Suggests: geepack, knitr, lme4, markdown, multcomp, pbkrtest (>= 0.5.2), survival, testthat (>= 2.1.0)
-License: GPL (>= 2)
-File: doBy_4.7.0_b4_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/doBy/releases/download/4.7.0/doBy_4.7.0_b4_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-Built: R 4.6.0; ; 2025-06-30 17:20:30 UTC; unix
-Filesize: 4936751
-SHA256: a44ba70588253ad9c0b01fdfa8081c376d3ee89080302950b94ae69d0dab8b31
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 17
@@ -4925,3 +4890,180 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
+
+Package: forecast
+Version: 8.24.0
+Depends: R (>= 3.5.0),, R (>= 4.6), R (< 4.6.99)
+Imports: colorspace, fracdiff, generics (>= 0.1.2), ggplot2 (>= 2.2.1), graphics, lmtest, magrittr, nnet, parallel, Rcpp (>= 0.11.0), stats, timeDate, tseries, urca, withr, zoo
+Suggests: forecTheta, knitr, methods, rmarkdown, rticles, scales, seasonal, testthat (>= 3.0.0), uroot
+License: GPL-3
+File: forecast_8.24.0_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/forecast/releases/download/8.24.0/forecast_8.24.0_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-12-02 17:27:20 UTC; unix
+Filesize: 3863873
+SHA256: 30eaccec9878f3aac7e026b0906969d8a977da082c59ac6830ec77b6e0b6ed2e
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp (>= 0.11.0), RcppArmadillo (>= 0.2.35)
+
+Package: fracdiff
+Version: 1.5-3
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: stats
+Suggests: longmemo, forecast, urca
+License: GPL (>= 2)
+File: fracdiff_1.5-3_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/fracdiff/releases/download/1.5-3/fracdiff_1.5-3_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-12-02 17:26:50 UTC; unix
+Filesize: 146827
+SHA256: 56ae7b668ef09610e6e57087e1ebe4f0665f1a8ce21dd5a2592601f76ebcd374
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: lmtest
+Version: 0.9-40
+Depends: R (>= 3.0.0), stats, zoo, R (>= 4.6), R (< 4.6.99)
+Imports: graphics
+Suggests: car, strucchange, sandwich, dynlm, stats4, survival, AER
+License: GPL-2 | GPL-3
+File: lmtest_0.9-40_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/lmtest/releases/download/0.9-40/lmtest_0.9-40_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-12-02 17:26:56 UTC; unix
+Filesize: 429518
+SHA256: 5264609000a87dc34c8beeff5c389ad41bc1beffeb7fa2ea7088153812733cc0
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: quadprog
+Version: 1.5-8
+Depends: R (>= 3.1.0), R (>= 4.6), R (< 4.6.99)
+License: GPL (>= 2)
+File: quadprog_1.5-8_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/quadprog/releases/download/1.5-8/quadprog_1.5-8_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-12-02 17:26:50 UTC; unix
+Filesize: 45544
+SHA256: 90b809b428afa7a419fd2e2fe7c86f6cf04b774912cbe21a8e96b8401980b472
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: quantmod
+Version: 0.4.28
+Depends: R (>= 3.2.0), xts(>= 0.9-0), zoo, TTR(>= 0.2), methods, R (>= 4.6), R (< 4.6.99)
+Imports: curl, jsonlite(>= 1.1)
+Suggests: DBI, RMySQL, RSQLite, timeSeries, xml2, downloader, tinytest
+License: GPL-3
+File: quantmod_0.4.28_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/quantmod/releases/download/0.4.28/quantmod_0.4.28_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.6.0; ; 2025-12-02 17:27:06 UTC; unix
+Filesize: 1084472
+SHA256: c93db8cd8b23765ea92821c0841397cc6b2e8f7323c7815c970e2fef2b63fa2a
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: tseries
+Version: 0.10-58
+Depends: R (>= 3.4.0), R (>= 4.6), R (< 4.6.99)
+Imports: graphics, stats, utils, quadprog, zoo, quantmod (>= 0.4-9), jsonlite
+License: GPL-2 | GPL-3
+File: tseries_0.10-58_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/tseries/releases/download/0.10-58/tseries_0.10-58_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-12-02 17:27:14 UTC; unix
+Filesize: 442590
+SHA256: 0472b2b5579b8479293969598e3e7505e38b0ecd97545223df61c80c26594961
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: TTR
+Version: 0.24.4
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: xts (>= 0.10-0), zoo, curl
+Suggests: RUnit
+License: GPL (>= 2)
+File: TTR_0.24.4_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/TTR/releases/download/0.24.4/TTR_0.24.4_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-12-02 17:26:59 UTC; unix
+Filesize: 576625
+SHA256: 80208e47a9cd6a0278427de3d3b63ac93cbe06c41250514fe1c686614a0469eb
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: quantmod
+LinkingTo: xts
+
+Package: urca
+Version: 1.3-4
+Depends: R (>= 2.0.0), methods, R (>= 4.6), R (< 4.6.99)
+Imports: nlme, graphics, stats
+License: GPL (>= 2)
+File: urca_1.3-4_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/urca/releases/download/1.3-4/urca_1.3-4_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-12-02 17:26:50 UTC; unix
+Filesize: 1104957
+SHA256: 52600f320f58db0f9042b3d029088619d281844b261fe0bd4ec93ae740541534
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: lme4
+Version: 1.1-38
+Depends: R (>= 3.6.0), Matrix, methods, stats, R (>= 4.6), R (< 4.6.99)
+Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4), reformulas (>= 0.3.0), rlang, Rdpack
+Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3, numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble, merDeriv
+License: GPL (>= 2)
+File: lme4_1.1-38_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/lme4/releases/download/1.1-38/lme4_1.1-38_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-12-02 17:26:54 UTC; unix
+Filesize: 9352050
+SHA256: cb4ac8ab15aa43445205f845f8707bdce43a7a3e34fc565739df6f48fb93a620
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: DHARMa, performance
+LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix (>= 1.5-0)
+
+Package: doBy
+Version: 4.7.1
+Depends: R (>= 4.2.0), methods, R (>= 4.6), R (< 4.6.99)
+Imports: boot, broom, cowplot, Deriv, dplyr, forecast, ggplot2, MASS, Matrix, modelr, microbenchmark, rlang, purrr, tibble, tidyr,
+Suggests: geepack, knitr, lme4, markdown, rmarkdown, multcomp, pbkrtest (>= 0.5.2), survival, testthat (>= 2.1.0)
+License: GPL (>= 2)
+File: doBy_4.7.1_b5_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/doBy/releases/download/4.7.1/doBy_4.7.1_b5_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.6.0; ; 2025-12-02 17:28:07 UTC; unix
+Filesize: 4850128
+SHA256: 7a11083dddc22c22aca51b423bc9a626fb626ee9028f3725fb31d68677848271
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
