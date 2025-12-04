@@ -281,25 +281,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: htmltools
-Version: 0.5.8.1
-Depends: R (>= 2.14.1), R (>= 4.6), R (< 4.6.99)
-Imports: base64enc, digest, fastmap (>= 1.1.0), grDevices, rlang (>= 1.0.0), utils
-Suggests: Cairo, markdown, ragg, shiny, testthat, withr
-License: GPL (>= 2)
-File: htmltools_0.5.8.1_b1_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/htmltools/releases/download/0.5.8.1/htmltools_0.5.8.1_b1_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2025-03-16 19:13:05 UTC; unix
-Filesize: 357915
-SHA256: 0f11804af345e2a3ea11605b79cb7c9e14920a7f427d53653b510fb19645e8d1
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: knitr
-
 Package: htmlwidgets
 Version: 1.6.4
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -3784,26 +3765,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: broom
-Version: 1.0.10
-Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
-Imports: backports, cli, dplyr (>= 1.0.0), generics (>= 0.0.2), glue, lifecycle, purrr, rlang (>= 1.1.0), stringr, tibble (>= 3.0.0), tidyr (>= 1.0.0)
-Suggests: AER, AUC, bbmle, betareg (>= 3.2-1), biglm, binGroup, boot, btergm (>= 1.10.6), car (>= 3.1-2), carData, caret, cluster, cmprsk, coda, covr, drc, e1071, emmeans, epiR (>= 2.0.85), ergm (>=
-        3.10.4), fixest (>= 0.9.0), gam (>= 1.15), gee, geepack, ggplot2, glmnet, glmnetUtils, gmm, Hmisc, interp, irlba, joineRML, Kendall, knitr, ks, Lahman, lavaan (>= 0.6.18), leaps, lfe,
-        lm.beta, lme4, lmodel2, lmtest (>= 0.9.38), lsmeans, maps, margins, MASS, mclust, mediation, metafor, mfx, mgcv, mlogit, modeldata, modeltests (>= 0.1.6), muhaz, multcomp, network, nnet,
-        ordinal, plm, poLCA, psych, quantreg, rmarkdown, robust, robustbase, rsample, sandwich, spatialreg, spdep (>= 1.1), speedglm, spelling, stats4, survey, survival (>= 3.6-4), systemfit,
-        testthat (>= 3.0.0), tseries, vars, zoo
-License: MIT + file LICENSE
-File: broom_1.0.10_b4_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/broom/releases/download/1.0.10/broom_1.0.10_b4_R4.6_x86_64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-09-13 07:45:06 UTC; unix
-Filesize: 1926961
-SHA256: 7d18deb8466ea84b62758cb13be7db0aa5c492ba94320319d2f468528a13f082
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: pillar
 Version: 1.11.1
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -5062,6 +5023,45 @@ DownloadURL: https://github.com/cran/shiny/releases/download/1.12.0/shiny_1.12.0
 Built: R 4.6.0; ; 2025-12-03 09:56:07 UTC; unix
 Filesize: 4477702
 SHA256: cf2b32edf7be6a82895de019ff6cf805986331a7b0e5726f264d690808a0bae7
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: htmltools
+Version: 0.5.9
+Depends: R (>= 2.14.1), R (>= 4.6), R (< 4.6.99)
+Imports: base64enc, digest, fastmap (>= 1.1.0), grDevices, rlang (>= 1.0.0), utils
+Suggests: Cairo, markdown, ragg, shiny, testthat, withr
+License: GPL (>= 2)
+File: htmltools_0.5.9_b2_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/htmltools/releases/download/0.5.9/htmltools_0.5.9_b2_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-12-04 14:03:29 UTC; unix
+Filesize: 361082
+SHA256: ddaf6ae201007903a10d3ddb64165483f5c175247d1f40801855bd62402a4a7c
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: knitr
+
+Package: broom
+Version: 1.0.11
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: backports, cli, dplyr (>= 1.0.0), generics (>= 0.0.2), glue, lifecycle, purrr, rlang (>= 1.1.0), stringr, tibble (>= 3.0.0), tidyr (>= 1.0.0)
+Suggests: AER, AUC, bbmle, betareg (>= 3.2-1), biglm, binGroup, boot, btergm (>= 1.10.6), car (>= 3.1-2), carData, caret, cluster, cmprsk, coda, covr, drc, e1071, emmeans, epiR (>= 2.0.85), ergm (>=
+        3.10.4), fixest (>= 0.9.0), gam (>= 1.15), gee, geepack, ggplot2, glmnet, glmnetUtils, gmm, Hmisc, interp, irlba, joineRML, Kendall, knitr, ks, Lahman, lavaan (>= 0.6.18), leaps, lfe,
+        lm.beta, lme4, lmodel2, lmtest (>= 0.9.38), lsmeans, maps, margins, MASS, mclust, mediation, metafor, mfx, mgcv, mlogit, modeldata, modeltests (>= 0.1.6), muhaz, multcomp, network, nnet,
+        ordinal, plm, poLCA, psych, quantreg, rmarkdown, robust, robustbase, rsample, sandwich, spatialreg, spdep (>= 1.1), speedglm, spelling, stats4, survey, survival (>= 3.6-4), systemfit,
+        testthat (>= 3.0.0), tseries, vars, zoo
+License: MIT + file LICENSE
+File: broom_1.0.11_b5_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/broom/releases/download/1.0.11/broom_1.0.11_b5_R4.6_x86_64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-12-04 14:20:03 UTC; unix
+Filesize: 1782794
+SHA256: c1b989ac6896cc215809767ca03db228e5652c3ee2a4c3583cc405e5a301981a
 RVersion: 4.6
 Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 17
