@@ -3969,24 +3969,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: bookdown
-Version: 0.45
-Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.48), tinytex (>= 0.12), yaml (>= 2.1.19)
-Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, curl, rstudioapi, miniUI, rsconnect (>= 0.4.3), servr (>= 0.13), shiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat
-        (>= 3.1.0), withr (>= 2.3.0)
-License: GPL-3
-File: bookdown_0.45_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/bookdown/releases/download/0.45/bookdown_0.45_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.5.1; ; 2025-10-03 23:19:02 UTC; unix
-Filesize: 1092629
-SHA256: 3ee08f8b79606dbacd1447faa4412d95f8079225c7b5c19fffa5a94e04742bbf
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: Pandoc (>= 1.17.2)
-
 Package: Hmisc
 Version: 5.2-4
 Depends: R (>= 4.2.0), R (>= 4.5), R (< 4.5.99)
@@ -5104,3 +5086,21 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: bookdown
+Version: 0.46
+Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.48), tinytex (>= 0.12), yaml (>= 2.1.19)
+Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, curl, rstudioapi, miniUI, rsconnect (>= 1.6.0), servr (>= 0.13), shiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat
+        (>= 3.1.0), withr (>= 2.3.0)
+License: GPL-3
+File: bookdown_0.46_b5_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/bookdown/releases/download/0.46/bookdown_0.46_b5_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.5.2; ; 2025-12-05 23:22:29 UTC; unix
+Filesize: 1092516
+SHA256: 505acf798cf7c308025bfb62a039ae2e4792a98f89221d9cbb9a754b77d28bc1
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: Pandoc (>= 1.17.2)
