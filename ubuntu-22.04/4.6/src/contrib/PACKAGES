@@ -854,25 +854,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: isoband
-Version: 0.2.7
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: grid, utils
-Suggests: covr, ggplot2, knitr, magick, microbenchmark, rmarkdown, sf, testthat, xml2
-License: MIT + file LICENSE
-File: isoband_0.2.7_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/isoband/releases/download/0.2.7/isoband_0.2.7_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:32:14 UTC; unix
-Filesize: 1928394
-SHA256: 127eef2b763d503dac8ba9c62dc146b0a6b827a7242712c706f6b5a35c30a3ad
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++11
-
 Package: iterators
 Version: 1.0.14
 Depends: R (>= 2.5.0), utils, R (>= 4.6), R (< 4.6.99)
@@ -5067,3 +5048,22 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Pandoc (>= 1.17.2)
+
+Package: isoband
+Version: 0.3.0
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: cli, grid, rlang, utils
+Suggests: covr, ggplot2, knitr, magick, bench, rmarkdown, sf, testthat (>= 3.0.0), xml2
+License: MIT + file LICENSE
+File: isoband_0.3.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/isoband/releases/download/0.3.0/isoband_0.3.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-12-07 16:39:15 UTC; unix
+Filesize: 2199277
+SHA256: 5e6c1519f65dcc4acb055b348d0ebfcd05cba47c16de4a66bba0f5c6b099ee3a
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11
