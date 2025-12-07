@@ -448,25 +448,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: openssl, uuid
 
-Package: isoband
-Version: 0.2.7
-Depends: R (>= 4.3), R (< 4.3.99)
-Suggests: covr, ggplot2, knitr, magick, microbenchmark, rmarkdown, sf, testthat, xml2
-License: MIT + file LICENSE
-File: isoband_0.2.7_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/isoband/releases/download/0.2.7/isoband_0.2.7_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-03-15 10:45:47 UTC; unix
-Filesize: 1922028
-SHA256: b40e5d12d358ea6fa7dbfd7607d5a70e2e6e56ef2abd72be5119c6623168d184
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: grid, utils
-SystemRequirements: C++11
-
 Package: jquerylib
 Version: 0.1.4
 Depends: R (>= 4.3), R (< 4.3.99)
@@ -2092,3 +2073,22 @@ Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: backports, cli, dplyr (>= 1.0.0), generics (>= 0.0.2), glue, lifecycle, purrr, rlang (>= 1.1.0), stringr, tibble (>= 3.0.0), tidyr (>= 1.0.0)
+
+Package: isoband
+Version: 0.3.0
+Depends: R (>= 4.3), R (< 4.3.99)
+Suggests: covr, ggplot2, knitr, magick, bench, rmarkdown, sf, testthat (>= 3.0.0), xml2
+License: MIT + file LICENSE
+File: isoband_0.3.0_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/isoband/releases/download/0.3.0/isoband_0.3.0_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-12-07 14:38:52 UTC; unix
+Filesize: 2195227
+SHA256: ec03da1195b7d72ac4453979ebeb94012aa2cd091925fe4d9c84cb0d658fba42
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli, grid, rlang, utils
+LinkingTo: cpp11
