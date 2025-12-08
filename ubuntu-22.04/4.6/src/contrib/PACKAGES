@@ -3152,22 +3152,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: httr2
-Version: 1.2.1
-Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
-Imports: cli (>= 3.0.0), curl (>= 6.4.0), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
-Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later (>= 1.4.0), nanonext, paws.common, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes (>= 1.4.0), xml2
-License: MIT + file LICENSE
-File: httr2_1.2.1_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/httr2/releases/download/1.2.1/httr2_1.2.1_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.6.0; ; 2025-07-22 16:47:36 UTC; unix
-Filesize: 783561
-SHA256: 2126bb305208220529ae5a562fd6804a019d5e06ee13098baeb2b215288ace21
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: parallelly
 Version: 1.45.1
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -5067,3 +5051,20 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11
+
+Package: httr2
+Version: 1.2.2
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: cli (>= 3.0.0), curl (>= 6.4.0), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
+Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later (>= 1.4.0), nanonext, otel (>= 0.2.0), otelsdk (>= 0.2.0), paws.common (>= 0.8.0), promises, rmarkdown, testthat
+        (>= 3.1.8), tibble, webfakes (>= 1.4.0), xml2
+License: MIT + file LICENSE
+File: httr2_1.2.2_b5_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/httr2/releases/download/1.2.2/httr2_1.2.2_b5_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.6.0; ; 2025-12-08 16:46:58 UTC; unix
+Filesize: 792052
+SHA256: 1b1407780d17dfc033cb573d2f7cc2096e9e2b2639dc83813e859c26e3475051
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
