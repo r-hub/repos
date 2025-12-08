@@ -3171,22 +3171,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: httr2
-Version: 1.2.1
-Depends: R (>= 4.1), R (>= 4.5), R (< 4.5.99)
-Imports: cli (>= 3.0.0), curl (>= 6.4.0), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
-Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later (>= 1.4.0), nanonext, paws.common, promises, rmarkdown, testthat (>= 3.1.8), tibble, webfakes (>= 1.4.0), xml2
-License: MIT + file LICENSE
-File: httr2_1.2.1_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/httr2/releases/download/1.2.1/httr2_1.2.1_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.5.1; ; 2025-07-22 23:23:40 UTC; unix
-Filesize: 779179
-SHA256: 2de68d1996028b2711d7e6824b477a7a6e5decc871853f215ca002035f9127b9
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: parallelly
 Version: 1.45.1
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -5104,3 +5088,20 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11
+
+Package: httr2
+Version: 1.2.2
+Depends: R (>= 4.1), R (>= 4.5), R (< 4.5.99)
+Imports: cli (>= 3.0.0), curl (>= 6.4.0), glue, lifecycle, magrittr, openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3), withr
+Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, later (>= 1.4.0), nanonext, otel (>= 0.2.0), otelsdk (>= 0.2.0), paws.common (>= 0.8.0), promises, rmarkdown, testthat
+        (>= 3.1.8), tibble, webfakes (>= 1.4.0), xml2
+License: MIT + file LICENSE
+File: httr2_1.2.2_b5_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/httr2/releases/download/1.2.2/httr2_1.2.2_b5_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.5.2; ; 2025-12-08 23:23:41 UTC; unix
+Filesize: 788311
+SHA256: f824f0bf76d92dbadf8ee9b7813f5fc49995123db171db9a6b1e483c5f3bb3bf
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
