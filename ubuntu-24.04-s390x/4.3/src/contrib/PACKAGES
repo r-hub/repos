@@ -1784,24 +1784,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli, lifecycle, methods, pkgconfig, rlang (>= 1.0.2), vctrs (>= 0.3.8)
 
-Package: xfun
-Version: 0.54
-Depends: R (>= 3.2.0), R (>= 4.3), R (< 4.3.99)
-Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.6), commonmark, knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, data.table, qs
-License: MIT + file LICENSE
-File: xfun_0.54_b4_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/xfun/releases/download/0.54/xfun_0.54_b4_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-10-31 14:42:01 UTC; unix
-Filesize: 580009
-SHA256: 99075c7c1426adf158c68256c31ecb4dd99314d2ca11cc180f66e63fc7cf3cde
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: grDevices, stats, tools
-
 Package: purrr
 Version: 1.2.0
 Depends: R (>= 4.1), R (>= 4.3), R (< 4.3.99)
@@ -2092,3 +2074,22 @@ RVersion: 4.3
 Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: xfun
+Version: 0.55
+Depends: R (>= 3.2.0), R (>= 4.3), R (< 4.3.99)
+Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.6), commonmark, knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, data.table, qs2,
+        qs
+License: MIT + file LICENSE
+File: xfun_0.55_b5_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/xfun/releases/download/0.55/xfun_0.55_b5_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-12-16 14:48:06 UTC; unix
+Filesize: 589346
+SHA256: 823c0aa21872a50e7fbcd5e8523563a3f04418b10b8834c676b2f5d7b84261c9
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: grDevices, stats, tools
