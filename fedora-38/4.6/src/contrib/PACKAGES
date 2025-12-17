@@ -3942,22 +3942,6 @@ Enhances: graph
 SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
 LinkingTo: cpp11 (>= 0.5.0)
 
-Package: reformulas
-Version: 0.4.2
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: stats, methods, Matrix, Rdpack
-Suggests: lme4, tinytest, glmmTMB
-License: GPL-3
-File: reformulas_0.4.2_b3_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/reformulas/releases/download/0.4.2/reformulas_0.4.2_b3_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.6.0; ; 2025-10-28 17:18:32 UTC; unix
-Filesize: 146944
-SHA256: d3156a8b1db3fac5c2b9a91c3e2704c8d874e211352f18a91fa159ceb0b849c8
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: arrow
 Version: 22.0.0
 Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
@@ -4383,41 +4367,6 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: selectr
-Version: 0.5-0
-Depends: R (>= 3.0), R (>= 4.6), R (< 4.6.99)
-Imports: methods, stringr, R6
-Suggests: testthat, XML, xml2
-License: BSD_3_clause + file LICENCE
-File: selectr_0.5-0_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/selectr/releases/download/0.5-0/selectr_0.5-0_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.6.0; ; 2025-11-21 17:17:36 UTC; unix
-Filesize: 608125
-SHA256: a2d04d623ed3c6d510157cf4ee958993ab166c0ac832c714959f9bf7fd796cc4
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: RcppArmadillo
-Version: 15.2.2-1
-Depends: R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp (>= 1.0.12), stats, utils, methods
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-License: GPL (>= 2)
-File: RcppArmadillo_15.2.2-1_b11_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/15.2.2-1/RcppArmadillo_15.2.2-1_b11_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-11-22 17:16:08 UTC; unix
-Filesize: 2587955
-SHA256: abd5104b0d5da41bb34b4d9a73b965f2d307d37ef51cbf03f1eac0d674e3a03a
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
 
 Package: testthat
 Version: 3.3.1
@@ -5069,3 +5018,54 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: reformulas
+Version: 0.4.3
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: stats, methods, Matrix, Rdpack
+Suggests: lme4, tinytest, glmmTMB
+License: GPL-3
+File: reformulas_0.4.3_b4_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/reformulas/releases/download/0.4.3/reformulas_0.4.3_b4_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.6.0; ; 2025-12-17 17:23:19 UTC; unix
+Filesize: 163756
+SHA256: 77213655977821ef4b71df726a143e8fa790c5a5bf8466a9108216d7b00548f5
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: selectr
+Version: 0.5-1
+Depends: R (>= 3.0), R (>= 4.6), R (< 4.6.99)
+Imports: methods, stringr, R6
+Suggests: testthat, XML, xml2
+License: BSD_3_clause + file LICENCE
+File: selectr_0.5-1_b3_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/selectr/releases/download/0.5-1/selectr_0.5-1_b3_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.6.0; ; 2025-12-17 17:23:19 UTC; unix
+Filesize: 608545
+SHA256: 33f597c441356111969955c58a4947f8919efb5630ef031e335a8d6e7d1426eb
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: RcppArmadillo
+Version: 15.2.3-1
+Depends: R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp (>= 1.0.12), stats, utils, methods
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+File: RcppArmadillo_15.2.3-1_b12_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/15.2.3-1/RcppArmadillo_15.2.3-1_b12_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-12-17 17:23:23 UTC; unix
+Filesize: 2588402
+SHA256: 0882798181858aea33d5030cc474ffbc3e177521ed3e44253a8c07edbab3ff6c
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
