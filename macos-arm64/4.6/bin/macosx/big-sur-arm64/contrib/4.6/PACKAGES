@@ -3978,22 +3978,6 @@ Enhances: graph
 SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
 LinkingTo: cpp11 (>= 0.5.0)
 
-Package: reformulas
-Version: 0.4.2
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: stats, methods, Matrix, Rdpack
-Suggests: lme4, tinytest, glmmTMB
-License: GPL-3
-File: reformulas_0.4.2_b3_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/reformulas/releases/download/0.4.2/reformulas_0.4.2_b3_R4.6_aarch64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-10-28 07:48:53 UTC; unix
-Filesize: 139841
-SHA256: 94ba176226f58e62779004d01bb87a0e8fddaceeb50dd2413459db608fb27ae3
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: arrow
 Version: 22.0.0
 Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
@@ -4437,41 +4421,6 @@ RVersion: 4.6
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: selectr
-Version: 0.5-0
-Depends: R (>= 3.0), R (>= 4.6), R (< 4.6.99)
-Imports: methods, stringr, R6
-Suggests: testthat, XML, xml2
-License: BSD_3_clause + file LICENCE
-File: selectr_0.5-0_b2_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/selectr/releases/download/0.5-0/selectr_0.5-0_b2_R4.6_aarch64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-11-21 17:39:16 UTC; unix
-Filesize: 596701
-SHA256: a797205c2a4578081ea12f12f81cdd69aa5522a60a32fb8da7c1881ecb9e9011
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: RcppArmadillo
-Version: 15.2.2-1
-Depends: R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp (>= 1.0.12), stats, utils, methods
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-License: GPL (>= 2)
-File: RcppArmadillo_15.2.2-1_b11_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/15.2.2-1/RcppArmadillo_15.2.2-1_b11_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-11-24 17:42:12 UTC; unix
-Filesize: 1702181
-SHA256: 7d3201099629d5e6fff3310fbb83e9802ce919771e379fa423a6058946ca02d6
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
 
 Package: testthat
 Version: 3.3.1
@@ -5123,3 +5072,54 @@ RVersion: 4.6
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: reformulas
+Version: 0.4.3
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: stats, methods, Matrix, Rdpack
+Suggests: lme4, tinytest, glmmTMB
+License: GPL-3
+File: reformulas_0.4.3_b4_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/reformulas/releases/download/0.4.3/reformulas_0.4.3_b4_R4.6_aarch64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-12-17 17:45:39 UTC; unix
+Filesize: 155455
+SHA256: 7b7d35ee777f688b3cdb78b79606e90445e822608cc97c0164a965ab6ed515c8
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: selectr
+Version: 0.5-1
+Depends: R (>= 3.0), R (>= 4.6), R (< 4.6.99)
+Imports: methods, stringr, R6
+Suggests: testthat, XML, xml2
+License: BSD_3_clause + file LICENCE
+File: selectr_0.5-1_b3_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/selectr/releases/download/0.5-1/selectr_0.5-1_b3_R4.6_aarch64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-12-17 17:45:42 UTC; unix
+Filesize: 597099
+SHA256: 4caa60d27f06fd788675b96491bc3db5de45897e0591eaeb29ac1752936d55ba
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: RcppArmadillo
+Version: 15.2.3-1
+Depends: R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp (>= 1.0.12), stats, utils, methods
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+File: RcppArmadillo_15.2.3-1_b12_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/15.2.3-1/RcppArmadillo_15.2.3-1_b12_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-12-17 17:45:51 UTC; unix
+Filesize: 1702620
+SHA256: f9a62b9067768e78f4cc7277eade345336fea618093efffa7092dc70c394bef8
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
