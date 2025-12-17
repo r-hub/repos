@@ -3669,22 +3669,6 @@ Enhances: graph
 SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
 LinkingTo: cpp11 (>= 0.5.0)
 
-Package: reformulas
-Version: 0.4.2
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: stats, methods, Matrix, Rdpack
-Suggests: lme4, tinytest, glmmTMB
-License: GPL-3
-File: reformulas_0.4.2_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/reformulas/releases/download/0.4.2/reformulas_0.4.2_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.6.0; ; 2025-10-28 17:01:22 UTC; unix
-Filesize: 139507
-SHA256: 17dad4fb1d01fd55050ca4f23d891c10930692d23d287764b2d16fdb621cd604
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: lava
 Version: 1.8.2
 Depends: R (>= 3.0), R (>= 4.6), R (< 4.6.99)
@@ -4110,41 +4094,6 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: selectr
-Version: 0.5-0
-Depends: R (>= 3.0), R (>= 4.6), R (< 4.6.99)
-Imports: methods, stringr, R6
-Suggests: testthat, XML, xml2
-License: BSD_3_clause + file LICENCE
-File: selectr_0.5-0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/selectr/releases/download/0.5-0/selectr_0.5-0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.6.0; ; 2025-11-21 16:59:14 UTC; unix
-Filesize: 596625
-SHA256: 9a99af79a27ea1ea653910e124a10ba7a25a3eff4e33bad07749b0d48a7b1339
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: RcppArmadillo
-Version: 15.2.2-1
-Depends: R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp (>= 1.0.12), stats, utils, methods
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-License: GPL (>= 2)
-File: RcppArmadillo_15.2.2-1_b11_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/15.2.2-1/RcppArmadillo_15.2.2-1_b11_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-11-22 16:59:27 UTC; unix
-Filesize: 1721661
-SHA256: b37e18ee5e7f42b35155a01c88b7c3d7ed461eb7118c9d11acce85c1a9622559
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
 
 Package: testthat
 Version: 3.3.1
@@ -4760,3 +4709,54 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: reformulas
+Version: 0.4.3
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: stats, methods, Matrix, Rdpack
+Suggests: lme4, tinytest, glmmTMB
+License: GPL-3
+File: reformulas_0.4.3_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/reformulas/releases/download/0.4.3/reformulas_0.4.3_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.6.0; ; 2025-12-17 17:14:17 UTC; unix
+Filesize: 154129
+SHA256: 6d69f44c59d750f8f6666149702225974440dde0cccd9baf5c0d4b24bd0ec834
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: selectr
+Version: 0.5-1
+Depends: R (>= 3.0), R (>= 4.6), R (< 4.6.99)
+Imports: methods, stringr, R6
+Suggests: testthat, XML, xml2
+License: BSD_3_clause + file LICENCE
+File: selectr_0.5-1_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/selectr/releases/download/0.5-1/selectr_0.5-1_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.6.0; ; 2025-12-17 17:14:19 UTC; unix
+Filesize: 597012
+SHA256: d7531539c74c0a186b4f9721a27fabcc762f141c2591bfdd21d600bb8310b789
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: RcppArmadillo
+Version: 15.2.3-1
+Depends: R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp (>= 1.0.12), stats, utils, methods
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+File: RcppArmadillo_15.2.3-1_b12_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/15.2.3-1/RcppArmadillo_15.2.3-1_b12_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-12-17 17:14:22 UTC; unix
+Filesize: 1721829
+SHA256: 218275d693f9d40b89a592dd8b9773fb88b4e32aeb1e67cd1bbf02740d3b20bb
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
