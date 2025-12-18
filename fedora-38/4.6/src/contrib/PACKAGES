@@ -1463,41 +1463,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: e1071
-Version: 1.7-16
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: graphics, grDevices, class, stats, methods, utils, proxy
-Suggests: cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable, Matrix, MASS, slam
-License: GPL-2 | GPL-3
-File: e1071_1.7-16_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/e1071/releases/download/1.7-16/e1071_1.7-16_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:44:17 UTC; unix
-Filesize: 728101
-SHA256: cb654ac1e78e236baabb7bcd63265a6ac0c9fa2f6e5532e35fa88d8e06e00fb9
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: wk
-Version: 0.9.4
-Depends: R (>= 2.10), R (>= 4.6), R (< 4.6.99)
-Suggests: testthat (>= 3.0.0), vctrs (>= 0.3.0), sf, tibble, readr
-License: MIT + file LICENSE
-File: wk_0.9.4_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/wk/releases/download/0.9.4/wk_0.9.4_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:33:06 UTC; unix
-Filesize: 2168968
-SHA256: 0e7844a54d66c4c9b0c7c316af2e053472d07ebdb2c54c65a7e6382cdc5ac41a
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: abind
 Version: 1.4-8
 Depends: R (>= 1.5.0), R (>= 4.6), R (< 4.6.99)
@@ -2893,22 +2858,6 @@ DownloadURL: https://github.com/cran/plotly/releases/download/4.11.0/plotly_4.11
 Built: R 4.6.0; ; 2025-06-20 17:17:17 UTC; unix
 Filesize: 3921698
 SHA256: a8692cc67c8995b7c9580b1430d54a0afe8c95373fba57cd42a8fc722265b829
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: infer
-Version: 1.0.9
-Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
-Imports: broom, cli, dplyr (>= 0.7.0), generics, ggplot2 (>= 3.5.2), glue (>= 1.3.0), grDevices, lifecycle, magrittr, methods, patchwork, purrr, rlang (>= 0.2.0), tibble, tidyr, vctrs (>= 0.6.5)
-Suggests: covr, devtools (>= 1.12.0), fs, knitr, nycflights13, parsnip, rmarkdown, stringr, testthat (>= 3.0.0), vdiffr (>= 1.0.0)
-License: MIT + file LICENSE
-File: infer_1.0.9_b3_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/infer/releases/download/1.0.9/infer_1.0.9_b3_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.6.0; ; 2025-06-27 17:17:31 UTC; unix
-Filesize: 2137070
-SHA256: 857a97fab479bf4c124ac590f1fbc56d6df5799cec1c775eb5730dedf1042a0c
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 17
@@ -5069,3 +5018,55 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
+
+Package: e1071
+Version: 1.7-17
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: graphics, grDevices, class, stats, methods, utils, proxy
+Suggests: cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable, Matrix, MASS, slam
+License: GPL-2 | GPL-3
+File: e1071_1.7-17_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/e1071/releases/download/1.7-17/e1071_1.7-17_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-12-18 17:23:32 UTC; unix
+Filesize: 717354
+SHA256: 096669e40e33e9067f2fd0230d8008a8696872203f3cd9e870af096d0d85eb40
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: wk
+Version: 0.9.5
+Depends: R (>= 2.10), R (>= 4.6), R (< 4.6.99)
+Suggests: testthat (>= 3.0.0), vctrs (>= 0.3.0), sf, tibble, readr
+License: MIT + file LICENSE
+File: wk_0.9.5_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/wk/releases/download/0.9.5/wk_0.9.5_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-12-18 17:23:32 UTC; unix
+Filesize: 2168487
+SHA256: 700a7cb2aefa8a9ac6098116dc9b86cdda46fc448f64f60acda28e7b98f97fef
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: infer
+Version: 1.1.0
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: broom, cli, dplyr (>= 0.7.0), generics, ggplot2 (>= 3.5.2), glue (>= 1.3.0), grDevices, lifecycle, magrittr, methods, patchwork, purrr, rlang (>= 0.2.0), tibble, tidyr, vctrs (>= 0.6.5),
+        withr
+Suggests: covr, devtools (>= 1.12.0), fs, knitr, nycflights13, parsnip, rmarkdown, stringr, testthat (>= 3.0.0), vdiffr (>= 1.0.0)
+License: MIT + file LICENSE
+File: infer_1.1.0_b4_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/infer/releases/download/1.1.0/infer_1.1.0_b4_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.6.0; ; 2025-12-18 17:23:36 UTC; unix
+Filesize: 2151247
+SHA256: 2bac54e316516f367491d575ce3a429be1c953a219ef8f792c3d2511d0cb30ee
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
