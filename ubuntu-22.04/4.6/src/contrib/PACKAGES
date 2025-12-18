@@ -1463,41 +1463,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: e1071
-Version: 1.7-16
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: graphics, grDevices, class, stats, methods, utils, proxy
-Suggests: cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable, Matrix, MASS, slam
-License: GPL-2 | GPL-3
-File: e1071_1.7-16_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/e1071/releases/download/1.7-16/e1071_1.7-16_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:44:54 UTC; unix
-Filesize: 691067
-SHA256: f33743bcc924944c49197579209ff24602149805797084fd4467e9d70c4fba79
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: wk
-Version: 0.9.4
-Depends: R (>= 2.10), R (>= 4.6), R (< 4.6.99)
-Suggests: testthat (>= 3.0.0), vctrs (>= 0.3.0), sf, tibble, readr
-License: MIT + file LICENSE
-File: wk_0.9.4_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/wk/releases/download/0.9.4/wk_0.9.4_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:33:01 UTC; unix
-Filesize: 2164930
-SHA256: a663ecc759c9d2e7e211fc659aa2af5f660e06808e0e07c2e32b8186ee8ed291
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: abind
 Version: 1.4-8
 Depends: R (>= 1.5.0), R (>= 4.6), R (< 4.6.99)
@@ -2893,22 +2858,6 @@ DownloadURL: https://github.com/cran/plotly/releases/download/4.11.0/plotly_4.11
 Built: R 4.6.0; ; 2025-06-20 16:43:37 UTC; unix
 Filesize: 3855116
 SHA256: 4832b9e73d9a61aef8c8fe93e8fbbcf942b05fe7c042aae3987321e3771f5be4
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: infer
-Version: 1.0.9
-Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
-Imports: broom, cli, dplyr (>= 0.7.0), generics, ggplot2 (>= 3.5.2), glue (>= 1.3.0), grDevices, lifecycle, magrittr, methods, patchwork, purrr, rlang (>= 0.2.0), tibble, tidyr, vctrs (>= 0.6.5)
-Suggests: covr, devtools (>= 1.12.0), fs, knitr, nycflights13, parsnip, rmarkdown, stringr, testthat (>= 3.0.0), vdiffr (>= 1.0.0)
-License: MIT + file LICENSE
-File: infer_1.0.9_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/infer/releases/download/1.0.9/infer_1.0.9_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.6.0; ; 2025-06-27 16:42:40 UTC; unix
-Filesize: 2118462
-SHA256: 398f0b1f9921cc088138366b77eb528f577a33fa56fccadb0ca8928334fa975a
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
@@ -5069,3 +5018,55 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
+
+Package: e1071
+Version: 1.7-17
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: graphics, grDevices, class, stats, methods, utils, proxy
+Suggests: cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable, Matrix, MASS, slam
+License: GPL-2 | GPL-3
+File: e1071_1.7-17_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/e1071/releases/download/1.7-17/e1071_1.7-17_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-12-18 16:49:15 UTC; unix
+Filesize: 682194
+SHA256: 0e6c7fc85a26dd75572fe9f2ed67dc4c17cbfb6f49a95c02bf94306a0e037139
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: wk
+Version: 0.9.5
+Depends: R (>= 2.10), R (>= 4.6), R (< 4.6.99)
+Suggests: testthat (>= 3.0.0), vctrs (>= 0.3.0), sf, tibble, readr
+License: MIT + file LICENSE
+File: wk_0.9.5_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/wk/releases/download/0.9.5/wk_0.9.5_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-12-18 16:49:15 UTC; unix
+Filesize: 2166126
+SHA256: 117a50409b5eb0fb9c3f861c2c6ea452fafafe6e2207d04f0a3e019bb815a5c7
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: infer
+Version: 1.1.0
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: broom, cli, dplyr (>= 0.7.0), generics, ggplot2 (>= 3.5.2), glue (>= 1.3.0), grDevices, lifecycle, magrittr, methods, patchwork, purrr, rlang (>= 0.2.0), tibble, tidyr, vctrs (>= 0.6.5),
+        withr
+Suggests: covr, devtools (>= 1.12.0), fs, knitr, nycflights13, parsnip, rmarkdown, stringr, testthat (>= 3.0.0), vdiffr (>= 1.0.0)
+License: MIT + file LICENSE
+File: infer_1.1.0_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/infer/releases/download/1.1.0/infer_1.1.0_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.6.0; ; 2025-12-18 16:49:18 UTC; unix
+Filesize: 2132050
+SHA256: 9aabeeabc15e9babee69534a192bba345be959c2f59977cbfb4aa15cb46da3d6
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
