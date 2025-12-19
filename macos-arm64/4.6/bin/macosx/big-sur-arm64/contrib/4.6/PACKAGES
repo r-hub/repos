@@ -1047,26 +1047,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: tidyr
-Version: 1.3.1
-Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
-Imports: cli (>= 3.4.1), dplyr (>= 1.0.10), glue, lifecycle (>= 1.0.3), magrittr, purrr (>= 1.0.1), rlang (>= 1.1.1), stringr (>= 1.5.0), tibble (>= 2.1.1), tidyselect (>= 1.2.0), utils, vctrs (>=
-        0.5.2)
-Suggests: covr, data.table, knitr, readr, repurrrsive (>= 1.1.0), rmarkdown, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: tidyr_1.3.1_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/tidyr/releases/download/1.3.1/tidyr_1.3.1_b1_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-03-16 18:07:45 UTC; unix
-Filesize: 1169437
-SHA256: 13f2d868cb95140cd0140ad174b3ad1395236f52a25ea6125d2d48c534937245
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cpp11 (>= 0.4.0)
-
 Package: tidyselect
 Version: 1.2.1
 Depends: R (>= 3.4), R (>= 4.6), R (< 4.6.99)
@@ -3996,22 +3976,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: litedown
-Version: 0.8
-Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
-Imports: utils, commonmark (>= 2.0.0), xfun (>= 0.54)
-Suggests: rbibutils, rstudioapi, tinytex
-License: MIT + file LICENSE
-File: litedown_0.8_b3_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/litedown/releases/download/0.8/litedown_0.8_b3_R4.6_aarch64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-11-02 08:05:38 UTC; unix
-Filesize: 372479
-SHA256: 47173a9d906c4aa174df8e9fdab98d97b9b0c9568b3ee3dd1faa1956820c441c
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: purrr
 Version: 1.2.0
 Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
@@ -5120,6 +5084,42 @@ DownloadURL: https://github.com/cran/infer/releases/download/1.1.0/infer_1.1.0_b
 Built: R 4.6.0; ; 2025-12-18 17:46:05 UTC; unix
 Filesize: 2135152
 SHA256: 05ed0bb0c2a9ab6a16a358daf66dbad380be228183d728f3db78adc58b3b3712
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: tidyr
+Version: 1.3.2
+Depends: R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
+Imports: cli (>= 3.4.1), dplyr (>= 1.1.0), glue, lifecycle (>= 1.0.3), magrittr, purrr (>= 1.0.1), rlang (>= 1.1.1), stringr (>= 1.5.0), tibble (>= 2.1.1), tidyselect (>= 1.2.1), utils, vctrs (>=
+        0.5.2)
+Suggests: covr, data.table, knitr, readr, repurrrsive (>= 1.1.0), rmarkdown, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: tidyr_1.3.2_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/tidyr/releases/download/1.3.2/tidyr_1.3.2_b2_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-12-19 17:36:42 UTC; unix
+Filesize: 1168929
+SHA256: c4c157f63955298654eb2e4779b361bcca3066e2b2a5ddb832cc58bfe7304cea
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11 (>= 0.4.0)
+
+Package: litedown
+Version: 0.9
+Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
+Imports: utils, commonmark (>= 2.0.0), xfun (>= 0.55)
+Suggests: rbibutils, rstudioapi, tinytex
+License: MIT + file LICENSE
+File: litedown_0.9_b4_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/litedown/releases/download/0.9/litedown_0.9_b4_R4.6_aarch64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-12-19 17:36:47 UTC; unix
+Filesize: 377304
+SHA256: fc3886728ec1ea974f8a2a5e8c4c4790dd1d0b09cdc9caa90a977fba95299004
 RVersion: 4.6
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
