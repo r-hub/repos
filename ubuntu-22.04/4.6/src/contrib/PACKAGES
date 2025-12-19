@@ -1029,26 +1029,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: tidyr
-Version: 1.3.1
-Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
-Imports: cli (>= 3.4.1), dplyr (>= 1.0.10), glue, lifecycle (>= 1.0.3), magrittr, purrr (>= 1.0.1), rlang (>= 1.1.1), stringr (>= 1.5.0), tibble (>= 2.1.1), tidyselect (>= 1.2.0), utils, vctrs (>=
-        0.5.2)
-Suggests: covr, data.table, knitr, readr, repurrrsive (>= 1.1.0), rmarkdown, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: tidyr_1.3.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/tidyr/releases/download/1.3.1/tidyr_1.3.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:42:25 UTC; unix
-Filesize: 1418697
-SHA256: dc4d7c3bb04451c41abf9d38c03069a677171ddd2ca7666f8d2e718787216ebb
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cpp11 (>= 0.4.0)
-
 Package: tidyselect
 Version: 1.2.1
 Depends: R (>= 3.4), R (>= 4.6), R (< 4.6.99)
@@ -3960,22 +3940,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: litedown
-Version: 0.8
-Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
-Imports: utils, commonmark (>= 2.0.0), xfun (>= 0.54)
-Suggests: rbibutils, rstudioapi, tinytex
-License: MIT + file LICENSE
-File: litedown_0.8_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/litedown/releases/download/0.8/litedown_0.8_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.6.0; ; 2025-11-02 16:37:05 UTC; unix
-Filesize: 372395
-SHA256: bb0219ec17ce1f3bc16a70a5cceb326d43a549580ccd1521146a784169db2305
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: purrr
 Version: 1.2.0
 Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
@@ -5066,6 +5030,42 @@ DownloadURL: https://github.com/cran/infer/releases/download/1.1.0/infer_1.1.0_b
 Built: R 4.6.0; ; 2025-12-18 16:49:18 UTC; unix
 Filesize: 2132050
 SHA256: 9aabeeabc15e9babee69534a192bba345be959c2f59977cbfb4aa15cb46da3d6
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: tidyr
+Version: 1.3.2
+Depends: R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
+Imports: cli (>= 3.4.1), dplyr (>= 1.1.0), glue, lifecycle (>= 1.0.3), magrittr, purrr (>= 1.0.1), rlang (>= 1.1.1), stringr (>= 1.5.0), tibble (>= 2.1.1), tidyselect (>= 1.2.1), utils, vctrs (>=
+        0.5.2)
+Suggests: covr, data.table, knitr, readr, repurrrsive (>= 1.1.0), rmarkdown, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: tidyr_1.3.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/tidyr/releases/download/1.3.2/tidyr_1.3.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-12-19 16:45:44 UTC; unix
+Filesize: 1418768
+SHA256: 839565f4f7458d233142e28f3366f7a1351a33d62b11921cfb075386e9707312
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11 (>= 0.4.0)
+
+Package: litedown
+Version: 0.9
+Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
+Imports: utils, commonmark (>= 2.0.0), xfun (>= 0.55)
+Suggests: rbibutils, rstudioapi, tinytex
+License: MIT + file LICENSE
+File: litedown_0.9_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/litedown/releases/download/0.9/litedown_0.9_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.6.0; ; 2025-12-19 16:45:44 UTC; unix
+Filesize: 376459
+SHA256: 51f130fac122368f885e01a2346943a70c1c12a4918992260f25794ab93c326c
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
