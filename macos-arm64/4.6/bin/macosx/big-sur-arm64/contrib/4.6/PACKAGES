@@ -1994,23 +1994,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: loo
-Version: 2.8.0
-Depends: R (>= 3.1.2), R (>= 4.6), R (< 4.6.99)
-Imports: checkmate, matrixStats (>= 0.52), parallel, posterior (>= 1.5.0), stats
-Suggests: bayesplot (>= 1.7.0), brms (>= 2.10.0), ggplot2, graphics, knitr, rmarkdown, rstan, rstanarm (>= 2.19.0), rstantools, spdep, testthat (>= 2.1.0)
-License: GPL (>= 3)
-File: loo_2.8.0_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/loo/releases/download/2.8.0/loo_2.8.0_b1_R4.6_aarch64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-03-16 18:34:05 UTC; unix
-Filesize: 1864375
-SHA256: b71cc3451e6f160462c855a84598fcf50b6b05bbbeb57ae9c8ce62e2fe717cf4
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
-
 Package: posterior
 Version: 1.6.1
 Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
@@ -3889,27 +3872,6 @@ Enhances: graph
 SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
 LinkingTo: cpp11 (>= 0.5.0)
 
-Package: arrow
-Version: 22.0.0
-Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
-Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
-Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
-        tibble, tzdb, withr
-License: Apache License (>= 2.0)
-File: arrow_22.0.0_b7_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/arrow/releases/download/22.0.0/arrow_22.0.0_b7_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-10-29 17:42:48 UTC; unix
-Filesize: 19719404
-SHA256: b8c0fdc77775091415bfb901f10e06037af5568b0abb6ed3a47f13eb4db9ea5c
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.26 (build-time only, and only for full source build)
-LinkingTo: cpp11 (>= 0.4.2)
-
 Package: lava
 Version: 1.8.2
 Depends: R (>= 3.0), R (>= 4.6), R (< 4.6.99)
@@ -5124,3 +5086,41 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
+
+Package: loo
+Version: 2.9.0
+Depends: R (>= 3.1.2), R (>= 4.6), R (< 4.6.99)
+Imports: checkmate, matrixStats (>= 0.52), parallel, posterior (>= 1.5.0), stats
+Suggests: bayesplot (>= 1.7.0), brms (>= 2.10.0), ggplot2, graphics, knitr, rmarkdown, rstan, rstanarm (>= 2.19.0), rstantools, spdep, testthat (>= 3.0)
+License: GPL (>= 3)
+File: loo_2.9.0_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/loo/releases/download/2.9.0/loo_2.9.0_b2_R4.6_aarch64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2025-12-23 17:42:09 UTC; unix
+Filesize: 1844200
+SHA256: 7eb3a4988013a262046e37d61e9ee038b9a94b4048b19c3c64a3e16708ce88c6
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
+
+Package: arrow
+Version: 22.0.0.1
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
+        tibble, tzdb, withr
+License: Apache License (>= 2.0)
+File: arrow_22.0.0.1_b8_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/arrow/releases/download/22.0.0.1/arrow_22.0.0.1_b8_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2025-12-23 17:42:16 UTC; unix
+Filesize: 19721202
+SHA256: 9faffebbf3286886f4bfe658b158a9c4894f433459a91db5965fa67851541021
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.26 (build-time only, and only for full source build)
+LinkingTo: cpp11 (>= 0.4.2)
