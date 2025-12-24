@@ -2841,24 +2841,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: data.table
-Version: 1.17.8
-Depends: R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
-Imports: methods
-Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
-License: MPL-2.0 | file LICENSE
-File: data.table_1.17.8_b5_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/data.table/releases/download/1.17.8/data.table_1.17.8_b5_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2025-07-10 17:42:36 UTC; unix
-Filesize: 2673353
-SHA256: 58e4f3ef71d670575cdd8b0f27b1a5a20f35dc60f99f6e16060ae4b0d03d7141
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: waldo
 Version: 0.6.2
 Depends: R (>= 4.0), R (>= 4.6), R (< 4.6.99)
@@ -5069,3 +5051,21 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.26 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
+
+Package: data.table
+Version: 1.18.0
+Depends: R (>= 3.4.0), R (>= 4.6), R (< 4.6.99)
+Imports: methods
+Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils (>= 2.13.0), xts, zoo (>= 1.8-1), yaml, knitr, markdown
+License: MPL-2.0 | file LICENSE
+File: data.table_1.18.0_b6_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/data.table/releases/download/1.18.0/data.table_1.18.0_b6_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2025-12-24 17:39:13 UTC; unix
+Filesize: 2966700
+SHA256: bf9d0d740eaab7ad5d8c0dc780591036b121780f9601e0d169d275e2ab0f3522
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
