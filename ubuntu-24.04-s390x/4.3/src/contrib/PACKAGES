@@ -1351,24 +1351,6 @@ Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: data.table
-Version: 1.17.8
-Depends: R (>= 3.3.0), R (>= 4.3), R (< 4.3.99)
-Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>= 1.8-1), yaml, knitr, markdown
-License: MPL-2.0 | file LICENSE
-File: data.table_1.17.8_b5_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/data.table/releases/download/1.17.8/data.table_1.17.8_b5_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-07-10 14:50:07 UTC; unix
-Filesize: 3281540
-SHA256: 324fdcb597312a32c22e4e42d3022030b764aefa01942c6faaa31361cc15e1dc
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: methods
-
 Package: waldo
 Version: 0.6.2
 Depends: R (>= 4.0), R (>= 4.3), R (< 4.3.99)
@@ -2093,3 +2075,21 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: evaluate (>= 0.15), highr (>= 0.11), methods, tools, xfun (>= 0.52), yaml (>= 2.1.19)
 SystemRequirements: Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).
+
+Package: data.table
+Version: 1.18.0
+Depends: R (>= 3.4.0), R (>= 4.3), R (< 4.3.99)
+Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils (>= 2.13.0), xts, zoo (>= 1.8-1), yaml, knitr, markdown
+License: MPL-2.0 | file LICENSE
+File: data.table_1.18.0_b6_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/data.table/releases/download/1.18.0/data.table_1.18.0_b6_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-12-25 13:01:25 UTC; unix
+Filesize: 3650294
+SHA256: 544fdd8834a5f651376767c24938d21b6c53c869e91794311ed2e8cc80fdb79f
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: methods
