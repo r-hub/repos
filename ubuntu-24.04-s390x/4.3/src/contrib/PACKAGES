@@ -1281,24 +1281,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: stats, tools, utils
 
-Package: Rcpp
-Version: 1.1.0
-Depends: R (>= 4.3), R (< 4.3.99)
-Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
-License: GPL (>= 2)
-File: Rcpp_1.1.0_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/Rcpp/releases/download/1.1.0/Rcpp_1.1.0_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-07-03 14:48:18 UTC; unix
-Filesize: 3813183
-SHA256: c76c1b83b610193d4413c9fe235a1bc198953e8dbc526c780d50713bf8121e83
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: methods, utils
-
 Package: commonmark
 Version: 2.0.0
 Depends: R (>= 4.3), R (< 4.3.99)
@@ -2093,3 +2075,21 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), magrittr (>= 1.5.0), rlang (>= 1.1.1), vctrs (>= 0.6.3)
 LinkingTo: cli
+
+Package: Rcpp
+Version: 1.1.1
+Depends: R (>= 3.5.0), R (>= 4.3), R (< 4.3.99)
+Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
+License: GPL (>= 2)
+File: Rcpp_1.1.1_b3_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/Rcpp/releases/download/1.1.1/Rcpp_1.1.1_b3_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2026-01-10 14:41:13 UTC; unix
+Filesize: 3837123
+SHA256: a633ce2bb5ec61912c09401d370a2bdd05f1387cf05c100a051ee65a94bfc489
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: methods, utils
