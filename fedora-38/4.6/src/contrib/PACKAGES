@@ -3122,23 +3122,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: rstantools
-Version: 2.5.0
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1)
-Suggests: rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0), knitr, pkgbuild, pkgload, roxygen2 (>= 6.0.1), rmarkdown, rstudioapi
-License: GPL (>= 3)
-File: rstantools_2.5.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/rstantools/releases/download/2.5.0/rstantools_2.5.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.6.0; ; 2025-09-01 17:15:36 UTC; unix
-Filesize: 178914
-SHA256: 413c65b8b61c2052e6c8df6eef8f886ca9f64c823b693f42a8f4ede089cbcb39
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc, C++14
-
 Package: ragg
 Version: 1.5.0
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4926,24 +4909,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: Rcpp
-Version: 1.1.0.8.2
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: methods, utils
-Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
-License: GPL (>= 2)
-File: Rcpp_1.1.0.8.2_b4_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/Rcpp/releases/download/1.1.0.8.2/Rcpp_1.1.0.8.2_b4_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-01-08 17:26:58 UTC; unix
-Filesize: 3819541
-SHA256: 2aad8699ffc72b05c7f4a47d8a6969f2399554219abe377023d939c9e3d85097
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: gert
 Version: 2.3.0
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -5066,6 +5031,41 @@ Arch: amd64
 Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-01-09 17:23:35 UTC; unix
 Filesize: 450334
 SHA256: 527c6df22d4fc196a6786a93b2ddf089040f5d44a1bd419a9d8d1d4f10e4c750
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rstantools
+Version: 2.6.0
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1)
+Suggests: rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0), knitr, pkgbuild, pkgload, roxygen2 (>= 6.0.1), rmarkdown, rstudioapi
+License: GPL (>= 3)
+File: rstantools_2.6.0_b3_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/rstantools/releases/download/2.6.0/rstantools_2.6.0_b3_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.6.0; ; 2026-01-10 17:18:31 UTC; unix
+Filesize: 161539
+SHA256: 226fbbb808bc08c46a151939c390a29ca4b4c93f2214d62cc52da7501e5dffa5
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc
+
+Package: Rcpp
+Version: 1.1.1
+Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
+Imports: methods, utils
+Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
+License: GPL (>= 2)
+File: Rcpp_1.1.1_b5_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/Rcpp/releases/download/1.1.1/Rcpp_1.1.1_b5_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-01-10 17:18:11 UTC; unix
+Filesize: 3821110
+SHA256: 8d80068a295dcd2d71338313cf248b91cf8bba6b7c55f8161dfdd8200e5ae898
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 17
