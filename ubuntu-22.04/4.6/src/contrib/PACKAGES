@@ -3122,23 +3122,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: rstantools
-Version: 2.5.0
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1)
-Suggests: rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0), knitr, pkgbuild, pkgload, roxygen2 (>= 6.0.1), rmarkdown, rstudioapi
-License: GPL (>= 3)
-File: rstantools_2.5.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/rstantools/releases/download/2.5.0/rstantools_2.5.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.6.0; ; 2025-09-01 16:39:35 UTC; unix
-Filesize: 172987
-SHA256: 069bcf4c2b6a3412259def5e324ef226e2559fa65768bcca3e8482b00970582b
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc, C++14
-
 Package: ragg
 Version: 1.5.0
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4926,24 +4909,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: Rcpp
-Version: 1.1.0.8.2
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: methods, utils
-Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
-License: GPL (>= 2)
-File: Rcpp_1.1.0.8.2_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/Rcpp/releases/download/1.1.0.8.2/Rcpp_1.1.0.8.2_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-01-08 16:50:52 UTC; unix
-Filesize: 3810776
-SHA256: 9cc180bd4f4483418b482accfa32acdc433f99c32ab43835323d6186ad6a9cd1
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: gert
 Version: 2.3.0
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -5066,6 +5031,41 @@ Arch: amd64
 Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-01-09 16:48:24 UTC; unix
 Filesize: 424899
 SHA256: b735f41202a02c17fec8d4a66839a6accae7884fc3cd21fac696b4b10306ec1c
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rstantools
+Version: 2.6.0
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1)
+Suggests: rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0), knitr, pkgbuild, pkgload, roxygen2 (>= 6.0.1), rmarkdown, rstudioapi
+License: GPL (>= 3)
+File: rstantools_2.6.0_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/rstantools/releases/download/2.6.0/rstantools_2.6.0_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.6.0; ; 2026-01-10 16:43:29 UTC; unix
+Filesize: 155676
+SHA256: d91dc3cd2c1ca3d890ebf30ced22e368e6c5d17f3a8c8671dec859ae53ee7a7e
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc
+
+Package: Rcpp
+Version: 1.1.1
+Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
+Imports: methods, utils
+Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
+License: GPL (>= 2)
+File: Rcpp_1.1.1_b5_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/Rcpp/releases/download/1.1.1/Rcpp_1.1.1_b5_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-01-10 16:43:08 UTC; unix
+Filesize: 3812244
+SHA256: 3f7e7d7eb514a422bd572ea3e66b12292c4a70bd8d193c0c777d425a17007acc
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
