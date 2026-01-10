@@ -2792,24 +2792,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: Rcpp
-Version: 1.1.0
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: methods, utils
-Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
-License: GPL (>= 2)
-File: Rcpp_1.1.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/Rcpp/releases/download/1.1.0/Rcpp_1.1.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.1; aarch64-unknown-linux-gnu; 2025-07-02 23:23:53 UTC; unix
-Filesize: 3699933
-SHA256: 71b746c3a3a39778f0ae6a2be18d9ccfbf4a1eac02ffa8feb65b88b0e2e0e3d7
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: cowplot
 Version: 1.2.0
 Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
@@ -3158,23 +3140,6 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: rstantools
-Version: 2.5.0
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1)
-Suggests: rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0), knitr, pkgbuild, pkgload, roxygen2 (>= 6.0.1), rmarkdown, rstudioapi
-License: GPL (>= 3)
-File: rstantools_2.5.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/rstantools/releases/download/2.5.0/rstantools_2.5.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.5.1; ; 2025-09-01 23:21:04 UTC; unix
-Filesize: 172849
-SHA256: d375dca077596ff17f9319942d4f0da6fa93528251c1a13e917881a71c5bd4ad
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc, C++14
 
 Package: DT
 Version: 0.34.0
@@ -5107,3 +5072,38 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: Rcpp
+Version: 1.1.1
+Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+Imports: methods, utils
+Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
+License: GPL (>= 2)
+File: Rcpp_1.1.1_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/Rcpp/releases/download/1.1.1/Rcpp_1.1.1_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.2; aarch64-unknown-linux-gnu; 2026-01-10 23:23:06 UTC; unix
+Filesize: 3729454
+SHA256: fc78e2e2e0e51165673bd7b8a2e0328fcd7751c65888e103e13e16ce96a6044a
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rstantools
+Version: 2.6.0
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1)
+Suggests: rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0), knitr, pkgbuild, pkgload, roxygen2 (>= 6.0.1), rmarkdown, rstudioapi
+License: GPL (>= 3)
+File: rstantools_2.6.0_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/rstantools/releases/download/2.6.0/rstantools_2.6.0_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.5.2; ; 2026-01-10 23:23:25 UTC; unix
+Filesize: 155639
+SHA256: 435f9bcb2734d7f996eac0f67464cb4e5c58a2cc920351679ab0bc6a5c1e60cf
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc
