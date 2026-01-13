@@ -2166,25 +2166,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: cmake (>= 3.2.0) which is used only on Linux or macOS systems when no system build of nlopt (>= 2.7.0) can be found.
 
-Package: clock
-Version: 0.7.3
-Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
-Imports: cli (>= 3.6.4), lifecycle (>= 1.0.4), rlang (>= 1.1.5), tzdb (>= 0.5.0), vctrs (>= 0.6.5)
-Suggests: covr, knitr, magrittr, pillar, rmarkdown, slider (>= 0.3.2), testthat (>= 3.0.0), withr
-License: MIT + file LICENSE
-File: clock_0.7.3_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/clock/releases/download/0.7.3/clock_0.7.3_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-21 23:20:57 UTC; unix
-Filesize: 7246113
-SHA256: f3c50c121fa8456c7c5f0689e7a86e814c6538362b09d0362861ca1f7f614db8
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cpp11 (>= 0.5.2), tzdb (>= 0.5.0)
-
 Package: hunspell
 Version: 3.0.6
 Depends: R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
@@ -3993,23 +3974,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: sp
 
-Package: warp
-Version: 0.2.2
-Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
-Suggests: covr, knitr, rmarkdown, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: warp_0.2.2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/warp/releases/download/0.2.2/warp_0.2.2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.2; aarch64-unknown-linux-gnu; 2025-11-15 23:20:51 UTC; unix
-Filesize: 122407
-SHA256: 384688236b3939a497804a0419bc422b6f812c325858b73fc279c87e9bfede14
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: readr
 Version: 2.1.6
 Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
@@ -4116,28 +4080,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11 (>= 0.2.0), progress (>= 1.2.3), tzdb (>= 0.1.1)
-
-Package: sf
-Version: 1.0-23
-Depends: methods, R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
-Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
-Suggests: blob, nanoarrow, covr, dplyr (>= 1.0.0), ggplot2, knitr, lwgeom (>= 0.2-14), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>=
-        1.1.0), RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.6-0), terra, testthat (>= 3.0.0), tibble (>=
-        1.4.1), tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk (>= 0.9.0)
-License: GPL-2 | MIT + file LICENSE
-File: sf_1.0-23_b5_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/sf/releases/download/1.0-23/sf_1.0-23_b5_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.2; aarch64-unknown-linux-gnu; 2025-11-28 23:22:18 UTC; unix
-Filesize: 14885163
-SHA256: acf50d109972842df34a67d7b36e1c016c07506054ff6d9e7dc06b2e1e8c7da0
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
-LinkingTo: Rcpp
 
 Package: RSQLite
 Version: 2.4.5
@@ -5107,3 +5049,61 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
+
+Package: clock
+Version: 0.7.4
+Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
+Imports: cli (>= 3.6.4), lifecycle (>= 1.0.4), rlang (>= 1.1.5), tzdb (>= 0.5.0), vctrs (>= 0.6.5)
+Suggests: covr, knitr, magrittr, pillar, rmarkdown, slider (>= 0.3.2), testthat (>= 3.0.0), withr
+License: MIT + file LICENSE
+File: clock_0.7.4_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/clock/releases/download/0.7.4/clock_0.7.4_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.2; aarch64-unknown-linux-gnu; 2026-01-13 23:23:59 UTC; unix
+Filesize: 7246297
+SHA256: 9ef3331c96304429d36189364bbc128c02ab591a6db0e2bd5b1b3c7e69504b4b
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11 (>= 0.5.2), tzdb (>= 0.5.0)
+
+Package: warp
+Version: 0.2.3
+Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
+Suggests: covr, knitr, rmarkdown, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: warp_0.2.3_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/warp/releases/download/0.2.3/warp_0.2.3_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.2; aarch64-unknown-linux-gnu; 2026-01-13 23:23:58 UTC; unix
+Filesize: 122368
+SHA256: a14fe8d8983594ce70a060be96eefc3aa41a51e5a833f58ff1f135c8f0c5b222
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: sf
+Version: 1.0-24
+Depends: methods, R (>= 3.3.0), R (>= 4.5), R (< 4.5.99)
+Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
+Suggests: blob, nanoarrow, covr, dplyr (>= 1.0.0), ggplot2, knitr, lwgeom (>= 0.2-14), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>=
+        1.1.0), RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.6-0), terra, testthat (>= 3.0.0), tibble (>=
+        1.4.1), tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk (>= 0.9.0)
+License: GPL-2 | MIT + file LICENSE
+File: sf_1.0-24_b6_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/sf/releases/download/1.0-24/sf_1.0-24_b6_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.2; aarch64-unknown-linux-gnu; 2026-01-13 23:24:03 UTC; unix
+Filesize: 14887009
+SHA256: d6e3c89d0f8224c4ce0ae0560cd847324519c7dba523d3f9a2242cf93efb9a02
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
+LinkingTo: Rcpp
