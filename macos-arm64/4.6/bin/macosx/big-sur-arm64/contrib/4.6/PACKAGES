@@ -133,21 +133,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: xclip (https://github.com/astrand/xclip) or xsel (http://www.vergenet.net/~conrad/software/xsel/) for accessing the X11 clipboard, or wl-clipboard
         (https://github.com/bugaevc/wl-clipboard) for systems using Wayland.
 
-Package: cpp11
-Version: 0.5.2
-Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
-Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue, knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp, testthat (>= 3.2.0), tibble, utils, vctrs, withr
-License: MIT + file LICENSE
-File: cpp11_0.5.2_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/cpp11/releases/download/0.5.2/cpp11_0.5.2_b1_R4.6_aarch64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-03-16 17:55:09 UTC; unix
-Filesize: 286646
-SHA256: 6e8d621d9e8762031d00005fa7621a8c1ca331d6a21e7daa0df339ef68d76dbf
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: crayon
 Version: 1.5.3
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -2119,25 +2104,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: clock
-Version: 0.7.3
-Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
-Imports: cli (>= 3.6.4), lifecycle (>= 1.0.4), rlang (>= 1.1.5), tzdb (>= 0.5.0), vctrs (>= 0.6.5)
-Suggests: covr, knitr, magrittr, pillar, rmarkdown, slider (>= 0.3.2), testthat (>= 3.0.0), withr
-License: MIT + file LICENSE
-File: clock_0.7.3_b2_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/clock/releases/download/0.7.3/clock_0.7.3_b2_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-03-22 17:33:04 UTC; unix
-Filesize: 1876693
-SHA256: 72d8fc42862ae4c8dca3d1bf57c62ec625adfc09ad4df1a01822c73ee7ffd020
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cpp11 (>= 0.5.2), tzdb (>= 0.5.0)
-
 Package: hunspell
 Version: 3.0.6
 Depends: R (>= 3.0.2), R (>= 4.6), R (< 4.6.99)
@@ -3992,23 +3958,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: vctrs (>= 0.6.3)
 
-Package: warp
-Version: 0.2.2
-Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
-Suggests: covr, knitr, rmarkdown, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: warp_0.2.2_b2_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/warp/releases/download/0.2.2/warp_0.2.2_b2_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-11-15 17:34:02 UTC; unix
-Filesize: 65504
-SHA256: 549b34dd09c60f8110085460d371d6554c8b103dc5992eb5656c02a808fc1511
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: readr
 Version: 2.1.6
 Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
@@ -4133,28 +4082,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11 (>= 0.2.0), progress (>= 1.2.3), tzdb (>= 0.1.1)
-
-Package: sf
-Version: 1.0-23
-Depends: methods, R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
-Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
-Suggests: blob, nanoarrow, covr, dplyr (>= 1.0.0), ggplot2, knitr, lwgeom (>= 0.2-14), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>=
-        1.1.0), RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.6-0), terra, testthat (>= 3.0.0), tibble (>=
-        1.4.1), tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk (>= 0.9.0)
-License: GPL-2 | MIT + file LICENSE
-File: sf_1.0-23_b5_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/sf/releases/download/1.0-23/sf_1.0-23_b5_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-11-28 17:43:30 UTC; unix
-Filesize: 26796012
-SHA256: df01eb56b626d0e4c52c72e89a4801f16fcbf7c297ad46cefd16535bde3dbac1
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
-LinkingTo: Rcpp
 
 Package: RSQLite
 Version: 2.4.5
@@ -5124,3 +5051,76 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
+
+Package: clock
+Version: 0.7.4
+Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
+Imports: cli (>= 3.6.4), lifecycle (>= 1.0.4), rlang (>= 1.1.5), tzdb (>= 0.5.0), vctrs (>= 0.6.5)
+Suggests: covr, knitr, magrittr, pillar, rmarkdown, slider (>= 0.3.2), testthat (>= 3.0.0), withr
+License: MIT + file LICENSE
+File: clock_0.7.4_b3_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/clock/releases/download/0.7.4/clock_0.7.4_b3_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2026-01-13 17:50:20 UTC; unix
+Filesize: 1876882
+SHA256: 38b3174c22fbdfbd093b8c6efe72a5585c5a0b3200e7ecd88da9f54236ca48a5
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11 (>= 0.5.2), tzdb (>= 0.5.0)
+
+Package: cpp11
+Version: 0.5.2-2
+Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
+Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue, knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp, testthat (>= 3.2.0), tibble, utils, vctrs, withr
+License: MIT + file LICENSE
+File: cpp11_0.5.2-2_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/cpp11/releases/download/0.5.2-2/cpp11_0.5.2-2_b2_R4.6_aarch64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2026-01-13 17:50:16 UTC; unix
+Filesize: 276739
+SHA256: fb587eaaa2c0f7a14754f5834dfcc1783c7c441053694e3e92cbe6179d46f98a
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: warp
+Version: 0.2.3
+Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
+Suggests: covr, knitr, rmarkdown, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: warp_0.2.3_b3_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/warp/releases/download/0.2.3/warp_0.2.3_b3_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2026-01-13 17:50:17 UTC; unix
+Filesize: 65670
+SHA256: e6ee1bff0f2d4dc608f2df23c2585161023b2a3313e92a48afa8d144192fd50d
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: sf
+Version: 1.0-24
+Depends: methods, R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
+Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
+Suggests: blob, nanoarrow, covr, dplyr (>= 1.0.0), ggplot2, knitr, lwgeom (>= 0.2-14), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>=
+        1.1.0), RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.6-0), terra, testthat (>= 3.0.0), tibble (>=
+        1.4.1), tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk (>= 0.9.0)
+License: GPL-2 | MIT + file LICENSE
+File: sf_1.0-24_b6_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/sf/releases/download/1.0-24/sf_1.0-24_b6_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2026-01-13 17:51:36 UTC; unix
+Filesize: 26797481
+SHA256: fc1e7a04ce287d2e578d45874481b5f1d776bfe5e8e74467a1935e67fa421668
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
+LinkingTo: Rcpp
