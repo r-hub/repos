@@ -6,6 +6,7 @@ with `install.packages()`, only with pak.
 
 * [Ubuntu 22.04 + R-devel](#ubuntu-2204--r-devel-ubuntu-2204-r46)
 * [Ubuntu 22.04 + R-devel + libc++](#ubuntu-2204--r-devel--libc-ubuntu-2204-r46-libc)
+* [Ubuntu 24.04 + R-devel](#ubuntu-2404--r-devel-ubuntu-2404-r46)
 * [Fedora 38 + R-devel](#fedora-38--r-devel-fedora-38-r46)
 * [Fedora 40 + R-devel](#fedora-40--r-devel-fedora-40-r46)
 * [Ubuntu 22.04 + R-release on aarch64](#ubuntu-2204--r-release-on-aarch64-ubuntu-2204-aarch64-r44)
@@ -71,7 +72,6 @@ options(repos = c(
 ### Containers using this repo
 
 * [x] `ubuntu-clang` (CRAN's `r-devel-linux-x86_64-debian-clang`)
-* [x] `ubuntu-gcc12` (CRAN's `r-devel-linux-x86_64-debian-gcc`)
 * [ ] `ubuntu-gcc` (CRAN's `r-devel-linux-x86_64-fedora-gcc`)
 * [x] `nold` (extra `noLD`)
 * [ ] `lto` (extra `LTO`)
@@ -103,6 +103,21 @@ options(repos = c(
 * [x] `clang18`
 * [x] `clang19`
 * [ ] `ubuntu-libc++` (CRAN's `r-devel-linux-x86_64-fedora-clang`)
+
+## Ubuntu 24.04 + R-devel (`ubuntu-24.04-R4.6`)
+
+### Setup
+
+```
+options(repos = c(
+  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-24.04/4.6",
+  CRAN = "https://cloud.r-project.org"
+))
+```
+
+### Containers using this repo
+
+* [x] `ubuntu-gcc15` (CRAN's `r-devel-linux-x86_64-debian-gcc`)
 
 ## Fedora 38 + R-devel (`fedora-38-R4.6`)
 
@@ -211,7 +226,7 @@ We practically cannot implement this platform currently:
 Name             | CRAN                              | ✓ | Repo
 -----------------|-----------------------------------|---|--------------------------
 `ubuntu-clang`   | r-devel-linux-x86_64-debian-clang | ✓ | ubuntu-22.04-R4.6
-`ubuntu-gcc12`   | r-devel-linux-x86_64-debian-gcc   | ✓ | ubuntu-22.04-R4.6
+`ubuntu-gcc15`   | r-devel-linux-x86_64-debian-gcc   | ✓ | ubuntu-24.04-R4.6
 `ubuntu-libc++`  | r-devel-linux-x86_64-fedora-clang |   | ubuntu-22.04-R4.6-libc++
 `fedora-gcc`     | r-devel-linux-x86_64-fedora-gcc   |   | fedora-38-R4.6
 `windows`        | r-devel-windows-x86_64            | ✓ | CRAN
