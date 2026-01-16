@@ -477,21 +477,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Subversion for install_svn, git for install_git
 
-Package: rstudioapi
-Version: 0.17.1
-Depends: R (>= 4.6), R (< 4.6.99)
-Suggests: testthat, knitr, rmarkdown, clipr, covr
-License: MIT + file LICENSE
-File: rstudioapi_0.17.1_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/rstudioapi/releases/download/0.17.1/rstudioapi_0.17.1_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:31:32 UTC; unix
-Filesize: 348554
-SHA256: e503319f292254852078da371b48d0eaa5a960ea6c82421c0c2f491ef9ecb8b9
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: sessioninfo
 Version: 1.2.3
 Depends: R (>= 3.4), R (>= 4.6), R (< 4.6.99)
@@ -553,24 +538,6 @@ DownloadURL: https://github.com/cran/urlchecker/releases/download/1.0.1/urlcheck
 Built: R 4.6.0; ; 2025-03-15 08:39:46 UTC; unix
 Filesize: 35152
 SHA256: 08600ee059d148f9bdc09144644468c2b6f5b15b595404737a3ca0dfb898703c
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: vctrs
-Version: 0.6.5
-Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
-Imports: cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.0)
-Suggests: bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr, pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>= 3.0.0), tibble (>= 3.1.3), waldo (>= 0.2.0), withr, xml2, zeallot
-License: MIT + file LICENSE
-File: vctrs_0.6.5_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/vctrs/releases/download/0.6.5/vctrs_0.6.5_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:29:03 UTC; unix
-Filesize: 2301902
-SHA256: d690e6ad832f4c8d009e8d523d0ab90b36175daff0cb025097877f257887e7a9
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
@@ -3893,22 +3860,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: future
-Version: 1.68.0
-Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
-Imports: digest, globals (>= 0.18.0), listenv (>= 0.8.0), parallel, parallelly (>= 1.44.0), utils
-Suggests: methods, RhpcBLASctl, R.rsp, markdown
-License: LGPL (>= 2.1)
-File: future_1.68.0_b6_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/future/releases/download/1.68.0/future_1.68.0_b6_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.6.0; ; 2025-11-17 17:19:24 UTC; unix
-Filesize: 1002325
-SHA256: d8d15d42c615b080b11b12fae230ed18cbeb7c8a082d83001499aba5e377cb0b
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: fansi
 Version: 1.0.7
 Depends: R (>= 3.1.0), R (>= 4.6), R (< 4.6.99)
@@ -5066,6 +5017,55 @@ DownloadURL: https://github.com/cran/doFuture/releases/download/1.2.0/doFuture_1
 Built: R 4.6.0; ; 2026-01-15 17:31:55 UTC; unix
 Filesize: 183605
 SHA256: 37a4b1f44bce421cb11948af79feb05bf1a1bbb828dbdcc1b07c839b2e5333d7
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rstudioapi
+Version: 0.18.0
+Depends: R (>= 4.6), R (< 4.6.99)
+Suggests: testthat, knitr, rmarkdown, clipr, covr, curl, jsonlite, withr
+License: MIT + file LICENSE
+File: rstudioapi_0.18.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/rstudioapi/releases/download/0.18.0/rstudioapi_0.18.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.6.0; ; 2026-01-16 17:24:19 UTC; unix
+Filesize: 378307
+SHA256: b8912646b4aecba65e1dd6fcbfa793c2bdb3cb673c32e2bfae2caa4f38be6bb2
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: vctrs
+Version: 0.7.0
+Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
+Imports: cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.7)
+Suggests: bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr, pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>= 3.0.0), tibble (>= 3.1.3), waldo (>= 0.2.0), withr, xml2, zeallot
+License: MIT + file LICENSE
+File: vctrs_0.7.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/vctrs/releases/download/0.7.0/vctrs_0.7.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-01-16 17:24:20 UTC; unix
+Filesize: 2902486
+SHA256: 0bab5363166442852499bf33071e411c0f6eb766adbaee97cf000d21c75b5efe
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: future
+Version: 1.69.0
+Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
+Imports: digest, globals (>= 0.18.0), listenv (>= 0.8.0), parallel, parallelly (>= 1.44.0), utils
+Suggests: methods, RhpcBLASctl, R.rsp, markdown
+License: LGPL (>= 2.1)
+File: future_1.69.0_b7_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/future/releases/download/1.69.0/future_1.69.0_b7_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.6.0; ; 2026-01-16 17:24:22 UTC; unix
+Filesize: 1012338
+SHA256: e588eb26bbc4abd0c8d7e09ea357e3b86bcda5ee004bcae2e5396f38a2c0f4c6
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 17
