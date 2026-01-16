@@ -477,21 +477,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Subversion for install_svn, git for install_git
 
-Package: rstudioapi
-Version: 0.17.1
-Depends: R (>= 4.6), R (< 4.6.99)
-Suggests: testthat, knitr, rmarkdown, clipr, covr
-License: MIT + file LICENSE
-File: rstudioapi_0.17.1_b1_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/rstudioapi/releases/download/0.17.1/rstudioapi_0.17.1_b1_R4.6_x86_64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-03-16 17:59:58 UTC; unix
-Filesize: 325251
-SHA256: 357c75e6f8a89cf55f3aa16007495d49308bf6b9cfce70bbbcc753fce5011360
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: sessioninfo
 Version: 1.2.3
 Depends: R (>= 3.4), R (>= 4.6), R (< 4.6.99)
@@ -553,24 +538,6 @@ DownloadURL: https://github.com/cran/urlchecker/releases/download/1.0.1/urlcheck
 Built: R 4.6.0; ; 2025-03-16 18:25:54 UTC; unix
 Filesize: 34208
 SHA256: ce87aec9ad2ca84459bd36f7526fa76eb06b7c7dc4c17ea8c3ecfe3023b05519
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: vctrs
-Version: 0.6.5
-Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
-Imports: cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.0)
-Suggests: bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr, pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>= 3.0.0), tibble (>= 3.1.3), waldo (>= 0.2.0), withr, xml2, zeallot
-License: MIT + file LICENSE
-File: vctrs_0.6.5_b1_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/vctrs/releases/download/0.6.5/vctrs_0.6.5_b1_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2025-03-16 17:56:05 UTC; unix
-Filesize: 1338438
-SHA256: 391d789035c476c0d9b5fb8c4f5d8056b837b4bca2eef5bd94a13be6fa1ae412
 RVersion: 4.6
 Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
@@ -3892,22 +3859,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: future
-Version: 1.68.0
-Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
-Imports: digest, globals (>= 0.18.0), listenv (>= 0.8.0), parallel, parallelly (>= 1.44.0), utils
-Suggests: methods, RhpcBLASctl, R.rsp, markdown
-License: LGPL (>= 2.1)
-File: future_1.68.0_b6_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/future/releases/download/1.68.0/future_1.68.0_b6_R4.6_x86_64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-11-17 08:05:45 UTC; unix
-Filesize: 967306
-SHA256: 9ff4adee40a15f4aa949406a56546315c92dbb2a2b5f752dc39f5b087a91d98f
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: fansi
 Version: 1.0.7
 Depends: R (>= 3.1.0), R (>= 4.6), R (< 4.6.99)
@@ -5065,6 +5016,55 @@ DownloadURL: https://github.com/cran/doFuture/releases/download/1.2.0/doFuture_1
 Built: R 4.6.0; ; 2026-01-15 07:55:21 UTC; unix
 Filesize: 174132
 SHA256: 432b51b23a31b6a2473800a7ff84eddaaccc0189a72a1dd71724d7d356e614ff
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rstudioapi
+Version: 0.18.0
+Depends: R (>= 4.6), R (< 4.6.99)
+Suggests: testthat, knitr, rmarkdown, clipr, covr, curl, jsonlite, withr
+License: MIT + file LICENSE
+File: rstudioapi_0.18.0_b2_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/rstudioapi/releases/download/0.18.0/rstudioapi_0.18.0_b2_R4.6_x86_64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2026-01-16 11:44:35 UTC; unix
+Filesize: 346833
+SHA256: adfca459a5e159e376171ac09321b2c6dd94e9e62ee3efbab4ac2862c00dedcc
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: vctrs
+Version: 0.7.0
+Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
+Imports: cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.7)
+Suggests: bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr, pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>= 3.0.0), tibble (>= 3.1.3), waldo (>= 0.2.0), withr, xml2, zeallot
+License: MIT + file LICENSE
+File: vctrs_0.7.0_b2_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/vctrs/releases/download/0.7.0/vctrs_0.7.0_b2_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2026-01-16 17:48:09 UTC; unix
+Filesize: 1468926
+SHA256: 883e114cfd922163ecbb73cb7a429a512a497c31ce45bf9902550acd916ff4d8
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: future
+Version: 1.69.0
+Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
+Imports: digest, globals (>= 0.18.0), listenv (>= 0.8.0), parallel, parallelly (>= 1.44.0), utils
+Suggests: methods, RhpcBLASctl, R.rsp, markdown
+License: LGPL (>= 2.1)
+File: future_1.69.0_b7_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/future/releases/download/1.69.0/future_1.69.0_b7_R4.6_x86_64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2026-01-16 17:48:37 UTC; unix
+Filesize: 981174
+SHA256: 9badd1ddd52bf27ca7ffdf85f66322d7e6f5b4907dc1435f38e686310b32ca11
 RVersion: 4.6
 Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 17
