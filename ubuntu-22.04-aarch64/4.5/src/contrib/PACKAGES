@@ -442,23 +442,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: rappdirs
-Version: 0.3.3
-Depends: R (>= 3.2), R (>= 4.5), R (< 4.5.99)
-Suggests: roxygen2, testthat (>= 3.0.0), covr, withr
-License: MIT + file LICENSE
-File: rappdirs_0.3.3_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/rappdirs/releases/download/0.3.3/rappdirs_0.3.3_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-16 01:08:57 UTC; unix
-Filesize: 47752
-SHA256: 6aa627e2a9865cf76018a2d4af33d9a553b78474adb6840e647e3c8e37bec924
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: rcmdcheck
 Version: 1.4.0
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4003,25 +3986,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
 
-Package: xml2
-Version: 1.5.1
-Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-Imports: cli, methods, rlang (>= 1.1.0)
-Suggests: covr, curl, httr, knitr, mockery, rmarkdown, testthat (>= 3.2.0), xslt
-License: MIT + file LICENSE
-File: xml2_1.5.1_b5_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/xml2/releases/download/1.5.1/xml2_1.5.1_b5_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.2; aarch64-unknown-linux-gnu; 2025-12-01 18:53:42 UTC; unix
-Filesize: 649337
-SHA256: d19b5081c44d9f07686226be8765ac3bfb1b222f8f518bfa01e6ecf94963e68c
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
-
 Package: fracdiff
 Version: 1.5-3
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -5107,3 +5071,39 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rappdirs
+Version: 0.3.4
+Depends: R (>= 4.1), R (>= 4.5), R (< 4.5.99)
+Suggests: covr, roxygen2, testthat (>= 3.2.0), withr
+License: MIT + file LICENSE
+File: rappdirs_0.3.4_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/rappdirs/releases/download/0.3.4/rappdirs_0.3.4_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.2; aarch64-unknown-linux-gnu; 2026-01-17 18:45:58 UTC; unix
+Filesize: 48094
+SHA256: 688559e59189e101d6279fae7fd41ba6e67cbe30c09e7d98d23662bb8ca2175a
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: xml2
+Version: 1.5.2
+Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+Imports: cli, methods, rlang (>= 1.1.0)
+Suggests: covr, curl, httr, knitr, mockery, rmarkdown, testthat (>= 3.2.0), xslt
+License: MIT + file LICENSE
+File: xml2_1.5.2_b6_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/xml2/releases/download/1.5.2/xml2_1.5.2_b6_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.2; aarch64-unknown-linux-gnu; 2026-01-17 18:47:08 UTC; unix
+Filesize: 649751
+SHA256: d66582dcc6ffe98ad4b52e295a427e4105965542eeac31861b4d94bde43c116c
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
