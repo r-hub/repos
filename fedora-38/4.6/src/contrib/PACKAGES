@@ -427,23 +427,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: rappdirs
-Version: 0.3.3
-Depends: R (>= 3.2), R (>= 4.6), R (< 4.6.99)
-Suggests: roxygen2, testthat (>= 3.0.0), covr, withr
-License: MIT + file LICENSE
-File: rappdirs_0.3.3_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/rappdirs/releases/download/0.3.3/rappdirs_0.3.3_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:28:26 UTC; unix
-Filesize: 51514
-SHA256: ae2c2d6964a91dfa5830072c7d41634a37d51e86faf4bc32761345ba2874ed01
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: rcmdcheck
 Version: 1.4.0
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -3951,25 +3934,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
 
-Package: xml2
-Version: 1.5.1
-Depends: R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
-Imports: cli, methods, rlang (>= 1.1.0)
-Suggests: covr, curl, httr, knitr, mockery, rmarkdown, testthat (>= 3.2.0), xslt
-License: MIT + file LICENSE
-File: xml2_1.5.1_b5_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/xml2/releases/download/1.5.1/xml2_1.5.1_b5_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-12-01 17:21:34 UTC; unix
-Filesize: 660425
-SHA256: 53ca58eae923592b803a6f63b8a373303815a1ad5a74bf1b9ae274deb3b41315
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
-
 Package: fracdiff
 Version: 1.5-3
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -5070,3 +5034,39 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rappdirs
+Version: 0.3.4
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Suggests: covr, roxygen2, testthat (>= 3.2.0), withr
+License: MIT + file LICENSE
+File: rappdirs_0.3.4_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/rappdirs/releases/download/0.3.4/rappdirs_0.3.4_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-01-17 17:17:31 UTC; unix
+Filesize: 51750
+SHA256: 5589c7c8d018714673e1462ec36cb94ce0bdd03a5f232819dca1c1cf9eab6fac
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: xml2
+Version: 1.5.2
+Depends: R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
+Imports: cli, methods, rlang (>= 1.1.0)
+Suggests: covr, curl, httr, knitr, mockery, rmarkdown, testthat (>= 3.2.0), xslt
+License: MIT + file LICENSE
+File: xml2_1.5.2_b6_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/xml2/releases/download/1.5.2/xml2_1.5.2_b6_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-01-17 17:17:33 UTC; unix
+Filesize: 660704
+SHA256: acafff18e0726aab4a66e9f0fd7491d2faeef074c29b9f90d81f7a6268414c39
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
