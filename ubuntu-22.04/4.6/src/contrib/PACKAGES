@@ -3934,25 +3934,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
 
-Package: xml2
-Version: 1.5.1
-Depends: R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
-Imports: cli, methods, rlang (>= 1.1.0)
-Suggests: covr, curl, httr, knitr, mockery, rmarkdown, testthat (>= 3.2.0), xslt
-License: MIT + file LICENSE
-File: xml2_1.5.1_b5_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/xml2/releases/download/1.5.1/xml2_1.5.1_b5_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-12-01 16:47:38 UTC; unix
-Filesize: 662064
-SHA256: e5e0a9b04b4c395526f319691e2edce32dd896fcd7e36a7c3052bd9c060766ae
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
-
 Package: fracdiff
 Version: 1.5-3
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4287,25 +4268,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
-
-Package: xfun
-Version: 0.55
-Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
-Imports: grDevices, stats, tools
-Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.6), commonmark, knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, data.table, qs2,
-        qs
-License: MIT + file LICENSE
-File: xfun_0.55_b5_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/xfun/releases/download/0.55/xfun_0.55_b5_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-12-16 09:29:22 UTC; unix
-Filesize: 602241
-SHA256: 18d4b99c7bd6f7990b82924c2685e756177d851ab169dccc820dbbdc8c04c514
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: duckdb
 Version: 1.4.3
@@ -5066,6 +5028,43 @@ Arch: amd64
 Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-01-17 16:41:18 UTC; unix
 Filesize: 48471
 SHA256: 01437fe487dee1d6922bbb0b9838b41c23905dfb94a0479ea6e5bc30d7d33d2a
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: xml2
+Version: 1.5.2
+Depends: R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
+Imports: cli, methods, rlang (>= 1.1.0)
+Suggests: covr, curl, httr, knitr, mockery, rmarkdown, testthat (>= 3.2.0), xslt
+License: MIT + file LICENSE
+File: xml2_1.5.2_b6_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/xml2/releases/download/1.5.2/xml2_1.5.2_b6_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-01-18 16:42:52 UTC; unix
+Filesize: 662068
+SHA256: 32d6216a163bd377b016f6f0a1b060d9a2489fa150e5a56e66c9c9ab6f9b4af7
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
+
+Package: xfun
+Version: 0.56
+Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
+Imports: grDevices, stats, tools
+Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.6), commonmark, knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, data.table, qs2
+License: MIT + file LICENSE
+File: xfun_0.56_b6_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/xfun/releases/download/0.56/xfun_0.56_b6_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-01-18 16:42:51 UTC; unix
+Filesize: 604158
+SHA256: 555007fb63428225cc201649376f5de6db224a03d43ffce778d03ab794dedabf
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
