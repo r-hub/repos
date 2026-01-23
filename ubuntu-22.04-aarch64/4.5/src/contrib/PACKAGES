@@ -1250,22 +1250,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: uuid
-Version: 1.2-1
-Depends: R (>= 2.9.0), R (>= 4.5), R (< 4.5.99)
-License: MIT + file LICENSE
-File: uuid_1.2-1_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/uuid/releases/download/1.2-1/uuid_1.2-1_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-16 01:14:02 UTC; unix
-Filesize: 82942
-SHA256: a0c74cd076b722dfc112ff58728b78e43ced37434da6d772f6b4b7ba122db759
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: Formula
 Version: 1.2-5
 Depends: R (>= 2.0.0), stats, R (>= 4.5), R (< 4.5.99)
@@ -2175,22 +2159,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: chron, zoo
-
-Package: Rdpack
-Version: 2.6.4
-Depends: R (>= 2.15.0), methods, R (>= 4.5), R (< 4.5.99)
-Imports: tools, utils, rbibutils (>= 1.3)
-Suggests: grDevices, testthat, rstudioapi, rprojroot, gbRd
-License: GPL (>= 2)
-File: Rdpack_2.6.4_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/Rdpack/releases/download/2.6.4/Rdpack_2.6.4_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.0; ; 2025-04-09 18:44:19 UTC; unix
-Filesize: 637115
-SHA256: cd5f7277ce737374191f08ebf64b17658b78f6da0bb36170ca35d5cc8085f455
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: fs
 Version: 1.6.6
@@ -4500,27 +4468,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
 
-Package: arrow
-Version: 22.0.0.1
-Depends: R (>= 4.1), R (>= 4.5), R (< 4.5.99)
-Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
-Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
-        tibble, tzdb, withr
-License: Apache License (>= 2.0)
-File: arrow_22.0.0.1_b8_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/arrow/releases/download/22.0.0.1/arrow_22.0.0.1_b8_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.2; aarch64-unknown-linux-gnu; 2025-12-23 19:07:54 UTC; unix
-Filesize: 198067176
-SHA256: c88b300e1314799478895d13fadbf732061760bd8ae134d5f2d84f8953fa3fdd
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.26 (build-time only, and only for full source build)
-LinkingTo: cpp11 (>= 0.4.2)
-
 Package: data.table
 Version: 1.18.0
 Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
@@ -5106,3 +5053,56 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: uuid
+Version: 1.2-2
+Depends: R (>= 2.9.0), R (>= 4.5), R (< 4.5.99)
+License: MIT + file LICENSE
+File: uuid_1.2-2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/uuid/releases/download/1.2-2/uuid_1.2-2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.2; aarch64-unknown-linux-gnu; 2026-01-23 18:55:09 UTC; unix
+Filesize: 84432
+SHA256: d358e03a220004d7fb8ee9d8f002a919d31e67651a5f302bf6b826678d3553d1
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: Rdpack
+Version: 2.6.5
+Depends: R (>= 2.15.0), methods, R (>= 4.5), R (< 4.5.99)
+Imports: tools, utils, rbibutils (> 2.4)
+Suggests: grDevices, testthat, rstudioapi, rprojroot, gbRd
+License: GPL (>= 2)
+File: Rdpack_2.6.5_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/Rdpack/releases/download/2.6.5/Rdpack_2.6.5_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.2; ; 2026-01-23 18:55:07 UTC; unix
+Filesize: 637124
+SHA256: 2d43b0ae22a8c8c4ada6add6a74ded0df654f16a1e990466c7615bef1be0f6b0
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: arrow
+Version: 23.0.0
+Depends: R (>= 4.1), R (>= 4.5), R (< 4.5.99)
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
+        tibble, tzdb, withr
+License: Apache License (>= 2.0)
+File: arrow_23.0.0_b9_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/arrow/releases/download/23.0.0/arrow_23.0.0_b9_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.2; aarch64-unknown-linux-gnu; 2026-01-23 19:13:42 UTC; unix
+Filesize: 202659347
+SHA256: fe204e2239b674043ea724dd0ffb6e17dce7995454ee3d284311cfa559ed4686
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++20; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.26 (build-time only, and only for full source build)
+LinkingTo: cpp11 (>= 0.4.2)
