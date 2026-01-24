@@ -2572,24 +2572,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: plotly
-Version: 4.11.0
-Depends: R (>= 3.2.0), ggplot2 (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
-Imports: tools, scales, httr (>= 1.3.0), jsonlite (>= 1.6), magrittr, digest, viridisLite, base64enc, htmltools (>= 0.3.6), htmlwidgets (>= 1.5.2.9001), tidyr (>= 1.0.0), RColorBrewer, dplyr, vctrs,
-        tibble, lazyeval (>= 0.2.0), rlang (>= 1.0.0), crosstalk, purrr, data.table, promises
-Suggests: MASS, maps, hexbin, ggthemes, GGally, ggalluvial, testthat, knitr, shiny (>= 1.1.0), shinytest2, curl, rmarkdown, Cairo, broom, webshot, listviewer, dendextend, sf, png, IRdisplay,
-        processx, plotlyGeoAssets, forcats, withr, palmerpenguins, rversions, reticulate, rsvg, ggridges
-License: MIT + file LICENSE
-File: plotly_4.11.0_b2_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/plotly/releases/download/4.11.0/plotly_4.11.0_b2_R4.6_x86_64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-06-20 17:40:06 UTC; unix
-Filesize: 3864372
-SHA256: 6e4f9c7153235c1244c21ad5eece26b92ddf2a26dc22468f8447fb83d005a357
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: commonmark
 Version: 2.0.0
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4895,24 +4877,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: vctrs
-Version: 0.7.0
-Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
-Imports: cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.7)
-Suggests: bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr, pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>= 3.0.0), tibble (>= 3.1.3), waldo (>= 0.2.0), withr, xml2, zeallot
-License: MIT + file LICENSE
-File: vctrs_0.7.0_b2_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/vctrs/releases/download/0.7.0/vctrs_0.7.0_b2_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2026-01-16 17:48:09 UTC; unix
-Filesize: 1468926
-SHA256: 883e114cfd922163ecbb73cb7a429a512a497c31ce45bf9902550acd916ff4d8
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: future
 Version: 1.69.0
 Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
@@ -5068,3 +5032,39 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++20; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.26 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
+
+Package: plotly
+Version: 4.12.0
+Depends: R (>= 3.5.0), ggplot2 (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
+Imports: tools, scales, httr (>= 1.3.0), jsonlite (>= 1.6), magrittr, digest, viridisLite, base64enc, htmltools (>= 0.3.6), htmlwidgets (>= 1.5.2.9001), tidyr (>= 1.0.0), RColorBrewer, dplyr, vctrs,
+        tibble, lazyeval (>= 0.2.0), rlang (>= 1.0.0), crosstalk, purrr, data.table, promises
+Suggests: MASS, maps, hexbin, ggthemes, GGally, ggalluvial, testthat, knitr, shiny (>= 1.1.0), shinytest2, curl, rmarkdown, Cairo, broom, webshot, listviewer, dendextend, sf, png, IRdisplay,
+        processx, plotlyGeoAssets, forcats, withr, palmerpenguins, rversions, reticulate, rsvg, ggridges
+License: MIT + file LICENSE
+File: plotly_4.12.0_b3_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/plotly/releases/download/4.12.0/plotly_4.12.0_b3_R4.6_x86_64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2026-01-24 17:41:26 UTC; unix
+Filesize: 3903507
+SHA256: a2b6d524bd3deb69423eb28aca06c9615e8dc5b215ff46fe58de4abd3481e5ce
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: vctrs
+Version: 0.7.1
+Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
+Imports: cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.7)
+Suggests: bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr, pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>= 3.0.0), tibble (>= 3.1.3), waldo (>= 0.2.0), withr, xml2, zeallot
+License: MIT + file LICENSE
+File: vctrs_0.7.1_b3_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/vctrs/releases/download/0.7.1/vctrs_0.7.1_b3_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2026-01-24 17:40:59 UTC; unix
+Filesize: 1470333
+SHA256: cb9855adbb313c0481d355689d45d0f377115543e81892442387ae1ee3367469
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
