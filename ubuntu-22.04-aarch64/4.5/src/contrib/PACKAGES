@@ -2591,24 +2591,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: plotly
-Version: 4.11.0
-Depends: R (>= 3.2.0), ggplot2 (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
-Imports: tools, scales, httr (>= 1.3.0), jsonlite (>= 1.6), magrittr, digest, viridisLite, base64enc, htmltools (>= 0.3.6), htmlwidgets (>= 1.5.2.9001), tidyr (>= 1.0.0), RColorBrewer, dplyr, vctrs,
-        tibble, lazyeval (>= 0.2.0), rlang (>= 1.0.0), crosstalk, purrr, data.table, promises
-Suggests: MASS, maps, hexbin, ggthemes, GGally, ggalluvial, testthat, knitr, shiny (>= 1.1.0), shinytest2, curl, rmarkdown, Cairo, broom, webshot, listviewer, dendextend, sf, png, IRdisplay,
-        processx, plotlyGeoAssets, forcats, withr, palmerpenguins, rversions, reticulate, rsvg, ggridges
-License: MIT + file LICENSE
-File: plotly_4.11.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/plotly/releases/download/4.11.0/plotly_4.11.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.1; ; 2025-06-20 18:46:32 UTC; unix
-Filesize: 3855570
-SHA256: fc46b516fee294deea15f83227a4989f66a4b949970794d537f1f95c03ce4af5
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: commonmark
 Version: 2.0.0
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4933,24 +4915,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: vctrs
-Version: 0.7.0
-Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
-Imports: cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.7)
-Suggests: bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr, pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>= 3.0.0), tibble (>= 3.1.3), waldo (>= 0.2.0), withr, xml2, zeallot
-License: MIT + file LICENSE
-File: vctrs_0.7.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/vctrs/releases/download/0.7.0/vctrs_0.7.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.2; aarch64-unknown-linux-gnu; 2026-01-16 18:51:31 UTC; unix
-Filesize: 2746211
-SHA256: a2456685f5091111a502a6dd64385cee62eaa97d5094d529c404aaa943049c7f
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: future
 Version: 1.69.0
 Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
@@ -5106,3 +5070,39 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++20; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.26 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
+
+Package: plotly
+Version: 4.12.0
+Depends: R (>= 3.5.0), ggplot2 (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
+Imports: tools, scales, httr (>= 1.3.0), jsonlite (>= 1.6), magrittr, digest, viridisLite, base64enc, htmltools (>= 0.3.6), htmlwidgets (>= 1.5.2.9001), tidyr (>= 1.0.0), RColorBrewer, dplyr, vctrs,
+        tibble, lazyeval (>= 0.2.0), rlang (>= 1.0.0), crosstalk, purrr, data.table, promises
+Suggests: MASS, maps, hexbin, ggthemes, GGally, ggalluvial, testthat, knitr, shiny (>= 1.1.0), shinytest2, curl, rmarkdown, Cairo, broom, webshot, listviewer, dendextend, sf, png, IRdisplay,
+        processx, plotlyGeoAssets, forcats, withr, palmerpenguins, rversions, reticulate, rsvg, ggridges
+License: MIT + file LICENSE
+File: plotly_4.12.0_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/plotly/releases/download/4.12.0/plotly_4.12.0_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.2; ; 2026-01-24 18:49:30 UTC; unix
+Filesize: 3898870
+SHA256: 78b751a8e3cc7f3789c0b464c95ab0541ffb9dc6be9626e5b9ae21534be0aff7
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: vctrs
+Version: 0.7.1
+Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
+Imports: cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.7)
+Suggests: bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr, pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>= 3.0.0), tibble (>= 3.1.3), waldo (>= 0.2.0), withr, xml2, zeallot
+License: MIT + file LICENSE
+File: vctrs_0.7.1_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/vctrs/releases/download/0.7.1/vctrs_0.7.1_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.2; aarch64-unknown-linux-gnu; 2026-01-24 18:48:25 UTC; unix
+Filesize: 2747074
+SHA256: 713c4fa99554a2fc64fc7425323196f2a518a165be44d329dcf8b55724cda61e
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
