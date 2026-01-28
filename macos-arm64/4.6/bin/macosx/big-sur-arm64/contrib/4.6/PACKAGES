@@ -3406,22 +3406,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: freetype2, harfbuzz, fribidi
 LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
 
-Package: timeDate
-Version: 4051.111
-Depends: R (>= 3.6.0), methods, R (>= 4.6), R (< 4.6.99)
-Imports: graphics, utils, stats
-Suggests: RUnit
-License: GPL (>= 2)
-File: timeDate_4051.111_b2_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/timeDate/releases/download/4051.111/timeDate_4051.111_b2_R4.6_aarch64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-10-17 17:37:12 UTC; unix
-Filesize: 1490786
-SHA256: 02ce09f7b12e3da0414934f65ba2c6d077ea682414215178673813c464dc939b
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: hms
 Version: 1.1.4
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4162,25 +4146,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
-
-Package: duckdb
-Version: 1.4.3
-Depends: DBI, R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
-Imports: methods, utils
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-License: MIT + file LICENSE
-File: duckdb_1.4.3_b10_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.4.3/duckdb_1.4.3_b10_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-12-16 09:30:44 UTC; unix
-Filesize: 14381194
-SHA256: 20a89e37a3a2a7e1285056f2a6959814dfd98c782a2d3f53394320ff6dc3d8bc
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: xz (for building from source)
 
 Package: yaml
 Version: 2.3.12
@@ -5123,3 +5088,38 @@ RVersion: 4.6
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: timeDate
+Version: 4052.112
+Depends: R (>= 3.6.0), methods, R (>= 4.6), R (< 4.6.99)
+Imports: graphics, utils, stats
+Suggests: RUnit
+License: GPL (>= 2)
+File: timeDate_4052.112_b3_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/timeDate/releases/download/4052.112/timeDate_4052.112_b3_R4.6_aarch64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2026-01-28 17:55:03 UTC; unix
+Filesize: 1489748
+SHA256: d4c989d4f3f6b76ff1c21a4971902622f10a1e77e88537885a4d6d5b5d3296bb
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: duckdb
+Version: 1.4.4
+Depends: DBI, R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
+Imports: methods, utils
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+License: MIT + file LICENSE
+File: duckdb_1.4.4_b11_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.4.4/duckdb_1.4.4_b11_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2026-01-28 17:55:10 UTC; unix
+Filesize: 14392063
+SHA256: c09f51d3080ba067b3365d84f0cea91e5b559f4bea5e97b256f032d4fec4fe27
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: xz (for building from source)
