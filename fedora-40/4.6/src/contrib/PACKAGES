@@ -3370,22 +3370,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: freetype2, harfbuzz, fribidi
 LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
 
-Package: timeDate
-Version: 4051.111
-Depends: R (>= 3.6.0), methods, R (>= 4.6), R (< 4.6.99)
-Imports: graphics, utils, stats
-Suggests: RUnit
-License: GPL (>= 2)
-File: timeDate_4051.111_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/timeDate/releases/download/4051.111/timeDate_4051.111_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-Built: R 4.6.0; ; 2025-10-17 17:19:24 UTC; unix
-Filesize: 1570077
-SHA256: 971d5f9ded2f0b3ce6e7c72ac54ece1900a386d658fc68ac65e0b9f91740c4d1
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: hms
 Version: 1.1.4
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4108,25 +4092,6 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
-
-Package: duckdb
-Version: 1.4.3
-Depends: DBI, R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
-Imports: methods, utils
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-License: MIT + file LICENSE
-File: duckdb_1.4.3_b10_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.4.3/duckdb_1.4.3_b10_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-12-16 09:29:36 UTC; unix
-Filesize: 300009495
-SHA256: 6fb57279bea5084db7fbb5df0d5f6b2956d9fd751cdd3d835c7fcf45014904fc
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: xz (for building from source)
 
 Package: yaml
 Version: 2.3.12
@@ -5069,3 +5034,38 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: timeDate
+Version: 4052.112
+Depends: R (>= 3.6.0), methods, R (>= 4.6), R (< 4.6.99)
+Imports: graphics, utils, stats
+Suggests: RUnit
+License: GPL (>= 2)
+File: timeDate_4052.112_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/timeDate/releases/download/4052.112/timeDate_4052.112_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.6.0; ; 2026-01-28 17:36:02 UTC; unix
+Filesize: 1570438
+SHA256: 45b6f365c72671f7aade3a5f065bb1af903190f49c31428cb4d659f19a7d23d4
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: duckdb
+Version: 1.4.4
+Depends: DBI, R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
+Imports: methods, utils
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+License: MIT + file LICENSE
+File: duckdb_1.4.4_b11_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.4.4/duckdb_1.4.4_b11_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-01-28 17:36:04 UTC; unix
+Filesize: 299822260
+SHA256: 5f0ed744f4574985cb1c4d94ffd980921105022fd2146a7e91db1892d189e157
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: xz (for building from source)
