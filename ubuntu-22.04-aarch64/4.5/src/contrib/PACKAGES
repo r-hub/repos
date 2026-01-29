@@ -2944,22 +2944,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: freetype2, libpng, libtiff, libjpeg, libwebp, libwebpmux
 LinkingTo: systemfonts, textshaping
 
-Package: gargle
-Version: 1.6.0
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-Imports: cli (>= 3.0.1), fs (>= 1.3.1), glue (>= 1.3.0), httr (>= 1.4.5), jsonlite, lifecycle (>= 0.2.0), openssl, rappdirs, rlang (>= 1.1.0), stats, utils, withr
-Suggests: aws.ec2metadata, aws.signature, covr, httpuv, knitr, rmarkdown, sodium, spelling, testthat (>= 3.1.7)
-License: MIT + file LICENSE
-File: gargle_1.6.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/gargle/releases/download/1.6.0/gargle_1.6.0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.1; ; 2025-09-03 18:42:20 UTC; unix
-Filesize: 621094
-SHA256: 9994f7f9c9ce31ca366348ed47161276eba34612874fc73196ef550c28edead8
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: DT
 Version: 0.34.0
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -5106,3 +5090,19 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: xz (for building from source)
+
+Package: gargle
+Version: 1.6.1
+Depends: R (>= 4.1), R (>= 4.5), R (< 4.5.99)
+Imports: cli (>= 3.0.1), fs (>= 1.3.1), glue (>= 1.3.0), httr (>= 1.4.5), jsonlite, lifecycle (>= 0.2.0), openssl, rappdirs, rlang (>= 1.1.0), stats, utils, withr
+Suggests: aws.ec2metadata, aws.signature, covr, httpuv, knitr, rmarkdown, sodium, spelling, testthat (>= 3.1.7)
+License: MIT + file LICENSE
+File: gargle_1.6.1_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/gargle/releases/download/1.6.1/gargle_1.6.1_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.2; ; 2026-01-29 19:06:07 UTC; unix
+Filesize: 781696
+SHA256: 27e0f928e3bb639ad1622b094fbc690421a21a39d0fbe8d4d21e17d8cf4c7753
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
