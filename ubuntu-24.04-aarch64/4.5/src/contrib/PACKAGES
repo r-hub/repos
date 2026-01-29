@@ -3389,22 +3389,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: freetype2, harfbuzz, fribidi
 LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
 
-Package: timeDate
-Version: 4051.111
-Depends: R (>= 3.6.0), methods, R (>= 4.5), R (< 4.5.99)
-Imports: graphics, utils, stats
-Suggests: RUnit
-License: GPL (>= 2)
-File: timeDate_4051.111_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/timeDate/releases/download/4051.111/timeDate_4051.111_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.5.1; ; 2025-10-17 23:19:29 UTC; unix
-Filesize: 1484287
-SHA256: 610a90b75766c543eb74039a44bdef378c8bec7fffe92d5ea99ccfa3695c2e6d
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: hms
 Version: 1.1.4
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4096,25 +4080,6 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: duckdb
-Version: 1.4.3
-Depends: DBI, R (>= 4.1.0), R (>= 4.5), R (< 4.5.99)
-Imports: methods, utils
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-License: MIT + file LICENSE
-File: duckdb_1.4.3_b10_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.4.3/duckdb_1.4.3_b10_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.2; aarch64-unknown-linux-gnu; 2025-12-10 23:21:04 UTC; unix
-Filesize: 286760916
-SHA256: 81095be44e9d7a3066702739ea497c70aca897646cb9f39e001d6cccac6b07e2
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: xz (for building from source)
 
 Package: yaml
 Version: 2.3.12
@@ -5106,3 +5071,38 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: timeDate
+Version: 4052.112
+Depends: R (>= 3.6.0), methods, R (>= 4.5), R (< 4.5.99)
+Imports: graphics, utils, stats
+Suggests: RUnit
+License: GPL (>= 2)
+File: timeDate_4052.112_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/timeDate/releases/download/4052.112/timeDate_4052.112_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.5.2; ; 2026-01-28 23:30:33 UTC; unix
+Filesize: 1484207
+SHA256: ec243c00683eb365cb6c1c33831edd09c33fa051e1dea30fe98c31d880dbdd40
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: duckdb
+Version: 1.4.4
+Depends: DBI, R (>= 4.1.0), R (>= 4.5), R (< 4.5.99)
+Imports: methods, utils
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
+License: MIT + file LICENSE
+File: duckdb_1.4.4_b11_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.4.4/duckdb_1.4.4_b11_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.2; aarch64-unknown-linux-gnu; 2026-01-28 23:30:34 UTC; unix
+Filesize: 286635841
+SHA256: 9099fec544f5d8670b2754fef0f8245f2fbece209facebd14295e3a0a56aa554
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: xz (for building from source)
