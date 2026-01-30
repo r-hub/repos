@@ -948,25 +948,6 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: timechange
-Version: 0.3.0
-Depends: R (>= 3.3), R (>= 4.6), R (< 4.6.99)
-Suggests: testthat (>= 0.7.1.99), knitr
-License: GPL (>= 3)
-File: timechange_0.3.0_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/timechange/releases/download/0.3.0/timechange_0.3.0_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:42:28 UTC; unix
-Filesize: 1376194
-SHA256: 7f3a9c7177af2b7de19d94a68af53f8ad055255315057aac6a4f0eab8003e4b7
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: A system with zoneinfo data (e.g.  /usr/share/zoneinfo) as well as a recent-enough C++11 compiler (such as g++-4.8 or later). On Windows the zoneinfo included with R is used.
-LinkingTo: cpp11 (>= 0.2.7)
-
 Package: viridisLite
 Version: 0.4.2
 Depends: R (>= 2.10), R (>= 4.6), R (< 4.6.99)
@@ -1375,21 +1356,6 @@ DownloadURL: https://github.com/cran/car/releases/download/3.1-3/car_3.1-3_b1_R4
 Built: R 4.6.0; ; 2025-03-15 09:12:55 UTC; unix
 Filesize: 1633460
 SHA256: ceeb1b1f2a7ffa1b61bf7f7e6dd74163066a609466bb97bbef3e5c6bdfc2f718
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: carData
-Version: 3.0-5
-Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
-Suggests: car (>= 3.0-0)
-License: GPL (>= 2)
-File: carData_3.0-5_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/carData/releases/download/3.0-5/carData_3.0-5_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:40:59 UTC; unix
-Filesize: 1998267
-SHA256: db7a8af1fcd639dcc10aabe103857d71905f4568565e819c90d86bcb43308029
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
@@ -2636,22 +2602,6 @@ DownloadURL: https://github.com/cran/pbkrtest/releases/download/0.5.5/pbkrtest_0
 Built: R 4.6.0; ; 2025-07-18 17:23:59 UTC; unix
 Filesize: 235205
 SHA256: f5e1c1802c0c6cafa00490eec49bbab3c22ab5764ff706f6d938b38bfe8dbb85
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: rsample
-Version: 1.3.1
-Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
-Imports: cli, dplyr (>= 1.1.1), furrr, generics, glue, lifecycle, methods, pillar, purrr (>= 1.0.0), rlang (>= 1.1.0), slider (>= 0.1.5), tibble, tidyr, tidyselect, vctrs (>= 0.5.0)
-Suggests: broom, covr, ggplot2, knitr, modeldata, recipes (>= 0.1.4), rmarkdown, stats, testthat (>= 3.0.0), utils, whisker, withr, xml2
-License: MIT + file LICENSE
-File: rsample_1.3.1_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/rsample/releases/download/1.3.1/rsample_1.3.1_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-Built: R 4.6.0; ; 2025-07-29 17:25:50 UTC; unix
-Filesize: 1745292
-SHA256: a443707734fd2f56980a9acf1d59037517c6e080b78b33724786be9453f0bb00
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 17
@@ -5065,6 +5015,56 @@ DownloadURL: https://github.com/cran/gargle/releases/download/1.6.1/gargle_1.6.1
 Built: R 4.6.0; ; 2026-01-29 17:41:09 UTC; unix
 Filesize: 805980
 SHA256: 32342c90b7ec201c5ee5ca239130c5b68d56f67ad6f5cde1bf6b85e15c3348f1
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: timechange
+Version: 0.4.0
+Depends: R (>= 3.3), R (>= 4.6), R (< 4.6.99)
+Suggests: testthat (>= 0.7.1.99), knitr
+License: GPL (>= 3)
+File: timechange_0.4.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/timechange/releases/download/0.4.0/timechange_0.4.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-01-30 17:37:12 UTC; unix
+Filesize: 1366231
+SHA256: 2766d85feb648272ad5f33f4ddddd6225a830887375abed5f9a028c1842d281c
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
+LinkingTo: cpp11 (>= 0.2.7)
+
+Package: carData
+Version: 3.0-6
+Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
+Suggests: car (>= 3.0-0)
+License: GPL (>= 2)
+File: carData_3.0-6_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/carData/releases/download/3.0-6/carData_3.0-6_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.6.0; ; 2026-01-30 17:37:12 UTC; unix
+Filesize: 1997163
+SHA256: 18287142bef3937df5c9616163a5b561d3435803b00c81c70349ae7312bf84b0
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rsample
+Version: 1.3.2
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: cli, dplyr (>= 1.1.1), furrr, generics, glue, lifecycle, methods, pillar, purrr (>= 1.0.0), rlang (>= 1.1.0), slider (>= 0.1.5), tibble, tidyr, tidyselect, vctrs (>= 0.5.0)
+Suggests: broom, covr, ggplot2, knitr, modeldata, recipes (>= 0.1.4), rmarkdown, stats, testthat (>= 3.0.0), utils, whisker, withr, xml2
+License: MIT + file LICENSE
+File: rsample_1.3.2_b4_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/rsample/releases/download/1.3.2/rsample_1.3.2_b4_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.6.0; ; 2026-01-30 17:37:15 UTC; unix
+Filesize: 1749407
+SHA256: 331ce30a9bc5d9e5670081845eff3b50011df7a3d15b2ed3f11828536e0eca52
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 17
