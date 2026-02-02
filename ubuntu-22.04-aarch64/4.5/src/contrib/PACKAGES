@@ -16,23 +16,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: base64enc
-Version: 0.1-3
-Depends: R (>= 2.9.0), R (>= 4.5), R (< 4.5.99)
-License: GPL-2 | GPL-3
-File: base64enc_0.1-3_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/base64enc/releases/download/0.1-3/base64enc_0.1-3_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-16 01:12:38 UTC; unix
-Filesize: 37271
-SHA256: 07f9b627b57ae8581854db7c635831c6b0f961092ce1a2adf49307cc18a2323f
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: png
-
 Package: brew
 Version: 1.0-10
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -823,8 +806,8 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: chron, data.table, timeDate, tis, zoo
 SystemRequirements: C++11, A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
+Enhances: chron, data.table, timeDate, tis, zoo
 
 Package: modelenv
 Version: 0.2.0
@@ -2337,21 +2320,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: globals
-Version: 0.18.0
-Depends: R (>= 3.1.2), R (>= 4.5), R (< 4.5.99)
-Imports: codetools
-License: LGPL (>= 2.1)
-File: globals_0.18.0_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/globals/releases/download/0.18.0/globals_0.18.0_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.0; ; 2025-05-08 18:44:53 UTC; unix
-Filesize: 158874
-SHA256: 7ec4698a2f2de8c99cd3ac82fcbe38c5a0903305a945205c8c78b9a873f14afe
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: generics
 Version: 0.1.4
 Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
@@ -3426,8 +3394,8 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: graph
 SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
+Enhances: graph
 LinkingTo: cpp11 (>= 0.5.0)
 
 Package: lava
@@ -3599,28 +3567,6 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: rgl
-Version: 1.3.31
-Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
-Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
-Suggests: MASS, rmarkdown (>= 2.16), deldir (>= 1.0-4), orientlib, lattice, misc3d, magick, plotrix (>= 3.7-3), interp, alphashape3d, tcltk, js (>= 1.2), webshot2 (>= 0.1.0), downlit (>= 0.4.0),
-        pkgdown (>= 2.0.0), extrafont, shiny, manipulateWidget (>= 0.9.0), testthat, crosstalk, V8, chromote, jpeg, png, markdown, xdvir, grid
-License: GPL
-File: rgl_1.3.31_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/rgl/releases/download/1.3.31/rgl_1.3.31_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.2; aarch64-unknown-linux-gnu; 2025-11-14 18:46:28 UTC; unix
-Filesize: 7889378
-SHA256: 4bbd3d78f4cf5cd2d6b21792aa50d30943c0879fdda7e63a471e9e5a8c497fad
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: waldo
-SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
-        (optional), libpng (>=1.2.9, optional), FreeType (optional), pandoc (>=1.14, needed for vignettes), LaTeX needed for optional latex3d() examples.
 
 Package: ggplot2
 Version: 4.0.1
@@ -4323,22 +4269,6 @@ Arch: arm64
 Built: R 4.5.2; aarch64-unknown-linux-gnu; 2026-01-08 18:50:13 UTC; unix
 Filesize: 616406
 SHA256: 50caf85f734bb024bbf6a5922851c47b190bc7fa8f3bbb6f9715672187dbebea
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: reformulas
-Version: 0.4.3.1
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: stats, methods, Matrix, Rdpack
-Suggests: lme4, tinytest, glmmTMB, testthat (>= 3.0.0)
-License: GPL-3
-File: reformulas_0.4.3.1_b5_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/reformulas/releases/download/0.4.3.1/reformulas_0.4.3.1_b5_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.2; ; 2026-01-08 18:50:14 UTC; unix
-Filesize: 156282
-SHA256: fdef2980e83432b0492026c248f0bb2b569d33e54f88bf78649cd1573e2109ba
 RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -5102,6 +5032,76 @@ DownloadURL: https://github.com/cran/rsample/releases/download/1.3.2/rsample_1.3
 Built: R 4.5.2; ; 2026-01-30 19:05:03 UTC; unix
 Filesize: 1721612
 SHA256: 02b45d599183f75b7dabf874d9b8cb29ea044feed5b2564481cc3b12ad064b2f
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: base64enc
+Version: 0.1-6
+Depends: R (>= 2.9.0), R (>= 4.5), R (< 4.5.99)
+License: GPL-2 | GPL-3
+File: base64enc_0.1-6_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/base64enc/releases/download/0.1-6/base64enc_0.1-6_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.2; aarch64-unknown-linux-gnu; 2026-02-02 19:05:44 UTC; unix
+Filesize: 41127
+SHA256: d33668a49a81524527c80926ef165d778a120925276174e8e6f3fe5836853c96
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: png
+
+Package: globals
+Version: 0.19.0
+Depends: R (>= 3.1.2), R (>= 4.5), R (< 4.5.99)
+Imports: codetools
+License: LGPL (>= 2.1)
+File: globals_0.19.0_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/globals/releases/download/0.19.0/globals_0.19.0_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.2; ; 2026-02-02 19:05:44 UTC; unix
+Filesize: 161042
+SHA256: 478557c94fa7496a7d9ed136a861197dd6238e2351578b44a2fc3e8ed2cd9b1e
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rgl
+Version: 1.3.34
+Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
+Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
+Suggests: MASS, rmarkdown (>= 2.16), deldir (>= 1.0-4), orientlib, lattice, misc3d, magick, plotrix (>= 3.7-3), interp, alphashape3d, tcltk, js (>= 1.2), webshot2 (>= 0.1.0), downlit (>= 0.4.0),
+        pkgdown (>= 2.0.0), extrafont, shiny, manipulateWidget (>= 0.9.0), testthat, crosstalk, V8, chromote, jpeg, png, markdown, xdvir, grid
+License: GPL
+File: rgl_1.3.34_b5_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/rgl/releases/download/1.3.34/rgl_1.3.34_b5_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.2; aarch64-unknown-linux-gnu; 2026-02-02 19:05:48 UTC; unix
+Filesize: 7867928
+SHA256: 3c223938efec76c4f2abb10d81772f6d4c1275ee8455cc602ef6732ce16aef9c
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
+        (optional), libpng (>=1.2.9, optional), FreeType (optional), pandoc (>=1.14, needed for vignettes), LaTeX needed for optional latex3d() examples.
+Enhances: waldo
+
+Package: reformulas
+Version: 0.4.4
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: stats, methods, Matrix, Rdpack
+Suggests: lme4, tinytest, glmmTMB, Formula
+License: GPL-3
+File: reformulas_0.4.4_b6_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/reformulas/releases/download/0.4.4/reformulas_0.4.4_b6_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.2; ; 2026-02-02 19:05:47 UTC; unix
+Filesize: 157943
+SHA256: 3c861d94e7aa554ac47a93e53f2de826ed0307fbfe984925c7de62f2c26c4f78
 RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
