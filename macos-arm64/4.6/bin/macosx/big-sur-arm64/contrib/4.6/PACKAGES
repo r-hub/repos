@@ -16,23 +16,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: base64enc
-Version: 0.1-3
-Depends: R (>= 2.9.0), R (>= 4.6), R (< 4.6.99)
-License: GPL-2 | GPL-3
-File: base64enc_0.1-3_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/base64enc/releases/download/0.1-3/base64enc_0.1-3_b1_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-03-16 17:55:01 UTC; unix
-Filesize: 27359
-SHA256: 515f15eb4a3a5d836c3aa6e60d70a5fb65af42338c1fcad41ae93b2ea8320222
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: png
-
 Package: brew
 Version: 1.0-10
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -823,8 +806,8 @@ RVersion: 4.6
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: chron, data.table, timeDate, tis, zoo
 SystemRequirements: C++11, A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
+Enhances: chron, data.table, timeDate, tis, zoo
 
 Package: modelenv
 Version: 0.2.0
@@ -2289,21 +2272,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: globals
-Version: 0.18.0
-Depends: R (>= 3.1.2), R (>= 4.6), R (< 4.6.99)
-Imports: codetools
-License: LGPL (>= 2.1)
-File: globals_0.18.0_b3_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/globals/releases/download/0.18.0/globals_0.18.0_b3_R4.6_aarch64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-05-08 17:39:03 UTC; unix
-Filesize: 159636
-SHA256: 900cddb7311856af04b8380445e4595f10bd318cd3a7fad998d8fc0d42772caa
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: generics
 Version: 0.1.4
 Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
@@ -3443,8 +3411,8 @@ RVersion: 4.6
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: graph
 SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
+Enhances: graph
 LinkingTo: cpp11 (>= 0.5.0)
 
 Package: lava
@@ -3616,28 +3584,6 @@ RVersion: 4.6
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: rgl
-Version: 1.3.31
-Depends: R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
-Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
-Suggests: MASS, rmarkdown (>= 2.16), deldir (>= 1.0-4), orientlib, lattice, misc3d, magick, plotrix (>= 3.7-3), interp, alphashape3d, tcltk, js (>= 1.2), webshot2 (>= 0.1.0), downlit (>= 0.4.0),
-        pkgdown (>= 2.0.0), extrafont, shiny, manipulateWidget (>= 0.9.0), testthat, crosstalk, V8, chromote, jpeg, png, markdown, xdvir, grid
-License: GPL
-File: rgl_1.3.31_b4_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/rgl/releases/download/1.3.31/rgl_1.3.31_b4_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-11-14 17:40:04 UTC; unix
-Filesize: 6180682
-SHA256: 9838cd35423a09a05352558abbcce17f54404ef9b54e6bfdba1ef7b935414f01
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: waldo
-SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
-        (optional), libpng (>=1.2.9, optional), FreeType (optional), pandoc (>=1.14, needed for vignettes), LaTeX needed for optional latex3d() examples.
 
 Package: ggplot2
 Version: 4.0.1
@@ -4340,22 +4286,6 @@ Arch: arm64
 Built: R 4.6.0; aarch64-apple-darwin20; 2026-01-08 17:49:38 UTC; unix
 Filesize: 611265
 SHA256: 161692df292a7431080d20c1ddeab0a9f678e4b4a947b98234516e64ff67f965
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: reformulas
-Version: 0.4.3.1
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: stats, methods, Matrix, Rdpack
-Suggests: lme4, tinytest, glmmTMB, testthat (>= 3.0.0)
-License: GPL-3
-File: reformulas_0.4.3.1_b5_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/reformulas/releases/download/0.4.3.1/reformulas_0.4.3.1_b5_R4.6_aarch64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2026-01-08 17:49:54 UTC; unix
-Filesize: 157668
-SHA256: 6e967419f6e0933a3e644893dac77eaadc6a4b3abd16b77a7c4cb7173564bf1e
 RVersion: 4.6
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
@@ -5119,6 +5049,76 @@ DownloadURL: https://github.com/cran/rsample/releases/download/1.3.2/rsample_1.3
 Built: R 4.6.0; ; 2026-01-30 17:58:10 UTC; unix
 Filesize: 1721579
 SHA256: 67c56221f6909fe2350a4d5f4ace213259e99b1c09c9539ccc149ae719473b0b
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: base64enc
+Version: 0.1-6
+Depends: R (>= 2.9.0), R (>= 4.6), R (< 4.6.99)
+License: GPL-2 | GPL-3
+File: base64enc_0.1-6_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/base64enc/releases/download/0.1-6/base64enc_0.1-6_b2_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2026-02-02 18:03:11 UTC; unix
+Filesize: 29514
+SHA256: 959ef1f20cfcdf287786a47c86c06dc0770d88ff3f3f433b7cdd1ab95cf76ceb
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: png
+
+Package: globals
+Version: 0.19.0
+Depends: R (>= 3.1.2), R (>= 4.6), R (< 4.6.99)
+Imports: codetools
+License: LGPL (>= 2.1)
+File: globals_0.19.0_b4_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/globals/releases/download/0.19.0/globals_0.19.0_b4_R4.6_aarch64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2026-02-02 18:03:12 UTC; unix
+Filesize: 161745
+SHA256: 75ce3032547e600292bd3c85c5133f0b75514e273f549fd548e8fa04d08d1ab3
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rgl
+Version: 1.3.34
+Depends: R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
+Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
+Suggests: MASS, rmarkdown (>= 2.16), deldir (>= 1.0-4), orientlib, lattice, misc3d, magick, plotrix (>= 3.7-3), interp, alphashape3d, tcltk, js (>= 1.2), webshot2 (>= 0.1.0), downlit (>= 0.4.0),
+        pkgdown (>= 2.0.0), extrafont, shiny, manipulateWidget (>= 0.9.0), testthat, crosstalk, V8, chromote, jpeg, png, markdown, xdvir, grid
+License: GPL
+File: rgl_1.3.34_b5_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/rgl/releases/download/1.3.34/rgl_1.3.34_b5_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2026-02-02 18:03:18 UTC; unix
+Filesize: 6158646
+SHA256: 2c12c8da9286216e8198f1efbc5a188bb0de3e7eeadcb34c0907f9a45fdb8165
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
+        (optional), libpng (>=1.2.9, optional), FreeType (optional), pandoc (>=1.14, needed for vignettes), LaTeX needed for optional latex3d() examples.
+Enhances: waldo
+
+Package: reformulas
+Version: 0.4.4
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: stats, methods, Matrix, Rdpack
+Suggests: lme4, tinytest, glmmTMB, Formula
+License: GPL-3
+File: reformulas_0.4.4_b6_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/reformulas/releases/download/0.4.4/reformulas_0.4.4_b6_R4.6_aarch64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2026-02-02 18:04:02 UTC; unix
+Filesize: 159717
+SHA256: 4f6d3b6ff70d97f15101e15f54918bc9091053dd796d6b694dc2f3e04da58c2a
 RVersion: 4.6
 Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
