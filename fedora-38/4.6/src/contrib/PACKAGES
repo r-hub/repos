@@ -16,23 +16,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: base64enc
-Version: 0.1-3
-Depends: R (>= 2.9.0), R (>= 4.6), R (< 4.6.99)
-License: GPL-2 | GPL-3
-File: base64enc_0.1-3_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/base64enc/releases/download/0.1-3/base64enc_0.1-3_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:31:06 UTC; unix
-Filesize: 39998
-SHA256: 8965c5daec7b4f4cbf873a01a22d38781dd14516715d7d4c502bf9f1beb09d5e
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: png
-
 Package: brew
 Version: 1.0-10
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -823,8 +806,8 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: chron, data.table, timeDate, tis, zoo
 SystemRequirements: C++11, A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
+Enhances: chron, data.table, timeDate, tis, zoo
 
 Package: modelenv
 Version: 0.2.0
@@ -2318,21 +2301,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: globals
-Version: 0.18.0
-Depends: R (>= 3.1.2), R (>= 4.6), R (< 4.6.99)
-Imports: codetools
-License: LGPL (>= 2.1)
-File: globals_0.18.0_b3_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/globals/releases/download/0.18.0/globals_0.18.0_b3_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.6.0; ; 2025-05-08 17:16:49 UTC; unix
-Filesize: 163516
-SHA256: 3ddbb7182e6151fcdd180c3502bc8137fb9d11d36ee0a549a7b539c72c2339ec
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: generics
 Version: 0.1.4
 Depends: R (>= 3.6), R (>= 4.6), R (< 4.6.99)
@@ -3407,8 +3375,8 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: graph
 SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
+Enhances: graph
 LinkingTo: cpp11 (>= 0.5.0)
 
 Package: lava
@@ -3562,28 +3530,6 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: rgl
-Version: 1.3.31
-Depends: R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
-Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
-Suggests: MASS, rmarkdown (>= 2.16), deldir (>= 1.0-4), orientlib, lattice, misc3d, magick, plotrix (>= 3.7-3), interp, alphashape3d, tcltk, js (>= 1.2), webshot2 (>= 0.1.0), downlit (>= 0.4.0),
-        pkgdown (>= 2.0.0), extrafont, shiny, manipulateWidget (>= 0.9.0), testthat, crosstalk, V8, chromote, jpeg, png, markdown, xdvir, grid
-License: GPL
-File: rgl_1.3.31_b4_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/rgl/releases/download/1.3.31/rgl_1.3.31_b4_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-11-14 17:19:07 UTC; unix
-Filesize: 8130671
-SHA256: 184587f17bc3f7a9dfc49840b2a519cd191dd9facd19e7177abe51338e0760e5
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: waldo
-SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
-        (optional), libpng (>=1.2.9, optional), FreeType (optional), pandoc (>=1.14, needed for vignettes), LaTeX needed for optional latex3d() examples.
 
 Package: ggplot2
 Version: 4.0.1
@@ -4286,22 +4232,6 @@ Arch: amd64
 Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-01-08 17:26:57 UTC; unix
 Filesize: 650765
 SHA256: 07c3ddcb0267f2a7003b97a960b2dc8c7ab64a46a24486afdb6fd0a09b881f4f
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: reformulas
-Version: 0.4.3.1
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: stats, methods, Matrix, Rdpack
-Suggests: lme4, tinytest, glmmTMB, testthat (>= 3.0.0)
-License: GPL-3
-File: reformulas_0.4.3.1_b5_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/reformulas/releases/download/0.4.3.1/reformulas_0.4.3.1_b5_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.6.0; ; 2026-01-08 17:27:01 UTC; unix
-Filesize: 165602
-SHA256: 090c46f9c5aedfb1b084a3ab8a0b8cb4db09e006d4e2197baa624ff34a841d8c
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 17
@@ -5065,6 +4995,76 @@ DownloadURL: https://github.com/cran/rsample/releases/download/1.3.2/rsample_1.3
 Built: R 4.6.0; ; 2026-01-30 17:34:15 UTC; unix
 Filesize: 1750752
 SHA256: cc62e4b1e01a2a2c0fd609f24f6f815582c041de631230d023ce9db2657672f7
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: base64enc
+Version: 0.1-6
+Depends: R (>= 2.9.0), R (>= 4.6), R (< 4.6.99)
+License: GPL-2 | GPL-3
+File: base64enc_0.1-6_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/base64enc/releases/download/0.1-6/base64enc_0.1-6_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-02-02 17:38:59 UTC; unix
+Filesize: 44070
+SHA256: a21bbb7e32e91e78e0c1bf69939b849f6ba1a0def07d2b678174aac6c0f09765
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: png
+
+Package: globals
+Version: 0.19.0
+Depends: R (>= 3.1.2), R (>= 4.6), R (< 4.6.99)
+Imports: codetools
+License: LGPL (>= 2.1)
+File: globals_0.19.0_b4_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/globals/releases/download/0.19.0/globals_0.19.0_b4_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.6.0; ; 2026-02-02 17:38:59 UTC; unix
+Filesize: 165325
+SHA256: b9924017c11d13b0d920857ad7fc409efccf11d4d83360856695990bd59b32a3
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rgl
+Version: 1.3.34
+Depends: R (>= 3.6.0), R (>= 4.6), R (< 4.6.99)
+Imports: graphics, grDevices, stats, utils, htmlwidgets (>= 1.6.0), htmltools, knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6, base64enc, mime
+Suggests: MASS, rmarkdown (>= 2.16), deldir (>= 1.0-4), orientlib, lattice, misc3d, magick, plotrix (>= 3.7-3), interp, alphashape3d, tcltk, js (>= 1.2), webshot2 (>= 0.1.0), downlit (>= 0.4.0),
+        pkgdown (>= 2.0.0), extrafont, shiny, manipulateWidget (>= 0.9.0), testthat, crosstalk, V8, chromote, jpeg, png, markdown, xdvir, grid
+License: GPL
+File: rgl_1.3.34_b5_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/rgl/releases/download/1.3.34/rgl_1.3.34_b5_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-02-02 17:39:04 UTC; unix
+Filesize: 8109924
+SHA256: 551e92086dddb992f3a37eba6b5d4363efd15a84ee8201ff95f7f1d91eab5537
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
+        (optional), libpng (>=1.2.9, optional), FreeType (optional), pandoc (>=1.14, needed for vignettes), LaTeX needed for optional latex3d() examples.
+Enhances: waldo
+
+Package: reformulas
+Version: 0.4.4
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: stats, methods, Matrix, Rdpack
+Suggests: lme4, tinytest, glmmTMB, Formula
+License: GPL-3
+File: reformulas_0.4.4_b6_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/reformulas/releases/download/0.4.4/reformulas_0.4.4_b6_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.6.0; ; 2026-02-02 17:39:01 UTC; unix
+Filesize: 167778
+SHA256: 074a56abb43d9f2308509d6dad2fb5cf52e41a1eb4bce19050a5fc383932bfee
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 17
