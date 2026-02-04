@@ -769,26 +769,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: lubridate
-Version: 1.9.4
-Depends: methods, R (>= 3.2), R (>= 4.6), R (< 4.6.99)
-Imports: generics, timechange (>= 0.3.0)
-Suggests: covr, knitr, rmarkdown, testthat (>= 2.1.0), vctrs (>= 0.6.5)
-License: GPL (>= 2)
-File: lubridate_1.9.4_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/lubridate/releases/download/1.9.4/lubridate_1.9.4_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:49:30 UTC; unix
-Filesize: 1057535
-SHA256: 3fa1e8a9ba159967e33de513f85cc13f9fa5ef0b28bbb7734dae862564af1619
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++11, A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
-Enhances: chron, data.table, timeDate, tis, zoo
-
 Package: modelenv
 Version: 0.2.0
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -906,21 +886,6 @@ DownloadURL: https://github.com/cran/tidyselect/releases/download/1.2.1/tidysele
 Built: R 4.6.0; ; 2025-03-15 08:47:16 UTC; unix
 Filesize: 238089
 SHA256: 0597d659ecd67fed35cbfdee6cd104940d4f6153b7d608d3476f18230cdfc5c6
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: viridisLite
-Version: 0.4.2
-Depends: R (>= 2.10), R (>= 4.6), R (< 4.6.99)
-Suggests: hexbin (>= 1.27.0), ggplot2 (>= 1.0.1), testthat, covr
-License: MIT + file LICENSE
-File: viridisLite_0.4.2_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/viridisLite/releases/download/0.4.2/viridisLite_0.4.2_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:40:20 UTC; unix
-Filesize: 1300555
-SHA256: 14e60b6fecda7b268abc486debfc208ede3aff9ec94ddd342e98df30adec4846
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
@@ -5068,3 +5033,38 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: sp
+
+Package: lubridate
+Version: 1.9.5
+Depends: methods, R (>= 3.2), R (>= 4.6), R (< 4.6.99)
+Imports: generics, timechange (>= 0.4.0)
+Suggests: covr, knitr, rmarkdown, testthat (>= 2.1.0), vctrs (>= 0.6.5)
+License: MIT + file LICENSE
+File: lubridate_1.9.5_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/lubridate/releases/download/1.9.5/lubridate_1.9.5_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-02-04 17:50:48 UTC; unix
+Filesize: 1060501
+SHA256: 33b70b7b20c8bdc5f7e80b0dbbcdcfcf4c98040e90239cb2258683013110a92e
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
+Enhances: chron, data.table, timeDate, tis, zoo
+
+Package: viridisLite
+Version: 0.4.3
+Depends: R (>= 2.10), R (>= 4.6), R (< 4.6.99)
+Suggests: hexbin (>= 1.27.0), ggplot2 (>= 1.0.1), testthat, covr
+License: MIT + file LICENSE
+File: viridisLite_0.4.3_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/viridisLite/releases/download/0.4.3/viridisLite_0.4.3_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+Built: R 4.6.0; ; 2026-02-04 17:50:48 UTC; unix
+Filesize: 1300652
+SHA256: 8c3722b0b4bd879cf5a4fb9141ef4dcf33315b92511a937fb76d6eee0d7ee6ee
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
