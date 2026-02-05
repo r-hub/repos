@@ -1125,25 +1125,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: cluster
-Version: 2.1.8.1
-Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
-Imports: graphics, grDevices, stats, utils
-Suggests: MASS, Matrix
-License: GPL (>= 2)
-File: cluster_2.1.8.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/cluster/releases/download/2.1.8.1/cluster_2.1.8.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 19:27:20 UTC; unix
-Filesize: 585882
-SHA256: c0eca587d087478a3268ae88483ef1a4210bc1a5ec6fb6394369ae92a967075d
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: mvoutlier, fpc, ellipse, sfsmisc
-
 Package: Formula
 Version: 1.2-5
 Depends: R (>= 2.0.0), stats, R (>= 4.6), R (< 4.6.99)
@@ -4759,3 +4740,22 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: cluster
+Version: 2.1.8.2
+Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
+Imports: graphics, grDevices, stats, utils
+Suggests: MASS, Matrix
+License: GPL (>= 2)
+File: cluster_2.1.8.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/cluster/releases/download/2.1.8.2/cluster_2.1.8.2_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-02-05 17:37:49 UTC; unix
+Filesize: 585851
+SHA256: 51b383c86ab8eab8e5e07602e5c65accddb5c2c2efa953a1789a6ba286515361
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: mvoutlier, fpc, ellipse, sfsmisc
