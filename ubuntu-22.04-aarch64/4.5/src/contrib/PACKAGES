@@ -3571,25 +3571,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: RSQLite
-Version: 2.4.5
-Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
-Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
-Suggests: callr, cli, DBItest (>= 1.8.0), decor, gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
-License: LGPL (>= 2.1)
-File: RSQLite_2.4.5_b8_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/RSQLite/releases/download/2.4.5/RSQLite_2.4.5_b8_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.2; aarch64-unknown-linux-gnu; 2025-11-30 18:44:40 UTC; unix
-Filesize: 5306754
-SHA256: f9a02c6aab99a7f2fcb2222f7858f356e84268b72d0750236984c0dd33c59535
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: plogr (>= 0.2.0), cpp11 (>= 0.4.0)
-
 Package: fracdiff
 Version: 1.5-3
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -5105,3 +5086,22 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: RSQLite
+Version: 2.4.6
+Depends: R (>= 3.1.0), R (>= 4.5), R (< 4.5.99)
+Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
+Suggests: callr, cli, DBItest (>= 1.8.0), decor, gert, gh, hms, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
+License: LGPL (>= 2.1)
+File: RSQLite_2.4.6_b9_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/RSQLite/releases/download/2.4.6/RSQLite_2.4.6_b9_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.2; aarch64-unknown-linux-gnu; 2026-02-06 19:11:19 UTC; unix
+Filesize: 5312259
+SHA256: 1c49f624064fa1633b5ded0dd1cec6d5ab5b3c9b9b744b2eedabc3fc04e22b3b
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11 (>= 0.4.0)
