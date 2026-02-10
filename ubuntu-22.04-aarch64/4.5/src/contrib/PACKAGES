@@ -2003,25 +2003,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: lattice
-Version: 0.22-7
-Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
-Imports: grid, grDevices, graphics, stats, utils
-Suggests: KernSmooth, MASS, latticeExtra, colorspace
-License: GPL (>= 2)
-File: lattice_0.22-7_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/lattice/releases/download/0.22-7/lattice_0.22-7_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-04-09 18:44:17 UTC; unix
-Filesize: 1392346
-SHA256: 9f2584a208b7e7e302f9af6bc21181401e0e271a55bb860217e9c7d2765ff9d9
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: chron, zoo
-
 Package: fs
 Version: 1.6.6
 Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
@@ -3409,24 +3390,6 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: XML
-Version: 3.99-0.20
-Depends: R (>= 4.0.0), methods, utils, R (>= 4.5), R (< 4.5.99)
-Suggests: bitops, RCurl
-License: BSD_3_clause + file LICENSE
-File: XML_3.99-0.20_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/XML/releases/download/3.99-0.20/XML_3.99-0.20_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.2; aarch64-unknown-linux-gnu; 2025-11-08 18:42:00 UTC; unix
-Filesize: 1987872
-SHA256: 59f9039df98a9573bb1a0960ad4bf4769e37ac5244b3d30044ec03fcb12fa892
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libxml2 (>= 2.6.3)
 
 Package: reshape2
 Version: 1.4.5
@@ -5105,3 +5068,40 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: lattice
+Version: 0.22-9
+Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
+Imports: grid, grDevices, graphics, stats, utils
+Suggests: KernSmooth, MASS, latticeExtra, colorspace
+License: GPL (>= 2)
+File: lattice_0.22-9_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/lattice/releases/download/0.22-9/lattice_0.22-9_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.2; aarch64-unknown-linux-gnu; 2026-02-10 19:35:34 UTC; unix
+Filesize: 1432108
+SHA256: 51c52d3dabf54e2c022cd93dee9d339fa6da8cca106d082b036423a5c5b643e1
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: chron, zoo
+
+Package: XML
+Version: 3.99-0.22
+Depends: R (>= 4.0.0), methods, utils, R (>= 4.5), R (< 4.5.99)
+Suggests: bitops, RCurl
+License: BSD_3_clause + file LICENSE
+File: XML_3.99-0.22_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/XML/releases/download/3.99-0.22/XML_3.99-0.22_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.2; aarch64-unknown-linux-gnu; 2026-02-10 19:35:36 UTC; unix
+Filesize: 1961041
+SHA256: 13804f6cf774b5e0b040c7d3dbe591cb2081709c9409469c9eaca89dace4d7de
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libxml2 (>= 2.6.3)
