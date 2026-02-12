@@ -3237,27 +3237,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: igraph
-Version: 2.2.1
-Depends: methods, R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang (>= 1.1.0), stats, utils, vctrs
-Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl (>= 1.3.14), rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
-License: GPL (>= 2)
-File: igraph_2.2.1_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/igraph/releases/download/2.2.1/igraph_2.2.1_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.2; aarch64-unknown-linux-gnu; 2025-10-27 18:45:12 UTC; unix
-Filesize: 11121974
-SHA256: 712e8461b3f2bc2cadde1b5e9ef0cf1fd373d035d9d38dc7406d232420b50df2
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
-Enhances: graph
-LinkingTo: cpp11 (>= 0.5.0)
-
 Package: lava
 Version: 1.8.2
 Depends: R (>= 3.0), R (>= 4.5), R (< 4.5.99)
@@ -5105,3 +5084,24 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: igraph
+Version: 2.2.2
+Depends: methods, R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang (>= 1.1.0), stats, utils, vctrs
+Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl (>= 1.3.14), rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
+License: GPL (>= 2)
+File: igraph_2.2.2_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/igraph/releases/download/2.2.2/igraph_2.2.2_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.2; aarch64-unknown-linux-gnu; 2026-02-12 19:32:11 UTC; unix
+Filesize: 11127312
+SHA256: 2951e3d32227b33f5e3805287d1767606f33bd982045efe64d515b4b55b404a1
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
+Enhances: graph
+LinkingTo: cpp11 (>= 0.5.0)
