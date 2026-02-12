@@ -3254,27 +3254,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: igraph
-Version: 2.2.1
-Depends: methods, R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
-Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang (>= 1.1.0), stats, utils, vctrs
-Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl (>= 1.3.14), rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
-License: GPL (>= 2)
-File: igraph_2.2.1_b3_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/igraph/releases/download/2.2.1/igraph_2.2.1_b3_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-10-27 12:05:16 UTC; unix
-Filesize: 10060694
-SHA256: 8fff2e0e350ab75cd171c3eebb9c62ec3b76b94ac9b1611ef8c02696bc9f95ac
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
-Enhances: graph
-LinkingTo: cpp11 (>= 0.5.0)
-
 Package: lava
 Version: 1.8.2
 Depends: R (>= 3.0), R (>= 4.6), R (< 4.6.99)
@@ -5122,3 +5101,24 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libxml2 (>= 2.6.3)
+
+Package: igraph
+Version: 2.2.2
+Depends: methods, R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
+Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang (>= 1.1.0), stats, utils, vctrs
+Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl (>= 1.3.14), rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
+License: GPL (>= 2)
+File: igraph_2.2.2_b4_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/igraph/releases/download/2.2.2/igraph_2.2.2_b4_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2026-02-12 18:13:38 UTC; unix
+Filesize: 5987334
+SHA256: 2c33107a754cd8d51d98bccfc920cc52bc3826dc91bd5ad7bc1eb36ef191eefd
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
+Enhances: graph
+LinkingTo: cpp11 (>= 0.5.0)
