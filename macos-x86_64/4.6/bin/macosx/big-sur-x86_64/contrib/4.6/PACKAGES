@@ -4134,25 +4134,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: forecast
-Version: 9.0.0
-Depends: R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
-Imports: colorspace, fracdiff, generics (>= 0.1.2), ggplot2 (>= 3.4.0), graphics, lmtest, magrittr, nnet, parallel, Rcpp (>= 0.11.0), stats, timeDate, tseries, urca, withr, zoo
-Suggests: forecTheta, knitr, methods, rmarkdown, rticles, scales, seasonal, testthat (>= 3.3.0), uroot
-License: GPL-3
-File: forecast_9.0.0_b2_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/forecast/releases/download/9.0.0/forecast_9.0.0_b2_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2026-01-11 11:32:57 UTC; unix
-Filesize: 2569572
-SHA256: 7fc35a9ad5e96e289d30565e690a847d4bd5fd8b8125bd272e8f9d2ddda2fc22
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp (>= 0.11.0), RcppArmadillo (>= 0.2.35)
-
 Package: gert
 Version: 2.3.1
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -5067,3 +5048,22 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
+
+Package: forecast
+Version: 9.0.1
+Depends: R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
+Imports: colorspace, fracdiff, generics (>= 0.1.2), ggplot2 (>= 3.4.0), graphics, lmtest, magrittr, nnet, parallel, Rcpp (>= 0.12.4), stats, timeDate, urca, withr, zoo
+Suggests: forecTheta, knitr, methods, rmarkdown, rticles, scales, seasonal, testthat (>= 3.3.0), uroot
+License: GPL-3
+File: forecast_9.0.1_b3_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/forecast/releases/download/9.0.1/forecast_9.0.1_b3_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2026-02-15 17:50:10 UTC; unix
+Filesize: 1643699
+SHA256: 0d0c13aaba531e24170b20f15c473a309e220791c78bab3bb36e9ba5ccc7a12d
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp (>= 0.12.4), RcppArmadillo (>= 0.2.35)
