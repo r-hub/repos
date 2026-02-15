@@ -3857,25 +3857,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: forecast
-Version: 9.0.0
-Depends: R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
-Imports: colorspace, fracdiff, generics (>= 0.1.2), ggplot2 (>= 3.4.0), graphics, lmtest, magrittr, nnet, parallel, Rcpp (>= 0.11.0), stats, timeDate, tseries, urca, withr, zoo
-Suggests: forecTheta, knitr, methods, rmarkdown, rticles, scales, seasonal, testthat (>= 3.3.0), uroot
-License: GPL-3
-File: forecast_9.0.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/forecast/releases/download/9.0.0/forecast_9.0.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-01-12 17:13:53 UTC; unix
-Filesize: 1643410
-SHA256: 1e7a1eb2743f8cd0b50f59db753ff283c07ccdc4900dda98dbbccd3fafefaa19
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp (>= 0.11.0), RcppArmadillo (>= 0.2.35)
-
 Package: gert
 Version: 2.3.1
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4759,3 +4740,22 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
+
+Package: forecast
+Version: 9.0.1
+Depends: R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
+Imports: colorspace, fracdiff, generics (>= 0.1.2), ggplot2 (>= 3.4.0), graphics, lmtest, magrittr, nnet, parallel, Rcpp (>= 0.12.4), stats, timeDate, urca, withr, zoo
+Suggests: forecTheta, knitr, methods, rmarkdown, rticles, scales, seasonal, testthat (>= 3.3.0), uroot
+License: GPL-3
+File: forecast_9.0.1_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/forecast/releases/download/9.0.1/forecast_9.0.1_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-02-15 17:14:18 UTC; unix
+Filesize: 1651364
+SHA256: 7b469702156f334579ff7752513ee669aafd91f5234c296e318141574424e5c0
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp (>= 0.12.4), RcppArmadillo (>= 0.2.35)
