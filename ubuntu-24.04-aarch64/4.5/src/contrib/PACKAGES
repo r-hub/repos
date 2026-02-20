@@ -3621,40 +3621,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: future.apply
-Version: 1.20.1
-Depends: R (>= 3.2.0), future (>= 1.49.0), R (>= 4.5), R (< 4.5.99)
-Imports: globals, parallel, utils
-Suggests: datasets, stats, tools, listenv, R.rsp, markdown
-License: GPL (>= 2)
-File: future.apply_1.20.1_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/future.apply/releases/download/1.20.1/future.apply_1.20.1_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.5.2; ; 2025-12-09 23:26:13 UTC; unix
-Filesize: 192322
-SHA256: 874999b191a94d6a7411cdac9a8c21d78ab148b80d1897ac02863734a883ae9f
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: shiny
-Version: 1.12.1
-Depends: methods, R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
-Imports: bslib (>= 0.6.0), cachem (>= 1.1.0), cli, commonmark (>= 2.0.0), fastmap (>= 1.1.1), fontawesome (>= 0.4.0), glue (>= 1.3.2), grDevices, htmltools (>= 0.5.4), httpuv (>= 1.5.2), jsonlite (>=
-        0.9.16), later (>= 1.0.0), lifecycle (>= 0.2.0), mime (>= 0.3), otel, promises (>= 1.5.0), R6 (>= 2.0), rlang (>= 0.4.10), sourcetools, tools, utils, withr, xtable
-Suggests: Cairo (>= 1.5-5), coro (>= 1.1.0), datasets, DT, dygraphs, future, ggplot2, knitr (>= 1.6), magrittr, markdown, mirai, otelsdk (>= 0.2.0), ragg, reactlog (>= 1.0.0), rmarkdown, sass,
-        showtext, testthat (>= 3.2.1), watcher, yaml
-License: GPL-3 | file LICENSE
-File: shiny_1.12.1_b5_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/shiny/releases/download/1.12.1/shiny_1.12.1_b5_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.5.2; ; 2025-12-09 23:26:15 UTC; unix
-Filesize: 4478600
-SHA256: 881ff032c0c8b4cc120a78fb4c3186336d84bae80f7c59171b281fb6e9f89b30
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: yaml
 Version: 2.3.12
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -4237,22 +4203,6 @@ DownloadURL: https://github.com/cran/shinyjs/releases/download/2.1.1/shinyjs_2.1
 Built: R 4.5.2; ; 2026-01-15 23:25:41 UTC; unix
 Filesize: 1070850
 SHA256: 0a2ef3c8ab081d1045e32a53fd81d622a9223d8785220b998f9333cfd8ec89a0
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: doFuture
-Version: 1.2.0
-Depends: foreach (>= 1.5.0), future (>= 1.49.0), R (>= 4.5), R (< 4.5.99)
-Imports: future.apply, globals, iterators, parallel, utils
-Suggests: doRNG (>= 1.8.2), markdown, R.rsp
-License: LGPL (>= 2.1)
-File: doFuture_1.2.0_b6_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/doFuture/releases/download/1.2.0/doFuture_1.2.0_b6_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.5.2; ; 2026-01-15 23:25:41 UTC; unix
-Filesize: 174245
-SHA256: 243d42999663b5eaa3e86d1fc6df4ba6761adb4895999c56f068eccf0451d25d
 RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
@@ -5105,3 +5055,53 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11, tzdb (>= 0.1.1)
+
+Package: future.apply
+Version: 1.20.2
+Depends: R (>= 3.2.0), future (>= 1.49.0), R (>= 4.5), R (< 4.5.99)
+Imports: globals, parallel, utils
+Suggests: datasets, stats, tools, listenv, R.rsp, markdown
+License: GPL (>= 2)
+File: future.apply_1.20.2_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/future.apply/releases/download/1.20.2/future.apply_1.20.2_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.5.2; ; 2026-02-20 23:32:46 UTC; unix
+Filesize: 194032
+SHA256: d1c5644d81f7d1637ae5665af80facb29f88f8b0bbb7baa5373f351c86549e64
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: shiny
+Version: 1.13.0
+Depends: methods, R (>= 3.1.2), R (>= 4.5), R (< 4.5.99)
+Imports: bslib (>= 0.6.0), cachem (>= 1.1.0), cli, commonmark (>= 2.0.0), fastmap (>= 1.1.1), fontawesome (>= 0.4.0), glue (>= 1.3.2), grDevices, htmltools (>= 0.5.4), httpuv (>= 1.5.2), jsonlite (>=
+        0.9.16), later (>= 1.0.0), lifecycle (>= 0.2.0), mime (>= 0.3), otel, promises (>= 1.5.0), R6 (>= 2.0), rlang (>= 0.4.10), sourcetools, tools, utils, withr, xtable
+Suggests: Cairo (>= 1.5-5), coro (>= 1.1.0), datasets, DT, dygraphs, future, ggplot2, knitr (>= 1.6), magrittr, markdown, mirai, otelsdk (>= 0.2.0), ragg, reactlog (>= 1.0.0), rmarkdown, sass,
+        showtext, testthat (>= 3.2.1), watcher, yaml
+License: MIT + file LICENSE
+File: shiny_1.13.0_b6_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/shiny/releases/download/1.13.0/shiny_1.13.0_b6_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.5.2; ; 2026-02-20 23:32:51 UTC; unix
+Filesize: 4469629
+SHA256: 776d7a50672a315de49c68a78c157ba171cf4624ab91a67af688651d1ee500b3
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: doFuture
+Version: 1.2.1
+Depends: foreach (>= 1.5.0), future (>= 1.49.0), R (>= 4.5), R (< 4.5.99)
+Imports: future.apply, globals, iterators, parallel, utils
+Suggests: doRNG (>= 1.8.2), markdown, R.rsp
+License: LGPL (>= 2.1)
+File: doFuture_1.2.1_b7_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/doFuture/releases/download/1.2.1/doFuture_1.2.1_b7_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.5.2; ; 2026-02-20 23:32:50 UTC; unix
+Filesize: 174808
+SHA256: d79d4661e22ed292f1f0296e9fa69b80e8511c8d1e6cc07f8fc241b1f4cc6ba6
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
