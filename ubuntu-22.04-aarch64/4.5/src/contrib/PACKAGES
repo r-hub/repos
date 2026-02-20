@@ -3337,25 +3337,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: vctrs (>= 0.6.3)
 
-Package: readr
-Version: 2.1.6
-Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
-Imports: cli (>= 3.2.0), clipr, crayon, hms (>= 0.4.1), lifecycle (>= 0.2.0), methods, R6, rlang, tibble, utils, vroom (>= 1.6.0)
-Suggests: covr, curl, datasets, knitr, rmarkdown, spelling, stringi, testthat (>= 3.2.0), tzdb (>= 0.1.1), waldo, withr, xml2
-License: MIT + file LICENSE
-File: readr_2.1.6_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/readr/releases/download/2.1.6/readr_2.1.6_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.2; aarch64-unknown-linux-gnu; 2025-11-15 18:43:18 UTC; unix
-Filesize: 3103107
-SHA256: ec57cca53a8de9e60af6e493c8797ee2c7592116e6d046f8b5a93421787a640a
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cpp11, tzdb (>= 0.1.1)
-
 Package: S7
 Version: 0.2.1
 Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
@@ -3635,40 +3616,6 @@ DownloadURL: https://github.com/cran/httr2/releases/download/1.2.2/httr2_1.2.2_b
 Built: R 4.5.2; ; 2025-12-08 18:49:22 UTC; unix
 Filesize: 787738
 SHA256: 9a1f1a5ec72086b1885518723a83b404f604d4a74ef94602df1b28d5dd25f718
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: future.apply
-Version: 1.20.1
-Depends: R (>= 3.2.0), future (>= 1.49.0), R (>= 4.5), R (< 4.5.99)
-Imports: globals, parallel, utils
-Suggests: datasets, stats, tools, listenv, R.rsp, markdown
-License: GPL (>= 2)
-File: future.apply_1.20.1_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/future.apply/releases/download/1.20.1/future.apply_1.20.1_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.2; ; 2025-12-09 18:48:06 UTC; unix
-Filesize: 192412
-SHA256: e7deaeefa9244991e60017642c3ee6a9fc0be1cff0db936505cec016654ac59b
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: shiny
-Version: 1.12.1
-Depends: methods, R (>= 3.0.2), R (>= 4.5), R (< 4.5.99)
-Imports: bslib (>= 0.6.0), cachem (>= 1.1.0), cli, commonmark (>= 2.0.0), fastmap (>= 1.1.1), fontawesome (>= 0.4.0), glue (>= 1.3.2), grDevices, htmltools (>= 0.5.4), httpuv (>= 1.5.2), jsonlite (>=
-        0.9.16), later (>= 1.0.0), lifecycle (>= 0.2.0), mime (>= 0.3), otel, promises (>= 1.5.0), R6 (>= 2.0), rlang (>= 0.4.10), sourcetools, tools, utils, withr, xtable
-Suggests: Cairo (>= 1.5-5), coro (>= 1.1.0), datasets, DT, dygraphs, future, ggplot2, knitr (>= 1.6), magrittr, markdown, mirai, otelsdk (>= 0.2.0), ragg, reactlog (>= 1.0.0), rmarkdown, sass,
-        showtext, testthat (>= 3.2.1), watcher, yaml
-License: GPL-3 | file LICENSE
-File: shiny_1.12.1_b5_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/shiny/releases/download/1.12.1/shiny_1.12.1_b5_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.2; ; 2025-12-09 18:48:10 UTC; unix
-Filesize: 4481814
-SHA256: 399a28848ecc900922377540efe1d50686f94433d28267155d69f26c16f979b0
 RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -4256,22 +4203,6 @@ DownloadURL: https://github.com/cran/shinyjs/releases/download/2.1.1/shinyjs_2.1
 Built: R 4.5.2; ; 2026-01-15 18:58:09 UTC; unix
 Filesize: 1070629
 SHA256: b96b035b7b2f4ffb046afa11d49ea0be382a8e22d75147e681d05be4a31858cd
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: doFuture
-Version: 1.2.0
-Depends: foreach (>= 1.5.0), future (>= 1.49.0), R (>= 4.5), R (< 4.5.99)
-Imports: future.apply, globals, iterators, parallel, utils
-Suggests: doRNG (>= 1.8.2), markdown, R.rsp
-License: LGPL (>= 2.1)
-File: doFuture_1.2.0_b7_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/doFuture/releases/download/1.2.0/doFuture_1.2.0_b7_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.2; ; 2026-01-15 18:58:09 UTC; unix
-Filesize: 174386
-SHA256: c9484b60236026b001a8005668f75d3da04804eaa1ba6ba6d96b13c69ada2e92
 RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -5101,6 +5032,75 @@ Arch: arm64
 Built: R 4.5.2; aarch64-unknown-linux-gnu; 2026-02-18 19:17:32 UTC; unix
 Filesize: 433683
 SHA256: 6ee0aa66734d8d4ca6be45599fab1dc7a7570cc4ed02a806b1fcd7983a383adb
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: readr
+Version: 2.2.0
+Depends: R (>= 4.1), R (>= 4.5), R (< 4.5.99)
+Imports: cli, clipr, crayon, glue, hms (>= 0.4.1), lifecycle, methods, R6, rlang, tibble, utils, vroom (>= 1.7.0), withr
+Suggests: covr, curl, datasets, knitr, rmarkdown, spelling, stringi, testthat (>= 3.2.0), tzdb (>= 0.1.1), waldo, xml2
+License: MIT + file LICENSE
+File: readr_2.2.0_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/readr/releases/download/2.2.0/readr_2.2.0_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.2; aarch64-unknown-linux-gnu; 2026-02-20 19:09:37 UTC; unix
+Filesize: 3062077
+SHA256: 58c2ba5ef14038a65fb02999fe12eae02977873293e3d50d94a763e652e1d52e
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11, tzdb (>= 0.1.1)
+
+Package: future.apply
+Version: 1.20.2
+Depends: R (>= 3.2.0), future (>= 1.49.0), R (>= 4.5), R (< 4.5.99)
+Imports: globals, parallel, utils
+Suggests: datasets, stats, tools, listenv, R.rsp, markdown
+License: GPL (>= 2)
+File: future.apply_1.20.2_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/future.apply/releases/download/1.20.2/future.apply_1.20.2_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.2; ; 2026-02-20 19:09:37 UTC; unix
+Filesize: 194115
+SHA256: e0d70a4cb4ce8fad7526d1d01cee2157779509f9279c0d661a04da5bb762b4d3
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: shiny
+Version: 1.13.0
+Depends: methods, R (>= 3.1.2), R (>= 4.5), R (< 4.5.99)
+Imports: bslib (>= 0.6.0), cachem (>= 1.1.0), cli, commonmark (>= 2.0.0), fastmap (>= 1.1.1), fontawesome (>= 0.4.0), glue (>= 1.3.2), grDevices, htmltools (>= 0.5.4), httpuv (>= 1.5.2), jsonlite (>=
+        0.9.16), later (>= 1.0.0), lifecycle (>= 0.2.0), mime (>= 0.3), otel, promises (>= 1.5.0), R6 (>= 2.0), rlang (>= 0.4.10), sourcetools, tools, utils, withr, xtable
+Suggests: Cairo (>= 1.5-5), coro (>= 1.1.0), datasets, DT, dygraphs, future, ggplot2, knitr (>= 1.6), magrittr, markdown, mirai, otelsdk (>= 0.2.0), ragg, reactlog (>= 1.0.0), rmarkdown, sass,
+        showtext, testthat (>= 3.2.1), watcher, yaml
+License: MIT + file LICENSE
+File: shiny_1.13.0_b6_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/shiny/releases/download/1.13.0/shiny_1.13.0_b6_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.2; ; 2026-02-20 19:09:40 UTC; unix
+Filesize: 4472115
+SHA256: 77eb208d115ffc0f0d31e2155636147a4f590e9dd4e3f1cb35dd68976baf1ab2
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: doFuture
+Version: 1.2.1
+Depends: foreach (>= 1.5.0), future (>= 1.49.0), R (>= 4.5), R (< 4.5.99)
+Imports: future.apply, globals, iterators, parallel, utils
+Suggests: doRNG (>= 1.8.2), markdown, R.rsp
+License: LGPL (>= 2.1)
+File: doFuture_1.2.1_b8_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/doFuture/releases/download/1.2.1/doFuture_1.2.1_b8_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.2; ; 2026-02-20 19:09:39 UTC; unix
+Filesize: 174882
+SHA256: d97c1b414d6d28ece96caa298ebf187a34bd62bfb1c6aa298801bc849448085d
 RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
