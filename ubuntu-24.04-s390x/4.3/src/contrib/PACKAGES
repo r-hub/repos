@@ -1368,25 +1368,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli, glue (>= 1.6.1), lifecycle (>= 1.0.3), magrittr, rlang (>= 1.0.0), stringi (>= 1.5.3), vctrs (>= 0.4.0)
 
-Package: readr
-Version: 2.1.6
-Depends: R (>= 3.6), R (>= 4.3), R (< 4.3.99)
-Suggests: covr, curl, datasets, knitr, rmarkdown, spelling, stringi, testthat (>= 3.2.0), tzdb (>= 0.1.1), waldo, withr, xml2
-License: MIT + file LICENSE
-File: readr_2.1.6_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/readr/releases/download/2.1.6/readr_2.1.6_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-11-15 14:37:00 UTC; unix
-Filesize: 3207990
-SHA256: 08693c4c163775fbe3a9cfbcf4ccfc223963bf1a43387f043fcd3fe67f902986
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: cli (>= 3.2.0), clipr, crayon, hms (>= 0.4.1), lifecycle (>= 0.2.0), methods, R6, rlang, tibble, utils, vroom (>= 1.6.0)
-LinkingTo: cpp11, tzdb (>= 0.1.1)
-
 Package: S7
 Version: 0.2.1
 Depends: R (>= 3.5.0), R (>= 4.3), R (< 4.3.99)
@@ -2091,3 +2072,22 @@ Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: curl (>= 5.1.0), jsonlite, mime, openssl (>= 0.8), R6
+
+Package: readr
+Version: 2.2.0
+Depends: R (>= 4.1), R (>= 4.3), R (< 4.3.99)
+Suggests: covr, curl, datasets, knitr, rmarkdown, spelling, stringi, testthat (>= 3.2.0), tzdb (>= 0.1.1), waldo, xml2
+License: MIT + file LICENSE
+File: readr_2.2.0_b3_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/readr/releases/download/2.2.0/readr_2.2.0_b3_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2026-02-20 15:06:11 UTC; unix
+Filesize: 3167557
+SHA256: 0711e168df2277af5efed22a47240c6dd9019633e02a33604c287da37a27be89
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli, clipr, crayon, glue, hms (>= 0.4.1), lifecycle, methods, R6, rlang, tibble, utils, vroom (>= 1.7.0), withr
+LinkingTo: cpp11, tzdb (>= 0.1.1)
