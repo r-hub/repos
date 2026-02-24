@@ -3826,28 +3826,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: sf
-Version: 1.0-24
-Depends: methods, R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
-Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
-Suggests: blob, nanoarrow, covr, dplyr (>= 1.0.0), ggplot2, knitr, lwgeom (>= 0.2-14), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>=
-        1.1.0), RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.6-0), terra, testthat (>= 3.0.0), tibble (>=
-        1.4.1), tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk (>= 0.9.0)
-License: GPL-2 | MIT + file LICENSE
-File: sf_1.0-24_b6_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/sf/releases/download/1.0-24/sf_1.0-24_b6_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-01-13 17:16:27 UTC; unix
-Filesize: 9501134
-SHA256: 226336fdcf892103551e2ad4498074486fcef8eb41fc47e375f29cbd885a4bb8
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
-LinkingTo: Rcpp
-
 Package: blob
 Version: 1.3.0
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4599,25 +4577,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: later
-Version: 1.4.6
-Depends: R (>= 3.5), R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp (>= 1.0.10), rlang
-Suggests: knitr, nanonext, promises, rmarkdown, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: later_1.4.6_b6_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/later/releases/download/1.4.6/later_1.4.6_b6_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-02-14 17:14:56 UTC; unix
-Filesize: 168326
-SHA256: 889ec21182b4b4046fdc36cd979251d8d738387b2e42dd61c58cb499c88d2ba2
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: forecast
 Version: 9.0.1
 Depends: R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
@@ -4739,20 +4698,61 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
+Package: sf
+Version: 1.1-0
+Depends: methods, R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
+Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
+Suggests: blob, nanoarrow, covr, dplyr (>= 1.0.0), ggplot2, knitr, lwgeom (>= 0.2-14), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>=
+        1.1.0), RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.6-0), terra, testthat (>= 3.0.0), tibble (>=
+        1.4.1), tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk (>= 0.9.0)
+License: GPL-2 | MIT + file LICENSE
+File: sf_1.1-0_b7_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/sf/releases/download/1.1-0/sf_1.1-0_b7_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-02-24 17:49:26 UTC; unix
+Filesize: 9511746
+SHA256: 0477fc772f7a7c244667710a708abe74a5b3d9256ef893d49bca76a390cc127a
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
+LinkingTo: Rcpp
+
+Package: later
+Version: 1.4.7
+Depends: R (>= 3.5), R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp (>= 1.0.10), rlang
+Suggests: knitr, nanonext, promises, rmarkdown, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: later_1.4.7_b7_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/later/releases/download/1.4.7/later_1.4.7_b7_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-02-24 17:49:18 UTC; unix
+Filesize: 168258
+SHA256: 8483212ad3a7bec96cbfb4aa6cba6aa7b08a53d74beffea70dbe4f2a04c22b9a
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
 Package: arrow
-Version: 23.0.1
+Version: 23.0.1.1
 Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
 Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
 Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
         tibble, tzdb, withr
 License: Apache License (>= 2.0)
-File: arrow_23.0.1_b11_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/arrow/releases/download/23.0.1/arrow_23.0.1_b11_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+File: arrow_23.0.1.1_b12_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/arrow/releases/download/23.0.1.1/arrow_23.0.1.1_b12_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
 OS: linux
 Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-02-23 18:08:36 UTC; unix
-Filesize: 16716911
-SHA256: cbce5b50cb30f3d7161cbfe4bcc2aa75eb1adc27d7454cd5166d9c69fe34adfc
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-02-24 18:07:37 UTC; unix
+Filesize: 16720737
+SHA256: 0b0ec857e54c20a29a07b2f115ce562aa5ea2f881f87e3397e966f2949f016fa
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
