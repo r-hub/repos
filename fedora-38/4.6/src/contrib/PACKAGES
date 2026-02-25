@@ -944,21 +944,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: DBI
-Version: 1.2.3
-Depends: methods, R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
-Suggests: arrow, blob, covr, DBItest, dbplyr, downlit, dplyr, glue, hms, knitr, magrittr, nanoarrow (>= 0.3.0.1), RMariaDB, rmarkdown, rprojroot, RSQLite (>= 1.1-2), testthat (>= 3.0.0), vctrs, xml2
-License: LGPL (>= 2.1)
-File: DBI_1.2.3_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/DBI/releases/download/1.2.3/DBI_1.2.3_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:32:49 UTC; unix
-Filesize: 948240
-SHA256: 47a166614af294b0e595e57f7ba07c1a83905da4aeb669baceeb111ca6d2dcde
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: ids
 Version: 1.0.1
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -1401,25 +1386,6 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: ggrepel
-Version: 0.9.6
-Depends: R (>= 3.0.0), ggplot2 (>= 2.2.0), R (>= 4.6), R (< 4.6.99)
-Imports: grid, Rcpp, rlang (>= 0.3.0), scales (>= 0.5.0), withr (>= 2.5.0)
-Suggests: knitr, rmarkdown, testthat, svglite, vdiffr, gridExtra, ggpp, patchwork, devtools, prettydoc, ggbeeswarm, dplyr, magrittr, readr, stringr
-License: GPL-3 | file LICENSE
-File: ggrepel_0.9.6_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/ggrepel/releases/download/0.9.6/ggrepel_0.9.6_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:43:07 UTC; unix
-Filesize: 924696
-SHA256: 51f67dbb54f15758995162c571f82e7ab620e6700290935a589b992331369d88
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
 
 Package: gtools
 Version: 3.9.5
@@ -5068,3 +5034,38 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++20; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.26 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
+
+Package: DBI
+Version: 1.3.0
+Depends: methods, R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
+Suggests: arrow, blob, callr, covr, DBItest (>= 1.8.2), dbplyr, downlit, dplyr, glue, hms, knitr, magrittr, nanoarrow (>= 0.3.0.1), otel, otelsdk, RMariaDB, rmarkdown, rprojroot, RSQLite (>= 1.1-2),
+        testthat (>= 3.0.0), vctrs, xml2
+License: LGPL (>= 2.1)
+File: DBI_1.3.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/DBI/releases/download/1.3.0/DBI_1.3.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+Built: R 4.6.0; ; 2026-02-25 17:57:24 UTC; unix
+Filesize: 981726
+SHA256: f12528ee6ac20f5833a691268f17f4e502ca8a161192c33708baf49b4a40e88f
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: ggrepel
+Version: 0.9.7
+Depends: R (>= 4.5.0), ggplot2 (>= 3.5.2), R (>= 4.6), R (< 4.6.99)
+Imports: grid, Rcpp, rlang (>= 1.1.6), S7, scales (>= 1.4.0), withr (>= 3.0.2)
+Suggests: knitr, rmarkdown, testthat, svglite, vdiffr, gridExtra, ggpp, patchwork, devtools, prettydoc, ggbeeswarm, dplyr, magrittr, readr, stringr, marquee, rsvg, sf
+License: GPL-3 | file LICENSE
+File: ggrepel_0.9.7_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/ggrepel/releases/download/0.9.7/ggrepel_0.9.7_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-02-25 17:57:27 UTC; unix
+Filesize: 1057899
+SHA256: fdb48b434665a09db66d205f5d92d3e11dd70acd940c715e345ddce439d0790e
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
