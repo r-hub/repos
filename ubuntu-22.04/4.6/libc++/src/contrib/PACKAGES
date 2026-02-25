@@ -944,21 +944,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: DBI
-Version: 1.2.3
-Depends: methods, R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
-Suggests: arrow, blob, covr, DBItest, dbplyr, downlit, dplyr, glue, hms, knitr, magrittr, nanoarrow (>= 0.3.0.1), RMariaDB, rmarkdown, rprojroot, RSQLite (>= 1.1-2), testthat (>= 3.0.0), vctrs, xml2
-License: LGPL (>= 2.1)
-File: DBI_1.2.3_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/DBI/releases/download/1.2.3/DBI_1.2.3_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.6.0; ; 2025-03-15 19:27:12 UTC; unix
-Filesize: 914188
-SHA256: 1b15fa5f9644b2e90d900d65f6a297dcb757a676e81866a56cd244c4961a0bcf
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: ids
 Version: 1.0.1
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -1401,25 +1386,6 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: ggrepel
-Version: 0.9.6
-Depends: R (>= 3.0.0), ggplot2 (>= 2.2.0), R (>= 4.6), R (< 4.6.99)
-Imports: grid, Rcpp, rlang (>= 0.3.0), scales (>= 0.5.0), withr (>= 2.5.0)
-Suggests: knitr, rmarkdown, testthat, svglite, vdiffr, gridExtra, ggpp, patchwork, devtools, prettydoc, ggbeeswarm, dplyr, magrittr, readr, stringr
-License: GPL-3 | file LICENSE
-File: ggrepel_0.9.6_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/ggrepel/releases/download/0.9.6/ggrepel_0.9.6_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 19:37:51 UTC; unix
-Filesize: 296007
-SHA256: 7ec94bc1050a70247aa416efb58d710e974e86a650534a8cea83709411f0542d
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
 
 Package: gtools
 Version: 3.9.5
@@ -4759,3 +4725,38 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++20; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.26 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
+
+Package: DBI
+Version: 1.3.0
+Depends: methods, R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
+Suggests: arrow, blob, callr, covr, DBItest (>= 1.8.2), dbplyr, downlit, dplyr, glue, hms, knitr, magrittr, nanoarrow (>= 0.3.0.1), otel, otelsdk, RMariaDB, rmarkdown, rprojroot, RSQLite (>= 1.1-2),
+        testthat (>= 3.0.0), vctrs, xml2
+License: LGPL (>= 2.1)
+File: DBI_1.3.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/DBI/releases/download/1.3.0/DBI_1.3.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.6.0; ; 2026-02-25 17:46:59 UTC; unix
+Filesize: 940255
+SHA256: fb9753b6a96fa27ea5632a84e40603699ff824bc447e234ef014c66a5427591f
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: ggrepel
+Version: 0.9.7
+Depends: R (>= 4.5.0), ggplot2 (>= 3.5.2), R (>= 4.6), R (< 4.6.99)
+Imports: grid, Rcpp, rlang (>= 1.1.6), S7, scales (>= 1.4.0), withr (>= 3.0.2)
+Suggests: knitr, rmarkdown, testthat, svglite, vdiffr, gridExtra, ggpp, patchwork, devtools, prettydoc, ggbeeswarm, dplyr, magrittr, readr, stringr, marquee, rsvg, sf
+License: GPL-3 | file LICENSE
+File: ggrepel_0.9.7_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/ggrepel/releases/download/0.9.7/ggrepel_0.9.7_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-02-25 17:47:00 UTC; unix
+Filesize: 377272
+SHA256: fa48efeb6cebf161582af0c96590a438a3a209e9f9cec623eda17eb6f6d497ef
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
