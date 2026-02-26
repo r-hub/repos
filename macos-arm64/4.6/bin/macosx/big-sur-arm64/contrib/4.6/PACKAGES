@@ -2911,25 +2911,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
 
-Package: openssl
-Version: 2.3.4
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: askpass
-Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
-License: MIT + file LICENSE
-File: openssl_2.3.4_b3_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/openssl/releases/download/2.3.4/openssl_2.3.4_b3_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-09-30 17:38:00 UTC; unix
-Filesize: 3680920
-SHA256: 03444ad5c57c279d1063a4a501092ecfb69dd6018cd8514abbf6da9f658043b6
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: OpenSSL >= 1.0.2
-
 Package: rstanarm
 Version: 2.32.2
 Depends: R (>= 3.4.0), Rcpp (>= 0.12.0), methods, R (>= 4.6), R (< 4.6.99)
@@ -5123,3 +5104,22 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
+
+Package: openssl
+Version: 2.3.5
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: askpass
+Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
+License: MIT + file LICENSE
+File: openssl_2.3.5_b4_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/openssl/releases/download/2.3.5/openssl_2.3.5_b4_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2026-02-26 18:09:11 UTC; unix
+Filesize: 3825142
+SHA256: a18eb47a8a6f8b12937c6b3c665b3c1b8ea6bb291c960d258187619324fa613d
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: OpenSSL >= 1.0.2
