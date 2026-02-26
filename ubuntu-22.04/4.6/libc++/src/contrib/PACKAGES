@@ -2708,25 +2708,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
 
-Package: openssl
-Version: 2.3.4
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: askpass
-Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
-License: MIT + file LICENSE
-File: openssl_2.3.4_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/openssl/releases/download/2.3.4/openssl_2.3.4_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-09-30 16:59:42 UTC; unix
-Filesize: 1319349
-SHA256: 02079a67786e1856609e6a4b6bb3e2ce39c515e965b729b5b0b3595b2ce8e876
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: OpenSSL >= 1.0.2
-
 Package: systemfonts
 Version: 1.3.1
 Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
@@ -4760,3 +4741,22 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
+
+Package: openssl
+Version: 2.3.5
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: askpass
+Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
+License: MIT + file LICENSE
+File: openssl_2.3.5_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/openssl/releases/download/2.3.5/openssl_2.3.5_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-02-26 17:49:05 UTC; unix
+Filesize: 1283708
+SHA256: 01d28f40e735d2df89c67da79f14421fdf0d572c3418b6e87810a46c3b272955
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: OpenSSL >= 1.0.2
