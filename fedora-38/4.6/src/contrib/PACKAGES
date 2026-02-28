@@ -1708,25 +1708,6 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: xts
-Version: 0.14.1
-Depends: R (>= 3.6.0), zoo (>= 1.7-12), R (>= 4.6), R (< 4.6.99)
-Imports: methods
-Suggests: timeSeries, timeDate, tseries, chron, tinytest
-License: GPL (>= 2)
-File: xts_0.14.1_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/xts/releases/download/0.14.1/xts_0.14.1_b1_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:44:36 UTC; unix
-Filesize: 1357455
-SHA256: dd4bbfb0d2c7eefee55efaae4c8d1fca08f5b0d2684996b866257a5f46b5ef83
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: zoo
-
 Package: plogr
 Version: 0.2.0
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -2734,26 +2715,6 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: magick
-Version: 2.9.0
-Depends: R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp (>= 0.12.12), magrittr, curl
-Suggests: av, spelling, jsonlite, methods, knitr, rmarkdown, rsvg, webp, pdftools, ggplot2, gapminder, IRdisplay, tesseract, gifski
-License: MIT + file LICENSE
-File: magick_2.9.0_b4_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-DownloadURL: https://github.com/cran/magick/releases/download/2.9.0/magick_2.9.0_b4_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-09-08 17:16:57 UTC; unix
-Filesize: 8822499
-SHA256: 89450b8047008f5acbfca4e1e776aaa5d0868c1ca4dfd1e65f5db4318dce2995
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-38
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or libmagick++-dev (deb)
-LinkingTo: Rcpp
 
 Package: tidymodels
 Version: 1.4.1
@@ -5069,3 +5030,42 @@ Platform: x86_64-pc-linux-gnu-fedora-38
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: OpenSSL >= 1.0.2
+
+Package: xts
+Version: 0.14.2
+Depends: R (>= 3.6.0), zoo (>= 1.7-12), R (>= 4.6), R (< 4.6.99)
+Imports: methods
+Suggests: timeSeries, timeDate, tseries, chron, tinytest
+License: GPL (>= 2)
+File: xts_0.14.2_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/xts/releases/download/0.14.2/xts_0.14.2_b2_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-02-28 17:20:36 UTC; unix
+Filesize: 1354659
+SHA256: e4a1e74ad8fe6c802252773f013a1034c6cadfa68ea2dc2848c81048165edaf2
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: zoo
+
+Package: magick
+Version: 2.9.1
+Depends: R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp (>= 0.12.12), magrittr, curl
+Suggests: av, spelling, jsonlite, methods, knitr, rmarkdown, rsvg, webp, pdftools, ggplot2, gapminder, IRdisplay, tesseract, gifski
+License: MIT + file LICENSE
+File: magick_2.9.1_b5_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+DownloadURL: https://github.com/cran/magick/releases/download/2.9.1/magick_2.9.1_b5_R4.6_x86_64-pc-linux-gnu-fedora-38.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-02-28 17:20:36 UTC; unix
+Filesize: 9118760
+SHA256: f8bf84b26b6e128a9807eab8f50910c2d7e36eecc65d6bd0890c9d58b1b05d92
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-38
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or libmagick++-dev (deb)
+LinkingTo: Rcpp
