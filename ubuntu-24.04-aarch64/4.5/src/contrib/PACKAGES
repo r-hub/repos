@@ -1726,25 +1726,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: xts
-Version: 0.14.1
-Depends: R (>= 3.6.0), zoo (>= 1.7-12), R (>= 4.5), R (< 4.5.99)
-Imports: methods
-Suggests: timeSeries, timeDate, tseries, chron, tinytest
-License: GPL (>= 2)
-File: xts_0.14.1_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/xts/releases/download/0.14.1/xts_0.14.1_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-16 09:11:05 UTC; unix
-Filesize: 1319129
-SHA256: 5b9aa969bf04ec9af4ccb1c237a5311f29fac468aba6eabf5a21702205c364ae
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: zoo
-
 Package: plogr
 Version: 0.2.0
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -2734,26 +2715,6 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: magick
-Version: 2.9.0
-Depends: R (>= 4.1.0), R (>= 4.5), R (< 4.5.99)
-Imports: Rcpp (>= 0.12.12), magrittr, curl
-Suggests: av, spelling, jsonlite, methods, knitr, rmarkdown, rsvg, webp, pdftools, ggplot2, gapminder, IRdisplay, tesseract, gifski
-License: MIT + file LICENSE
-File: magick_2.9.0_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/magick/releases/download/2.9.0/magick_2.9.0_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.1; aarch64-unknown-linux-gnu; 2025-09-08 23:21:08 UTC; unix
-Filesize: 8553351
-SHA256: 9c5626c060d2ff9a4da99fd4a1a2262d34bcf0034c24047bf2040969a2852720
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or libmagick++-dev (deb)
-LinkingTo: Rcpp
 
 Package: tidymodels
 Version: 1.4.1
@@ -5106,3 +5067,42 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: OpenSSL >= 1.0.2
+
+Package: xts
+Version: 0.14.2
+Depends: R (>= 3.6.0), zoo (>= 1.7-12), R (>= 4.5), R (< 4.5.99)
+Imports: methods
+Suggests: timeSeries, timeDate, tseries, chron, tinytest
+License: GPL (>= 2)
+File: xts_0.14.2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/xts/releases/download/0.14.2/xts_0.14.2_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.2; aarch64-unknown-linux-gnu; 2026-02-28 23:27:26 UTC; unix
+Filesize: 1314008
+SHA256: 29bf53fa1ac8813bd30e41b663848c8c01d1c4035efe68656dd45bd753b25f0a
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: zoo
+
+Package: magick
+Version: 2.9.1
+Depends: R (>= 4.1.0), R (>= 4.5), R (< 4.5.99)
+Imports: Rcpp (>= 0.12.12), magrittr, curl
+Suggests: av, spelling, jsonlite, methods, knitr, rmarkdown, rsvg, webp, pdftools, ggplot2, gapminder, IRdisplay, tesseract, gifski
+License: MIT + file LICENSE
+File: magick_2.9.1_b5_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/magick/releases/download/2.9.1/magick_2.9.1_b5_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.2; aarch64-unknown-linux-gnu; 2026-02-28 23:27:27 UTC; unix
+Filesize: 8545245
+SHA256: 9b8d06ebb3ec2e1107e36704ebbb022c399fe48bed16f1122c89707aaa3e0a3b
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or libmagick++-dev (deb)
+LinkingTo: Rcpp
