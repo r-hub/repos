@@ -1695,25 +1695,6 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: xts
-Version: 0.14.1
-Depends: R (>= 3.6.0), zoo (>= 1.7-12), R (>= 4.6), R (< 4.6.99)
-Imports: methods
-Suggests: timeSeries, timeDate, tseries, chron, tinytest
-License: GPL (>= 2)
-File: xts_0.14.1_b1_R4.6_aarch64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/xts/releases/download/0.14.1/xts_0.14.1_b1_R4.6_aarch64-apple-darwin20.tgz
-OS: darwin
-Arch: arm64
-Built: R 4.6.0; aarch64-apple-darwin20; 2025-03-16 18:25:45 UTC; unix
-Filesize: 1220495
-SHA256: 6d9a32d2683638cd85554dc2b9fff35a2cd6879d6b05f6a67c7a02ee017618d9
-RVersion: 4.6
-Platform: aarch64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: zoo
-
 Package: plogr
 Version: 0.2.0
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -5123,3 +5104,22 @@ Platform: aarch64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: OpenSSL >= 1.0.2
+
+Package: xts
+Version: 0.14.2
+Depends: R (>= 3.6.0), zoo (>= 1.7-12), R (>= 4.6), R (< 4.6.99)
+Imports: methods
+Suggests: timeSeries, timeDate, tseries, chron, tinytest
+License: GPL (>= 2)
+File: xts_0.14.2_b2_R4.6_aarch64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/xts/releases/download/0.14.2/xts_0.14.2_b2_R4.6_aarch64-apple-darwin20.tgz
+OS: darwin
+Arch: arm64
+Built: R 4.6.0; aarch64-apple-darwin20; 2026-02-28 17:44:03 UTC; unix
+Filesize: 1221264
+SHA256: 96206e873c2efb12d1190876ed70b60250d2a225721f8003f19f8f142a8e3082
+RVersion: 4.6
+Platform: aarch64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: zoo
