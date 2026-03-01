@@ -734,25 +734,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: lhs
-Version: 1.2.0
-Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
-Imports: Rcpp
-Suggests: testthat, DoE.base, knitr, rmarkdown
-License: GPL-3
-File: lhs_1.2.0_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/lhs/releases/download/1.2.0/lhs_1.2.0_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-16 01:15:40 UTC; unix
-Filesize: 3061584
-SHA256: dd0f8de2173253251c9ad345c0b623bfeea737c0a00be7f8ac9fa6d92af7fde5
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: modelenv
 Version: 0.2.0
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -5105,4 +5086,23 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or libmagick++-dev (deb)
+LinkingTo: Rcpp
+
+Package: lhs
+Version: 1.2.1
+Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
+Imports: Rcpp
+Suggests: testthat, DoE.base, knitr, rmarkdown
+License: GPL-3
+File: lhs_1.2.1_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/lhs/releases/download/1.2.1/lhs_1.2.1_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.3; aarch64-unknown-linux-gnu; 2026-03-01 18:53:51 UTC; unix
+Filesize: 3060562
+SHA256: 38a902f16f5a9e86813e8db31529983fd6bd31c1be44d4a62b19d3df48dca5b7
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
