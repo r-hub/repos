@@ -734,25 +734,6 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: lhs
-Version: 1.2.0
-Depends: R (>= 3.4.0), R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp
-Suggests: testthat, DoE.base, knitr, rmarkdown
-License: GPL-3
-File: lhs_1.2.0_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/lhs/releases/download/1.2.0/lhs_1.2.0_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:42:57 UTC; unix
-Filesize: 3168682
-SHA256: 52cca94c356a1f8cc1a92c3469cba4851bd007e406c84b2c19d60d48ab844c13
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: modelenv
 Version: 0.2.0
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -5068,4 +5049,23 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or libmagick++-dev (deb)
+LinkingTo: Rcpp
+
+Package: lhs
+Version: 1.2.1
+Depends: R (>= 3.4.0), R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp
+Suggests: testthat, DoE.base, knitr, rmarkdown
+License: GPL-3
+File: lhs_1.2.1_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/lhs/releases/download/1.2.1/lhs_1.2.1_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-01 17:26:42 UTC; unix
+Filesize: 3404292
+SHA256: 2e157951924ac1502171466aea7d55ff919dec951ad237071df9032c51a4fc97
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
