@@ -1262,26 +1262,6 @@ Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltoo
         2.1.19)
 SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
 
-Package: systemfonts
-Version: 1.3.1
-Depends: R (>= 3.2.0), R (>= 4.3), R (< 4.3.99)
-Suggests: covr, farver, ggplot2, graphics, knitr, ragg, rmarkdown, svglite, testthat (>= 2.1.0)
-License: MIT + file LICENSE
-File: systemfonts_1.3.1_b4_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/systemfonts/releases/download/1.3.1/systemfonts_1.3.1_b4_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-10-01 14:49:14 UTC; unix
-Filesize: 3308352
-SHA256: 751d1bf187bc323354c7f4915f0b087df3160c9c48d487647503b7e9769ccbeb
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: base64enc, grid, jsonlite, lifecycle, tools, utils
-SystemRequirements: fontconfig, freetype2
-LinkingTo: cpp11 (>= 0.2.1)
-
 Package: textshaping
 Version: 1.0.4
 Depends: R (>= 3.2.0), R (>= 4.3), R (< 4.3.99)
@@ -2092,3 +2072,23 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: askpass
 SystemRequirements: OpenSSL >= 1.0.2
+
+Package: systemfonts
+Version: 1.3.2
+Depends: R (>= 3.2.0), R (>= 4.3), R (< 4.3.99)
+Suggests: covr, farver, ggplot2, graphics, knitr, ragg, rmarkdown, svglite, testthat (>= 2.1.0)
+License: MIT + file LICENSE
+File: systemfonts_1.3.2_b5_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/systemfonts/releases/download/1.3.2/systemfonts_1.3.2_b5_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2026-03-05 15:11:01 UTC; unix
+Filesize: 3338246
+SHA256: 89008ad453b82abef27b7305ba7915e304ba6e9bb8b545494c29396b5416374b
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: base64enc, grid, jsonlite, lifecycle, tools, utils
+SystemRequirements: fontconfig, freetype2
+LinkingTo: cpp11 (>= 0.2.1)
