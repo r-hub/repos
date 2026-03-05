@@ -2669,26 +2669,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
 
-Package: systemfonts
-Version: 1.3.1
-Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
-Imports: base64enc, grid, jsonlite, lifecycle, tools, utils
-Suggests: covr, farver, ggplot2, graphics, knitr, ragg, rmarkdown, svglite, testthat (>= 2.1.0)
-License: MIT + file LICENSE
-File: systemfonts_1.3.1_b5_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/systemfonts/releases/download/1.3.1/systemfonts_1.3.1_b5_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-10-01 16:59:35 UTC; unix
-Filesize: 806982
-SHA256: 540cb9f36409d6761b78dfc537d0a980d677772387c7c2294b37bb491531e059
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: fontconfig, freetype2
-LinkingTo: cpp11 (>= 0.2.1)
-
 Package: devtools
 Version: 2.4.6
 Depends: R (>= 4.1), usethis (>= 3.2.1), R (>= 4.6), R (< 4.6.99)
@@ -4609,25 +4589,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
 LinkingTo: Rcpp
 
-Package: later
-Version: 1.4.7
-Depends: R (>= 3.5), R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp (>= 1.0.10), rlang
-Suggests: knitr, nanonext, promises, rmarkdown, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: later_1.4.7_b7_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/later/releases/download/1.4.7/later_1.4.7_b7_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-02-24 17:49:18 UTC; unix
-Filesize: 168258
-SHA256: 8483212ad3a7bec96cbfb4aa6cba6aa7b08a53d74beffea70dbe4f2a04c22b9a
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: arrow
 Version: 23.0.1.1
 Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
@@ -4755,6 +4716,45 @@ Arch: amd64
 Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-01 17:11:50 UTC; unix
 Filesize: 414935
 SHA256: d39850e5e56c0ac87d400e181db884b14dc7dc2de844ec40de71c7ad2cd3a5d7
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: systemfonts
+Version: 1.3.2
+Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
+Imports: base64enc, grid, jsonlite, lifecycle, tools, utils
+Suggests: covr, farver, ggplot2, graphics, knitr, ragg, rmarkdown, svglite, testthat (>= 2.1.0)
+License: MIT + file LICENSE
+File: systemfonts_1.3.2_b6_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/systemfonts/releases/download/1.3.2/systemfonts_1.3.2_b6_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-05 18:31:17 UTC; unix
+Filesize: 813299
+SHA256: 2e0b37eb907af1d38284fe7dcfc9d66dcadc2e1f6196baed1a0a3fb398e0d729
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: fontconfig, freetype2
+LinkingTo: cpp11 (>= 0.2.1)
+
+Package: later
+Version: 1.4.8
+Depends: R (>= 3.5), R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp (>= 1.0.10), rlang
+Suggests: knitr, nanonext, promises, rmarkdown, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: later_1.4.8_b8_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/later/releases/download/1.4.8/later_1.4.8_b8_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-05 18:31:16 UTC; unix
+Filesize: 168392
+SHA256: 334d32e10a1afd092cf741ece5250ff631c0b8932e8b851bca0812c221f63786
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
