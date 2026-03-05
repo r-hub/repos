@@ -2512,24 +2512,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: RcppParallel
-Version: 5.1.11-1
-Depends: R (>= 3.0.2), R (>= 4.6), R (< 4.6.99)
-Suggests: Rcpp, RUnit, knitr, rmarkdown
-License: GPL (>= 3)
-File: RcppParallel_5.1.11-1_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/RcppParallel/releases/download/5.1.11-1/RcppParallel_5.1.11-1_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-08-27 16:41:39 UTC; unix
-Filesize: 1960401
-SHA256: 3b05e08bf4aff41ee63ac607191025acdd548cd789c1f78c5b297cc3777c847d
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make, Intel TBB, Windows: cmd.exe and cscript.exe, Solaris: g++ is required
-
 Package: rprojroot
 Version: 2.1.1
 Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
@@ -2857,26 +2839,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, pandoc (>= 1.12.3), pandoc-citeproc
 LinkingTo: StanHeaders (>= 2.32.0), rstan (>= 2.32.0), BH (>= 1.72.0-2), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0), RcppParallel (>= 5.0.1)
-
-Package: systemfonts
-Version: 1.3.1
-Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
-Imports: base64enc, grid, jsonlite, lifecycle, tools, utils
-Suggests: covr, farver, ggplot2, graphics, knitr, ragg, rmarkdown, svglite, testthat (>= 2.1.0)
-License: MIT + file LICENSE
-File: systemfonts_1.3.1_b5_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/systemfonts/releases/download/1.3.1/systemfonts_1.3.1_b5_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-10-01 16:41:21 UTC; unix
-Filesize: 3313281
-SHA256: bd66399bdb7c313818bba83f061f9dc073371daa29d13f1623d385bf2b675c84
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: fontconfig, freetype2
-LinkingTo: cpp11 (>= 0.2.1)
 
 Package: devtools
 Version: 2.4.6
@@ -4918,25 +4880,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
 LinkingTo: Rcpp
 
-Package: later
-Version: 1.4.7
-Depends: R (>= 3.5), R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp (>= 1.0.10), rlang
-Suggests: knitr, nanonext, promises, rmarkdown, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: later_1.4.7_b7_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/later/releases/download/1.4.7/later_1.4.7_b7_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-02-24 17:30:42 UTC; unix
-Filesize: 1546262
-SHA256: 52bd52f47cc50167eeab8649d5942bd6054e79ed363d92c452853babfa24eacd
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: arrow
 Version: 23.0.1.1
 Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
@@ -5064,6 +5007,63 @@ Arch: amd64
 Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-01 16:46:46 UTC; unix
 Filesize: 3370598
 SHA256: e938162d2dbeac1f7d3a26360606329b21ded3ea691461a0556a96939b9faa82
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: RcppParallel
+Version: 5.1.11-2
+Depends: R (>= 3.0.2), R (>= 4.6), R (< 4.6.99)
+Suggests: Rcpp, RUnit, knitr, rmarkdown
+License: GPL (>= 3)
+File: RcppParallel_5.1.11-2_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/RcppParallel/releases/download/5.1.11-2/RcppParallel_5.1.11-2_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-05 18:23:56 UTC; unix
+Filesize: 1996391
+SHA256: d960abab1fd1ce8069551234c11d2672a5a80f3b9f4b6d02d2e17a47cbb82362
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, Intel TBB, Windows: cmd.exe and cscript.exe, Solaris: g++ is required
+
+Package: systemfonts
+Version: 1.3.2
+Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
+Imports: base64enc, grid, jsonlite, lifecycle, tools, utils
+Suggests: covr, farver, ggplot2, graphics, knitr, ragg, rmarkdown, svglite, testthat (>= 2.1.0)
+License: MIT + file LICENSE
+File: systemfonts_1.3.2_b6_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/systemfonts/releases/download/1.3.2/systemfonts_1.3.2_b6_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-05 18:23:55 UTC; unix
+Filesize: 3495740
+SHA256: dcee13b642572c3322f33da2d751e0b64aeec7f9cd7b1b24ba8b46ff8aaae7c4
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: fontconfig, freetype2
+LinkingTo: cpp11 (>= 0.2.1)
+
+Package: later
+Version: 1.4.8
+Depends: R (>= 3.5), R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp (>= 1.0.10), rlang
+Suggests: knitr, nanonext, promises, rmarkdown, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: later_1.4.8_b8_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/later/releases/download/1.4.8/later_1.4.8_b8_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-05 18:23:55 UTC; unix
+Filesize: 1546271
+SHA256: 68b9bce6988bb66b0e92b9d5ba90f834e5a372a7bcbe1c6ad7a7cd2ba8d4ea0c
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
