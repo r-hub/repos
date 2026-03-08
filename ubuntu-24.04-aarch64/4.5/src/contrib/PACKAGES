@@ -3785,26 +3785,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: terra
-Version: 1.8-93
-Depends: R (>= 3.5.0), methods, R (>= 4.5), R (< 4.5.99)
-Imports: Rcpp (>= 1.0-10)
-Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
-License: GPL (>= 3)
-File: terra_1.8-93_b9_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/terra/releases/download/1.8-93/terra_1.8-93_b9_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.2; aarch64-unknown-linux-gnu; 2026-01-12 23:21:33 UTC; unix
-Filesize: 32076531
-SHA256: d3ac2012cbd7e92432afea0085692b637a5b2cb7b50953ef1a28ea5c2841b560
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
-LinkingTo: Rcpp
-
 Package: parsnip
 Version: 1.4.1
 Depends: R (>= 4.1), R (>= 4.5), R (< 4.5.99)
@@ -5106,3 +5086,23 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Installing OpenGL support" in README.md. Not needed if only browser displays using rglwidget() are wanted.), zlib
         (optional), libpng (>=1.2.9, optional), FreeType (optional), pandoc (>=1.14, needed for vignettes), LaTeX needed for optional latex3d() examples.
 Enhances: waldo
+
+Package: terra
+Version: 1.9-1
+Depends: R (>= 3.5.0), methods, R (>= 4.5), R (< 4.5.99)
+Imports: Rcpp (>= 1.0-10)
+Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
+License: GPL (>= 3)
+File: terra_1.9-1_b10_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/terra/releases/download/1.9-1/terra_1.9-1_b10_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.3; aarch64-unknown-linux-gnu; 2026-03-08 23:30:02 UTC; unix
+Filesize: 32690440
+SHA256: e95c7bbe9e8b3523225aefd2ac0fb1fdbe1eea89e0391c8fe3336c42b8098b63
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
+LinkingTo: Rcpp
