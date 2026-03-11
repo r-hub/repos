@@ -1123,24 +1123,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: mvtnorm
-Version: 1.3-3
-Depends: R(>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-Imports: stats
-Suggests: qrng, numDeriv
-License: GPL-2
-File: mvtnorm_1.3-3_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.3-3/mvtnorm_1.3-3_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-16 09:01:24 UTC; unix
-Filesize: 1014383
-SHA256: fc5df1c9c812c90b78ca823384a901398911c41a383ba8f8d1eb8dd2035f8387
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: classInt
 Version: 0.4-11
 Depends: R (>= 2.2), R (>= 4.5), R (< 4.5.99)
@@ -2003,25 +1985,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: prodlim
-Version: 2025.04.28
-Depends: R (>= 4.1.0), R (>= 4.5), R (< 4.5.99)
-Imports: Rcpp (>= 0.11.5), stats, rlang, data.table, grDevices, ggplot2, graphics, diagram, survival, KernSmooth, lava
-Suggests: tibble, pammtools, ggthemes
-License: GPL (>= 2)
-File: prodlim_2025.04.28_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/prodlim/releases/download/2025.04.28/prodlim_2025.04.28_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-04-28 23:20:53 UTC; unix
-Filesize: 468050
-SHA256: 59e568e058180c149d6d4262d3dc1c4ccea74b3395905630f05b987ced34b454
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: R.oo
 Version: 1.27.1
 Depends: R (>= 2.13.0), R.methodsS3 (>= 1.8.2), R (>= 4.5), R (< 4.5.99)
@@ -2819,26 +2782,6 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: units
-Version: 1.0-0
-Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-Imports: Rcpp
-Suggests: NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0), dplyr (>= 1.0.0), vctrs (>= 0.3.1), ggplot2 (> 3.2.1), testthat (>= 3.0.0), vdiffr, knitr, rvest, rmarkdown
-License: GPL-2
-File: units_1.0-0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/units/releases/download/1.0-0/units_1.0-0_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.1; aarch64-unknown-linux-gnu; 2025-10-09 23:20:05 UTC; unix
-Filesize: 1072597
-SHA256: 970dffd1e0498c837768e980e79a44106059339599565bd6aba235864e2ecb4a
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: udunits-2
-LinkingTo: Rcpp (>= 0.12.10)
 
 Package: hms
 Version: 1.1.4
@@ -5106,3 +5049,60 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: mvtnorm
+Version: 1.3-5
+Depends: R(>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+Imports: stats
+Suggests: qrng, numDeriv, bibtex
+License: GPL-2
+File: mvtnorm_1.3-5_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.3-5/mvtnorm_1.3-5_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.3; aarch64-unknown-linux-gnu; 2026-03-11 23:30:51 UTC; unix
+Filesize: 1066307
+SHA256: c40ac7298c3ab56042ee3cb0b7802a38e4845afb3e6470b495be5d238214801d
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: prodlim
+Version: 2026.03.11
+Depends: R (>= 4.1.0), R (>= 4.5), R (< 4.5.99)
+Imports: Rcpp (>= 0.11.5), stats, rlang, data.table, grDevices, ggplot2, scales, graphics, diagram, survival, KernSmooth, lava
+Suggests: tibble, ggthemes, riskRegression, testthat, etm, survey
+License: GPL (>= 2)
+File: prodlim_2026.03.11_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/prodlim/releases/download/2026.03.11/prodlim_2026.03.11_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.3; aarch64-unknown-linux-gnu; 2026-03-11 23:30:53 UTC; unix
+Filesize: 556915
+SHA256: cccb8aa442bcf2b42119a600f3e2db25a3d73310bbeb62eacb4fa5b1d8c08879
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: units
+Version: 1.0-1
+Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+Imports: Rcpp
+Suggests: NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0), dplyr (>= 1.0.0), vctrs (>= 0.3.1), ggplot2 (> 3.2.1), testthat (>= 3.0.0), vdiffr, knitr, rvest, rmarkdown
+License: GPL-2
+File: units_1.0-1_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/units/releases/download/1.0-1/units_1.0-1_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.3; aarch64-unknown-linux-gnu; 2026-03-11 23:30:54 UTC; unix
+Filesize: 1105424
+SHA256: 63d10465bd0c9b074cd09a053db3fd34aa9da8f56db5b3f0be270decdb4ba5cc
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: udunits-2
+LinkingTo: Rcpp (>= 1.1.0)
