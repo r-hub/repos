@@ -809,21 +809,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: SQUAREM
-Version: 2021.1
-Depends: R (>= 3.0), R (>= 4.6), R (< 4.6.99)
-Suggests: setRNG
-License: GPL (>= 2)
-File: SQUAREM_2021.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/SQUAREM/releases/download/2021.1/SQUAREM_2021.1_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.6.0; ; 2025-03-15 08:32:39 UTC; unix
-Filesize: 178437
-SHA256: a79eece3fb4a87c0f73b037e10a634a763fb5f75bf8c50824acd4dbdebc2b6a7
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: tidyselect
 Version: 1.2.1
 Depends: R (>= 3.4), R (>= 4.6), R (< 4.6.99)
@@ -1100,24 +1085,6 @@ DownloadURL: https://github.com/cran/viridis/releases/download/0.6.5/viridis_0.6
 Built: R 4.6.0; ; 2025-03-15 08:44:48 UTC; unix
 Filesize: 3011565
 SHA256: 77ad48992f7d1973a2f61d7ad5a1d7795432a654a0eb5ccdeba74575712301fe
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: mvtnorm
-Version: 1.3-3
-Depends: R(>= 3.5.0), R (>= 4.6), R (< 4.6.99)
-Imports: stats
-Suggests: qrng, numDeriv
-License: GPL-2
-File: mvtnorm_1.3-3_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.3-3/mvtnorm_1.3-3_b1_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:32:54 UTC; unix
-Filesize: 1013174
-SHA256: 66d9d8abd88e92f1ffaede46ace06a3ebff9ee19289a3bb7d29cebe69000f562
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
@@ -2002,25 +1969,6 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: prodlim
-Version: 2025.04.28
-Depends: R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp (>= 0.11.5), stats, rlang, data.table, grDevices, ggplot2, graphics, diagram, survival, KernSmooth, lava
-Suggests: tibble, pammtools, ggthemes
-License: GPL (>= 2)
-File: prodlim_2025.04.28_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/prodlim/releases/download/2025.04.28/prodlim_2025.04.28_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-04-29 16:42:07 UTC; unix
-Filesize: 470235
-SHA256: ae42ca924cbd38ae76be84d1bf118778c6ca7b84987a96e1aef60f1ce9f6325b
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
 
 Package: R.cache
 Version: 0.17.0
@@ -5069,3 +5017,55 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: SQUAREM
+Version: 2026.1
+Depends: R (>= 4.0), R (>= 4.6), R (< 4.6.99)
+Suggests: setRNG, interval
+License: GPL (>= 2)
+File: SQUAREM_2026.1_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/SQUAREM/releases/download/2026.1/SQUAREM_2026.1_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.6.0; ; 2026-03-12 17:13:02 UTC; unix
+Filesize: 178633
+SHA256: 88aae88e7f5ed332d2eef404dc4bd1a4a90189792ff3308748e5adc41ef165d3
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: mvtnorm
+Version: 1.3-5
+Depends: R(>= 3.5.0), R (>= 4.6), R (< 4.6.99)
+Imports: stats
+Suggests: qrng, numDeriv, bibtex
+License: GPL-2
+File: mvtnorm_1.3-5_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.3-5/mvtnorm_1.3-5_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-12 17:13:02 UTC; unix
+Filesize: 1065361
+SHA256: 6cd6e0021b1fbd0372bd74b79e80fd950759147f3f06ab2a30a57be08dc77ee7
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: prodlim
+Version: 2026.03.11
+Depends: R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp (>= 0.11.5), stats, rlang, data.table, grDevices, ggplot2, scales, graphics, diagram, survival, KernSmooth, lava
+Suggests: tibble, ggthemes, riskRegression, testthat, etm, survey
+License: GPL (>= 2)
+File: prodlim_2026.03.11_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/prodlim/releases/download/2026.03.11/prodlim_2026.03.11_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-12 17:13:06 UTC; unix
+Filesize: 559327
+SHA256: 4f109dde970490701c23a0c8d435139164281939511e47c50129ec14081c9802
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
