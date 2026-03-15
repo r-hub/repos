@@ -1406,23 +1406,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: png
-Version: 0.1-8
-Depends: R (>= 2.9.0), R (>= 4.6), R (< 4.6.99)
-License: GPL-2 | GPL-3
-File: png_0.1-8_b1_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/png/releases/download/0.1-8/png_0.1-8_b1_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2025-03-16 18:05:56 UTC; unix
-Filesize: 148533
-SHA256: 4619cfa289eeaf71f3edf1d84d002de465949118c5502aca845c8259d2567cc3
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libpng
-
 Package: R.methodsS3
 Version: 1.8.2
 Depends: R (>= 2.13.0), R (>= 4.6), R (< 4.6.99)
@@ -4913,24 +4896,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
 LinkingTo: Rcpp
 
-Package: mvtnorm
-Version: 1.3-5
-Depends: R(>= 3.5.0), R (>= 4.6), R (< 4.6.99)
-Imports: stats
-Suggests: qrng, numDeriv, bibtex
-License: GPL-2
-File: mvtnorm_1.3-5_b2_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.3-5/mvtnorm_1.3-5_b2_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2026-03-11 18:10:22 UTC; unix
-Filesize: 1008517
-SHA256: bdfcd2a3358ada9cf21c009a7e0b5066cd9e3139c4064e2a74bbec194fece0b6
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: prodlim
 Version: 2026.03.11
 Depends: R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
@@ -5087,3 +5052,38 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: xz (for building from source)
+
+Package: png
+Version: 0.1-9
+Depends: R (>= 2.9.0), R (>= 4.6), R (< 4.6.99)
+License: GPL-2 | GPL-3
+File: png_0.1-9_b2_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/png/releases/download/0.1-9/png_0.1-9_b2_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2026-03-15 17:57:42 UTC; unix
+Filesize: 146054
+SHA256: fb9a31015b4d3c3f72d5a4fe82f06d72e0fbdcf990310bfb35c32f74b8eb36eb
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libpng
+
+Package: mvtnorm
+Version: 1.3-6
+Depends: R(>= 3.5.0), R (>= 4.6), R (< 4.6.99)
+Imports: stats
+Suggests: qrng, numDeriv, bibtex
+License: GPL-2
+File: mvtnorm_1.3-6_b3_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.3-6/mvtnorm_1.3-6_b3_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2026-03-15 17:57:46 UTC; unix
+Filesize: 1012485
+SHA256: 006f55c6857c9dc5cbbead7245ec2af3b1e278570e09329c0c9103b43eb6f478
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
