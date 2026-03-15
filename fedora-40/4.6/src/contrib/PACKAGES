@@ -1388,23 +1388,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: png
-Version: 0.1-8
-Depends: R (>= 2.9.0), R (>= 4.6), R (< 4.6.99)
-License: GPL-2 | GPL-3
-File: png_0.1-8_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/png/releases/download/0.1-8/png_0.1-8_b1_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-03-15 08:41:44 UTC; unix
-Filesize: 64765
-SHA256: 84a1f6ba394a8c9e8d9985e553f9c546b4368af2fbbedd2873f49b303065db46
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libpng
-
 Package: R.methodsS3
 Version: 1.8.2
 Depends: R (>= 2.13.0), R (>= 4.6), R (< 4.6.99)
@@ -4914,24 +4897,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
 LinkingTo: Rcpp
 
-Package: mvtnorm
-Version: 1.3-5
-Depends: R(>= 3.5.0), R (>= 4.6), R (< 4.6.99)
-Imports: stats
-Suggests: qrng, numDeriv, bibtex
-License: GPL-2
-File: mvtnorm_1.3-5_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.3-5/mvtnorm_1.3-5_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-11 17:51:56 UTC; unix
-Filesize: 1080059
-SHA256: e2a25ce5380c1469a6102fd1d07074fede79f96d6c8e6635a205592ed5cfc639
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-40
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: prodlim
 Version: 2026.03.11
 Depends: R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
@@ -5088,3 +5053,38 @@ Platform: x86_64-pc-linux-gnu-fedora-40
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: xz (for building from source)
+
+Package: png
+Version: 0.1-9
+Depends: R (>= 2.9.0), R (>= 4.6), R (< 4.6.99)
+License: GPL-2 | GPL-3
+File: png_0.1-9_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/png/releases/download/0.1-9/png_0.1-9_b2_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-15 17:33:14 UTC; unix
+Filesize: 65706
+SHA256: d8def9baa12a0efd42d7e29f5e5db62aea88125f8b137cf84dd66edab33c3479
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libpng
+
+Package: mvtnorm
+Version: 1.3-6
+Depends: R(>= 3.5.0), R (>= 4.6), R (< 4.6.99)
+Imports: stats
+Suggests: qrng, numDeriv, bibtex
+License: GPL-2
+File: mvtnorm_1.3-6_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.3-6/mvtnorm_1.3-6_b3_R4.6_x86_64-pc-linux-gnu-fedora-40.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-15 17:33:14 UTC; unix
+Filesize: 1084383
+SHA256: 458d99221b393c9044ba7ac7e9b23f600532c5c8786de47a50c497b617df296b
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-40
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
