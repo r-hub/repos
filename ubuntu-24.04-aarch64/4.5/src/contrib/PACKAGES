@@ -1406,23 +1406,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: png
-Version: 0.1-8
-Depends: R (>= 2.9.0), R (>= 4.5), R (< 4.5.99)
-License: GPL-2 | GPL-3
-File: png_0.1-8_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/png/releases/download/0.1-8/png_0.1-8_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.0; aarch64-unknown-linux-gnu; 2025-03-16 09:02:17 UTC; unix
-Filesize: 58986
-SHA256: d7a10c5e1529e18bbfafb1c7821f7ae418d6cde435f33a143772efa9f3f15e49
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libpng
-
 Package: R.methodsS3
 Version: 1.8.2
 Depends: R (>= 2.13.0), R (>= 4.5), R (< 4.5.99)
@@ -4966,24 +4949,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: mvtnorm
-Version: 1.3-5
-Depends: R(>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-Imports: stats
-Suggests: qrng, numDeriv, bibtex
-License: GPL-2
-File: mvtnorm_1.3-5_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.3-5/mvtnorm_1.3-5_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.3; aarch64-unknown-linux-gnu; 2026-03-11 23:30:51 UTC; unix
-Filesize: 1066307
-SHA256: c40ac7298c3ab56042ee3cb0b7802a38e4845afb3e6470b495be5d238214801d
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: prodlim
 Version: 2026.03.11
 Depends: R (>= 4.1.0), R (>= 4.5), R (< 4.5.99)
@@ -5125,3 +5090,38 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: xz (for building from source)
+
+Package: png
+Version: 0.1-9
+Depends: R (>= 2.9.0), R (>= 4.5), R (< 4.5.99)
+License: GPL-2 | GPL-3
+File: png_0.1-9_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/png/releases/download/0.1-9/png_0.1-9_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.3; aarch64-unknown-linux-gnu; 2026-03-15 23:34:15 UTC; unix
+Filesize: 59819
+SHA256: 86987c0153278b7c48e6117de4187805b28b7b0283967c8406b0a85af2621954
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libpng
+
+Package: mvtnorm
+Version: 1.3-6
+Depends: R(>= 3.5.0), R (>= 4.5), R (< 4.5.99)
+Imports: stats
+Suggests: qrng, numDeriv, bibtex
+License: GPL-2
+File: mvtnorm_1.3-6_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.3-6/mvtnorm_1.3-6_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.3; aarch64-unknown-linux-gnu; 2026-03-15 23:34:16 UTC; unix
+Filesize: 1069720
+SHA256: eaee3901f95f985cbb7f658d75d2009f636dd16d32395e06411894f896cf7a5a
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
