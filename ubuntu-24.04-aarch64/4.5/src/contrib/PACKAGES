@@ -2733,25 +2733,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, pandoc (>= 1.12.3), pandoc-citeproc
 LinkingTo: StanHeaders (>= 2.32.0), rstan (>= 2.32.0), BH (>= 1.72.0-2), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0), RcppParallel (>= 5.0.1)
 
-Package: devtools
-Version: 2.4.6
-Depends: R (>= 4.1), usethis (>= 3.2.1), R (>= 4.5), R (< 4.5.99)
-Imports: cli (>= 3.6.5), desc (>= 1.4.3), ellipsis (>= 0.3.2), fs (>= 1.6.6), lifecycle (>= 1.0.4), memoise (>= 2.0.1), miniUI (>= 0.1.2), pkgbuild (>= 1.4.8), pkgdown (>= 2.1.3), pkgload (>= 1.4.1),
-        profvis (>= 0.4.0), rcmdcheck (>= 1.4.0), remotes (>= 2.5.0), rlang (>= 1.1.6), roxygen2 (>= 7.3.3), rversions (>= 2.1.2), sessioninfo (>= 1.2.3), stats, testthat (>= 3.2.3), tools,
-        urlchecker (>= 1.0.1), utils, withr (>= 3.0.2)
-Suggests: BiocManager (>= 1.30.18), callr (>= 3.7.1), covr (>= 3.5.1), curl (>= 4.3.2), digest (>= 0.6.29), DT (>= 0.23), foghorn (>= 1.4.2), gh (>= 1.3.0), gmailr (>= 1.0.1), httr (>= 1.4.3), knitr
-        (>= 1.39), lintr (>= 3.0.0), MASS, mockery (>= 0.4.3), pingr (>= 2.0.1), rhub (>= 1.1.1), rmarkdown (>= 2.14), rstudioapi (>= 0.13), spelling (>= 2.2)
-License: MIT + file LICENSE
-File: devtools_2.4.6_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/devtools/releases/download/2.4.6/devtools_2.4.6_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.5.1; ; 2025-10-03 23:19:03 UTC; unix
-Filesize: 458423
-SHA256: ea282bd58f422d7b1098e407f28530f72048de3ffd9036b1b47e421604ec157b
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: rversions
 Version: 3.0.0
 Depends: R (>= 4.5), R (< 4.5.99)
@@ -3834,22 +3815,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: future
-Version: 1.69.0
-Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
-Imports: digest, globals (>= 0.18.0), listenv (>= 0.8.0), parallel, parallelly (>= 1.44.0), utils
-Suggests: methods, RhpcBLASctl, R.rsp, markdown
-License: LGPL (>= 2.1)
-File: future_1.69.0_b7_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/future/releases/download/1.69.0/future_1.69.0_b7_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.5.2; ; 2026-01-16 23:24:35 UTC; unix
-Filesize: 979952
-SHA256: 266f63d9e0121cd06ad7f993df807cf2bbbc85e61e60d8e1466e0ec5779f8c7e
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: rappdirs
 Version: 0.3.4
 Depends: R (>= 4.1), R (>= 4.5), R (< 4.5.99)
@@ -4114,25 +4079,6 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: duckdb
-Version: 1.4.4
-Depends: DBI, R (>= 4.1.0), R (>= 4.5), R (< 4.5.99)
-Imports: methods, utils
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
-License: MIT + file LICENSE
-File: duckdb_1.4.4_b11_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.4.4/duckdb_1.4.4_b11_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.2; aarch64-unknown-linux-gnu; 2026-01-28 23:30:34 UTC; unix
-Filesize: 286635841
-SHA256: 9099fec544f5d8670b2754fef0f8245f2fbece209facebd14295e3a0a56aa554
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: xz (for building from source)
 
 Package: timechange
 Version: 0.4.0
@@ -5106,3 +5052,76 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: pak
+Version: 0.9.2
+Depends: R (>= 3.5), R (>= 4.5), R (< 4.5.99)
+Imports: tools, utils
+Suggests: callr (>= 3.7.0), cli (>= 3.2.0), covr, curl (>= 4.3.2), desc (>= 1.4.1), filelock (>= 1.0.2), gitcreds, glue (>= 1.6.2), jsonlite (>= 1.8.0), keyring (>= 1.4.0), pingr, pkgbuild (>=
+        1.4.2), pkgcache (>= 2.2.4), pkgdepends (>= 0.9.0), pkgload, pkgsearch (>= 3.1.0), processx (>= 3.8.1), ps (>= 1.6.0), rstudioapi, testthat (>= 3.2.0), webfakes, withr, yaml
+License: GPL-3
+File: pak_0.9.2_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/pak/releases/download/0.9.2/pak_0.9.2_b1_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.3; aarch64-unknown-linux-gnu; 2026-03-14 23:32:50 UTC; unix
+Filesize: 7120966
+SHA256: ceb66034e168b6ef8ab3edc96b65977ecb8e39b416fadf212a1e8f4a2d88082e
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: devtools
+Version: 2.5.0
+Depends: R (>= 4.1), usethis (>= 3.2.1), R (>= 4.5), R (< 4.5.99)
+Imports: cli (>= 3.6.5), desc (>= 1.4.3), ellipsis (>= 0.3.2), fs (>= 1.6.7), lifecycle (>= 1.0.5), memoise (>= 2.0.1), miniUI (>= 0.1.2), pak (>= 0.9.2), pkgbuild (>= 1.4.8), pkgdown (>= 2.2.0),
+        pkgload (>= 1.5.0), profvis (>= 0.4.0), rcmdcheck (>= 1.4.0), rlang (>= 1.1.7), roxygen2 (>= 7.3.3), rversions (>= 3.0.0), sessioninfo (>= 1.2.3), testthat (>= 3.3.2), urlchecker (>= 1.0.1),
+        withr (>= 3.0.2)
+Suggests: BiocManager (>= 1.30.18), callr (>= 3.7.1), covr (>= 3.5.1), curl (>= 4.3.2), digest (>= 0.6.29), DT (>= 0.23), foghorn (>= 1.4.2), gh (>= 1.3.0), httr2 (>= 1.0.0), knitr (>= 1.39), lintr
+        (>= 3.0.0), quarto (>= 1.5.1), remotes (>= 2.5.0), rmarkdown (>= 2.14), rstudioapi (>= 0.13), spelling (>= 2.2), xml2
+License: MIT + file LICENSE
+File: devtools_2.5.0_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/devtools/releases/download/2.5.0/devtools_2.5.0_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.5.3; ; 2026-03-14 23:34:24 UTC; unix
+Filesize: 469149
+SHA256: 2fdd1f52b90da7170b65d0f255bf024404199d52783b68d01f8298573fbf188f
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: future
+Version: 1.70.0
+Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
+Imports: digest, globals (>= 0.18.0), listenv (>= 0.8.0), parallel, parallelly (>= 1.44.0), tools, utils
+Suggests: methods, RhpcBLASctl, R.rsp, markdown
+License: LGPL (>= 2.1)
+File: future_1.70.0_b8_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/future/releases/download/1.70.0/future_1.70.0_b8_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.5.3; ; 2026-03-14 23:32:55 UTC; unix
+Filesize: 982961
+SHA256: b9659b840d91bfc4d3dec8051687b02978b9c3acec37e9807a4f2359f7a62f91
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: duckdb
+Version: 1.5.0
+Depends: DBI, R (>= 4.1.0), R (>= 4.5), R (< 4.5.99)
+Imports: methods, utils
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat (>= 3.0.0), tibble, vctrs, withr
+License: MIT + file LICENSE
+File: duckdb_1.5.0_b12_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.5.0/duckdb_1.5.0_b12_R4.5_aarch64-unknown-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.3; aarch64-unknown-linux-gnu; 2026-03-14 23:32:56 UTC; unix
+Filesize: 303412022
+SHA256: 472a8bdb38f412ab640d4012b380071fefbc2c1e89b902d6609998214ab02b39
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: xz (for building from source)
