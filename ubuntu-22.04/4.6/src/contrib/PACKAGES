@@ -3320,25 +3320,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: RcppArmadillo
-Version: 15.2.3-1
-Depends: R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp (>= 1.0.12), stats, utils, methods
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-License: GPL (>= 2)
-File: RcppArmadillo_15.2.3-1_b12_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/15.2.3-1/RcppArmadillo_15.2.3-1_b12_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-12-17 16:48:25 UTC; unix
-Filesize: 2582565
-SHA256: 28d2b08b2048ef13b509dd8382a1d8129a4f1c258eb369f0b7b08fa1126015c1
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: e1071
 Version: 1.7-17
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -3728,22 +3709,6 @@ DownloadURL: https://github.com/cran/blob/releases/download/1.3.0/blob_1.3.0_b2_
 Built: R 4.6.0; ; 2026-01-14 16:51:41 UTC; unix
 Filesize: 50420
 SHA256: c1ce95533405e574f8c9b18b6fd38ea27e09917df5bd1641c01fa3d7fcbf3e90
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: distributional
-Version: 0.6.0
-Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
-Imports: vctrs (>= 0.3.0), rlang (>= 0.4.5), generics, stats, numDeriv, utils, lifecycle, pillar
-Suggests: testthat (>= 2.1.0), covr, mvtnorm, actuar (>= 2.0.0), evd, ggdist, ggplot2, gk, pkgdown
-License: GPL-3
-File: distributional_0.6.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/distributional/releases/download/0.6.0/distributional_0.6.0_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.6.0; ; 2026-01-14 16:51:42 UTC; unix
-Filesize: 580300
-SHA256: 60def7515846b7a4606b6e4f26560c082bc34e6ae24540f1d3c8c6806390eb03
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
@@ -4607,25 +4572,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: ggrepel
-Version: 0.9.7
-Depends: R (>= 4.5.0), ggplot2 (>= 3.5.2), R (>= 4.6), R (< 4.6.99)
-Imports: grid, Rcpp, rlang (>= 1.1.6), S7, scales (>= 1.4.0), withr (>= 3.0.2)
-Suggests: knitr, rmarkdown, testthat, svglite, vdiffr, gridExtra, ggpp, patchwork, devtools, prettydoc, ggbeeswarm, dplyr, magrittr, readr, stringr, marquee, rsvg, sf
-License: GPL-3 | file LICENSE
-File: ggrepel_0.9.7_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/ggrepel/releases/download/0.9.7/ggrepel_0.9.7_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-02-25 17:19:53 UTC; unix
-Filesize: 1051079
-SHA256: 44a75a10267655da8e4d31a0d8dc9071027dd84b51936798f106dcd70ea3a090
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: openssl
 Version: 2.3.5
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -5088,3 +5034,57 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libpng
+
+Package: RcppArmadillo
+Version: 15.2.4-1
+Depends: R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp (>= 1.0.12), stats, utils, methods
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+File: RcppArmadillo_15.2.4-1_b13_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/15.2.4-1/RcppArmadillo_15.2.4-1_b13_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-17 17:19:46 UTC; unix
+Filesize: 2630641
+SHA256: d77456496fa39d9ecbc5ad523a0d76f58e29ecf741dd2638804e6f68929c4c5e
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: distributional
+Version: 0.7.0
+Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
+Imports: vctrs (>= 0.3.0), rlang (>= 0.4.5), generics, stats, numDeriv, utils, lifecycle, pillar
+Suggests: testthat (>= 2.1.0), covr, mvtnorm, actuar (>= 2.0.0), evd, ggdist, ggplot2, gk, LaplacesDemon, pkgdown
+License: GPL-3
+File: distributional_0.7.0_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/distributional/releases/download/0.7.0/distributional_0.7.0_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.6.0; ; 2026-03-17 17:19:43 UTC; unix
+Filesize: 600365
+SHA256: 2192c4eb1e444ff6628170951d0df505c93e873c55674e08dfa664bdb85e5188
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: ggrepel
+Version: 0.9.8
+Depends: R (>= 4.1.0), ggplot2 (>= 3.5.2), R (>= 4.6), R (< 4.6.99)
+Imports: grid, Rcpp, rlang (>= 1.1.6), S7, scales (>= 1.4.0), withr (>= 3.0.2)
+Suggests: knitr, rmarkdown, testthat, svglite, vdiffr, gridExtra, ggpp, patchwork, devtools, prettydoc, ggbeeswarm, dplyr, magrittr, readr, stringr, marquee, rsvg, sf
+License: GPL-3 | file LICENSE
+File: ggrepel_0.9.8_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/ggrepel/releases/download/0.9.8/ggrepel_0.9.8_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-17 17:19:45 UTC; unix
+Filesize: 1051110
+SHA256: 2c91dda7bf9abeda0cde72d4a48c87f471e6f54175820b2facc7aa824a65ebb7
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
