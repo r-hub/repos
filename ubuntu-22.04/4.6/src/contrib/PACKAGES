@@ -1848,26 +1848,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: httpuv
-Version: 1.6.16
-Depends: R (>= 2.15.1), R (>= 4.6), R (< 4.6.99)
-Imports: later (>= 0.8.0), promises, R6, Rcpp (>= 1.0.7), utils
-Suggests: callr, curl, jsonlite, testthat, websocket
-License: GPL (>= 2) | file LICENSE
-File: httpuv_1.6.16_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/httpuv/releases/download/1.6.16/httpuv_1.6.16_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2025-04-16 16:43:51 UTC; unix
-Filesize: 4663144
-SHA256: 47d2214da464955e72678480f7df51305472a8bd2d0dc6efc6378d7b7156dcfa
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make, zlib
-LinkingTo: later, Rcpp
-
 Package: miniUI
 Version: 0.1.2
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -4392,25 +4372,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: forecast
-Version: 9.0.1
-Depends: R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
-Imports: colorspace, fracdiff, generics (>= 0.1.2), ggplot2 (>= 3.4.0), graphics, lmtest, magrittr, nnet, parallel, Rcpp (>= 0.12.4), stats, timeDate, urca, withr, zoo
-Suggests: forecTheta, knitr, methods, rmarkdown, rticles, scales, seasonal, testthat (>= 3.3.0), uroot
-License: GPL-3
-File: forecast_9.0.1_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/forecast/releases/download/9.0.1/forecast_9.0.1_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-02-15 16:50:49 UTC; unix
-Filesize: 4095149
-SHA256: c799c539613188151da8151fa1a0f2480a203e83136d81da3deca8e192bebef3
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp (>= 0.12.4), RcppArmadillo (>= 0.2.35)
-
 Package: tseries
 Version: 0.10-60
 Depends: R (>= 3.4.0), R (>= 4.6), R (< 4.6.99)
@@ -5088,3 +5049,42 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
+
+Package: httpuv
+Version: 1.6.17
+Depends: R (>= 2.15.1), R (>= 4.6), R (< 4.6.99)
+Imports: later (>= 0.8.0), promises, R6, Rcpp (>= 1.0.7), utils
+Suggests: callr, curl, jsonlite, testthat (>= 3.0.0), websocket
+License: GPL (>= 2) | file LICENSE
+File: httpuv_1.6.17_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/httpuv/releases/download/1.6.17/httpuv_1.6.17_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-18 17:19:55 UTC; unix
+Filesize: 4861554
+SHA256: 2fde85884f7f75de00afd63875b81d7189b10893d203003d1fcb8970fe2e217d
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, zlib
+LinkingTo: later, Rcpp
+
+Package: forecast
+Version: 9.0.2
+Depends: R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
+Imports: colorspace, fracdiff, generics (>= 0.1.2), ggplot2 (>= 3.4.0), graphics, lmtest, magrittr, nnet, parallel, Rcpp (>= 0.12.4), stats, timeDate, urca, withr, zoo
+Suggests: forecTheta, knitr, methods, rmarkdown, rticles, scales, seasonal, testthat (>= 3.3.0), uroot
+License: GPL-3
+File: forecast_9.0.2_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/forecast/releases/download/9.0.2/forecast_9.0.2_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-18 17:19:58 UTC; unix
+Filesize: 4117350
+SHA256: ce2af43188e0b89dc59c3bc35a65e16988ce8e19dc203f8b6f7d46cd96a7f87d
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp (>= 0.12.4), RcppArmadillo (>= 0.2.35)
