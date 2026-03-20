@@ -3780,24 +3780,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
 
-Package: xfun
-Version: 0.56
-Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
-Imports: grDevices, stats, tools
-Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.6), commonmark, knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, data.table, qs2
-License: MIT + file LICENSE
-File: xfun_0.56_b6_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/xfun/releases/download/0.56/xfun_0.56_b6_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2026-01-18 09:24:10 UTC; unix
-Filesize: 602646
-SHA256: e77951fd9c3523f8b6507ccde1909376dddb9c286bead76b239e880c8c2e9a9b
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: cpp11
 Version: 0.5.3
 Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
@@ -4280,24 +4262,6 @@ RVersion: 4.6
 Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: XML
-Version: 3.99-0.22
-Depends: R (>= 4.0.0), methods, utils, R (>= 4.6), R (< 4.6.99)
-Suggests: bitops, RCurl
-License: BSD_3_clause + file LICENSE
-File: XML_3.99-0.22_b4_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/XML/releases/download/3.99-0.22/XML_3.99-0.22_b4_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2026-02-10 16:02:53 UTC; unix
-Filesize: 1926536
-SHA256: a68a763f90b2555fa71cb0110de9fa867252b80d1ae0a3419807643ddc462242
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libxml2 (>= 2.6.3)
 
 Package: igraph
 Version: 2.2.2
@@ -5087,3 +5051,39 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp (>= 0.12.4), RcppArmadillo (>= 0.2.35)
+
+Package: xfun
+Version: 0.57
+Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
+Imports: grDevices, stats, tools
+Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.6), commonmark, knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, data.table, qs2
+License: MIT + file LICENSE
+File: xfun_0.57_b7_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/xfun/releases/download/0.57/xfun_0.57_b7_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2026-03-20 18:02:53 UTC; unix
+Filesize: 604978
+SHA256: e5a7cf0d097ffcc50541b607e75e456ecc1dd3d6613953e65b41424de8674b85
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: XML
+Version: 3.99-0.23
+Depends: R (>= 4.0.0), methods, utils, R (>= 4.6), R (< 4.6.99)
+Suggests: bitops, RCurl
+License: BSD_3_clause + file LICENSE
+File: XML_3.99-0.23_b5_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/XML/releases/download/3.99-0.23/XML_3.99-0.23_b5_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2026-03-20 07:31:07 UTC; unix
+Filesize: 1927124
+SHA256: 17d2043f723d1b99464bc26a8b28d5ca28c4cf1f270b5f5bb03d9c47e74422df
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libxml2 (>= 2.6.3)
