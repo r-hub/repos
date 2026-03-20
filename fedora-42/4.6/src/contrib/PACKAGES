@@ -4381,24 +4381,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libpng
 LinkingTo: cpp11
 
-Package: XML
-Version: 3.99-0.22
-Depends: R (>= 4.0.0), methods, utils, R (>= 4.6), R (< 4.6.99)
-Suggests: bitops, RCurl
-License: BSD_3_clause + file LICENSE
-File: XML_3.99-0.22_b1_R4.6_x86_64-pc-linux-gnu-fedora-42.tar.gz
-DownloadURL: https://github.com/cran/XML/releases/download/3.99-0.22/XML_3.99-0.22_b1_R4.6_x86_64-pc-linux-gnu-fedora-42.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-16 22:14:35 UTC; unix
-Filesize: 2049742
-SHA256: 42bd3bd7769bc7bf565a504a18dfd73f8b21b1718fb30d9c95a23ba7474a41eb
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-42
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libxml2 (>= 2.6.3)
-
 Package: arrow
 Version: 23.0.1.1
 Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
@@ -4897,3 +4879,21 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: XML
+Version: 3.99-0.23
+Depends: R (>= 4.0.0), methods, utils, R (>= 4.6), R (< 4.6.99)
+Suggests: bitops, RCurl
+License: BSD_3_clause + file LICENSE
+File: XML_3.99-0.23_b2_R4.6_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/XML/releases/download/3.99-0.23/XML_3.99-0.23_b2_R4.6_x86_64-pc-linux-gnu-fedora-42.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-20 08:00:40 UTC; unix
+Filesize: 2050978
+SHA256: e0878a2441bb1626b13dcab3bdb1680b8a17cf0b738551874c75c8841fb9e6ef
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libxml2 (>= 2.6.3)
