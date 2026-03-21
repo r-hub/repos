@@ -1595,24 +1595,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli, methods, rlang (>= 1.1.0)
 SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
 
-Package: xfun
-Version: 0.56
-Depends: R (>= 3.2.0), R (>= 4.3), R (< 4.3.99)
-Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.6), commonmark, knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, data.table, qs2
-License: MIT + file LICENSE
-File: xfun_0.56_b6_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/xfun/releases/download/0.56/xfun_0.56_b6_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2026-01-18 14:41:30 UTC; unix
-Filesize: 590046
-SHA256: 38459f7e26a828a2a41db150e0de167e4b2a1b27e388a98a4bbdb5d009178c1d
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: grDevices, stats, tools
-
 Package: cpp11
 Version: 0.5.3
 Depends: R (>= 4.0.0), R (>= 4.3), R (< 4.3.99)
@@ -2092,3 +2074,21 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: lifecycle, stats, stringi, systemfonts (>= 1.3.0), utils
 SystemRequirements: freetype2, harfbuzz, fribidi
 LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
+
+Package: xfun
+Version: 0.57
+Depends: R (>= 3.2.0), R (>= 4.3), R (< 4.3.99)
+Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.6), commonmark, knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, data.table, qs2
+License: MIT + file LICENSE
+File: xfun_0.57_b7_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/xfun/releases/download/0.57/xfun_0.57_b7_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2026-03-21 14:50:03 UTC; unix
+Filesize: 590915
+SHA256: 7d3bb0448633d9129e90894228e1d1071f28cbd0c7f3a3f8c8019567a5d80e93
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: grDevices, stats, tools
