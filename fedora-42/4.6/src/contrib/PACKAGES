@@ -388,25 +388,6 @@ Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: fs
-Version: 1.6.7
-Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
-Imports: methods
-Suggests: covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr
-License: MIT + file LICENSE
-File: fs_1.6.7_b1_R4.6_x86_64-pc-linux-gnu-fedora-42.tar.gz
-DownloadURL: https://github.com/cran/fs/releases/download/1.6.7/fs_1.6.7_b1_R4.6_x86_64-pc-linux-gnu-fedora-42.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-16 22:10:21 UTC; unix
-Filesize: 809290
-SHA256: 69b07a2c3d8954ebdcb5b5027d69ba76cb84de53ad3738154f5b0ece706ed818
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-42
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make
-
 Package: gert
 Version: 2.3.1
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -1362,24 +1343,6 @@ Arch: amd64
 Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-16 22:10:58 UTC; unix
 Filesize: 243363
 SHA256: eaca32b293ad41c373eb3c4774f4c6453fe1f0fbb9f1f017c36a539019ec6850
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-42
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: vctrs
-Version: 0.7.1
-Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
-Imports: cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.7)
-Suggests: bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr, pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>= 3.0.0), tibble (>= 3.1.3), waldo (>= 0.2.0), withr, xml2, zeallot
-License: MIT + file LICENSE
-File: vctrs_0.7.1_b1_R4.6_x86_64-pc-linux-gnu-fedora-42.tar.gz
-DownloadURL: https://github.com/cran/vctrs/releases/download/0.7.1/vctrs_0.7.1_b1_R4.6_x86_64-pc-linux-gnu-fedora-42.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-16 22:07:14 UTC; unix
-Filesize: 2900779
-SHA256: 0d88c7b3893650fecb83d0b699058f01248e4a2391747761454b802c8e25ad97
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
@@ -4893,6 +4856,43 @@ Arch: amd64
 Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-21 07:50:24 UTC; unix
 Filesize: 672558
 SHA256: 7d278c2886d5b1faae6ca5b4f8a14e32e1a5334e77224e09d679f7edf1deadb0
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: fs
+Version: 2.0.0
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: methods
+Suggests: covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr
+License: MIT + file LICENSE
+File: fs_2.0.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/fs/releases/download/2.0.0/fs_2.0.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-42.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-22 07:54:56 UTC; unix
+Filesize: 896659
+SHA256: 0eb109749521ef413ef8905d87ef7442f9d7e5dadb1fb93981d163b82c6e9a48
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libuv: libuv-devel (rpm) or libuv1-dev (deb).  Alternatively to build the vendored libuv 'cmake' is required.  GNU make.
+
+Package: vctrs
+Version: 0.7.2
+Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
+Imports: cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.7)
+Suggests: bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr, pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>= 3.0.0), tibble (>= 3.1.3), waldo (>= 0.2.0), withr, xml2, zeallot
+License: MIT + file LICENSE
+File: vctrs_0.7.2_b2_R4.6_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/vctrs/releases/download/0.7.2/vctrs_0.7.2_b2_R4.6_x86_64-pc-linux-gnu-fedora-42.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-22 07:53:43 UTC; unix
+Filesize: 2852003
+SHA256: d03f72176dfedcdad154a1bbdaa3dd5b98a283d27b28da20f41b962176791763
 RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
