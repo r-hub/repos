@@ -4570,26 +4570,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, Intel TBB, Windows: cmd.exe and cscript.exe, Solaris: g++ is required
 
-Package: ragg
-Version: 1.5.1
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
-Suggests: covr, graphics, grid, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: ragg_1.5.1_b4_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/ragg/releases/download/1.5.1/ragg_1.5.1_b4_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2026-03-06 17:59:38 UTC; unix
-Filesize: 2169751
-SHA256: f9b09e877d8af2d2f3d92194891232fa30b315b1570d01fe5cb9e865b6fabad2
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: freetype2, libpng, libtiff, libjpeg, libwebp, libwebpmux
-LinkingTo: systemfonts, textshaping
-
 Package: systemfonts
 Version: 1.3.2
 Depends: R (>= 3.2.0), R (>= 4.6), R (< 4.6.99)
@@ -5087,3 +5067,23 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libuv: libuv-devel (rpm) or libuv1-dev (deb).  Alternatively to build the vendored libuv 'cmake' is required.  GNU make.
+
+Package: ragg
+Version: 1.5.2
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
+Suggests: covr, graphics, grid, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: ragg_1.5.2_b5_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/ragg/releases/download/1.5.2/ragg_1.5.2_b5_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2026-03-23 11:03:15 UTC; unix
+Filesize: 8546229
+SHA256: ac165a1bbce44e802186f92657c0bfe9bb0b61da4a799500055d42763548ce36
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: freetype2, libpng, libtiff, libjpeg, libwebp, libwebpmux
+LinkingTo: systemfonts, textshaping
