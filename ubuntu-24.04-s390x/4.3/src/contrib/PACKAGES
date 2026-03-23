@@ -1998,26 +1998,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: xfun (>= 0.18)
 
-Package: ragg
-Version: 1.5.1
-Depends: R (>= 4.3), R (< 4.3.99)
-Suggests: covr, graphics, grid, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: ragg_1.5.1_b4_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/ragg/releases/download/1.5.1/ragg_1.5.1_b4_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2026-03-06 15:06:40 UTC; unix
-Filesize: 12726917
-SHA256: 7efd22b6e9d243457e1f43184b0ac9b9cabb13bf8c7c5e46651841ee998a55cf
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
-SystemRequirements: freetype2, libpng, libtiff, libjpeg, libwebp, libwebpmux
-LinkingTo: systemfonts, textshaping
-
 Package: textshaping
 Version: 1.0.5
 Depends: R (>= 3.2.0), R (>= 4.3), R (< 4.3.99)
@@ -2092,3 +2072,23 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: methods
 SystemRequirements: libuv: libuv-devel (rpm) or libuv1-dev (deb).  Alternatively to build the vendored libuv 'cmake' is required.  GNU make.
+
+Package: ragg
+Version: 1.5.2
+Depends: R (>= 4.3), R (< 4.3.99)
+Suggests: covr, graphics, grid, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: ragg_1.5.2_b5_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/ragg/releases/download/1.5.2/ragg_1.5.2_b5_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2026-03-23 15:20:48 UTC; unix
+Filesize: 12728577
+SHA256: d0e7dbb318e994e07d6aadfd2cec93977d9ce7a6005d2790e6d6d21699477714
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
+SystemRequirements: freetype2, libpng, libtiff, libjpeg, libwebp, libwebpmux
+LinkingTo: systemfonts, textshaping
