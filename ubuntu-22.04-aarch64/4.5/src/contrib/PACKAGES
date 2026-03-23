@@ -4686,26 +4686,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: ragg
-Version: 1.5.1
-Depends: R (>= 4.5), R (< 4.5.99)
-Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
-Suggests: covr, graphics, grid, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: ragg_1.5.1_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/ragg/releases/download/1.5.1/ragg_1.5.1_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.3; aarch64-unknown-linux-gnu; 2026-03-06 19:07:46 UTC; unix
-Filesize: 12130626
-SHA256: e213765164b27c02e3d127f0911f4c565615e8485da63ce09d861b9054d3b2ba
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: freetype2, libpng, libtiff, libjpeg, libwebp, libwebpmux
-LinkingTo: systemfonts, textshaping
-
 Package: textshaping
 Version: 1.0.5
 Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
@@ -5125,3 +5105,23 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libuv: libuv-devel (rpm) or libuv1-dev (deb).  Alternatively to build the vendored libuv 'cmake' is required.  GNU make.
+
+Package: ragg
+Version: 1.5.2
+Depends: R (>= 4.5), R (< 4.5.99)
+Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
+Suggests: covr, graphics, grid, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: ragg_1.5.2_b5_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/ragg/releases/download/1.5.2/ragg_1.5.2_b5_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.3; aarch64-unknown-linux-gnu; 2026-03-23 19:17:54 UTC; unix
+Filesize: 12135015
+SHA256: e41267ebf58722a5ef8b5b4c7a537b9dfab56fa3a9c675fda8f206d3db185943
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: freetype2, libpng, libtiff, libjpeg, libwebp, libwebpmux
+LinkingTo: systemfonts, textshaping
