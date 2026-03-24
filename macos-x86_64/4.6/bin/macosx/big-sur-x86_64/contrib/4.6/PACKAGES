@@ -1490,21 +1490,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: tinytest
-Version: 1.4.1
-Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
-Imports: parallel, utils
-License: GPL-3
-File: tinytest_1.4.1_b1_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/tinytest/releases/download/1.4.1/tinytest_1.4.1_b1_R4.6_x86_64-apple-darwin20.tgz
-Built: R 4.6.0; ; 2025-03-16 18:06:25 UTC; unix
-Filesize: 697721
-SHA256: 1e2819d2e54ca02f25c1d32cab88cf0db772104222d311a65c44502d6c94c43b
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: colourpicker
 Version: 1.3.0
 Depends: R (>= 3.1.0), R (>= 4.6), R (< 4.6.99)
@@ -5049,25 +5034,6 @@ Platform: x86_64-apple-darwin20
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: fs
-Version: 2.0.0
-Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
-Imports: methods
-Suggests: covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr
-License: MIT + file LICENSE
-File: fs_2.0.0_b4_R4.6_x86_64-apple-darwin20.tgz
-DownloadURL: https://github.com/cran/fs/releases/download/2.0.0/fs_2.0.0_b4_R4.6_x86_64-apple-darwin20.tgz
-OS: darwin
-Arch: amd64
-Built: R 4.6.0; x86_64-apple-darwin20; 2026-03-22 17:53:23 UTC; unix
-Filesize: 334325
-SHA256: ade149e791ff2a3f0ec27091e4ce2e3af418dcf4f73c68eebdcaf4387fec00b3
-RVersion: 4.6
-Platform: x86_64-apple-darwin20
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libuv: libuv-devel (rpm) or libuv1-dev (deb).  Alternatively to build the vendored libuv 'cmake' is required.  GNU make.
-
 Package: ragg
 Version: 1.5.2
 Depends: R (>= 4.6), R (< 4.6.99)
@@ -5087,3 +5053,37 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: freetype2, libpng, libtiff, libjpeg, libwebp, libwebpmux
 LinkingTo: systemfonts, textshaping
+
+Package: tinytest
+Version: 1.4.3
+Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
+Imports: parallel, utils
+License: GPL-3
+File: tinytest_1.4.3_b2_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/tinytest/releases/download/1.4.3/tinytest_1.4.3_b2_R4.6_x86_64-apple-darwin20.tgz
+Built: R 4.6.0; ; 2026-03-24 07:16:21 UTC; unix
+Filesize: 708301
+SHA256: ec1fbe4aa514ba54ea4c77cd2bde0d8948996f3c475b0af1d76f7428cf3e157c
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: fs
+Version: 2.0.1
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: methods
+Suggests: covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr
+License: MIT + file LICENSE
+File: fs_2.0.1_b5_R4.6_x86_64-apple-darwin20.tgz
+DownloadURL: https://github.com/cran/fs/releases/download/2.0.1/fs_2.0.1_b5_R4.6_x86_64-apple-darwin20.tgz
+OS: darwin
+Arch: amd64
+Built: R 4.6.0; x86_64-apple-darwin20; 2026-03-24 07:15:01 UTC; unix
+Filesize: 451709
+SHA256: 418e829d00c7337915bc943de1ad1cac2610d2c317c837e71246f98aebb0116b
+RVersion: 4.6
+Platform: x86_64-apple-darwin20
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libuv: libuv-devel (rpm) or libuv1-dev (deb).  Alternatively to build the vendored libuv 'cmake' is required.  GNU make.
