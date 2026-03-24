@@ -928,26 +928,6 @@ Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: ragg
-Version: 1.5.1
-Depends: R (>= 4.6), R (< 4.6.99)
-Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
-Suggests: covr, graphics, grid, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: ragg_1.5.1_b1_R4.6_x86_64-pc-linux-gnu-fedora-42.tar.gz
-DownloadURL: https://github.com/cran/ragg/releases/download/1.5.1/ragg_1.5.1_b1_R4.6_x86_64-pc-linux-gnu-fedora-42.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-16 22:21:49 UTC; unix
-Filesize: 13000501
-SHA256: 12e50b19af94313a5d2509426fd8d0ec272c5ba0c9814b774e8886d4978d64ce
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-42
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: freetype2, libpng, libtiff, libjpeg, libwebp, libwebpmux
-LinkingTo: systemfonts, textshaping
-
 Package: rappdirs
 Version: 0.3.4
 Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
@@ -4291,21 +4271,6 @@ Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: tinytest
-Version: 1.4.1
-Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
-Imports: parallel, utils
-License: GPL-3
-File: tinytest_1.4.1_b1_R4.6_x86_64-pc-linux-gnu-fedora-42.tar.gz
-DownloadURL: https://github.com/cran/tinytest/releases/download/1.4.1/tinytest_1.4.1_b1_R4.6_x86_64-pc-linux-gnu-fedora-42.tar.gz
-Built: R 4.6.0; ; 2026-03-16 22:14:29 UTC; unix
-Filesize: 712078
-SHA256: 052d210d9673727c6cdc5b45063c742839cb409ae55f838eb2193fc9981637d0
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-42
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: vdiffr
 Version: 1.0.9
 Depends: R (>= 4.0), R (>= 4.6), R (< 4.6.99)
@@ -4861,25 +4826,6 @@ Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: fs
-Version: 2.0.0
-Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
-Imports: methods
-Suggests: covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr
-License: MIT + file LICENSE
-File: fs_2.0.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-42.tar.gz
-DownloadURL: https://github.com/cran/fs/releases/download/2.0.0/fs_2.0.0_b2_R4.6_x86_64-pc-linux-gnu-fedora-42.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-22 07:54:56 UTC; unix
-Filesize: 896659
-SHA256: 0eb109749521ef413ef8905d87ef7442f9d7e5dadb1fb93981d163b82c6e9a48
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-fedora-42
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libuv: libuv-devel (rpm) or libuv1-dev (deb).  Alternatively to build the vendored libuv 'cmake' is required.  GNU make.
-
 Package: vctrs
 Version: 0.7.2
 Depends: R (>= 4.0.0), R (>= 4.6), R (< 4.6.99)
@@ -4897,3 +4843,99 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: s2
+Version: 1.1.9
+Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp, wk (>= 0.6.0)
+Suggests: bit64, testthat (>= 3.0.0), vctrs
+License: Apache License (== 2.0)
+File: s2_1.1.9_b1_R4.6_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/s2/releases/download/1.1.9/s2_1.1.9_b1_R4.6_x86_64-pc-linux-gnu-fedora-42.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-24 08:06:09 UTC; unix
+Filesize: 19890499
+SHA256: 5859fafc505678551c49dd107f7b40f1dab6344fd5257703c1c661c0f8db626d
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: cmake, OpenSSL >= 1.0.1, Abseil >= 20230802.0
+LinkingTo: Rcpp, wk
+
+Package: sf
+Version: 1.1-0
+Depends: methods, R (>= 3.3.0), R (>= 4.6), R (< 4.6.99)
+Imports: classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid, magrittr, s2 (>= 1.1.0), stats, tools, units (>= 0.7-0), utils
+Suggests: blob, nanoarrow, covr, dplyr (>= 1.0.0), ggplot2, knitr, lwgeom (>= 0.2-14), maps, mapview, Matrix, microbenchmark, odbc, pbapply, pillar, pool, raster, rlang, rmarkdown, RPostgres (>=
+        1.1.0), RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1), spatstat.geom, spatstat.random, spatstat.linnet, spatstat.utils, stars (>= 0.6-0), terra, testthat (>= 3.0.0), tibble (>=
+        1.4.1), tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs, wk (>= 0.9.0)
+License: GPL-2 | MIT + file LICENSE
+File: sf_1.1-0_b1_R4.6_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/sf/releases/download/1.1-0/sf_1.1-0_b1_R4.6_x86_64-pc-linux-gnu-fedora-42.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-24 08:10:48 UTC; unix
+Filesize: 15821383
+SHA256: 0d0ef24cc94c1ea4aed8337001b8f25592a187b3b4e5d7032e0fc3b80dd66798
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
+LinkingTo: Rcpp
+
+Package: ragg
+Version: 1.5.2
+Depends: R (>= 4.6), R (< 4.6.99)
+Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
+Suggests: covr, graphics, grid, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: ragg_1.5.2_b2_R4.6_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/ragg/releases/download/1.5.2/ragg_1.5.2_b2_R4.6_x86_64-pc-linux-gnu-fedora-42.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-24 08:06:07 UTC; unix
+Filesize: 13010169
+SHA256: dddddebac1ec2c1edf935247c91c16a7e5a3154084bca471b45c55235c131339
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: freetype2, libpng, libtiff, libjpeg, libwebp, libwebpmux
+LinkingTo: systemfonts, textshaping
+
+Package: tinytest
+Version: 1.4.3
+Depends: R (>= 3.0.0), R (>= 4.6), R (< 4.6.99)
+Imports: parallel, utils
+License: GPL-3
+File: tinytest_1.4.3_b2_R4.6_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/tinytest/releases/download/1.4.3/tinytest_1.4.3_b2_R4.6_x86_64-pc-linux-gnu-fedora-42.tar.gz
+Built: R 4.6.0; ; 2026-03-24 08:06:04 UTC; unix
+Filesize: 727659
+SHA256: 6be07a660dae75c3ba1d640a340c9686a9362175f98b0b74da2e84e141f056b6
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: fs
+Version: 2.0.1
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: methods
+Suggests: covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr
+License: MIT + file LICENSE
+File: fs_2.0.1_b3_R4.6_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/fs/releases/download/2.0.1/fs_2.0.1_b3_R4.6_x86_64-pc-linux-gnu-fedora-42.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-24 08:06:05 UTC; unix
+Filesize: 525658
+SHA256: cb12d27c8251cfe63a045572c91c9163cb871a5f9085feed70c593e0cd69c73f
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libuv: libuv-devel (rpm) or libuv1-dev (deb).  Alternatively to build the vendored libuv 'cmake' is required.  GNU make.
