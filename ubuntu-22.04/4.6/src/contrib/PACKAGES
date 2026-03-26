@@ -2641,24 +2641,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: rmarkdown
-Version: 2.30
-Depends: R (>= 3.0), R (>= 4.6), R (< 4.6.99)
-Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.43), methods, tinytex (>= 0.31), tools, utils, xfun (>= 0.36), yaml (>=
-        2.1.19)
-Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>= 3.0.3), tibble, vctrs, cleanrmd, withr (>= 2.4.2), xml2
-License: GPL-3
-File: rmarkdown_2.30_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/rmarkdown/releases/download/2.30/rmarkdown_2.30_b2_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.6.0; ; 2025-09-28 16:34:28 UTC; unix
-Filesize: 2641403
-SHA256: edd94bf111531e91d685fa126bf6ce7bdcb66e2b28b9b646adabb970f16a22ec
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
-
 Package: rstanarm
 Version: 2.32.2
 Depends: R (>= 3.4.0), Rcpp (>= 0.12.0), methods, R (>= 4.6), R (< 4.6.99)
@@ -4303,23 +4285,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: tseries
-Version: 0.10-60
-Depends: R (>= 3.4.0), R (>= 4.6), R (< 4.6.99)
-Imports: graphics, stats, utils, quadprog, zoo, quantmod (>= 0.4-9), jsonlite
-License: GPL-2 | GPL-3
-File: tseries_0.10-60_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/tseries/releases/download/0.10-60/tseries_0.10-60_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-02-18 17:31:05 UTC; unix
-Filesize: 435630
-SHA256: a1f7524839c18c94721c16e706be58cbb4d62bbf2281e97bc30dd6e53cb032f8
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: readr
 Version: 2.2.0
 Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
@@ -4426,27 +4391,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
 LinkingTo: Rcpp
-
-Package: arrow
-Version: 23.0.1.1
-Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
-Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
-Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
-        tibble, tzdb, withr
-License: Apache License (>= 2.0)
-File: arrow_23.0.1.1_b12_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/arrow/releases/download/23.0.1.1/arrow_23.0.1.1_b12_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-02-24 17:30:51 UTC; unix
-Filesize: 42775510
-SHA256: acec474c0195d9ac9485c92da478ee94e3eeddf1b1fefbaceecfdc3bbf012ba3
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++20; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.26 (build-time only, and only for full source build)
-LinkingTo: cpp11 (>= 0.4.2)
 
 Package: DBI
 Version: 1.3.0
@@ -4676,26 +4620,6 @@ SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Ins
         (optional), libpng (>=1.2.9, optional), FreeType (optional), pandoc (>=1.14, needed for vignettes), LaTeX needed for optional latex3d() examples.
 Enhances: waldo
 
-Package: terra
-Version: 1.9-1
-Depends: R (>= 3.5.0), methods, R (>= 4.6), R (< 4.6.99)
-Imports: Rcpp (>= 1.0-10)
-Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
-License: GPL (>= 3)
-File: terra_1.9-1_b10_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/terra/releases/download/1.9-1/terra_1.9-1_b10_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-09 17:12:58 UTC; unix
-Filesize: 35008259
-SHA256: ae349ae02f8977bda67855be64bad85bbd33436dd657693a7013cfcf8f97c026
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
-LinkingTo: Rcpp
-
 Package: units
 Version: 1.0-1
 Depends: R (>= 3.5.0), R (>= 4.6), R (< 4.6.99)
@@ -4833,25 +4757,6 @@ RVersion: 4.6
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: duckdb
-Version: 1.5.0
-Depends: DBI, R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
-Imports: methods, utils
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat (>= 3.0.0), tibble, vctrs, withr
-License: MIT + file LICENSE
-File: duckdb_1.5.0_b12_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.5.0/duckdb_1.5.0_b12_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-15 16:52:09 UTC; unix
-Filesize: 311868441
-SHA256: 67eda401b9dd530f2dc63a7a5cc6cee5c5a90453f5c057ef037d509237422b84
-RVersion: 4.6
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: xz (for building from source)
 
 Package: mvtnorm
 Version: 1.3-6
@@ -5088,3 +4993,98 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libuv: libuv-devel (rpm) or libuv1-dev (deb).  Alternatively to build the vendored libuv 'cmake' is required.  GNU make.
+
+Package: rmarkdown
+Version: 2.31
+Depends: R (>= 3.0), R (>= 4.6), R (< 4.6.99)
+Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.43), methods, tinytex (>= 0.31), tools, utils, xfun (>= 0.36), yaml (>=
+        2.1.19)
+Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>= 3.0.3), tibble, vctrs, cleanrmd, withr (>= 2.4.2), xml2
+License: GPL-3
+File: rmarkdown_2.31_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/rmarkdown/releases/download/2.31/rmarkdown_2.31_b3_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.6.0; ; 2026-03-26 17:31:23 UTC; unix
+Filesize: 2650459
+SHA256: 196b6e89e821593834d2ec1f32b52af8e5965d1785bf1216fb5fe0588e0d8a44
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
+
+Package: tseries
+Version: 0.10-61
+Depends: R (>= 3.4.0), R (>= 4.6), R (< 4.6.99)
+Imports: graphics, stats, utils, quadprog, zoo, quantmod (>= 0.4-9), jsonlite
+License: GPL-2 | GPL-3
+File: tseries_0.10-61_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/tseries/releases/download/0.10-61/tseries_0.10-61_b4_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-26 17:31:24 UTC; unix
+Filesize: 438588
+SHA256: 674e6551af7745ba1c2d1a7ff4baf8b329c1aaa708d580ff557cb69b447d04e7
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: arrow
+Version: 23.0.1.2
+Depends: R (>= 4.1), R (>= 4.6), R (< 4.6.99)
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
+        tibble, tzdb, withr
+License: Apache License (>= 2.0)
+File: arrow_23.0.1.2_b13_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/arrow/releases/download/23.0.1.2/arrow_23.0.1.2_b13_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-26 17:31:32 UTC; unix
+Filesize: 42791509
+SHA256: d3159f52d873d5e0a516fe1ca551f1acc0a0b107b3d5bf67cae212acf5bc808f
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++20; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.26 (build-time only, and only for full source build)
+LinkingTo: cpp11 (>= 0.4.2)
+
+Package: terra
+Version: 1.9-11
+Depends: R (>= 3.5.0), methods, R (>= 4.6), R (< 4.6.99)
+Imports: Rcpp (>= 1.0-10)
+Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
+License: GPL (>= 3)
+File: terra_1.9-11_b11_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/terra/releases/download/1.9-11/terra_1.9-11_b11_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-26 17:31:31 UTC; unix
+Filesize: 35044167
+SHA256: 610bf77b6579cee94adf73a7266e20eaa4b5de05a0d836b90f57e96d8589e543
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
+LinkingTo: Rcpp
+
+Package: duckdb
+Version: 1.5.1
+Depends: DBI, R (>= 4.1.0), R (>= 4.6), R (< 4.6.99)
+Imports: methods, utils
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, sf, testthat (>= 3.0.0), tibble, vctrs, wk, withr
+License: MIT + file LICENSE
+File: duckdb_1.5.1_b13_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.5.1/duckdb_1.5.1_b13_R4.6_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.6.0; x86_64-pc-linux-gnu; 2026-03-26 17:31:32 UTC; unix
+Filesize: 312975927
+SHA256: 1925fea36e223b200e698a7297df9b01e243c000949fa4a421b89b17f77f9217
+RVersion: 4.6
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: xz (for building from source)
