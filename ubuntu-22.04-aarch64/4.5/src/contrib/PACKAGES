@@ -2641,24 +2641,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: rmarkdown
-Version: 2.30
-Depends: R (>= 3.0), R (>= 4.5), R (< 4.5.99)
-Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.43), methods, tinytex (>= 0.31), tools, utils, xfun (>= 0.36), yaml (>=
-        2.1.19)
-Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>= 3.0.3), tibble, vctrs, cleanrmd, withr (>= 2.4.2), xml2
-License: GPL-3
-File: rmarkdown_2.30_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/rmarkdown/releases/download/2.30/rmarkdown_2.30_b2_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.5.1; ; 2025-09-28 18:39:06 UTC; unix
-Filesize: 2640049
-SHA256: 2e4a64f2afea4de3dfa72f82821ff2649e4c5a4f51282bd58b57eb22abb2046b
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
-
 Package: rstanarm
 Version: 2.32.2
 Depends: R (>= 3.4.0), Rcpp (>= 0.12.0), methods, R (>= 4.5), R (< 4.5.99)
@@ -4340,23 +4322,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: tseries
-Version: 0.10-60
-Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
-Imports: graphics, stats, utils, quadprog, zoo, quantmod (>= 0.4-9), jsonlite
-License: GPL-2 | GPL-3
-File: tseries_0.10-60_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/tseries/releases/download/0.10-60/tseries_0.10-60_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.2; aarch64-unknown-linux-gnu; 2026-02-18 19:17:32 UTC; unix
-Filesize: 433683
-SHA256: 6ee0aa66734d8d4ca6be45599fab1dc7a7570cc4ed02a806b1fcd7983a383adb
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: readr
 Version: 2.2.0
 Depends: R (>= 4.1), R (>= 4.5), R (< 4.5.99)
@@ -4692,26 +4657,6 @@ SystemRequirements: OpenGL and GLU Library (Required for display in R.  See "Ins
         (optional), libpng (>=1.2.9, optional), FreeType (optional), pandoc (>=1.14, needed for vignettes), LaTeX needed for optional latex3d() examples.
 Enhances: waldo
 
-Package: terra
-Version: 1.9-1
-Depends: R (>= 3.5.0), methods, R (>= 4.5), R (< 4.5.99)
-Imports: Rcpp (>= 1.0-10)
-Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
-License: GPL (>= 3)
-File: terra_1.9-1_b10_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/terra/releases/download/1.9-1/terra_1.9-1_b10_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.3; aarch64-unknown-linux-gnu; 2026-03-08 18:55:47 UTC; unix
-Filesize: 35049467
-SHA256: e1ab1283d95681f4e7317afc76f4b050d49c0c3cf88332e0dd8872534f95dd00
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
-LinkingTo: Rcpp
-
 Package: listenv
 Version: 0.10.1
 Depends: R (>= 3.1.2), R (>= 4.5), R (< 4.5.99)
@@ -4849,25 +4794,6 @@ RVersion: 4.5
 Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: duckdb
-Version: 1.5.0
-Depends: DBI, R (>= 4.1.0), R (>= 4.5), R (< 4.5.99)
-Imports: methods, utils
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat (>= 3.0.0), tibble, vctrs, withr
-License: MIT + file LICENSE
-File: duckdb_1.5.0_b12_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.5.0/duckdb_1.5.0_b12_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.5.3; aarch64-unknown-linux-gnu; 2026-03-14 18:59:56 UTC; unix
-Filesize: 310769331
-SHA256: abb42efc0508c9d331b97e3459a35106fcf27394fbe54361c9b167894bb372a9
-RVersion: 4.5
-Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: xz (for building from source)
 
 Package: png
 Version: 0.1-9
@@ -5125,3 +5051,77 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++20; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.26 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
+
+Package: rmarkdown
+Version: 2.31
+Depends: R (>= 3.0), R (>= 4.5), R (< 4.5.99)
+Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.43), methods, tinytex (>= 0.31), tools, utils, xfun (>= 0.36), yaml (>=
+        2.1.19)
+Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>= 3.0.3), tibble, vctrs, cleanrmd, withr (>= 2.4.2), xml2
+License: GPL-3
+File: rmarkdown_2.31_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/rmarkdown/releases/download/2.31/rmarkdown_2.31_b3_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.5.3; ; 2026-03-26 19:35:55 UTC; unix
+Filesize: 2640640
+SHA256: a4a0591a379575a6ad93cb7ab388264352a6f4eddb6a390ecf0320217e4a7e1a
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
+
+Package: tseries
+Version: 0.10-61
+Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
+Imports: graphics, stats, utils, quadprog, zoo, quantmod (>= 0.4-9), jsonlite
+License: GPL-2 | GPL-3
+File: tseries_0.10-61_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/tseries/releases/download/0.10-61/tseries_0.10-61_b4_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.3; aarch64-unknown-linux-gnu; 2026-03-26 19:35:55 UTC; unix
+Filesize: 434526
+SHA256: 0162c2513394bf209332d08f8872f72aadb69a6658548343faa2bd67dc0e6cc0
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: terra
+Version: 1.9-11
+Depends: R (>= 3.5.0), methods, R (>= 4.5), R (< 4.5.99)
+Imports: Rcpp (>= 1.0-10)
+Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets
+License: GPL (>= 3)
+File: terra_1.9-11_b11_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/terra/releases/download/1.9-11/terra_1.9-11_b11_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.3; aarch64-unknown-linux-gnu; 2026-03-26 19:35:58 UTC; unix
+Filesize: 35078597
+SHA256: 08fb273d49b37ad49ad568439b8f7ef052af1c94ac3e95fb8f33b9c61c76d1d8
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
+LinkingTo: Rcpp
+
+Package: duckdb
+Version: 1.5.1
+Depends: DBI, R (>= 4.1.0), R (>= 4.5), R (< 4.5.99)
+Imports: methods, utils
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, sf, testthat (>= 3.0.0), tibble, vctrs, wk, withr
+License: MIT + file LICENSE
+File: duckdb_1.5.1_b13_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.5.1/duckdb_1.5.1_b13_R4.5_aarch64-unknown-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.5.3; aarch64-unknown-linux-gnu; 2026-03-26 19:35:56 UTC; unix
+Filesize: 311809131
+SHA256: 66d362f9ff8ed88738513e488be33c89403719093ab30f5f498277e4476734e4
+RVersion: 4.5
+Platform: aarch64-unknown-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: xz (for building from source)
