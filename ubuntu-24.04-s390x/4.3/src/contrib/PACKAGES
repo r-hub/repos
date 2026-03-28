@@ -760,24 +760,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: tools, utils, stats
 SystemRequirements: ICU4C (>= 61, optional)
 
-Package: nlme
-Version: 3.1-168
-Depends: R (>= 3.6.0), R (>= 4.3), R (< 4.3.99)
-Suggests: MASS, SASmixed
-License: GPL (>= 2)
-File: nlme_3.1-168_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/nlme/releases/download/3.1-168/nlme_3.1-168_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-03-31 14:47:04 UTC; unix
-Filesize: 2435344
-SHA256: 22e3856e3edeb2be3f900cac2c25b7932c541972473bc4995050d81e1714888f
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: graphics, stats, utils, lattice
-
 Package: mgcv
 Version: 1.9-3
 Depends: R (>= 3.6.0), nlme (>= 3.1-64), R (>= 4.3), R (< 4.3.99)
@@ -1256,22 +1238,6 @@ Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: grDevices, utils
-
-Package: tinytex
-Version: 0.58
-Depends: R (>= 4.3), R (< 4.3.99)
-Suggests: testit, rstudioapi
-License: MIT + file LICENSE
-File: tinytex_0.58_b3_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/tinytex/releases/download/0.58/tinytex_0.58_b3_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.3.3; ; 2025-11-19 14:42:19 UTC; unix
-Filesize: 142574
-SHA256: b0c17e125f8fb2005ecf5c841900b80c317268f326b2e89b92989732e8a6d45e
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: xfun (>= 0.48)
 
 Package: digest
 Version: 0.6.39
@@ -2092,3 +2058,37 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.43), methods, tinytex (>= 0.31), tools, utils, xfun (>= 0.36), yaml (>=
         2.1.19)
 SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
+
+Package: nlme
+Version: 3.1-169
+Depends: R (>= 3.6.0), R (>= 4.3), R (< 4.3.99)
+Suggests: MASS, SASmixed
+License: GPL (>= 2)
+File: nlme_3.1-169_b3_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/nlme/releases/download/3.1-169/nlme_3.1-169_b3_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2026-03-28 14:55:14 UTC; unix
+Filesize: 2436557
+SHA256: 30bcd4b7a23a005648c31d1b3d9b956829a43d6e6c3b9671069d02e7cabe797b
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: graphics, stats, utils, lattice
+
+Package: tinytex
+Version: 0.59
+Depends: R (>= 4.3), R (< 4.3.99)
+Suggests: testit, rstudioapi
+License: MIT + file LICENSE
+File: tinytex_0.59_b4_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/tinytex/releases/download/0.59/tinytex_0.59_b4_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.3.3; ; 2026-03-28 14:55:12 UTC; unix
+Filesize: 146349
+SHA256: 9fa78959d1d0c96268ea5d63d5563fac7022cb3672ec4ac9449886ab84101bd2
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: xfun (>= 0.48)
