@@ -8,7 +8,7 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
-    container: ghcr.io/r-lib/rig/fedora-44-devel:latest
+    container: ghcr.io/r-hub/containers/gcc16:latest
     steps:
     - name: Check Distro and R version
       run: |
