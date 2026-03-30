@@ -4,15 +4,14 @@
 These repositories are **experimental**. They are **not** compatible
 with `install.packages()`, only with pak.
 
-* [Ubuntu 22.04 + R-devel](#ubuntu-2204--r-devel-ubuntu-2204-r46)
-* [Ubuntu 22.04 + R-devel + libc++](#ubuntu-2204--r-devel--libc-ubuntu-2204-r46-libc)
-* [Ubuntu 24.04 + R-devel](#ubuntu-2404--r-devel-ubuntu-2404-r46)
-* [Ubuntu 22.04 + R-release on aarch64](#ubuntu-2204--r-release-on-aarch64-ubuntu-2204-aarch64-r44)
-* [Ubuntu 24.04 + R-release on aarch64](#ubuntu-2404--r-release-on-aarch64-ubuntu-2404-aarch64-r44)
-* [Fedora 42 + R-devel](#fedora-42--r-devel-fedora-42-r46)
-* [macOS 11 Big Sur or later, x86_64 + R-devel](#macos-11-big-sur-or-later-x86_64--r-devel-macos-x86_64-r46)
-* [macOS 11 Big Sur or later, arm64 + R-devel](#macos-11-big-sur-or-later-arm64--r-devel-macos-arm64-r46)
-* [Ubuntu 22.04 + R 4.1 on s390x](#ubuntu-2204--r-41-on-s390x-ubuntu-2204-s390x-r41)
+* [Ubuntu 22.04 + R-devel](#ubuntu-2204--r-devel-ubuntu-2204-r47)
+* [Ubuntu 22.04 + R-devel + libc++](#ubuntu-2204--r-devel--libc-ubuntu-2204-r47-libc)
+* [Ubuntu 24.04 + R-devel](#ubuntu-2404--r-devel-ubuntu-2404-r47)
+* [Fedora 42 + R-devel](#fedora-42--r-devel-fedora-42-r47)
+* [Fedora 44 + R-devel](#fedora-44--r-devel-fedora-44-r47)
+* [macOS 11 Big Sur or later, x86_64 + R-devel](#macos-11-big-sur-or-later-x86_64--r-devel-macos-x86_64-r47)
+* [macOS 11 Big Sur or later, arm64 + R-devel](#macos-11-big-sur-or-later-arm64--r-devel-macos-arm64-r47)
+* [Ubuntu 22.04 + R 4.3 on s390x](#ubuntu-2204--r-43-on-s390x-ubuntu-2204-s390x-r43)
 
 <details><summary>Retired repositories</summary>
 These are not updated any more, no new packages are added to them,
@@ -34,6 +33,8 @@ but existing builds are still functional.
   `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04-aarch64/4.3`
 - Ubuntu 22.04 + R 4.4 on aarch64 (last update: 2024-04-14)\
   `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04-aarch64/4.4`
+- Ubuntu 22.04 + R 4.5 on aarch64 (last update: 2026-03-26)\
+  `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04-aarch64/4.5`
 - Ubuntu 22.04 + R 4.1 on s390x (last update: 2025-03-15)\
   `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04-s390x/4.1`
 - Ubuntu 22.04 + R 4.4 on x86_64 (last update: 2024-03-27)\
@@ -45,6 +46,8 @@ but existing builds are still functional.
 - Ubuntu 22.04 + R 4.5 + libc++ on x86_64 (last update: 2025-03-15)\
   `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04/libc++/4.5`
 - Ubuntu 24.04 + R 4.4 on aarch64 (last update: 2024-04-14)\
+  `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-24.04-aarch64/4.4`
+- Ubuntu 24.04 + R 4.5 on aarch64 (last update: 2026-03-26)\
   `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-24.04-aarch64/4.4`
 - macOS 11 Big Sur or later, arm64 + R 4.4 (last update: 2024-03-27)\
   `https://raw.githubusercontent.com/r-hub/repos/main/macos-arm64/4.4`
@@ -61,13 +64,13 @@ but existing builds are still functional.
 * [x] `ubuntu-next` (CRAN's `r-patched-linux-x86_64`)
 * [x] `ubuntu-release` (CRAN's `r-release-linux-x86_64`)
 
-## Ubuntu 22.04 + R-devel (`ubuntu-22.04-R4.6`)
+## Ubuntu 22.04 + R-devel (`ubuntu-22.04-R4.7`)
 
 ### Setup
 
 ```
 options(repos = c(
-  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04/4.6",
+  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04/4.7",
   CRAN = "https://cloud.r-project.org"
 ))
 ```
@@ -84,13 +87,13 @@ options(repos = c(
 * [ ] `rlibro` (extra `rlibro`)
 * [x] `rchk` (extra `rchk`)
 
-## Ubuntu 22.04 + R-devel + libc++ (`ubuntu-22.04-R4.6-libc++`)
+## Ubuntu 22.04 + R-devel + libc++ (`ubuntu-22.04-R4.7-libc++`)
 
 ### Setup
 
 ```
 options(repos = c(
-  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04/4.6/libc++",
+  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04/4.7/libc++",
   CRAN = "https://cloud.r-project.org"
 ))
 ```
@@ -103,13 +106,13 @@ options(repos = c(
 * [x] `clang22`
 * [ ] `ubuntu-libc++` (CRAN's `r-devel-linux-x86_64-fedora-clang`)
 
-## Ubuntu 24.04 + R-devel (`ubuntu-24.04-R4.6`)
+## Ubuntu 24.04 + R-devel (`ubuntu-24.04-R4.7`)
 
 ### Setup
 
 ```
 options(repos = c(
-  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-24.04/4.6",
+  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-24.04/4.7",
   CRAN = "https://cloud.r-project.org"
 ))
 ```
@@ -118,13 +121,13 @@ options(repos = c(
 
 * [x] `ubuntu-gcc15` (CRAN's `r-devel-linux-x86_64-debian-gcc`)
 
-## Fedora 42 + R-devel (`fedora-42-R4.6`)
+## Fedora 42 + R-devel (`fedora-42-R4.7`)
 
 ### Setup
 
 ```
 options(repos = c(
-  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/fedora-42/4.6",
+  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/fedora-42/4.7",
   CRAN = "https://cloud.r-project.org"
 ))
 ```
@@ -137,6 +140,21 @@ options(repos = c(
 * [ ] `openblas` (extra `OpenBLAS`)
 * [x] `nosuggests` (extra `noSuggests`)
 * [x] `valgrind` (extra `valgrind`)
+
+## Fedora 44 + R-devel (`fedora-44-R4.7`)
+
+### Setup
+
+```
+options(repos = c(
+  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/fedora-44/4.7",
+  CRAN = "https://cloud.r-project.org"
+))
+```
+
+### Containers using this repo
+
+* [x] `gcc16`
 
 ## Ubuntu 22.04 + R-release on aarch64 (`ubuntu-22.04-aarch64-R4.4`)
 
@@ -205,10 +223,10 @@ We practically cannot implement this platform currently:
 
 Name             | CRAN                              | ✓ | Repo
 -----------------|-----------------------------------|---|--------------------------
-`ubuntu-clang`   | r-devel-linux-x86_64-debian-clang | ✓ | ubuntu-22.04-R4.6
-`ubuntu-gcc15`   | r-devel-linux-x86_64-debian-gcc   | ✓ | ubuntu-24.04-R4.6
-`ubuntu-libc++`  | r-devel-linux-x86_64-fedora-clang |   | ubuntu-22.04-R4.6-libc++
-`fedora-gcc`     | r-devel-linux-x86_64-fedora-gcc   |   | fedora-42-R4.6
+`ubuntu-clang`   | r-devel-linux-x86_64-debian-clang | ✓ | ubuntu-22.04-R4.7
+`ubuntu-gcc15`   | r-devel-linux-x86_64-debian-gcc   | ✓ | ubuntu-24.04-R4.7
+`ubuntu-libc++`  | r-devel-linux-x86_64-fedora-clang |   | ubuntu-22.04-R4.7-libc++
+`fedora-gcc`     | r-devel-linux-x86_64-fedora-gcc   |   | fedora-42-R4.7
 `windows`        | r-devel-windows-x86_64            | ✓ | CRAN
 `ubuntu-next`    | r-patched-linux-x86_64            | ✓ | PPM
 `ubuntu-release` | r-release-linux-x86_64            | ✓ | PPM
@@ -222,27 +240,27 @@ Name             | CRAN                              | ✓ | Repo
 
 Name         | CRAN       | ✓ | Repo                      | Description
 -------------|------------|---|---------------------------|---------------------------------------------------
-`atlas`      | ATLAS      | ✓ | fedora-42-R4.6            | Tests with alternative BLAS/LAPACK implementations
+`atlas`      | ATLAS      | ✓ | fedora-42-R4.7            | Tests with alternative BLAS/LAPACK implementations
 `blas`       | BLAS       |   |                           | Use of BLAS/LAPACK from C/C++ code
-`clang-asan` | clang-ASAN | ✓ | ubuntu-22.04-R4.6-libc++  | Tests of memory access errors using AddressSanitizer
-`clang-ubsan`| clang-UBSAN| ✓ | ubuntu-22.04-R4.6-libc++  | Tests of memory access errors using Undefined Behavior Sanitizer
-`clang21`    | clang21    | ✓ | ubuntu-22.04-R4.6-libc++  | Checks with LLVM 21.x
-`clang22`    | clang22    | ✓ | ubuntu-22.04-R4.6-libc++  | Checks with LLVM 22.x
-`donttest`   | donttest   | ✓ | ubuntu-22.04-R4.6         | Tests including `\donttest` examples
-`gcc-asan`   | gcc-ASAN   | ✓ | fedora-42-R4.6            | Tests of memory access errors using AddressSanitizer
-`gcc-asan`   | gcc-UBSAN  | ✓ | fedora-42-R4.6            | Tests of memory access errors using Undefined Behavior Sanitizer
-`gcc16`      | gcc16      | ✓ |                           | Installation checks with a snapshot of GCC pre-16
-`lto`        | LTO        |   | ubuntu-22.04-R4.6         | Tests for link-time optimization type mismatches
+`clang-asan` | clang-ASAN | ✓ | ubuntu-22.04-R4.7-libc++  | Tests of memory access errors using AddressSanitizer
+`clang-ubsan`| clang-UBSAN| ✓ | ubuntu-22.04-R4.7-libc++  | Tests of memory access errors using Undefined Behavior Sanitizer
+`clang21`    | clang21    | ✓ | ubuntu-22.04-R4.7-libc++  | Checks with LLVM 21.x
+`clang22`    | clang22    | ✓ | ubuntu-22.04-R4.7-libc++  | Checks with LLVM 22.x
+`donttest`   | donttest   | ✓ | ubuntu-22.04-R4.7         | Tests including `\donttest` examples
+`gcc-asan`   | gcc-ASAN   | ✓ | fedora-42-R4.7            | Tests of memory access errors using AddressSanitizer
+`gcc-asan`   | gcc-UBSAN  | ✓ | fedora-42-R4.7            | Tests of memory access errors using Undefined Behavior Sanitizer
+`gcc16`      |            | ✓ |                           | Installation checks with a snapshot of GCC pre-16
+`lto`        | LTO        |   | ubuntu-22.04-R4.7         | Tests for link-time optimization type mismatches
 `m1mac`      | M1mac      |   | CRAN?                     | Checks on a M1 (arm64) Mac
-`mkl`        | MKL        | ✓ | fedora-42-R4.6            | Tests with alternative BLAS/LAPACK implementations
-`nold`       | noLD       | ✓ | ubuntu-22.04-R4.6         | Tests without long double
-`noomp`      | noOMP      |   | ubuntu-22.04-R4.6         | Tests without OpenMP support
-`nosuggests` | noSuggests | ✓ | fedora-42-R4.6            | Tests without suggested packages
-`openblas`   | OpenBLAS   |   | fedora-42-R4.6            | Tests with alternative BLAS/LAPACK implementations
-`rchk`       | rchk       | ✓ | ubuntu-22.04-R4.6         | Checks of native code (C/C++) based on static code analysis
-`rcnst`      | rcnst      |   | ubuntu-22.04-R4.6         | Checks of corruption of constants
-`rlibro`     | rlibro     |   | ubuntu-22.04-R4.6         | Checks with read-only user library
-`valgrind`   | valgrind   | ✓ | fedora-42-R4.6            | Tests of memory access errors using valgrind
+`mkl`        | MKL        | ✓ | fedora-42-R4.7            | Tests with alternative BLAS/LAPACK implementations
+`nold`       | noLD       | ✓ | ubuntu-22.04-R4.7         | Tests without long double
+`noomp`      | noOMP      |   | ubuntu-22.04-R4.7         | Tests without OpenMP support
+`nosuggests` | noSuggests | ✓ | fedora-42-R4.7            | Tests without suggested packages
+`openblas`   | OpenBLAS   |   | fedora-42-R4.7            | Tests with alternative BLAS/LAPACK implementations
+`rchk`       | rchk       | ✓ | ubuntu-22.04-R4.7         | Checks of native code (C/C++) based on static code analysis
+`rcnst`      | rcnst      |   | ubuntu-22.04-R4.7         | Checks of corruption of constants
+`rlibro`     | rlibro     |   | ubuntu-22.04-R4.7         | Checks with read-only user library
+`valgrind`   | valgrind   | ✓ | fedora-42-R4.7            | Tests of memory access errors using valgrind
 
 ### Deprecated containers
 
