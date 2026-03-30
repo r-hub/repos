@@ -8,7 +8,7 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
-    container: ghcr.io/r-hub/containers/ubuntu-gcc15:latest
+    container: ghcr.io/r-lib/rig/ubuntu-24.04-devel
     steps:
     - name: Check Distro and R version
       run: |
