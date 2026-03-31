@@ -915,24 +915,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: ps
-Version: 1.9.1
-Depends: R (>= 3.4), R (>= 4.7), R (< 4.7.99)
-Imports: utils
-Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes, withr
-License: MIT + file LICENSE
-File: ps_1.9.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/ps/releases/download/1.9.1/ps_1.9.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 11:47:08 UTC; unix
-Filesize: 421501
-SHA256: 0703f6b733a9bacc70c887b8435b85a62cdb0bc9e446cffa3fa9059371cabd43
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: purrr
 Version: 1.2.1
 Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
@@ -1783,22 +1765,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: furrr
-Version: 0.3.1
-Depends: future (>= 1.25.0), R (>= 3.4.0), R (>= 4.7), R (< 4.7.99)
-Imports: globals (>= 0.14.0), lifecycle (>= 1.0.1), purrr (>= 0.3.4), rlang (>= 1.0.2), vctrs (>= 0.4.1)
-Suggests: carrier, covr, dplyr (>= 0.7.4), knitr, listenv (>= 0.6.0), magrittr, rmarkdown, testthat (>= 3.0.0), tidyselect, withr
-License: MIT + file LICENSE
-File: furrr_0.3.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/furrr/releases/download/0.3.1/furrr_0.3.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.7.0; ; 2026-03-30 12:19:35 UTC; unix
-Filesize: 1023874
-SHA256: 4af1d776a45d02aebfba90e549aa4d9a9e95e23a056ddd257f2cc2b05e684209
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: future
 Version: 1.70.0
 Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
@@ -2201,22 +2167,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
-
-Package: progressr
-Version: 0.18.0
-Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
-Imports: digest, utils
-Suggests: graphics, tcltk, beepr, cli, crayon, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, ntfy, RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools
-License: GPL (>= 3)
-File: progressr_0.18.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/progressr/releases/download/0.18.0/progressr_0.18.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.7.0; ; 2026-03-30 12:06:16 UTC; unix
-Filesize: 418335
-SHA256: dd5446aaeef6f9f52aa84b40407ba727c06ee104c5e16018ab00e8d7f42f804b
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: RColorBrewer
 Version: 1.1-3
@@ -3043,26 +2993,6 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: vroom
-Version: 1.7.0
-Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
-Imports: bit64, cli (>= 3.2.0), crayon, glue, hms, lifecycle (>= 1.0.3), methods, rlang (>= 1.1.0), stats, tibble (>= 2.0.0), tidyselect, tzdb (>= 0.1.1), vctrs (>= 0.2.0), withr
-Suggests: archive, bench (>= 1.1.0), covr, curl, dplyr, forcats, fs, ggplot2, knitr, patchwork, prettyunits, purrr, rmarkdown, rstudioapi, scales, spelling, testthat (>= 2.1.0), tidyr, utils, waldo,
-        xml2
-License: MIT + file LICENSE
-File: vroom_1.7.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/vroom/releases/download/1.7.0/vroom_1.7.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 12:02:13 UTC; unix
-Filesize: 956414
-SHA256: 0768f638b86480a5d63a3e751b494bddf8270b5a1065233bed98054b20513454
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cpp11 (>= 0.2.0), progress (>= 1.2.3), tzdb (>= 0.1.1)
 
 Package: pkgbuild
 Version: 1.4.8
@@ -4132,3 +4062,73 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11 (>= 0.4.0)
+
+Package: ps
+Version: 1.9.2
+Depends: R (>= 3.4), R (>= 4.7), R (< 4.7.99)
+Imports: utils
+Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes, withr
+License: MIT + file LICENSE
+File: ps_1.9.2_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/ps/releases/download/1.9.2/ps_1.9.2_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-31 17:45:41 UTC; unix
+Filesize: 426246
+SHA256: 49fd2e6fe7c07b4e884720a1344c7e6db31c97cf9b98e6c14c0bca1a7a95ef53
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: furrr
+Version: 0.4.0
+Depends: future (>= 1.70.0), R (>= 4.1.0), R (>= 4.7), R (< 4.7.99)
+Imports: globals (>= 0.19.1), purrr (>= 1.2.1), rlang (>= 1.1.7), vctrs (>= 0.7.0)
+Suggests: carrier, covr, dplyr (>= 1.1.4), knitr, parallelly (>= 1.46.1), testthat (>= 3.3.2), tidyselect
+License: MIT + file LICENSE
+File: furrr_0.4.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/furrr/releases/download/0.4.0/furrr_0.4.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.7.0; ; 2026-03-31 17:45:51 UTC; unix
+Filesize: 1017626
+SHA256: bc8e95ee268e7406fd4074960e5a20ee4229b646103f8f42b64f1cf46df6ee01
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: progressr
+Version: 0.19.0
+Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
+Imports: digest, utils
+Suggests: graphics, tcltk, beepr, cli, crayon, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, ntfy, RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools
+License: GPL (>= 3)
+File: progressr_0.19.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/progressr/releases/download/0.19.0/progressr_0.19.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.7.0; ; 2026-03-31 17:45:51 UTC; unix
+Filesize: 522543
+SHA256: 1c89475b02d9fe1e13c72066d0023a737fa3ed8406b8c086517465ca27b07aec
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: vroom
+Version: 1.7.1
+Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
+Imports: bit64, cli (>= 3.2.0), crayon, glue, hms, lifecycle (>= 1.0.3), methods, rlang (>= 1.1.0), stats, tibble (>= 2.0.0), tidyselect, tzdb (>= 0.1.1), vctrs (>= 0.2.0), withr
+Suggests: archive, bench (>= 1.1.0), covr, curl, dplyr, forcats, fs, ggplot2, knitr, patchwork, prettyunits, purrr, rmarkdown, rstudioapi, scales, spelling, testthat (>= 2.1.0), tidyr, utils, waldo,
+        xml2
+License: MIT + file LICENSE
+File: vroom_1.7.1_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/vroom/releases/download/1.7.1/vroom_1.7.1_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-31 17:45:59 UTC; unix
+Filesize: 956531
+SHA256: 3a34704c5106c3e42d8bc86cd3d40958abe27a86b63b6a7be01a138bd9100d69
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11 (>= 0.2.0), progress (>= 1.2.3), tzdb (>= 0.1.1)
