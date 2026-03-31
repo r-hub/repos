@@ -2202,22 +2202,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: progressr
-Version: 0.18.0
-Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
-Imports: digest, utils
-Suggests: graphics, tcltk, beepr, cli, crayon, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, ntfy, RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools
-License: GPL (>= 3)
-File: progressr_0.18.0_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/progressr/releases/download/0.18.0/progressr_0.18.0_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-Built: R 4.7.0; ; 2026-03-30 18:35:08 UTC; unix
-Filesize: 436122
-SHA256: 2c478d8a81ba81cc4ab3de2a64f66b5410e7a174771a5fa027ce7dbb4e3c02d8
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: RColorBrewer
 Version: 1.1-3
 Depends: R (>= 2.0.0), R (>= 4.7), R (< 4.7.99)
@@ -3043,26 +3027,6 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: vroom
-Version: 1.7.0
-Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
-Imports: bit64, cli (>= 3.2.0), crayon, glue, hms, lifecycle (>= 1.0.3), methods, rlang (>= 1.1.0), stats, tibble (>= 2.0.0), tidyselect, tzdb (>= 0.1.1), vctrs (>= 0.2.0), withr
-Suggests: archive, bench (>= 1.1.0), covr, curl, dplyr, forcats, fs, ggplot2, knitr, patchwork, prettyunits, purrr, rmarkdown, rstudioapi, scales, spelling, testthat (>= 2.1.0), tidyr, utils, waldo,
-        xml2
-License: MIT + file LICENSE
-File: vroom_1.7.0_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/vroom/releases/download/1.7.0/vroom_1.7.0_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 18:29:38 UTC; unix
-Filesize: 8177739
-SHA256: 19bfe4211046b0ac48347e83705eb6392ed59971eb2088f95f4e5b629fbecc16
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cpp11 (>= 0.2.0), progress (>= 1.2.3), tzdb (>= 0.1.1)
 
 Package: pkgbuild
 Version: 1.4.8
@@ -4939,3 +4903,39 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: progressr
+Version: 0.19.0
+Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
+Imports: digest, utils
+Suggests: graphics, tcltk, beepr, cli, crayon, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, ntfy, RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools
+License: GPL (>= 3)
+File: progressr_0.19.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/progressr/releases/download/0.19.0/progressr_0.19.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+Built: R 4.7.0; ; 2026-03-31 08:36:12 UTC; unix
+Filesize: 540762
+SHA256: 9b194458ecf358ab111a9dde1cb7f82f44d93f9f3ad00b60da55e1545e21e971
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: vroom
+Version: 1.7.1
+Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
+Imports: bit64, cli (>= 3.2.0), crayon, glue, hms, lifecycle (>= 1.0.3), methods, rlang (>= 1.1.0), stats, tibble (>= 2.0.0), tidyselect, tzdb (>= 0.1.1), vctrs (>= 0.2.0), withr
+Suggests: archive, bench (>= 1.1.0), covr, curl, dplyr, forcats, fs, ggplot2, knitr, patchwork, prettyunits, purrr, rmarkdown, rstudioapi, scales, spelling, testthat (>= 2.1.0), tidyr, utils, waldo,
+        xml2
+License: MIT + file LICENSE
+File: vroom_1.7.1_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/vroom/releases/download/1.7.1/vroom_1.7.1_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-31 08:36:16 UTC; unix
+Filesize: 8177009
+SHA256: 2672a9d0d560f672dccccd808252a4964bb3be1858b98c160ff6577fb2c5c4e0
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11 (>= 0.2.0), progress (>= 1.2.3), tzdb (>= 0.1.1)
