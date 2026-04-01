@@ -817,22 +817,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: pkgload
-Version: 1.5.0
-Depends: R (>= 3.4.0), R (>= 4.7), R (< 4.7.99)
-Imports: cli (>= 3.3.0), desc, fs, glue, lifecycle, methods, pkgbuild, processx, rlang (>= 1.1.1), rprojroot, utils
-Suggests: bitops, jsonlite, mathjaxr, pak, Rcpp, remotes, rstudioapi, testthat (>= 3.2.1.1), usethis, withr
-License: MIT + file LICENSE
-File: pkgload_1.5.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/pkgload/releases/download/1.5.0/pkgload_1.5.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.7.0; ; 2026-03-30 14:00:36 UTC; unix
-Filesize: 226555
-SHA256: 3a74f207c33375e7987658c3c0beda6bab5b574ce9cc14eb5980ae190ad6beb3
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: praise
 Version: 1.0.0
 Depends: R (>= 4.7), R (< 4.7.99)
@@ -858,24 +842,6 @@ DownloadURL: https://github.com/cran/prettyunits/releases/download/1.2.0/prettyu
 Built: R 4.7.0; ; 2026-03-30 13:47:18 UTC; unix
 Filesize: 158004
 SHA256: 69f85cefeb4657e63231739d35ec69e7548a06ba8e71e744c02fcdba21e57850
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: processx
-Version: 3.8.6
-Depends: R (>= 3.4.0), R (>= 4.7), R (< 4.7.99)
-Imports: ps (>= 1.2.0), R6, utils
-Suggests: callr (>= 3.7.3), cli (>= 3.3.0), codetools, covr, curl, debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0), webfakes, withr
-License: MIT + file LICENSE
-File: processx_3.8.6_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/processx/releases/download/3.8.6/processx_3.8.6_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 13:44:39 UTC; unix
-Filesize: 460984
-SHA256: 2f3da774454cf82c984c8f2f8da455154e0e31af94a598e202e3ac516b6bbab1
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 17
@@ -4622,22 +4588,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
 
-Package: posterior
-Version: 1.6.1
-Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
-Imports: methods, abind, checkmate, rlang (>= 1.0.6), stats, tibble (>= 3.1.0), vctrs (>= 0.5.0), tensorA, pillar, distributional, parallel, matrixStats
-Suggests: testthat (>= 2.1.0), caret (>= 6.0-84), gbm (>= 2.1.8), randomForest (>= 4.6.14), e1071 (>= 1.7-3), dplyr, tidyr, knitr, ggplot2, ggdist, rmarkdown
-License: BSD_3_clause + file LICENSE
-File: posterior_1.6.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/posterior/releases/download/1.6.1/posterior_1.6.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.7.0; ; 2026-03-30 14:15:12 UTC; unix
-Filesize: 1041812
-SHA256: ecd6896a6ac288b12175b9f4e29c22e72db44a16f57757195dbf3c579e28b07f
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: QuickJSR
 Version: 1.9.0
 Depends: R (>= 4.7), R (< 4.7.99)
@@ -4957,3 +4907,53 @@ Platform: x86_64-pc-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11 (>= 0.2.0), progress (>= 1.2.3), tzdb (>= 0.1.1)
+
+Package: pkgload
+Version: 1.5.1
+Depends: R (>= 3.4.0), R (>= 4.7), R (< 4.7.99)
+Imports: cli (>= 3.3.0), desc, fs, glue, lifecycle, methods, pkgbuild, processx, rlang (>= 1.1.1), rprojroot, utils
+Suggests: bitops, jsonlite, mathjaxr, pak, Rcpp, remotes, rstudioapi, testthat (>= 3.2.1.1), usethis, withr
+License: MIT + file LICENSE
+File: pkgload_1.5.1_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/pkgload/releases/download/1.5.1/pkgload_1.5.1_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.7.0; ; 2026-04-01 17:34:40 UTC; unix
+Filesize: 226729
+SHA256: f15c369c85103dcdb29d717b8ee3b74f43b7e6e9f60fa25d6e155e317b3490b0
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: processx
+Version: 3.8.7
+Depends: R (>= 3.4.0), R (>= 4.7), R (< 4.7.99)
+Imports: ps (>= 1.2.0), R6, utils
+Suggests: callr (>= 3.7.3), cli (>= 3.3.0), codetools, covr, curl, debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0), webfakes, withr
+License: MIT + file LICENSE
+File: processx_3.8.7_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/processx/releases/download/3.8.7/processx_3.8.7_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-01 17:34:19 UTC; unix
+Filesize: 461588
+SHA256: f4e40e7247ab1912181b25bdbec87eb0cf3ad3670892d03e10bd6d18f30f7076
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: posterior
+Version: 1.7.0
+Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
+Imports: methods, abind, checkmate, rlang (>= 1.0.6), stats, tibble (>= 3.1.0), vctrs (>= 0.5.0), tensorA, pillar, distributional, parallel, matrixStats
+Suggests: testthat (>= 2.1.0), caret (>= 6.0-84), gbm (>= 2.1.8), randomForest (>= 4.6.14), e1071 (>= 1.7-3), dplyr, tidyr, knitr, ggplot2, ggdist, rmarkdown
+License: BSD_3_clause + file LICENSE
+File: posterior_1.7.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/posterior/releases/download/1.7.0/posterior_1.7.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.7.0; ; 2026-04-01 17:34:41 UTC; unix
+Filesize: 1025638
+SHA256: b0c8f91a0c9b2314f0384f4e52d7ced522baa8abe1271e9bbede46111c09ee3f
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
