@@ -817,22 +817,6 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: pkgload
-Version: 1.5.0
-Depends: R (>= 3.4.0), R (>= 4.7), R (< 4.7.99)
-Imports: cli (>= 3.3.0), desc, fs, glue, lifecycle, methods, pkgbuild, processx, rlang (>= 1.1.1), rprojroot, utils
-Suggests: bitops, jsonlite, mathjaxr, pak, Rcpp, remotes, rstudioapi, testthat (>= 3.2.1.1), usethis, withr
-License: MIT + file LICENSE
-File: pkgload_1.5.0_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/pkgload/releases/download/1.5.0/pkgload_1.5.0_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-Built: R 4.7.0; ; 2026-03-30 18:30:23 UTC; unix
-Filesize: 239283
-SHA256: 6712cb147cadcef34a7c04b4352e66a1872fe947a53782e63083768aca1462a7
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: praise
 Version: 1.0.0
 Depends: R (>= 4.7), R (< 4.7.99)
@@ -910,24 +894,6 @@ DownloadURL: https://github.com/cran/promises/releases/download/1.5.0/promises_1
 Built: R 4.7.0; ; 2026-03-30 18:21:13 UTC; unix
 Filesize: 1712423
 SHA256: ca0c718b11cfa32bdd24911e365b8702cfb8731d207bd6053e9b8d563b2a3e5e
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: ps
-Version: 1.9.1
-Depends: R (>= 3.4), R (>= 4.7), R (< 4.7.99)
-Imports: utils
-Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes, withr
-License: MIT + file LICENSE
-File: ps_1.9.1_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/ps/releases/download/1.9.1/ps_1.9.1_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 18:08:13 UTC; unix
-Filesize: 535728
-SHA256: 8c378afd35d274e2dfbfe633e00098ec3c40103e998dcf71d0346daea105dd80
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
@@ -1778,22 +1744,6 @@ Arch: amd64
 Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 18:12:52 UTC; unix
 Filesize: 2328989
 SHA256: 4243ed01c8cae614dae9d3e927b098feb3e6013b622ca99f53658fcb4680bbd5
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: furrr
-Version: 0.3.1
-Depends: future (>= 1.25.0), R (>= 3.4.0), R (>= 4.7), R (< 4.7.99)
-Imports: globals (>= 0.14.0), lifecycle (>= 1.0.1), purrr (>= 0.3.4), rlang (>= 1.0.2), vctrs (>= 0.4.1)
-Suggests: carrier, covr, dplyr (>= 0.7.4), knitr, listenv (>= 0.6.0), magrittr, rmarkdown, testthat (>= 3.0.0), tidyselect, withr
-License: MIT + file LICENSE
-File: furrr_0.3.1_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/furrr/releases/download/0.3.1/furrr_0.3.1_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-Built: R 4.7.0; ; 2026-03-30 18:40:53 UTC; unix
-Filesize: 1028996
-SHA256: 8f2d700add63c4b799cc16c3a3ab7badecfb12fde11a043cba00f7d819fed6d0
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
@@ -4939,3 +4889,53 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11 (>= 0.2.0), progress (>= 1.2.3), tzdb (>= 0.1.1)
+
+Package: pkgload
+Version: 1.5.1
+Depends: R (>= 3.4.0), R (>= 4.7), R (< 4.7.99)
+Imports: cli (>= 3.3.0), desc, fs, glue, lifecycle, methods, pkgbuild, processx, rlang (>= 1.1.1), rprojroot, utils
+Suggests: bitops, jsonlite, mathjaxr, pak, Rcpp, remotes, rstudioapi, testthat (>= 3.2.1.1), usethis, withr
+License: MIT + file LICENSE
+File: pkgload_1.5.1_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/pkgload/releases/download/1.5.1/pkgload_1.5.1_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+Built: R 4.7.0; ; 2026-04-01 08:44:17 UTC; unix
+Filesize: 240287
+SHA256: 0e3aaaa977c85ed304041ec2bb80b9481bf81df2542d308905a103620cea2544
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: ps
+Version: 1.9.2
+Depends: R (>= 3.4), R (>= 4.7), R (< 4.7.99)
+Imports: utils
+Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes, withr
+License: MIT + file LICENSE
+File: ps_1.9.2_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/ps/releases/download/1.9.2/ps_1.9.2_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-01 08:44:09 UTC; unix
+Filesize: 541880
+SHA256: 939892e1d768fe850dc36a27f81d9134cc7f33414187d9a40af357f0627177f0
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: furrr
+Version: 0.4.0
+Depends: future (>= 1.70.0), R (>= 4.1.0), R (>= 4.7), R (< 4.7.99)
+Imports: globals (>= 0.19.1), purrr (>= 1.2.1), rlang (>= 1.1.7), vctrs (>= 0.7.0)
+Suggests: carrier, covr, dplyr (>= 1.1.4), knitr, parallelly (>= 1.46.1), testthat (>= 3.3.2), tidyselect
+License: MIT + file LICENSE
+File: furrr_0.4.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/furrr/releases/download/0.4.0/furrr_0.4.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+Built: R 4.7.0; ; 2026-04-01 08:44:11 UTC; unix
+Filesize: 1022897
+SHA256: 82009d422b90b415b3abf7a64c7741f2ba8ffd794bd1389497f23be02cde7ba4
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
