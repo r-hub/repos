@@ -847,24 +847,6 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: processx
-Version: 3.8.6
-Depends: R (>= 3.4.0), R (>= 4.7), R (< 4.7.99)
-Imports: ps (>= 1.2.0), R6, utils
-Suggests: callr (>= 3.7.3), cli (>= 3.3.0), codetools, covr, curl, debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0), webfakes, withr
-License: MIT + file LICENSE
-File: processx_3.8.6_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/processx/releases/download/3.8.6/processx_3.8.6_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 18:08:35 UTC; unix
-Filesize: 481690
-SHA256: 04e257064f6822a9f7954b1f7558670762b2e02be76ed6ab6b3ea5fa2eaebc0e
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: profvis
 Version: 0.4.0
 Depends: R (>= 4.0), R (>= 4.7), R (< 4.7.99)
@@ -4588,22 +4570,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
 
-Package: posterior
-Version: 1.6.1
-Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
-Imports: methods, abind, checkmate, rlang (>= 1.0.6), stats, tibble (>= 3.1.0), vctrs (>= 0.5.0), tensorA, pillar, distributional, parallel, matrixStats
-Suggests: testthat (>= 2.1.0), caret (>= 6.0-84), gbm (>= 2.1.8), randomForest (>= 4.6.14), e1071 (>= 1.7-3), dplyr, tidyr, knitr, ggplot2, ggdist, rmarkdown
-License: BSD_3_clause + file LICENSE
-File: posterior_1.6.1_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/posterior/releases/download/1.6.1/posterior_1.6.1_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-Built: R 4.7.0; ; 2026-03-30 18:53:18 UTC; unix
-Filesize: 1107675
-SHA256: ddace8d194d26e5c558b3399e22e21938081190836a7bf58e82aab7054cc10ab
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: QuickJSR
 Version: 1.9.0
 Depends: R (>= 4.7), R (< 4.7.99)
@@ -4935,6 +4901,40 @@ DownloadURL: https://github.com/cran/furrr/releases/download/0.4.0/furrr_0.4.0_b
 Built: R 4.7.0; ; 2026-04-01 08:44:11 UTC; unix
 Filesize: 1022897
 SHA256: 82009d422b90b415b3abf7a64c7741f2ba8ffd794bd1389497f23be02cde7ba4
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: processx
+Version: 3.8.7
+Depends: R (>= 3.4.0), R (>= 4.7), R (< 4.7.99)
+Imports: ps (>= 1.2.0), R6, utils
+Suggests: callr (>= 3.7.3), cli (>= 3.3.0), codetools, covr, curl, debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0), webfakes, withr
+License: MIT + file LICENSE
+File: processx_3.8.7_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/processx/releases/download/3.8.7/processx_3.8.7_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-02 08:17:21 UTC; unix
+Filesize: 481035
+SHA256: 16dccd88418586409553c7dd4e934901b0d89fd500270d2dfaa9f1bbb8c55c0c
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: posterior
+Version: 1.7.0
+Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
+Imports: methods, abind, checkmate, rlang (>= 1.0.6), stats, tibble (>= 3.1.0), vctrs (>= 0.5.0), tensorA, pillar, distributional, parallel, matrixStats
+Suggests: testthat (>= 2.1.0), caret (>= 6.0-84), gbm (>= 2.1.8), randomForest (>= 4.6.14), e1071 (>= 1.7-3), dplyr, tidyr, knitr, ggplot2, ggdist, rmarkdown
+License: BSD_3_clause + file LICENSE
+File: posterior_1.7.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/posterior/releases/download/1.7.0/posterior_1.7.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+Built: R 4.7.0; ; 2026-04-02 08:17:24 UTC; unix
+Filesize: 1094707
+SHA256: 87bfab8c5e62a71c7ca90b355e4ade49b2a0558beec171a26d1e7cac09e7a8a8
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
