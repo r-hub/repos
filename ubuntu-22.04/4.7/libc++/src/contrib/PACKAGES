@@ -1558,22 +1558,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: backports
-Version: 1.5.0
-Depends: R (>= 3.0.0), R (>= 4.7), R (< 4.7.99)
-License: GPL-2 | GPL-3
-File: backports_1.5.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/backports/releases/download/1.5.0/backports_1.5.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 11:50:44 UTC; unix
-Filesize: 121541
-SHA256: 54db187cdd9b2c1b012ab9b074583c67bd79aa4e286f84f3edab9a83d39790d3
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: broom
 Version: 1.0.12
 Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
@@ -1690,25 +1674,6 @@ Arch: amd64
 Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 11:50:47 UTC; unix
 Filesize: 334608
 SHA256: 779ecb95c8a00b18af5b2e514857a12874bbc8e0fa0b0fcd6061687eb1912899
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: dplyr
-Version: 1.2.0
-Depends: R (>= 4.1.0), R (>= 4.7), R (< 4.7.99)
-Imports: cli (>= 3.6.2), generics, glue (>= 1.3.2), lifecycle (>= 1.0.5), magrittr (>= 1.5), methods, pillar (>= 1.9.0), R6, rlang (>= 1.1.7), tibble (>= 3.2.0), tidyselect (>= 1.2.0), utils, vctrs
-        (>= 0.7.1)
-Suggests: broom, covr, DBI, dbplyr (>= 2.2.1), ggplot2, knitr, Lahman, lobstr, nycflights13, purrr, rmarkdown, RSQLite, stringi (>= 1.7.6), testthat (>= 3.1.5), tidyr (>= 1.3.0), withr
-License: MIT + file LICENSE
-File: dplyr_1.2.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/dplyr/releases/download/1.2.0/dplyr_1.2.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 11:59:19 UTC; unix
-Filesize: 1534285
-SHA256: 75616f35e480ab6901eb2536c7a09e76bd22c51ff90a410a224963ac284b0cfd
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
@@ -4128,6 +4093,41 @@ DownloadURL: https://github.com/cran/recipes/releases/download/1.3.2/recipes_1.3
 Built: R 4.7.0; ; 2026-04-02 17:40:46 UTC; unix
 Filesize: 1730536
 SHA256: e5e40c83535a554da7f1bf972c873af15147fcb57add14b06701ca712f34efac
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: backports
+Version: 1.5.1
+Depends: R (>= 3.0.0), R (>= 4.7), R (< 4.7.99)
+License: GPL-2 | GPL-3
+File: backports_1.5.1_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/backports/releases/download/1.5.1/backports_1.5.1_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-03 17:23:42 UTC; unix
+Filesize: 120655
+SHA256: af9772e86d2032f7319f41bc8bd2576b0668f5bbba1d0ff10800ea3924770770
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: dplyr
+Version: 1.2.1
+Depends: R (>= 4.1.0), R (>= 4.7), R (< 4.7.99)
+Imports: cli (>= 3.6.2), generics, glue (>= 1.3.2), lifecycle (>= 1.0.5), magrittr (>= 1.5), methods, pillar (>= 1.9.0), R6, rlang (>= 1.1.7), tibble (>= 3.2.0), tidyselect (>= 1.2.0), utils, vctrs
+        (>= 0.7.1)
+Suggests: broom, covr, DBI, dbplyr (>= 2.2.1), ggplot2, knitr, Lahman, lobstr, nycflights13, purrr, rmarkdown, RSQLite, stringi (>= 1.7.6), testthat (>= 3.1.5), tidyr (>= 1.3.0), withr
+License: MIT + file LICENSE
+File: dplyr_1.2.1_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/dplyr/releases/download/1.2.1/dplyr_1.2.1_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-03 17:23:52 UTC; unix
+Filesize: 1534179
+SHA256: 87a3599eb028c0cd488ad00384a306ce25238e44c91b43302f2545673181234c
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
