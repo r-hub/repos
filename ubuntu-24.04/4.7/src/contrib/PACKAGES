@@ -1558,22 +1558,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: backports
-Version: 1.5.0
-Depends: R (>= 3.0.0), R (>= 4.7), R (< 4.7.99)
-License: GPL-2 | GPL-3
-File: backports_1.5.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/backports/releases/download/1.5.0/backports_1.5.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 13:47:47 UTC; unix
-Filesize: 124357
-SHA256: d1984ebda44b2a745953a7d8fa2bc5f3f9abfda27671a047c073dc9a8e3e17e1
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: broom
 Version: 1.0.12
 Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
@@ -1690,25 +1674,6 @@ Arch: amd64
 Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 13:47:52 UTC; unix
 Filesize: 342587
 SHA256: c827b7bc3169ea55cc770af569551b654252ef186d367e13f81cb4a99e45d5a2
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: dplyr
-Version: 1.2.0
-Depends: R (>= 4.1.0), R (>= 4.7), R (< 4.7.99)
-Imports: cli (>= 3.6.2), generics, glue (>= 1.3.2), lifecycle (>= 1.0.5), magrittr (>= 1.5), methods, pillar (>= 1.9.0), R6, rlang (>= 1.1.7), tibble (>= 3.2.0), tidyselect (>= 1.2.0), utils, vctrs
-        (>= 0.7.1)
-Suggests: broom, covr, DBI, dbplyr (>= 2.2.1), ggplot2, knitr, Lahman, lobstr, nycflights13, purrr, rmarkdown, RSQLite, stringi (>= 1.7.6), testthat (>= 3.1.5), tidyr (>= 1.3.0), withr
-License: MIT + file LICENSE
-File: dplyr_1.2.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/dplyr/releases/download/1.2.0/dplyr_1.2.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 13:56:39 UTC; unix
-Filesize: 1642060
-SHA256: 54a66b7aca95e9ccc3dff5665d911546dcad67a6f85006ebdaac342cbbef9b38
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 17
@@ -4953,6 +4918,41 @@ DownloadURL: https://github.com/cran/recipes/releases/download/1.3.2/recipes_1.3
 Built: R 4.7.0; ; 2026-04-02 17:32:09 UTC; unix
 Filesize: 1731424
 SHA256: 9b575643a83663b9c74f9010da1a847cfc669335e6b6117373f3a985b242df76
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: backports
+Version: 1.5.1
+Depends: R (>= 3.0.0), R (>= 4.7), R (< 4.7.99)
+License: GPL-2 | GPL-3
+File: backports_1.5.1_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/backports/releases/download/1.5.1/backports_1.5.1_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-03 17:07:22 UTC; unix
+Filesize: 122767
+SHA256: 44bbda1faff5295ee7d1f6a461acf842a47d179138778d179a3de40a5e528115
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: dplyr
+Version: 1.2.1
+Depends: R (>= 4.1.0), R (>= 4.7), R (< 4.7.99)
+Imports: cli (>= 3.6.2), generics, glue (>= 1.3.2), lifecycle (>= 1.0.5), magrittr (>= 1.5), methods, pillar (>= 1.9.0), R6, rlang (>= 1.1.7), tibble (>= 3.2.0), tidyselect (>= 1.2.0), utils, vctrs
+        (>= 0.7.1)
+Suggests: broom, covr, DBI, dbplyr (>= 2.2.1), ggplot2, knitr, Lahman, lobstr, nycflights13, purrr, rmarkdown, RSQLite, stringi (>= 1.7.6), testthat (>= 3.1.5), tidyr (>= 1.3.0), withr
+License: MIT + file LICENSE
+File: dplyr_1.2.1_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/dplyr/releases/download/1.2.1/dplyr_1.2.1_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-03 17:07:24 UTC; unix
+Filesize: 1644767
+SHA256: b890d588b76868a09382ba645eb5663c839d72dccba01cc4e1cb5c3ffa7a5d73
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 17
