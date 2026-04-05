@@ -1776,22 +1776,6 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: hardhat
-Version: 1.4.2
-Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
-Imports: cli (>= 3.6.0), glue (>= 1.6.2), rlang (>= 1.1.0), sparsevctrs (>= 0.2.0), tibble (>= 3.2.1), vctrs (>= 0.6.0)
-Suggests: covr, crayon, devtools, knitr, Matrix, modeldata (>= 0.0.2), recipes (>= 1.0.5), rmarkdown (>= 2.3), roxygen2, testthat (>= 3.0.0), usethis (>= 2.1.5), withr (>= 3.0.0)
-License: MIT + file LICENSE
-File: hardhat_1.4.2_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/hardhat/releases/download/1.4.2/hardhat_1.4.2_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-Built: R 4.7.0; ; 2026-03-30 18:25:51 UTC; unix
-Filesize: 909916
-SHA256: 941fec15385b0e7188c17543b521bbcdb1f1139901695916265d9911ef76b4ab
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: infer
 Version: 1.1.0
 Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
@@ -1856,23 +1840,6 @@ DownloadURL: https://github.com/cran/labeling/releases/download/0.4.3/labeling_0
 Built: R 4.7.0; ; 2026-03-30 18:13:32 UTC; unix
 Filesize: 68814
 SHA256: 9b4b9f59b24a2541f31705e97fc623da821b172532fbb83a767858909f017e52
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: lava
-Version: 1.8.2
-Depends: R (>= 3.0), R (>= 4.7), R (< 4.7.99)
-Imports: cli, future.apply, graphics, grDevices, methods, numDeriv, progressr, stats, survival, SQUAREM, utils
-Suggests: KernSmooth, Rgraphviz, data.table, ellipse, fields, geepack, graph, knitr, rmarkdown, igraph (>= 0.6), lavaSearch2, lme4 (>= 1.1.35.1), MASS, Matrix (>= 1.6.3), mets (>= 1.1), nlme, optimx,
-        polycor, quantreg, rgl, targeted (>= 0.4), testthat (>= 0.11), visNetwork
-License: GPL-3
-File: lava_1.8.2_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/lava/releases/download/1.8.2/lava_1.8.2_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-Built: R 4.7.0; ; 2026-03-30 18:42:30 UTC; unix
-Filesize: 2601936
-SHA256: d186713ebd41900e7dd9a199ecf96e85a189eae544de280aff22b670f8d4e470
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
@@ -4934,6 +4901,39 @@ Arch: amd64
 Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-04 08:01:37 UTC; unix
 Filesize: 314223
 SHA256: b9ab643ab46c5e73e9f710899c5fad053706a94c05e1ad2bdb36e9ef409df6f3
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: hardhat
+Version: 1.4.3
+Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
+Imports: cli (>= 3.6.0), glue (>= 1.6.2), rlang (>= 1.1.0), sparsevctrs (>= 0.2.0), tibble (>= 3.2.1), vctrs (>= 0.6.0)
+Suggests: covr, crayon, devtools, knitr, Matrix, modeldata (>= 0.0.2), recipes (>= 1.3.0), rmarkdown (>= 2.3), roxygen2, testthat (>= 3.0.0), usethis (>= 2.1.5), withr (>= 3.0.0)
+License: MIT + file LICENSE
+File: hardhat_1.4.3_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/hardhat/releases/download/1.4.3/hardhat_1.4.3_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+Built: R 4.7.0; ; 2026-04-05 08:03:51 UTC; unix
+Filesize: 933675
+SHA256: ced32fffac9e5d7df65a9314bcf400e5e7ce519b33c9f15c89590d41eb0d8a4c
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: lava
+Version: 1.9.0
+Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
+Imports: cli, future.apply, graphics, grDevices, methods, numDeriv, progressr, stats, survival, SQUAREM, utils
+Suggests: KernSmooth, Rgraphviz, data.table, ellipse, fields, geepack, graph, knitr, rmarkdown, igraph (>= 0.6), lavaSearch2, lme4 (>= 1.1.35.1), MASS, Matrix (>= 1.6.3), mets (>= 1.1), nlme, optimx,
+        polycor, quantreg, rgl, svglite, targeted (>= 0.4), testthat (>= 0.11), vdiffr, visNetwork
+License: Apache License (== 2.0)
+File: lava_1.9.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/lava/releases/download/1.9.0/lava_1.9.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+Built: R 4.7.0; ; 2026-04-05 08:03:52 UTC; unix
+Filesize: 2537832
+SHA256: 557703f3307e7fabb2a895bc58d95e452e4710787b6940c4dc185df523e7c096
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
