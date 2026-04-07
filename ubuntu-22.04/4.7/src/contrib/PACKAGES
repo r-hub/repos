@@ -2352,24 +2352,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: yardstick
-Version: 1.3.2
-Depends: R (>= 3.6.0), R (>= 4.7), R (< 4.7.99)
-Imports: cli, dplyr (>= 1.1.0), generics (>= 0.1.2), hardhat (>= 1.3.0), lifecycle (>= 1.0.3), rlang (>= 1.1.4), tibble, tidyselect (>= 1.2.0), utils, vctrs (>= 0.5.0), withr
-Suggests: covr, crayon, ggplot2, knitr, probably (>= 1.0.0), rmarkdown, survival (>= 3.5-0), testthat (>= 3.0.0), tidyr
-License: MIT + file LICENSE
-File: yardstick_1.3.2_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/yardstick/releases/download/1.3.2/yardstick_1.3.2_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 12:03:23 UTC; unix
-Filesize: 1108667
-SHA256: c7c98f3c5beadda899321489242609c8465ec24f5d691e3fe3b9effbf4eaaf98
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: bit
 Version: 4.6.0
 Depends: R (>= 3.4.0), R (>= 4.7), R (< 4.7.99)
@@ -2922,27 +2904,6 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: igraph
-Version: 2.2.2
-Depends: methods, R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
-Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang (>= 1.1.0), stats, utils, vctrs
-Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl (>= 1.3.14), rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
-License: GPL (>= 2)
-File: igraph_2.2.2_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/igraph/releases/download/2.2.2/igraph_2.2.2_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 11:58:44 UTC; unix
-Filesize: 11454460
-SHA256: 3255536c9600d294cf4720d09d744886637d5f019b012ff979d1642e75a9cd1f
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: graph
-SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
-LinkingTo: cpp11 (>= 0.5.0)
 
 Package: magick
 Version: 2.9.1
@@ -4938,3 +4899,42 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: winch
+
+Package: yardstick
+Version: 1.4.0
+Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
+Imports: cli, dplyr (>= 1.1.0), generics (>= 0.1.2), hardhat (>= 1.4.3), lifecycle (>= 1.0.3), rlang (>= 1.1.4), tibble, tidyselect (>= 1.2.0), utils, vctrs (>= 0.5.0), withr
+Suggests: covr, ggplot2, knitr, probably (>= 1.0.0), rmarkdown, survival (>= 3.5-0), testthat (>= 3.0.0), tidyr
+License: MIT + file LICENSE
+File: yardstick_1.4.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/yardstick/releases/download/1.4.0/yardstick_1.4.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-07 17:30:30 UTC; unix
+Filesize: 1336978
+SHA256: a742c720acc089e2a18748cd0af754217f293316f1ffab21722c05571f9c5cc4
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: igraph
+Version: 2.2.3
+Depends: methods, R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
+Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang (>= 1.1.0), stats, utils, vctrs
+Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl (>= 1.3.14), rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
+License: GPL (>= 2)
+File: igraph_2.2.3_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/igraph/releases/download/2.2.3/igraph_2.2.3_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-07 17:30:32 UTC; unix
+Filesize: 11456400
+SHA256: 776f3557ed9dc2ea3dd057f28cbf7cba47d4260e2b333685688335ab16a11d8f
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: graph
+SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
+LinkingTo: cpp11 (>= 0.5.0)
