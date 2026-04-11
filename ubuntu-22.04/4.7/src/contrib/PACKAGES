@@ -1209,24 +1209,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: vctrs
-Version: 0.7.2
-Depends: R (>= 4.0.0), R (>= 4.7), R (< 4.7.99)
-Imports: cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.7)
-Suggests: bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr, pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>= 3.0.0), tibble (>= 3.1.3), waldo (>= 0.2.0), withr, xml2, zeallot
-License: MIT + file LICENSE
-File: vctrs_0.7.2_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/vctrs/releases/download/0.7.2/vctrs_0.7.2_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 11:47:18 UTC; unix
-Filesize: 2777433
-SHA256: 27b62eeb8582518ba2871ea5d88b8a242ecf122469c40966c2b381d200ab8b80
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: waldo
 Version: 0.6.2
 Depends: R (>= 4.0), R (>= 4.7), R (< 4.7.99)
@@ -1515,22 +1497,6 @@ DownloadURL: https://github.com/cran/diagram/releases/download/1.6.5/diagram_1.6
 Built: R 4.7.0; ; 2026-03-30 12:02:17 UTC; unix
 Filesize: 684603
 SHA256: 11183d18dea8d8755390f2321246e270a29548f0c11638609047b0efcd64a21b
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: dials
-Version: 1.4.2
-Depends: R (>= 4.1), scales (>= 1.3.0), R (>= 4.7), R (< 4.7.99)
-Imports: cli, DiceDesign, dplyr (>= 0.8.5), glue, hardhat (>= 1.1.0), lifecycle, pillar, purrr, rlang (>= 1.1.0), sfd, tibble, utils, vctrs (>= 0.3.8), withr
-Suggests: covr, ggplot2, kernlab, knitr, rmarkdown, rpart, testthat (>= 3.1.9), xml2
-License: MIT + file LICENSE
-File: dials_1.4.2_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/dials/releases/download/1.4.2/dials_1.4.2_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.7.0; ; 2026-03-30 12:04:01 UTC; unix
-Filesize: 449039
-SHA256: 999cf5816b11a15b4466e8213e10b9e5f70828dc186e0c05a76bb2bea6007118
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
@@ -4938,3 +4904,37 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cli
+
+Package: vctrs
+Version: 0.7.3
+Depends: R (>= 4.0.0), R (>= 4.7), R (< 4.7.99)
+Imports: cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.7)
+Suggests: bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr, pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>= 3.0.0), tibble (>= 3.1.3), waldo (>= 0.2.0), withr, xml2, zeallot
+License: MIT + file LICENSE
+File: vctrs_0.7.3_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/vctrs/releases/download/0.7.3/vctrs_0.7.3_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-11 16:59:13 UTC; unix
+Filesize: 3189229
+SHA256: d9eac5d8be446636d63946414fb22d6030f5c1f2f71c83f170017ef8ea11d7d0
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: dials
+Version: 1.4.3
+Depends: R (>= 4.1), scales (>= 1.3.0), R (>= 4.7), R (< 4.7.99)
+Imports: cli, DiceDesign, dplyr (>= 0.8.5), glue, hardhat (>= 1.1.0), lifecycle, pillar, purrr, rlang (>= 1.1.0), sfd, tibble, utils, vctrs (>= 0.3.8), withr
+Suggests: covr, ggplot2, kernlab, knitr, rmarkdown, rpart, testthat (>= 3.1.9), xml2
+License: MIT + file LICENSE
+File: dials_1.4.3_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/dials/releases/download/1.4.3/dials_1.4.3_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.7.0; ; 2026-04-11 16:59:37 UTC; unix
+Filesize: 473038
+SHA256: 412f98e62763536b4be13c5a0f76fe437f356794c9feab757ee41dd97036ea55
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
