@@ -1276,25 +1276,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli (>= 3.4.0), rlang (>= 1.1.0)
 
-Package: purrr
-Version: 1.2.1
-Depends: R (>= 4.1), R (>= 4.3), R (< 4.3.99)
-Suggests: carrier (>= 0.3.0), covr, dplyr (>= 0.7.8), httr, knitr, lubridate, mirai (>= 2.5.1), rmarkdown, testthat (>= 3.0.0), tibble, tidyselect
-License: MIT + file LICENSE
-File: purrr_1.2.1_b4_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/purrr/releases/download/1.2.1/purrr_1.2.1_b4_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2026-01-09 14:49:23 UTC; unix
-Filesize: 579484
-SHA256: 70b238a275bdac7e100240e85e070e74f2f85ea42dd4d9cd40d7f85bae87b97a
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), magrittr (>= 1.5.0), rlang (>= 1.1.1), vctrs (>= 0.6.3)
-LinkingTo: cli
-
 Package: Rcpp
 Version: 1.1.1
 Depends: R (>= 3.5.0), R (>= 4.3), R (< 4.3.99)
@@ -1789,24 +1770,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: grDevices, stats, tools
 
-Package: vctrs
-Version: 0.7.2
-Depends: R (>= 4.0.0), R (>= 4.3), R (< 4.3.99)
-Suggests: bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr, pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>= 3.0.0), tibble (>= 3.1.3), waldo (>= 0.2.0), withr, xml2, zeallot
-License: MIT + file LICENSE
-File: vctrs_0.7.2_b4_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/vctrs/releases/download/0.7.2/vctrs_0.7.2_b4_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2026-03-22 14:51:48 UTC; unix
-Filesize: 2858593
-SHA256: 184c9fe143fdd294f7fea525e0e7f6b88bf5595ca3a03ec574732dadb04cc65b
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.7)
-
 Package: ragg
 Version: 1.5.2
 Depends: R (>= 4.3), R (< 4.3.99)
@@ -2092,3 +2055,40 @@ Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: utils
+
+Package: purrr
+Version: 1.2.2
+Depends: R (>= 4.1), R (>= 4.3), R (< 4.3.99)
+Suggests: carrier (>= 0.3.0), covr, dplyr (>= 0.7.8), httr, knitr, lubridate, mirai (>= 2.5.1), rmarkdown, testthat (>= 3.0.0), tibble, tidyselect
+License: MIT + file LICENSE
+File: purrr_1.2.2_b5_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/purrr/releases/download/1.2.2/purrr_1.2.2_b5_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2026-04-11 15:04:59 UTC; unix
+Filesize: 581391
+SHA256: 73e25578c006d146baa76197d722767b190b1ce13738254a464ef0bc7103a6bf
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), magrittr (>= 1.5.0), rlang (>= 1.1.1), vctrs (>= 0.6.3)
+LinkingTo: cli
+
+Package: vctrs
+Version: 0.7.3
+Depends: R (>= 4.0.0), R (>= 4.3), R (< 4.3.99)
+Suggests: bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr, pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>= 3.0.0), tibble (>= 3.1.3), waldo (>= 0.2.0), withr, xml2, zeallot
+License: MIT + file LICENSE
+File: vctrs_0.7.3_b5_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/vctrs/releases/download/0.7.3/vctrs_0.7.3_b5_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2026-04-11 14:59:41 UTC; unix
+Filesize: 3273206
+SHA256: 4abbaab8253a4ca38ab72efd589a5d817832335bb2f3dea7586f79da5488250a
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.7)
