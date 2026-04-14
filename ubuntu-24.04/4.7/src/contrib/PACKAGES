@@ -4133,25 +4133,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++20; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.26 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
 
-Package: duckdb
-Version: 1.5.1
-Depends: DBI, R (>= 4.1.0), R (>= 4.7), R (< 4.7.99)
-Imports: methods, utils
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, sf, testthat (>= 3.0.0), tibble, vctrs, wk, withr
-License: MIT + file LICENSE
-File: duckdb_1.5.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.5.1/duckdb_1.5.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 13:59:11 UTC; unix
-Filesize: 312618807
-SHA256: d5c0441ee550b3dfd9a85450c6338c384a34e6747f17a34596054f28d7d7cd87
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: xz (for building from source)
-
 Package: bayesplot
 Version: 1.15.0
 Depends: R (>= 4.1.0), R (>= 4.7), R (< 4.7.99)
@@ -4956,3 +4937,22 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: duckdb
+Version: 1.5.2
+Depends: DBI, R (>= 4.1.0), R (>= 4.7), R (< 4.7.99)
+Imports: methods, utils
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, sf, testthat (>= 3.0.0), tibble, vctrs, wk, withr
+License: MIT + file LICENSE
+File: duckdb_1.5.2_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.5.2/duckdb_1.5.2_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-14 17:48:23 UTC; unix
+Filesize: 313005895
+SHA256: 1afb1d4eadd904f7f7c559e18a8052467e55dabb206179d6308d22d039e80e34
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: xz (for building from source)
