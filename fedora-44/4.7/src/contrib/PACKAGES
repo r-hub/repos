@@ -662,25 +662,6 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: openssl
-Version: 2.3.5
-Depends: R (>= 4.7), R (< 4.7.99)
-Imports: askpass
-Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
-License: MIT + file LICENSE
-File: openssl_2.3.5_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/openssl/releases/download/2.3.5/openssl_2.3.5_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 18:08:34 UTC; unix
-Filesize: 1396995
-SHA256: 4bbacebdcd17882c75ce44a35c2fe8b6f7978be92237de2a3fff93e9c11bc4a6
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: OpenSSL >= 1.0.2
-
 Package: otel
 Version: 0.2.0
 Depends: R (>= 3.6.0), R (>= 4.7), R (< 4.7.99)
@@ -2816,24 +2797,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or libmagick++-dev (deb)
 LinkingTo: Rcpp
 
-Package: mvtnorm
-Version: 1.3-6
-Depends: R(>= 3.5.0), R (>= 4.7), R (< 4.7.99)
-Imports: stats
-Suggests: qrng, numDeriv, bibtex
-License: GPL-2
-File: mvtnorm_1.3-6_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.3-6/mvtnorm_1.3-6_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 18:14:19 UTC; unix
-Filesize: 1089581
-SHA256: 3c63beb5b01120c4579ac38bc525ddab2febfbe01e201a45973697cc5afa0b0e
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: rgl
 Version: 1.3.36
 Depends: R (>= 3.6.0), R (>= 4.7), R (< 4.7.99)
@@ -4938,3 +4901,40 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: xz (for building from source)
+
+Package: openssl
+Version: 2.4.0
+Depends: R (>= 4.7), R (< 4.7.99)
+Imports: askpass
+Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
+License: MIT + file LICENSE
+File: openssl_2.4.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/openssl/releases/download/2.4.0/openssl_2.4.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-16 09:00:34 UTC; unix
+Filesize: 1397106
+SHA256: dac07cae8e0a9564e5fe867699474832ece999e509044596d6b87bd1ece30a65
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: OpenSSL >= 1.0.2
+
+Package: mvtnorm
+Version: 1.3-7
+Depends: R(>= 3.5.0), R (>= 4.7), R (< 4.7.99)
+Imports: stats
+Suggests: qrng, numDeriv, bibtex
+License: GPL-2
+File: mvtnorm_1.3-7_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.3-7/mvtnorm_1.3-7_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-16 09:00:33 UTC; unix
+Filesize: 1133246
+SHA256: 28722a02a27d8aab578ef33ef6ab879a490d7c104a0cdbf9f3a8bdd2c4802436
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
