@@ -1753,25 +1753,6 @@ Imports: systemfonts (>= 1.0.3), textshaping (>= 0.3.0)
 SystemRequirements: freetype2, libpng, libtiff, libjpeg, libwebp, libwebpmux
 LinkingTo: systemfonts, textshaping
 
-Package: fs
-Version: 2.0.1
-Depends: R (>= 4.1), R (>= 4.3), R (< 4.3.99)
-Suggests: covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr
-License: MIT + file LICENSE
-File: fs_2.0.1_b5_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/fs/releases/download/2.0.1/fs_2.0.1_b5_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2026-03-24 15:25:31 UTC; unix
-Filesize: 882421
-SHA256: 69dd8dbfeb8628f8dcefc47a57c4bf4193d64633ad1cb42578608acbe7721a3c
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: methods
-SystemRequirements: libuv: libuv-devel (rpm) or libuv1-dev (deb).  Alternatively to build the vendored libuv 'cmake' is required.  GNU make.
-
 Package: rmarkdown
 Version: 2.31
 Depends: R (>= 3.0), R (>= 4.3), R (< 4.3.99)
@@ -2092,3 +2073,22 @@ Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: methods
+
+Package: fs
+Version: 2.1.0
+Depends: R (>= 4.1), R (>= 4.3), R (< 4.3.99)
+Suggests: covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr
+License: MIT + file LICENSE
+File: fs_2.1.0_b6_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/fs/releases/download/2.1.0/fs_2.1.0_b6_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2026-04-19 15:05:57 UTC; unix
+Filesize: 457109
+SHA256: 0d8da58b3d54da3fc0cddb20a6fbc026d637f40184849d38f15129c21e96beb3
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: methods
+SystemRequirements: libuv: libuv-devel (rpm) or libuv1-dev (deb).  Alternatively to build the vendored libuv 'cmake' is required.  GNU make.
