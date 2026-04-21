@@ -15,24 +15,6 @@ Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: bit64
-Version: 4.6.0-1
-Depends: R (>= 3.4.0), bit (>= 4.0.0), R (>= 4.3), R (< 4.3.99)
-Suggests: testthat (>= 3.0.3), withr
-License: GPL-2 | GPL-3
-File: bit64_4.6.0-1_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/bit64/releases/download/4.6.0-1/bit64_4.6.0-1_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2025-03-15 10:59:23 UTC; unix
-Filesize: 608138
-SHA256: 95cbc38841680762d701492bf09ecca0c8484c8602f7354f6613b08f2661eb63
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: graphics, methods, stats, utils
-
 Package: pkgconfig
 Version: 2.0.3
 Depends: R (>= 4.3), R (< 4.3.99)
@@ -2092,3 +2074,21 @@ Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: utils
+
+Package: bit64
+Version: 4.8.0
+Depends: R (>= 3.5.0), R (>= 4.3), R (< 4.3.99)
+Suggests: patrick (>= 0.3.0), testthat (>= 3.3.0), withr
+License: GPL-2 | GPL-3
+File: bit64_4.8.0_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/bit64/releases/download/4.8.0/bit64_4.8.0_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2026-04-21 15:30:32 UTC; unix
+Filesize: 680331
+SHA256: 9ccd8d0e4f82057915e02c13fa9005c6c3a20ec16febd70dacceb52160b9d894
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: bit (>= 4.0.0), graphics, methods, stats, utils
