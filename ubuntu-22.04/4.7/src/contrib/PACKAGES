@@ -183,24 +183,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: git (optional)
 
-Package: curl
-Version: 7.0.0
-Depends: R (>= 3.0.0), R (>= 4.7), R (< 4.7.99)
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
-License: MIT + file LICENSE
-File: curl_7.0.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/curl/releases/download/7.0.0/curl_7.0.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 11:46:38 UTC; unix
-Filesize: 882041
-SHA256: a9ac7cbf0b71f850c537a1702c4665aa74baeb53b95ea91d1e61bcdd49c50f8d
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libcurl (>= 7.73): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
-
 Package: desc
 Version: 1.4.3
 Depends: R (>= 3.4), R (>= 4.7), R (< 4.7.99)
@@ -212,25 +194,6 @@ DownloadURL: https://github.com/cran/desc/releases/download/1.4.3/desc_1.4.3_b1_
 Built: R 4.7.0; ; 2026-03-30 11:47:09 UTC; unix
 Filesize: 341481
 SHA256: 71995d0da946848db953aa2239d8a7e36291c8f92f2951b384c707acd03d70a2
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: devtools
-Version: 2.5.0
-Depends: R (>= 4.1), usethis (>= 3.2.1), R (>= 4.7), R (< 4.7.99)
-Imports: cli (>= 3.6.5), desc (>= 1.4.3), ellipsis (>= 0.3.2), fs (>= 1.6.7), lifecycle (>= 1.0.5), memoise (>= 2.0.1), miniUI (>= 0.1.2), pak (>= 0.9.2), pkgbuild (>= 1.4.8), pkgdown (>= 2.2.0),
-        pkgload (>= 1.5.0), profvis (>= 0.4.0), rcmdcheck (>= 1.4.0), rlang (>= 1.1.7), roxygen2 (>= 7.3.3), rversions (>= 3.0.0), sessioninfo (>= 1.2.3), testthat (>= 3.3.2), urlchecker (>= 1.0.1),
-        withr (>= 3.0.2)
-Suggests: BiocManager (>= 1.30.18), callr (>= 3.7.1), covr (>= 3.5.1), curl (>= 4.3.2), digest (>= 0.6.29), DT (>= 0.23), foghorn (>= 1.4.2), gh (>= 1.3.0), httr2 (>= 1.0.0), knitr (>= 1.39), lintr
-        (>= 3.0.0), quarto (>= 1.5.1), remotes (>= 2.5.0), rmarkdown (>= 2.14), rstudioapi (>= 0.13), spelling (>= 2.2), xml2
-License: MIT + file LICENSE
-File: devtools_2.5.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/devtools/releases/download/2.5.0/devtools_2.5.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.7.0; ; 2026-03-30 12:18:24 UTC; unix
-Filesize: 476060
-SHA256: 99b1f87379d08c343332b082484de0ce0f7b4614ae9019efb4b1fc504738d602
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
@@ -336,25 +299,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: fs
-Version: 2.0.1
-Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
-Imports: methods
-Suggests: covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr
-License: MIT + file LICENSE
-File: fs_2.0.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/fs/releases/download/2.0.1/fs_2.0.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 11:49:53 UTC; unix
-Filesize: 918652
-SHA256: 7bbedebf722d6b5d7dc784dfa5d5c404fae09fe1bd691b11518395fa3a87cb04
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libuv: libuv-devel (rpm) or libuv1-dev (deb).  Alternatively to build the vendored libuv 'cmake' is required.  GNU make.
-
 Package: gert
 Version: 2.3.1
 Depends: R (>= 4.7), R (< 4.7.99)
@@ -405,24 +349,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: git
-
-Package: glue
-Version: 1.8.0
-Depends: R (>= 3.6), R (>= 4.7), R (< 4.7.99)
-Imports: methods
-Suggests: crayon, DBI (>= 1.2.0), dplyr, knitr, magrittr, rlang, rmarkdown, RSQLite, testthat (>= 3.2.0), vctrs (>= 0.3.0), waldo (>= 0.5.3), withr
-License: MIT + file LICENSE
-File: glue_1.8.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/glue/releases/download/1.8.0/glue_1.8.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 11:46:51 UTC; unix
-Filesize: 183611
-SHA256: 17d76fd7f1a730566443aad29f1bc1aff723f6e27dc5791fb2b92edfff919dc8
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: highr
 Version: 0.12
@@ -837,24 +763,6 @@ DownloadURL: https://github.com/cran/rcmdcheck/releases/download/1.4.0/rcmdcheck
 Built: R 4.7.0; ; 2026-03-30 12:10:14 UTC; unix
 Filesize: 176336
 SHA256: b07014ccd43e281c21b830b8d485f374d5c021ac61ee2261c13cf7d517c42453
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: Rcpp
-Version: 1.1.1
-Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
-Imports: methods, utils
-Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
-License: GPL (>= 2)
-File: Rcpp_1.1.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/Rcpp/releases/download/1.1.1/Rcpp_1.1.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 11:50:09 UTC; unix
-Filesize: 3873194
-SHA256: d48390ce6d024bec68f59e302819561d7bfcac6ed33b51402ebb6824efc83105
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
@@ -1565,24 +1473,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: ggplot2
-Version: 4.0.2
-Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
-Imports: cli, grDevices, grid, gtable (>= 0.3.6), isoband, lifecycle (> 1.0.1), rlang (>= 1.1.0), S7, scales (>= 1.4.0), stats, vctrs (>= 0.6.0), withr (>= 2.5.0)
-Suggests: broom, covr, dplyr, ggplot2movies, hexbin, Hmisc, hms, knitr, mapproj, maps, MASS, mgcv, multcomp, munsell, nlme, profvis, quantreg, quarto, ragg (>= 1.2.6), RColorBrewer, roxygen2, rpart,
-        sf (>= 0.7-3), svglite (>= 2.1.2), testthat (>= 3.1.5), tibble, vdiffr (>= 1.0.6), xml2
-License: MIT + file LICENSE
-File: ggplot2_4.0.2_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/ggplot2/releases/download/4.0.2/ggplot2_4.0.2_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.7.0; ; 2026-03-30 12:04:03 UTC; unix
-Filesize: 8493459
-SHA256: d9139d9f0b057498ff723ff05ba804ea7210b400738c2af0a23ea62ba0abd541
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: sp
-
 Package: globals
 Version: 0.19.1
 Depends: R (>= 3.1.2), R (>= 4.7), R (< 4.7.99)
@@ -1816,24 +1706,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: parallelly
-Version: 1.46.1
-Depends: R (>= 4.7), R (< 4.7.99)
-Imports: parallel, tools, utils
-Suggests: commonmark, base64enc
-License: LGPL (>= 2.1)
-File: parallelly_1.46.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/parallelly/releases/download/1.46.1/parallelly_1.46.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 11:51:39 UTC; unix
-Filesize: 621989
-SHA256: 918f8569a48ec39e983ea186428be0bcc5970c48a3851335546b6aa067f1c78b
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: patchwork
 Version: 1.3.2
 Depends: R (>= 4.7), R (< 4.7.99)
@@ -1894,24 +1766,6 @@ DownloadURL: https://github.com/cran/rsample/releases/download/1.3.2/rsample_1.3
 Built: R 4.7.0; ; 2026-03-30 12:18:30 UTC; unix
 Filesize: 1728095
 SHA256: 5557a3658b79bd3dbba232c5cbe4877d2eceb843ab7316d07bd2f14a8d3156a1
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: S7
-Version: 0.2.1
-Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
-Imports: utils
-Suggests: bench, callr, covr, knitr, methods, rmarkdown, testthat (>= 3.2.0), tibble
-License: MIT + file LICENSE
-File: S7_0.2.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/S7/releases/download/0.2.1/S7_0.2.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 11:51:43 UTC; unix
-Filesize: 349817
-SHA256: 420e8b0b80a7d38ba97fdd043806664d7d589e23e6278f2ec4b56793f20ce8c9
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
@@ -2032,24 +1886,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: tidymodels
-Version: 1.4.1
-Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
-Imports: broom (>= 1.0.9), cli (>= 3.6.5), conflicted (>= 1.2.0), dials (>= 1.4.2), dplyr (>= 1.1.4), ggplot2 (>= 3.5.2), hardhat (>= 1.4.2), infer (>= 1.0.9), modeldata (>= 1.5.1), parsnip (>=
-        1.3.3), purrr (>= 1.1.0), recipes (>= 1.3.1), rlang (>= 1.1.6), rsample (>= 1.3.1), rstudioapi (>= 0.17.1), tailor (>= 0.1.0), tidyr (>= 1.3.1), tune (>= 2.0.0), workflows (>= 1.3.0),
-        workflowsets (>= 1.1.1), yardstick (>= 1.3.2)
-Suggests: covr, glue, knitr, rmarkdown, testthat (>= 3.0.0), xml2
-License: MIT + file LICENSE
-File: tidymodels_1.4.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/tidymodels/releases/download/1.4.1/tidymodels_1.4.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.7.0; ; 2026-03-30 12:20:25 UTC; unix
-Filesize: 90342
-SHA256: 8b3b934c220a726d1ececffc9c1e10beae5be806fe02035a799f3bb0cd8774fa
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: tidyr
 Version: 1.3.2
 Depends: R (>= 4.1.0), R (>= 4.7), R (< 4.7.99)
@@ -2116,25 +1952,6 @@ DownloadURL: https://github.com/cran/timeDate/releases/download/4052.112/timeDat
 Built: R 4.7.0; ; 2026-03-30 11:51:49 UTC; unix
 Filesize: 1489055
 SHA256: 3ed8101c6ac9142adf7933dbf2513fe8412039785c79d008bf9fde63d71c4877
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: tune
-Version: 2.0.1
-Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
-Imports: cli (>= 3.3.0), dials (>= 1.3.0.9000), dplyr (>= 1.1.0), generics (>= 0.1.2), ggplot2, glue (>= 1.6.2), GPfit, hardhat (>= 1.4.2), parallel, parsnip (>= 1.2.1.9003), purrr (>= 1.0.0),
-        recipes (>= 1.1.0.9001), rlang (>= 1.1.4), rsample (>= 1.3.0.9003), tailor (>= 0.1.0), tibble (>= 3.1.0), tidyr (>= 1.2.0), tidyselect (>= 1.1.2), vctrs (>= 0.6.1), withr, workflows (>=
-        1.3.0), yardstick (>= 1.3.0)
-Suggests: C50, censored (>= 0.3.0), covr, future (>= 1.33.0), future.apply, kernlab, kknn, knitr, mgcv, mirai (>= 2.4.0), modeldata, probably, scales, spelling, splines2, survival, testthat (>=
-        3.0.0), xgboost, xml2
-License: MIT + file LICENSE
-File: tune_2.0.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/tune/releases/download/2.0.1/tune_2.0.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.7.0; ; 2026-03-30 12:19:52 UTC; unix
-Filesize: 1518803
-SHA256: 65c69c3dede9acde4ac6dbad43d479014a6c08750953db592abc3f0213cbdeac
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
@@ -2236,24 +2053,6 @@ Arch: amd64
 Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 11:51:57 UTC; unix
 Filesize: 754876
 SHA256: 1f4ecf2defc5dfb3533803167db44cc34d3beebe09f1ee3017dc56be3a21fb75
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: bit64
-Version: 4.6.0-1
-Depends: R (>= 3.4.0), bit (>= 4.0.0), R (>= 4.7), R (< 4.7.99)
-Imports: graphics, methods, stats, utils
-Suggests: testthat (>= 3.0.3), withr
-License: GPL-2 | GPL-3
-File: bit64_4.6.0-1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/bit64/releases/download/4.6.0-1/bit64_4.6.0-1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 12:04:15 UTC; unix
-Filesize: 603524
-SHA256: f722a45ec18be9e2b6146c7da138053474709440e3761f0bf46b5ae69d8d82d7
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
@@ -2756,22 +2555,6 @@ Arch: amd64
 Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 12:18:46 UTC; unix
 Filesize: 3674716
 SHA256: 3e117fcc374a4b86d0e3db10c09fd92db72ac0a0c454b2ade02e05e5a880b7e6
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: htmlTable
-Version: 2.4.3
-Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
-Imports: stringr, knitr (>= 1.6), magrittr (>= 1.5), methods, checkmate, htmlwidgets, htmltools, rstudioapi (>= 0.6)
-Suggests: testthat, XML, xml2, Hmisc, rmarkdown, chron, lubridate, tibble, purrr, tidyselect, glue, rlang, tidyr (>= 0.7.2), dplyr (>= 0.7.4)
-License: GPL (>= 3)
-File: htmlTable_2.4.3_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/htmlTable/releases/download/2.4.3/htmlTable_2.4.3_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.7.0; ; 2026-03-30 12:16:20 UTC; unix
-Filesize: 426991
-SHA256: 4c2def559ffd69d38e5699c3345b096997341f47c4171da24f2d2593652d9461
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
@@ -3878,25 +3661,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: RcppArmadillo
-Version: 15.2.4-1
-Depends: R (>= 3.3.0), R (>= 4.7), R (< 4.7.99)
-Imports: Rcpp (>= 1.0.12), stats, utils, methods
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-License: GPL (>= 2)
-File: RcppArmadillo_15.2.4-1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/15.2.4-1/RcppArmadillo_15.2.4-1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 11:56:32 UTC; unix
-Filesize: 2701057
-SHA256: 91f17e8a8561343a0766655c829fb12f1810cbee724cb343db99b9db21449750
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: RcppEigen
 Version: 0.3.4.0.2
 Depends: R (>= 3.6.0), R (>= 4.7), R (< 4.7.99)
@@ -4426,24 +4190,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: ps
-Version: 1.9.2
-Depends: R (>= 3.4), R (>= 4.7), R (< 4.7.99)
-Imports: utils
-Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes, withr
-License: MIT + file LICENSE
-File: ps_1.9.2_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/ps/releases/download/1.9.2/ps_1.9.2_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-31 17:18:01 UTC; unix
-Filesize: 519823
-SHA256: 9e91e2fc1847864f78d7b2da62a0662d435dd67a0608f8016fbb8eae83882a5f
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: furrr
 Version: 0.4.0
 Depends: future (>= 1.70.0), R (>= 4.1.0), R (>= 4.7), R (< 4.7.99)
@@ -4495,40 +4241,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11 (>= 0.2.0), progress (>= 1.2.3), tzdb (>= 0.1.1)
-
-Package: pkgload
-Version: 1.5.1
-Depends: R (>= 3.4.0), R (>= 4.7), R (< 4.7.99)
-Imports: cli (>= 3.3.0), desc, fs, glue, lifecycle, methods, pkgbuild, processx, rlang (>= 1.1.1), rprojroot, utils
-Suggests: bitops, jsonlite, mathjaxr, pak, Rcpp, remotes, rstudioapi, testthat (>= 3.2.1.1), usethis, withr
-License: MIT + file LICENSE
-File: pkgload_1.5.1_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/pkgload/releases/download/1.5.1/pkgload_1.5.1_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.7.0; ; 2026-04-01 17:15:54 UTC; unix
-Filesize: 226874
-SHA256: 7d5d77a46afb94dbdc4f34228e1f5c2922df7ca7cef4881517be1d91336ad0d6
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: processx
-Version: 3.8.7
-Depends: R (>= 3.4.0), R (>= 4.7), R (< 4.7.99)
-Imports: ps (>= 1.2.0), R6, utils
-Suggests: callr (>= 3.7.3), cli (>= 3.3.0), codetools, covr, curl, debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0), webfakes, withr
-License: MIT + file LICENSE
-File: processx_3.8.7_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/processx/releases/download/3.8.7/processx_3.8.7_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-01 17:15:48 UTC; unix
-Filesize: 467038
-SHA256: a7d43dca748e77571995967569732a8dbe7f948d0e66dddf66c448c1daf65ae1
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: posterior
 Version: 1.7.0
@@ -4735,27 +4447,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: igraph
-Version: 2.2.3
-Depends: methods, R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
-Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang (>= 1.1.0), stats, utils, vctrs
-Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl (>= 1.3.14), rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
-License: GPL (>= 2)
-File: igraph_2.2.3_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/igraph/releases/download/2.2.3/igraph_2.2.3_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-07 17:30:32 UTC; unix
-Filesize: 11456400
-SHA256: 776f3557ed9dc2ea3dd057f28cbf7cba47d4260e2b333685688335ab16a11d8f
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: graph
-SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
-LinkingTo: cpp11 (>= 0.5.0)
-
 Package: cli
 Version: 3.6.6
 Depends: R (>= 3.4), R (>= 4.7), R (< 4.7.99)
@@ -4770,25 +4461,6 @@ Arch: amd64
 Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-09 17:35:14 UTC; unix
 Filesize: 1538208
 SHA256: 35dda13fae8ab1ea67a41fc2aaddad7855a171c3a63a9962533f87a5465a3487
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: pak
-Version: 0.9.3
-Depends: R (>= 3.5), R (>= 4.7), R (< 4.7.99)
-Imports: tools, utils
-Suggests: callr (>= 3.7.0), cli (>= 3.2.0), covr, curl (>= 4.3.2), desc (>= 1.4.1), filelock (>= 1.0.2), gitcreds, glue (>= 1.6.2), jsonlite (>= 1.8.0), keyring (>= 1.4.0), pingr, pkgbuild (>=
-        1.4.2), pkgcache (>= 2.2.4), pkgdepends (>= 0.9.0), pkgload, pkgsearch (>= 3.1.0), processx (>= 3.8.1), ps (>= 1.6.0), rstudioapi, testthat (>= 3.2.0), webfakes, withr, yaml
-License: GPL-3
-File: pak_0.9.3_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/pak/releases/download/0.9.3/pak_0.9.3_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-09 17:35:17 UTC; unix
-Filesize: 7235966
-SHA256: fe4e323c472afe9815b0b020f556cc13a0dd199f632b9e7c0a542fcac07b1646
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
@@ -4811,24 +4483,6 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: QuickJSR
-Version: 1.9.1
-Depends: R (>= 4.7), R (< 4.7.99)
-Suggests: knitr, rmarkdown, tinytest
-License: MIT + file LICENSE
-File: QuickJSR_1.9.1_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/QuickJSR/releases/download/1.9.1/QuickJSR_1.9.1_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-09 17:35:14 UTC; unix
-Filesize: 2068242
-SHA256: 3dcedb4986521e70a101cf18571d541a481c7f242a0d2ce3b2cac4b28f04762f
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make
 
 Package: purrr
 Version: 1.2.2
@@ -4938,3 +4592,416 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: GauPro
+Version: 0.2.17
+Depends: mixopt (> 0.1.0), numDeriv, rmarkdown, tidyr, R (>= 4.7), R (< 4.7.99)
+Imports: ggplot2, Rcpp, R6, lbfgs
+Suggests: ContourFunctions, dplyr, ggrepel, gridExtra, knitr, lhs, MASS, microbenchmark, rlang, splitfngr, testthat, testthatmulti
+License: GPL-3
+File: GauPro_0.2.17_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/GauPro/releases/download/0.2.17/GauPro_0.2.17_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-24 17:19:49 UTC; unix
+Filesize: 6497856
+SHA256: 4c31073f77bbe646914e91562bcd6bbe748380f40ee64c179acf040f6727d649
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp, RcppArmadillo
+
+Package: lbfgs
+Version: 1.2.1.2
+Depends: R (>= 4.7), R (< 4.7.99)
+Imports: Rcpp (>= 0.11.2), methods
+License: GPL (>= 2)
+File: lbfgs_1.2.1.2_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/lbfgs/releases/download/1.2.1.2/lbfgs_1.2.1.2_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-24 17:18:29 UTC; unix
+Filesize: 2656905
+SHA256: 8a6fe3998d92c9a4fcaeebfb9259875e71aad7aa70ab36a9ede0c06d82fa6663
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: mixopt
+Version: 0.1.3
+Depends: dplyr, ggplot2, splitfngr, R (>= 4.7), R (< 4.7.99)
+Suggests: ContourFunctions, gridExtra, lhs, testthat (>= 3.0.0)
+License: LGPL (>= 3)
+File: mixopt_0.1.3_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/mixopt/releases/download/0.1.3/mixopt_0.1.3_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.7.0; ; 2026-04-24 17:19:42 UTC; unix
+Filesize: 99509
+SHA256: 6013efcb5871814d711bc574a4eb85c938b334f56c47888aad67c445475076f3
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: splitfngr
+Version: 0.1.2
+Depends: R (>= 4.7), R (< 4.7.99)
+Imports: lbfgs
+License: GPL-3
+File: splitfngr_0.1.2_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/splitfngr/releases/download/0.1.2/splitfngr_0.1.2_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.7.0; ; 2026-04-24 17:19:36 UTC; unix
+Filesize: 26032
+SHA256: b8e955566c1f6eae08dab5ecab74a3769e07519cfe71bc653217cffaf6a49c70
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: curl
+Version: 7.1.0
+Depends: R (>= 3.0.0), R (>= 4.7), R (< 4.7.99)
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+License: MIT + file LICENSE
+File: curl_7.1.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/curl/releases/download/7.1.0/curl_7.1.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-24 17:17:51 UTC; unix
+Filesize: 867681
+SHA256: 06bea480766ba53918b452e61dad80788516fcab80e9241831a2b57c733ba790
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libcurl (>= 7.73): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
+
+Package: devtools
+Version: 2.5.1
+Depends: R (>= 4.1), usethis (>= 3.2.1), R (>= 4.7), R (< 4.7.99)
+Imports: cli (>= 3.6.6), desc (>= 1.4.3), ellipsis (>= 0.3.3), fs (>= 2.0.1), lifecycle (>= 1.0.5), memoise (>= 2.0.1), miniUI (>= 0.1.2), pak (>= 0.9.3), pkgbuild (>= 1.4.8), pkgdown (>= 2.2.0),
+        pkgload (>= 1.5.1), profvis (>= 0.4.0), rcmdcheck (>= 1.4.0), rlang (>= 1.2.0), roxygen2 (>= 7.3.3), rversions (>= 3.0.0), sessioninfo (>= 1.2.3), testthat (>= 3.3.2), urlchecker (>= 1.0.1),
+        withr (>= 3.0.2)
+Suggests: BiocManager (>= 1.30.18), callr (>= 3.7.1), covr (>= 3.5.1), curl (>= 4.3.2), digest (>= 0.6.29), DT (>= 0.23), foghorn (>= 1.4.2), gh (>= 1.3.0), httr2 (>= 1.0.0), knitr (>= 1.39), lintr
+        (>= 3.0.0), quarto (>= 1.5.1), remotes (>= 2.5.0), rmarkdown (>= 2.14), rstudioapi (>= 0.13), spelling (>= 2.2), xml2
+License: MIT + file LICENSE
+File: devtools_2.5.1_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/devtools/releases/download/2.5.1/devtools_2.5.1_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.7.0; ; 2026-04-24 17:20:41 UTC; unix
+Filesize: 478118
+SHA256: 3c159aa0a74630aec2c437ff04b592f35efbe013f7b32019a270d1c11bf32b49
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: fs
+Version: 2.1.0
+Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
+Imports: methods
+Suggests: covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr
+License: MIT + file LICENSE
+File: fs_2.1.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/fs/releases/download/2.1.0/fs_2.1.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-24 17:17:51 UTC; unix
+Filesize: 491541
+SHA256: 4a599860d6d7b356f8e6b97a8ad82563d108a46700fb918f3451d9bcbd754bfb
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libuv: libuv-devel (rpm) or libuv1-dev (deb).  Alternatively to build the vendored libuv 'cmake' is required.  GNU make.
+
+Package: glue
+Version: 1.8.1
+Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
+Imports: methods
+Suggests: crayon, DBI (>= 1.2.0), dplyr, knitr, rlang, rmarkdown, RSQLite, testthat (>= 3.2.0), vctrs (>= 0.3.0), waldo (>= 0.5.3), withr
+License: MIT + file LICENSE
+File: glue_1.8.1_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/glue/releases/download/1.8.1/glue_1.8.1_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-24 17:16:40 UTC; unix
+Filesize: 190286
+SHA256: 235a931c2604d56433b1ca2fb5bb5ca0ea462b2cd5c4ca343993acc94361f5d0
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: Rcpp
+Version: 1.1.1-1.1
+Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
+Imports: methods, utils
+Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
+License: GPL (>= 2)
+File: Rcpp_1.1.1-1.1_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/Rcpp/releases/download/1.1.1-1.1/Rcpp_1.1.1-1.1_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-24 17:17:51 UTC; unix
+Filesize: 3874844
+SHA256: edbd915c3886bce27aa80ba4f51920612cd1fff136784a01b676b4864e7b7434
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: ggplot2
+Version: 4.0.3
+Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
+Imports: cli, grDevices, grid, gtable (>= 0.3.6), isoband, lifecycle (> 1.0.1), rlang (>= 1.1.0), S7, scales (>= 1.4.0), stats, vctrs (>= 0.6.0), withr (>= 2.5.0)
+Suggests: broom, covr, dplyr, ggplot2movies, hexbin, Hmisc, hms, knitr, mapproj, maps, MASS, mgcv, multcomp, munsell, nlme, profvis, quantreg, quarto, ragg (>= 1.2.6), RColorBrewer, roxygen2, rpart,
+        sf (>= 0.7-3), svglite (>= 2.1.2), testthat (>= 3.1.5), tibble, vdiffr (>= 1.0.6), xml2
+License: MIT + file LICENSE
+File: ggplot2_4.0.3_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/ggplot2/releases/download/4.0.3/ggplot2_4.0.3_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.7.0; ; 2026-04-24 17:19:17 UTC; unix
+Filesize: 8463850
+SHA256: e2b3c9fdcaf31972e2c8064eab666da25c95c5470bd25a6d31b9350c1f01367e
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: sp
+
+Package: parallelly
+Version: 1.47.0
+Depends: R (>= 4.7), R (< 4.7.99)
+Imports: parallel, tools, utils
+Suggests: commonmark, base64enc
+License: LGPL (>= 2.1)
+File: parallelly_1.47.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/parallelly/releases/download/1.47.0/parallelly_1.47.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-24 17:17:50 UTC; unix
+Filesize: 633264
+SHA256: b10cc8c0dd20d51c8d9e0f997d280f7c6577b494164e5e8b18daec18de467c15
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: S7
+Version: 0.2.2
+Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
+Imports: utils
+Suggests: bench, callr, covr, knitr, methods, rmarkdown, testthat (>= 3.2.0), tibble
+License: MIT + file LICENSE
+File: S7_0.2.2_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/S7/releases/download/0.2.2/S7_0.2.2_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-24 17:17:56 UTC; unix
+Filesize: 351360
+SHA256: acf7731afeb18d7d2624ba67817f7b786f7d27078a1ffd9bacfa179c8c8e4562
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: tidymodels
+Version: 1.5.0
+Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
+Imports: broom (>= 1.0.12), cli (>= 3.6.6), conflicted (>= 1.2.0), dials (>= 1.4.3), dplyr (>= 1.2.1), ggplot2 (>= 4.0.3), hardhat (>= 1.4.3), infer (>= 1.1.0), modeldata (>= 1.5.1), parsnip (>=
+        1.5.0), purrr (>= 1.2.2), recipes (>= 1.3.2), rlang (>= 1.2.0), rsample (>= 1.3.2), rstudioapi (>= 0.18.0), tailor (>= 0.1.0), tidyr (>= 1.3.2), tune (>= 2.1.0), workflows (>= 1.3.0),
+        workflowsets (>= 1.1.1), yardstick (>= 1.4.0)
+Suggests: covr, glue, knitr, rmarkdown, testthat (>= 3.0.0), xml2
+License: MIT + file LICENSE
+File: tidymodels_1.5.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/tidymodels/releases/download/1.5.0/tidymodels_1.5.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.7.0; ; 2026-04-24 17:22:02 UTC; unix
+Filesize: 90434
+SHA256: 504fcea48ecc2549020b38088d6cdad660c93540014386671bfaf4f063a440b8
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: tune
+Version: 2.1.0
+Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
+Imports: cli (>= 3.3.0), dials (>= 1.4.3), dplyr (>= 1.1.0), GauPro (>= 0.2.15), generics (>= 0.1.2), ggplot2, glue (>= 1.6.2), hardhat (>= 1.4.2), lifecycle, parallel, parsnip (>= 1.5.0), purrr (>=
+        1.0.0), recipes (>= 1.3.2), rlang (>= 1.1.4), rsample (>= 1.3.2), tailor (>= 0.1.0), tibble (>= 3.1.0), tidyr (>= 1.2.0), tidyselect (>= 1.1.2), vctrs (>= 0.6.1), withr, workflows (>= 1.3.0),
+        yardstick (>= 1.4.0)
+Suggests: C50, censored (>= 0.3.0), covr, future (>= 1.33.0), future.apply, kernlab, kknn, knitr, mgcv, mirai (>= 2.4.0), modeldata, probably, scales, spelling, splines2, survival, testthat (>=
+        3.0.0), xgboost, xml2
+License: MIT + file LICENSE
+File: tune_2.1.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/tune/releases/download/2.1.0/tune_2.1.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.7.0; ; 2026-04-24 17:21:52 UTC; unix
+Filesize: 1575606
+SHA256: 200ef40c0a9625baeaa06633c0411ec0de8e44ddcd6217111d848eb07fae98bc
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: bit64
+Version: 4.8.0
+Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
+Imports: bit (>= 4.0.0), graphics, methods, stats, utils
+Suggests: patrick (>= 0.3.0), testthat (>= 3.3.0), withr
+License: GPL-2 | GPL-3
+File: bit64_4.8.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/bit64/releases/download/4.8.0/bit64_4.8.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-24 17:19:37 UTC; unix
+Filesize: 674798
+SHA256: d4fc8247bf397f073b4d80a91463a52f802e4a123d591977ad6fa2659ea053d7
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: htmlTable
+Version: 2.5.0
+Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
+Imports: stringr, knitr (>= 1.6), magrittr (>= 1.5), methods, checkmate, htmlwidgets, htmltools, rstudioapi (>= 0.6)
+Suggests: testthat, XML, xml2, Hmisc, rmarkdown, chron, lubridate, tibble, purrr, tidyselect, glue, rlang, tidyr (>= 0.7.2), dplyr (>= 0.7.4)
+License: GPL (>= 3)
+File: htmlTable_2.5.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/htmlTable/releases/download/2.5.0/htmlTable_2.5.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.7.0; ; 2026-04-24 17:19:48 UTC; unix
+Filesize: 437560
+SHA256: 5c7e03cf8ca156d41ed326b7c440e9b38bc205479ffe611a635f4fd1a1598919
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: RcppArmadillo
+Version: 15.2.6-1
+Depends: R (>= 3.3.0), R (>= 4.7), R (< 4.7.99)
+Imports: Rcpp (>= 1.1.1), stats, utils, methods
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+File: RcppArmadillo_15.2.6-1_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/15.2.6-1/RcppArmadillo_15.2.6-1_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-24 17:18:44 UTC; unix
+Filesize: 2009543
+SHA256: 0ac9151edc24e83302283d9105a657986f93c63dd67cb24a4c65730a6c8c60fa
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: ps
+Version: 1.9.3
+Depends: R (>= 3.4), R (>= 4.7), R (< 4.7.99)
+Imports: utils
+Suggests: callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), webfakes, withr
+License: MIT + file LICENSE
+File: ps_1.9.3_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/ps/releases/download/1.9.3/ps_1.9.3_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-24 17:17:58 UTC; unix
+Filesize: 521954
+SHA256: 90a80aa3918f2f48ce3c1b5eff19800e0b728d7a75cec43417bab14e2a4754b1
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: pkgload
+Version: 1.5.2
+Depends: R (>= 3.4.0), R (>= 4.7), R (< 4.7.99)
+Imports: cli (>= 3.3.0), desc, fs, glue, lifecycle, methods, pkgbuild, processx, rlang (>= 1.1.1), rprojroot, utils
+Suggests: bitops, jsonlite, mathjaxr, pak, Rcpp, remotes, rstudioapi, testthat (>= 3.2.1.1), usethis, withr
+License: MIT + file LICENSE
+File: pkgload_1.5.2_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/pkgload/releases/download/1.5.2/pkgload_1.5.2_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.7.0; ; 2026-04-24 17:20:02 UTC; unix
+Filesize: 226881
+SHA256: b9ee4ea77bbd568900b2cba020a3cafb4ba2b36b7f6c9540ac4f3834c03c8089
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: processx
+Version: 3.9.0
+Depends: R (>= 3.4.0), R (>= 4.7), R (< 4.7.99)
+Imports: ps (>= 1.9.3), R6, utils
+Suggests: callr (>= 3.7.3), cli (>= 3.3.0), codetools, covr, curl, debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0), webfakes, withr
+License: MIT + file LICENSE
+File: processx_3.9.0_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/processx/releases/download/3.9.0/processx_3.9.0_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-24 17:19:53 UTC; unix
+Filesize: 538431
+SHA256: ea66ebb317a001a6cbb7a85b5217148bde80b481cbe2344ff90a5e152265574c
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: igraph
+Version: 2.3.0
+Depends: methods, R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
+Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang (>= 1.1.0), stats, utils, vctrs
+Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl (>= 1.3.14), rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
+License: GPL (>= 2)
+File: igraph_2.3.0_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/igraph/releases/download/2.3.0/igraph_2.3.0_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-24 17:18:33 UTC; unix
+Filesize: 11961073
+SHA256: c287872819d466999b78a69d9dbf3021e434dba65857cc819d96e516fe6e8af4
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: graph
+SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
+LinkingTo: cpp11 (>= 0.5.0)
+
+Package: pak
+Version: 0.9.4
+Depends: R (>= 3.5), R (>= 4.7), R (< 4.7.99)
+Imports: tools, utils
+Suggests: callr (>= 3.7.0), cli (>= 3.2.0), covr, curl (>= 4.3.2), desc (>= 1.4.1), filelock (>= 1.0.2), gitcreds, glue (>= 1.6.2), jsonlite (>= 1.8.0), keyring (>= 1.4.0), pingr, pkgbuild (>=
+        1.4.2), pkgcache (>= 2.2.4), pkgdepends (>= 0.9.0), pkgload, pkgsearch (>= 3.1.0), processx (>= 3.8.1), ps (>= 1.6.0), rstudioapi, testthat (>= 3.2.0), webfakes, withr, yaml
+License: GPL-3
+File: pak_0.9.4_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/pak/releases/download/0.9.4/pak_0.9.4_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-24 17:18:04 UTC; unix
+Filesize: 7253976
+SHA256: f619b2c279e9f46b8f89a626ad438bc50e41dd702c0d71777bf4af67b0435f7c
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: QuickJSR
+Version: 1.9.2
+Depends: R (>= 4.7), R (< 4.7.99)
+Suggests: knitr, rmarkdown, tinytest
+License: MIT + file LICENSE
+File: QuickJSR_1.9.2_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/QuickJSR/releases/download/1.9.2/QuickJSR_1.9.2_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-24 17:18:03 UTC; unix
+Filesize: 2068378
+SHA256: bedccb3c2fb592ef223dff9861df5c578da9b15d4bea18030ebe96614e5e0777
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make
