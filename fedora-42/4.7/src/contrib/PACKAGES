@@ -2900,24 +2900,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp (>= 0.12.4), RcppArmadillo (>= 0.2.35)
 
-Package: fracdiff
-Version: 1.5-3
-Depends: R (>= 4.7), R (< 4.7.99)
-Imports: stats
-Suggests: longmemo, forecast, urca
-License: GPL (>= 2)
-File: fracdiff_1.5-3_b1_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-DownloadURL: https://github.com/cran/fracdiff/releases/download/1.5-3/fracdiff_1.5-3_b1_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 09:52:17 UTC; unix
-Filesize: 149957
-SHA256: 8f009a2a319bc9eba51fa08fa18f1342c6953057ac5cd5f8b1d473c2e1774fdf
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-42
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: lmtest
 Version: 0.9-40
 Depends: R (>= 3.0.0), stats, zoo, R (>= 4.7), R (< 4.7.99)
@@ -4950,25 +4932,6 @@ Enhances: graph
 SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
 LinkingTo: cpp11 (>= 0.5.0)
 
-Package: pak
-Version: 0.9.4
-Depends: R (>= 3.5), R (>= 4.7), R (< 4.7.99)
-Imports: tools, utils
-Suggests: callr (>= 3.7.0), cli (>= 3.2.0), covr, curl (>= 4.3.2), desc (>= 1.4.1), filelock (>= 1.0.2), gitcreds, glue (>= 1.6.2), jsonlite (>= 1.8.0), keyring (>= 1.4.0), pingr, pkgbuild (>=
-        1.4.2), pkgcache (>= 2.2.4), pkgdepends (>= 0.9.0), pkgload, pkgsearch (>= 3.1.0), processx (>= 3.8.1), ps (>= 1.6.0), rstudioapi, testthat (>= 3.2.0), webfakes, withr, yaml
-License: GPL-3
-File: pak_0.9.4_b3_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-DownloadURL: https://github.com/cran/pak/releases/download/0.9.4/pak_0.9.4_b3_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-24 09:15:31 UTC; unix
-Filesize: 7163136
-SHA256: c852b130c8dbac44af4f94806a164b57b95b0e8cfb2f2a627dd2244827a0ea82
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-42
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: QuickJSR
 Version: 1.9.2
 Depends: R (>= 4.7), R (< 4.7.99)
@@ -5005,3 +4968,40 @@ Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
+
+Package: fracdiff
+Version: 1.5-4
+Depends: R (>= 4.7), R (< 4.7.99)
+Imports: stats
+Suggests: longmemo, forecast, urca
+License: GPL (>= 2)
+File: fracdiff_1.5-4_b2_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/fracdiff/releases/download/1.5-4/fracdiff_1.5-4_b2_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-28 09:37:13 UTC; unix
+Filesize: 151146
+SHA256: f7642dc472ac67b983e70a84f138d912c12b9bc7028bb16aedfac95653cafb1e
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: pak
+Version: 0.9.5
+Depends: R (>= 3.5), R (>= 4.7), R (< 4.7.99)
+Imports: tools, utils
+Suggests: callr (>= 3.7.0), cli (>= 3.2.0), covr, curl (>= 4.3.2), desc (>= 1.4.1), filelock (>= 1.0.2), gitcreds, glue (>= 1.6.2), jsonlite (>= 1.8.0), keyring (>= 1.4.0), pingr, pkgbuild (>=
+        1.4.2), pkgcache (>= 2.2.4), pkgdepends (>= 0.9.0), pkgload, pkgsearch (>= 3.1.0), processx (>= 3.8.1), ps (>= 1.6.0), rstudioapi, testthat (>= 3.2.0), webfakes, withr, yaml
+License: GPL-3
+File: pak_0.9.5_b4_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/pak/releases/download/0.9.5/pak_0.9.5_b4_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-28 09:37:15 UTC; unix
+Filesize: 7164523
+SHA256: 4d51d3b7b961c5e866f6ef0ed26bcd4a0ffdd1139a259137c92a35ae7f5382f6
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
