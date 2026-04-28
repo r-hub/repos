@@ -1606,25 +1606,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: lhs
-Version: 1.2.1
-Depends: R (>= 3.4.0), R (>= 4.7), R (< 4.7.99)
-Imports: Rcpp
-Suggests: testthat, DoE.base, knitr, rmarkdown
-License: GPL-3
-File: lhs_1.2.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/lhs/releases/download/1.2.1/lhs_1.2.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 11:55:03 UTC; unix
-Filesize: 3373110
-SHA256: 5b062f4b584e0405f4fdaec189838c97c1a268b6eefe6c7f5b51f680fc79d916
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: listenv
 Version: 0.10.1
 Depends: R (>= 3.1.2), R (>= 4.7), R (< 4.7.99)
@@ -2918,24 +2899,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp (>= 0.12.4), RcppArmadillo (>= 0.2.35)
-
-Package: fracdiff
-Version: 1.5-3
-Depends: R (>= 4.7), R (< 4.7.99)
-Imports: stats
-Suggests: longmemo, forecast, urca
-License: GPL (>= 2)
-File: fracdiff_1.5-3_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/fracdiff/releases/download/1.5-3/fracdiff_1.5-3_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 11:52:54 UTC; unix
-Filesize: 140923
-SHA256: c1cee101810dcb9528bcda18f5cda2416527bf99b74d2c983c6ee8ff0fe1d50e
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: lmtest
 Version: 0.9-40
@@ -4969,25 +4932,6 @@ Enhances: graph
 SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
 LinkingTo: cpp11 (>= 0.5.0)
 
-Package: pak
-Version: 0.9.4
-Depends: R (>= 3.5), R (>= 4.7), R (< 4.7.99)
-Imports: tools, utils
-Suggests: callr (>= 3.7.0), cli (>= 3.2.0), covr, curl (>= 4.3.2), desc (>= 1.4.1), filelock (>= 1.0.2), gitcreds, glue (>= 1.6.2), jsonlite (>= 1.8.0), keyring (>= 1.4.0), pingr, pkgbuild (>=
-        1.4.2), pkgcache (>= 2.2.4), pkgdepends (>= 0.9.0), pkgload, pkgsearch (>= 3.1.0), processx (>= 3.8.1), ps (>= 1.6.0), rstudioapi, testthat (>= 3.2.0), webfakes, withr, yaml
-License: GPL-3
-File: pak_0.9.4_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/pak/releases/download/0.9.4/pak_0.9.4_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-24 17:18:04 UTC; unix
-Filesize: 7253976
-SHA256: f619b2c279e9f46b8f89a626ad438bc50e41dd702c0d71777bf4af67b0435f7c
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: QuickJSR
 Version: 1.9.2
 Depends: R (>= 4.7), R (< 4.7.99)
@@ -5005,3 +4949,59 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make
+
+Package: lhs
+Version: 1.3.0
+Depends: R (>= 4.1.0), R (>= 4.7), R (< 4.7.99)
+Imports: Rcpp
+Suggests: testthat, DoE.base, knitr, rmarkdown
+License: GPL-3
+File: lhs_1.3.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/lhs/releases/download/1.3.0/lhs_1.3.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-28 17:58:17 UTC; unix
+Filesize: 3388499
+SHA256: ca343ac21c89e85cd74fe8dee9d61f7bfe930f5d22f10a42118593390045c310
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: fracdiff
+Version: 1.5-4
+Depends: R (>= 4.7), R (< 4.7.99)
+Imports: stats
+Suggests: longmemo, forecast, urca
+License: GPL (>= 2)
+File: fracdiff_1.5-4_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/fracdiff/releases/download/1.5-4/fracdiff_1.5-4_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-28 17:58:16 UTC; unix
+Filesize: 141966
+SHA256: dcd0d725d26479bd3f823afaf2689c33b2fc0190627d0d989edd449d8b5a7ace
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: pak
+Version: 0.9.5
+Depends: R (>= 3.5), R (>= 4.7), R (< 4.7.99)
+Imports: tools, utils
+Suggests: callr (>= 3.7.0), cli (>= 3.2.0), covr, curl (>= 4.3.2), desc (>= 1.4.1), filelock (>= 1.0.2), gitcreds, glue (>= 1.6.2), jsonlite (>= 1.8.0), keyring (>= 1.4.0), pingr, pkgbuild (>=
+        1.4.2), pkgcache (>= 2.2.4), pkgdepends (>= 0.9.0), pkgload, pkgsearch (>= 3.1.0), processx (>= 3.8.1), ps (>= 1.6.0), rstudioapi, testthat (>= 3.2.0), webfakes, withr, yaml
+License: GPL-3
+File: pak_0.9.5_b4_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/pak/releases/download/0.9.5/pak_0.9.5_b4_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-28 17:58:19 UTC; unix
+Filesize: 7256100
+SHA256: 0eaf9028f2d4edb1f9a1066fd93ce02a1b9029d381a9837cec1b303fb69ee709
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
