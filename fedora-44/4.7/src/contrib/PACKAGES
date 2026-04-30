@@ -3784,27 +3784,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libxml2 (>= 2.6.3)
 
-Package: arrow
-Version: 23.0.1.2
-Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
-Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
-Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.1.0),
-        tibble, tzdb, withr
-License: Apache License (>= 2.0)
-File: arrow_23.0.1.2_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/arrow/releases/download/23.0.1.2/arrow_23.0.1.2_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 19:06:03 UTC; unix
-Filesize: 208523970
-SHA256: 253b1c438700b26fa5e999e70b02a2a8420da6639e58e5540de2930adb41731b
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++20; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.26 (build-time only, and only for full source build)
-LinkingTo: cpp11 (>= 0.4.2)
-
 Package: bayesplot
 Version: 1.15.0
 Depends: R (>= 4.1.0), R (>= 4.7), R (< 4.7.99)
@@ -4641,25 +4620,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libcurl (>= 7.73): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
 
-Package: devtools
-Version: 2.5.1
-Depends: R (>= 4.1), usethis (>= 3.2.1), R (>= 4.7), R (< 4.7.99)
-Imports: cli (>= 3.6.6), desc (>= 1.4.3), ellipsis (>= 0.3.3), fs (>= 2.0.1), lifecycle (>= 1.0.5), memoise (>= 2.0.1), miniUI (>= 0.1.2), pak (>= 0.9.3), pkgbuild (>= 1.4.8), pkgdown (>= 2.2.0),
-        pkgload (>= 1.5.1), profvis (>= 0.4.0), rcmdcheck (>= 1.4.0), rlang (>= 1.2.0), roxygen2 (>= 7.3.3), rversions (>= 3.0.0), sessioninfo (>= 1.2.3), testthat (>= 3.3.2), urlchecker (>= 1.0.1),
-        withr (>= 3.0.2)
-Suggests: BiocManager (>= 1.30.18), callr (>= 3.7.1), covr (>= 3.5.1), curl (>= 4.3.2), digest (>= 0.6.29), DT (>= 0.23), foghorn (>= 1.4.2), gh (>= 1.3.0), httr2 (>= 1.0.0), knitr (>= 1.39), lintr
-        (>= 3.0.0), quarto (>= 1.5.1), remotes (>= 2.5.0), rmarkdown (>= 2.14), rstudioapi (>= 0.13), spelling (>= 2.2), xml2
-License: MIT + file LICENSE
-File: devtools_2.5.1_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/devtools/releases/download/2.5.1/devtools_2.5.1_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-Built: R 4.7.0; ; 2026-04-24 09:18:41 UTC; unix
-Filesize: 505390
-SHA256: 7ce2414d1680aeea689074cde7c18bcf987822d88e38a2dbd1feb4cfd2abd618
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: fs
 Version: 2.1.0
 Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
@@ -5001,6 +4961,46 @@ Arch: amd64
 Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-28 09:38:27 UTC; unix
 Filesize: 7299930
 SHA256: 7dcd6d07525a04be5d5f5486630e05b9a2248d806f00f7f73fd57710ccdc0833
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: arrow
+Version: 24.0.0
+Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.3.0),
+        tibble, tzdb, withr
+License: Apache License (>= 2.0)
+File: arrow_24.0.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/arrow/releases/download/24.0.0/arrow_24.0.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-30 09:53:11 UTC; unix
+Filesize: 210315405
+SHA256: b923b91f72afacb1fab2062fecd6d73b5e71282892a8ea8d9b8143d2e9a71c3b
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++20; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.26 (build-time only, and only for full source build)
+LinkingTo: cpp11 (>= 0.4.2)
+
+Package: devtools
+Version: 2.5.2
+Depends: R (>= 4.1), usethis (>= 3.2.1), R (>= 4.7), R (< 4.7.99)
+Imports: cli (>= 3.6.6), desc (>= 1.4.3), ellipsis (>= 0.3.3), fs (>= 2.1.0), lifecycle (>= 1.0.5), memoise (>= 2.0.1), miniUI (>= 0.1.2), pak (>= 0.9.5), pkgbuild (>= 1.4.8), pkgdown (>= 2.2.0),
+        pkgload (>= 1.5.2), profvis (>= 0.4.0), rcmdcheck (>= 1.4.0), rlang (>= 1.2.0), roxygen2 (>= 7.3.3), rversions (>= 3.0.0), sessioninfo (>= 1.2.3), testthat (>= 3.3.2), urlchecker (>= 1.0.1),
+        withr (>= 3.0.2)
+Suggests: BiocManager (>= 1.30.18), callr (>= 3.7.1), covr (>= 3.5.1), curl (>= 4.3.2), digest (>= 0.6.29), DT (>= 0.23), foghorn (>= 1.4.2), gh (>= 1.3.0), httr2 (>= 1.0.0), knitr (>= 1.39), lintr
+        (>= 3.0.0), quarto (>= 1.5.1), remotes (>= 2.5.0), rmarkdown (>= 2.14), rstudioapi (>= 0.13), spelling (>= 2.2), xml2
+License: MIT + file LICENSE
+File: devtools_2.5.2_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/devtools/releases/download/2.5.2/devtools_2.5.2_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+Built: R 4.7.0; ; 2026-04-30 09:33:00 UTC; unix
+Filesize: 505357
+SHA256: cca4b1a685fdd467e4bfb1364d66c84b186bcbdafca6938e49764b96754fc5a9
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
