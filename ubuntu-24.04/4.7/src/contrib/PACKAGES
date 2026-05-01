@@ -786,25 +786,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
 
-Package: roxygen2
-Version: 7.3.3
-Depends: R (>= 3.6), R (>= 4.7), R (< 4.7.99)
-Imports: brew, cli (>= 3.3.0), commonmark, desc (>= 1.2.0), knitr, methods, pkgload (>= 1.0.2), purrr (>= 1.0.0), R6 (>= 2.1.2), rlang (>= 1.0.6), stringi, stringr (>= 1.0.0), utils, withr, xml2
-Suggests: covr, R.methodsS3, R.oo, rmarkdown (>= 2.16), testthat (>= 3.1.2), yaml
-License: MIT + file LICENSE
-File: roxygen2_7.3.3_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/roxygen2/releases/download/7.3.3/roxygen2_7.3.3_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 14:00:40 UTC; unix
-Filesize: 1157287
-SHA256: 2992dc8859bfc46c26c4400e2ff9edb1a0ca471ad00b93d007304b664882cbd9
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cpp11
-
 Package: rprojroot
 Version: 2.1.1
 Depends: R (>= 3.0.0), R (>= 4.7), R (< 4.7.99)
@@ -5023,3 +5004,22 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: roxygen2
+Version: 8.0.0
+Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
+Imports: brew, cli (>= 3.3.0), commonmark, desc (>= 1.2.0), knitr, lifecycle, methods, pkgload (>= 1.5.2), R6 (>= 2.1.2), rlang (>= 1.1.0), utils, withr, xml2
+Suggests: covr, R.methodsS3, S7, R.oo, rmarkdown (>= 2.16), testthat (>= 3.1.2), yaml
+License: MIT + file LICENSE
+File: roxygen2_8.0.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/roxygen2/releases/download/8.0.0/roxygen2_8.0.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-05-01 17:39:41 UTC; unix
+Filesize: 1296446
+SHA256: 8dceac954783e4415eab672ff13e197ab7ec96b90e45301e1b6b7916a398e542
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11
