@@ -3278,26 +3278,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: glmnet
-Version: 4.1-10
-Depends: R (>= 3.6.0), Matrix (>= 1.0-6), R (>= 4.7), R (< 4.7.99)
-Imports: methods, utils, foreach, shape, survival, Rcpp
-Suggests: knitr, lars, testthat, xfun, rmarkdown
-License: GPL-2
-File: glmnet_4.1-10_b1_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-DownloadURL: https://github.com/cran/glmnet/releases/download/4.1-10/glmnet_4.1-10_b1_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 10:24:20 UTC; unix
-Filesize: 10946449
-SHA256: 8962cec5fa719d1938db0ddf2c79fb754a16214e2c4788f6b1ef8184d29d7d23
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-42
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17
-LinkingTo: RcppEigen, Rcpp
-
 Package: gtools
 Version: 3.9.5
 Depends: methods, stats, utils, R (>= 4.7), R (< 4.7.99)
@@ -4852,27 +4832,6 @@ Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: igraph
-Version: 2.3.0
-Depends: methods, R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
-Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang (>= 1.1.0), stats, utils, vctrs
-Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl (>= 1.3.14), rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
-License: GPL (>= 2)
-File: igraph_2.3.0_b3_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-DownloadURL: https://github.com/cran/igraph/releases/download/2.3.0/igraph_2.3.0_b3_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-24 09:16:06 UTC; unix
-Filesize: 12324779
-SHA256: 7c2e63f4abe0c96da7cdf6a60a6e9c8f83f9ff8510ac32c6028e13acbb65d69a
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-42
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: graph
-SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
-LinkingTo: cpp11 (>= 0.5.0)
-
 Package: QuickJSR
 Version: 1.9.2
 Depends: R (>= 4.7), R (< 4.7.99)
@@ -5005,3 +4964,44 @@ Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11
+
+Package: glmnet
+Version: 5.0
+Depends: R (>= 3.6.0), Matrix (>= 1.0-6), R (>= 4.7), R (< 4.7.99)
+Imports: methods, utils, foreach, shape, survival, Rcpp
+Suggests: knitr, lars, nnet, testthat, xfun, rmarkdown
+License: GPL-2
+File: glmnet_5.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/glmnet/releases/download/5.0/glmnet_5.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-05-04 09:34:19 UTC; unix
+Filesize: 13544034
+SHA256: 8e5f3338bce549c615ce8c9e5b182ea8c689c38ec05bd4bd36c051089eba6808
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17
+LinkingTo: RcppEigen, Rcpp
+
+Package: igraph
+Version: 2.3.1
+Depends: methods, R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
+Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang (>= 1.1.0), stats, utils, vctrs
+Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl (>= 1.3.14), rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
+License: GPL (>= 2)
+File: igraph_2.3.1_b4_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/igraph/releases/download/2.3.1/igraph_2.3.1_b4_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-05-04 09:34:23 UTC; unix
+Filesize: 12325438
+SHA256: 0180d3b92055a7c5eda5eed76f07fc31a9e52ac849fc6627c7902d3335cc5dba
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: graph
+SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
+LinkingTo: cpp11 (>= 0.5.0)
