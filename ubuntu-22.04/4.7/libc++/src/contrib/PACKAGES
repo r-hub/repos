@@ -3531,23 +3531,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: lava
-Version: 1.9.0
-Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
-Imports: cli, future.apply, graphics, grDevices, methods, numDeriv, progressr, stats, survival, SQUAREM, utils
-Suggests: KernSmooth, Rgraphviz, data.table, ellipse, fields, geepack, graph, knitr, rmarkdown, igraph (>= 0.6), lavaSearch2, lme4 (>= 1.1.35.1), MASS, Matrix (>= 1.6.3), mets (>= 1.1), nlme, optimx,
-        polycor, quantreg, rgl, svglite, targeted (>= 0.4), testthat (>= 0.11), vdiffr, visNetwork
-License: Apache License (== 2.0)
-File: lava_1.9.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/lava/releases/download/1.9.0/lava_1.9.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.7.0; ; 2026-04-05 17:20:48 UTC; unix
-Filesize: 2479518
-SHA256: 1bb7f6ca10b18b96782e7d362392f79437a57e0a58414ffa14445ff372018d92
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: rlang
 Version: 1.2.0
 Depends: R (>= 4.0.0), R (>= 4.7), R (< 4.7.99)
@@ -4545,3 +4528,20 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: OpenSSL >= 1.0.2
+
+Package: lava
+Version: 1.9.1
+Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
+Imports: cli, future.apply, graphics, grDevices, methods, numDeriv, progressr, stats, survival, SQUAREM, utils
+Suggests: KernSmooth, Rgraphviz, data.table, ellipse, fields, future, geepack, graph, knitr, rmarkdown, igraph (>= 0.6), lavaSearch2, lme4 (>= 1.1.35.1), MASS, Matrix (>= 1.6.3), mets (>= 1.1), nlme,
+        optimx, polycor, quantreg, rgl, svglite, targeted (>= 0.4), testthat (>= 0.11), vdiffr, visNetwork
+License: Apache License (== 2.0)
+File: lava_1.9.1_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/lava/releases/download/1.9.1/lava_1.9.1_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.7.0; ; 2026-05-15 18:16:53 UTC; unix
+Filesize: 2469225
+SHA256: ad2ea8d006e10ce3dc55696b31600c107e9db544e0876d6b639ca2a4d8939041
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
