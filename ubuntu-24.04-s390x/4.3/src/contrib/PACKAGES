@@ -99,24 +99,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: rematch, tibble
 
-Package: clipr
-Version: 0.8.0
-Depends: R (>= 4.3), R (< 4.3.99)
-Suggests: covr, knitr, rmarkdown, rstudioapi (>= 0.5), testthat (>= 2.0.0)
-License: GPL-3
-File: clipr_0.8.0_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/clipr/releases/download/0.8.0/clipr_0.8.0_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.3.3; ; 2025-03-15 10:39:35 UTC; unix
-Filesize: 50731
-SHA256: a9558673899ff354a8829e42b96334cccd73f1f3a0149bffc40b6c03c8da3940
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: utils
-SystemRequirements: xclip (https://github.com/astrand/xclip) or xsel (http://www.vergenet.net/~conrad/software/xsel/) for accessing the X11 clipboard, or wl-clipboard
-        (https://github.com/bugaevc/wl-clipboard) for systems using Wayland.
-
 Package: conflicted
 Version: 1.2.0
 Depends: R (>= 3.2), R (>= 4.3), R (< 4.3.99)
@@ -2092,3 +2074,21 @@ Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: bit (>= 4.0.0), graphics, methods, stats, utils
+
+Package: clipr
+Version: 0.8.1
+Depends: R (>= 4.3), R (< 4.3.99)
+Suggests: covr, knitr, rmarkdown, rstudioapi (>= 0.5), testthat (>= 2.0.0)
+License: GPL-3
+File: clipr_0.8.1_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/clipr/releases/download/0.8.1/clipr_0.8.1_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.3.3; ; 2026-05-25 16:41:20 UTC; unix
+Filesize: 52594
+SHA256: 5902ea989bfcc4f2c7f4e19fd02e07e92e6672a84eab0340365740fa3f253cb4
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: utils
+SystemRequirements: xclip (https://github.com/astrand/xclip) or xsel (http://www.vergenet.net/~conrad/software/xsel/) for accessing the X11 clipboard, or wl-clipboard
+        (https://github.com/bugaevc/wl-clipboard) for systems using Wayland.
