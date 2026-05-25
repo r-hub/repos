@@ -99,24 +99,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: clipr
-Version: 0.8.0
-Depends: R (>= 4.7), R (< 4.7.99)
-Imports: utils
-Suggests: covr, knitr, rmarkdown, rstudioapi (>= 0.5), testthat (>= 2.0.0)
-License: GPL-3
-File: clipr_0.8.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/clipr/releases/download/0.8.0/clipr_0.8.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.7.0; ; 2026-03-30 13:47:02 UTC; unix
-Filesize: 54957
-SHA256: f6b3dd0614a47db1f17d881ec08234a51cd55112fa62fe5f8c4f0b2cc3f64de2
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: xclip (https://github.com/astrand/xclip) or xsel (http://www.vergenet.net/~conrad/software/xsel/) for accessing the X11 clipboard, or wl-clipboard
-        (https://github.com/bugaevc/wl-clipboard) for systems using Wayland.
-
 Package: commonmark
 Version: 2.0.0
 Depends: R (>= 4.7), R (< 4.7.99)
@@ -5023,3 +5005,21 @@ Platform: x86_64-pc-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11 (>= 0.4.0)
+
+Package: clipr
+Version: 0.8.1
+Depends: R (>= 4.7), R (< 4.7.99)
+Imports: utils
+Suggests: covr, knitr, rmarkdown, rstudioapi (>= 0.5), testthat (>= 2.0.0)
+License: GPL-3
+File: clipr_0.8.1_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/clipr/releases/download/0.8.1/clipr_0.8.1_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.7.0; ; 2026-05-25 18:14:22 UTC; unix
+Filesize: 56824
+SHA256: 2a374d9932875ecf39dc630741111ed5d8582a569d1d18ef523cdfc416650c00
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: xclip (https://github.com/astrand/xclip) or xsel (http://www.vergenet.net/~conrad/software/xsel/) for accessing the X11 clipboard, or wl-clipboard
+        (https://github.com/bugaevc/wl-clipboard) for systems using Wayland.
