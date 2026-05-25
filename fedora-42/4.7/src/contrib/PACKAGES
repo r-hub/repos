@@ -99,24 +99,6 @@ Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: clipr
-Version: 0.8.0
-Depends: R (>= 4.7), R (< 4.7.99)
-Imports: utils
-Suggests: covr, knitr, rmarkdown, rstudioapi (>= 0.5), testthat (>= 2.0.0)
-License: GPL-3
-File: clipr_0.8.0_b1_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-DownloadURL: https://github.com/cran/clipr/releases/download/0.8.0/clipr_0.8.0_b1_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-Built: R 4.7.0; ; 2026-03-30 09:49:23 UTC; unix
-Filesize: 59237
-SHA256: edc3e00ff7b976dc94c3c976b93fdb837fec3c460a2e26e26948da38a5788740
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-42
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: xclip (https://github.com/astrand/xclip) or xsel (http://www.vergenet.net/~conrad/software/xsel/) for accessing the X11 clipboard, or wl-clipboard
-        (https://github.com/bugaevc/wl-clipboard) for systems using Wayland.
-
 Package: commonmark
 Version: 2.0.0
 Depends: R (>= 4.7), R (< 4.7.99)
@@ -5005,3 +4987,21 @@ Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11 (>= 0.4.0)
+
+Package: clipr
+Version: 0.8.1
+Depends: R (>= 4.7), R (< 4.7.99)
+Imports: utils
+Suggests: covr, knitr, rmarkdown, rstudioapi (>= 0.5), testthat (>= 2.0.0)
+License: GPL-3
+File: clipr_0.8.1_b2_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/clipr/releases/download/0.8.1/clipr_0.8.1_b2_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+Built: R 4.7.0; ; 2026-05-25 11:18:19 UTC; unix
+Filesize: 61997
+SHA256: 3279c4029b29c20fec51922e00da37f65cd34a5e30bee44cd421135d13f216ff
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: xclip (https://github.com/astrand/xclip) or xsel (http://www.vergenet.net/~conrad/software/xsel/) for accessing the X11 clipboard, or wl-clipboard
+        (https://github.com/bugaevc/wl-clipboard) for systems using Wayland.
