@@ -284,22 +284,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
 
-Package: gh
-Version: 1.5.0
-Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
-Imports: cli (>= 3.0.1), gitcreds, glue, httr2 (>= 1.0.6), ini, jsonlite, lifecycle, rlang (>= 1.0.0)
-Suggests: connectcreds, covr, knitr, rmarkdown, rprojroot, spelling, testthat (>= 3.0.0), withr
-License: MIT + file LICENSE
-File: gh_1.5.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/gh/releases/download/1.5.0/gh_1.5.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.7.0; ; 2026-03-30 13:45:10 UTC; unix
-Filesize: 127557
-SHA256: ec1fb44ddb01cc65e906c6d8f1d0a84325f81af269e7db6fd36c56ef93dd1861
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: gitcreds
 Version: 0.1.2
 Depends: R (>= 3.4), R (>= 4.7), R (< 4.7.99)
@@ -4275,24 +4259,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: xz (for building from source)
 
-Package: mvtnorm
-Version: 1.3-7
-Depends: R(>= 3.5.0), R (>= 4.7), R (< 4.7.99)
-Imports: stats
-Suggests: qrng, numDeriv, bibtex
-License: GPL-2
-File: mvtnorm_1.3-7_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.3-7/mvtnorm_1.3-7_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-15 17:45:53 UTC; unix
-Filesize: 1113186
-SHA256: 0763f1264dd60515a60e277320257a2c722bba0bc87a34071154bad46c8babfa
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: GauPro
 Version: 0.2.17
 Depends: mixopt (> 0.1.0), numDeriv, rmarkdown, tidyr, R (>= 4.7), R (< 4.7.99)
@@ -4746,27 +4712,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17
 LinkingTo: RcppEigen, Rcpp
 
-Package: igraph
-Version: 2.3.1
-Depends: methods, R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
-Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang (>= 1.1.0), stats, utils, vctrs
-Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl (>= 1.3.14), rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
-License: GPL (>= 2)
-File: igraph_2.3.1_b4_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/igraph/releases/download/2.3.1/igraph_2.3.1_b4_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-05-04 18:14:58 UTC; unix
-Filesize: 11919573
-SHA256: d114f6cebe4009c0c0e09973df30ab5a9a114963f1128999263813bbc08883a4
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: graph
-SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
-LinkingTo: cpp11 (>= 0.5.0)
-
 Package: data.table
 Version: 1.18.4
 Depends: R (>= 3.4.0), R (>= 4.7), R (< 4.7.99)
@@ -5023,3 +4968,58 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: xclip (https://github.com/astrand/xclip) or xsel (http://www.vergenet.net/~conrad/software/xsel/) for accessing the X11 clipboard, or wl-clipboard
         (https://github.com/bugaevc/wl-clipboard) for systems using Wayland.
+
+Package: gh
+Version: 1.6.0
+Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
+Imports: cli (>= 3.0.1), gitcreds, glue, httr2 (>= 1.0.6), ini, jsonlite, lifecycle, rlang (>= 1.1.0)
+Suggests: connectcreds, covr, knitr, rmarkdown, rprojroot, spelling, testthat (>= 3.0.0), vctrs, webfakes (>= 1.5.0), withr
+License: MIT + file LICENSE
+File: gh_1.6.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/gh/releases/download/1.6.0/gh_1.6.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.7.0; ; 2026-05-29 19:15:21 UTC; unix
+Filesize: 175270
+SHA256: 80423d4fe5f5382206fab139bcaf988cd0aebdd04fde9aa68b73655f17fd6419
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: mvtnorm
+Version: 1.4-0
+Depends: R(>= 3.5.0), R (>= 4.7), R (< 4.7.99)
+Imports: stats, utils
+Suggests: qrng, numDeriv, bibtex
+License: GPL-2
+File: mvtnorm_1.4-0_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/mvtnorm/releases/download/1.4-0/mvtnorm_1.4-0_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-05-29 19:15:40 UTC; unix
+Filesize: 1186578
+SHA256: f517428869b7b085e850324c889df7f0328f4a1579316c72c7b665a1d2a2a7c9
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: igraph
+Version: 2.3.2
+Depends: methods, R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
+Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang (>= 1.1.0), stats, utils, vctrs
+Suggests: ape (>= 5.7-0.1), callr, decor, digest, igraphdata, knitr, rgl (>= 1.3.14), rmarkdown, scales, stats4, tcltk, testthat, vdiffr, withr
+License: GPL (>= 2)
+File: igraph_2.3.2_b5_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/igraph/releases/download/2.3.2/igraph_2.3.2_b5_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-05-29 19:15:43 UTC; unix
+Filesize: 11920001
+SHA256: 1eecc3a31b5d99851a03beac05d0fb9c070429c402a2367b9af4f9fa489d97ba
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: graph
+SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
+LinkingTo: cpp11 (>= 0.5.0)
