@@ -67,22 +67,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: rlang, fastmap (>= 1.2.0)
 
-Package: callr
-Version: 3.7.6
-Depends: R (>= 3.4), R (>= 4.3), R (< 4.3.99)
-Suggests: asciicast (>= 2.3.1), cli (>= 1.1.0), mockery, ps, rprojroot, spelling, testthat (>= 3.2.0), withr (>= 2.3.0)
-License: MIT + file LICENSE
-File: callr_3.7.6_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/callr/releases/download/3.7.6/callr_3.7.6_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.3.3; ; 2025-03-15 11:16:37 UTC; unix
-Filesize: 438302
-SHA256: 2fd9ce4eb80e6239a6591c24d6e170afc62412d3fcbd820e0b6a59e6cb682944
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: processx (>= 3.6.1), R6, utils
-
 Package: cellranger
 Version: 1.1.0
 Depends: R (>= 3.0.0), R (>= 4.3), R (< 4.3.99)
@@ -2092,3 +2076,34 @@ Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli (>= 3.1.0), tools, utils
+
+Package: otel
+Version: 0.2.0
+Depends: R (>= 3.6.0), R (>= 4.3), R (< 4.3.99)
+Suggests: callr, cli, glue, jsonlite, otelsdk, processx, shiny, spelling, testthat (>= 3.0.0), utils, withr
+License: MIT + file LICENSE
+File: otel_0.2.0_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/otel/releases/download/0.2.0/otel_0.2.0_b1_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.3.3; ; 2026-06-05 16:44:17 UTC; unix
+Filesize: 269635
+SHA256: 1538ed79f701cea3dd45bf11ee4c488ef0dd1159f18e05a7d6002d11eb8d542f
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: callr
+Version: 3.8.0
+Depends: R (>= 3.4), R (>= 4.3), R (< 4.3.99)
+Suggests: asciicast (>= 2.3.1), carrier, cli (>= 1.1.0), otelsdk (>= 0.2.0), ps, rprojroot, spelling, testthat (>= 3.2.0), withr (>= 2.3.0)
+License: MIT + file LICENSE
+File: callr_3.8.0_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/callr/releases/download/3.8.0/callr_3.8.0_b2_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.3.3; ; 2026-06-05 16:44:33 UTC; unix
+Filesize: 460429
+SHA256: 0c6a2b715de4488d88c52afdaa3d74e683d9c778c3f057018cdcbb3bd67bf05d
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: otel (>= 0.2.0), processx (>= 3.6.1), R6, utils
