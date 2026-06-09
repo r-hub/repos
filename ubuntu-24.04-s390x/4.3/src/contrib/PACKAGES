@@ -1935,25 +1935,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: backports, cli, dplyr (>= 1.0.0), generics (>= 0.0.2), glue, lifecycle, purrr, rlang (>= 1.1.0), stringr, tibble (>= 3.0.0), tidyr (>= 1.0.0)
 
-Package: openssl
-Version: 2.4.1
-Depends: R (>= 4.3), R (< 4.3.99)
-Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
-License: MIT + file LICENSE
-File: openssl_2.4.1_b6_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/openssl/releases/download/2.4.1/openssl_2.4.1_b6_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2026-05-14 16:27:02 UTC; unix
-Filesize: 1368333
-SHA256: bf2df7c3e13153b0278e4c440daca62363d096f67103ff84da136389ccf12466
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: askpass
-SystemRequirements: OpenSSL >= 1.0.2
-
 Package: bslib
 Version: 0.11.0
 Depends: R (>= 2.10), R (>= 4.3), R (< 4.3.99)
@@ -2107,3 +2088,22 @@ Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: otel (>= 0.2.0), processx (>= 3.6.1), R6, utils
+
+Package: openssl
+Version: 2.4.2
+Depends: R (>= 4.3), R (< 4.3.99)
+Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
+License: MIT + file LICENSE
+File: openssl_2.4.2_b7_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/openssl/releases/download/2.4.2/openssl_2.4.2_b7_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2026-06-09 16:49:35 UTC; unix
+Filesize: 1363314
+SHA256: f757ad8e2e8e0a294d77ffcd273793037bb18e5e46a29e41dcb846c91bf65445
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: askpass
+SystemRequirements: OpenSSL >= 1.0.2
