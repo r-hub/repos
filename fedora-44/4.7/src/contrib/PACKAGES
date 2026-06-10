@@ -4682,25 +4682,6 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: openssl
-Version: 2.4.1
-Depends: R (>= 4.7), R (< 4.7.99)
-Imports: askpass
-Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
-License: MIT + file LICENSE
-File: openssl_2.4.1_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/openssl/releases/download/2.4.1/openssl_2.4.1_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-05-15 10:01:17 UTC; unix
-Filesize: 1399564
-SHA256: 0e5944625f85892fa75d39050db2bcfd421dfc2711bb637863b0bd29dd366626
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: OpenSSL >= 1.0.2
-
 Package: bslib
 Version: 0.11.0
 Depends: R (>= 2.10), R (>= 4.7), R (< 4.7.99)
@@ -5005,3 +4986,22 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: openssl
+Version: 2.4.2
+Depends: R (>= 4.7), R (< 4.7.99)
+Imports: askpass
+Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
+License: MIT + file LICENSE
+File: openssl_2.4.2_b4_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/openssl/releases/download/2.4.2/openssl_2.4.2_b4_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-06-10 11:07:02 UTC; unix
+Filesize: 1396681
+SHA256: ccadf5445eb11e747ab81b408260311f014de2825cdb71988e31147877b310d4
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: OpenSSL >= 1.0.2
