@@ -916,22 +916,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: tinytex
-Version: 0.59
-Depends: R (>= 4.7), R (< 4.7.99)
-Imports: xfun (>= 0.48)
-Suggests: testit, rstudioapi
-License: MIT + file LICENSE
-File: tinytex_0.59_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/tinytex/releases/download/0.59/tinytex_0.59_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.7.0; ; 2026-03-30 12:00:28 UTC; unix
-Filesize: 151333
-SHA256: fdb9c90db2d3b9ec79eaae184ebc0d3c74efcdcf626c66677948356e54ec2fe4
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: urlchecker
 Version: 1.0.1
 Depends: R (>= 3.3), R (>= 4.7), R (< 4.7.99)
@@ -1096,24 +1080,6 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: bookdown
-Version: 0.46
-Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
-Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.48), tinytex (>= 0.12), yaml (>= 2.1.19)
-Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, curl, rstudioapi, miniUI, rsconnect (>= 1.6.0), servr (>= 0.13), shiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat
-        (>= 3.1.0), withr (>= 2.3.0)
-License: GPL-3
-File: bookdown_0.46_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/bookdown/releases/download/0.46/bookdown_0.46_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.7.0; ; 2026-03-30 12:15:59 UTC; unix
-Filesize: 1098451
-SHA256: f476c749132ad5bc0066efd8d5a9eac4218f2c4be49a9b5e5ce7df4b06138689
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: Pandoc (>= 1.17.2)
 
 Package: pkgdown
 Version: 2.2.0
@@ -5006,3 +4972,37 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: tinytex
+Version: 0.60
+Depends: R (>= 4.7), R (< 4.7.99)
+Imports: xfun (>= 0.48)
+Suggests: testit, rstudioapi
+License: MIT + file LICENSE
+File: tinytex_0.60_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/tinytex/releases/download/0.60/tinytex_0.60_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.7.0; ; 2026-06-16 19:54:13 UTC; unix
+Filesize: 151862
+SHA256: a4ec2b89116310543721173639527fe4865d0b034a0a847e646c694f1e52558c
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: bookdown
+Version: 0.47
+Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
+Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.48), tinytex (>= 0.12), yaml (>= 2.1.19)
+Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, curl, rstudioapi, miniUI, rsconnect (>= 1.7.0), servr (>= 0.13), shiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat
+        (>= 3.1.0), withr (>= 2.3.0)
+License: GPL-3
+File: bookdown_0.47_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/bookdown/releases/download/0.47/bookdown_0.47_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.7.0; ; 2026-06-16 19:54:15 UTC; unix
+Filesize: 1099017
+SHA256: 0e7041a849fa4ef352d1887c59c29dd8c88a58dd1d6a50bfe4867d75965ecff3
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: Pandoc (>= 1.17.2)
