@@ -4438,26 +4438,6 @@ Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: terra
-Version: 1.9-27
-Depends: R (>= 3.5.0), methods, R (>= 4.7), R (< 4.7.99)
-Imports: Rcpp (>= 1.0-10)
-Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, leaflet (>= 2.2.1), htmlwidgets, future, future.apply
-License: GPL (>= 3)
-File: terra_1.9-27_b3_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-DownloadURL: https://github.com/cran/terra/releases/download/1.9-27/terra_1.9-27_b3_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-05-10 09:10:49 UTC; unix
-Filesize: 38951871
-SHA256: 2e28960c25fe280f5d2cef0c3d311b7a87529a1a669f51d6c66ba58a4da2db95
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-42
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
-LinkingTo: Rcpp
-
 Package: broom
 Version: 1.0.13
 Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
@@ -5007,3 +4987,23 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: terra
+Version: 1.9-34
+Depends: R (>= 3.5.0), methods, R (>= 4.7), R (< 4.7.99)
+Imports: Rcpp (>= 1.0-10)
+Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), igraph, deldir, XML, leaflet (>= 2.2.1), htmlwidgets, future, future.apply
+License: GPL (>= 3)
+File: terra_1.9-34_b4_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/terra/releases/download/1.9-34/terra_1.9-34_b4_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-06-20 10:16:38 UTC; unix
+Filesize: 40782476
+SHA256: 7ec462690fd2c7ce14e408bd4cb7c2e74d872148336c93d8c08d308ab08c6637
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
+LinkingTo: Rcpp
