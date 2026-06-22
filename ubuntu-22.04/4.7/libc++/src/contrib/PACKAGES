@@ -997,25 +997,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: xml2
-Version: 1.5.2
-Depends: R (>= 3.6.0), R (>= 4.7), R (< 4.7.99)
-Imports: cli, methods, rlang (>= 1.1.0)
-Suggests: covr, curl, httr, knitr, mockery, rmarkdown, testthat (>= 3.2.0), xslt
-License: MIT + file LICENSE
-File: xml2_1.5.2_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/xml2/releases/download/1.5.2/xml2_1.5.2_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 11:56:24 UTC; unix
-Filesize: 293724
-SHA256: ced6df68e8d9485a58115f936a056fa420a8d9f89cdd0a0e4d4dcbb4ec5a48d3
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
-
 Package: xopen
 Version: 1.0.1
 Depends: R (>= 3.1), R (>= 4.7), R (< 4.7.99)
@@ -1344,21 +1325,6 @@ DownloadURL: https://github.com/cran/labeling/releases/download/0.4.3/labeling_0
 Built: R 4.7.0; ; 2026-03-30 11:51:20 UTC; unix
 Filesize: 62849
 SHA256: 868cc3a246d372312b1061e394e417c42c8140f4a2175622c63e9a9934139754
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: listenv
-Version: 0.10.1
-Depends: R (>= 3.1.2), R (>= 4.7), R (< 4.7.99)
-Suggests: R.utils, R.rsp, markdown
-License: LGPL (>= 2.1)
-File: listenv_0.10.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/listenv/releases/download/0.10.1/listenv_0.10.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.7.0; ; 2026-03-30 11:51:23 UTC; unix
-Filesize: 127915
-SHA256: 72c0c73327427335ef40e9bc8d462ae6dcb4f2546c9f9efa1bb195555d9e8016
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
@@ -3618,22 +3584,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: dials
-Version: 1.4.3
-Depends: R (>= 4.1), scales (>= 1.3.0), R (>= 4.7), R (< 4.7.99)
-Imports: cli, DiceDesign, dplyr (>= 0.8.5), glue, hardhat (>= 1.1.0), lifecycle, pillar, purrr, rlang (>= 1.1.0), sfd, tibble, utils, vctrs (>= 0.3.8), withr
-Suggests: covr, ggplot2, kernlab, knitr, rmarkdown, rpart, testthat (>= 3.1.9), xml2
-License: MIT + file LICENSE
-File: dials_1.4.3_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/dials/releases/download/1.4.3/dials_1.4.3_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.7.0; ; 2026-04-11 17:22:07 UTC; unix
-Filesize: 472653
-SHA256: e86bd9cfcdcd0a4fb0c34f40743f8db35e24c47bb58a0f1bd0146fa0016c1998
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: GauPro
 Version: 0.2.17
 Depends: mixopt (> 0.1.0), numDeriv, rmarkdown, tidyr, R (>= 4.7), R (< 4.7.99)
@@ -4559,6 +4509,56 @@ DownloadURL: https://github.com/cran/shiny/releases/download/1.14.0/shiny_1.14.0
 Built: R 4.7.0; ; 2026-06-21 18:13:29 UTC; unix
 Filesize: 4583010
 SHA256: ec12d709d7d1b131cb010dada22e6aa66124b538fe2f6e07d492c0610011116e
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: xml2
+Version: 1.6.0
+Depends: R (>= 3.6.0), R (>= 4.7), R (< 4.7.99)
+Imports: cli, methods, rlang (>= 1.1.0)
+Suggests: covr, curl, httr, knitr, mockery, rmarkdown, testthat (>= 3.2.0), xslt
+License: MIT + file LICENSE
+File: xml2_1.6.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/xml2/releases/download/1.6.0/xml2_1.6.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-06-22 19:59:15 UTC; unix
+Filesize: 293717
+SHA256: dd036bfeea155f215b5f380d25c11e617555ace93196ffd94e300ec6298bccbd
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
+
+Package: listenv
+Version: 1.0.0
+Depends: R (>= 3.1.2), R (>= 4.7), R (< 4.7.99)
+Suggests: R.utils, R.rsp, markdown
+License: Apache License (>= 2)
+File: listenv_1.0.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/listenv/releases/download/1.0.0/listenv_1.0.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.7.0; ; 2026-06-22 19:59:14 UTC; unix
+Filesize: 131318
+SHA256: 4f2f78aee9b1f25b683432fcab02da9dfb19380b4fdc36fa32e88b02a549a657
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: dials
+Version: 1.4.4
+Depends: R (>= 4.1), scales (>= 1.3.0), R (>= 4.7), R (< 4.7.99)
+Imports: cli, DiceDesign, dplyr (>= 0.8.5), glue, hardhat (>= 1.1.0), lifecycle, pillar, purrr, rlang (>= 1.1.0), sfd, tibble, utils, vctrs (>= 0.3.8), withr
+Suggests: covr, ggplot2, kernlab, knitr, rmarkdown, rpart, testthat (>= 3.1.9), xml2
+License: MIT + file LICENSE
+File: dials_1.4.4_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/dials/releases/download/1.4.4/dials_1.4.4_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.7.0; ; 2026-06-22 19:59:18 UTC; unix
+Filesize: 491356
+SHA256: 3eb6599a8d84d1bbfc1b8a83c8a8a3be76780c29536265609fa7756324ba92f6
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
