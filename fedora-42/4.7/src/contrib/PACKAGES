@@ -1084,24 +1084,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc
 
-Package: shiny
-Version: 1.13.0
-Depends: methods, R (>= 3.1.2), R (>= 4.7), R (< 4.7.99)
-Imports: bslib (>= 0.6.0), cachem (>= 1.1.0), cli, commonmark (>= 2.0.0), fastmap (>= 1.1.1), fontawesome (>= 0.4.0), glue (>= 1.3.2), grDevices, htmltools (>= 0.5.4), httpuv (>= 1.5.2), jsonlite (>=
-        0.9.16), later (>= 1.0.0), lifecycle (>= 0.2.0), mime (>= 0.3), otel, promises (>= 1.5.0), R6 (>= 2.0), rlang (>= 0.4.10), sourcetools, tools, utils, withr, xtable
-Suggests: Cairo (>= 1.5-5), coro (>= 1.1.0), datasets, DT, dygraphs, future, ggplot2, knitr (>= 1.6), magrittr, markdown, mirai, otelsdk (>= 0.2.0), ragg, reactlog (>= 1.0.0), rmarkdown, sass,
-        showtext, testthat (>= 3.2.1), watcher, yaml
-License: MIT + file LICENSE
-File: shiny_1.13.0_b1_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-DownloadURL: https://github.com/cran/shiny/releases/download/1.13.0/shiny_1.13.0_b1_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-Built: R 4.7.0; ; 2026-03-30 10:17:56 UTC; unix
-Filesize: 4615281
-SHA256: 8a057b24063d239594fff7f879845b852081a0ae58371e3319fef9e1f2f6ad36
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-42
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: clock
 Version: 0.7.4
 Depends: R (>= 4.0.0), R (>= 4.7), R (< 4.7.99)
@@ -1362,21 +1344,6 @@ DownloadURL: https://github.com/cran/labeling/releases/download/0.4.3/labeling_0
 Built: R 4.7.0; ; 2026-03-30 09:50:59 UTC; unix
 Filesize: 68734
 SHA256: 51c9bee4566573e544881ffc68546c1e0e1770194457b417279d671dfa3e55fe
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-42
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: listenv
-Version: 0.10.1
-Depends: R (>= 3.1.2), R (>= 4.7), R (< 4.7.99)
-Suggests: R.utils, R.rsp, markdown
-License: LGPL (>= 2.1)
-File: listenv_0.10.1_b1_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-DownloadURL: https://github.com/cran/listenv/releases/download/0.10.1/listenv_0.10.1_b1_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-Built: R 4.7.0; ; 2026-03-30 09:51:01 UTC; unix
-Filesize: 132221
-SHA256: c2e5a0b3b866ca9e213d7d08f7a1b5494c6c82fb1cb2c8aeea915125947da1a8
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
@@ -5007,3 +4974,36 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
 LinkingTo: Rcpp
+
+Package: shiny
+Version: 1.14.0
+Depends: methods, R (>= 3.1.2), R (>= 4.7), R (< 4.7.99)
+Imports: bslib (>= 0.6.0), cachem (>= 1.1.0), cli, commonmark (>= 2.0.0), fastmap (>= 1.1.1), fontawesome (>= 0.4.0), glue (>= 1.3.2), grDevices, htmltools (>= 0.5.4), httpuv (>= 1.5.2), jsonlite (>=
+        0.9.16), later (>= 1.0.0), lifecycle (>= 0.2.0), mime (>= 0.3), otel, promises (>= 1.5.0), R6 (>= 2.0), rlang (>= 0.4.10), sourcetools, tools, utils, withr, xtable
+Suggests: Cairo (>= 1.5-5), coro (>= 1.1.0), datasets, DT, dygraphs, future, ggplot2, knitr (>= 1.6), magrittr, markdown, mirai, otelsdk (>= 0.2.0), ragg, reactlog (>= 1.0.0), rmarkdown, sass,
+        shinytest2, showtext, testthat (>= 3.2.1), watcher, yaml
+License: MIT + file LICENSE
+File: shiny_1.14.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/shiny/releases/download/1.14.0/shiny_1.14.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+Built: R 4.7.0; ; 2026-06-22 13:08:28 UTC; unix
+Filesize: 4686590
+SHA256: cd505e77968e4cffe211459aa882d481f72d256626ad1ebbc07725fbcdac3f17
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: listenv
+Version: 1.0.0
+Depends: R (>= 3.1.2), R (>= 4.7), R (< 4.7.99)
+Suggests: R.utils, R.rsp, markdown
+License: Apache License (>= 2)
+File: listenv_1.0.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/listenv/releases/download/1.0.0/listenv_1.0.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+Built: R 4.7.0; ; 2026-06-22 13:08:23 UTC; unix
+Filesize: 136048
+SHA256: d0f3797b1ec38e95048dfbd54b6a6fb565f317b090996c8077d8e6eedf4f313c
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
