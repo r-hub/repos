@@ -4761,25 +4761,6 @@ Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: duckdb
-Version: 1.5.4
-Depends: DBI, R (>= 4.2.0), R (>= 4.7), R (< 4.7.99)
-Imports: methods, utils
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, nanoarrow, rlang, sf, testthat (>= 3.0.0), tibble, vctrs, wk, withr
-License: MIT + file LICENSE
-File: duckdb_1.5.4_b3_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.5.4/duckdb_1.5.4_b3_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-06-19 11:44:24 UTC; unix
-Filesize: 317874990
-SHA256: ba722b23216e78f8a06638b62926a94abe997a397ae4a1dbc358c2912bde7636
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-42
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: xz (for building from source)
-
 Package: RcppArmadillo
 Version: 15.4.0-1
 Depends: R (>= 3.3.0), R (>= 4.7), R (< 4.7.99)
@@ -5007,3 +4988,22 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: duckdb
+Version: 1.5.4.2
+Depends: DBI, R (>= 4.2.0), R (>= 4.7), R (< 4.7.99)
+Imports: methods, utils
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, nanoarrow, rlang, sf, testthat (>= 3.0.0), tibble, vctrs, wk, withr
+License: MIT + file LICENSE
+File: duckdb_1.5.4.2_b4_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.5.4.2/duckdb_1.5.4.2_b4_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-06-29 12:13:01 UTC; unix
+Filesize: 317896713
+SHA256: 1cc0db78019b47b47857600fcf4c7ba4353d0493ddf89857bb0c960c20a68fde
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: xz (for building from source)
