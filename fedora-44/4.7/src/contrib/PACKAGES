@@ -2408,22 +2408,6 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: doBy
-Version: 4.7.1
-Depends: R (>= 4.2.0), methods, R (>= 4.7), R (< 4.7.99)
-Imports: boot, broom, cowplot, Deriv, dplyr, forecast, ggplot2, MASS, Matrix, modelr, microbenchmark, rlang, purrr, tibble, tidyr,
-Suggests: geepack, knitr, lme4, markdown, rmarkdown, multcomp, pbkrtest (>= 0.5.2), survival, testthat (>= 2.1.0)
-License: GPL (>= 2)
-File: doBy_4.7.1_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/doBy/releases/download/4.7.1/doBy_4.7.1_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-Built: R 4.7.0; ; 2026-03-30 18:49:34 UTC; unix
-Filesize: 4864062
-SHA256: 626b3ff829b3aea3cc5a3549a9ab7d0123cbf7933e3a03342b3059416a9f0b89
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: forecast
 Version: 9.0.2
 Depends: R (>= 4.1.0), R (>= 4.7), R (< 4.7.99)
@@ -4306,23 +4290,6 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: lava
-Version: 1.9.1
-Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
-Imports: cli, future.apply, graphics, grDevices, methods, numDeriv, progressr, stats, survival, SQUAREM, utils
-Suggests: KernSmooth, Rgraphviz, data.table, ellipse, fields, future, geepack, graph, knitr, rmarkdown, igraph (>= 0.6), lavaSearch2, lme4 (>= 1.1.35.1), MASS, Matrix (>= 1.6.3), mets (>= 1.1), nlme,
-        optimx, polycor, quantreg, rgl, svglite, targeted (>= 0.4), testthat (>= 0.11), vdiffr, visNetwork
-License: Apache License (== 2.0)
-File: lava_1.9.1_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/lava/releases/download/1.9.1/lava_1.9.1_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-Built: R 4.7.0; ; 2026-05-15 10:01:13 UTC; unix
-Filesize: 2526323
-SHA256: b5c4cafad6ec19444955d21c9eb352e0f219e76138c94da1dff4082b40de6ff0
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: parsnip
 Version: 1.6.0
 Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
@@ -4671,25 +4638,6 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: RSQLite
-Version: 3.53.2
-Depends: R (>= 3.1.0), R (>= 4.7), R (< 4.7.99)
-Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
-Suggests: callr, cli, DBItest (>= 1.8.0), decor, gert, gh, hms, httpuv, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
-License: LGPL (>= 2.1)
-File: RSQLite_3.53.2_b4_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/RSQLite/releases/download/3.53.2/RSQLite_3.53.2_b4_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-06-17 11:59:44 UTC; unix
-Filesize: 5742144
-SHA256: 40b5660416552e501476a7b0926b2fa81d3e3d45d7a92e46c8f2632f28882fed
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cpp11 (>= 0.4.0)
-
 Package: dbplyr
 Version: 2.6.0
 Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
@@ -5007,3 +4955,55 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: doBy
+Version: 4.7.2
+Depends: R (>= 4.2.0), methods, R (>= 4.7), R (< 4.7.99)
+Imports: boot, broom, cowplot, Deriv, dplyr, forecast, ggplot2, MASS, Matrix, modelr, rlang, purrr, tibble, tidyr,
+Suggests: geepack, knitr, lme4, markdown, rmarkdown, multcomp, microbenchmark, pbkrtest (>= 0.5.2), survival, testthat (>= 2.1.0)
+License: GPL (>= 2)
+File: doBy_4.7.2_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/doBy/releases/download/4.7.2/doBy_4.7.2_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+Built: R 4.7.0; ; 2026-07-01 10:51:36 UTC; unix
+Filesize: 4884165
+SHA256: 1ea556f6ec4f960d526191ad6508f0e5d6f24d9a7f1c43c20a76f7d37610b5cb
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: lava
+Version: 1.9.2
+Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
+Imports: cli, future.apply, graphics, grDevices, methods, numDeriv, progressr, stats, survival, SQUAREM, utils
+Suggests: KernSmooth, Rgraphviz, data.table, ellipse, fields, future, geepack, graph, knitr, rmarkdown, igraph (>= 0.6), lavaSearch2, lme4 (>= 1.1.35.1), MASS, Matrix (>= 1.6.3), mets (>= 1.1), nlme,
+        optimx, polycor, quantreg, rgl, svglite, targeted (>= 0.4), testthat (>= 0.11), vdiffr, visNetwork
+License: Apache License (== 2.0)
+File: lava_1.9.2_b4_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/lava/releases/download/1.9.2/lava_1.9.2_b4_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+Built: R 4.7.0; ; 2026-07-01 10:51:36 UTC; unix
+Filesize: 2572260
+SHA256: 20576e283eb26518b840a807ab0d176c60d5ef93ba478454d64d067e23343c7d
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: RSQLite
+Version: 3.53.3
+Depends: R (>= 3.1.0), R (>= 4.7), R (< 4.7.99)
+Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods, pkgconfig, rlang
+Suggests: callr, cli, DBItest (>= 1.8.0), decor, gert, gh, hms, httpuv, knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr, xml2
+License: LGPL (>= 2.1)
+File: RSQLite_3.53.3_b5_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/RSQLite/releases/download/3.53.3/RSQLite_3.53.3_b5_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-01 10:51:39 UTC; unix
+Filesize: 5744320
+SHA256: 55c0b910dab7e2791c122f1c5c1862b68faf88bc515fa7d5b6696752358eb29b
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11 (>= 0.4.0)
