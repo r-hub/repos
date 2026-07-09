@@ -899,22 +899,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: urlchecker
-Version: 1.0.1
-Depends: R (>= 3.3), R (>= 4.7), R (< 4.7.99)
-Imports: cli, curl, tools, xml2
-Suggests: covr
-License: GPL-3
-File: urlchecker_1.0.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/urlchecker/releases/download/1.0.1/urlchecker_1.0.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.7.0; ; 2026-03-30 12:00:38 UTC; unix
-Filesize: 36486
-SHA256: b86c725e3894e2f8e46642b6ebacd4ef8f7e4f5372ab0b28695d209bd3a1969b
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: usethis
 Version: 3.2.1
 Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
@@ -4642,24 +4626,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: xfun
-Version: 0.59
-Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
-Imports: grDevices, stats, tools
-Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.6), commonmark, knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, data.table, qs2
-License: MIT + file LICENSE
-File: xfun_0.59_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/xfun/releases/download/0.59/xfun_0.59_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-06-19 18:12:36 UTC; unix
-Filesize: 654390
-SHA256: f879b692f826c40e392d3db7f043aa05b2c810c1f26d78029f6286cc86831979
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: shiny
 Version: 1.14.0
 Depends: methods, R (>= 3.1.2), R (>= 4.7), R (< 4.7.99)
@@ -5003,6 +4969,40 @@ DownloadURL: https://github.com/cran/kableExtra/releases/download/1.4.1/kableExt
 Built: R 4.7.0; ; 2026-07-08 17:55:23 UTC; unix
 Filesize: 2072915
 SHA256: 1592f9d16bdd59d5d32ca0fa3657c46844b575d410dbd51bcacf68bf329c8750
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: urlchecker
+Version: 2.0.0
+Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
+Imports: cli, curl, gitcreds, rlang (>= 1.1.0), tools, utils, xml2
+Suggests: covr, testthat (>= 3.0.0), webfakes, withr
+License: GPL-3
+File: urlchecker_2.0.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/urlchecker/releases/download/2.0.0/urlchecker_2.0.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.7.0; ; 2026-07-09 18:14:22 UTC; unix
+Filesize: 80919
+SHA256: 590db85d7eca6a1f5b2be414a2f0d72a89e0dc7536529122bca2398aff22cdef
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: xfun
+Version: 0.60
+Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
+Imports: grDevices, stats, tools
+Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.6), commonmark, knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, data.table, qs2
+License: MIT + file LICENSE
+File: xfun_0.60_b4_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/xfun/releases/download/0.60/xfun_0.60_b4_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-09 18:14:21 UTC; unix
+Filesize: 663443
+SHA256: 717b20080998d394ef4280808b2ba499a428c44d3a65119a0517c8ab59c8004e
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
