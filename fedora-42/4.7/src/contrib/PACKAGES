@@ -2846,22 +2846,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: DHARMa, performance
 LinkingTo: Matrix (>= 1.5-0), Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4)
 
-Package: litedown
-Version: 0.9
-Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
-Imports: utils, commonmark (>= 2.0.0), xfun (>= 0.55)
-Suggests: rbibutils, rstudioapi, tinytex
-License: MIT + file LICENSE
-File: litedown_0.9_b1_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-DownloadURL: https://github.com/cran/litedown/releases/download/0.9/litedown_0.9_b1_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-Built: R 4.7.0; ; 2026-03-30 10:00:47 UTC; unix
-Filesize: 390651
-SHA256: ffcfd9d42a5544644f6b1431ba7e70e3bc155b0c46f7df0af4a985cffa59273b
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-42
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: markdown
 Version: 2.0
 Depends: R (>= 2.11.1), R (>= 4.7), R (< 4.7.99)
@@ -4797,25 +4781,6 @@ Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: duckdb
-Version: 1.5.4.2
-Depends: DBI, R (>= 4.2.0), R (>= 4.7), R (< 4.7.99)
-Imports: methods, utils
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, nanoarrow, rlang, sf, testthat (>= 3.0.0), tibble, vctrs, wk, withr
-License: MIT + file LICENSE
-File: duckdb_1.5.4.2_b4_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.5.4.2/duckdb_1.5.4.2_b4_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-06-29 12:13:01 UTC; unix
-Filesize: 317896713
-SHA256: 1cc0db78019b47b47857600fcf4c7ba4353d0493ddf89857bb0c960c20a68fde
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-42
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: xz (for building from source)
-
 Package: parallelly
 Version: 1.48.0
 Depends: R (>= 4.7), R (< 4.7.99)
@@ -5007,3 +4972,38 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: litedown
+Version: 0.10
+Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
+Imports: utils, commonmark (>= 2.0.0), xfun (>= 0.55)
+Suggests: rbibutils, rstudioapi, testit, tinyimg, tinytex
+License: MIT + file LICENSE
+File: litedown_0.10_b2_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/litedown/releases/download/0.10/litedown_0.10_b2_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+Built: R 4.7.0; ; 2026-07-11 09:01:53 UTC; unix
+Filesize: 402584
+SHA256: 23bf20adf347e4373d495dfb72daf2b2c73e1b312b6b2846dfa5767f66df6882
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: duckdb
+Version: 1.5.4.3
+Depends: DBI, R (>= 4.2.0), R (>= 4.7), R (< 4.7.99)
+Imports: methods, utils
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, nanoarrow, rlang, sf, testthat (>= 3.0.0), tibble, vctrs, wk, withr
+License: MIT + file LICENSE
+File: duckdb_1.5.4.3_b5_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/1.5.4.3/duckdb_1.5.4.3_b5_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-11 09:01:55 UTC; unix
+Filesize: 317895239
+SHA256: f33db7da159d575b189e4ef0215ea115f2339b8150010f529b1738973024deff
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: xz (for building from source)
