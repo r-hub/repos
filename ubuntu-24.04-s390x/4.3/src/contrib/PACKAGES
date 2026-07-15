@@ -1438,24 +1438,6 @@ Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltoo
         2.1.19)
 SystemRequirements: pandoc (>= 1.14) - http://pandoc.org
 
-Package: nlme
-Version: 3.1-169
-Depends: R (>= 3.6.0), R (>= 4.3), R (< 4.3.99)
-Suggests: MASS, SASmixed
-License: GPL (>= 2)
-File: nlme_3.1-169_b3_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/nlme/releases/download/3.1-169/nlme_3.1-169_b3_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2026-03-28 14:55:14 UTC; unix
-Filesize: 2436557
-SHA256: 30bcd4b7a23a005648c31d1b3d9b956829a43d6e6c3b9671069d02e7cabe797b
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: graphics, stats, utils, lattice
-
 Package: vroom
 Version: 1.7.1
 Depends: R (>= 4.1), R (>= 4.3), R (< 4.3.99)
@@ -2108,3 +2090,21 @@ Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: graphics, grDevices, stats
+
+Package: nlme
+Version: 3.1-170
+Depends: R (>= 3.6.0), R (>= 4.3), R (< 4.3.99)
+Suggests: MASS
+License: GPL (>= 2)
+File: nlme_3.1-170_b4_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/nlme/releases/download/3.1-170/nlme_3.1-170_b4_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2026-07-15 15:55:10 UTC; unix
+Filesize: 2435496
+SHA256: 77168503981373712114869308267848d46390e15230be6fa0c7004250f1ba26
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: graphics, stats, utils, lattice
