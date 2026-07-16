@@ -3286,26 +3286,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: lme4
-Version: 2.0-1
-Depends: R (>= 3.6), Matrix, methods, stats, R (>= 4.7), R (< 4.7.99)
-Imports: MASS, Rdpack, boot, graphics, grid, lattice, minqa (>= 1.1.15), nlme (>= 3.1-123), nloptr (>= 1.0.4), parallel, reformulas (>= 0.4.3.1), rlang, splines, utils
-Suggests: HSAUR3, MEMSS, car, dfoptim, gamm4, ggplot2, glmmTMB, knitr, merDeriv, mgcv, mlmRev, numDeriv, optimx (>= 2013.8.6), pbkrtest, rmarkdown, rr2, semEff, statmod, testthat (>= 0.8.1), tibble
-License: GPL (>= 2)
-File: lme4_2.0-1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/lme4/releases/download/2.0-1/lme4_2.0-1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-08 17:58:57 UTC; unix
-Filesize: 4561350
-SHA256: eebd692e85bc4eb1366c8d2b85352f96841972dea0df0ed91176afc8a340e007
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: DHARMa, performance
-LinkingTo: Matrix (>= 1.5-0), Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4)
-
 Package: randomForest
 Version: 4.7-1.2
 Depends: R (>= 4.1.0), stats, R (>= 4.7), R (< 4.7.99)
@@ -4027,25 +4007,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: pak
-Version: 0.10.0
-Depends: R (>= 3.5), R (>= 4.7), R (< 4.7.99)
-Imports: tools, utils
-Suggests: callr (>= 3.7.0), cli (>= 3.2.0), covr, curl (>= 4.3.2), desc (>= 1.4.1), filelock (>= 1.0.2), gitcreds, glue (>= 1.6.2), jsonlite (>= 1.8.0), keyring (>= 1.4.0), pingr, pkgbuild (>=
-        1.4.2), pkgcache (>= 2.2.4), pkgdepends (>= 0.9.0), pkgload, pkgsearch (>= 3.1.0), processx (>= 3.8.1), ps (>= 1.6.0), rstudioapi, testthat (>= 3.2.0), webfakes, withr, yaml
-License: GPL-3
-File: pak_0.10.0_b5_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/pak/releases/download/0.10.0/pak_0.10.0_b5_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-06-07 17:57:51 UTC; unix
-Filesize: 7093194
-SHA256: a052227eb114b7f1a39fd3d031597c706042194502c680963c499550c2a74f16
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: openssl
 Version: 2.4.2
 Depends: R (>= 4.7), R (< 4.7.99)
@@ -4559,6 +4520,81 @@ DownloadURL: https://github.com/cran/httr2/releases/download/1.3.0/httr2_1.3.0_b
 Built: R 4.7.0; ; 2026-07-14 17:54:07 UTC; unix
 Filesize: 985779
 SHA256: 31001a1d1cd21a6772c970ed8298931e77397f165de2e556540ec749c8768acd
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: MASS
+Version: 7.3-66
+Depends: R (>= 4.4.0), grDevices, graphics, stats, utils, R (>= 4.7), R (< 4.7.99)
+Imports: methods
+Suggests: lattice, nlme, nnet, survival
+License: GPL-2 | GPL-3
+File: MASS_7.3-66_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/MASS/releases/download/7.3-66/MASS_7.3-66_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-16 17:58:15 UTC; unix
+Filesize: 1144761
+SHA256: cb6a8a1be1457a61ff4cee7f6c4ebcd30e97011c26afbbcdd895de27668d1404
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: nlme
+Version: 3.1-170
+Depends: R (>= 3.6.0), R (>= 4.7), R (< 4.7.99)
+Imports: graphics, stats, utils, lattice
+Suggests: MASS
+License: GPL (>= 2)
+File: nlme_3.1-170_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/nlme/releases/download/3.1-170/nlme_3.1-170_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-16 17:58:16 UTC; unix
+Filesize: 2389126
+SHA256: 529906da564233578e8e5ce48b426ef7f57f828d3d9e6f2c17eca49afde970a3
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: lme4
+Version: 2.0-6
+Depends: R (>= 3.6), Matrix, methods, stats, R (>= 4.7), R (< 4.7.99)
+Imports: MASS, Rdpack, boot, graphics, grid, lattice, minqa (>= 1.1.15), nlme (>= 3.1-123), nloptr (>= 1.0.4), parallel, reformulas (>= 0.4.3.1), splines, utils
+Suggests: DHARMa, HSAUR3, MEMSS, car, dfoptim, future.apply, gamm4, ggplot2, glmmTMB, gridExtra, knitr, merDeriv, mgcv, mlmRev, numDeriv, optimx (>= 2013.8.6), pbkrtest, performance, rmarkdown, rr2,
+        see, semEff, statmod, testthat (>= 0.8.1), tibble
+License: GPL (>= 2)
+File: lme4_2.0-6_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/lme4/releases/download/2.0-6/lme4_2.0-6_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-16 17:58:38 UTC; unix
+Filesize: 5566067
+SHA256: f72d1a227b5c01468ddbd4c5e9a01e336e9e5976defd8a8458b75b690eba3eb7
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Matrix (>= 1.5-0), Rcpp (>= 1.1.1-1.1), RcppEigen (>= 0.3.3.9.4)
+
+Package: pak
+Version: 0.11.0
+Depends: R (>= 3.5), R (>= 4.7), R (< 4.7.99)
+Imports: tools, utils
+Suggests: callr (>= 3.7.0), cli (>= 3.2.0), covr, curl (>= 4.3.2), desc (>= 1.4.1), filelock (>= 1.0.2), gitcreds, glue (>= 1.6.2), jsonlite (>= 1.8.0), keyring (>= 1.4.0), pingr, pkgbuild (>=
+        1.4.2), pkgcache (>= 2.2.4), pkgdepends (>= 0.9.0), pkgload, pkgsearch (>= 3.1.0), processx (>= 3.8.1), ps (>= 1.6.0), rstudioapi, testthat (>= 3.2.0), webfakes, withr, yaml
+License: GPL-3
+File: pak_0.11.0_b6_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/pak/releases/download/0.11.0/pak_0.11.0_b6_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-16 17:58:19 UTC; unix
+Filesize: 7254490
+SHA256: 76b567ed53b5c60a8b8a58ff11dfc546c20ff5e80eaefaa7eb44b68154cf5016
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
 GraphicsAPIVersion: 17
