@@ -2807,26 +2807,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libpng
 LinkingTo: cpp11, systemfonts, textshaping
 
-Package: lme4
-Version: 2.0-1
-Depends: R (>= 3.6), Matrix, methods, stats, R (>= 4.7), R (< 4.7.99)
-Imports: MASS, Rdpack, boot, graphics, grid, lattice, minqa (>= 1.1.15), nlme (>= 3.1-123), nloptr (>= 1.0.4), parallel, reformulas (>= 0.4.3.1), rlang, splines, utils
-Suggests: HSAUR3, MEMSS, car, dfoptim, gamm4, ggplot2, glmmTMB, knitr, merDeriv, mgcv, mlmRev, numDeriv, optimx (>= 2013.8.6), pbkrtest, rmarkdown, rr2, semEff, statmod, testthat (>= 0.8.1), tibble
-License: GPL (>= 2)
-File: lme4_2.0-1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/lme4/releases/download/2.0-1/lme4_2.0-1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 12:22:11 UTC; unix
-Filesize: 9419731
-SHA256: 1680d4aa53fa581d803eebe14c44d4e20ea866914c3951cc155955f79deef3a0
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: DHARMa, performance
-LinkingTo: Matrix (>= 1.5-0), Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4)
-
 Package: markdown
 Version: 2.0
 Depends: R (>= 2.11.1), R (>= 4.7), R (< 4.7.99)
@@ -4380,25 +4360,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: pak
-Version: 0.10.0
-Depends: R (>= 3.5), R (>= 4.7), R (< 4.7.99)
-Imports: tools, utils
-Suggests: callr (>= 3.7.0), cli (>= 3.2.0), covr, curl (>= 4.3.2), desc (>= 1.4.1), filelock (>= 1.0.2), gitcreds, glue (>= 1.6.2), jsonlite (>= 1.8.0), keyring (>= 1.4.0), pingr, pkgbuild (>=
-        1.4.2), pkgcache (>= 2.2.4), pkgdepends (>= 0.9.0), pkgload, pkgsearch (>= 3.1.0), processx (>= 3.8.1), ps (>= 1.6.0), rstudioapi, testthat (>= 3.2.0), webfakes, withr, yaml
-License: GPL-3
-File: pak_0.10.0_b5_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/pak/releases/download/0.10.0/pak_0.10.0_b5_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-06-07 17:43:51 UTC; unix
-Filesize: 7752191
-SHA256: 9df3525205fd1fa848f3fe0cbfce5d748311260c03bf506eb201b5dd445de9df
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: openssl
 Version: 2.4.2
 Depends: R (>= 4.7), R (< 4.7.99)
@@ -5003,6 +4964,81 @@ DownloadURL: https://github.com/cran/httr2/releases/download/1.3.0/httr2_1.3.0_b
 Built: R 4.7.0; ; 2026-07-14 17:38:15 UTC; unix
 Filesize: 989416
 SHA256: 43a570f9114eabfd63a59c84f9faf18aaa2954169200d2c5f777a98d76068b53
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: MASS
+Version: 7.3-66
+Depends: R (>= 4.4.0), grDevices, graphics, stats, utils, R (>= 4.7), R (< 4.7.99)
+Imports: methods
+Suggests: lattice, nlme, nnet, survival
+License: GPL-2 | GPL-3
+File: MASS_7.3-66_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/MASS/releases/download/7.3-66/MASS_7.3-66_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-16 17:43:52 UTC; unix
+Filesize: 1160229
+SHA256: ee3a81f8db788bfec11e2bc16ee7a7019246f02c0726105e6430eac8217e742d
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: nlme
+Version: 3.1-170
+Depends: R (>= 3.6.0), R (>= 4.7), R (< 4.7.99)
+Imports: graphics, stats, utils, lattice
+Suggests: MASS
+License: GPL (>= 2)
+File: nlme_3.1-170_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/nlme/releases/download/3.1-170/nlme_3.1-170_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-16 17:43:52 UTC; unix
+Filesize: 2467379
+SHA256: bc91ffd425ea7002ee1e2b600a70986d30c2d22d11a915e04ee2efad4e2db671
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: lme4
+Version: 2.0-6
+Depends: R (>= 3.6), Matrix, methods, stats, R (>= 4.7), R (< 4.7.99)
+Imports: MASS, Rdpack, boot, graphics, grid, lattice, minqa (>= 1.1.15), nlme (>= 3.1-123), nloptr (>= 1.0.4), parallel, reformulas (>= 0.4.3.1), splines, utils
+Suggests: DHARMa, HSAUR3, MEMSS, car, dfoptim, future.apply, gamm4, ggplot2, glmmTMB, gridExtra, knitr, merDeriv, mgcv, mlmRev, numDeriv, optimx (>= 2013.8.6), pbkrtest, performance, rmarkdown, rr2,
+        see, semEff, statmod, testthat (>= 0.8.1), tibble
+License: GPL (>= 2)
+File: lme4_2.0-6_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/lme4/releases/download/2.0-6/lme4_2.0-6_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-16 17:44:12 UTC; unix
+Filesize: 10423191
+SHA256: 3eb87c82fe8816d534a884aeaa63436868c847e9850f0e152f1a967b228d6b35
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Matrix (>= 1.5-0), Rcpp (>= 1.1.1-1.1), RcppEigen (>= 0.3.3.9.4)
+
+Package: pak
+Version: 0.11.0
+Depends: R (>= 3.5), R (>= 4.7), R (< 4.7.99)
+Imports: tools, utils
+Suggests: callr (>= 3.7.0), cli (>= 3.2.0), covr, curl (>= 4.3.2), desc (>= 1.4.1), filelock (>= 1.0.2), gitcreds, glue (>= 1.6.2), jsonlite (>= 1.8.0), keyring (>= 1.4.0), pingr, pkgbuild (>=
+        1.4.2), pkgcache (>= 2.2.4), pkgdepends (>= 0.9.0), pkgload, pkgsearch (>= 3.1.0), processx (>= 3.8.1), ps (>= 1.6.0), rstudioapi, testthat (>= 3.2.0), webfakes, withr, yaml
+License: GPL-3
+File: pak_0.11.0_b6_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/pak/releases/download/0.11.0/pak_0.11.0_b6_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-16 17:43:56 UTC; unix
+Filesize: 8089605
+SHA256: f9c2ce4699f0184fda6248923b448aac371d473a1f3916a92c05b231342eabe3
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
