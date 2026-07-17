@@ -2807,26 +2807,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libpng
 LinkingTo: cpp11, systemfonts, textshaping
 
-Package: lme4
-Version: 2.0-1
-Depends: R (>= 3.6), Matrix, methods, stats, R (>= 4.7), R (< 4.7.99)
-Imports: MASS, Rdpack, boot, graphics, grid, lattice, minqa (>= 1.1.15), nlme (>= 3.1-123), nloptr (>= 1.0.4), parallel, reformulas (>= 0.4.3.1), rlang, splines, utils
-Suggests: HSAUR3, MEMSS, car, dfoptim, gamm4, ggplot2, glmmTMB, knitr, merDeriv, mgcv, mlmRev, numDeriv, optimx (>= 2013.8.6), pbkrtest, rmarkdown, rr2, semEff, statmod, testthat (>= 0.8.1), tibble
-License: GPL (>= 2)
-File: lme4_2.0-1_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/lme4/releases/download/2.0-1/lme4_2.0-1_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 18:50:07 UTC; unix
-Filesize: 9652938
-SHA256: 690a963c44618ccebb07cff2de712c8398aa28cec2ed149c940e7c1888efdc3c
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Enhances: DHARMa, performance
-LinkingTo: Matrix (>= 1.5-0), Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4)
-
 Package: markdown
 Version: 2.0
 Depends: R (>= 2.11.1), R (>= 4.7), R (< 4.7.99)
@@ -3997,27 +3977,6 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: arrow
-Version: 24.0.0
-Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
-Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
-Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.3.0),
-        tibble, tzdb, withr
-License: Apache License (>= 2.0)
-File: arrow_24.0.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/arrow/releases/download/24.0.0/arrow_24.0.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-30 09:53:11 UTC; unix
-Filesize: 210315405
-SHA256: b923b91f72afacb1fab2062fecd6d73b5e71282892a8ea8d9b8143d2e9a71c3b
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++20; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.26 (build-time only, and only for full source build)
-LinkingTo: cpp11 (>= 0.4.2)
-
 Package: devtools
 Version: 2.5.2
 Depends: R (>= 4.1), usethis (>= 3.2.1), R (>= 4.7), R (< 4.7.99)
@@ -5007,3 +4966,80 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: MASS
+Version: 7.3-66
+Depends: R (>= 4.4.0), grDevices, graphics, stats, utils, R (>= 4.7), R (< 4.7.99)
+Imports: methods
+Suggests: lattice, nlme, nnet, survival
+License: GPL-2 | GPL-3
+File: MASS_7.3-66_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/MASS/releases/download/7.3-66/MASS_7.3-66_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-17 09:25:28 UTC; unix
+Filesize: 1267151
+SHA256: ab3629fee50a38b6dab7e376c3cfc7e252b139b707e9993155527a15a656453e
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: nlme
+Version: 3.1-170
+Depends: R (>= 3.6.0), R (>= 4.7), R (< 4.7.99)
+Imports: graphics, stats, utils, lattice
+Suggests: MASS
+License: GPL (>= 2)
+File: nlme_3.1-170_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/nlme/releases/download/3.1-170/nlme_3.1-170_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-17 09:25:28 UTC; unix
+Filesize: 2641538
+SHA256: 5b04946548dc082f0b365301adddd3c6f1398688b709a1d531a1c6517efa68af
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: lme4
+Version: 2.0-6
+Depends: R (>= 3.6), Matrix, methods, stats, R (>= 4.7), R (< 4.7.99)
+Imports: MASS, Rdpack, boot, graphics, grid, lattice, minqa (>= 1.1.15), nlme (>= 3.1-123), nloptr (>= 1.0.4), parallel, reformulas (>= 0.4.3.1), splines, utils
+Suggests: DHARMa, HSAUR3, MEMSS, car, dfoptim, future.apply, gamm4, ggplot2, glmmTMB, gridExtra, knitr, merDeriv, mgcv, mlmRev, numDeriv, optimx (>= 2013.8.6), pbkrtest, performance, rmarkdown, rr2,
+        see, semEff, statmod, testthat (>= 0.8.1), tibble
+License: GPL (>= 2)
+File: lme4_2.0-6_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/lme4/releases/download/2.0-6/lme4_2.0-6_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-17 09:25:47 UTC; unix
+Filesize: 10649187
+SHA256: 8237a7c7b6705dc92b275276294c2e899705e4b09312d144517abb598170acf4
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Matrix (>= 1.5-0), Rcpp (>= 1.1.1-1.1), RcppEigen (>= 0.3.3.9.4)
+
+Package: arrow
+Version: 25.0.0
+Depends: R (>= 4.2), R (>= 4.7), R (< 4.7.99)
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.3.0),
+        tibble, tzdb, withr
+License: Apache License (>= 2.0)
+File: arrow_25.0.0_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/arrow/releases/download/25.0.0/arrow_25.0.0_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-17 09:46:22 UTC; unix
+Filesize: 211184290
+SHA256: 2882151944230e8aca07f40ab323f7d8355818051ab337f70a2ff71986fd2db2
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++20; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.26 (build-time only, and only for full source build)
+LinkingTo: cpp11 (>= 0.4.2)
