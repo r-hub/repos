@@ -1079,22 +1079,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: future
-Version: 1.70.0
-Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
-Imports: digest, globals (>= 0.18.0), listenv (>= 0.8.0), parallel, parallelly (>= 1.44.0), tools, utils
-Suggests: methods, RhpcBLASctl, R.rsp, markdown
-License: LGPL (>= 2.1)
-File: future_1.70.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/future/releases/download/1.70.0/future_1.70.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.7.0; ; 2026-03-30 12:10:18 UTC; unix
-Filesize: 993214
-SHA256: f3e32faa58b8f8084bab18feab4df75ac1c50da4450372c686a2f27402696410
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: future.apply
 Version: 1.20.2
 Depends: R (>= 3.2.0), future (>= 1.49.0), R (>= 4.7), R (< 4.7.99)
@@ -3061,24 +3045,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: sp
-Version: 2.2-1
-Depends: R (>= 3.5.0), methods, R (>= 4.7), R (< 4.7.99)
-Imports: utils, stats, graphics, grDevices, lattice, grid
-Suggests: RColorBrewer, gstat, deldir, knitr, maps, mapview, rmarkdown, sf, terra, raster
-License: GPL (>= 2)
-File: sp_2.2-1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/sp/releases/download/2.2-1/sp_2.2-1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 11:53:49 UTC; unix
-Filesize: 5346644
-SHA256: 046b8a48209f1f097b9dcfa8430583fd838f7a55953300810be8cd1c1f9b650b
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: hunspell
 Version: 3.0.6
 Depends: R (>= 3.0.2), R (>= 4.7), R (< 4.7.99)
@@ -4219,22 +4185,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: xclip (https://github.com/astrand/xclip) or xsel (http://www.vergenet.net/~conrad/software/xsel/) for accessing the X11 clipboard, or wl-clipboard
         (https://github.com/bugaevc/wl-clipboard) for systems using Wayland.
 
-Package: gh
-Version: 1.6.0
-Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
-Imports: cli (>= 3.0.1), gitcreds, glue, httr2 (>= 1.0.6), ini, jsonlite, lifecycle, rlang (>= 1.1.0)
-Suggests: connectcreds, covr, knitr, rmarkdown, rprojroot, spelling, testthat (>= 3.0.0), vctrs, webfakes (>= 1.5.0), withr
-License: MIT + file LICENSE
-File: gh_1.6.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/gh/releases/download/1.6.0/gh_1.6.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.7.0; ; 2026-05-29 18:44:43 UTC; unix
-Filesize: 175283
-SHA256: d509cbb8f43825c89a9336c33d9a727b3fda014a6544f32d2aef09094b853a9d
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: recipes
 Version: 1.3.3
 Depends: dplyr (>= 1.1.0), R (>= 4.1), R (>= 4.7), R (< 4.7.99)
@@ -5039,6 +4989,56 @@ Arch: amd64
 Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-18 17:26:48 UTC; unix
 Filesize: 1049293
 SHA256: 9b21694e5bee6eb440e9b040037a35b137f4707f9092dcc13038ff01d0a22271
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: future
+Version: 1.75.0
+Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
+Imports: digest, globals (>= 0.18.0), listenv (>= 0.8.0), parallel, parallelly (>= 1.44.0), tools, utils
+Suggests: methods, RhpcBLASctl, R.rsp, markdown
+License: Apache License (>= 2)
+File: future_1.75.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/future/releases/download/1.75.0/future_1.75.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.7.0; ; 2026-07-20 18:25:12 UTC; unix
+Filesize: 1027988
+SHA256: be59b11f4cbbcfb5bb466684d806e8a6e41c8f12aac13d5ce249998211456514
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: sp
+Version: 2.2-3
+Depends: R (>= 3.5.0), methods, R (>= 4.7), R (< 4.7.99)
+Imports: utils, stats, graphics, grDevices, lattice, grid
+Suggests: RColorBrewer, gstat, deldir, knitr, maps, mapview, rmarkdown, sf, terra, raster
+License: GPL (>= 2)
+File: sp_2.2-3_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/sp/releases/download/2.2-3/sp_2.2-3_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-20 18:25:11 UTC; unix
+Filesize: 5348279
+SHA256: 3a3f3e3e814db1bae8fdcfa4cf3dadba42678175838bf9556a9dc06c3d919d96
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: gh
+Version: 1.6.1
+Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
+Imports: cli (>= 3.0.1), gitcreds, glue, httr2 (>= 1.0.6), ini, jsonlite, lifecycle, rlang (>= 1.1.0)
+Suggests: connectcreds, covr, knitr, rmarkdown, rprojroot, spelling, testthat (>= 3.0.0), vctrs, webfakes (>= 1.5.0), withr
+License: MIT + file LICENSE
+File: gh_1.6.1_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/gh/releases/download/1.6.1/gh_1.6.1_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.7.0; ; 2026-07-20 18:24:39 UTC; unix
+Filesize: 175598
+SHA256: b5b78e92db9cbfaa4de80a7201d04fbb6cf987d758342472b5b1aa122659e581
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
