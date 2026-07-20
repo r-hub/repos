@@ -3061,24 +3061,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: sp
-Version: 2.2-1
-Depends: R (>= 3.5.0), methods, R (>= 4.7), R (< 4.7.99)
-Imports: utils, stats, graphics, grDevices, lattice, grid
-Suggests: RColorBrewer, gstat, deldir, knitr, maps, mapview, rmarkdown, sf, terra, raster
-License: GPL (>= 2)
-File: sp_2.2-1_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/sp/releases/download/2.2-1/sp_2.2-1_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 18:16:07 UTC; unix
-Filesize: 5449908
-SHA256: 63abd4342705ffca1094ce5a4f26078031b162a31b2d16b47e6c161815cc22d8
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: hunspell
 Version: 3.0.6
 Depends: R (>= 3.0.2), R (>= 4.7), R (< 4.7.99)
@@ -4199,22 +4181,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: xclip (https://github.com/astrand/xclip) or xsel (http://www.vergenet.net/~conrad/software/xsel/) for accessing the X11 clipboard, or wl-clipboard
         (https://github.com/bugaevc/wl-clipboard) for systems using Wayland.
 
-Package: gh
-Version: 1.6.0
-Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
-Imports: cli (>= 3.0.1), gitcreds, glue, httr2 (>= 1.0.6), ini, jsonlite, lifecycle, rlang (>= 1.1.0)
-Suggests: connectcreds, covr, knitr, rmarkdown, rprojroot, spelling, testthat (>= 3.0.0), vctrs, webfakes (>= 1.5.0), withr
-License: MIT + file LICENSE
-File: gh_1.6.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/gh/releases/download/1.6.0/gh_1.6.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-Built: R 4.7.0; ; 2026-05-30 09:27:26 UTC; unix
-Filesize: 183337
-SHA256: 6e1c33146a047d30bdde5f1dc2c00aa29e8c30fabc4837f292eb0f69bda3ceed
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: recipes
 Version: 1.3.3
 Depends: dplyr (>= 1.1.0), R (>= 4.1), R (>= 4.7), R (< 4.7.99)
@@ -5039,6 +5005,40 @@ Arch: amd64
 Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-18 09:05:13 UTC; unix
 Filesize: 1074070
 SHA256: 3ef1947680fc08ccef995bafd16574005eb1c4549c20d0a0f96129c6f39a2708
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: sp
+Version: 2.2-3
+Depends: R (>= 3.5.0), methods, R (>= 4.7), R (< 4.7.99)
+Imports: utils, stats, graphics, grDevices, lattice, grid
+Suggests: RColorBrewer, gstat, deldir, knitr, maps, mapview, rmarkdown, sf, terra, raster
+License: GPL (>= 2)
+File: sp_2.2-3_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/sp/releases/download/2.2-3/sp_2.2-3_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-20 10:22:51 UTC; unix
+Filesize: 5450830
+SHA256: 0a2955e49dfe2e9b99aaab1539bdd394193aa1e0448effc0e4fd9a8a3a13f925
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: gh
+Version: 1.6.1
+Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
+Imports: cli (>= 3.0.1), gitcreds, glue, httr2 (>= 1.0.6), ini, jsonlite, lifecycle, rlang (>= 1.1.0)
+Suggests: connectcreds, covr, knitr, rmarkdown, rprojroot, spelling, testthat (>= 3.0.0), vctrs, webfakes (>= 1.5.0), withr
+License: MIT + file LICENSE
+File: gh_1.6.1_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/gh/releases/download/1.6.1/gh_1.6.1_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+Built: R 4.7.0; ; 2026-07-20 10:22:52 UTC; unix
+Filesize: 183721
+SHA256: 0bfac4f91d36a5717541e161dc2e3f180a3d29db0f188f23fc2d7639ee16d071
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
