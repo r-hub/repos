@@ -231,25 +231,6 @@ Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: gert
-Version: 2.3.1
-Depends: R (>= 4.7), R (< 4.7.99)
-Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
-Suggests: spelling, knitr, rmarkdown, testthat
-License: MIT + file LICENSE
-File: gert_2.3.1_b1_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-DownloadURL: https://github.com/cran/gert/releases/download/2.3.1/gert_2.3.1_b1_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 10:01:21 UTC; unix
-Filesize: 376975
-SHA256: 1b1a86ecd57d5691f9dedc49b6e799b446f719a95adfe7dcf0f22c5ab3ebbf75
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-42
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
-
 Package: gitcreds
 Version: 0.1.2
 Depends: R (>= 3.4), R (>= 4.7), R (< 4.7.99)
@@ -2806,24 +2787,6 @@ Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: plotly
-Version: 4.12.0
-Depends: R (>= 3.5.0), ggplot2 (>= 3.0.0), R (>= 4.7), R (< 4.7.99)
-Imports: tools, scales, httr (>= 1.3.0), jsonlite (>= 1.6), magrittr, digest, viridisLite, base64enc, htmltools (>= 0.3.6), htmlwidgets (>= 1.5.2.9001), tidyr (>= 1.0.0), RColorBrewer, dplyr, vctrs,
-        tibble, lazyeval (>= 0.2.0), rlang (>= 1.0.0), crosstalk, purrr, data.table, promises
-Suggests: MASS, maps, hexbin, ggthemes, GGally, ggalluvial, testthat, knitr, shiny (>= 1.1.0), shinytest2, curl, rmarkdown, Cairo, broom, webshot, listviewer, dendextend, sf, png, IRdisplay,
-        processx, plotlyGeoAssets, forcats, withr, palmerpenguins, rversions, reticulate, rsvg, ggridges
-License: MIT + file LICENSE
-File: plotly_4.12.0_b1_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-DownloadURL: https://github.com/cran/plotly/releases/download/4.12.0/plotly_4.12.0_b1_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-Built: R 4.7.0; ; 2026-03-30 10:22:20 UTC; unix
-Filesize: 3980371
-SHA256: 80c6a948074a8c1c3b522fcd4093c1c781c85122c07d8c012570cad035733d4e
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-42
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: plyr
 Version: 1.8.9
 Depends: R (>= 3.1.0), R (>= 4.7), R (< 4.7.99)
@@ -5039,6 +5002,43 @@ DownloadURL: https://github.com/cran/future/releases/download/1.75.0/future_1.75
 Built: R 4.7.0; ; 2026-07-21 09:45:19 UTC; unix
 Filesize: 1066337
 SHA256: c099fb664dc062164d38328be518af5fd2f30217fdafb972ffac60f72a5e8662
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: gert
+Version: 2.4.0
+Depends: R (>= 4.7), R (< 4.7.99)
+Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
+Suggests: spelling, knitr, rmarkdown, testthat (>= 3.0.0), roxygen2
+License: MIT + file LICENSE
+File: gert_2.4.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/gert/releases/download/2.4.0/gert_2.4.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-22 09:43:23 UTC; unix
+Filesize: 422899
+SHA256: 2103818e4f07af6ae528542ced5d125e8a8d97adf2a6f04c956b152522a11ef4
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
+
+Package: plotly
+Version: 4.12.1
+Depends: R (>= 3.5.0), ggplot2 (>= 3.0.0), R (>= 4.7), R (< 4.7.99)
+Imports: tools, scales, httr (>= 1.3.0), jsonlite (>= 1.6), magrittr, digest, viridisLite, base64enc, htmltools (>= 0.3.6), htmlwidgets (>= 1.5.2.9001), tidyr (>= 1.0.0), RColorBrewer, dplyr, vctrs,
+        tibble, rlang (>= 1.0.0), crosstalk, purrr, data.table, promises
+Suggests: MASS, maps, hexbin, ggthemes, GGally, ggalluvial, testthat, knitr, shiny (>= 1.1.0), shinytest2, curl, rmarkdown, Cairo, broom, webshot, listviewer, dendextend, sf, png, IRdisplay,
+        processx, plotlyGeoAssets, forcats, withr, palmerpenguins, rversions, reticulate, rsvg, ggridges
+License: MIT + file LICENSE
+File: plotly_4.12.1_b2_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/plotly/releases/download/4.12.1/plotly_4.12.1_b2_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+Built: R 4.7.0; ; 2026-07-22 09:43:29 UTC; unix
+Filesize: 4088028
+SHA256: e021bc8a966c0f8801db679aedd45a07f32c23fa200af8a7e4f7670fd97f954c
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
