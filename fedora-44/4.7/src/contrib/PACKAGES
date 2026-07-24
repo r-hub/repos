@@ -3163,24 +3163,6 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: RcppParallel
-Version: 5.1.11-2
-Depends: R (>= 3.0.2), R (>= 4.7), R (< 4.7.99)
-Suggests: Rcpp, RUnit, knitr, rmarkdown
-License: GPL (>= 3)
-File: RcppParallel_5.1.11-2_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/RcppParallel/releases/download/5.1.11-2/RcppParallel_5.1.11-2_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 18:16:29 UTC; unix
-Filesize: 2033334
-SHA256: 2d55cc59384547ff06a79522fdcbb33d82699f4ceb618579c57a212242dce584
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make, Intel TBB, Windows: cmd.exe and cscript.exe, Solaris: g++ is required
-
 Package: rstan
 Version: 2.32.7
 Depends: R (>= 3.4.0), StanHeaders (>= 2.32.0), R (>= 4.7), R (< 4.7.99)
@@ -4452,23 +4434,6 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: loo
-Version: 2.10.0
-Depends: R (>= 3.5), R (>= 4.7), R (< 4.7.99)
-Imports: checkmate, matrixStats (>= 0.52), parallel, posterior (>= 1.7.0), stats
-Suggests: bayesplot (>= 1.7.0), brms (>= 2.10.0), ggplot2, graphics, knitr, rmarkdown, rstan, rstanarm (>= 2.19.0), rstantools, spdep, testthat (>= 3.0)
-License: GPL (>= 3)
-File: loo_2.10.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/loo/releases/download/2.10.0/loo_2.10.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-Built: R 4.7.0; ; 2026-06-26 10:32:14 UTC; unix
-Filesize: 1927466
-SHA256: 0c11fe661384b154c47ea9f38569f84bd47b328712acd09987c29229a71726b5
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
-
 Package: igraph
 Version: 2.3.3
 Depends: methods, R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
@@ -5046,3 +5011,38 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: RcppParallel
+Version: 6.0.0
+Depends: R (>= 3.6.0), R (>= 4.7), R (< 4.7.99)
+Suggests: Rcpp, RUnit, knitr, rmarkdown
+License: GPL (>= 3)
+File: RcppParallel_6.0.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/RcppParallel/releases/download/6.0.0/RcppParallel_6.0.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-24 09:40:34 UTC; unix
+Filesize: 3148890
+SHA256: ed58ba0d3237556eb44a04382a70a0204ca26e1580b6745ceecce3bb33634d71
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: CMake (>= 3.5)
+
+Package: loo
+Version: 2.10.1
+Depends: R (>= 3.5), R (>= 4.7), R (< 4.7.99)
+Imports: checkmate, matrixStats (>= 0.52), parallel, posterior (>= 1.7.0), stats
+Suggests: bayesplot (>= 1.7.0), brms (>= 2.10.0), ggplot2, graphics, knitr, rmarkdown, rstan, rstanarm (>= 2.19.0), rstantools, spdep, testthat (>= 3.0)
+License: GPL (>= 3)
+File: loo_2.10.1_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/loo/releases/download/2.10.1/loo_2.10.1_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+Built: R 4.7.0; ; 2026-07-24 09:40:35 UTC; unix
+Filesize: 1929091
+SHA256: 86d3ce8ed3e224785aab75dd491ad0bd6e8a3577a21050133e15bde63786b2ad
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
