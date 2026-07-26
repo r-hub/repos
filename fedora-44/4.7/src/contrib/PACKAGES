@@ -3205,23 +3205,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, pandoc (>= 1.12.3), pandoc-citeproc
 LinkingTo: StanHeaders (>= 2.32.0), rstan (>= 2.32.0), BH (>= 1.72.0-2), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0), RcppParallel (>= 5.0.1)
 
-Package: rstantools
-Version: 2.6.0
-Depends: R (>= 4.7), R (< 4.7.99)
-Imports: desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1)
-Suggests: rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0), knitr, pkgbuild, pkgload, roxygen2 (>= 6.0.1), rmarkdown, rstudioapi
-License: GPL (>= 3)
-File: rstantools_2.6.0_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/rstantools/releases/download/2.6.0/rstantools_2.6.0_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-Built: R 4.7.0; ; 2026-03-30 18:52:33 UTC; unix
-Filesize: 166921
-SHA256: ace6dc28d11d84eb600ad9f05789194084913288e44019893dc522140761b76d
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc
-
 Package: shinyjs
 Version: 2.1.1
 Depends: R (>= 3.1.0), R (>= 4.7), R (< 4.7.99)
@@ -4295,25 +4278,6 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: RcppArmadillo
-Version: 15.4.0-1
-Depends: R (>= 3.3.0), R (>= 4.7), R (< 4.7.99)
-Imports: Rcpp (>= 1.1.1), stats, utils, methods
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-License: GPL (>= 2)
-File: RcppArmadillo_15.4.0-1_b4_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/15.4.0-1/RcppArmadillo_15.4.0-1_b4_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-06-19 11:44:58 UTC; unix
-Filesize: 2050311
-SHA256: bdcefbb75eac096c82abfebe281a5686f3bcbcdadec845c9f6c283b88ee9edb1
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: terra
 Version: 1.9-34
 Depends: R (>= 3.5.0), methods, R (>= 4.7), R (< 4.7.99)
@@ -4993,24 +4957,6 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: RcppParallel
-Version: 6.0.0
-Depends: R (>= 3.6.0), R (>= 4.7), R (< 4.7.99)
-Suggests: Rcpp, RUnit, knitr, rmarkdown
-License: GPL (>= 3)
-File: RcppParallel_6.0.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/RcppParallel/releases/download/6.0.0/RcppParallel_6.0.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-24 09:40:34 UTC; unix
-Filesize: 3148890
-SHA256: ed58ba0d3237556eb44a04382a70a0204ca26e1580b6745ceecce3bb33634d71
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: CMake (>= 3.5)
-
 Package: loo
 Version: 2.10.1
 Depends: R (>= 3.5), R (>= 4.7), R (< 4.7.99)
@@ -5046,3 +4992,57 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: xz (for building from source)
+
+Package: rstantools
+Version: 2.7.0
+Depends: R (>= 4.7), R (< 4.7.99)
+Imports: desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1), QuickJSR
+Suggests: rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0), knitr, pkgbuild, pkgload, roxygen2 (>= 7.0.0), rmarkdown, rstudioapi
+License: GPL (>= 3)
+File: rstantools_2.7.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/rstantools/releases/download/2.7.0/rstantools_2.7.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+Built: R 4.7.0; ; 2026-07-26 09:29:25 UTC; unix
+Filesize: 633096
+SHA256: 5414df98f21dee75d9bae30abb17231b030b5aed64872eab4dd5af15494e0ede
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc
+
+Package: RcppArmadillo
+Version: 15.4.2-1
+Depends: R (>= 3.3.0), R (>= 4.7), R (< 4.7.99)
+Imports: Rcpp (>= 1.1.1), stats, utils, methods
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+File: RcppArmadillo_15.4.2-1_b5_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/15.4.2-1/RcppArmadillo_15.4.2-1_b5_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-26 09:28:38 UTC; unix
+Filesize: 2052930
+SHA256: 849bb6bd0ae5ee2e59f805f49f6a3bc7666fea5e22b72e3cc48f8e7fa474af77
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: RcppParallel
+Version: 6.1.0
+Depends: R (>= 3.6.0), R (>= 4.7), R (< 4.7.99)
+Suggests: Rcpp, knitr, rmarkdown
+License: GPL (>= 3)
+File: RcppParallel_6.1.0_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/RcppParallel/releases/download/6.1.0/RcppParallel_6.1.0_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-26 09:28:35 UTC; unix
+Filesize: 3160081
+SHA256: 25a355357901c84e7263ded23049ca0edf3002920a4a65ea1c1a2de1c50abfe8
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: CMake (>= 3.5)
