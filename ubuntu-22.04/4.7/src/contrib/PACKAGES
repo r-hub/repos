@@ -733,24 +733,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: stringi
-Version: 1.8.7
-Depends: R (>= 3.4), R (>= 4.7), R (< 4.7.99)
-Imports: tools, utils, stats
-License: file LICENSE
-File: stringi_1.8.7_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/stringi/releases/download/1.8.7/stringi_1.8.7_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 11:50:30 UTC; unix
-Filesize: 3508495
-SHA256: 76cf6d4460400831d8cc0d2b793faa07c141c83ff924d240d060b3e0ead97abb
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: ICU4C (>= 61, optional)
-
 Package: stringr
 Version: 1.6.0
 Depends: R (>= 4.1.0), R (>= 4.7), R (< 4.7.99)
@@ -3824,25 +3806,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: roxygen2
-Version: 8.0.0
-Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
-Imports: brew, cli (>= 3.3.0), commonmark, desc (>= 1.2.0), knitr, lifecycle, methods, pkgload (>= 1.5.2), R6 (>= 2.1.2), rlang (>= 1.1.0), utils, withr, xml2
-Suggests: covr, R.methodsS3, S7, R.oo, rmarkdown (>= 2.16), testthat (>= 3.1.2), yaml
-License: MIT + file LICENSE
-File: roxygen2_8.0.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/roxygen2/releases/download/8.0.0/roxygen2_8.0.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-05-02 17:10:22 UTC; unix
-Filesize: 1303772
-SHA256: dd7594e3b623fe4c1d00db41943ae8454c8aefb57c7121b0f9899df4cebbfd27
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cpp11
-
 Package: glmnet
 Version: 5.0
 Depends: R (>= 3.6.0), Matrix (>= 1.0-6), R (>= 4.7), R (< 4.7.99)
@@ -4632,24 +4595,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: zip
-Version: 3.0.1
-Depends: R (>= 4.7), R (< 4.7.99)
-Suggests: callr, cli, curl, pillar, processx, R6, testthat, webfakes, withr
-License: MIT + file LICENSE
-File: zip_3.0.1_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/zip/releases/download/3.0.1/zip_3.0.1_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-13 18:14:49 UTC; unix
-Filesize: 963880
-SHA256: 9a2b5f45367cb197c79ca5ebaa43464b3e24f420f20e9ce4ef6fda5b57863663
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cli
-
 Package: httr2
 Version: 1.3.0
 Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
@@ -5047,3 +4992,76 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: rdtools
+Version: 0.1.0
+Depends: R (>= 4.0), R (>= 4.7), R (< 4.7.99)
+Imports: stats, tools
+Suggests: testthat (>= 3.0.0), withr
+License: MIT + file LICENSE
+File: rdtools_0.1.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/rdtools/releases/download/0.1.0/rdtools_0.1.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-05 17:58:11 UTC; unix
+Filesize: 75400
+SHA256: 12e16c57676023e582ea7ff5d3a41cdaf2328679d0779435a90e342f9ef93065
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: stringi
+Version: 1.8.9
+Depends: R (>= 3.4), R (>= 4.7), R (< 4.7.99)
+Imports: tools, utils, stats
+License: file LICENSE
+File: stringi_1.8.9_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/stringi/releases/download/1.8.9/stringi_1.8.9_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-05 17:58:19 UTC; unix
+Filesize: 3513338
+SHA256: ebdca125ada3a427e47e1ea73b6d2d2415bbccf1abed8a21863d1ec63d348bcc
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: ICU4C (>= 61, optional)
+
+Package: roxygen2
+Version: 8.1.0
+Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
+Imports: brew, cli (>= 3.3.0), commonmark, desc (>= 1.2.0), knitr, lifecycle, methods, pkgload (>= 1.5.2), R6 (>= 2.1.2), rdtools (>= 0.1.0), rlang (>= 1.1.0), utils, withr, xml2
+Suggests: covr, R.methodsS3, S7, R.oo, rmarkdown (>= 2.16), testthat (>= 3.1.2), yaml
+License: MIT + file LICENSE
+File: roxygen2_8.1.0_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/roxygen2/releases/download/8.1.0/roxygen2_8.1.0_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-05 17:58:13 UTC; unix
+Filesize: 1311384
+SHA256: 5b40c08d1e4e8640fa607750e6ebb2dcfcfb88584d77da69f4e7ede02b0de218
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11
+
+Package: zip
+Version: 3.0.2
+Depends: R (>= 4.7), R (< 4.7.99)
+Suggests: callr, cli, curl, pillar, processx, R6, testthat, webfakes, withr
+License: MIT + file LICENSE
+File: zip_3.0.2_b4_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/zip/releases/download/3.0.2/zip_3.0.2_b4_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-05 17:58:12 UTC; unix
+Filesize: 963581
+SHA256: d8c44fdace15da80e5da3fa2b64404e8a6dd4cbe18c17938fa93f757c4f15862
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cli
