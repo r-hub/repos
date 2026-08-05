@@ -3806,25 +3806,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: roxygen2
-Version: 8.0.0
-Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
-Imports: brew, cli (>= 3.3.0), commonmark, desc (>= 1.2.0), knitr, lifecycle, methods, pkgload (>= 1.5.2), R6 (>= 2.1.2), rlang (>= 1.1.0), utils, withr, xml2
-Suggests: covr, R.methodsS3, S7, R.oo, rmarkdown (>= 2.16), testthat (>= 3.1.2), yaml
-License: MIT + file LICENSE
-File: roxygen2_8.0.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/roxygen2/releases/download/8.0.0/roxygen2_8.0.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-05-01 17:39:41 UTC; unix
-Filesize: 1296446
-SHA256: 8dceac954783e4415eab672ff13e197ab7ec96b90e45301e1b6b7916a398e542
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cpp11
-
 Package: glmnet
 Version: 5.0
 Depends: R (>= 3.6.0), Matrix (>= 1.0-6), R (>= 4.7), R (< 4.7.99)
@@ -5047,3 +5028,40 @@ Platform: x86_64-pc-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cli
+
+Package: rdtools
+Version: 0.1.0
+Depends: R (>= 4.0), R (>= 4.7), R (< 4.7.99)
+Imports: stats, tools
+Suggests: testthat (>= 3.0.0), withr
+License: MIT + file LICENSE
+File: rdtools_0.1.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/rdtools/releases/download/0.1.0/rdtools_0.1.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-05 18:10:01 UTC; unix
+Filesize: 74650
+SHA256: 8dcfbf4fcbc9c7140b87630ba9e1b88b8167d2309be8cbfd07985030b19b1c74
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: roxygen2
+Version: 8.1.0
+Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
+Imports: brew, cli (>= 3.3.0), commonmark, desc (>= 1.2.0), knitr, lifecycle, methods, pkgload (>= 1.5.2), R6 (>= 2.1.2), rdtools (>= 0.1.0), rlang (>= 1.1.0), utils, withr, xml2
+Suggests: covr, R.methodsS3, S7, R.oo, rmarkdown (>= 2.16), testthat (>= 3.1.2), yaml
+License: MIT + file LICENSE
+File: roxygen2_8.1.0_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/roxygen2/releases/download/8.1.0/roxygen2_8.1.0_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-05 18:10:03 UTC; unix
+Filesize: 1302751
+SHA256: 77effbcd5a673fe604a1509c702ff243d1a81d1d697ac5eaac97b713947b6176
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11
