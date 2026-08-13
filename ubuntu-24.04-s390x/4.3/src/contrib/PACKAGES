@@ -1222,25 +1222,6 @@ Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: lattice
-Version: 0.22-9
-Depends: R (>= 4.0.0), R (>= 4.3), R (< 4.3.99)
-Suggests: KernSmooth, MASS, latticeExtra, colorspace
-License: GPL (>= 2)
-File: lattice_0.22-9_b3_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/lattice/releases/download/0.22-9/lattice_0.22-9_b3_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2026-02-09 15:15:57 UTC; unix
-Filesize: 1412249
-SHA256: 19a77c3962cafe61c7f5c3b228e5b06b75c86b65ac335ad9ee972cc14a71bf50
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: grid, grDevices, graphics, stats, utils
-Enhances: chron, zoo
-
 Package: dtplyr
 Version: 1.3.3
 Depends: R (>= 4.0), R (>= 4.3), R (< 4.3.99)
@@ -2108,3 +2089,22 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: tools, utils, stats
 SystemRequirements: ICU4C (>= 61, optional)
+
+Package: lattice
+Version: 0.23-1
+Depends: R (>= 4.0.0), R (>= 4.3), R (< 4.3.99)
+Suggests: KernSmooth, MASS, latticeExtra, colorspace
+License: GPL (>= 2)
+File: lattice_0.23-1_b4_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/lattice/releases/download/0.23-1/lattice_0.23-1_b4_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2026-08-13 15:22:15 UTC; unix
+Filesize: 1456347
+SHA256: 65a854446a2aa750f040e6cc3d6f6045b98c20a9085cd64c455bac168fc85cd7
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: grid, grDevices, graphics, stats, utils
+Enhances: chron, zoo
