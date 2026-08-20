@@ -3934,24 +3934,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make
 
-Package: bit64
-Version: 4.8.2
-Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
-Imports: bit (>= 4.0.0), graphics, methods, stats, utils
-Suggests: patrick (>= 0.3.0), testthat (>= 3.3.0), withr
-License: GPL-2 | GPL-3
-File: bit64_4.8.2_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/bit64/releases/download/4.8.2/bit64_4.8.2_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-05-19 18:25:50 UTC; unix
-Filesize: 671793
-SHA256: 3c2d80db844e7cfe27c43700edb53ee263802a7bb9e24c8fd96c55375a3c706d
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: clipr
 Version: 0.8.1
 Depends: R (>= 4.7), R (< 4.7.99)
@@ -4363,23 +4345,6 @@ Arch: amd64
 Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-06-29 18:32:48 UTC; unix
 Filesize: 646060
 SHA256: 30cfc6fcd35e1874fcf3475050d12e5eed77a036cb7a8f42ddaab399f203c65e
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: lava
-Version: 1.9.2
-Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
-Imports: cli, future.apply, graphics, grDevices, methods, numDeriv, progressr, stats, survival, SQUAREM, utils
-Suggests: KernSmooth, Rgraphviz, data.table, ellipse, fields, future, geepack, graph, knitr, rmarkdown, igraph (>= 0.6), lavaSearch2, lme4 (>= 1.1.35.1), MASS, Matrix (>= 1.6.3), mets (>= 1.1), nlme,
-        optimx, polycor, quantreg, rgl, svglite, targeted (>= 0.4), testthat (>= 0.11), vdiffr, visNetwork
-License: Apache License (== 2.0)
-File: lava_1.9.2_b4_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/lava/releases/download/1.9.2/lava_1.9.2_b4_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.7.0; ; 2026-06-30 18:23:03 UTC; unix
-Filesize: 2502516
-SHA256: 5e4b08f35f25fe72f2a7184fd7f12488d77500829e54dc21a2746c166f8af439
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 17
@@ -5065,3 +5030,94 @@ Platform: x86_64-pc-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
+
+Package: lattice
+Version: 0.23-1
+Depends: R (>= 4.0.0), R (>= 4.7), R (< 4.7.99)
+Imports: grid, grDevices, graphics, stats, utils
+Suggests: KernSmooth, MASS, latticeExtra, colorspace
+License: GPL (>= 2)
+File: lattice_0.23-1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/lattice/releases/download/0.23-1/lattice_0.23-1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-20 17:05:12 UTC; unix
+Filesize: 1482764
+SHA256: 00efcd056482b9fce662b78509fdb79012b758a301e4ed4e66eea4aea8ebb84d
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: chron, zoo
+
+Package: survival
+Version: 3.8-9
+Depends: R (>= 4.1.0), R (>= 4.7), R (< 4.7.99)
+Imports: graphics, Matrix, methods, splines, stats, utils
+License: LGPL (>= 2)
+File: survival_3.8-9_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/survival/releases/download/3.8-9/survival_3.8-9_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-20 17:07:45 UTC; unix
+Filesize: 8847955
+SHA256: 0b447caf386fa850469986c52bdcbb2782b8a9fb902e76f1f23de82d1a675eae
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: Matrix
+Version: 1.7-6
+Depends: R (>= 4.4), methods, R (>= 4.7), R (< 4.7.99)
+Imports: grDevices, graphics, grid, lattice, stats, utils
+Suggests: MASS, datasets, sfsmisc, tools
+License: GPL (>= 2) | file LICENCE
+File: Matrix_1.7-6_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/Matrix/releases/download/1.7-6/Matrix_1.7-6_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-20 17:05:21 UTC; unix
+Filesize: 7172036
+SHA256: ea0d90ed3d23cf97d1433884da839677cdf63b4284a52c605cae0b1255c2c300
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: SparseM, graph
+
+Package: bit64
+Version: 4.8.4
+Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
+Imports: bit (>= 4.0.0), graphics, methods, stats, utils
+Suggests: patrick (>= 0.3.0), testthat (>= 3.3.0), withr
+License: GPL-2 | GPL-3
+File: bit64_4.8.4_b4_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/bit64/releases/download/4.8.4/bit64_4.8.4_b4_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-20 17:05:13 UTC; unix
+Filesize: 660664
+SHA256: de0b7866f2b582dd0ed6380de213f426665ded829593faf8e451b9729e3d5fa8
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: lava
+Version: 1.9.3
+Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
+Imports: cli, future.apply, graphics, grDevices, methods, numDeriv, progressr, stats, survival, SQUAREM, utils
+Suggests: KernSmooth, Rgraphviz, data.table, ellipse, fields, future, geepack, graph, knitr, rmarkdown, igraph (>= 0.6), lavaSearch2, lme4 (>= 1.1.35.1), MASS, Matrix (>= 1.6.3), mets (>= 1.1), nlme,
+        optimx, polycor, quantreg, quarto, rgl, svglite, targeted (>= 0.4), testthat (>= 0.11), vdiffr, visNetwork
+License: Apache License (== 2.0)
+File: lava_1.9.3_b5_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/lava/releases/download/1.9.3/lava_1.9.3_b5_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.7.0; ; 2026-08-20 17:08:12 UTC; unix
+Filesize: 2613141
+SHA256: ab24559da93ace822dd95e85c9e795fd6bc218bb1cbb25d5cd928d6b1de0f469
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: Quarto command line tools (https://github.com/quarto-dev/quarto-cli).
