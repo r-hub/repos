@@ -3934,24 +3934,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make
 
-Package: bit64
-Version: 4.8.2
-Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
-Imports: bit (>= 4.0.0), graphics, methods, stats, utils
-Suggests: patrick (>= 0.3.0), testthat (>= 3.3.0), withr
-License: GPL-2 | GPL-3
-File: bit64_4.8.2_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/bit64/releases/download/4.8.2/bit64_4.8.2_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-05-19 10:47:10 UTC; unix
-Filesize: 721818
-SHA256: c5d204beaccf2969c8bfd29fa50adb2dc06c68738910c8b6b8f89bdfff3fc64b
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: clipr
 Version: 0.8.1
 Depends: R (>= 4.7), R (< 4.7.99)
@@ -4757,25 +4739,6 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: gert
-Version: 2.4.0
-Depends: R (>= 4.7), R (< 4.7.99)
-Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
-Suggests: spelling, knitr, rmarkdown, testthat (>= 3.0.0), roxygen2
-License: MIT + file LICENSE
-File: gert_2.4.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/gert/releases/download/2.4.0/gert_2.4.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-22 09:44:25 UTC; unix
-Filesize: 429048
-SHA256: 2d95a38b67ec77bb6791fa54918799463e40b4748ae0c28e848c62b4b588e15b
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
-
 Package: plotly
 Version: 4.12.1
 Depends: R (>= 3.5.0), ggplot2 (>= 3.0.0), R (>= 4.7), R (< 4.7.99)
@@ -5065,3 +5028,40 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cli
+
+Package: bit64
+Version: 4.8.4
+Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
+Imports: bit (>= 4.0.0), graphics, methods, stats, utils
+Suggests: patrick (>= 0.3.0), testthat (>= 3.3.0), withr
+License: GPL-2 | GPL-3
+File: bit64_4.8.4_b4_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/bit64/releases/download/4.8.4/bit64_4.8.4_b4_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-20 08:01:47 UTC; unix
+Filesize: 709160
+SHA256: bcdde99bdf1496d3200fec84a711fd6aa2f8314fbdcd964e99c6626473a1ebb1
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: gert
+Version: 2.4.1
+Depends: R (>= 4.7), R (< 4.7.99)
+Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
+Suggests: spelling, knitr, rmarkdown, testthat (>= 3.0.0), roxygen2
+License: MIT + file LICENSE
+File: gert_2.4.1_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/gert/releases/download/2.4.1/gert_2.4.1_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-20 08:01:48 UTC; unix
+Filesize: 429571
+SHA256: df895ebdb16d7653f49098427f673bd24883bd50fe25a00a49eae911642c7663
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
