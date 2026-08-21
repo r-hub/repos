@@ -4366,23 +4366,6 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: lava
-Version: 1.9.2
-Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
-Imports: cli, future.apply, graphics, grDevices, methods, numDeriv, progressr, stats, survival, SQUAREM, utils
-Suggests: KernSmooth, Rgraphviz, data.table, ellipse, fields, future, geepack, graph, knitr, rmarkdown, igraph (>= 0.6), lavaSearch2, lme4 (>= 1.1.35.1), MASS, Matrix (>= 1.6.3), mets (>= 1.1), nlme,
-        optimx, polycor, quantreg, rgl, svglite, targeted (>= 0.4), testthat (>= 0.11), vdiffr, visNetwork
-License: Apache License (== 2.0)
-File: lava_1.9.2_b4_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/lava/releases/download/1.9.2/lava_1.9.2_b4_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-Built: R 4.7.0; ; 2026-07-01 10:51:36 UTC; unix
-Filesize: 2572260
-SHA256: 20576e283eb26518b840a807ab0d176c60d5ef93ba478454d64d067e23343c7d
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: RSQLite
 Version: 3.53.3
 Depends: R (>= 3.1.0), R (>= 4.7), R (< 4.7.99)
@@ -5065,3 +5048,21 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
+
+Package: lava
+Version: 1.9.3
+Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
+Imports: cli, future.apply, graphics, grDevices, methods, numDeriv, progressr, stats, survival, SQUAREM, utils
+Suggests: KernSmooth, Rgraphviz, data.table, ellipse, fields, future, geepack, graph, knitr, rmarkdown, igraph (>= 0.6), lavaSearch2, lme4 (>= 1.1.35.1), MASS, Matrix (>= 1.6.3), mets (>= 1.1), nlme,
+        optimx, polycor, quantreg, quarto, rgl, svglite, targeted (>= 0.4), testthat (>= 0.11), vdiffr, visNetwork
+License: Apache License (== 2.0)
+File: lava_1.9.3_b5_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/lava/releases/download/1.9.3/lava_1.9.3_b5_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+Built: R 4.7.0; ; 2026-08-21 08:02:09 UTC; unix
+Filesize: 2678588
+SHA256: 7e22bf89cb0c3a2ce006ce3860fc0a2bc532668b0a617ec1ea4b130fc4d87d41
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: Quarto command line tools (https://github.com/quarto-dev/quarto-cli).
