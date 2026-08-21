@@ -1227,22 +1227,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: chron, data.table, timeDate, tis, zoo
 SystemRequirements: A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
 
-Package: modeldata
-Version: 1.5.1
-Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
-Imports: cli, dplyr, MASS, purrr, rlang (>= 1.1.0), tibble
-Suggests: covr, ggplot2, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: modeldata_1.5.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/modeldata/releases/download/1.5.1/modeldata_1.5.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.7.0; ; 2026-03-30 12:02:46 UTC; unix
-Filesize: 5195395
-SHA256: 7d27d8d05daba669c8c3e4dbe2fac8bd21f393b256e0118dcdb6dd089faaba5a
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: modelenv
 Version: 0.2.0
 Depends: R (>= 4.7), R (< 4.7.99)
@@ -5032,23 +5016,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: chron, zoo
 
-Package: survival
-Version: 3.8-9
-Depends: R (>= 4.1.0), R (>= 4.7), R (< 4.7.99)
-Imports: graphics, Matrix, methods, splines, stats, utils
-License: LGPL (>= 2)
-File: survival_3.8-9_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/survival/releases/download/3.8-9/survival_3.8-9_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-20 16:58:57 UTC; unix
-Filesize: 8852328
-SHA256: d16c6af9a585c3c98b0d20fd260d79248523a71779eaf473229cfb33f81c9295
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: Matrix
 Version: 1.7-6
 Depends: R (>= 4.4), methods, R (>= 4.7), R (< 4.7.99)
@@ -5103,3 +5070,36 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Quarto command line tools (https://github.com/quarto-dev/quarto-cli).
+
+Package: modeldata
+Version: 1.6.0
+Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
+Imports: cli, dplyr, MASS, purrr, rlang (>= 1.1.0), tibble
+Suggests: covr, ggplot2, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: modeldata_1.6.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/modeldata/releases/download/1.6.0/modeldata_1.6.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.7.0; ; 2026-08-21 16:56:51 UTC; unix
+Filesize: 5212585
+SHA256: 06b2e14879bdc9a32032c771266c09ea76b7897c57cf50d6fc592537452f9079
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: survival
+Version: 3.8-11
+Depends: R (>= 4.1.0), R (>= 4.7), R (< 4.7.99)
+Imports: graphics, Matrix, methods, splines, stats, utils
+License: LGPL (>= 2)
+File: survival_3.8-11_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/survival/releases/download/3.8-11/survival_3.8-11_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-21 16:56:52 UTC; unix
+Filesize: 6411428
+SHA256: 0442303af88dd5ca84b0aea623d613ae75c3646497381c3c4c9636446fd6dd0a
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
