@@ -1155,24 +1155,6 @@ Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: ipred
-Version: 0.9-15
-Depends: R (>= 2.10), R (>= 4.7), R (< 4.7.99)
-Imports: rpart (>= 3.1-8), MASS, survival, nnet, class, prodlim
-Suggests: mvtnorm, mlbench, TH.data, randomForest, party
-License: GPL (>= 2)
-File: ipred_0.9-15_b1_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-DownloadURL: https://github.com/cran/ipred/releases/download/0.9-15/ipred_0.9-15_b1_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 10:19:20 UTC; unix
-Filesize: 417953
-SHA256: 438d268416e970b007b7e1a4d5bd0ad8d995ad47a9b1baf94bf7b99d13381b7a
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-42
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: isoband
 Version: 0.3.0
 Depends: R (>= 4.7), R (< 4.7.99)
@@ -4123,26 +4105,6 @@ Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: terra
-Version: 1.9-34
-Depends: R (>= 3.5.0), methods, R (>= 4.7), R (< 4.7.99)
-Imports: Rcpp (>= 1.0-10)
-Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), igraph, deldir, XML, leaflet (>= 2.2.1), htmlwidgets, future, future.apply
-License: GPL (>= 3)
-File: terra_1.9-34_b4_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-DownloadURL: https://github.com/cran/terra/releases/download/1.9-34/terra_1.9-34_b4_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-06-20 10:16:38 UTC; unix
-Filesize: 40782476
-SHA256: 7ec462690fd2c7ce14e408bd4cb7c2e74d872148336c93d8c08d308ab08c6637
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-42
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
-LinkingTo: Rcpp
-
 Package: shiny
 Version: 1.14.0
 Depends: methods, R (>= 3.1.2), R (>= 4.7), R (< 4.7.99)
@@ -4580,27 +4542,6 @@ Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Matrix (>= 1.5-0), Rcpp (>= 1.1.1-1.1), RcppEigen (>= 0.3.3.9.4)
-
-Package: arrow
-Version: 25.0.0
-Depends: R (>= 4.2), R (>= 4.7), R (< 4.7.99)
-Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
-Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.3.0),
-        tibble, tzdb, withr
-License: Apache License (>= 2.0)
-File: arrow_25.0.0_b3_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-DownloadURL: https://github.com/cran/arrow/releases/download/25.0.0/arrow_25.0.0_b3_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-17 09:38:46 UTC; unix
-Filesize: 208686304
-SHA256: b73b7aec6b383ae8e8d338a96b59ba0bd6531e0b341cb8fb75999e49d3a2c6fc
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-42
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++20; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.26 (build-time only, and only for full source build)
-LinkingTo: cpp11 (>= 0.4.2)
 
 Package: diffobj
 Version: 0.3.8
@@ -5121,3 +5062,113 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: class
+Version: 7.3-24
+Depends: R (>= 3.0.0), stats, utils, R (>= 4.7), R (< 4.7.99)
+Suggests: MASS
+License: GPL-2 | GPL-3
+File: class_7.3-24_b1_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/class/releases/download/7.3-24/class_7.3-24_b1_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-23 09:29:44 UTC; unix
+Filesize: 110425
+SHA256: 7a5a2e790e86a9d84d9f5583d87602d07817fb547fd7507addf39027655393e4
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: KernSmooth
+Version: 2.23-27
+Depends: R (>= 2.5.0), stats, R (>= 4.7), R (< 4.7.99)
+Suggests: MASS, carData
+License: Unlimited
+File: KernSmooth_2.23-27_b1_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/KernSmooth/releases/download/2.23-27/KernSmooth_2.23-27_b1_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-23 09:29:44 UTC; unix
+Filesize: 115444
+SHA256: e600b0ae185d61a2eebeb82fd4f2da64c8a3d5e29bd37d880a67ac71b1af3697
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: nnet
+Version: 7.3-21
+Depends: R (>= 3.0.0), stats, utils, R (>= 4.7), R (< 4.7.99)
+Suggests: MASS
+License: GPL-2 | GPL-3
+File: nnet_7.3-21_b1_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/nnet/releases/download/7.3-21/nnet_7.3-21_b1_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-23 09:29:44 UTC; unix
+Filesize: 136677
+SHA256: b52b5c9ee633c54e4936ee77dc73c035ea6082b513ed3b26bb2005f65eaeec29
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: ipred
+Version: 0.9-16
+Depends: R (>= 2.10), R (>= 4.7), R (< 4.7.99)
+Imports: rpart (>= 3.1-8), MASS, survival, nnet, class, prodlim
+Suggests: mvtnorm, mlbench, TH.data, randomForest, party
+License: GPL (>= 2)
+File: ipred_0.9-16_b2_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/ipred/releases/download/0.9-16/ipred_0.9-16_b2_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-23 09:29:53 UTC; unix
+Filesize: 425045
+SHA256: bc944d23546c1e0a9d488d569bdb97f3e13dcd222063fd799214c350a1d7aa6d
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: terra
+Version: 1.9-46
+Depends: R (>= 3.5.0), methods, R (>= 4.7), R (< 4.7.99)
+Imports: Rcpp (>= 1.0-10)
+Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), igraph, deldir, XML, leaflet (>= 2.2.1), htmlwidgets, future, future.apply
+License: GPL (>= 3)
+File: terra_1.9-46_b5_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/terra/releases/download/1.9-46/terra_1.9-46_b5_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-23 09:29:56 UTC; unix
+Filesize: 42295309
+SHA256: 1a5bda1e4024bcc5e1fc72baf06d8f6c65977a441683791cfb1d49879e9c6f4f
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
+LinkingTo: Rcpp
+
+Package: arrow
+Version: 25.0.1
+Depends: R (>= 4.2), R (>= 4.7), R (< 4.7.99)
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.3.0),
+        tibble, tzdb, withr
+License: Apache License (>= 2.0)
+File: arrow_25.0.1_b4_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/arrow/releases/download/25.0.1/arrow_25.0.1_b4_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-23 09:51:06 UTC; unix
+Filesize: 208689170
+SHA256: 914fe678d37b90135266839cb15869abd3167d8a7e8742f8983abada50e838ad
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++20; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.26 (build-time only, and only for full source build)
+LinkingTo: cpp11 (>= 0.4.2)
