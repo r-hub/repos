@@ -3494,24 +3494,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17
 LinkingTo: RcppEigen, Rcpp
 
-Package: data.table
-Version: 1.18.4
-Depends: R (>= 3.4.0), R (>= 4.7), R (< 4.7.99)
-Imports: methods
-Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils (>= 2.13.0), xts, zoo (>= 1.8-1), yaml, knitr, markdown
-License: MPL-2.0 | file LICENSE
-File: data.table_1.18.4_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/data.table/releases/download/1.18.4/data.table_1.18.4_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-05-06 18:10:21 UTC; unix
-Filesize: 3005542
-SHA256: 78033bc40c33ccbe8440262ff0fe5591f6d430f3eb60125b975442ba59dd4b5e
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: cpp11
 Version: 0.5.5
 Depends: R (>= 4.0.0), R (>= 4.7), R (< 4.7.99)
@@ -3601,24 +3583,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: xclip (https://github.com/astrand/xclip) or xsel (http://www.vergenet.net/~conrad/software/xsel/) for accessing the X11 clipboard, or wl-clipboard
         (https://github.com/bugaevc/wl-clipboard) for systems using Wayland.
-
-Package: recipes
-Version: 1.3.3
-Depends: dplyr (>= 1.1.0), R (>= 4.1), R (>= 4.7), R (< 4.7.99)
-Imports: cli, clock (>= 0.6.1), generics (>= 0.1.2), glue, gower, hardhat (>= 1.4.1), ipred (>= 0.9-12), lifecycle (>= 1.0.3), lubridate (>= 1.8.0), magrittr, Matrix, purrr (>= 1.0.0), rlang (>=
-        1.1.0), sparsevctrs (>= 0.3.3), stats, tibble, tidyr (>= 1.0.0), tidyselect (>= 1.2.0), timeDate, utils, vctrs (>= 0.5.0), withr
-Suggests: covr, ddalpha, dials (>= 1.2.0), dimRed, fastICA, ggplot2, igraph (>= 2.1.1), kernlab, knitr, methods, mixOmics, modeldata (>= 0.1.1), parsnip (>= 1.2.0), RANN, RcppRoll, rmarkdown, rpart,
-        rsample, RSpectra, splines2, testthat (>= 3.3.0), workflows, xml2
-License: MIT + file LICENSE
-File: recipes_1.3.3_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/recipes/releases/download/1.3.3/recipes_1.3.3_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
-Built: R 4.7.0; ; 2026-05-30 17:54:09 UTC; unix
-Filesize: 1730942
-SHA256: 93214bfe1d500d16fa21f19be60b21f94922a2e4a0f193080b5a75ec07880d17
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: s2
 Version: 1.1.11
@@ -4747,3 +4711,39 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++20; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.26 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
+
+Package: data.table
+Version: 1.18.6.1
+Depends: R (>= 3.4.0), R (>= 4.7), R (< 4.7.99)
+Imports: methods
+Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils (>= 2.13.0), xts, zoo (>= 1.8-1), yaml, knitr, markdown
+License: MPL-2.0 | file LICENSE
+File: data.table_1.18.6.1_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/data.table/releases/download/1.18.6.1/data.table_1.18.6.1_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-24 17:19:53 UTC; unix
+Filesize: 3016714
+SHA256: 219389ad9262fee4f8120ad74ea694a357ad8d2c78baa4743d8a376f73608197
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: recipes
+Version: 1.4.0
+Depends: dplyr (>= 1.1.0), R (>= 4.1), R (>= 4.7), R (< 4.7.99)
+Imports: cli, clock (>= 0.6.1), generics (>= 0.1.2), glue, gower, hardhat (>= 1.4.1), ipred (>= 0.9-12), lifecycle (>= 1.0.3), lubridate (>= 1.8.0), magrittr, Matrix, purrr (>= 1.0.0), rlang (>=
+        1.1.0), sparsevctrs (>= 0.3.3), stats, tibble, tidyr (>= 1.0.0), tidyselect (>= 1.2.0), timeDate, utils, vctrs (>= 0.5.0), withr
+Suggests: covr, ddalpha, dials (>= 1.2.0), dimRed, fastICA, ggplot2, igraph (>= 2.1.1), kernlab, knitr, methods, mixOmics, modeldata (>= 0.1.1), parsnip (>= 1.2.0), quarto, RANN, RcppRoll, rmarkdown,
+        rpart, rsample, RSpectra, splines2, survival, testthat (>= 3.3.0), workflows, xml2
+License: MIT + file LICENSE
+File: recipes_1.4.0_b4_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/recipes/releases/download/1.4.0/recipes_1.4.0_b4_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04-libc++.tar.gz
+Built: R 4.7.0; ; 2026-08-24 17:20:15 UTC; unix
+Filesize: 1744173
+SHA256: 8c4e359c43bda341ab1d78bf7fee23baf02ae6e0d1d05beb257670cf573c932e
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
