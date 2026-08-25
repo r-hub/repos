@@ -2978,24 +2978,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libpng
 LinkingTo: cpp11
 
-Package: bayesplot
-Version: 1.15.0
-Depends: R (>= 4.1.0), R (>= 4.7), R (< 4.7.99)
-Imports: dplyr (>= 0.8.0), ggplot2 (>= 3.4.0), ggridges (>= 0.5.5), glue, posterior, reshape2, rlang (>= 0.3.0), stats, tibble (>= 2.0.0), tidyr, tidyselect, utils
-Suggests: ggdist, ggfortify, gridExtra (>= 2.2.1), hexbin, knitr (>= 1.16), loo (>= 2.0.0), RColorBrewer, rmarkdown (>= 1.0.0), rstan (>= 2.17.1), rstanarm (>= 2.17.4), rstantools (>= 1.5.0), scales,
-        shinystan (>= 2.3.0), survival, testthat (>= 3.0.0), vdiffr (>= 1.0.2)
-License: GPL (>= 3)
-File: bayesplot_1.15.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/bayesplot/releases/download/1.15.0/bayesplot_1.15.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.7.0; ; 2026-03-30 12:23:47 UTC; unix
-Filesize: 5787727
-SHA256: 136a11d34c630c276533c322df0940de9232a99e46312f401259166456d26789
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
-
 Package: colourpicker
 Version: 1.3.0
 Depends: R (>= 3.1.0), R (>= 4.7), R (< 4.7.99)
@@ -5154,3 +5136,57 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: ggdist
+Version: 3.3.3
+Depends: R (>= 4.0.0), R (>= 4.7), R (< 4.7.99)
+Imports: grid, ggplot2 (>= 3.5.0), scales, rlang (>= 0.3.0), cli, tibble, vctrs, withr, glue, gtable, distributional (>= 0.3.2), numDeriv, quadprog, Rcpp
+Suggests: tidyselect, dplyr (>= 1.0.0), fda, posterior (>= 1.4.0), beeswarm (>= 0.4.0), rmarkdown, knitr, testthat (>= 3.0.0), vdiffr (>= 1.0.0), svglite (>= 2.1.0), fontquiver, sysfonts, showtext,
+        mvtnorm, covr, broom (>= 0.5.6), patchwork, tidyr (>= 1.0.0), ragg (>= 1.3.0), pkgdown
+License: GPL (>= 3)
+File: ggdist_3.3.3_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/ggdist/releases/download/3.3.3/ggdist_3.3.3_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-25 17:00:41 UTC; unix
+Filesize: 3175940
+SHA256: 605a7d229d0f9d07d61542f7117db857494a9b78fcaf6d321479b378e6fc5f1b
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: quadprog
+Version: 1.5-8
+Depends: R (>= 3.1.0), R (>= 4.7), R (< 4.7.99)
+License: GPL (>= 2)
+File: quadprog_1.5-8_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/quadprog/releases/download/1.5-8/quadprog_1.5-8_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-25 17:00:38 UTC; unix
+Filesize: 46383
+SHA256: 520835dc6d93ac5b42a6bf2f888592e543f00fec97f6059becd1aae5295ed27d
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: bayesplot
+Version: 1.16.0
+Depends: R (>= 4.1.0), R (>= 4.7), R (< 4.7.99)
+Imports: dplyr (>= 1.0.0), ggdist, ggplot2 (>= 3.5.0), ggridges (>= 0.5.5), glue, lifecycle, posterior (>= 1.7.0), reshape2, rlang (>= 1.0.0), stats, tibble (>= 2.0.0), tidyr, tidyselect, utils
+Suggests: cmdstanr, ggfortify, gridExtra (>= 2.2.1), hexbin, knitr (>= 1.16), loo (>= 2.0.0), monotone, patchwork, RColorBrewer, rmarkdown (>= 1.0.0), rstan (>= 2.17.1), rstanarm (>= 2.17.4),
+        rstantools (>= 2.0.0), scales, shinystan (>= 2.3.0), survival, testthat (>= 3.0.0), vdiffr (>= 1.0.2)
+License: GPL (>= 3)
+File: bayesplot_1.16.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/bayesplot/releases/download/1.16.0/bayesplot_1.16.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.7.0; ; 2026-08-25 17:00:54 UTC; unix
+Filesize: 5961464
+SHA256: 53435edc34eb7044e4abe0172c8dd73d46723ad9ca1ae5c27e87c8a32063a707
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc (>= 1.12.3)
