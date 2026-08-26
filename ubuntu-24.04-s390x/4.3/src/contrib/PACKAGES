@@ -1566,24 +1566,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: utils
 
-Package: curl
-Version: 7.1.0
-Depends: R (>= 3.0.0), R (>= 4.3), R (< 4.3.99)
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
-License: MIT + file LICENSE
-File: curl_7.1.0_b7_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/curl/releases/download/7.1.0/curl_7.1.0_b7_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2026-04-22 15:35:29 UTC; unix
-Filesize: 859338
-SHA256: 2b54b02a23784207775c2589689c41efa4a242c2a9e758f135ec1cfef39834b3
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libcurl (>= 7.73): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
-
 Package: S7
 Version: 0.2.2
 Depends: R (>= 3.5.0), R (>= 4.3), R (< 4.3.99)
@@ -2108,3 +2090,21 @@ Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: methods
+
+Package: curl
+Version: 8.0.0
+Depends: R (>= 3.0.0), R (>= 4.3), R (< 4.3.99)
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+License: MIT + file LICENSE
+File: curl_8.0.0_b8_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/curl/releases/download/8.0.0/curl_8.0.0_b8_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2026-08-26 15:07:59 UTC; unix
+Filesize: 883812
+SHA256: 8f1cb33a5f0bd0243f9bd4639fd0745e60edb03632bd3e23e98fb710dc6c8985
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libcurl (>= 7.73): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
