@@ -3500,24 +3500,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: curl
-Version: 7.1.0
-Depends: R (>= 3.0.0), R (>= 4.7), R (< 4.7.99)
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
-License: MIT + file LICENSE
-File: curl_7.1.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/curl/releases/download/7.1.0/curl_7.1.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-24 17:35:54 UTC; unix
-Filesize: 864429
-SHA256: 48349175d2b23ecca18590289b398675a2f3f9237bf0cbad2abab32b5d420d91
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libcurl (>= 7.73): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
-
 Package: fs
 Version: 2.1.0
 Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
@@ -4363,22 +4345,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: litedown
-Version: 0.10
-Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
-Imports: utils, commonmark (>= 2.0.0), xfun (>= 0.55)
-Suggests: rbibutils, rstudioapi, testit, tinyimg, tinytex
-License: MIT + file LICENSE
-File: litedown_0.10_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/litedown/releases/download/0.10/litedown_0.10_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.7.0; ; 2026-07-11 17:39:31 UTC; unix
-Filesize: 392247
-SHA256: 72d9ec4b03aeb53a1362e615f3b9ddc6904d4a84947a813514c874987170e82e
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: colorspace
 Version: 2.1-3
 Depends: R (>= 3.0.0), methods, R (>= 4.7), R (< 4.7.99)
@@ -5208,3 +5174,37 @@ Platform: x86_64-pc-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 1.12.3)
+
+Package: curl
+Version: 8.0.0
+Depends: R (>= 3.0.0), R (>= 4.7), R (< 4.7.99)
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+License: MIT + file LICENSE
+File: curl_8.0.0_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/curl/releases/download/8.0.0/curl_8.0.0_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-26 18:20:53 UTC; unix
+Filesize: 889164
+SHA256: 02df1cc1e5ace391402b0502d00574ad2e3b8d2494f0ca4d1e5c59c842175ebb
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libcurl (>= 7.73): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
+
+Package: litedown
+Version: 0.11
+Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
+Imports: utils, commonmark (>= 2.0.0), xfun (>= 0.55)
+Suggests: rbibutils, rstudioapi, testit, tinyimg, tinytex
+License: MIT + file LICENSE
+File: litedown_0.11_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/litedown/releases/download/0.11/litedown_0.11_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.7.0; ; 2026-08-26 18:21:10 UTC; unix
+Filesize: 393170
+SHA256: 512b3ffd990854c8fbec95bd57a24b5a5bccde33a5544f15936ae00554d2a623
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
