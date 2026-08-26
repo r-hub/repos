@@ -3500,24 +3500,6 @@ Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: curl
-Version: 7.1.0
-Depends: R (>= 3.0.0), R (>= 4.7), R (< 4.7.99)
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
-License: MIT + file LICENSE
-File: curl_7.1.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-DownloadURL: https://github.com/cran/curl/releases/download/7.1.0/curl_7.1.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-24 09:14:07 UTC; unix
-Filesize: 882610
-SHA256: c6d434d154dab207e160cc333f59d4c0512cab9ba4f27666620e51a0af31b85e
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-42
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libcurl (>= 7.73): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
-
 Package: fs
 Version: 2.1.0
 Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
@@ -5208,3 +5190,21 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: curl
+Version: 8.0.0
+Depends: R (>= 3.0.0), R (>= 4.7), R (< 4.7.99)
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+License: MIT + file LICENSE
+File: curl_8.0.0_b3_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/curl/releases/download/8.0.0/curl_8.0.0_b3_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-26 08:04:03 UTC; unix
+Filesize: 913663
+SHA256: 64c390b5488601722e778bd7752469a0d63bbdcdded416e23d7d5b583365a72c
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libcurl (>= 7.73): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
