@@ -2482,25 +2482,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: pROC
-Version: 1.19.0.1
-Depends: R (>= 2.14), R (>= 4.7), R (< 4.7.99)
-Imports: methods, Rcpp (>= 0.11.1)
-Suggests: tcltk, MASS, logcondens, testthat, vdiffr, ggplot2, rlang
-License: GPL (>= 3)
-File: pROC_1.19.0.1_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/pROC/releases/download/1.19.0.1/pROC_1.19.0.1_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 18:19:07 UTC; unix
-Filesize: 1442441
-SHA256: fbcdc4e4607691f2cbd15cb7225491592728ca5195f978780cc0208608b78bb7
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: coda
 Version: 0.19-4.1
 Depends: R (>= 2.14.0), R (>= 4.7), R (< 4.7.99)
@@ -4345,22 +4326,6 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: litedown
-Version: 0.10
-Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
-Imports: utils, commonmark (>= 2.0.0), xfun (>= 0.55)
-Suggests: rbibutils, rstudioapi, testit, tinyimg, tinytex
-License: MIT + file LICENSE
-File: litedown_0.10_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/litedown/releases/download/0.10/litedown_0.10_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-Built: R 4.7.0; ; 2026-07-11 09:02:26 UTC; unix
-Filesize: 402532
-SHA256: 010831cc3a3a604df313236d03464a56688368777197178a36b048059e3e0575
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: colorspace
 Version: 2.1-3
 Depends: R (>= 3.0.0), methods, R (>= 4.7), R (< 4.7.99)
@@ -4688,24 +4653,6 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
-
-Package: RcppParallel
-Version: 6.2.0
-Depends: R (>= 3.6.0), R (>= 4.7), R (< 4.7.99)
-Suggests: Rcpp, knitr, rmarkdown
-License: GPL (>= 3)
-File: RcppParallel_6.2.0_b5_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/RcppParallel/releases/download/6.2.0/RcppParallel_6.2.0_b5_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-30 09:56:35 UTC; unix
-Filesize: 3161028
-SHA256: ca25b2e7ec2371024b4ad296c060bc37870034d5e8267c2c25065822f1c90c13
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: CMake (>= 3.5)
 
 Package: zoo
 Version: 1.9-0
@@ -5102,3 +5049,56 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: pROC
+Version: 1.19.1
+Depends: R (>= 2.14), R (>= 4.7), R (< 4.7.99)
+Imports: methods, Rcpp (>= 0.11.1)
+Suggests: MASS, logcondens, testthat, vdiffr, ggplot2, rlang, knitr, rmarkdown
+License: GPL (>= 3)
+File: pROC_1.19.1_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/pROC/releases/download/1.19.1/pROC_1.19.1_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-27 18:21:14 UTC; unix
+Filesize: 1626000
+SHA256: c383c1de1d3f8a60352b72bc1ec575773d3dc3f0c1df359c2ff558d01423586e
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: litedown
+Version: 0.11
+Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
+Imports: utils, commonmark (>= 2.0.0), xfun (>= 0.55)
+Suggests: rbibutils, rstudioapi, testit, tinyimg, tinytex
+License: MIT + file LICENSE
+File: litedown_0.11_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/litedown/releases/download/0.11/litedown_0.11_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+Built: R 4.7.0; ; 2026-08-27 18:21:14 UTC; unix
+Filesize: 403810
+SHA256: eb1ead48c017c8cdb7e9e5a47f180ffbbf1fce8ddbbe61b066e5eed7eb1160ff
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: RcppParallel
+Version: 6.2.1
+Depends: R (>= 3.6.0), R (>= 4.7), R (< 4.7.99)
+Suggests: Rcpp, knitr, rmarkdown
+License: GPL (>= 3)
+File: RcppParallel_6.2.1_b6_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/RcppParallel/releases/download/6.2.1/RcppParallel_6.2.1_b6_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-27 18:21:15 UTC; unix
+Filesize: 3162648
+SHA256: 673cf19a188e83ef5f2465eebdb70666ee4e21aef6ebbce4024272ca70879286
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: CMake (>= 3.5)
