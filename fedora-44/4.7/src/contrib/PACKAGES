@@ -3927,24 +3927,6 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: bookdown
-Version: 0.47
-Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
-Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.48), tinytex (>= 0.12), yaml (>= 2.1.19)
-Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, curl, rstudioapi, miniUI, rsconnect (>= 1.7.0), servr (>= 0.13), shiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat
-        (>= 3.1.0), withr (>= 2.3.0)
-License: GPL-3
-File: bookdown_0.47_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/bookdown/releases/download/0.47/bookdown_0.47_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-Built: R 4.7.0; ; 2026-06-16 12:25:18 UTC; unix
-Filesize: 1115997
-SHA256: 98fa358d1051a07a820164690e77eb66f939fb8676c4a34df5e34e3a62a65ae5
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: Pandoc (>= 1.17.2)
-
 Package: pkgload
 Version: 1.5.3
 Depends: R (>= 3.4.0), R (>= 4.7), R (< 4.7.99)
@@ -5102,3 +5084,21 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: CMake (>= 3.5)
+
+Package: bookdown
+Version: 0.48
+Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
+Imports: htmltools (>= 0.3.6), knitr (>= 1.38), rmarkdown (>= 2.14), jquerylib, xfun (>= 0.60), tinytex (>= 0.12), yaml (>= 2.1.19)
+Suggests: bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, curl, rstudioapi, miniUI, rsconnect (>= 1.7.0), servr (>= 0.13), shiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat
+        (>= 3.1.0), withr (>= 2.3.0)
+License: GPL-3
+File: bookdown_0.48_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/bookdown/releases/download/0.48/bookdown_0.48_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+Built: R 4.7.0; ; 2026-08-28 19:30:11 UTC; unix
+Filesize: 1115803
+SHA256: eb10f44be9ea8c1f8f7161e457e9288f3f63c13d1a729677f98b3425f88b106e
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: Pandoc (>= 1.17.2)
