@@ -4600,23 +4600,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: xz (for building from source)
 
-Package: rstantools
-Version: 2.7.0
-Depends: R (>= 4.7), R (< 4.7.99)
-Imports: desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1), QuickJSR
-Suggests: rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0), knitr, pkgbuild, pkgload, roxygen2 (>= 7.0.0), rmarkdown, rstudioapi
-License: GPL (>= 3)
-File: rstantools_2.7.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/rstantools/releases/download/2.7.0/rstantools_2.7.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-Built: R 4.7.0; ; 2026-07-26 17:31:34 UTC; unix
-Filesize: 620809
-SHA256: 80e8efd61bebd0b12b040d8c4efa2a2e4aad5d8a4f5ad80871608d43e11f5042
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc
-
 Package: RcppArmadillo
 Version: 15.4.2-1
 Depends: R (>= 3.3.0), R (>= 4.7), R (< 4.7.99)
@@ -5190,3 +5173,38 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Pandoc (>= 1.17.2)
+
+Package: RcppParallel
+Version: 6.2.1
+Depends: R (>= 3.6.0), R (>= 4.7), R (< 4.7.99)
+Suggests: Rcpp, knitr, rmarkdown
+License: GPL (>= 3)
+File: RcppParallel_6.2.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/RcppParallel/releases/download/6.2.1/RcppParallel_6.2.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-29 19:27:15 UTC; unix
+Filesize: 3133362
+SHA256: fc30f61dc1243c18433c76c4eff25b5297eaf0101c6d17541b91a55e2b0dbe5c
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: CMake (>= 3.5)
+
+Package: rstantools
+Version: 2.7.1
+Depends: R (>= 4.7), R (< 4.7.99)
+Imports: desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1), QuickJSR
+Suggests: rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0), knitr, pkgbuild, pkgload, roxygen2 (>= 7.0.0), rmarkdown, rstudioapi
+License: GPL (>= 3)
+File: rstantools_2.7.1_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/rstantools/releases/download/2.7.1/rstantools_2.7.1_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Built: R 4.7.0; ; 2026-08-29 19:29:03 UTC; unix
+Filesize: 620725
+SHA256: 5727dab8ce64bdf980b1231baa3b1cd31ead64a80c92b04ace9c957e805f1730
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc
