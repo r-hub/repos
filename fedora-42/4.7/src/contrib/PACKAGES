@@ -4600,23 +4600,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: xz (for building from source)
 
-Package: rstantools
-Version: 2.7.0
-Depends: R (>= 4.7), R (< 4.7.99)
-Imports: desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1), QuickJSR
-Suggests: rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0), knitr, pkgbuild, pkgload, roxygen2 (>= 7.0.0), rmarkdown, rstudioapi
-License: GPL (>= 3)
-File: rstantools_2.7.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-DownloadURL: https://github.com/cran/rstantools/releases/download/2.7.0/rstantools_2.7.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-Built: R 4.7.0; ; 2026-07-26 09:29:02 UTC; unix
-Filesize: 633104
-SHA256: 5ae8770056166dec2baf73baafdf84902e47a84c7a6e6f6a9a2411ffea850df4
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-42
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc
-
 Package: RcppArmadillo
 Version: 15.4.2-1
 Depends: R (>= 3.3.0), R (>= 4.7), R (< 4.7.99)
@@ -5208,3 +5191,20 @@ Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: Pandoc (>= 1.17.2)
+
+Package: rstantools
+Version: 2.7.1
+Depends: R (>= 4.7), R (< 4.7.99)
+Imports: desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1), QuickJSR
+Suggests: rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0), knitr, pkgbuild, pkgload, roxygen2 (>= 7.0.0), rmarkdown, rstudioapi
+License: GPL (>= 3)
+File: rstantools_2.7.1_b3_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/rstantools/releases/download/2.7.1/rstantools_2.7.1_b3_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+Built: R 4.7.0; ; 2026-08-30 13:00:24 UTC; unix
+Filesize: 632972
+SHA256: 66275dbf0162cfb55961b17b4caef8ec7b0fb83af816b746b56084d73dce3411
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc
