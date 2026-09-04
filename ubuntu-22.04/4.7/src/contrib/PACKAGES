@@ -3755,26 +3755,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: xclip (https://github.com/astrand/xclip) or xsel (http://www.vergenet.net/~conrad/software/xsel/) for accessing the X11 clipboard, or wl-clipboard
         (https://github.com/bugaevc/wl-clipboard) for systems using Wayland.
 
-Package: s2
-Version: 1.1.11
-Depends: R (>= 3.0.0), R (>= 4.7), R (< 4.7.99)
-Imports: Rcpp, wk (>= 0.6.0)
-Suggests: bit64, testthat (>= 3.0.0), vctrs
-License: Apache License (== 2.0)
-File: s2_1.1.11_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/s2/releases/download/1.1.11/s2_1.1.11_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-06-01 20:41:04 UTC; unix
-Filesize: 22745499
-SHA256: 7031234e0bee879e2107df434777c437460e25daa9b3a122901d615a684ff9fc
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: cmake, OpenSSL >= 1.0.1, Abseil >= 20230802.0
-LinkingTo: Rcpp, wk
-
 Package: sessioninfo
 Version: 1.2.4
 Depends: R (>= 3.4), R (>= 4.7), R (< 4.7.99)
@@ -4450,25 +4430,6 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: Deriv
-Version: 4.3.0
-Depends: Rcpp, R (>= 4.7), R (< 4.7.99)
-Imports: methods
-Suggests: testthat (>= 0.11.0)
-License: GPL (>= 3)
-File: Deriv_4.3.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/Deriv/releases/download/4.3.0/Deriv_4.3.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-23 17:52:03 UTC; unix
-Filesize: 742374
-SHA256: 19fbe18d0e2bef9c787b0e26c025fba353012637b24b9830ddef2e63dc4333aa
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
 
 Package: sf
 Version: 1.1-2
@@ -5208,3 +5169,42 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, pandoc
 LinkingTo: RcppEigen (>= 0.3.3.9.3), RcppParallel (>= 5.1.4)
+
+Package: s2
+Version: 1.1.12
+Depends: R (>= 3.0.0), R (>= 4.7), R (< 4.7.99)
+Imports: Rcpp, wk (>= 0.6.0)
+Suggests: bit64, testthat (>= 3.0.0), vctrs
+License: Apache License (== 2.0)
+File: s2_1.1.12_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/s2/releases/download/1.1.12/s2_1.1.12_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-09-04 19:03:36 UTC; unix
+Filesize: 22598616
+SHA256: ab26c483ff2eee32c4a1510087c4124a24f14a3dc91fccd92f1ec6c5b032d033
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: cmake, OpenSSL >= 1.0.1, Abseil >= 20230802.0
+LinkingTo: Rcpp, wk
+
+Package: Deriv
+Version: 4.3.5
+Depends: Rcpp, R (>= 4.5), R (>= 4.7), R (< 4.7.99)
+Imports: methods
+Suggests: testthat (>= 0.11.0)
+License: GPL (>= 3)
+File: Deriv_4.3.5_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/Deriv/releases/download/4.3.5/Deriv_4.3.5_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-09-04 19:01:41 UTC; unix
+Filesize: 723975
+SHA256: 27c38b8659be007e5e80f5fa05a3a73bcdd14bf5bdaab91624dcf37e82f0430a
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
