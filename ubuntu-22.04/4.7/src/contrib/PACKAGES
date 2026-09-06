@@ -3903,25 +3903,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: Hmisc
-Version: 5.2-6
-Depends: R (>= 4.2.0), R (>= 4.7), R (< 4.7.99)
-Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridisLite, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
-Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice, latticeExtra,
-        gt, sparkline, jsonlite, htmlwidgets, qs2, getPass, keyring, safer, htm2txt, boot
-License: GPL (>= 2)
-File: Hmisc_5.2-6_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-DownloadURL: https://github.com/cran/Hmisc/releases/download/5.2-6/Hmisc_5.2-6_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-06-19 18:12:43 UTC; unix
-Filesize: 3675558
-SHA256: 95986fbad86265eed6a68b53146b70c2e172159df81c52e91cfb3248b58c67a5
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-22.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: shiny
 Version: 1.14.0
 Depends: methods, R (>= 3.1.2), R (>= 4.7), R (< 4.7.99)
@@ -5208,3 +5189,41 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
+
+Package: cluster
+Version: 2.1.8.3
+Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
+Imports: graphics, grDevices, stats, utils
+Suggests: MASS, Matrix
+License: GPL (>= 2)
+File: cluster_2.1.8.3_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/cluster/releases/download/2.1.8.3/cluster_2.1.8.3_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-09-06 18:24:56 UTC; unix
+Filesize: 665758
+SHA256: b55b5f57f1b4245e2f5adc3abc8a9aeeb22c2e1d0641415bb2ab43f079a078cc
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Enhances: mvoutlier, fpc, ellipse, sfsmisc
+
+Package: Hmisc
+Version: 5.3-0
+Depends: R (>= 4.2.0), R (>= 4.7), R (< 4.7.99)
+Imports: methods, ggplot2, cluster, rpart, nnet, foreign, gtable, grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridisLite, htmltools, base64enc, colorspace, rmarkdown, knitr, Formula
+Suggests: survival, qreport, acepack, chron, rms, mice, rstudioapi, tables, plotly (>= 4.5.6), rlang, VGAM, leaps, pcaPP, digest, parallel, polspline, abind, kableExtra, rio, lattice, latticeExtra,
+        gt, sparkline, jsonlite, htmlwidgets, qs2, getPass, keyring, safer, htm2txt, boot
+License: GPL (>= 2)
+File: Hmisc_5.3-0_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+DownloadURL: https://github.com/cran/Hmisc/releases/download/5.3-0/Hmisc_5.3-0_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-09-06 18:25:02 UTC; unix
+Filesize: 3735080
+SHA256: 3217693281624712476863d90bd7670c5e2f76fc30ce18395a7df93a9cc120e9
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
