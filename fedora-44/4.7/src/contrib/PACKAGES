@@ -4006,22 +4006,6 @@ Enhances: graph
 SystemRequirements: libxml2 (optional), glpk (>= 4.57, optional)
 LinkingTo: cpp11 (>= 0.5.0)
 
-Package: distributional
-Version: 0.8.1
-Depends: R (>= 4.0.0), R (>= 4.7), R (< 4.7.99)
-Imports: vctrs (>= 0.3.0), rlang (>= 0.4.5), generics, stats, numDeriv, utils, lifecycle, pillar
-Suggests: testthat (>= 2.1.0), covr, mvtnorm, actuar (>= 2.0.0), evd, ggdist, ggplot2, gk, LaplacesDemon, pkgdown
-License: GPL-3
-File: distributional_0.8.1_b4_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/distributional/releases/download/0.8.1/distributional_0.8.1_b4_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-Built: R 4.7.0; ; 2026-06-28 10:10:25 UTC; unix
-Filesize: 669630
-SHA256: b2e5c738c68613fcbf9a2e8a06da31c45675965d8b590e657a00d8c67d99b416
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: parallelly
 Version: 1.48.0
 Depends: R (>= 4.7), R (< 4.7.99)
@@ -4451,25 +4435,6 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: xz (for building from source)
-
-Package: RcppArmadillo
-Version: 15.4.2-1
-Depends: R (>= 3.3.0), R (>= 4.7), R (< 4.7.99)
-Imports: Rcpp (>= 1.1.1), stats, utils, methods
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-License: GPL (>= 2)
-File: RcppArmadillo_15.4.2-1_b5_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/15.4.2-1/RcppArmadillo_15.4.2-1_b5_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-26 09:28:38 UTC; unix
-Filesize: 2052930
-SHA256: 849bb6bd0ae5ee2e59f805f49f6a3bc7666fea5e22b72e3cc48f8e7fa474af77
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
 
 Package: zoo
 Version: 1.9-0
@@ -5102,3 +5067,38 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: distributional
+Version: 0.9.0
+Depends: R (>= 4.0.0), R (>= 4.7), R (< 4.7.99)
+Imports: vctrs (>= 0.3.0), rlang (>= 0.4.5), generics, stats, numDeriv, utils, lifecycle, pillar
+Suggests: testthat (>= 2.1.0), covr, mvtnorm, actuar (>= 2.0.0), evd, ggdist, ggplot2, gk, knitr, LaplacesDemon, pkgdown, rmarkdown, tweedieDistr
+License: GPL-3
+File: distributional_0.9.0_b5_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/distributional/releases/download/0.9.0/distributional_0.9.0_b5_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+Built: R 4.7.0; ; 2026-09-08 12:12:37 UTC; unix
+Filesize: 747346
+SHA256: b8717bfa09e101482b5a5e5dae87d6585d1fc399c11a329411e1cd43cc537f65
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: RcppArmadillo
+Version: 15.6.0-1
+Depends: R (>= 3.3.0), R (>= 4.7), R (< 4.7.99)
+Imports: Rcpp (>= 1.1.1), stats, utils, methods
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+File: RcppArmadillo_15.6.0-1_b6_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/15.6.0-1/RcppArmadillo_15.6.0-1_b6_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-09-08 12:12:40 UTC; unix
+Filesize: 2054230
+SHA256: 174ed44b2b2adc989436abee82567b928df6add78cad06290c3c3085a854370a
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
