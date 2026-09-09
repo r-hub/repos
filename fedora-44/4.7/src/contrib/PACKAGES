@@ -3095,25 +3095,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: knitr, shiny
 
-Package: xts
-Version: 0.14.2
-Depends: R (>= 3.6.0), zoo (>= 1.7-12), R (>= 4.7), R (< 4.7.99)
-Imports: methods
-Suggests: timeSeries, timeDate, tseries, chron, tinytest
-License: GPL (>= 2)
-File: xts_0.14.2_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/xts/releases/download/0.14.2/xts_0.14.2_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 18:31:24 UTC; unix
-Filesize: 1384906
-SHA256: 88d8a0edf5e1de40e038f8cd19c8d95e9ace692cca88cbcb8887b270661f2d2d
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: zoo
-
 Package: vroom
 Version: 1.7.1
 Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
@@ -4665,26 +4646,6 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: terra
-Version: 1.9-46
-Depends: R (>= 3.5.0), methods, R (>= 4.7), R (< 4.7.99)
-Imports: Rcpp (>= 1.0-10)
-Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), igraph, deldir, XML, leaflet (>= 2.2.1), htmlwidgets, future, future.apply
-License: GPL (>= 3)
-File: terra_1.9-46_b5_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/terra/releases/download/1.9-46/terra_1.9-46_b5_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-23 07:53:25 UTC; unix
-Filesize: 42797561
-SHA256: 7583ab05b1c46c678865ece64f04ead41e1ab784009d044720429e588cc4e525
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
-LinkingTo: Rcpp
-
 Package: arrow
 Version: 25.0.1
 Depends: R (>= 4.2), R (>= 4.7), R (< 4.7.99)
@@ -5101,4 +5062,43 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: xts
+Version: 0.14.3
+Depends: R (>= 3.6.0), zoo (>= 1.7-12), R (>= 4.7), R (< 4.7.99)
+Imports: methods
+Suggests: timeSeries, timeDate, tseries, chron, tinytest
+License: GPL (>= 2)
+File: xts_0.14.3_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/xts/releases/download/0.14.3/xts_0.14.3_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-09-09 12:24:40 UTC; unix
+Filesize: 979050
+SHA256: 8ccd4b77cca1ed0b31502e6c804bf502a607f58d0f1e14c05deced11b638ffd3
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: zoo
+
+Package: terra
+Version: 1.9-50
+Depends: R (>= 3.5.0), methods, R (>= 4.7), R (< 4.7.99)
+Imports: Rcpp (>= 1.0-10), stats
+Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), igraph, deldir, XML, leaflet (>= 2.2.1), htmlwidgets, future, future.apply
+License: GPL (>= 3)
+File: terra_1.9-50_b6_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/terra/releases/download/1.9-50/terra_1.9-50_b6_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-09-09 12:24:44 UTC; unix
+Filesize: 42850114
+SHA256: 637931ebca58d7c3093bab59c3ab23f1ab50119d7b31c93677704fe0ca0d40e8
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
 LinkingTo: Rcpp
