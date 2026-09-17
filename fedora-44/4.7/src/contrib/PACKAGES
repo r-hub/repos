@@ -3882,22 +3882,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
 
-Package: selectr
-Version: 0.6-0
-Depends: R (>= 3.3), R (>= 4.7), R (< 4.7.99)
-Imports: R6
-Suggests: testthat, XML, xml2
-License: BSD_3_clause + file LICENCE
-File: selectr_0.6-0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/selectr/releases/download/0.6-0/selectr_0.6-0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-Built: R 4.7.0; ; 2026-06-23 10:45:50 UTC; unix
-Filesize: 565418
-SHA256: 13310fdc4d2bbc3744f34c187e7bd6e8d7a416b711538727f3cac1d6ad289b51
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: dials
 Version: 1.4.4
 Depends: R (>= 4.1), scales (>= 1.3.0), R (>= 4.7), R (< 4.7.99)
@@ -4103,24 +4087,6 @@ DownloadURL: https://github.com/cran/urlchecker/releases/download/2.0.0/urlcheck
 Built: R 4.7.0; ; 2026-07-09 10:35:00 UTC; unix
 Filesize: 83548
 SHA256: d2e1de1089130c2c77a85a5e59488d6318d16850ada6937e5fff8dc89d972284
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: xfun
-Version: 0.60
-Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
-Imports: grDevices, stats, tools
-Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.6), commonmark, knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, data.table, qs2
-License: MIT + file LICENSE
-File: xfun_0.60_b4_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/xfun/releases/download/0.60/xfun_0.60_b4_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-10 10:31:16 UTC; unix
-Filesize: 725386
-SHA256: 9589be91c401e76d7f273fdef1f2df19b67569bce8a33bb15c470787ce6ea3e1
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
@@ -5102,3 +5068,37 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11 (>= 0.5.5), progress
+
+Package: selectr
+Version: 0.7-0
+Depends: R (>= 3.6), R (>= 4.7), R (< 4.7.99)
+Imports: R6
+Suggests: testthat (>= 3.0.0), XML, xml2
+License: BSD_3_clause + file LICENCE
+File: selectr_0.7-0_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/selectr/releases/download/0.7-0/selectr_0.7-0_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+Built: R 4.7.0; ; 2026-09-17 12:39:47 UTC; unix
+Filesize: 735201
+SHA256: 3b0c48de7ce4e9a9d630c8a3a444f336007a339b026ec123d1435fab63f7b3fb
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: xfun
+Version: 0.61
+Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
+Imports: grDevices, stats, tools
+Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.6), commonmark, knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, data.table, qs2
+License: MIT + file LICENSE
+File: xfun_0.61_b5_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/xfun/releases/download/0.61/xfun_0.61_b5_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-09-17 12:39:46 UTC; unix
+Filesize: 725444
+SHA256: dc9eb3ed5a19bb2e45ac94b5ed774e7041fd28a77d3a40abb5e86e83fecd002e
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
