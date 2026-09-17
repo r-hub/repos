@@ -3898,22 +3898,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: selectr
-Version: 0.6-0
-Depends: R (>= 3.3), R (>= 4.7), R (< 4.7.99)
-Imports: R6
-Suggests: testthat, XML, xml2
-License: BSD_3_clause + file LICENCE
-File: selectr_0.6-0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/selectr/releases/download/0.6-0/selectr_0.6-0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.7.0; ; 2026-06-23 18:29:33 UTC; unix
-Filesize: 596614
-SHA256: 5802a77f59685b59fe432811bb482023ba4dbf4ed3b162e90fb96b67dcbab6a0
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: gridExtra
 Version: 2.3.1
 Depends: R (>= 4.7), R (< 4.7.99)
@@ -4103,24 +4087,6 @@ DownloadURL: https://github.com/cran/urlchecker/releases/download/2.0.0/urlcheck
 Built: R 4.7.0; ; 2026-07-09 18:24:45 UTC; unix
 Filesize: 80619
 SHA256: c62752071089ad3f15b0b30a2e1f540f5d4a6bd8478bee4c242d93a205d1b9da
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: xfun
-Version: 0.60
-Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
-Imports: grDevices, stats, tools
-Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.6), commonmark, knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, data.table, qs2
-License: MIT + file LICENSE
-File: xfun_0.60_b4_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/xfun/releases/download/0.60/xfun_0.60_b4_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-09 18:24:45 UTC; unix
-Filesize: 662797
-SHA256: c72fa9f2a88f90315d7455e159f497835e7fcafc3f287a0206f28944c4e30ffa
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 17
@@ -5208,3 +5174,37 @@ Platform: x86_64-pc-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11 (>= 0.5.5), progress
+
+Package: selectr
+Version: 0.7-0
+Depends: R (>= 3.6), R (>= 4.7), R (< 4.7.99)
+Imports: R6
+Suggests: testthat (>= 3.0.0), XML, xml2
+License: BSD_3_clause + file LICENCE
+File: selectr_0.7-0_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/selectr/releases/download/0.7-0/selectr_0.7-0_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.7.0; ; 2026-09-17 19:51:01 UTC; unix
+Filesize: 747656
+SHA256: c36920b9d7e8a7189599e446ee5a0540a8dfb240d344a040d6c5394731712280
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: xfun
+Version: 0.61
+Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
+Imports: grDevices, stats, tools
+Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.6), commonmark, knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, data.table, qs2
+License: MIT + file LICENSE
+File: xfun_0.61_b5_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/xfun/releases/download/0.61/xfun_0.61_b5_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-09-17 19:51:01 UTC; unix
+Filesize: 662274
+SHA256: d8421d9127fc71926875d9af6ccd5728e9e53fdc867bca196ef3487890008dc8
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
