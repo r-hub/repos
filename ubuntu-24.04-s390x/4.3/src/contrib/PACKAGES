@@ -1736,22 +1736,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli (>= 3.3.0), desc, fs, glue, lifecycle, methods, pkgbuild, processx, rlang (>= 1.1.1), rprojroot, utils
 
-Package: tinytex
-Version: 0.60
-Depends: R (>= 4.3), R (< 4.3.99)
-Suggests: testit, rstudioapi
-License: MIT + file LICENSE
-File: tinytex_0.60_b5_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/tinytex/releases/download/0.60/tinytex_0.60_b5_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.3.3; ; 2026-06-16 18:49:12 UTC; unix
-Filesize: 146842
-SHA256: 39c7bf49a68cd60a5bd4aea18abf85ec5cb78544c3228269f2ef779796bfc19f
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: xfun (>= 0.48)
-
 Package: dbplyr
 Version: 2.6.0
 Depends: R (>= 4.1), R (>= 4.3), R (< 4.3.99)
@@ -1805,22 +1789,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli, methods, rlang (>= 1.1.0)
 SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
 
-Package: selectr
-Version: 0.6-0
-Depends: R (>= 3.3), R (>= 4.3), R (< 4.3.99)
-Suggests: testthat, XML, xml2
-License: BSD_3_clause + file LICENCE
-File: selectr_0.6-0_b4_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/selectr/releases/download/0.6-0/selectr_0.6-0_b4_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.3.3; ; 2026-06-23 16:45:10 UTC; unix
-Filesize: 597192
-SHA256: eddc51c4ccdcbcf8d5aa6e93cec07391bbad0c0833bcdbd9afa837a9a998919f
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: R6
-
 Package: rlang
 Version: 1.3.0
 Depends: R (>= 4.0.0), R (>= 4.3), R (< 4.3.99)
@@ -1857,24 +1825,6 @@ Platform: s390x-ibm-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: methods, utils
-
-Package: xfun
-Version: 0.60
-Depends: R (>= 3.2.0), R (>= 4.3), R (< 4.3.99)
-Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.6), commonmark, knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, data.table, qs2
-License: MIT + file LICENSE
-File: xfun_0.60_b10_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/xfun/releases/download/0.60/xfun_0.60_b10_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.3.3; s390x-ibm-linux-gnu; 2026-07-09 16:46:17 UTC; unix
-Filesize: 645937
-SHA256: 0672af142a1c0e10022e733e078ad0271e29e1c6ce3df67aec2bda4af31cd53e
-RVersion: 4.3
-Platform: s390x-ibm-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: grDevices, stats, tools
 
 Package: colorspace
 Version: 2.1-3
@@ -2108,3 +2058,53 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cellranger, tibble (>= 2.0.1), utils
 LinkingTo: cpp11 (>= 0.5.5), progress
+
+Package: tinytex
+Version: 0.61
+Depends: R (>= 4.3), R (< 4.3.99)
+Suggests: testit, rstudioapi
+License: MIT + file LICENSE
+File: tinytex_0.61_b6_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/tinytex/releases/download/0.61/tinytex_0.61_b6_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.3.3; ; 2026-09-18 17:55:30 UTC; unix
+Filesize: 147427
+SHA256: 94e058b213117f758499bc55e380383dc028fe61bb4f6eb04713be1f99e6a9ab
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: xfun (>= 0.48)
+
+Package: selectr
+Version: 0.7-0
+Depends: R (>= 3.6), R (>= 4.3), R (< 4.3.99)
+Suggests: testthat (>= 3.0.0), XML, xml2
+License: BSD_3_clause + file LICENCE
+File: selectr_0.7-0_b5_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/selectr/releases/download/0.7-0/selectr_0.7-0_b5_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.3.3; ; 2026-09-18 17:54:48 UTC; unix
+Filesize: 746291
+SHA256: ef704f5b65c6bec14d109f7d31973f289b6b9ecaff5e2ee490b627621d50f38c
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: R6
+
+Package: xfun
+Version: 0.61
+Depends: R (>= 3.2.0), R (>= 4.3), R (< 4.3.99)
+Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.6), commonmark, knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, data.table, qs2
+License: MIT + file LICENSE
+File: xfun_0.61_b11_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/xfun/releases/download/0.61/xfun_0.61_b11_R4.3_s390x-ibm-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.3.3; s390x-ibm-linux-gnu; 2026-09-18 17:54:47 UTC; unix
+Filesize: 645922
+SHA256: fe930308f633f12b2f5116f3ec99290c7797da1960821b6eca6c435d9f748346
+RVersion: 4.3
+Platform: s390x-ibm-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: grDevices, stats, tools
