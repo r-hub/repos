@@ -4215,25 +4215,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cli
 
-Package: gert
-Version: 2.4.1
-Depends: R (>= 4.7), R (< 4.7.99)
-Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
-Suggests: spelling, knitr, rmarkdown, testthat (>= 3.0.0), roxygen2
-License: MIT + file LICENSE
-File: gert_2.4.1_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/gert/releases/download/2.4.1/gert_2.4.1_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-20 08:01:48 UTC; unix
-Filesize: 429571
-SHA256: df895ebdb16d7653f49098427f673bd24883bd50fe25a00a49eae911642c7663
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
-
 Package: lava
 Version: 1.9.3
 Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
@@ -4378,24 +4359,6 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 1.12.3)
-
-Package: curl
-Version: 8.0.0
-Depends: R (>= 3.0.0), R (>= 4.7), R (< 4.7.99)
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
-License: MIT + file LICENSE
-File: curl_8.0.0_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/curl/releases/download/8.0.0/curl_8.0.0_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-08-25 22:07:42 UTC; unix
-Filesize: 913865
-SHA256: 5d08f9f55120dedd2eba8b25d7433949e66805ae7d3501c735beb039685cebf9
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libcurl (>= 7.73): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
 
 Package: data.table
 Version: 1.18.6.1
@@ -5101,3 +5064,40 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: gert
+Version: 2.5.0
+Depends: R (>= 4.7), R (< 4.7.99)
+Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
+Suggests: spelling, knitr, rmarkdown, testthat (>= 3.0.0), roxygen2
+License: MIT + file LICENSE
+File: gert_2.5.0_b4_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/gert/releases/download/2.5.0/gert_2.5.0_b4_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-10-14 12:57:31 UTC; unix
+Filesize: 332175
+SHA256: f2388a6e799b460fcacd9bd4dc1e033424dcd997dfe99b140297847938422655
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
+
+Package: curl
+Version: 8.1.0
+Depends: R (>= 3.0.0), R (>= 4.7), R (< 4.7.99)
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+License: MIT + file LICENSE
+File: curl_8.1.0_b4_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/curl/releases/download/8.1.0/curl_8.1.0_b4_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-10-14 12:57:27 UTC; unix
+Filesize: 830577
+SHA256: 8e6061eefd9df9a33abe8e84eb028f67674611aa08f7f34f402b9f9c842719b3
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libcurl (>= 7.73): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
