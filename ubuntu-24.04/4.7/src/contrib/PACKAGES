@@ -989,22 +989,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: future.apply
-Version: 1.20.2
-Depends: R (>= 3.2.0), future (>= 1.49.0), R (>= 4.7), R (< 4.7.99)
-Imports: globals, parallel, utils
-Suggests: datasets, stats, tools, listenv, R.rsp, markdown
-License: GPL (>= 2)
-File: future.apply_1.20.2_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/future.apply/releases/download/1.20.2/future.apply_1.20.2_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.7.0; ; 2026-03-30 14:11:07 UTC; unix
-Filesize: 199150
-SHA256: 7f62b1365b7443a5c91e8369f715ca24cd302a7156904549678e4f5738dd5d33
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: generics
 Version: 0.1.4
 Depends: R (>= 3.6), R (>= 4.7), R (< 4.7.99)
@@ -4906,24 +4890,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11 (>= 0.5.5), progress
 
-Package: xfun
-Version: 0.61
-Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
-Imports: grDevices, stats, tools
-Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.6), commonmark, knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, data.table, qs2
-License: MIT + file LICENSE
-File: xfun_0.61_b5_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/xfun/releases/download/0.61/xfun_0.61_b5_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-09-17 19:51:01 UTC; unix
-Filesize: 662274
-SHA256: d8421d9127fc71926875d9af6ccd5728e9e53fdc867bca196ef3487890008dc8
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: tinytex
 Version: 0.61
 Depends: R (>= 4.7), R (< 4.7.99)
@@ -4959,22 +4925,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17
 LinkingTo: RcppEigen, Rcpp
-
-Package: future
-Version: 1.76.0
-Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
-Imports: digest, globals (>= 0.18.0), listenv (>= 0.8.0), parallel, parallelly (>= 1.44.0), tools, utils
-Suggests: methods, RhpcBLASctl, R.rsp, markdown
-License: Apache License (>= 2)
-File: future_1.76.0_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-DownloadURL: https://github.com/cran/future/releases/download/1.76.0/future_1.76.0_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
-Built: R 4.7.0; ; 2026-09-24 20:07:47 UTC; unix
-Filesize: 1034414
-SHA256: 1c7223524141db4a64e8794fe86e70a00bf37697651dac78d7f56c5b5fac3a78
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-24.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: zoo
 Version: 1.9-1
@@ -5207,3 +5157,53 @@ Platform: x86_64-pc-linux-gnu-ubuntu-24.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libcurl (>= 7.73): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
+
+Package: future.apply
+Version: 1.21.0
+Depends: R (>= 3.2.0), future (>= 1.80.0), R (>= 4.7), R (< 4.7.99)
+Imports: globals, parallel, stats, utils
+Suggests: datasets, tools, listenv, R.rsp, markdown
+License: GPL (>= 2)
+File: future.apply_1.21.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/future.apply/releases/download/1.21.0/future.apply_1.21.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.7.0; ; 2026-10-16 19:42:28 UTC; unix
+Filesize: 204520
+SHA256: 7a997ade16ec6ba6b245b33e56c1267c922f732cbad0b0639ef5f5efc8a02c31
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: xfun
+Version: 0.62
+Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
+Imports: grDevices, stats, tools
+Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.6), knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, data.table, qs2
+License: MIT + file LICENSE
+File: xfun_0.62_b6_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/xfun/releases/download/0.62/xfun_0.62_b6_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-10-16 19:42:20 UTC; unix
+Filesize: 696248
+SHA256: 3be761ce0a05d70b6a19861d50b9a96e005068a16c2e4ed65dacaafc2f338143
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: future
+Version: 1.80.0
+Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
+Imports: digest, globals (>= 0.18.0), listenv (>= 0.8.0), parallel, parallelly (>= 1.44.0), tools, utils
+Suggests: methods, RhpcBLASctl, R.rsp, markdown
+License: Apache License (>= 2)
+File: future_1.80.0_b4_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+DownloadURL: https://github.com/cran/future/releases/download/1.80.0/future_1.80.0_b4_R4.7_x86_64-pc-linux-gnu-ubuntu-24.04.tar.gz
+Built: R 4.7.0; ; 2026-10-16 19:42:20 UTC; unix
+Filesize: 1041189
+SHA256: d920fe6c0ba140275349aacb8eb558d6468752af73b4f7dca7af2481d288fac3
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-24.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
