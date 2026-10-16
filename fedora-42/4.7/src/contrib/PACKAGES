@@ -4905,24 +4905,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: cpp11 (>= 0.5.5), progress
 
-Package: xfun
-Version: 0.61
-Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
-Imports: grDevices, stats, tools
-Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.6), commonmark, knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, data.table, qs2
-License: MIT + file LICENSE
-File: xfun_0.61_b5_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-DownloadURL: https://github.com/cran/xfun/releases/download/0.61/xfun_0.61_b5_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-09-17 12:38:49 UTC; unix
-Filesize: 724999
-SHA256: 810ee74382cf7fd905acc01ac7f3f164d9d6388906ebeefc72fb47f0328f92e2
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-42
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: tinytex
 Version: 0.61
 Depends: R (>= 4.7), R (< 4.7.99)
@@ -4958,22 +4940,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17
 LinkingTo: RcppEigen, Rcpp
-
-Package: future
-Version: 1.76.0
-Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
-Imports: digest, globals (>= 0.18.0), listenv (>= 0.8.0), parallel, parallelly (>= 1.44.0), tools, utils
-Suggests: methods, RhpcBLASctl, R.rsp, markdown
-License: Apache License (>= 2)
-File: future_1.76.0_b3_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-DownloadURL: https://github.com/cran/future/releases/download/1.76.0/future_1.76.0_b3_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
-Built: R 4.7.0; ; 2026-09-24 12:47:08 UTC; unix
-Filesize: 1074116
-SHA256: 013b945b1d3935d598a04f6c3d28868115ea6e6bcd7ed1e78e623e4e473ff8dc
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-42
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: zoo
 Version: 1.9-1
@@ -5226,3 +5192,37 @@ Platform: x86_64-pc-linux-gnu-fedora-42
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libcurl (>= 7.73): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
+
+Package: xfun
+Version: 0.62
+Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
+Imports: grDevices, stats, tools
+Suggests: testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.6), knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, data.table, qs2
+License: MIT + file LICENSE
+File: xfun_0.62_b6_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/xfun/releases/download/0.62/xfun_0.62_b6_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-10-16 12:32:51 UTC; unix
+Filesize: 765043
+SHA256: 65df479b41e5d536d918e1d815f1d6914a9100fe35ad7d756d7672a9075c0e92
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: future
+Version: 1.80.0
+Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
+Imports: digest, globals (>= 0.18.0), listenv (>= 0.8.0), parallel, parallelly (>= 1.44.0), tools, utils
+Suggests: methods, RhpcBLASctl, R.rsp, markdown
+License: Apache License (>= 2)
+File: future_1.80.0_b4_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+DownloadURL: https://github.com/cran/future/releases/download/1.80.0/future_1.80.0_b4_R4.7_x86_64-pc-linux-gnu-fedora-42.tar.gz
+Built: R 4.7.0; ; 2026-10-16 12:32:51 UTC; unix
+Filesize: 1080298
+SHA256: 19715ab54c06212670d733931e22157c4e589a30c1fecae314d8c4147b35701c
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-42
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
