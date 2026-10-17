@@ -989,22 +989,6 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: future.apply
-Version: 1.20.2
-Depends: R (>= 3.2.0), future (>= 1.49.0), R (>= 4.7), R (< 4.7.99)
-Imports: globals, parallel, utils
-Suggests: datasets, stats, tools, listenv, R.rsp, markdown
-License: GPL (>= 2)
-File: future.apply_1.20.2_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/future.apply/releases/download/1.20.2/future.apply_1.20.2_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-Built: R 4.7.0; ; 2026-03-30 18:40:56 UTC; unix
-Filesize: 211393
-SHA256: 02d0f1b952316340012f56b1ac68ea36c5583670df39f778a85330010f4f2d92
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: generics
 Version: 0.1.4
 Depends: R (>= 3.6), R (>= 4.7), R (< 4.7.99)
@@ -4646,25 +4630,6 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: RcppArmadillo
-Version: 15.6.0-1
-Depends: R (>= 3.3.0), R (>= 4.7), R (< 4.7.99)
-Imports: Rcpp (>= 1.1.1), stats, utils, methods
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-License: GPL (>= 2)
-File: RcppArmadillo_15.6.0-1_b6_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/15.6.0-1/RcppArmadillo_15.6.0-1_b6_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-09-08 12:12:40 UTC; unix
-Filesize: 2054230
-SHA256: 174ed44b2b2adc989436abee82567b928df6add78cad06290c3c3085a854370a
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Rcpp
-
 Package: xts
 Version: 0.14.3
 Depends: R (>= 3.6.0), zoo (>= 1.7-12), R (>= 4.7), R (< 4.7.99)
@@ -4760,25 +4725,6 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: readxl
-Version: 1.5.0.1
-Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
-Imports: cellranger, tibble (>= 2.0.1), utils
-Suggests: covr, knitr, rmarkdown, testthat (>= 3.1.6), withr
-License: MIT + file LICENSE
-File: readxl_1.5.0.1_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/readxl/releases/download/1.5.0.1/readxl_1.5.0.1_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-09-16 12:40:38 UTC; unix
-Filesize: 2328571
-SHA256: 2b540b7c01602bf4e0f4d3f6bcd38e117874483c9bdf8295ac00e14e684c537a
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: cpp11 (>= 0.5.5), progress
 
 Package: tinytex
 Version: 0.61
@@ -5101,3 +5047,57 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: future.apply
+Version: 1.21.0
+Depends: R (>= 3.2.0), future (>= 1.80.0), R (>= 4.7), R (< 4.7.99)
+Imports: globals, parallel, stats, utils
+Suggests: datasets, tools, listenv, R.rsp, markdown
+License: GPL (>= 2)
+File: future.apply_1.21.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/future.apply/releases/download/1.21.0/future.apply_1.21.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+Built: R 4.7.0; ; 2026-10-17 11:41:36 UTC; unix
+Filesize: 216471
+SHA256: 9574630e08718a9182df6eb7721ed7d999c3bcae380ccbc328d1e72133188ef3
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: RcppArmadillo
+Version: 15.6.2-1
+Depends: R (>= 3.3.0), R (>= 4.7), R (< 4.7.99)
+Imports: Rcpp (>= 1.1.1), stats, utils, methods
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+File: RcppArmadillo_15.6.2-1_b7_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/RcppArmadillo/releases/download/15.6.2-1/RcppArmadillo_15.6.2-1_b7_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-10-17 11:41:39 UTC; unix
+Filesize: 1120612
+SHA256: f1293e77caeefbec0391a7c6e3741d740b41a36f86be25f4106e9e91c835496a
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Rcpp
+
+Package: readxl
+Version: 1.6.0
+Depends: R (>= 4.2), R (>= 4.7), R (< 4.7.99)
+Imports: cellranger, cli, rlang, tibble (>= 2.0.1), utils
+Suggests: askpass, covr, knitr, rmarkdown, testthat (>= 3.1.6), withr
+License: MIT + file LICENSE
+File: readxl_1.6.0_b4_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/readxl/releases/download/1.6.0/readxl_1.6.0_b4_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-10-17 11:41:39 UTC; unix
+Filesize: 981534
+SHA256: eb0b3b428f6f705ed25a6293ed8cf43a44d6c37be2378b1e32315b3401d1f8d0
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: cpp11 (>= 0.5.5), progress
