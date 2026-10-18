@@ -8,8 +8,6 @@ with `install.packages()`, only with pak.
 * [Ubuntu 22.04 + R-devel + libc++](#ubuntu-2204--r-devel--libc-ubuntu-2204-r47-libc)
 * [Ubuntu 24.04 + R-devel](#ubuntu-2404--r-devel-ubuntu-2404-r47)
 * [Fedora 44 + R-devel](#fedora-44--r-devel-fedora-44-r47)
-* [macOS 11 Big Sur or later, x86_64 + R-devel](#macos-11-big-sur-or-later-x86_64--r-devel-macos-x86_64-r47)
-* [macOS 11 Big Sur or later, arm64 + R-devel](#macos-11-big-sur-or-later-arm64--r-devel-macos-arm64-r47)
 * [Ubuntu 22.04 + R 4.3 on s390x](#ubuntu-2204--r-43-on-s390x-ubuntu-2204-s390x-r43)
 
 <details><summary>Retired repositories</summary>
@@ -56,10 +54,14 @@ but existing builds are still functional.
   `https://raw.githubusercontent.com/r-hub/repos/main/macos-arm64/4.4`
 - macOS 11 Big Sur or later, arm64 + R 4.5 (last update: 2025-03-15)\
   `https://raw.githubusercontent.com/r-hub/repos/main/macos-arm64/4.5`
+- macOS 11 Big Sur or later, arm64 + R 4.6 (last update: 2026-03-17)\
+  `https://raw.githubusercontent.com/r-hub/repos/main/macos-arm64/4.6`
 - macOS 11 Big Sur or later, x86_64 + R 4.4 (last update: 2024-03-27)\
   `https://raw.githubusercontent.com/r-hub/repos/main/macos-x86_64/4.4`
 - macOS 11 Big Sur or later, x86_64 + R 4.5 (last update: 2025-03-15)\
   `https://raw.githubusercontent.com/r-hub/repos/main/macos-x86_64/4.5`
+- macOS 11 Big Sur or later, x86_64 + R 4.6 (last update: 2026-03-26)\
+  `https://raw.githubusercontent.com/r-hub/repos/main/macos-x86_64/4.6`
 </details>
 
 ## Can use PPPM:
@@ -163,24 +165,6 @@ options(repos = c(
 ```
 options(repos = c(
   RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-24.04-aarch64/4.4",
-  CRAN = "https://cloud.r-project.org"
-))
-```
-
-## macOS 11 Big Sur or later, x86_64 + R-devel (`macos-x86_64-R4.6`)
-
-```
-options(repos = c(
-  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/macos-x86_64/4.6",
-  CRAN = "https://cloud.r-project.org"
-))
-```
-
-## macOS 11 Big Sur or later, arm64 + R-devel (`macos-arm64-R4.6`)
-
-```
-options(repos = c(
-  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/macos-arm64/4.6",
   CRAN = "https://cloud.r-project.org"
 ))
 ```
