@@ -7,8 +7,12 @@ with `install.packages()`, only with pak.
 * [Ubuntu 22.04 + R-devel](#ubuntu-2204--r-devel-ubuntu-2204-r47)
 * [Ubuntu 22.04 + R-devel + libc++](#ubuntu-2204--r-devel--libc-ubuntu-2204-r47-libc)
 * [Ubuntu 24.04 + R-devel](#ubuntu-2404--r-devel-ubuntu-2404-r47)
+* [Ubuntu 26.04 + R-devel](#ubuntu-2604--r-devel-ubuntu-2604-r47)
+* [Ubuntu 26.04 + R-devel + libc++](#ubuntu-2604--r-devel--libc-ubuntu-2604-r47-libc)
+* [Ubuntu 26.04 + R-devel on aarch64](#ubuntu-2604--r-devel-on-aarch64-ubuntu-2604-aarch64-r47)
+* [Ubuntu 26.04 + R 4.5 on s390x](#ubuntu-2604--r-45-on-s390x-ubuntu-2604-s390x-r45)
+* [Ubuntu 24.04 + R 4.3 on s390x](#ubuntu-2404--r-43-on-s390x-ubuntu-2404-s390x-r43)
 * [Fedora 44 + R-devel](#fedora-44--r-devel-fedora-44-r47)
-* [Ubuntu 22.04 + R 4.3 on s390x](#ubuntu-2204--r-43-on-s390x-ubuntu-2204-s390x-r43)
 
 <details><summary>Retired repositories</summary>
 These are not updated any more, no new packages are added to them,
@@ -107,8 +111,6 @@ options(repos = c(
 
 * [x] `clang-asan` (extra `clang-ASAN`)
 * [x] `clang-ubsan` (extra `clang-UBSAN`)
-* [x] `clang21`
-* [x] `clang22`
 * [ ] `ubuntu-libc++` (CRAN's `r-devel-linux-x86_64-fedora-clang`)
 
 ## Ubuntu 24.04 + R-devel (`ubuntu-24.04-R4.7`)
@@ -125,6 +127,54 @@ options(repos = c(
 ### Containers using this repo
 
 * [x] `ubuntu-gcc15` (CRAN's `r-devel-linux-x86_64-debian-gcc`)
+
+## Ubuntu 26.04 + R-devel (`ubuntu-26.04-R4.7`)
+
+### Setup
+
+```
+options(repos = c(
+  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-26.04/4.7",
+  CRAN = "https://cloud.r-project.org"
+))
+```
+
+## Ubuntu 26.04 + R-devel + libc++ (`ubuntu-26.04-R4.7-libc++`)
+
+### Setup
+
+```
+options(repos = c(
+  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-26.04/4.7/libc++",
+  CRAN = "https://cloud.r-project.org"
+))
+```
+
+### Containers using this repo
+
+* [x] `clang23`
+
+## Ubuntu 26.04 + R-devel on aarch64 (`ubuntu-26.04-aarch64-R4.7`)
+
+### Setup
+
+```
+options(repos = c(
+  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-26.04-aarch64/4.7",
+  CRAN = "https://cloud.r-project.org"
+))
+```
+
+## Ubuntu 26.04 + R 4.5 on s390x (`ubuntu-26.04-s390x-R4.5`)
+
+### Setup
+
+```
+options(repos = c(
+  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-26.04-s390x/4.5",
+  CRAN = "https://cloud.r-project.org"
+))
+```
 
 ## Fedora 44 + R-devel (`fedora-44-R4.7`)
 
@@ -169,11 +219,11 @@ options(repos = c(
 ))
 ```
 
-## Ubuntu 22.04 + R 4.3 on s390x (`ubuntu-22.04-s390x-R4.3`)
+## Ubuntu 24.04 + R 4.3 on s390x (`ubuntu-24.04-s390x-R4.3`)
 
 ```
 options(repos = c(
-  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04-s390x/4.3",
+  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-24.04-s390x/4.3",
   CRAN = "https://cloud.r-project.org"
 ))
 ```
@@ -217,8 +267,7 @@ Name         | CRAN       | ✓ | Repo                      | Description
 `blas`       | BLAS       |   |                           | Use of BLAS/LAPACK from C/C++ code
 `clang-asan` | clang-ASAN | ✓ | ubuntu-22.04-R4.7-libc++  | Tests of memory access errors using AddressSanitizer
 `clang-ubsan`| clang-UBSAN| ✓ | ubuntu-22.04-R4.7-libc++  | Tests of memory access errors using Undefined Behavior Sanitizer
-`clang21`    | clang21    | ✓ | ubuntu-22.04-R4.7-libc++  | Checks with LLVM 21.x
-`clang22`    | clang22    | ✓ | ubuntu-22.04-R4.7-libc++  | Checks with LLVM 22.x
+`clang23`    | clang23    | ✓ | ubuntu-26.04-R4.7-libc++  | Checks with LLVM 23.x
 `donttest`   | donttest   | ✓ | ubuntu-22.04-R4.7         | Tests including `\donttest` examples
 `gcc-asan`   | gcc-ASAN   | ✓ | fedora-44-R4.7            | Tests of memory access errors using AddressSanitizer
 `gcc-asan`   | gcc-UBSAN  | ✓ | fedora-44-R4.7            | Tests of memory access errors using Undefined Behavior Sanitizer
@@ -247,6 +296,8 @@ Name         | CRAN       | ✓ | Repo                      | Description
 `clang18`    | clang18    | ✓ | ubuntu-22.04-R4.6-libc++  | Checks with LLVM pre-18.0.0
 `clang19`    | clang19    | ✓ | ubuntu-22.04-R4.6-libc++  | Checks with LLVM pre-19.0.0
 `clang20`    | clang20    | ✓ | ubuntu-22.04-R4.6-libc++  | Checks with LLVM pre-20.0.0
+`clang21`    | clang21    | ✓ | ubuntu-22.04-R4.7-libc++  | Checks with LLVM 21.x
+`clang22`    | clang22    | ✓ | ubuntu-22.04-R4.7-libc++  | Checks with LLVM 22.x
 `gcc13`      | gcc13      | ✓ | fedora-38-R4.6            | Checks with GCC trunk aka 13.0
 `gcc14`      | gcc14      | ✓ | fedora-40-R4.6            | Checks with GCC trunk aka 14.0
 `gcc15`      | gcc15      |   | fedora-42-R4.6            | Installation checks with a snapshot of GCC pre-15
