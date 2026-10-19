@@ -4,14 +4,10 @@
 These repositories are **experimental**. They are **not** compatible
 with `install.packages()`, only with pak.
 
-* [Ubuntu 22.04 + R-devel](#ubuntu-2204--r-devel-ubuntu-2204-r47)
-* [Ubuntu 22.04 + R-devel + libc++](#ubuntu-2204--r-devel--libc-ubuntu-2204-r47-libc)
-* [Ubuntu 24.04 + R-devel](#ubuntu-2404--r-devel-ubuntu-2404-r47)
 * [Ubuntu 26.04 + R-devel](#ubuntu-2604--r-devel-ubuntu-2604-r47)
 * [Ubuntu 26.04 + R-devel + libc++](#ubuntu-2604--r-devel--libc-ubuntu-2604-r47-libc)
 * [Ubuntu 26.04 + R-devel on aarch64](#ubuntu-2604--r-devel-on-aarch64-ubuntu-2604-aarch64-r47)
 * [Ubuntu 26.04 + R 4.5 on s390x](#ubuntu-2604--r-45-on-s390x-ubuntu-2604-s390x-r45)
-* [Ubuntu 24.04 + R 4.3 on s390x](#ubuntu-2404--r-43-on-s390x-ubuntu-2404-s390x-r43)
 * [Fedora 44 + R-devel](#fedora-44--r-devel-fedora-44-r47)
 
 <details><summary>Retired repositories</summary>
@@ -46,14 +42,28 @@ but existing builds are still functional.
   `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04/4.4`
 - Ubuntu 22.04 + R 4.5 on x86_64 (last update: 2025-03-15)\
   `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04/4.5`
+- Ubuntu 22.04 + R 4.6 on x86_64 (last update: 2026-03-26)\
+  `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04/4.6`
+- Ubuntu 22.04 + R 4.7 on x86_64 (last update: 2026-10-18)\
+  `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04/4.7`
 - Ubuntu 22.04 + R 4.4 + libc++ on x86_64 (last update: 2024-03-27)\
   `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04/libc++/4.4`
 - Ubuntu 22.04 + R 4.5 + libc++ on x86_64 (last update: 2025-03-15)\
   `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04/libc++/4.5`
+- Ubuntu 22.04 + R 4.6 + libc++ on x86_64 (last update: 2026-03-26)\
+  `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04/4.6/libc++`
+- Ubuntu 22.04 + R 4.7 + libc++ on x86_64 (last update: 2026-10-16)\
+  `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04/4.7/libc++`
 - Ubuntu 24.04 + R 4.4 on aarch64 (last update: 2024-04-14)\
   `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-24.04-aarch64/4.4`
 - Ubuntu 24.04 + R 4.5 on aarch64 (last update: 2026-03-26)\
   `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-24.04-aarch64/4.4`
+- Ubuntu 24.04 + R 4.3 on s390x (last update: 2026-10-17)\
+  `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-24.04-s390x/4.3`
+- Ubuntu 24.04 + R 4.6 on x86_64 (last update: 2026-01-14)\
+  `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-24.04/4.6`
+- Ubuntu 24.04 + R 4.7 on x86_64 (last update: 2026-10-18)\
+  `https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-24.04/4.7`
 - macOS 11 Big Sur or later, arm64 + R 4.4 (last update: 2024-03-27)\
   `https://raw.githubusercontent.com/r-hub/repos/main/macos-arm64/4.4`
 - macOS 11 Big Sur or later, arm64 + R 4.5 (last update: 2025-03-15)\
@@ -73,13 +83,13 @@ but existing builds are still functional.
 * [x] `ubuntu-next` (CRAN's `r-patched-linux-x86_64`)
 * [x] `ubuntu-release` (CRAN's `r-release-linux-x86_64`)
 
-## Ubuntu 22.04 + R-devel (`ubuntu-22.04-R4.7`)
+## Ubuntu 26.04 + R-devel (`ubuntu-26.04-R4.7`)
 
 ### Setup
 
 ```
 options(repos = c(
-  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04/4.7",
+  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-26.04/4.7",
   CRAN = "https://cloud.r-project.org"
 ))
 ```
@@ -96,49 +106,6 @@ options(repos = c(
 * [ ] `rlibro` (extra `rlibro`)
 * [x] `rchk` (extra `rchk`)
 
-## Ubuntu 22.04 + R-devel + libc++ (`ubuntu-22.04-R4.7-libc++`)
-
-### Setup
-
-```
-options(repos = c(
-  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04/4.7/libc++",
-  CRAN = "https://cloud.r-project.org"
-))
-```
-
-### Containers using this repo
-
-* [x] `clang-asan` (extra `clang-ASAN`)
-* [x] `clang-ubsan` (extra `clang-UBSAN`)
-* [ ] `ubuntu-libc++` (CRAN's `r-devel-linux-x86_64-fedora-clang`)
-
-## Ubuntu 24.04 + R-devel (`ubuntu-24.04-R4.7`)
-
-### Setup
-
-```
-options(repos = c(
-  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-24.04/4.7",
-  CRAN = "https://cloud.r-project.org"
-))
-```
-
-### Containers using this repo
-
-* [x] `ubuntu-gcc15` (CRAN's `r-devel-linux-x86_64-debian-gcc`)
-
-## Ubuntu 26.04 + R-devel (`ubuntu-26.04-R4.7`)
-
-### Setup
-
-```
-options(repos = c(
-  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-26.04/4.7",
-  CRAN = "https://cloud.r-project.org"
-))
-```
-
 ## Ubuntu 26.04 + R-devel + libc++ (`ubuntu-26.04-R4.7-libc++`)
 
 ### Setup
@@ -152,7 +119,10 @@ options(repos = c(
 
 ### Containers using this repo
 
+* [x] `clang-asan` (extra `clang-ASAN`)
+* [x] `clang-ubsan` (extra `clang-UBSAN`)
 * [x] `clang23`
+* [ ] `ubuntu-libc++` (CRAN's `r-devel-linux-x86_64-fedora-clang`)
 
 ## Ubuntu 26.04 + R-devel on aarch64 (`ubuntu-26.04-aarch64-R4.7`)
 
@@ -197,37 +167,6 @@ options(repos = c(
 * [x] `nosuggests` (extra `noSuggests`)
 * [x] `valgrind` (extra `valgrind`)
 
-## Ubuntu 22.04 + R-release on aarch64 (`ubuntu-22.04-aarch64-R4.4`)
-
-### Setup
-
-```
-options(repos = c(
-  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-22.04-aarch64/4.4",
-  CRAN = "https://cloud.r-project.org"
-))
-```
-
-## Ubuntu 24.04 + R-release on aarch64 (`ubuntu-24.04-aarch64-R4.4`)
-
-### Setup
-
-```
-options(repos = c(
-  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-24.04-aarch64/4.4",
-  CRAN = "https://cloud.r-project.org"
-))
-```
-
-## Ubuntu 24.04 + R 4.3 on s390x (`ubuntu-24.04-s390x-R4.3`)
-
-```
-options(repos = c(
-  RHUB = "https://raw.githubusercontent.com/r-hub/repos/main/ubuntu-24.04-s390x/4.3",
-  CRAN = "https://cloud.r-project.org"
-))
-```
-
 ## Not needed?
 
 We probably do not need to create containers for these CRAN platforms:
@@ -246,9 +185,8 @@ We practically cannot implement this platform currently:
 
 Name             | CRAN                              | ✓ | Repo
 -----------------|-----------------------------------|---|--------------------------
-`ubuntu-clang`   | r-devel-linux-x86_64-debian-clang | ✓ | ubuntu-22.04-R4.7
-`ubuntu-gcc15`   | r-devel-linux-x86_64-debian-gcc   | ✓ | ubuntu-24.04-R4.7
-`ubuntu-libc++`  | r-devel-linux-x86_64-fedora-clang |   | ubuntu-22.04-R4.7-libc++
+`ubuntu-clang`   | r-devel-linux-x86_64-debian-clang | ✓ | ubuntu-26.04-R4.7
+`ubuntu-libc++`  | r-devel-linux-x86_64-fedora-clang |   | ubuntu-26.04-R4.7-libc++
 `fedora-gcc`     | r-devel-linux-x86_64-fedora-gcc   |   | fedora-44-R4.7
 `windows`        | r-devel-windows-x86_64            | ✓ | CRAN
 `ubuntu-next`    | r-patched-linux-x86_64            | ✓ | PPM
@@ -265,23 +203,23 @@ Name         | CRAN       | ✓ | Repo                      | Description
 -------------|------------|---|---------------------------|---------------------------------------------------
 `atlas`      | ATLAS      | ✓ | fedora-44-R4.7            | Tests with alternative BLAS/LAPACK implementations
 `blas`       | BLAS       |   |                           | Use of BLAS/LAPACK from C/C++ code
-`clang-asan` | clang-ASAN | ✓ | ubuntu-22.04-R4.7-libc++  | Tests of memory access errors using AddressSanitizer
-`clang-ubsan`| clang-UBSAN| ✓ | ubuntu-22.04-R4.7-libc++  | Tests of memory access errors using Undefined Behavior Sanitizer
+`clang-asan` | clang-ASAN | ✓ | ubuntu-26.04-R4.7-libc++  | Tests of memory access errors using AddressSanitizer
+`clang-ubsan`| clang-UBSAN| ✓ | ubuntu-26.04-R4.7-libc++  | Tests of memory access errors using Undefined Behavior Sanitizer
 `clang23`    | clang23    | ✓ | ubuntu-26.04-R4.7-libc++  | Checks with LLVM 23.x
-`donttest`   | donttest   | ✓ | ubuntu-22.04-R4.7         | Tests including `\donttest` examples
+`donttest`   | donttest   | ✓ | ubuntu-26.04-R4.7         | Tests including `\donttest` examples
 `gcc-asan`   | gcc-ASAN   | ✓ | fedora-44-R4.7            | Tests of memory access errors using AddressSanitizer
 `gcc-asan`   | gcc-UBSAN  | ✓ | fedora-44-R4.7            | Tests of memory access errors using Undefined Behavior Sanitizer
 `gcc16`      |            | ✓ | fedora-44-R4.7            | Installation checks with a snapshot of GCC pre-16
-`lto`        | LTO        |   | ubuntu-22.04-R4.7         | Tests for link-time optimization type mismatches
+`lto`        | LTO        |   | ubuntu-26.04-R4.7         | Tests for link-time optimization type mismatches
 `m1mac`      | M1mac      |   | CRAN?                     | Checks on a M1 (arm64) Mac
 `mkl`        | MKL        | ✓ | fedora-44-R4.7            | Tests with alternative BLAS/LAPACK implementations
-`nold`       | noLD       | ✓ | ubuntu-22.04-R4.7         | Tests without long double
-`noomp`      | noOMP      |   | ubuntu-22.04-R4.7         | Tests without OpenMP support
+`nold`       | noLD       | ✓ | ubuntu-26.04-R4.7         | Tests without long double
+`noomp`      | noOMP      |   | ubuntu-26.04-R4.7         | Tests without OpenMP support
 `nosuggests` | noSuggests | ✓ | fedora-44-R4.7            | Tests without suggested packages
 `openblas`   | OpenBLAS   |   | fedora-44-R4.7            | Tests with alternative BLAS/LAPACK implementations
-`rchk`       | rchk       | ✓ | ubuntu-22.04-R4.7         | Checks of native code (C/C++) based on static code analysis
-`rcnst`      | rcnst      |   | ubuntu-22.04-R4.7         | Checks of corruption of constants
-`rlibro`     | rlibro     |   | ubuntu-22.04-R4.7         | Checks with read-only user library
+`rchk`       | rchk       | ✓ | ubuntu-26.04-R4.7         | Checks of native code (C/C++) based on static code analysis
+`rcnst`      | rcnst      |   | ubuntu-26.04-R4.7         | Checks of corruption of constants
+`rlibro`     | rlibro     |   | ubuntu-26.04-R4.7         | Checks with read-only user library
 `valgrind`   | valgrind   | ✓ | fedora-44-R4.7            | Tests of memory access errors using valgrind
 
 ### Deprecated containers
@@ -303,6 +241,7 @@ Name         | CRAN       | ✓ | Repo                      | Description
 `gcc15`      | gcc15      |   | fedora-42-R4.6            | Installation checks with a snapshot of GCC pre-15
 `intel`      | Intel      | ✓ | fedora-38-R4.6            | Checks with Intel oneAPI 2023.x compilers
 `noremap`    | noRemap    | ✓ | ubuntu-22.04-R4.6         | Checks with `-DR_NO_REMAP` used for C++ code
+`ubuntu-gcc15`|            | ✓ | ubuntu-24.04-R4.7         | CRAN's r-devel-linux-x86_64-debian-gcc with GCC 15
 
 </details>
 
