@@ -2018,24 +2018,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: lava
-Version: 1.9.3
-Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
-Imports: cli, future.apply, graphics, grDevices, methods, numDeriv, progressr, stats, survival, SQUAREM, utils
-Suggests: KernSmooth, Rgraphviz, data.table, ellipse, fields, future, geepack, graph, knitr, rmarkdown, igraph (>= 0.6), lavaSearch2, lme4 (>= 1.1.35.1), MASS, Matrix (>= 1.6.3), mets (>= 1.1), nlme,
-        optimx, polycor, quantreg, quarto, rgl, svglite, targeted (>= 0.4), testthat (>= 0.11), vdiffr, visNetwork
-License: Apache License (== 2.0)
-File: lava_1.9.3_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-DownloadURL: https://github.com/cran/lava/releases/download/1.9.3/lava_1.9.3_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-Built: R 4.7.0; ; 2026-10-19 22:02:29 UTC; unix
-Filesize: 2613226
-SHA256: 878498efcb0ee3379d7adfe2c5e75088ea01c07f38e8e04404fb89913b45124e
-RVersion: 4.7
-Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: Quarto command line tools (https://github.com/quarto-dev/quarto-cli).
-
 Package: lbfgs
 Version: 1.2.1.2
 Depends: R (>= 4.7), R (< 4.7.99)
@@ -4118,26 +4100,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libpng
 LinkingTo: cpp11, systemfonts, textshaping
 
-Package: lme4
-Version: 2.0-6
-Depends: R (>= 3.6), Matrix, methods, stats, R (>= 4.7), R (< 4.7.99)
-Imports: MASS, Rdpack, boot, graphics, grid, lattice, minqa (>= 1.1.15), nlme (>= 3.1-123), nloptr (>= 1.0.4), parallel, reformulas (>= 0.4.3.1), splines, utils
-Suggests: DHARMa, HSAUR3, MEMSS, car, dfoptim, future.apply, gamm4, ggplot2, glmmTMB, gridExtra, knitr, merDeriv, mgcv, mlmRev, numDeriv, optimx (>= 2013.8.6), pbkrtest, performance, rmarkdown, rr2,
-        see, semEff, statmod, testthat (>= 0.8.1), tibble
-License: GPL (>= 2)
-File: lme4_2.0-6_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-DownloadURL: https://github.com/cran/lme4/releases/download/2.0-6/lme4_2.0-6_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.7.0; aarch64-unknown-linux-gnu; 2026-10-19 22:05:18 UTC; unix
-Filesize: 10385843
-SHA256: 70126d41a45af339374f0e997ffd6168e671e11635cd9edb7600d6a8b63c082c
-RVersion: 4.7
-Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-LinkingTo: Matrix (>= 1.5-0), Rcpp (>= 1.1.1-1.1), RcppEigen (>= 0.3.3.9.4)
-
 Package: litedown
 Version: 0.11
 Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
@@ -4571,25 +4533,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++20; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.26 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
-
-Package: duckdb
-Version: 1.5.6
-Depends: DBI, R (>= 4.2.0), R (>= 4.7), R (< 4.7.99)
-Imports: methods, utils
-Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr (>= 2.6.0), dplyr, nanoarrow, rlang, sf, testthat (>= 3.0.0), tibble, vctrs, wk, withr
-License: MIT + file LICENSE
-File: duckdb_1.5.6_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-DownloadURL: https://github.com/cran/duckdb/releases/download/1.5.6/duckdb_1.5.6_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.7.0; aarch64-unknown-linux-gnu; 2026-10-19 21:56:27 UTC; unix
-Filesize: 311682506
-SHA256: 5d60ac015b1b0c90d74a1532dd637a97a34f7a528c05c738f049157acf9c3f3f
-RVersion: 4.7
-Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: xz (for building from source)
 
 Package: bayesplot
 Version: 1.16.0
@@ -5027,3 +4970,59 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
+
+Package: lava
+Version: 1.10
+Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
+Imports: cli, future.apply, graphics, grDevices, methods, numDeriv, progressr, stats, survival, SQUAREM, utils
+Suggests: KernSmooth, Rgraphviz, data.table, ellipse, fields, future, geepack, graph, knitr, rmarkdown, igraph (>= 0.6), lavaSearch2, lme4 (>= 1.1.35.1), MASS, Matrix (>= 1.6.3), mets (>= 1.1), nlme,
+        optimx, polycor, quantreg, quarto, rgl, svglite, targeted (>= 0.4), testthat (>= 3.0.0), vdiffr, visNetwork
+License: Apache License (== 2.0)
+File: lava_1.10_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+DownloadURL: https://github.com/cran/lava/releases/download/1.10/lava_1.10_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+Built: R 4.7.0; ; 2026-10-23 20:41:48 UTC; unix
+Filesize: 2685749
+SHA256: 32ca73db325b0471137b549f3a6a8bbd3b808be97a2bd026a6f62769696467a2
+RVersion: 4.7
+Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: Quarto command line tools (https://github.com/quarto-dev/quarto-cli).
+
+Package: lme4
+Version: 2.1-0
+Depends: R (>= 3.6), Matrix, methods, stats, R (>= 4.7), R (< 4.7.99)
+Imports: MASS, Rdpack, boot, graphics, grid, lattice, minqa (>= 1.1.15), nlme (>= 3.1-123), nloptr (>= 1.0.4), parallel, reformulas (>= 0.4.3.1), splines, utils
+Suggests: DHARMa, HSAUR3, MEMSS, car, dfoptim, future.apply, gamm4, ggplot2, glmmTMB, gridExtra, knitr, merDeriv, mgcv, mlmRev, numDeriv, optimx (>= 2013.8.6), pbkrtest, performance, rmarkdown, rr2,
+        see, semEff, statmod, testthat (>= 0.8.1), tibble
+License: GPL (>= 2)
+File: lme4_2.1-0_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+DownloadURL: https://github.com/cran/lme4/releases/download/2.1-0/lme4_2.1-0_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.7.0; aarch64-unknown-linux-gnu; 2026-10-23 20:41:49 UTC; unix
+Filesize: 10665408
+SHA256: 7a5f51e92290b9137f032348758d9f8fe43a5d812cfbdf5dc92bfcbc865b2b74
+RVersion: 4.7
+Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+LinkingTo: Matrix (>= 1.5-0), Rcpp (>= 1.1.1-1.1), RcppEigen (>= 0.3.3.9.4)
+
+Package: duckdb
+Version: 2.0.0
+Depends: DBI, R (>= 4.2.0), R (>= 4.7), R (< 4.7.99)
+Imports: methods, utils
+Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr (>= 2.6.0), dplyr, nanoarrow, rlang, sf, testthat (>= 3.0.0), tibble, vctrs, wk, withr
+License: MIT + file LICENSE
+File: duckdb_2.0.0_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+DownloadURL: https://github.com/cran/duckdb/releases/download/2.0.0/duckdb_2.0.0_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.7.0; aarch64-unknown-linux-gnu; 2026-10-23 20:41:51 UTC; unix
+Filesize: 408878997
+SHA256: 3f1ce54bd28d167a8a1970ef04e52b4169d099f1690b5df152812a1af705f1a1
+RVersion: 4.7
+Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
