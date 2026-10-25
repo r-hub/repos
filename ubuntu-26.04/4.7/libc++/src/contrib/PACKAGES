@@ -4374,27 +4374,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libxml2 (>= 2.6.3)
 
-Package: arrow
-Version: 25.0.1
-Depends: R (>= 4.2), R (>= 4.7), R (< 4.7.99)
-Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
-Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.3.0),
-        tibble, tzdb, withr
-License: Apache License (>= 2.0)
-File: arrow_25.0.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/arrow/releases/download/25.0.1/arrow_25.0.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-10-19 22:31:14 UTC; unix
-Filesize: 16490708
-SHA256: 6de244ed703f455e89206d362299e71ec481bf510960bd8add4aaa4e30e071a9
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-26.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++20; for AWS S3 support on Linux, libcurl and openssl (optional); cmake >= 3.26 (build-time only, and only for full source build)
-LinkingTo: cpp11 (>= 0.4.2)
-
 Package: RSQLite
 Version: 3.53.3
 Depends: R (>= 3.1.0), R (>= 4.7), R (< 4.7.99)
@@ -4504,3 +4483,24 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-26.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: arrow
+Version: 26.0.0
+Depends: R (>= 4.2), R (>= 4.7), R (< 4.7.99)
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.3.0),
+        tibble, tzdb, withr
+License: Apache License (>= 2.0)
+File: arrow_26.0.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/arrow/releases/download/26.0.0/arrow_26.0.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-10-25 20:14:36 UTC; unix
+Filesize: 16991595
+SHA256: d76199d9f9adfc09d841d4d4f806b57b7634487489506c7ab243c0713bb257e6
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-26.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++20; for AWS S3 support on Linux, libcurl and openssl, and libxml2 for Azure (optional); cmake >= 3.26 (build-time only, and only for full source build)
+LinkingTo: cpp11 (>= 0.4.2)
