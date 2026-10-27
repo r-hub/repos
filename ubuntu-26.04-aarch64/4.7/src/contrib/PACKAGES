@@ -4116,22 +4116,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: markdown
-Version: 2.0
-Depends: R (>= 2.11.1), R (>= 4.7), R (< 4.7.99)
-Imports: utils, xfun, litedown (>= 0.6)
-Suggests: knitr, rmarkdown (>= 2.18), yaml, RCurl
-License: MIT + file LICENSE
-File: markdown_2.0_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-DownloadURL: https://github.com/cran/markdown/releases/download/2.0/markdown_2.0_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-Built: R 4.7.0; ; 2026-10-19 22:03:30 UTC; unix
-Filesize: 67216
-SHA256: cacc3110ebff48ec48684e093108c99b2dbdec20bcfe46220a1e1d75102a06a9
-RVersion: 4.7
-Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: matrixStats
 Version: 1.5.0
 Depends: R (>= 3.4.0), R (>= 4.7), R (< 4.7.99)
@@ -5026,3 +5010,19 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++20; for AWS S3 support on Linux, libcurl and openssl, and libxml2 for Azure (optional); cmake >= 3.26 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
+
+Package: markdown
+Version: 2.1
+Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
+Imports: utils, xfun, litedown (>= 0.6)
+Suggests: knitr, rmarkdown (>= 2.18), yaml, RCurl
+License: MIT + file LICENSE
+File: markdown_2.1_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+DownloadURL: https://github.com/cran/markdown/releases/download/2.1/markdown_2.1_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+Built: R 4.7.0; ; 2026-10-27 21:30:49 UTC; unix
+Filesize: 65725
+SHA256: 842c53134483b29523f7a4b4dc7e8cad2257ae8f389977a103b75bdecb6c711e
+RVersion: 4.7
+Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
