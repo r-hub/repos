@@ -2774,22 +2774,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: gargle
-Version: 1.6.1
-Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
-Imports: cli (>= 3.0.1), fs (>= 1.3.1), glue (>= 1.3.0), httr (>= 1.4.5), jsonlite, lifecycle (>= 0.2.0), openssl, rappdirs, rlang (>= 1.1.0), stats, utils, withr
-Suggests: aws.ec2metadata, aws.signature, covr, httpuv, knitr, rmarkdown, sodium, spelling, testthat (>= 3.1.7)
-License: MIT + file LICENSE
-File: gargle_1.6.1_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-DownloadURL: https://github.com/cran/gargle/releases/download/1.6.1/gargle_1.6.1_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-Built: R 4.7.0; ; 2026-10-19 21:57:01 UTC; unix
-Filesize: 786168
-SHA256: 6b612798e14d75561c79a6aa7f160b2921eda17a34e5e894fa3b83bd11bedb19
-RVersion: 4.7
-Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: googledrive
 Version: 2.1.2
 Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
@@ -4027,26 +4011,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: glmnet
-Version: 5.1
-Depends: R (>= 3.6.0), Matrix (>= 1.0-6), R (>= 4.7), R (< 4.7.99)
-Imports: methods, utils, foreach, shape, survival, Rcpp
-Suggests: knitr, lars, nnet, testthat, xfun, rmarkdown
-License: GPL-2
-File: glmnet_5.1_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-DownloadURL: https://github.com/cran/glmnet/releases/download/5.1/glmnet_5.1_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.7.0; aarch64-unknown-linux-gnu; 2026-10-19 22:04:49 UTC; unix
-Filesize: 13293151
-SHA256: 3c3675642e6fe676ce8b021b75293b40f45e5d5b347797b64915707e0d3582c1
-RVersion: 4.7
-Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17
-LinkingTo: RcppEigen, Rcpp
-
 Package: gtools
 Version: 3.9.5
 Depends: methods, stats, utils, R (>= 4.7), R (< 4.7.99)
@@ -5026,3 +4990,39 @@ RVersion: 4.7
 Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: gargle
+Version: 1.7.0
+Depends: R (>= 4.2), R (>= 4.7), R (< 4.7.99)
+Imports: cli (>= 3.0.1), fs (>= 1.3.1), glue (>= 1.3.0), httr (>= 1.4.5), jsonlite, lifecycle, openssl, R6, rappdirs, rlang (>= 1.1.0), stats, utils, withr
+Suggests: aws.ec2metadata, aws.signature, covr, httpuv, knitr, rmarkdown, spelling, testthat (>= 3.1.7)
+License: MIT + file LICENSE
+File: gargle_1.7.0_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+DownloadURL: https://github.com/cran/gargle/releases/download/1.7.0/gargle_1.7.0_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+Built: R 4.7.0; ; 2026-10-28 21:56:15 UTC; unix
+Filesize: 798544
+SHA256: 5d7db5a43db60c9600c3061403e2aadb69393a7ecc0a808d1c8ebe4c814e8071
+RVersion: 4.7
+Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: glmnet
+Version: 5.2
+Depends: R (>= 3.6.0), Matrix (>= 1.0-6), R (>= 4.7), R (< 4.7.99)
+Imports: methods, utils, foreach, shape, survival, Rcpp
+Suggests: knitr, lars, nnet, testthat, xfun, rmarkdown
+License: GPL-2
+File: glmnet_5.2_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+DownloadURL: https://github.com/cran/glmnet/releases/download/5.2/glmnet_5.2_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.7.0; aarch64-unknown-linux-gnu; 2026-10-28 21:56:17 UTC; unix
+Filesize: 13765607
+SHA256: 7f4b6e099a5dfd336255cbfaf43ab5afb7ddaafd4ee8922ee29a380ef95272d8
+RVersion: 4.7
+Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17
+LinkingTo: RcppEigen, Rcpp
