@@ -1587,56 +1587,6 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: gargle
-Version: 1.6.1
-Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
-Imports: cli (>= 3.0.1), fs (>= 1.3.1), glue (>= 1.3.0), httr (>= 1.4.5), jsonlite, lifecycle (>= 0.2.0), openssl, rappdirs, rlang (>= 1.1.0), stats, utils, withr
-Suggests: aws.ec2metadata, aws.signature, covr, httpuv, knitr, rmarkdown, sodium, spelling, testthat (>= 3.1.7)
-License: MIT + file LICENSE
-File: gargle_1.6.1_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/gargle/releases/download/1.6.1/gargle_1.6.1_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-Built: R 4.7.0; ; 2026-03-30 18:29:35 UTC; unix
-Filesize: 814831
-SHA256: a4a43654e51d3b41b3cc6caf14336f9c3f9e508333cd7ac128d385ca19505511
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: googledrive
-Version: 2.1.2
-Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
-Imports: cli (>= 3.0.0), gargle (>= 1.6.0), glue (>= 1.4.2), httr, jsonlite, lifecycle, magrittr, pillar (>= 1.9.0), purrr (>= 1.0.1), rlang (>= 1.0.2), tibble (>= 2.0.0), utils, uuid, vctrs (>=
-        0.3.0), withr
-Suggests: curl, dplyr (>= 1.0.0), knitr, rmarkdown, spelling, testthat (>= 3.1.5)
-License: MIT + file LICENSE
-File: googledrive_2.1.2_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/googledrive/releases/download/2.1.2/googledrive_2.1.2_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-Built: R 4.7.0; ; 2026-03-30 18:30:15 UTC; unix
-Filesize: 1966398
-SHA256: b07059ec3cc78eddf5b4d63a4e1ee626263de7d7bdd8d2b3341c066451ce0cc1
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: googlesheets4
-Version: 1.1.2
-Depends: R (>= 3.6), R (>= 4.7), R (< 4.7.99)
-Imports: cellranger, cli (>= 3.0.0), curl, gargle (>= 1.6.0), glue (>= 1.3.0), googledrive (>= 2.1.0), httr, ids, lifecycle, magrittr, methods, purrr, rematch2, rlang (>= 1.0.2), tibble (>= 2.1.1),
-        utils, vctrs (>= 0.2.3), withr
-Suggests: readr, rmarkdown, spelling, testthat (>= 3.1.7)
-License: MIT + file LICENSE
-File: googlesheets4_1.1.2_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/googlesheets4/releases/download/1.1.2/googlesheets4_1.1.2_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-Built: R 4.7.0; ; 2026-03-30 18:30:23 UTC; unix
-Filesize: 555395
-SHA256: c459a44f7761c1a3f46cc3fa1933fc38cc94722ecd3505edfdcc0840e9b6a52e
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: haven
 Version: 2.5.5
 Depends: R (>= 3.6), R (>= 4.7), R (< 4.7.99)
@@ -5100,3 +5050,53 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++17
 LinkingTo: RcppEigen, Rcpp
+
+Package: gargle
+Version: 1.7.0
+Depends: R (>= 4.2), R (>= 4.7), R (< 4.7.99)
+Imports: cli (>= 3.0.1), fs (>= 1.3.1), glue (>= 1.3.0), httr (>= 1.4.5), jsonlite, lifecycle, openssl, R6, rappdirs, rlang (>= 1.1.0), stats, utils, withr
+Suggests: aws.ec2metadata, aws.signature, covr, httpuv, knitr, rmarkdown, spelling, testthat (>= 3.1.7)
+License: MIT + file LICENSE
+File: gargle_1.7.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/gargle/releases/download/1.7.0/gargle_1.7.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+Built: R 4.7.0; ; 2026-10-29 14:30:36 UTC; unix
+Filesize: 824672
+SHA256: 94e925a876b4bcdd0183471ba8e9be502c7eb3b250dd1809ba7a8d0db407c8a9
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: googledrive
+Version: 2.2.0
+Depends: R (>= 4.2), R (>= 4.7), R (< 4.7.99)
+Imports: cli (>= 3.0.0), gargle (>= 1.7.0), glue (>= 1.4.2), httr, jsonlite, lifecycle, magrittr, pillar (>= 1.9.0), purrr (>= 1.0.1), rlang (>= 1.2.0), tibble (>= 2.0.0), utils, uuid, vctrs (>=
+        0.3.0), withr
+Suggests: curl, dplyr (>= 1.0.0), spelling, testthat (>= 3.1.5)
+License: MIT + file LICENSE
+File: googledrive_2.2.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/googledrive/releases/download/2.2.0/googledrive_2.2.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+Built: R 4.7.0; ; 2026-10-29 14:30:41 UTC; unix
+Filesize: 1947142
+SHA256: f8ac65e41e3cd766940eae98ae46af68fe1a5f6202eb3c3b168627f3fa9660ba
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: googlesheets4
+Version: 1.1.3
+Depends: R (>= 4.2), R (>= 4.7), R (< 4.7.99)
+Imports: cellranger, cli (>= 3.0.0), curl, gargle (>= 1.7.0), glue (>= 1.3.0), googledrive (>= 2.1.0), httr, ids, magrittr, methods, purrr, rematch2, rlang (>= 1.0.2), tibble (>= 2.1.1), utils, vctrs
+        (>= 0.2.3), withr
+Suggests: readr, rmarkdown, spelling, testthat (>= 3.1.7)
+License: MIT + file LICENSE
+File: googlesheets4_1.1.3_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/googlesheets4/releases/download/1.1.3/googlesheets4_1.1.3_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+Built: R 4.7.0; ; 2026-10-29 14:30:46 UTC; unix
+Filesize: 559881
+SHA256: 269b84f7efc58c378b3695af800e42d905f779a4d2936903954e397f0189c259
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
