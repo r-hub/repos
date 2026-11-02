@@ -904,25 +904,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: broom, magrittr, purrr (>= 0.2.2), rlang (>= 1.0.6), tibble, tidyr (>= 0.8.0), tidyselect, vctrs
 
-Package: openssl
-Version: 2.4.2
-Depends: R (>= 4.5), R (< 4.5.99)
-Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
-License: MIT + file LICENSE
-File: openssl_2.4.2_b1_R4.5_s390x-ibm-linux-gnu-ubuntu-26.04.tar.gz
-DownloadURL: https://github.com/cran/openssl/releases/download/2.4.2/openssl_2.4.2_b1_R4.5_s390x-ibm-linux-gnu-ubuntu-26.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.5.2; s390x-ibm-linux-gnu; 2026-10-19 14:29:00 UTC; unix
-Filesize: 1364676
-SHA256: dac1db044928325cab023531c4b8dd321ec2ee89b2a16392c318a1457efaf797
-RVersion: 4.5
-Platform: s390x-ibm-linux-gnu-ubuntu-26.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: askpass
-SystemRequirements: OpenSSL >= 1.0.2
-
 Package: otel
 Version: 0.2.0
 Depends: R (>= 3.6.0), R (>= 4.5), R (< 4.5.99)
@@ -1999,3 +1980,22 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cellranger, cli (>= 3.0.0), curl, gargle (>= 1.7.0), glue (>= 1.3.0), googledrive (>= 2.1.0), httr, ids, magrittr, methods, purrr, rematch2, rlang (>= 1.0.2), tibble (>= 2.1.1), utils, vctrs
         (>= 0.2.3), withr
+
+Package: openssl
+Version: 2.5.0
+Depends: R (>= 4.5), R (< 4.5.99)
+Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
+License: MIT + file LICENSE
+File: openssl_2.5.0_b2_R4.5_s390x-ibm-linux-gnu-ubuntu-26.04.tar.gz
+DownloadURL: https://github.com/cran/openssl/releases/download/2.5.0/openssl_2.5.0_b2_R4.5_s390x-ibm-linux-gnu-ubuntu-26.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.5.2; s390x-ibm-linux-gnu; 2026-11-02 23:24:15 UTC; unix
+Filesize: 1354145
+SHA256: 8733d2181f24184e6de52f67d50d961b5ae3bc9942ebc16a33baf4d96cc5fc36
+RVersion: 4.5
+Platform: s390x-ibm-linux-gnu-ubuntu-26.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: askpass
+SystemRequirements: OpenSSL >= 1.0.2
