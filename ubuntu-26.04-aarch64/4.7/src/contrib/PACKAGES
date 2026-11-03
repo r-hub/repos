@@ -4651,26 +4651,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: StanHeaders
-Version: 2.39.1
-Depends: R (>= 3.4.0), R (>= 4.7), R (< 4.7.99)
-Imports: RcppParallel (>= 5.1.4)
-Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix, methods, rstan, withr
-License: BSD_3_clause + file LICENSE
-File: StanHeaders_2.39.1_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-DownloadURL: https://github.com/cran/StanHeaders/releases/download/2.39.1/StanHeaders_2.39.1_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.7.0; aarch64-unknown-linux-gnu; 2026-10-19 22:06:14 UTC; unix
-Filesize: 3390008
-SHA256: c28209c25f864463865965752c69029475510f40702670f8e1eaf5f715cb73e6
-RVersion: 4.7
-Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make, pandoc
-LinkingTo: RcppEigen (>= 0.3.3.9.3), RcppParallel (>= 5.1.4)
-
 Package: tensorA
 Version: 0.36.2.1
 Depends: R (>= 2.2.0), stats, R (>= 4.7), R (< 4.7.99)
@@ -5028,3 +5008,23 @@ RVersion: 4.7
 Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: StanHeaders
+Version: 2.39.1.1
+Depends: R (>= 3.4.0), R (>= 4.7), R (< 4.7.99)
+Imports: RcppParallel (>= 5.1.4)
+Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix, methods, rstan, withr
+License: BSD_3_clause + file LICENSE
+File: StanHeaders_2.39.1.1_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+DownloadURL: https://github.com/cran/StanHeaders/releases/download/2.39.1.1/StanHeaders_2.39.1.1_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.7.0; aarch64-unknown-linux-gnu; 2026-11-03 22:37:07 UTC; unix
+Filesize: 3390073
+SHA256: 0b68fad9248672d5fbfab4117de96357a636552576a53a8aa22b1099946e6dda
+RVersion: 4.7
+Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make, pandoc
+LinkingTo: RcppEigen (>= 0.3.3.9.3), RcppParallel (>= 5.1.4)
