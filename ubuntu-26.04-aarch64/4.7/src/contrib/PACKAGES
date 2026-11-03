@@ -729,25 +729,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: openssl
-Version: 2.4.2
-Depends: R (>= 4.7), R (< 4.7.99)
-Imports: askpass
-Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
-License: MIT + file LICENSE
-File: openssl_2.4.2_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-DownloadURL: https://github.com/cran/openssl/releases/download/2.4.2/openssl_2.4.2_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.7.0; aarch64-unknown-linux-gnu; 2026-10-19 21:46:59 UTC; unix
-Filesize: 1365583
-SHA256: 04600a9886b32d18d1d3cf1f5322f5bebf0a314fe4a43a340bcb82277497e4ac
-RVersion: 4.7
-Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: OpenSSL >= 1.0.2
-
 Package: otel
 Version: 0.2.0
 Depends: R (>= 3.6.0), R (>= 4.7), R (< 4.7.99)
@@ -1800,22 +1781,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: future
-Version: 1.80.0
-Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
-Imports: digest, globals (>= 0.18.0), listenv (>= 0.8.0), parallel, parallelly (>= 1.44.0), tools, utils
-Suggests: methods, RhpcBLASctl, R.rsp, markdown
-License: Apache License (>= 2)
-File: future_1.80.0_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-DownloadURL: https://github.com/cran/future/releases/download/1.80.0/future_1.80.0_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-Built: R 4.7.0; ; 2026-10-19 21:59:33 UTC; unix
-Filesize: 1041177
-SHA256: 7410ede256278838df86674431e9073068a6021afe35b1358645e3522af048a9
-RVersion: 4.7
-Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: future.apply
 Version: 1.21.0
 Depends: R (>= 3.2.0), future (>= 1.80.0), R (>= 4.7), R (< 4.7.99)
@@ -2332,24 +2297,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: vctrs (>= 0.6.3)
-
-Package: sparsevctrs
-Version: 0.3.6
-Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
-Imports: cli (>= 3.4.0), rlang (>= 1.1.0), vctrs
-Suggests: knitr, Matrix, methods, rmarkdown, testthat (>= 3.0.0), tibble, withr
-License: MIT + file LICENSE
-File: sparsevctrs_0.3.6_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-DownloadURL: https://github.com/cran/sparsevctrs/releases/download/0.3.6/sparsevctrs_0.3.6_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.7.0; aarch64-unknown-linux-gnu; 2026-10-19 21:53:04 UTC; unix
-Filesize: 254407
-SHA256: dfcf62c3c6b2c8bf057bc420240a791015d66934c3cd571edd9106d60d49e878
-RVersion: 4.7
-Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: splitfngr
 Version: 0.1.2
@@ -4012,22 +3959,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libpng
 LinkingTo: cpp11, systemfonts, textshaping
 
-Package: litedown
-Version: 0.11
-Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
-Imports: utils, commonmark (>= 2.0.0), xfun (>= 0.55)
-Suggests: rbibutils, rstudioapi, testit, tinyimg, tinytex
-License: MIT + file LICENSE
-File: litedown_0.11_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-DownloadURL: https://github.com/cran/litedown/releases/download/0.11/litedown_0.11_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-Built: R 4.7.0; ; 2026-10-19 21:54:08 UTC; unix
-Filesize: 393328
-SHA256: b1f4a7099cc0c109a71c953992d7f002578d8825171ed80c1eb8c282e2240c14
-RVersion: 4.7
-Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: matrixStats
 Version: 1.5.0
 Depends: R (>= 3.4.0), R (>= 4.7), R (< 4.7.99)
@@ -5022,6 +4953,77 @@ Arch: arm64
 Built: R 4.7.0; aarch64-unknown-linux-gnu; 2026-10-31 20:42:48 UTC; unix
 Filesize: 698016
 SHA256: 27fe4b937f13463177715d2283d92d710a6a0feeffcc903f484afd5a3cde8bd1
+RVersion: 4.7
+Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: openssl
+Version: 2.5.0
+Depends: R (>= 4.7), R (< 4.7.99)
+Imports: askpass
+Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium
+License: MIT + file LICENSE
+File: openssl_2.5.0_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+DownloadURL: https://github.com/cran/openssl/releases/download/2.5.0/openssl_2.5.0_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.7.0; aarch64-unknown-linux-gnu; 2026-11-03 00:05:36 UTC; unix
+Filesize: 1354198
+SHA256: 8607f1717540015dc5f1c0b30fe60715ca6495f34278f8410f723f43ef3113e0
+RVersion: 4.7
+Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: OpenSSL >= 1.0.2
+
+Package: future
+Version: 1.82.0
+Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
+Imports: globals (>= 0.18.0), listenv (>= 0.8.0), parallel, parallelly (>= 1.44.0), tools, utils
+Suggests: digest, methods, RhpcBLASctl, R.rsp, markdown
+License: Apache License (>= 2)
+File: future_1.82.0_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+DownloadURL: https://github.com/cran/future/releases/download/1.82.0/future_1.82.0_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+Built: R 4.7.0; ; 2026-11-03 00:05:53 UTC; unix
+Filesize: 1054809
+SHA256: f8b535369b27a4a9ef5985d2fb83936119993c2b50450309391013b9cadc24e1
+RVersion: 4.7
+Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: sparsevctrs
+Version: 0.4.0
+Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
+Imports: cli (>= 3.4.0), rlang (>= 1.1.0), vctrs
+Suggests: knitr, Matrix, methods, rmarkdown, testthat (>= 3.0.0), tibble, withr
+License: MIT + file LICENSE
+File: sparsevctrs_0.4.0_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+DownloadURL: https://github.com/cran/sparsevctrs/releases/download/0.4.0/sparsevctrs_0.4.0_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.7.0; aarch64-unknown-linux-gnu; 2026-11-03 00:05:54 UTC; unix
+Filesize: 433236
+SHA256: 2dfface20914651dac4c912ef0794dc26849eef4df3b0241a0213c9b1cb77bf6
+RVersion: 4.7
+Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: litedown
+Version: 1.0
+Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
+Imports: utils, xfun (>= 0.62)
+Suggests: rbibutils, rstudioapi, testit, tinyimg, tinytex
+License: MIT + file LICENSE
+File: litedown_1.0_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+DownloadURL: https://github.com/cran/litedown/releases/download/1.0/litedown_1.0_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.7.0; aarch64-unknown-linux-gnu; 2026-11-03 00:05:54 UTC; unix
+Filesize: 989334
+SHA256: a9d6d794b379e4996e267295705e5e7d3488198cd0649fcbfc1c44bca6e56e5a
 RVersion: 4.7
 Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
 GraphicsAPIVersion: 17
