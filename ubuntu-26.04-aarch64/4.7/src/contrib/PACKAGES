@@ -729,21 +729,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: otel
-Version: 0.2.0
-Depends: R (>= 3.6.0), R (>= 4.7), R (< 4.7.99)
-Suggests: callr, cli, glue, jsonlite, otelsdk, processx, shiny, spelling, testthat (>= 3.0.0), utils, withr
-License: MIT + file LICENSE
-File: otel_0.2.0_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-DownloadURL: https://github.com/cran/otel/releases/download/0.2.0/otel_0.2.0_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-Built: R 4.7.0; ; 2026-10-19 21:46:47 UTC; unix
-Filesize: 283743
-SHA256: dbea50363f8bdcdc896e58ed9f14a8ceb3e37c6f7cdf250124a99aa464f15bca
-RVersion: 4.7
-Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: pak
 Version: 0.11.1
 Depends: R (>= 3.5), R (>= 4.7), R (< 4.7.99)
@@ -5028,3 +5013,18 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, pandoc
 LinkingTo: RcppEigen (>= 0.3.3.9.3), RcppParallel (>= 5.1.4)
+
+Package: otel
+Version: 0.3.0
+Depends: R (>= 3.6.0), R (>= 4.7), R (< 4.7.99)
+Suggests: callr, cli, glue, jsonlite, otelsdk (>= 0.2.4), processx, shiny, spelling, testthat (>= 3.0.0), utils, withr
+License: MIT + file LICENSE
+File: otel_0.3.0_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+DownloadURL: https://github.com/cran/otel/releases/download/0.3.0/otel_0.3.0_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+Built: R 4.7.0; ; 2026-11-07 21:06:51 UTC; unix
+Filesize: 302912
+SHA256: 9794b77844c417848b9eb22840f9e362db6ece5a92d1caee9a074c03d7d0f034
+RVersion: 4.7
+Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
