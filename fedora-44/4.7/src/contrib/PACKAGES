@@ -450,21 +450,6 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: otel
-Version: 0.2.0
-Depends: R (>= 3.6.0), R (>= 4.7), R (< 4.7.99)
-Suggests: callr, cli, glue, jsonlite, otelsdk, processx, shiny, spelling, testthat (>= 3.0.0), utils, withr
-License: MIT + file LICENSE
-File: otel_0.2.0_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/otel/releases/download/0.2.0/otel_0.2.0_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-Built: R 4.7.0; ; 2026-03-30 18:12:02 UTC; unix
-Filesize: 313103
-SHA256: 11b3eebcbf04cd73733ce0491898b056372cafdb777f81d5bfd442f4fa003679
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: pillar
 Version: 1.11.1
 Depends: R (>= 4.7), R (< 4.7.99)
@@ -3921,25 +3906,6 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: pak
-Version: 0.11.1
-Depends: R (>= 3.5), R (>= 4.7), R (< 4.7.99)
-Imports: tools, utils
-Suggests: callr (>= 3.7.0), cli (>= 3.2.0), covr, curl (>= 4.3.2), desc (>= 1.4.1), filelock (>= 1.0.2), gitcreds, glue (>= 1.6.2), jsonlite (>= 1.8.0), keyring (>= 1.4.0), pingr, pkgbuild (>=
-        1.4.2), pkgcache (>= 2.2.4), pkgdepends (>= 0.9.0), pkgload, pkgsearch (>= 3.1.0), processx (>= 3.8.1), ps (>= 1.6.0), rstudioapi, testthat (>= 3.2.0), webfakes, withr, yaml
-License: GPL-3
-File: pak_0.11.1_b7_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/pak/releases/download/0.11.1/pak_0.11.1_b7_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-07-23 09:44:23 UTC; unix
-Filesize: 8141375
-SHA256: 5c487b4625115862903efb69f0a23760cd336197a2c205aac931ab97ea3f7c61
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: loo
 Version: 2.10.1
 Depends: R (>= 3.5), R (>= 4.7), R (< 4.7.99)
@@ -5102,3 +5068,37 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GNU make, pandoc
 LinkingTo: RcppEigen (>= 0.3.3.9.3), RcppParallel (>= 5.1.4)
+
+Package: otel
+Version: 0.3.0
+Depends: R (>= 3.6.0), R (>= 4.7), R (< 4.7.99)
+Suggests: callr, cli, glue, jsonlite, otelsdk (>= 0.2.4), processx, shiny, spelling, testthat (>= 3.0.0), utils, withr
+License: MIT + file LICENSE
+File: otel_0.3.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/otel/releases/download/0.3.0/otel_0.3.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+Built: R 4.7.0; ; 2026-11-08 14:23:48 UTC; unix
+Filesize: 331471
+SHA256: 25741be343524625d85b760f9d936a37d786e0d7375186843f9446138622824c
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: pak
+Version: 0.11.2
+Depends: R (>= 3.5), R (>= 4.7), R (< 4.7.99)
+Imports: tools, utils
+Suggests: callr (>= 3.7.0), cli (>= 3.2.0), covr, curl (>= 4.3.2), desc (>= 1.4.1), filelock (>= 1.0.2), gitcreds, glue (>= 1.6.2), jsonlite (>= 1.8.0), keyring (>= 1.4.0), pingr, pkgbuild (>=
+        1.4.2), pkgcache (>= 2.2.4), pkgdepends (>= 0.9.0), pkgload, pkgsearch (>= 3.1.0), processx (>= 3.8.1), ps (>= 1.6.0), rstudioapi, testthat (>= 3.2.0), webfakes, withr, yaml
+License: GPL-3
+File: pak_0.11.2_b8_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/pak/releases/download/0.11.2/pak_0.11.2_b8_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-11-08 14:23:50 UTC; unix
+Filesize: 7469519
+SHA256: 4c54c6db4b462becc998acdcd7e8e0c2017745597693eb7a11432a2b416adbdf
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
