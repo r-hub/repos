@@ -3664,22 +3664,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
 
-Package: dials
-Version: 1.4.4
-Depends: R (>= 4.1), scales (>= 1.3.0), R (>= 4.7), R (< 4.7.99)
-Imports: cli, DiceDesign, dplyr (>= 0.8.5), glue, hardhat (>= 1.1.0), lifecycle, pillar, purrr, rlang (>= 1.1.0), sfd, tibble, utils, vctrs (>= 0.3.8), withr
-Suggests: covr, ggplot2, kernlab, knitr, rmarkdown, rpart, testthat (>= 3.1.9), xml2
-License: MIT + file LICENSE
-File: dials_1.4.4_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/dials/releases/download/1.4.4/dials_1.4.4_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-Built: R 4.7.0; ; 2026-06-23 10:45:57 UTC; unix
-Filesize: 530058
-SHA256: 97227e1405fd33f21a786a016bc81fea1a663544b62902fd28f52938d35b56af
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: gridExtra
 Version: 2.3.1
 Depends: R (>= 4.7), R (< 4.7.99)
@@ -4405,24 +4389,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>= 4.8.0), sqlite3
 LinkingTo: Rcpp
 
-Package: diffobj
-Version: 0.3.9
-Depends: R (>= 4.1.0), R (>= 4.7), R (< 4.7.99)
-Imports: crayon (>= 1.3.2), tools, methods, utils, stats
-Suggests: knitr, rmarkdown
-License: GPL-2 | GPL-3
-File: diffobj_0.3.9_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/diffobj/releases/download/0.3.9/diffobj_0.3.9_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-09-12 11:40:20 UTC; unix
-Filesize: 1074452
-SHA256: ae6168d35514121258b17152d63ec7c8793d04c23e81452dc0e3dd6fb9e9ca28
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: tinytex
 Version: 0.61
 Depends: R (>= 4.7), R (< 4.7.99)
@@ -5102,3 +5068,37 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: C++20; for AWS S3 support on Linux, libcurl and openssl, and libxml2 for Azure (optional); cmake >= 3.26 (build-time only, and only for full source build)
 LinkingTo: cpp11 (>= 0.4.2)
+
+Package: dials
+Version: 1.4.5
+Depends: R (>= 4.1), scales (>= 1.3.0), R (>= 4.7), R (< 4.7.99)
+Imports: cli, DiceDesign, dplyr (>= 0.8.5), glue, hardhat (>= 1.1.0), lifecycle, pillar, purrr, rlang (>= 1.1.0), sfd, tibble, tidyr, tidyselect, utils, vctrs (>= 0.3.8), withr
+Suggests: covr, ggplot2, kernlab, knitr, rmarkdown, rpart, testthat (>= 3.1.9), xml2
+License: MIT + file LICENSE
+File: dials_1.4.5_b4_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/dials/releases/download/1.4.5/dials_1.4.5_b4_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+Built: R 4.7.0; ; 2026-11-11 15:28:08 UTC; unix
+Filesize: 553330
+SHA256: 2d8b6102825d3dd6c8c85ed1bbae6424ecad4ad2f4f33e499edea083cb661413
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: diffobj
+Version: 0.3.10
+Depends: R (>= 4.1.0), R (>= 4.7), R (< 4.7.99)
+Imports: crayon (>= 1.3.2), tools, methods, utils, stats
+Suggests: knitr, rmarkdown
+License: GPL-2 | GPL-3
+File: diffobj_0.3.10_b4_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/diffobj/releases/download/0.3.10/diffobj_0.3.10_b4_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-11-11 15:28:08 UTC; unix
+Filesize: 1061752
+SHA256: 4a15802687c7074a4141e856ec28de59a78494aa073a9d873aed93c99d769b3e
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
