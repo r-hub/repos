@@ -4689,24 +4689,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 LinkingTo: Rcpp
 
-Package: lava
-Version: 1.10
-Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
-Imports: cli, future.apply, graphics, grDevices, methods, numDeriv, progressr, stats, survival, SQUAREM, utils
-Suggests: KernSmooth, Rgraphviz, data.table, ellipse, fields, future, geepack, graph, knitr, rmarkdown, igraph (>= 0.6), lavaSearch2, lme4 (>= 1.1.35.1), MASS, Matrix (>= 1.6.3), mets (>= 1.1), nlme,
-        optimx, polycor, quantreg, quarto, rgl, svglite, targeted (>= 0.4), testthat (>= 3.0.0), vdiffr, visNetwork
-License: Apache License (== 2.0)
-File: lava_1.10_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-DownloadURL: https://github.com/cran/lava/releases/download/1.10/lava_1.10_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-Built: R 4.7.0; ; 2026-10-23 20:41:48 UTC; unix
-Filesize: 2685749
-SHA256: 32ca73db325b0471137b549f3a6a8bbd3b808be97a2bd026a6f62769696467a2
-RVersion: 4.7
-Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: Quarto command line tools (https://github.com/quarto-dev/quarto-cli).
-
 Package: lme4
 Version: 2.1-0
 Depends: R (>= 3.6), Matrix, methods, stats, R (>= 4.7), R (< 4.7.99)
@@ -5028,3 +5010,21 @@ RVersion: 4.7
 Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: lava
+Version: 1.11
+Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
+Imports: cli, future.apply, graphics, grDevices, methods, numDeriv, progressr, stats, survival, SQUAREM, utils
+Suggests: KernSmooth, Rgraphviz, data.table, ellipse, fields, future, geepack, graph, knitr, rmarkdown, igraph (>= 0.6), lavaSearch2, lme4 (>= 1.1.35.1), MASS, Matrix (>= 1.6.3), mets (>= 1.1), mmrm,
+        nlme, optimx, polycor, quantreg, quarto, rgl, svglite, targeted (>= 0.4), testthat (>= 3.0.0), vdiffr, visNetwork
+License: Apache License (== 2.0)
+File: lava_1.11_b3_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+DownloadURL: https://github.com/cran/lava/releases/download/1.11/lava_1.11_b3_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+Built: R 4.7.0; ; 2026-11-12 22:55:05 UTC; unix
+Filesize: 2733447
+SHA256: e95b4c5aaf5bf5506a2e84f35066036a6d75402aa7e34e544cb2f6b7bfa4ac5d
+RVersion: 4.7
+Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: Quarto command line tools (https://github.com/quarto-dev/quarto-cli).
