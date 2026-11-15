@@ -2230,25 +2230,6 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: caret
-Version: 7.0-1
-Depends: ggplot2, lattice (>= 0.20), R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
-Imports: e1071, foreach, grDevices, methods, ModelMetrics (>= 1.2.2.2), nlme, plyr, pROC, recipes (>= 0.1.10), reshape2, stats, stats4, utils, withr (>= 2.0.0)
-Suggests: BradleyTerry2, covr, Cubist, dplyr, earth (>= 2.2-3), ellipse, fastICA, gam (>= 1.15), ipred, kernlab, klaR, knitr, MASS, Matrix, mda, mgcv, mlbench, MLmetrics, nnet, pamr, party (>=
-        0.9-99992), pls, proxy, randomForest, RANN, rmarkdown, rpart, spls, superpc, testthat (>= 0.9.1), themis (>= 0.1.3)
-License: GPL (>= 2)
-File: caret_7.0-1_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/caret/releases/download/7.0-1/caret_7.0-1_b1_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-03-30 18:50:28 UTC; unix
-Filesize: 3717393
-SHA256: 7c5528fa5e4663c063781e9a1b9a8e902604d60dc3ce15c7762ebb6b730219c9
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: foreach
 Version: 1.5.2
 Depends: R (>= 2.5.0), R (>= 4.7), R (< 4.7.99)
@@ -5102,3 +5083,22 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Enhances: sp
+
+Package: caret
+Version: 7.1-0
+Depends: ggplot2, lattice (>= 0.20), R (>= 4.1), R (>= 4.7), R (< 4.7.99)
+Imports: cli, e1071, foreach, grDevices, methods, nlme, plyr, recipes (>= 0.1.10), reshape2, stats, stats4, utils, vctrs, withr (>= 2.0.0), yardstick (>= 1.4.0)
+Suggests: BiocManager, BradleyTerry2, C50, covr, Cubist, dplyr, earth (>= 2.2-3), ellipse, fastICA, gam (>= 1.15), gbm, ipred, kernlab, klaR, knitr, MASS, Matrix, mda, mgcv, mlbench, nnet, pamr,
+        party (>= 0.9-99992), pls, proxy, randomForest, RANN, rmarkdown, rpart, RRF, spls, superpc, testthat (>= 3.0.0), themis (>= 0.1.3), xgboost (>= 3.0.0)
+License: GPL (>= 2)
+File: caret_7.1-0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/caret/releases/download/7.1-0/caret_7.1-0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-11-15 14:52:50 UTC; unix
+Filesize: 3740830
+SHA256: bd7bf5e2511aac30bfd9c47e10b49af3ca894a53f7fb922f53e97b6fd67dd1ef
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
