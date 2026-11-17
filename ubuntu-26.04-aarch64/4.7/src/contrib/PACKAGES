@@ -1172,26 +1172,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: systemfonts
-Version: 1.3.2
-Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
-Imports: base64enc, grid, jsonlite, lifecycle, tools, utils
-Suggests: covr, farver, ggplot2, graphics, knitr, ragg, rmarkdown, svglite, testthat (>= 2.1.0)
-License: MIT + file LICENSE
-File: systemfonts_1.3.2_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-DownloadURL: https://github.com/cran/systemfonts/releases/download/1.3.2/systemfonts_1.3.2_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.7.0; aarch64-unknown-linux-gnu; 2026-10-19 21:52:32 UTC; unix
-Filesize: 3372415
-SHA256: 9966a1d10060a4e69b9a56e76eb2851b11074eb4e07c0ad86eb9bebb3cd5eac8
-RVersion: 4.7
-Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: fontconfig, freetype2
-LinkingTo: cpp11 (>= 0.2.1)
-
 Package: testthat
 Version: 3.3.2
 Depends: R (>= 4.1.0), R (>= 4.7), R (< 4.7.99)
@@ -5028,3 +5008,23 @@ RVersion: 4.7
 Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: systemfonts
+Version: 1.3.3
+Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
+Imports: base64enc, grid, jsonlite, lifecycle, tools, utils
+Suggests: covr, farver, ggplot2, graphics, knitr, ragg, rmarkdown, svglite, testthat (>= 3.2.0)
+License: MIT + file LICENSE
+File: systemfonts_1.3.3_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+DownloadURL: https://github.com/cran/systemfonts/releases/download/1.3.3/systemfonts_1.3.3_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.7.0; aarch64-unknown-linux-gnu; 2026-11-17 01:08:50 UTC; unix
+Filesize: 3451725
+SHA256: 184664c410062b08f7e01aecfe8aede3028fead3d8436c8e927988f53c4b2254
+RVersion: 4.7
+Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: fontconfig, freetype2
+LinkingTo: cpp11 (>= 0.2.1)
