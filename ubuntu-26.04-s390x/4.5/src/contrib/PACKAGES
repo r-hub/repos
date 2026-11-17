@@ -1309,26 +1309,6 @@ Platform: s390x-ibm-linux-gnu-ubuntu-26.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: systemfonts
-Version: 1.3.2
-Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
-Suggests: covr, farver, ggplot2, graphics, knitr, ragg, rmarkdown, svglite, testthat (>= 2.1.0)
-License: MIT + file LICENSE
-File: systemfonts_1.3.2_b1_R4.5_s390x-ibm-linux-gnu-ubuntu-26.04.tar.gz
-DownloadURL: https://github.com/cran/systemfonts/releases/download/1.3.2/systemfonts_1.3.2_b1_R4.5_s390x-ibm-linux-gnu-ubuntu-26.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.5.2; s390x-ibm-linux-gnu; 2026-10-19 14:25:57 UTC; unix
-Filesize: 3357931
-SHA256: 8b098456f68fed8700d4f4126ea64b76f894d0e3a58406dc2a0b90b69eac84c8
-RVersion: 4.5
-Platform: s390x-ibm-linux-gnu-ubuntu-26.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: base64enc, grid, jsonlite, lifecycle, tools, utils
-SystemRequirements: fontconfig, freetype2
-LinkingTo: cpp11 (>= 0.2.1)
-
 Package: textshaping
 Version: 1.0.5
 Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
@@ -1999,3 +1979,23 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli, grDevices, grid, gtable (>= 0.3.6), isoband, lifecycle (> 1.0.1), rlang (>= 1.1.0), S7, scales (>= 1.4.0), stats, vctrs (>= 0.6.0), withr (>= 2.5.0)
 Enhances: sp
+
+Package: systemfonts
+Version: 1.3.3
+Depends: R (>= 3.2.0), R (>= 4.5), R (< 4.5.99)
+Suggests: covr, farver, ggplot2, graphics, knitr, ragg, rmarkdown, svglite, testthat (>= 3.2.0)
+License: MIT + file LICENSE
+File: systemfonts_1.3.3_b2_R4.5_s390x-ibm-linux-gnu-ubuntu-26.04.tar.gz
+DownloadURL: https://github.com/cran/systemfonts/releases/download/1.3.3/systemfonts_1.3.3_b2_R4.5_s390x-ibm-linux-gnu-ubuntu-26.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.5.2; s390x-ibm-linux-gnu; 2026-11-16 23:59:04 UTC; unix
+Filesize: 3444090
+SHA256: 7b538c3f7d7243669c59686b98dcffe8e2685054779aa60073a545dce41cfafa
+RVersion: 4.5
+Platform: s390x-ibm-linux-gnu-ubuntu-26.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: base64enc, grid, jsonlite, lifecycle, tools, utils
+SystemRequirements: fontconfig, freetype2
+LinkingTo: cpp11 (>= 0.2.1)
