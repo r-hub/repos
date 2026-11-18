@@ -2945,22 +2945,6 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: posterior
-Version: 1.7.0
-Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
-Imports: methods, abind, checkmate, rlang (>= 1.0.6), stats, tibble (>= 3.1.0), vctrs (>= 0.5.0), tensorA, pillar, distributional, parallel, matrixStats
-Suggests: testthat (>= 2.1.0), caret (>= 6.0-84), gbm (>= 2.1.8), randomForest (>= 4.6.14), e1071 (>= 1.7-3), dplyr, tidyr, knitr, ggplot2, ggdist, rmarkdown
-License: BSD_3_clause + file LICENSE
-File: posterior_1.7.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/posterior/releases/download/1.7.0/posterior_1.7.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-Built: R 4.7.0; ; 2026-04-02 08:17:24 UTC; unix
-Filesize: 1094707
-SHA256: 87bfab8c5e62a71c7ca90b355e4ade49b2a0558beec171a26d1e7cac09e7a8a8
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: backports
 Version: 1.5.1
 Depends: R (>= 3.0.0), R (>= 4.7), R (< 4.7.99)
@@ -3058,24 +3042,6 @@ DownloadURL: https://github.com/cran/hardhat/releases/download/1.4.3/hardhat_1.4
 Built: R 4.7.0; ; 2026-04-05 08:03:51 UTC; unix
 Filesize: 933675
 SHA256: ced32fffac9e5d7df65a9314bcf400e5e7ce519b33c9f15c89590d41eb0d8a4c
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: yardstick
-Version: 1.4.0
-Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
-Imports: cli, dplyr (>= 1.1.0), generics (>= 0.1.2), hardhat (>= 1.4.3), lifecycle (>= 1.0.3), rlang (>= 1.1.4), tibble, tidyselect (>= 1.2.0), utils, vctrs (>= 0.5.0), withr
-Suggests: covr, ggplot2, knitr, probably (>= 1.0.0), rmarkdown, survival (>= 3.5-0), testthat (>= 3.0.0), tidyr
-License: MIT + file LICENSE
-File: yardstick_1.4.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/yardstick/releases/download/1.4.0/yardstick_1.4.0_b2_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-04-08 08:40:12 UTC; unix
-Filesize: 1404663
-SHA256: 201cab055b5eb9609e2a3dbdfa4f3faecda93314ffca2e9d245011a1eb3658d3
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
@@ -5102,3 +5068,37 @@ Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: OpenSSL >= 1.0.2
+
+Package: posterior
+Version: 1.8.0
+Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
+Imports: methods, abind, checkmate, rlang (>= 1.0.6), stats, tibble (>= 3.1.0), vctrs (>= 0.5.0), tensorA, pillar, distributional, parallel, matrixStats
+Suggests: testthat (>= 2.1.0), caret (>= 6.0-84), gbm (>= 2.1.8), randomForest (>= 4.6.14), e1071 (>= 1.7-3), dplyr, tidyr, knitr, ggplot2, ggdist, rmarkdown
+License: BSD_3_clause + file LICENSE
+File: posterior_1.8.0_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/posterior/releases/download/1.8.0/posterior_1.8.0_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+Built: R 4.7.0; ; 2026-11-18 16:35:43 UTC; unix
+Filesize: 1172741
+SHA256: e80dbdc2f357ac2591f0b4e9f85c18f12dccebb3d24ae45764741a945592ec59
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: yardstick
+Version: 1.5.0
+Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
+Imports: cli, dplyr (>= 1.1.0), generics (>= 0.1.2), hardhat (>= 1.4.3), lifecycle (>= 1.0.3), rlang (>= 1.1.4), tibble, tidyselect (>= 1.2.0), utils, vctrs (>= 0.5.0), withr
+Suggests: covr, ggplot2, knitr, probably (>= 1.0.0), quarto, rmarkdown, survival (>= 3.5-0), testthat (>= 3.0.0), tidyr
+License: MIT + file LICENSE
+File: yardstick_1.5.0_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/yardstick/releases/download/1.5.0/yardstick_1.5.0_b3_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-11-18 16:35:45 UTC; unix
+Filesize: 1418837
+SHA256: 7310d425ff585f8c42f36d6aed995d0d8282324d4aed3261b1f0ae7aad97c018
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
