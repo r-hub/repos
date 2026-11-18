@@ -2446,24 +2446,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: yardstick
-Version: 1.4.0
-Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
-Imports: cli, dplyr (>= 1.1.0), generics (>= 0.1.2), hardhat (>= 1.4.3), lifecycle (>= 1.0.3), rlang (>= 1.1.4), tibble, tidyselect (>= 1.2.0), utils, vctrs (>= 0.5.0), withr
-Suggests: covr, ggplot2, knitr, probably (>= 1.0.0), rmarkdown, survival (>= 3.5-0), testthat (>= 3.0.0), tidyr
-License: MIT + file LICENSE
-File: yardstick_1.4.0_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-DownloadURL: https://github.com/cran/yardstick/releases/download/1.4.0/yardstick_1.4.0_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.7.0; aarch64-unknown-linux-gnu; 2026-10-19 21:55:14 UTC; unix
-Filesize: 1337317
-SHA256: bb7f30a643ef9fd8cc4d4c17c2b20aed852b147317b0a7abcb4f7b99ac728564
-RVersion: 4.7
-Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: bit
 Version: 4.6.0
 Depends: R (>= 3.4.0), R (>= 4.7), R (< 4.7.99)
@@ -4332,22 +4314,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 1.12.3), pandoc-citeproc
 
-Package: posterior
-Version: 1.7.0
-Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
-Imports: methods, abind, checkmate, rlang (>= 1.0.6), stats, tibble (>= 3.1.0), vctrs (>= 0.5.0), tensorA, pillar, distributional, parallel, matrixStats
-Suggests: testthat (>= 2.1.0), caret (>= 6.0-84), gbm (>= 2.1.8), randomForest (>= 4.6.14), e1071 (>= 1.7-3), dplyr, tidyr, knitr, ggplot2, ggdist, rmarkdown
-License: BSD_3_clause + file LICENSE
-File: posterior_1.7.0_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-DownloadURL: https://github.com/cran/posterior/releases/download/1.7.0/posterior_1.7.0_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-Built: R 4.7.0; ; 2026-10-19 22:06:16 UTC; unix
-Filesize: 1025235
-SHA256: ca0f6f09facd2bd7a55f4c9b6721744426b791ab8710b07767163fe74488d832
-RVersion: 4.7
-Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: quadprog
 Version: 1.5-8
 Depends: R (>= 3.1.0), R (>= 4.7), R (< 4.7.99)
@@ -5028,3 +4994,37 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: OpenSSL >= 1.0.2
+
+Package: yardstick
+Version: 1.5.0
+Depends: R (>= 4.1), R (>= 4.7), R (< 4.7.99)
+Imports: cli, dplyr (>= 1.1.0), generics (>= 0.1.2), hardhat (>= 1.4.3), lifecycle (>= 1.0.3), rlang (>= 1.1.4), tibble, tidyselect (>= 1.2.0), utils, vctrs (>= 0.5.0), withr
+Suggests: covr, ggplot2, knitr, probably (>= 1.0.0), quarto, rmarkdown, survival (>= 3.5-0), testthat (>= 3.0.0), tidyr
+License: MIT + file LICENSE
+File: yardstick_1.5.0_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+DownloadURL: https://github.com/cran/yardstick/releases/download/1.5.0/yardstick_1.5.0_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.7.0; aarch64-unknown-linux-gnu; 2026-11-18 23:38:16 UTC; unix
+Filesize: 1351751
+SHA256: fb66410e650c68cab1f69be329d2845511f2a309a55dab1feae951db487c6c9a
+RVersion: 4.7
+Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: posterior
+Version: 1.8.0
+Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
+Imports: methods, abind, checkmate, rlang (>= 1.0.6), stats, tibble (>= 3.1.0), vctrs (>= 0.5.0), tensorA, pillar, distributional, parallel, matrixStats
+Suggests: testthat (>= 2.1.0), caret (>= 6.0-84), gbm (>= 2.1.8), randomForest (>= 4.6.14), e1071 (>= 1.7-3), dplyr, tidyr, knitr, ggplot2, ggdist, rmarkdown
+License: BSD_3_clause + file LICENSE
+File: posterior_1.8.0_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+DownloadURL: https://github.com/cran/posterior/releases/download/1.8.0/posterior_1.8.0_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+Built: R 4.7.0; ; 2026-11-18 23:38:18 UTC; unix
+Filesize: 1096881
+SHA256: add97b1bc59ff9e80dee694fad20ab72c3f6552b5bc06a6a8115f4a84e025702
+RVersion: 4.7
+Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
