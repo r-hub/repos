@@ -790,24 +790,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-26.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: processx
-Version: 3.9.0
-Depends: R (>= 3.4.0), R (>= 4.7), R (< 4.7.99)
-Imports: ps (>= 1.9.3), R6, utils
-Suggests: callr (>= 3.7.3), cli (>= 3.3.0), codetools, covr, curl, debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0), webfakes, withr
-License: MIT + file LICENSE
-File: processx_3.9.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/processx/releases/download/3.9.0/processx_3.9.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-10-19 21:45:04 UTC; unix
-Filesize: 415821
-SHA256: d76075087dcf7e59f30d2775d2a997e0be93cb72ff0f38c1911e7ebb1f2f16e0
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-26.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
 Package: profvis
 Version: 0.4.0
 Depends: R (>= 4.0), R (>= 4.7), R (< 4.7.99)
@@ -2103,24 +2085,6 @@ DownloadURL: https://github.com/cran/rsample/releases/download/1.3.2/rsample_1.3
 Built: R 4.7.0; ; 2026-10-19 22:16:24 UTC; unix
 Filesize: 1721678
 SHA256: 2b85f206defeba06d59d130f72e2defbf0652093fe3058ce86dab0f9bc5e04d3
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-26.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: S7
-Version: 0.2.2
-Depends: R (>= 3.5.0), R (>= 4.7), R (< 4.7.99)
-Imports: utils
-Suggests: bench, callr, covr, knitr, methods, rmarkdown, testthat (>= 3.2.0), tibble
-License: MIT + file LICENSE
-File: S7_0.2.2_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/S7/releases/download/0.2.2/S7_0.2.2_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-10-19 21:48:53 UTC; unix
-Filesize: 327169
-SHA256: 25df03cc6415fc8a42d03cf74ce8fafa45c50ba3ec9587ef29eb501e237c0033
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-26.04-libc++
 GraphicsAPIVersion: 17
@@ -4502,6 +4466,42 @@ Arch: amd64
 Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-11-18 23:34:21 UTC; unix
 Filesize: 1346421
 SHA256: 065e339b09f4b5687a6d4e264a10f44132a4a38a4cf4ce38c4bcc184832e803f
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-26.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: processx
+Version: 3.10.0
+Depends: R (>= 3.4.0), R (>= 4.7), R (< 4.7.99)
+Imports: ps (>= 1.9.3), R6, utils
+Suggests: callr (>= 3.7.3), cli (>= 3.3.0), codetools, covr, curl, debugme, parallel, pkgload, rlang (>= 1.0.2), testthat (>= 3.0.0), webfakes, withr
+License: MIT + file LICENSE
+File: processx_3.10.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/processx/releases/download/3.10.0/processx_3.10.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-11-19 23:47:00 UTC; unix
+Filesize: 429315
+SHA256: 2256b570c9153a0b74d91c7f6f69f3e530a448222d9b9999ae483132fad82316
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-26.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: S7
+Version: 1.0.0
+Depends: R (>= 4.2.0), R (>= 4.7), R (< 4.7.99)
+Imports: methods, utils
+Suggests: bench, callr, covr, knitr, lifecycle, rmarkdown, testthat (>= 3.3.0), tibble, withr
+License: MIT + file LICENSE
+File: S7_1.0.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/S7/releases/download/1.0.0/S7_1.0.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-11-19 23:48:17 UTC; unix
+Filesize: 562306
+SHA256: 5c4263a08193f9a4684e48ddef13e85fb1aadd9c363a3f1ebd379452f9acd6f7
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-26.04-libc++
 GraphicsAPIVersion: 17
