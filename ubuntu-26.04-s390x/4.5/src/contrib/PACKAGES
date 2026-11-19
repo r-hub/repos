@@ -918,24 +918,6 @@ Platform: s390x-ibm-linux-gnu-ubuntu-26.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: processx
-Version: 3.9.0
-Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
-Suggests: callr (>= 3.7.3), cli (>= 3.3.0), codetools, covr, curl, debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0), webfakes, withr
-License: MIT + file LICENSE
-File: processx_3.9.0_b1_R4.5_s390x-ibm-linux-gnu-ubuntu-26.04.tar.gz
-DownloadURL: https://github.com/cran/processx/releases/download/3.9.0/processx_3.9.0_b1_R4.5_s390x-ibm-linux-gnu-ubuntu-26.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.5.2; s390x-ibm-linux-gnu; 2026-10-19 14:26:00 UTC; unix
-Filesize: 530316
-SHA256: 5ca5822bff19cb406953ff336fdd13da76ccd7fcf4ef912e67ee94bdd6122dbc
-RVersion: 4.5
-Platform: s390x-ibm-linux-gnu-ubuntu-26.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: ps (>= 1.9.3), R6, utils
-
 Package: progress
 Version: 1.2.3
 Depends: R (>= 3.6), R (>= 4.5), R (< 4.5.99)
@@ -1189,24 +1171,6 @@ Platform: s390x-ibm-linux-gnu-ubuntu-26.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: cli, glue, httr (>= 0.5), lifecycle (>= 1.0.3), magrittr, rlang (>= 1.1.0), selectr, tibble, xml2 (>= 1.4.0)
-
-Package: S7
-Version: 0.2.2
-Depends: R (>= 3.5.0), R (>= 4.5), R (< 4.5.99)
-Suggests: bench, callr, covr, knitr, methods, rmarkdown, testthat (>= 3.2.0), tibble
-License: MIT + file LICENSE
-File: S7_0.2.2_b1_R4.5_s390x-ibm-linux-gnu-ubuntu-26.04.tar.gz
-DownloadURL: https://github.com/cran/S7/releases/download/0.2.2/S7_0.2.2_b1_R4.5_s390x-ibm-linux-gnu-ubuntu-26.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.5.2; s390x-ibm-linux-gnu; 2026-10-19 14:05:19 UTC; unix
-Filesize: 339368
-SHA256: ae5498812fb4e9e1d2760db92c50bdd00c0678cf1806088f55e490bf4a384e83
-RVersion: 4.5
-Platform: s390x-ibm-linux-gnu-ubuntu-26.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: utils
 
 Package: sass
 Version: 0.4.10
@@ -1999,3 +1963,39 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: askpass
 SystemRequirements: OpenSSL >= 1.0.2
+
+Package: processx
+Version: 3.10.0
+Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
+Suggests: callr (>= 3.7.3), cli (>= 3.3.0), codetools, covr, curl, debugme, parallel, pkgload, rlang (>= 1.0.2), testthat (>= 3.0.0), webfakes, withr
+License: MIT + file LICENSE
+File: processx_3.10.0_b2_R4.5_s390x-ibm-linux-gnu-ubuntu-26.04.tar.gz
+DownloadURL: https://github.com/cran/processx/releases/download/3.10.0/processx_3.10.0_b2_R4.5_s390x-ibm-linux-gnu-ubuntu-26.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.5.2; s390x-ibm-linux-gnu; 2026-11-19 22:59:34 UTC; unix
+Filesize: 545669
+SHA256: 768d2af8db294cf253e45976eb263dc6d1e7a6432b2c1e99a0e34a54fc7a81ad
+RVersion: 4.5
+Platform: s390x-ibm-linux-gnu-ubuntu-26.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: ps (>= 1.9.3), R6, utils
+
+Package: S7
+Version: 1.0.0
+Depends: R (>= 4.2.0), R (>= 4.5), R (< 4.5.99)
+Suggests: bench, callr, covr, knitr, lifecycle, rmarkdown, testthat (>= 3.3.0), tibble, withr
+License: MIT + file LICENSE
+File: S7_1.0.0_b2_R4.5_s390x-ibm-linux-gnu-ubuntu-26.04.tar.gz
+DownloadURL: https://github.com/cran/S7/releases/download/1.0.0/S7_1.0.0_b2_R4.5_s390x-ibm-linux-gnu-ubuntu-26.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.5.2; s390x-ibm-linux-gnu; 2026-11-19 22:59:33 UTC; unix
+Filesize: 586211
+SHA256: 204fa671bdb3b0cbe9a6363d9f6636ab514de69552b3f6fe483f9e77ef7f6905
+RVersion: 4.5
+Platform: s390x-ibm-linux-gnu-ubuntu-26.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: methods, utils
