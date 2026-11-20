@@ -1067,25 +1067,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-26.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: sass
-Version: 0.4.10
-Depends: R (>= 4.7), R (< 4.7.99)
-Imports: fs (>= 1.2.4), rlang (>= 0.4.10), htmltools (>= 0.5.1), R6, rappdirs
-Suggests: testthat, knitr, rmarkdown, withr, shiny, curl
-License: MIT + file LICENSE
-File: sass_0.4.10_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/sass/releases/download/0.4.10/sass_0.4.10_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-10-19 22:06:27 UTC; unix
-Filesize: 2481318
-SHA256: 024fa9dc83352987f50763a36f5425d8306f545e584c7d0e0e309b15a7f06eaf
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-26.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make
-
 Package: sessioninfo
 Version: 1.2.4
 Depends: R (>= 3.4), R (>= 4.7), R (< 4.7.99)
@@ -1172,26 +1153,6 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-26.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: textshaping
-Version: 1.0.5
-Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
-Imports: lifecycle, stats, stringi, systemfonts (>= 1.3.0), utils
-Suggests: covr, grDevices, grid, knitr, rmarkdown, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: textshaping_1.0.5_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/textshaping/releases/download/1.0.5/textshaping_1.0.5_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-10-19 21:53:55 UTC; unix
-Filesize: 207269
-SHA256: 583cc84d70e738666ecc788b06764a95c9feea577261dbaf58159ad557a4c550
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-26.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: freetype2, harfbuzz, fribidi
-LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
 
 Package: tibble
 Version: 3.3.1
@@ -1483,24 +1444,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-26.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 2.10.1)
-
-Package: shiny
-Version: 1.14.0
-Depends: methods, R (>= 3.1.2), R (>= 4.7), R (< 4.7.99)
-Imports: bslib (>= 0.6.0), cachem (>= 1.1.0), cli, commonmark (>= 2.0.0), fastmap (>= 1.1.1), fontawesome (>= 0.4.0), glue (>= 1.3.2), grDevices, htmltools (>= 0.5.4), httpuv (>= 1.5.2), jsonlite (>=
-        0.9.16), later (>= 1.0.0), lifecycle (>= 0.2.0), mime (>= 0.3), otel, promises (>= 1.5.0), R6 (>= 2.0), rlang (>= 0.4.10), sourcetools, tools, utils, withr, xtable
-Suggests: Cairo (>= 1.5-5), coro (>= 1.1.0), datasets, DT, dygraphs, future, ggplot2, knitr (>= 1.6), magrittr, markdown, mirai, otelsdk (>= 0.2.0), ragg, reactlog (>= 1.0.0), rmarkdown, sass,
-        shinytest2, showtext, testthat (>= 3.2.1), watcher, yaml
-License: MIT + file LICENSE
-File: shiny_1.14.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/shiny/releases/download/1.14.0/shiny_1.14.0_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
-Built: R 4.7.0; ; 2026-10-19 22:11:47 UTC; unix
-Filesize: 4581037
-SHA256: 8f95c798a66b7271bd2ac7c9a57f53d4478be0386e6312bc329d555637144317
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-26.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: backports
 Version: 1.5.1
@@ -4502,6 +4445,102 @@ Arch: amd64
 Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-11-19 23:48:17 UTC; unix
 Filesize: 562306
 SHA256: 5c4263a08193f9a4684e48ddef13e85fb1aadd9c363a3f1ebd379452f9acd6f7
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-26.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: watcher
+Version: 0.2.2
+Depends: R (>= 3.5), R (>= 4.7), R (< 4.7.99)
+Imports: later, R6, rlang
+Suggests: testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: watcher_0.2.2_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/watcher/releases/download/0.2.2/watcher_0.2.2_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-11-20 23:21:30 UTC; unix
+Filesize: 155829
+SHA256: 39421d6060f22f6f85b358ee7523060e4cb89022e13ffd18a215b24e54e1ba47
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-26.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: 'libfswatch' (optional, bundled copy compiled otherwise)
+
+Package: magick
+Version: 2.9.1
+Depends: R (>= 4.1.0), R (>= 4.7), R (< 4.7.99)
+Imports: Rcpp (>= 0.12.12), magrittr, curl
+Suggests: av, spelling, jsonlite, methods, knitr, rmarkdown, rsvg, webp, pdftools, ggplot2, gapminder, IRdisplay, tesseract, gifski
+License: MIT + file LICENSE
+File: magick_2.9.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/magick/releases/download/2.9.1/magick_2.9.1_b1_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-11-20 23:22:05 UTC; unix
+Filesize: 7020503
+SHA256: 211fdf9d09baf494d9bb12fda0650e813efa5e52723a2496f4b07b97598ead68
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-26.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: ImageMagick++: ImageMagick-c++-devel (rpm) or libmagick++-dev (deb)
+LinkingTo: Rcpp
+
+Package: sass
+Version: 0.5.0
+Depends: R (>= 4.7), R (< 4.7.99)
+Imports: fs (>= 1.2.4), htmltools (>= 0.5.1), R6, rappdirs, rlang (>= 0.4.10)
+Suggests: curl, knitr, rmarkdown, shiny, testthat, withr
+License: MIT + file LICENSE
+File: sass_0.5.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/sass/releases/download/0.5.0/sass_0.5.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-11-20 23:21:24 UTC; unix
+Filesize: 2439020
+SHA256: 20eff42d60ef18c3188dbddbbd47c5dc0a596e4908c67e3a68f78a1b66cec2b0
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-26.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make
+
+Package: textshaping
+Version: 1.1.0
+Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
+Imports: lifecycle, stats, stringi, systemfonts (>= 1.3.3), utils
+Suggests: covr, grDevices, grid, knitr, rmarkdown, testthat (>= 3.3.0)
+License: MIT + file LICENSE
+File: textshaping_1.1.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/textshaping/releases/download/1.1.0/textshaping_1.1.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-11-20 23:21:25 UTC; unix
+Filesize: 554398
+SHA256: c71782a4709fddf46d49fc0780dd642454c21de1d02d1224943067000a72a41e
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-26.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: freetype2, harfbuzz, fribidi
+LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.3.3)
+
+Package: shiny
+Version: 1.15.0
+Depends: methods, R (>= 3.1.2), R (>= 4.7), R (< 4.7.99)
+Imports: bslib (>= 0.6.0), cachem (>= 1.1.0), cli, commonmark (>= 2.0.0), fastmap (>= 1.1.1), fontawesome (>= 0.4.0), glue (>= 1.3.2), grDevices, htmltools (>= 0.5.4), httpuv (>= 1.5.2), jsonlite (>=
+        0.9.16), later (>= 1.0.0), lifecycle (>= 0.2.0), mime (>= 0.3), otel, promises (>= 1.5.0), R6 (>= 2.0), rlang (>= 0.4.10), sourcetools, tools, utils, watcher (>= 0.2.0), withr, xtable
+Suggests: Cairo (>= 1.5-5), coro (>= 1.1.0), datasets, DT, dygraphs, future, ggplot2, knitr (>= 1.6), magrittr, markdown, mirai, otelsdk (>= 0.2.0), ragg, reactlog (>= 1.0.0), rmarkdown, sass,
+        shinytest2, showtext, testthat (>= 3.2.1), yaml
+License: MIT + file LICENSE
+File: shiny_1.15.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/shiny/releases/download/1.15.0/shiny_1.15.0_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
+Built: R 4.7.0; ; 2026-11-20 23:23:40 UTC; unix
+Filesize: 4585267
+SHA256: c9eaa30c31ba7c51a767fc7843da1ee4d4526669d3f994a4f896728523f1f4b5
 RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-26.04-libc++
 GraphicsAPIVersion: 17
