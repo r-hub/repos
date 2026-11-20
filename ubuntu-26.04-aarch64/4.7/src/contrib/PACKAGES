@@ -1067,25 +1067,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: sass
-Version: 0.4.10
-Depends: R (>= 4.7), R (< 4.7.99)
-Imports: fs (>= 1.2.4), rlang (>= 0.4.10), htmltools (>= 0.5.1), R6, rappdirs
-Suggests: testthat, knitr, rmarkdown, withr, shiny, curl
-License: MIT + file LICENSE
-File: sass_0.4.10_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-DownloadURL: https://github.com/cran/sass/releases/download/0.4.10/sass_0.4.10_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.7.0; aarch64-unknown-linux-gnu; 2026-10-19 22:00:34 UTC; unix
-Filesize: 2493001
-SHA256: 7798c31b9993a41c1bfd5708db7054cce9733e07e40a9b8b17534290a05aec26
-RVersion: 4.7
-Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: GNU make
-
 Package: sessioninfo
 Version: 1.2.4
 Depends: R (>= 3.4), R (>= 4.7), R (< 4.7.99)
@@ -1172,26 +1153,6 @@ RVersion: 4.7
 Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: textshaping
-Version: 1.0.5
-Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
-Imports: lifecycle, stats, stringi, systemfonts (>= 1.3.0), utils
-Suggests: covr, grDevices, grid, knitr, rmarkdown, testthat (>= 3.0.0)
-License: MIT + file LICENSE
-File: textshaping_1.0.5_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-DownloadURL: https://github.com/cran/textshaping/releases/download/1.0.5/textshaping_1.0.5_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.7.0; aarch64-unknown-linux-gnu; 2026-10-19 21:53:12 UTC; unix
-Filesize: 1384568
-SHA256: d1402368323c7e22202efa26449b47d4de39cef61bb84c0b8520588d88aaca15
-RVersion: 4.7
-Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: freetype2, harfbuzz, fribidi
-LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
 
 Package: tibble
 Version: 3.3.1
@@ -1483,24 +1444,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: pandoc (>= 2.10.1)
-
-Package: shiny
-Version: 1.14.0
-Depends: methods, R (>= 3.1.2), R (>= 4.7), R (< 4.7.99)
-Imports: bslib (>= 0.6.0), cachem (>= 1.1.0), cli, commonmark (>= 2.0.0), fastmap (>= 1.1.1), fontawesome (>= 0.4.0), glue (>= 1.3.2), grDevices, htmltools (>= 0.5.4), httpuv (>= 1.5.2), jsonlite (>=
-        0.9.16), later (>= 1.0.0), lifecycle (>= 0.2.0), mime (>= 0.3), otel, promises (>= 1.5.0), R6 (>= 2.0), rlang (>= 0.4.10), sourcetools, tools, utils, withr, xtable
-Suggests: Cairo (>= 1.5-5), coro (>= 1.1.0), datasets, DT, dygraphs, future, ggplot2, knitr (>= 1.6), magrittr, markdown, mirai, otelsdk (>= 0.2.0), ragg, reactlog (>= 1.0.0), rmarkdown, sass,
-        shinytest2, showtext, testthat (>= 3.2.1), watcher, yaml
-License: MIT + file LICENSE
-File: shiny_1.14.0_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-DownloadURL: https://github.com/cran/shiny/releases/download/1.14.0/shiny_1.14.0_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-Built: R 4.7.0; ; 2026-10-19 22:02:07 UTC; unix
-Filesize: 4569150
-SHA256: 9ab58955f3b0bef046c87b82951689c7309d633bb390d10c57ee562f2dedb59c
-RVersion: 4.7
-Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
 Package: backports
 Version: 1.5.1
@@ -3146,26 +3089,6 @@ Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: terra
-Version: 1.9-50
-Depends: R (>= 3.5.0), methods, R (>= 4.7), R (< 4.7.99)
-Imports: Rcpp (>= 1.0-10), stats
-Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), igraph, deldir, XML, leaflet (>= 2.2.1), htmlwidgets, future, future.apply
-License: GPL (>= 3)
-File: terra_1.9-50_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-DownloadURL: https://github.com/cran/terra/releases/download/1.9-50/terra_1.9-50_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-OS: linux
-Arch: arm64
-Built: R 4.7.0; aarch64-unknown-linux-gnu; 2026-10-19 21:51:48 UTC; unix
-Filesize: 40568012
-SHA256: 5fd2a58190e822f44d01518c92f68cc3d942725abb886bbe2e04eeaaffa1598a
-RVersion: 4.7
-Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
-LinkingTo: Rcpp
-
 Package: zoo
 Version: 1.9-1
 Depends: R (>= 3.1.0), stats, R (>= 4.7), R (< 4.7.99)
@@ -4142,24 +4065,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libxml2 (>= 2.6.3)
 
-Package: bayesplot
-Version: 1.16.0
-Depends: R (>= 4.1.0), R (>= 4.7), R (< 4.7.99)
-Imports: dplyr (>= 1.0.0), ggdist, ggplot2 (>= 3.5.0), ggridges (>= 0.5.5), glue, lifecycle, posterior (>= 1.7.0), reshape2, rlang (>= 1.0.0), stats, tibble (>= 2.0.0), tidyr, tidyselect, utils
-Suggests: cmdstanr, ggfortify, gridExtra (>= 2.2.1), hexbin, knitr (>= 1.16), loo (>= 2.0.0), monotone, patchwork, RColorBrewer, rmarkdown (>= 1.0.0), rstan (>= 2.17.1), rstanarm (>= 2.17.4),
-        rstantools (>= 2.0.0), scales, shinystan (>= 2.3.0), survival, testthat (>= 3.0.0), vdiffr (>= 1.0.2)
-License: GPL (>= 3)
-File: bayesplot_1.16.0_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-DownloadURL: https://github.com/cran/bayesplot/releases/download/1.16.0/bayesplot_1.16.0_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
-Built: R 4.7.0; ; 2026-10-19 22:06:20 UTC; unix
-Filesize: 5961341
-SHA256: 851fd381936dfae09b4f6c4ac0031f5db49a14294d0c512ef4fe1a8232633c2e
-RVersion: 4.7
-Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: pandoc (>= 1.12.3)
-
 Package: colourpicker
 Version: 1.3.0
 Depends: R (>= 3.1.0), R (>= 4.7), R (< 4.7.99)
@@ -5028,3 +4933,117 @@ RVersion: 4.7
 Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: watcher
+Version: 0.2.2
+Depends: R (>= 3.5), R (>= 4.7), R (< 4.7.99)
+Imports: later, R6, rlang
+Suggests: testthat (>= 3.0.0)
+License: MIT + file LICENSE
+File: watcher_0.2.2_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+DownloadURL: https://github.com/cran/watcher/releases/download/0.2.2/watcher_0.2.2_b1_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.7.0; aarch64-unknown-linux-gnu; 2026-11-20 23:26:47 UTC; unix
+Filesize: 2403301
+SHA256: 80085d486ce4a93d62ec68dfc1aabea8ceed3c2dd661b06bcd4d34708a29c3cd
+RVersion: 4.7
+Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: 'libfswatch' (optional, bundled copy compiled otherwise)
+
+Package: sass
+Version: 0.5.0
+Depends: R (>= 4.7), R (< 4.7.99)
+Imports: fs (>= 1.2.4), htmltools (>= 0.5.1), R6, rappdirs, rlang (>= 0.4.10)
+Suggests: curl, knitr, rmarkdown, shiny, testthat, withr
+License: MIT + file LICENSE
+File: sass_0.5.0_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+DownloadURL: https://github.com/cran/sass/releases/download/0.5.0/sass_0.5.0_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.7.0; aarch64-unknown-linux-gnu; 2026-11-20 23:26:41 UTC; unix
+Filesize: 2453485
+SHA256: 4648790d9384de5aa267439a33788d8b91bd2c8f2ec01928b8aa6545b6827b48
+RVersion: 4.7
+Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: GNU make
+
+Package: textshaping
+Version: 1.1.0
+Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
+Imports: lifecycle, stats, stringi, systemfonts (>= 1.3.3), utils
+Suggests: covr, grDevices, grid, knitr, rmarkdown, testthat (>= 3.3.0)
+License: MIT + file LICENSE
+File: textshaping_1.1.0_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+DownloadURL: https://github.com/cran/textshaping/releases/download/1.1.0/textshaping_1.1.0_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.7.0; aarch64-unknown-linux-gnu; 2026-11-20 23:26:44 UTC; unix
+Filesize: 4387815
+SHA256: de1c7edb1fd743f8a66a941bf337d62f2b58963a811d8b128898d60ad1b98625
+RVersion: 4.7
+Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: freetype2, harfbuzz, fribidi
+LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.3.3)
+
+Package: shiny
+Version: 1.15.0
+Depends: methods, R (>= 3.1.2), R (>= 4.7), R (< 4.7.99)
+Imports: bslib (>= 0.6.0), cachem (>= 1.1.0), cli, commonmark (>= 2.0.0), fastmap (>= 1.1.1), fontawesome (>= 0.4.0), glue (>= 1.3.2), grDevices, htmltools (>= 0.5.4), httpuv (>= 1.5.2), jsonlite (>=
+        0.9.16), later (>= 1.0.0), lifecycle (>= 0.2.0), mime (>= 0.3), otel, promises (>= 1.5.0), R6 (>= 2.0), rlang (>= 0.4.10), sourcetools, tools, utils, watcher (>= 0.2.0), withr, xtable
+Suggests: Cairo (>= 1.5-5), coro (>= 1.1.0), datasets, DT, dygraphs, future, ggplot2, knitr (>= 1.6), magrittr, markdown, mirai, otelsdk (>= 0.2.0), ragg, reactlog (>= 1.0.0), rmarkdown, sass,
+        shinytest2, showtext, testthat (>= 3.2.1), yaml
+License: MIT + file LICENSE
+File: shiny_1.15.0_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+DownloadURL: https://github.com/cran/shiny/releases/download/1.15.0/shiny_1.15.0_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+Built: R 4.7.0; ; 2026-11-20 23:28:10 UTC; unix
+Filesize: 4578923
+SHA256: ff03b8619df1a26ed2a76a0d64ffb718874dda47b6b7ef832a362c84c413278f
+RVersion: 4.7
+Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: terra
+Version: 1.9-60
+Depends: R (>= 3.5.0), methods, R (>= 4.7), R (< 4.7.99)
+Imports: Rcpp (>= 1.0-10), stats
+Suggests: parallel, tinytest, ncdf4, sf (>= 0.9-8), igraph, deldir, XML, leaflet (>= 2.2.1), htmlwidgets, future, future.apply
+License: GPL (>= 3)
+File: terra_1.9-60_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+DownloadURL: https://github.com/cran/terra/releases/download/1.9-60/terra_1.9-60_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+OS: linux
+Arch: arm64
+Built: R 4.7.0; aarch64-unknown-linux-gnu; 2026-11-20 23:26:49 UTC; unix
+Filesize: 40818833
+SHA256: 9e716102306c80192a58bc92ca39091b05f99a68de67cf0ec6235b1eb9cad43a
+RVersion: 4.7
+Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>= 4.9.3), TBB, sqlite3
+LinkingTo: Rcpp
+
+Package: bayesplot
+Version: 1.17.0
+Depends: R (>= 4.1.0), R (>= 4.7), R (< 4.7.99)
+Imports: dplyr (>= 1.0.0), ggdist, ggplot2 (>= 3.5.0), ggridges (>= 0.5.5), glue, lifecycle, posterior (>= 1.8.0), reshape2, rlang (>= 1.0.0), stats, tibble (>= 2.0.0), tidyr, tidyselect, utils
+Suggests: cmdstanr, ggfortify, gridExtra (>= 2.2.1), hexbin, knitr (>= 1.16), loo (>= 2.0.0), monotone, patchwork, RColorBrewer, rmarkdown (>= 1.0.0), rstan (>= 2.17.1), rstanarm (>= 2.17.4),
+        rstantools (>= 2.0.0), scales, shinystan (>= 2.3.0), survival, testthat (>= 3.0.0), vdiffr (>= 1.0.2)
+License: GPL (>= 3)
+File: bayesplot_1.17.0_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+DownloadURL: https://github.com/cran/bayesplot/releases/download/1.17.0/bayesplot_1.17.0_b2_R4.7_aarch64-unknown-linux-gnu-ubuntu-26.04.tar.gz
+Built: R 4.7.0; ; 2026-11-20 23:27:27 UTC; unix
+Filesize: 5943784
+SHA256: f75f59953b75f66fbb9e703f0eab567a690c7ab1a797d11fae96108c4a06bc8d
+RVersion: 4.7
+Platform: aarch64-unknown-linux-gnu-ubuntu-26.04
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: pandoc (>= 1.12.3)
