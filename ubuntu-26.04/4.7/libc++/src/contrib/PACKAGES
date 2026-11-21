@@ -4247,27 +4247,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-26.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 
-Package: arrow
-Version: 26.0.1
-Depends: R (>= 4.2), R (>= 4.7), R (< 4.7.99)
-Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
-Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.3.0),
-        tibble, tzdb, withr
-License: Apache License (>= 2.0)
-File: arrow_26.0.1_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/arrow/releases/download/26.0.1/arrow_26.0.1_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-11-10 01:11:00 UTC; unix
-Filesize: 17004103
-SHA256: 2f2154cf0a5ae3139fd5df1c1bdd0541e831f036eaa97346a8770f07da16bd9f
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-26.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: C++20; for AWS S3 support on Linux, libcurl and openssl, and libxml2 for Azure (optional); cmake >= 3.26 (build-time only, and only for full source build)
-LinkingTo: cpp11 (>= 0.4.2)
-
 Package: diffobj
 Version: 0.3.10
 Depends: R (>= 4.1.0), R (>= 4.7), R (< 4.7.99)
@@ -4356,26 +4335,6 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-26.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-
-Package: systemfonts
-Version: 1.3.3
-Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
-Imports: base64enc, grid, jsonlite, lifecycle, tools, utils
-Suggests: covr, farver, ggplot2, graphics, knitr, ragg, rmarkdown, svglite, testthat (>= 3.2.0)
-License: MIT + file LICENSE
-File: systemfonts_1.3.3_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
-DownloadURL: https://github.com/cran/systemfonts/releases/download/1.3.3/systemfonts_1.3.3_b2_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-11-17 01:04:10 UTC; unix
-Filesize: 809333
-SHA256: 7d4e478411061e2e19f04d26129ac802c7a912207288cfbec39021db576b7907
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-ubuntu-26.04-libc++
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: fontconfig, freetype2
-LinkingTo: cpp11 (>= 0.2.1)
 
 Package: openssl
 Version: 2.6.0
@@ -4545,3 +4504,44 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-ubuntu-26.04-libc++
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: arrow
+Version: 26.0.1.1
+Depends: R (>= 4.2), R (>= 4.7), R (< 4.7.99)
+Imports: assertthat, bit64 (>= 0.9-7), glue, methods, purrr, R6, rlang (>= 1.0.0), stats, tidyselect (>= 1.0.0), utils, vctrs
+Suggests: blob, curl, cli, DBI, dbplyr, decor, distro, dplyr, duckdb (>= 0.2.8), hms, jsonlite, knitr, lubridate, pillar, pkgload, reticulate, rmarkdown, stringi, stringr, sys, testthat (>= 3.3.0),
+        tibble, tzdb, withr
+License: Apache License (>= 2.0)
+File: arrow_26.0.1.1_b4_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/arrow/releases/download/26.0.1.1/arrow_26.0.1.1_b4_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-11-21 22:39:13 UTC; unix
+Filesize: 17002028
+SHA256: 5b06058054fb4bd5203c29559386f81f3165958b438418c532859e7a95386b81
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-26.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: C++20; for AWS S3 support on Linux, libcurl and openssl, and libxml2 for Azure (optional); cmake >= 3.26 (build-time only, and only for full source build)
+LinkingTo: cpp11 (>= 0.4.2)
+
+Package: systemfonts
+Version: 1.3.4
+Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
+Imports: base64enc, grid, jsonlite, lifecycle, tools, utils
+Suggests: covr, farver, ggplot2, graphics, knitr, ragg, rmarkdown, svglite, testthat (>= 3.2.0)
+License: MIT + file LICENSE
+File: systemfonts_1.3.4_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
+DownloadURL: https://github.com/cran/systemfonts/releases/download/1.3.4/systemfonts_1.3.4_b3_R4.7_x86_64-pc-linux-gnu-ubuntu-26.04-libc++.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-11-21 22:21:53 UTC; unix
+Filesize: 809081
+SHA256: 6e1a19df1864accaa35233c2287a48a923ed34956069dc44f1e5f0ed4330bc2d
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-ubuntu-26.04-libc++
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: fontconfig, freetype2
+LinkingTo: cpp11 (>= 0.2.1)
