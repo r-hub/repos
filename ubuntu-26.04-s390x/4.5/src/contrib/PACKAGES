@@ -373,24 +373,6 @@ GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: grDevices, methods, utils
 
-Package: curl
-Version: 8.1.0
-Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
-License: MIT + file LICENSE
-File: curl_8.1.0_b1_R4.5_s390x-ibm-linux-gnu-ubuntu-26.04.tar.gz
-DownloadURL: https://github.com/cran/curl/releases/download/8.1.0/curl_8.1.0_b1_R4.5_s390x-ibm-linux-gnu-ubuntu-26.04.tar.gz
-OS: linux
-Arch: s390x
-Built: R 4.5.2; s390x-ibm-linux-gnu; 2026-10-19 13:57:57 UTC; unix
-Filesize: 881567
-SHA256: 047c01055a42bb3bac2998dbc679b4d8254595dab27b273471ddd77c20521a08
-RVersion: 4.5
-Platform: s390x-ibm-linux-gnu-ubuntu-26.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libcurl (>= 7.73): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
-
 Package: data.table
 Version: 1.18.6.1
 Depends: R (>= 3.4.0), R (>= 4.5), R (< 4.5.99)
@@ -1999,3 +1981,21 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: base64enc, grid, jsonlite, lifecycle, tools, utils
 SystemRequirements: fontconfig, freetype2
 LinkingTo: cpp11 (>= 0.2.1)
+
+Package: curl
+Version: 8.2.0
+Depends: R (>= 3.0.0), R (>= 4.5), R (< 4.5.99)
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+License: MIT + file LICENSE
+File: curl_8.2.0_b2_R4.5_s390x-ibm-linux-gnu-ubuntu-26.04.tar.gz
+DownloadURL: https://github.com/cran/curl/releases/download/8.2.0/curl_8.2.0_b2_R4.5_s390x-ibm-linux-gnu-ubuntu-26.04.tar.gz
+OS: linux
+Arch: s390x
+Built: R 4.5.2; s390x-ibm-linux-gnu; 2026-11-24 02:29:20 UTC; unix
+Filesize: 884854
+SHA256: 0112dbaa88fc00a8b65d9e8a77e385960a9703519abe84d2838c1d6d0daf1ece
+RVersion: 4.5
+Platform: s390x-ibm-linux-gnu-ubuntu-26.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libcurl (>= 7.73): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
