@@ -4379,24 +4379,6 @@ GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)
 
-Package: curl
-Version: 8.1.0
-Depends: R (>= 3.0.0), R (>= 4.7), R (< 4.7.99)
-Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
-License: MIT + file LICENSE
-File: curl_8.1.0_b4_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-DownloadURL: https://github.com/cran/curl/releases/download/8.1.0/curl_8.1.0_b4_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
-OS: linux
-Arch: amd64
-Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-10-14 12:57:27 UTC; unix
-Filesize: 830577
-SHA256: 8e6061eefd9df9a33abe8e84eb028f67674611aa08f7f34f402b9f9c842719b3
-RVersion: 4.7
-Platform: x86_64-pc-linux-gnu-fedora-44
-GraphicsAPIVersion: 17
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-SystemRequirements: libcurl (>= 7.73): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
-
 Package: xfun
 Version: 0.62
 Depends: R (>= 3.2.0), R (>= 4.7), R (< 4.7.99)
@@ -5121,3 +5103,21 @@ RVersion: 4.7
 Platform: x86_64-pc-linux-gnu-fedora-44
 GraphicsAPIVersion: 17
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+
+Package: curl
+Version: 8.2.0
+Depends: R (>= 3.0.0), R (>= 4.7), R (< 4.7.99)
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later, rmarkdown, httpuv (>= 1.4.4), webutils
+License: MIT + file LICENSE
+File: curl_8.2.0_b5_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+DownloadURL: https://github.com/cran/curl/releases/download/8.2.0/curl_8.2.0_b5_R4.7_x86_64-pc-linux-gnu-fedora-44.tar.gz
+OS: linux
+Arch: amd64
+Built: R 4.7.0; x86_64-pc-linux-gnu; 2026-11-24 18:59:02 UTC; unix
+Filesize: 833107
+SHA256: 296242f280fd6dcba4d427a77c073406979309139d0f2beab9abe76891c20a8a
+RVersion: 4.7
+Platform: x86_64-pc-linux-gnu-fedora-44
+GraphicsAPIVersion: 17
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+SystemRequirements: libcurl (>= 7.73): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
