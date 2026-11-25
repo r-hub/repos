@@ -1329,22 +1329,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: A system with zoneinfo data (e.g.  /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.
 LinkingTo: cpp11 (>= 0.2.7)
 
-Package: tinytex
-Version: 0.61
-Depends: R (>= 4.5), R (< 4.5.99)
-Suggests: testit, rstudioapi
-License: MIT + file LICENSE
-File: tinytex_0.61_b1_R4.5_s390x-ibm-linux-gnu-ubuntu-26.04.tar.gz
-DownloadURL: https://github.com/cran/tinytex/releases/download/0.61/tinytex_0.61_b1_R4.5_s390x-ibm-linux-gnu-ubuntu-26.04.tar.gz
-Built: R 4.5.2; ; 2026-10-19 14:49:42 UTC; unix
-Filesize: 149017
-SHA256: 385bdb563b5abe765e72521a6b803e0d396b1300e43df4bb544359c56572e1e2
-RVersion: 4.5
-Platform: s390x-ibm-linux-gnu-ubuntu-26.04
-GraphicsAPIVersion: 16
-InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: xfun (>= 0.48)
-
 Package: tzdb
 Version: 0.5.0
 Depends: R (>= 4.0.0), R (>= 4.5), R (< 4.5.99)
@@ -1999,3 +1983,19 @@ Platform: s390x-ibm-linux-gnu-ubuntu-26.04
 GraphicsAPIVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 SystemRequirements: libcurl (>= 7.73): libcurl-devel (rpm) or libcurl4-openssl-dev (deb)
+
+Package: tinytex
+Version: 0.62
+Depends: R (>= 4.5), R (< 4.5.99)
+Suggests: testit, rstudioapi
+License: MIT + file LICENSE
+File: tinytex_0.62_b2_R4.5_s390x-ibm-linux-gnu-ubuntu-26.04.tar.gz
+DownloadURL: https://github.com/cran/tinytex/releases/download/0.62/tinytex_0.62_b2_R4.5_s390x-ibm-linux-gnu-ubuntu-26.04.tar.gz
+Built: R 4.5.2; ; 2026-11-25 23:49:04 UTC; unix
+Filesize: 161974
+SHA256: 7df1f3ff170142c89c2225d95e51337788511416dd62dd51454040d1a5deca6d
+RVersion: 4.5
+Platform: s390x-ibm-linux-gnu-ubuntu-26.04
+GraphicsAPIVersion: 16
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: xfun (>= 0.48)
